@@ -4,9 +4,11 @@
     "name": "light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "primitives/colors": "disabled",
-      "fingertips/colors/palette": "disabled",
-      "fingertips/colors/roles": "disabled"
+      "fingertips/mui": "disabled",
+      "fingertips/colors/components": "disabled",
+      "primitives/typography": "disabled",
+      "primitives/spacing": "disabled",
+      "primitives/shadows": "disabled"
     },
     "group": "Mode"
   },
@@ -15,9 +17,11 @@
     "name": "dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "primitives/colors": "disabled",
-      "fingertips/colors/palette": "disabled",
-      "fingertips/colors/roles": "disabled"
+      "fingertips/mui": "disabled",
+      "fingertips/colors/components": "disabled",
+      "primitives/typography": "disabled",
+      "primitives/spacing": "disabled",
+      "primitives/shadows": "disabled"
     },
     "group": "Mode"
   },
@@ -26,9 +30,11 @@
     "name": "sm",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "primitives/colors": "disabled",
-      "fingertips/colors/palette": "disabled",
-      "fingertips/colors/roles": "disabled"
+      "fingertips/mui": "disabled",
+      "fingertips/colors/components": "disabled",
+      "primitives/typography": "disabled",
+      "primitives/spacing": "disabled",
+      "primitives/shadows": "disabled"
     },
     "group": "breakpoint"
   }

@@ -1,7 +1,12 @@
 {
   "tokenSetOrder": [
     "primitives/colors",
+    "primitives/typography",
+    "primitives/spacing",
+    "primitives/shadows",
     "fingertips/colors/palette",
-    "fingertips/colors/roles"
+    "fingertips/colors/roles",
+    "fingertips/colors/components",
+    "fingertips/mui"
   ]
 }
