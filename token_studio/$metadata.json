@@ -1,0 +1,7 @@
+{
+  "tokenSetOrder": [
+    "primitives/colors",
+    "fingertips/colors/palette",
+    "fingertips/colors/roles"
+  ]
+}
