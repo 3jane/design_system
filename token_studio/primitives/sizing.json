@@ -1,124 +1,128 @@
 {
-  "spacing": {
+  "sizing": {
     "0": {
       "value": "0px",
-      "type": "spacing"
+      "type": "sizing"
+    },
+    "1": {
+      "value": "1px",
+      "type": "sizing"
     },
     "2": {
       "value": "2px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "4": {
       "value": "4px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "8": {
       "value": "8px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "12": {
       "value": "12px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "16": {
       "value": "16px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "20": {
       "value": "20px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "24": {
       "value": "24px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "32": {
       "value": "32px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "40": {
       "value": "40px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "48": {
       "value": "48px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "64": {
       "value": "64px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "80": {
       "value": "80px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "96": {
       "value": "96px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "128": {
       "value": "128px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "160": {
       "value": "160px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "224": {
       "value": "224px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "256": {
       "value": "256px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "320": {
       "value": "320px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "384": {
       "value": "384px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "480": {
       "value": "480px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "560": {
       "value": "560px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "640": {
       "value": "640px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "720": {
       "value": "720px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "768": {
       "value": "768px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "1024": {
       "value": "1024px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "1280": {
       "value": "1280px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "1440": {
       "value": "1440px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "1600": {
       "value": "1600px",
-      "type": "spacing"
+      "type": "sizing"
     },
     "1920": {
       "value": "1920px",
-      "type": "spacing"
+      "type": "sizing"
     }
   }
 }

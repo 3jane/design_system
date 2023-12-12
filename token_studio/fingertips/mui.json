@@ -188,56 +188,56 @@
   "breakpoints": {
     "values": {
       "xs": {
-        "value": 0,
+        "value": "0",
         "type": "other"
       },
       "sm": {
-        "value": 600,
+        "value": "600",
         "type": "other"
       },
       "md": {
-        "value": 960,
+        "value": "960",
         "type": "other"
       },
       "lg": {
-        "value": 1280,
+        "value": "1280",
         "type": "other"
       },
       "xl": {
-        "value": 1920,
+        "value": "1920",
         "type": "other"
       }
     }
   },
   "spacing": {
     "0": {
-      "value": 0,
+      "value": "0",
       "type": "spacing"
     },
     "1": {
-      "value": 4,
+      "value": "4",
       "type": "spacing"
     },
     "2": {
-      "value": 8,
+      "value": "8",
       "type": "spacing"
     },
     "3": {
-      "value": 16,
+      "value": "16",
       "type": "spacing"
     },
     "4": {
-      "value": 32,
+      "value": "32",
       "type": "spacing"
     },
     "5": {
-      "value": 64,
+      "value": "64",
       "type": "spacing"
     }
   },
   "shape": {
     "borderRadius": {
-      "value": 4,
+      "value": "4",
       "type": "other"
     }
   },
@@ -262,31 +262,31 @@
     },
     "duration": {
       "shortest": {
-        "value": 150,
+        "value": "150",
         "type": "other"
       },
       "shorter": {
-        "value": 200,
+        "value": "200",
         "type": "other"
       },
       "short": {
-        "value": 250,
+        "value": "250",
         "type": "other"
       },
       "standard": {
-        "value": 300,
+        "value": "300",
         "type": "other"
       },
       "complex": {
-        "value": 375,
+        "value": "375",
         "type": "other"
       },
       "enteringScreen": {
-        "value": 225,
+        "value": "225",
         "type": "other"
       },
       "leavingScreen": {
-        "value": 195,
+        "value": "195",
         "type": "other"
       }
     }

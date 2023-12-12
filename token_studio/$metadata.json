@@ -4,9 +4,12 @@
     "primitives/typography",
     "primitives/spacing",
     "primitives/shadows",
+    "primitives/sizing",
+    "primitives/dimensions",
     "fingertips/colors/palette",
     "fingertips/colors/roles",
     "fingertips/colors/components",
-    "fingertips/mui"
+    "fingertips/mui",
+    "fingertips/typography/roles"
   ]
 }

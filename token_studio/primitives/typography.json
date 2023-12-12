@@ -1,1 +1,76 @@
-{}
+{
+  "fontWeight": {
+    "regular": {
+      "value": "300",
+      "type": "fontWeights"
+    },
+    "bold": {
+      "value": "500",
+      "type": "fontWeights"
+    },
+    "medium": {
+      "value": "400",
+      "type": "fontWeights"
+    },
+    "light": {
+      "value": "200",
+      "type": "fontWeights"
+    }
+  },
+  "fontFamily": {
+    "inter": {
+      "value": "inter",
+      "type": "fontFamilies"
+    },
+    "roboto": {
+      "value": "roboto",
+      "type": "fontFamilies"
+    },
+    "system": {
+      "value": "system",
+      "type": "fontFamilies"
+    }
+  },
+  "letterSpacing": {
+    "standard": {
+      "value": "0",
+      "type": "letterSpacing"
+    }
+  },
+  "lineHeight": {
+    "standard": {
+      "value": "1",
+      "type": "lineHeights"
+    }
+  },
+  "fontSize": {
+    "default": {
+      "value": "16",
+      "type": "fontSizes"
+    }
+  },
+  "textCase": {
+    "sentence": {
+      "value": "capitalize",
+      "type": "textCase"
+    }
+  },
+  "paragraphSpacing": {
+    "default": {
+      "value": "2",
+      "type": "paragraphSpacing"
+    }
+  },
+  "textDecoration": {
+    "strikethrough": {
+      "value": "line-through",
+      "type": "textDecoration"
+    }
+  },
+  "paragraphIndent": {
+    "default": {
+      "value": "0",
+      "type": "paragraphSpacing"
+    }
+  }
+}
