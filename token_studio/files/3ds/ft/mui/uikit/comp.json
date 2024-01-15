@@ -1,0 +1,280 @@
+{
+  "button": {
+    "small": {
+      "height": {
+        "value": "{3ds.ft.semantic.size.button_like.sm.height}",
+        "type": "sizing"
+      },
+      "radius": {
+        "value": "{3ds.ft.semantic.size.button_like.sm.radius}",
+        "type": "borderRadius"
+      },
+      "gap": {
+        "value": "{3ds.ft.semantic.space.sm}",
+        "type": "spacing"
+      }
+    },
+    "medium": {
+      "height": {
+        "value": "{3ds.ft.semantic.size.button_like.md.height}",
+        "type": "sizing"
+      },
+      "radius": {
+        "value": "{3ds.ft.semantic.size.button_like.md.radius}",
+        "type": "borderRadius"
+      },
+      "gap": {
+        "value": "{3ds.ft.semantic.space.sm}",
+        "type": "spacing"
+      }
+    },
+    "large": {
+      "height": {
+        "value": "{3ds.ft.semantic.size.button_like.lg.height}",
+        "type": "sizing"
+      },
+      "radius": {
+        "value": "{3ds.ft.semantic.size.button_like.lg.radius}",
+        "type": "borderRadius"
+      },
+      "gap": {
+        "value": "{3ds.ft.semantic.space.sm}",
+        "type": "spacing"
+      }
+    }
+  },
+  "input": {
+    "standard": {
+      "enabledBorder": {
+        "type": "color",
+        "value": "{common.black.outlinedBorder}"
+      },
+      "hoverBorder": {
+        "type": "color",
+        "value": "{common.black.hover}"
+      },
+      "focusBorder": {
+        "type": "color",
+        "value": "{primary.main}"
+      }
+    },
+    "filled": {
+      "enabledFill": {
+        "type": "color",
+        "value": "#0000000F"
+      },
+      "hoverFill": {
+        "type": "color",
+        "value": "#00000017"
+      },
+      "focusBorder": {
+        "type": "color",
+        "value": "{primary.main}"
+      }
+    },
+    "outlined": {
+      "enabledBorder": {
+        "type": "color",
+        "value": "{primary.outlinedBorder}"
+      },
+      "hoverBorder": {
+        "type": "color",
+        "value": "{primary.hover}"
+      },
+      "focusBorder": {
+        "type": "color",
+        "value": "{primary.main}"
+      }
+    }
+  },
+  "iconButton": {
+    "small": {
+      "width": {
+        "value": "{3ds.ft.semantic.size.button_like.sm.width}",
+        "type": "sizing"
+      },
+      "height": {
+        "value": "{3ds.ft.semantic.size.button_like.sm.height}",
+        "type": "sizing"
+      },
+      "radius": {
+        "value": "{3ds.ft.semantic.size.button_like.sm.radius}",
+        "type": "borderRadius"
+      }
+    },
+    "medium": {
+      "width": {
+        "value": "{3ds.ft.semantic.size.button_like.md.width}",
+        "type": "sizing"
+      },
+      "height": {
+        "value": "{3ds.ft.semantic.size.button_like.md.height}",
+        "type": "sizing"
+      },
+      "radius": {
+        "value": "{3ds.ft.semantic.size.button_like.md.radius}",
+        "type": "borderRadius"
+      }
+    },
+    "large": {
+      "width": {
+        "value": "{3ds.ft.semantic.size.button_like.lg.width}",
+        "type": "sizing"
+      },
+      "height": {
+        "value": "{3ds.ft.semantic.size.button_like.lg.height}",
+        "type": "sizing"
+      },
+      "radius": {
+        "value": "{3ds.ft.semantic.size.button_like.lg.radius}",
+        "type": "borderRadius"
+      }
+    }
+  },
+  "icon": {
+    "small": {
+      "size": {
+        "value": "{3ds.ft.semantic.size.icon_like.sm.size}",
+        "type": "sizing"
+      }
+    },
+    "medium": {
+      "size": {
+        "value": "{3ds.ft.semantic.size.icon_like.md.size}",
+        "type": "sizing"
+      }
+    },
+    "large": {
+      "size": {
+        "value": "{3ds.ft.semantic.size.icon_like.lg.size}",
+        "type": "sizing"
+      }
+    }
+  },
+  "switch": {
+    "knobFillEnabled": {
+      "type": "color",
+      "value": "{3ds.ft.semantic.color.palette.neutral.95}"
+    },
+    "slideFill": {
+      "type": "color",
+      "value": "{3ds.ft.semantic.color.palette.neutral.0}"
+    },
+    "knowFillDisabled": {
+      "type": "color",
+      "value": "{3ds.ft.semantic.color.palette.neutral.90}"
+    }
+  },
+  "avatar": {
+    "fill": {
+      "type": "color",
+      "value": "{3ds.ft.semantic.color.palette.neutral.60}"
+    }
+  },
+  "rating": {
+    "enabledBorder": {
+      "type": "color",
+      "value": "#0000003B"
+    },
+    "activeFill": {
+      "type": "color",
+      "value": "{3ds.ft.semantic.color.palette.warning.80}"
+    }
+  },
+  "snackbar": {
+    "fill": {
+      "type": "color",
+      "value": "{3ds.ft.semantic.color.palette.neutral.20}"
+    }
+  },
+  "appBar": {
+    "defaultFill": {
+      "type": "color",
+      "value": "{3ds.ft.semantic.color.palette.neutral.90}"
+    }
+  },
+  "tooltip": {
+    "fill": {
+      "type": "color",
+      "value": "{3ds.ft.semantic.color.palette.neutral.40}"
+    }
+  },
+  "chip": {
+    "defaultHoverFill": {
+      "type": "color",
+      "value": "#0000001F"
+    },
+    "defaultCloseFill": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "defaultEnabledBorder": {
+      "type": "color",
+      "value": "{3ds.ft.semantic.color.palette.neutral.60}"
+    },
+    "defaultFocusFill": {
+      "type": "color",
+      "value": "#00000033"
+    }
+  },
+  "breadcrumbs": {
+    "collapseFill": {
+      "type": "color",
+      "value": "{3ds.ft.semantic.color.palette.neutral.90}"
+    }
+  },
+  "alert": {
+    "error": {
+      "color": {
+        "type": "color",
+        "value": "{3ds.ft.semantic.color.palette.error.10}"
+      },
+      "background": {
+        "type": "color",
+        "value": "{3ds.ft.semantic.color.palette.error.90}"
+      }
+    },
+    "info": {
+      "color": {
+        "type": "color",
+        "value": "{3ds.ft.semantic.color.palette.info.10}"
+      },
+      "background": {
+        "type": "color",
+        "value": "{3ds.ft.semantic.color.palette.info.90}"
+      }
+    },
+    "success": {
+      "background": {
+        "type": "color",
+        "value": "{3ds.ft.semantic.color.palette.success.10}"
+      },
+      "color": {
+        "type": "color",
+        "value": "{3ds.ft.semantic.color.palette.success.90}"
+      }
+    },
+    "warning": {
+      "color": {
+        "type": "color",
+        "value": "{3ds.ft.semantic.color.palette.warning.10}"
+      },
+      "background": {
+        "type": "color",
+        "value": "{3ds.ft.semantic.color.palette.warning.90}"
+      }
+    }
+  },
+  "backdrop": {
+    "fill": {
+      "type": "color",
+      "value": "#00000080"
+    }
+  },
+  "stepper": {
+    "connector": {
+      "type": "color",
+      "value": "{3ds.ft.semantic.color.palette.neutral.60}"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "xl": {
+    "type": "sizing",
+    "value": "1536"
+  },
+  "lg": {
+    "type": "sizing",
+    "value": "1200"
+  },
+  "md": {
+    "type": "sizing",
+    "value": "900"
+  },
+  "sm": {
+    "type": "sizing",
+    "value": "600"
+  },
+  "xs": {
+    "type": "sizing",
+    "value": "444"
+  }
+}
