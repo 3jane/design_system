@@ -1,0 +1,898 @@
+{
+  "3ds": {
+    "m3": {
+      "roles": {
+        "light": {
+          "primary": {
+            "default": {
+              "value": "{3ds.ft.color.palette.primary.40}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.primary.100}",
+              "type": "color"
+            },
+            "container": {
+              "value": "{3ds.ft.color.palette.primary.90}",
+              "type": "color"
+            },
+            "on_container": {
+              "value": "{3ds.ft.color.palette.primary.10}",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "default": {
+              "value": "{3ds.ft.color.palette.secondary.40}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.primary.100}",
+              "type": "color"
+            },
+            "container": {
+              "value": "{3ds.ft.color.palette.secondary.90}",
+              "type": "color"
+            },
+            "on_container": {
+              "value": "{3ds.ft.color.palette.secondary.10}",
+              "type": "color"
+            }
+          },
+          "tertiary": {
+            "default": {
+              "value": "{3ds.ft.color.palette.tertiary.40}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.primary.100}",
+              "type": "color"
+            },
+            "container": {
+              "value": "{3ds.ft.color.palette.tertiary.90}",
+              "type": "color"
+            },
+            "on_container": {
+              "value": "{3ds.ft.color.palette.tertiary.10}",
+              "type": "color"
+            }
+          },
+          "error": {
+            "default": {
+              "value": "{3ds.ft.color.palette.error.40}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.primary.100}",
+              "type": "color"
+            },
+            "container": {
+              "value": "{3ds.ft.color.palette.error.90}",
+              "type": "color"
+            },
+            "on_container": {
+              "value": "{3ds.ft.color.palette.error.10}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "{3ds.ft.color.palette.neutral.99}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.neutral.10}",
+              "type": "color"
+            }
+          },
+          "surface": {
+            "default": {
+              "value": "{3ds.ft.color.palette.neutral.99}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.neutral.10}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{3ds.ft.color.palette.neutral.90}",
+              "type": "color"
+            },
+            "on_variant": {
+              "value": "{3ds.ft.color.palette.neutral.30}",
+              "type": "color"
+            }
+          },
+          "outline": {
+            "default": {
+              "value": "{3ds.ft.color.palette.neutral.50}",
+              "type": "color"
+            }
+          },
+          "success": {
+            "default": {
+              "value": "{3ds.ft.color.palette.success.40}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.primary.100}",
+              "type": "color"
+            },
+            "container": {
+              "value": "{3ds.ft.color.palette.success.90}",
+              "type": "color"
+            },
+            "on_container": {
+              "value": "{3ds.ft.color.palette.success.10}",
+              "type": "color"
+            }
+          },
+          "warning": {
+            "default": {
+              "value": "{3ds.ft.color.palette.warning.40}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.primary.100}",
+              "type": "color"
+            },
+            "container": {
+              "value": "{3ds.ft.color.palette.warning.90}",
+              "type": "color"
+            },
+            "on_container": {
+              "value": "{3ds.ft.color.palette.warning.10}",
+              "type": "color"
+            }
+          },
+          "info": {
+            "default": {
+              "value": "{3ds.ft.color.palette.info.40}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.primary.100}",
+              "type": "color"
+            },
+            "container": {
+              "value": "{3ds.ft.color.palette.info.90}",
+              "type": "color"
+            },
+            "on_container": {
+              "value": "{3ds.ft.color.palette.info.10}",
+              "type": "color"
+            }
+          },
+          "digital": {
+            "default": {
+              "value": "{3ds.ft.color.palette.info.40}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.primary.100}",
+              "type": "color"
+            },
+            "container": {
+              "value": "{3ds.ft.color.palette.info.90}",
+              "type": "color"
+            },
+            "on_container": {
+              "value": "{3ds.ft.color.palette.info.10}",
+              "type": "color"
+            }
+          }
+        },
+        "dark": {
+          "primary": {
+            "default": {
+              "value": "{3ds.ft.color.palette.primary.80}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.primary.20}",
+              "type": "color"
+            },
+            "container": {
+              "value": "{3ds.ft.color.palette.primary.30}",
+              "type": "color"
+            },
+            "on_container": {
+              "value": "{3ds.ft.color.palette.primary.90}",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "default": {
+              "value": "{3ds.ft.color.palette.secondary.80}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.secondary.20}",
+              "type": "color"
+            },
+            "container": {
+              "value": "{3ds.ft.color.palette.secondary.30}",
+              "type": "color"
+            },
+            "on_container": {
+              "value": "{3ds.ft.color.palette.secondary.90}",
+              "type": "color"
+            }
+          },
+          "tertiary": {
+            "default": {
+              "value": "{3ds.ft.color.palette.tertiary.80}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.tertiary.20}",
+              "type": "color"
+            },
+            "container": {
+              "value": "{3ds.ft.color.palette.tertiary.30}",
+              "type": "color"
+            },
+            "on_container": {
+              "value": "{3ds.ft.color.palette.tertiary.90}",
+              "type": "color"
+            }
+          },
+          "error": {
+            "default": {
+              "value": "{3ds.ft.color.palette.error.80}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.error.20}",
+              "type": "color"
+            },
+            "container": {
+              "value": "{3ds.ft.color.palette.error.30}",
+              "type": "color"
+            },
+            "on_container": {
+              "value": "{3ds.ft.color.palette.error.90}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "default": {
+              "value": "{3ds.ft.color.palette.neutral.10}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.neutral.90}",
+              "type": "color"
+            }
+          },
+          "surface": {
+            "default": {
+              "value": "{3ds.ft.color.palette.neutral.10}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.neutral.90}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{3ds.ft.color.palette.neutral.30}",
+              "type": "color"
+            },
+            "on_variant": {
+              "value": "{3ds.ft.color.palette.neutral.80}",
+              "type": "color"
+            }
+          },
+          "outline": {
+            "default": {
+              "value": "{3ds.ft.color.palette.neutral.60}",
+              "type": "color"
+            }
+          },
+          "success": {
+            "default": {
+              "value": "{3ds.ft.color.palette.success.80}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.success.20}",
+              "type": "color"
+            },
+            "container": {
+              "value": "{3ds.ft.color.palette.success.30}",
+              "type": "color"
+            },
+            "on_container": {
+              "value": "{3ds.ft.color.palette.success.90}",
+              "type": "color"
+            }
+          },
+          "warning": {
+            "default": {
+              "value": "{3ds.ft.color.palette.warning.80}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.warning.20}",
+              "type": "color"
+            },
+            "container": {
+              "value": "{3ds.ft.color.palette.warning.30}",
+              "type": "color"
+            },
+            "on_container": {
+              "value": "{3ds.ft.color.palette.warning.90}",
+              "type": "color"
+            }
+          },
+          "info": {
+            "default": {
+              "value": "{3ds.ft.color.palette.info.80}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.info.20}",
+              "type": "color"
+            },
+            "container": {
+              "value": "{3ds.ft.color.palette.info.30}",
+              "type": "color"
+            },
+            "on_container": {
+              "value": "{3ds.ft.color.palette.info.90}",
+              "type": "color"
+            }
+          },
+          "digital": {
+            "default": {
+              "value": "{3ds.ft.color.palette.info.80}",
+              "type": "color"
+            },
+            "on_default": {
+              "value": "{3ds.ft.color.palette.info.20}",
+              "type": "color"
+            },
+            "container": {
+              "value": "{3ds.ft.color.palette.info.30}",
+              "type": "color"
+            },
+            "on_container": {
+              "value": "{3ds.ft.color.palette.info.90}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "font": {
+        "family": {
+          "display": {
+            "default": {
+              "value": "{3ds.base.font.family.roboto}",
+              "type": "fontFamilies"
+            }
+          },
+          "headline": {
+            "default": {
+              "value": "{3ds.base.font.family.roboto}",
+              "type": "fontFamilies"
+            }
+          },
+          "title": {
+            "default": {
+              "value": "{3ds.base.font.family.roboto}",
+              "type": "fontFamilies"
+            }
+          },
+          "body": {
+            "default": {
+              "value": "{3ds.base.font.family.roboto}",
+              "type": "fontFamilies"
+            },
+            "monospace": {
+              "value": "{3ds.base.font.family.roboto_mono}",
+              "type": "fontFamilies"
+            }
+          },
+          "label": {
+            "default": {
+              "value": "{3ds.base.font.family.roboto}",
+              "type": "fontFamilies"
+            }
+          }
+        },
+        "weight": {
+          "regular": {
+            "value": "{3ds.base.font.weight.regular}",
+            "type": "fontWeights"
+          },
+          "medium": {
+            "value": "{3ds.base.font.weight.medium}",
+            "type": "fontWeights"
+          },
+          "semibold": {
+            "value": "{3ds.base.font.weight.semi_bold}",
+            "type": "fontWeights"
+          },
+          "bold": {
+            "value": "{3ds.base.font.weight.bold}",
+            "type": "fontWeights"
+          }
+        },
+        "size": {
+          "display": {
+            "sm": {
+              "value": "roundTo(({3ds.m3.font.scale.base} * {3ds.m3.font.scale.ratio} ^ {3ds.m3.font.scale.step.display.sm}), 0)",
+              "type": "fontSizes"
+            },
+            "md": {
+              "value": "roundTo(({3ds.m3.font.scale.base} * {3ds.m3.font.scale.ratio} ^ {3ds.m3.font.scale.step.display.md}), 0)",
+              "type": "fontSizes"
+            },
+            "lg": {
+              "value": "roundTo(({3ds.m3.font.scale.base} * {3ds.m3.font.scale.ratio} ^ {3ds.m3.font.scale.step.display.lg}), 0)",
+              "type": "fontSizes"
+            }
+          },
+          "headline": {
+            "sm": {
+              "value": "roundTo(({3ds.m3.font.scale.base} * {3ds.m3.font.scale.ratio} ^ {3ds.m3.font.scale.step.headline.sm}), 0)",
+              "type": "fontSizes"
+            },
+            "md": {
+              "value": "roundTo(({3ds.m3.font.scale.base} * {3ds.m3.font.scale.ratio} ^ {3ds.m3.font.scale.step.headline.md}), 0)",
+              "type": "fontSizes"
+            },
+            "lg": {
+              "value": "roundTo(({3ds.m3.font.scale.base} * {3ds.m3.font.scale.ratio} ^ {3ds.m3.font.scale.step.headline.lg}), 0)",
+              "type": "fontSizes"
+            }
+          },
+          "title": {
+            "sm": {
+              "value": "roundTo(({3ds.m3.font.scale.base} * {3ds.m3.font.scale.ratio} ^ {3ds.m3.font.scale.step.title.sm}), 0)",
+              "type": "fontSizes"
+            },
+            "md": {
+              "value": "roundTo(({3ds.m3.font.scale.base} * {3ds.m3.font.scale.ratio} ^ {3ds.m3.font.scale.step.title.md}), 0)",
+              "type": "fontSizes"
+            },
+            "lg": {
+              "value": "roundTo(({3ds.m3.font.scale.base} * {3ds.m3.font.scale.ratio} ^ {3ds.m3.font.scale.step.title.lg}), 0)",
+              "type": "fontSizes"
+            }
+          },
+          "body": {
+            "sm": {
+              "value": "roundTo(({3ds.m3.font.scale.base} * {3ds.m3.font.scale.ratio} ^ {3ds.m3.font.scale.step.body.sm}), 0)",
+              "type": "fontSizes"
+            },
+            "md": {
+              "value": "roundTo(({3ds.m3.font.scale.base} * {3ds.m3.font.scale.ratio} ^ {3ds.m3.font.scale.step.body.md}), 0)",
+              "type": "fontSizes"
+            },
+            "lg": {
+              "value": "roundTo(({3ds.m3.font.scale.base} * {3ds.m3.font.scale.ratio} ^ {3ds.m3.font.scale.step.body.lg}), 0)",
+              "type": "fontSizes"
+            }
+          },
+          "label": {
+            "sm": {
+              "value": "roundTo(({3ds.m3.font.scale.base} * {3ds.m3.font.scale.ratio} ^ {3ds.m3.font.scale.step.label.sm}), 0)",
+              "type": "fontSizes"
+            },
+            "md": {
+              "value": "roundTo(({3ds.m3.font.scale.base} * {3ds.m3.font.scale.ratio} ^ {3ds.m3.font.scale.step.label.md}), 0)",
+              "type": "fontSizes"
+            },
+            "lg": {
+              "value": "roundTo(({3ds.m3.font.scale.base} * {3ds.m3.font.scale.ratio} ^ {3ds.m3.font.scale.step.label.lg}), 0)",
+              "type": "fontSizes"
+            }
+          }
+        },
+        "style": {
+          "line_height": {
+            "display": {
+              "default": {
+                "value": "{3ds.base.font.style.line_height.125%}",
+                "type": "lineHeights"
+              }
+            },
+            "headline": {
+              "default": {
+                "value": "{3ds.base.font.style.line_height.125%}",
+                "type": "lineHeights"
+              }
+            },
+            "title": {
+              "default": {
+                "value": "{3ds.base.font.style.line_height.125%}",
+                "type": "lineHeights"
+              }
+            },
+            "body": {
+              "default": {
+                "value": "{3ds.base.font.style.line_height.160%}",
+                "type": "lineHeights"
+              }
+            },
+            "label": {
+              "default": {
+                "value": "{3ds.base.font.style.line_height.125%}",
+                "type": "lineHeights"
+              }
+            }
+          },
+          "decoration": {
+            "none": {
+              "value": "{3ds.base.font.style.decoration.none}",
+              "type": "textDecoration"
+            },
+            "underline": {
+              "value": "{3ds.base.font.style.decoration.underline}",
+              "type": "textDecoration"
+            },
+            "strikethrough": {
+              "value": "{3ds.base.font.style.decoration.strikethrough}",
+              "type": "textDecoration"
+            }
+          },
+          "case": {
+            "none": {
+              "value": "{3ds.base.font.style.case.none}",
+              "type": "textCase"
+            },
+            "lowercase": {
+              "value": "{3ds.base.font.style.case.lowercase}",
+              "type": "textCase"
+            },
+            "uppercase": {
+              "value": "{3ds.base.font.style.case.uppercase}",
+              "type": "textCase"
+            },
+            "capitalize": {
+              "value": "{3ds.base.font.style.case.capitalize}",
+              "type": "textCase"
+            }
+          },
+          "letter_spacing": {
+            "tight": {
+              "value": "{3ds.base.font.style.letter_spacing.-2%}",
+              "type": "letterSpacing"
+            },
+            "default": {
+              "value": "{3ds.base.font.style.letter_spacing.0%}",
+              "type": "letterSpacing"
+            },
+            "loose": {
+              "value": "{3ds.base.font.style.letter_spacing.2%}",
+              "type": "letterSpacing"
+            }
+          },
+          "paragraph_spacing": {
+            "none": {
+              "value": "{3ds.base.font.style.paragraph_spacing.0%}",
+              "type": "paragraphSpacing"
+            },
+            "default": {
+              "value": "{3ds.base.font.style.paragraph_spacing.100%}",
+              "type": "paragraphSpacing"
+            }
+          },
+          "paragraph_indent": {
+            "default": {
+              "value": "{3ds.base.font.style.paragraph_indent.100%}",
+              "type": "paragraphIndent"
+            },
+            "none": {
+              "value": "{3ds.base.font.style.paragraph_indent.0%}",
+              "type": "paragraphIndent"
+            }
+          }
+        },
+        "scale": {
+          "ratio": {
+            "value": "{3ds.base.font.scale.ratio.major_second}",
+            "type": "fontSizes"
+          },
+          "base": {
+            "value": "{3ds.base.font.size.14px}",
+            "type": "fontSizes"
+          },
+          "step": {
+            "display": {
+              "sm": {
+                "value": "8",
+                "type": "fontSizes"
+              },
+              "md": {
+                "value": "10",
+                "type": "fontSizes"
+              },
+              "lg": {
+                "value": "12",
+                "type": "fontSizes"
+              }
+            },
+            "headline": {
+              "sm": {
+                "value": "5",
+                "type": "fontSizes"
+              },
+              "md": {
+                "value": "6",
+                "type": "fontSizes"
+              },
+              "lg": {
+                "value": "7",
+                "type": "fontSizes"
+              }
+            },
+            "title": {
+              "sm": {
+                "value": "0",
+                "type": "fontSizes"
+              },
+              "md": {
+                "value": "1",
+                "type": "fontSizes"
+              },
+              "lg": {
+                "value": "4",
+                "type": "fontSizes"
+              }
+            },
+            "body": {
+              "sm": {
+                "value": "-1",
+                "type": "fontSizes"
+              },
+              "md": {
+                "value": "0",
+                "type": "fontSizes"
+              },
+              "lg": {
+                "value": "1",
+                "type": "fontSizes"
+              }
+            },
+            "label": {
+              "sm": {
+                "value": "-3",
+                "type": "fontSizes"
+              },
+              "md": {
+                "value": "-2",
+                "type": "fontSizes"
+              },
+              "lg": {
+                "value": "-1",
+                "type": "fontSizes"
+              }
+            }
+          }
+        },
+        "display": {
+          "sm": {
+            "value": {
+              "fontFamily": "{3ds.m3.font.family.display.default}",
+              "fontWeight": "{3ds.m3.font.weight.regular}",
+              "fontSize": "{3ds.m3.font.size.display.sm}px",
+              "lineHeight": "{3ds.m3.font.style.line_height.display.default}",
+              "letterSpacing": "{3ds.m3.font.style.letter_spacing.default}",
+              "paragraphSpacing": "{3ds.m3.font.style.paragraph_spacing.none}",
+              "paragraphIndent": "{3ds.m3.font.style.paragraph_indent.none}",
+              "textDecoration": "{3ds.m3.font.style.decoration.none}",
+              "textCase": "{3ds.m3.font.style.case.none}"
+            },
+            "type": "typography"
+          },
+          "md": {
+            "value": {
+              "fontFamily": "{3ds.m3.font.family.display.default}",
+              "fontWeight": "{3ds.m3.font.weight.regular}",
+              "fontSize": "{3ds.m3.font.size.display.md}px",
+              "lineHeight": "{3ds.m3.font.style.line_height.display.default}",
+              "letterSpacing": "{3ds.m3.font.style.letter_spacing.default}",
+              "paragraphSpacing": "{3ds.m3.font.style.paragraph_spacing.none}",
+              "paragraphIndent": "{3ds.m3.font.style.paragraph_indent.none}",
+              "textDecoration": "{3ds.m3.font.style.decoration.none}",
+              "textCase": "{3ds.m3.font.style.case.none}"
+            },
+            "type": "typography"
+          },
+          "lg": {
+            "value": {
+              "fontFamily": "{3ds.m3.font.family.display.default}",
+              "fontWeight": "{3ds.m3.font.weight.regular}",
+              "fontSize": "{3ds.m3.font.size.display.lg}px",
+              "lineHeight": "{3ds.m3.font.style.line_height.display.default}",
+              "letterSpacing": "{3ds.m3.font.style.letter_spacing.default}",
+              "paragraphSpacing": "{3ds.m3.font.style.paragraph_spacing.none}",
+              "paragraphIndent": "{3ds.m3.font.style.paragraph_indent.none}",
+              "textDecoration": "{3ds.m3.font.style.decoration.none}",
+              "textCase": "{3ds.m3.font.style.case.none}"
+            },
+            "type": "typography"
+          }
+        },
+        "headline": {
+          "sm": {
+            "value": {
+              "fontFamily": "{3ds.m3.font.family.headline.default}",
+              "fontWeight": "{3ds.m3.font.weight.regular}",
+              "fontSize": "{3ds.m3.font.size.headline.sm}px",
+              "lineHeight": "{3ds.m3.font.style.line_height.headline.default}",
+              "letterSpacing": "{3ds.m3.font.style.letter_spacing.default}",
+              "paragraphSpacing": "{3ds.m3.font.style.paragraph_spacing.none}",
+              "paragraphIndent": "{3ds.m3.font.style.paragraph_indent.none}",
+              "textDecoration": "{3ds.m3.font.style.decoration.none}",
+              "textCase": "{3ds.m3.font.style.case.none}"
+            },
+            "type": "typography"
+          },
+          "md": {
+            "value": {
+              "fontFamily": "{3ds.m3.font.family.headline.default}",
+              "fontWeight": "{3ds.m3.font.weight.regular}",
+              "fontSize": "{3ds.m3.font.size.headline.md}px",
+              "lineHeight": "{3ds.m3.font.style.line_height.headline.default}",
+              "letterSpacing": "{3ds.m3.font.style.letter_spacing.default}",
+              "paragraphSpacing": "{3ds.m3.font.style.paragraph_spacing.none}",
+              "paragraphIndent": "{3ds.m3.font.style.paragraph_indent.none}",
+              "textDecoration": "{3ds.m3.font.style.decoration.none}",
+              "textCase": "{3ds.m3.font.style.case.none}"
+            },
+            "type": "typography"
+          },
+          "lg": {
+            "value": {
+              "fontFamily": "{3ds.m3.font.family.headline.default}",
+              "fontWeight": "{3ds.m3.font.weight.regular}",
+              "fontSize": "{3ds.m3.font.size.headline.lg}px",
+              "lineHeight": "{3ds.m3.font.style.line_height.headline.default}",
+              "letterSpacing": "{3ds.m3.font.style.letter_spacing.default}",
+              "paragraphSpacing": "{3ds.m3.font.style.paragraph_spacing.none}",
+              "paragraphIndent": "{3ds.m3.font.style.paragraph_indent.none}",
+              "textDecoration": "{3ds.m3.font.style.decoration.none}",
+              "textCase": "{3ds.m3.font.style.case.none}"
+            },
+            "type": "typography"
+          }
+        },
+        "title": {
+          "sm": {
+            "value": {
+              "fontFamily": "{3ds.m3.font.family.title.default}",
+              "fontWeight": "{3ds.m3.font.weight.regular}",
+              "fontSize": "{3ds.m3.font.size.title.sm}px",
+              "lineHeight": "{3ds.m3.font.style.line_height.title.default}",
+              "letterSpacing": "{3ds.m3.font.style.letter_spacing.default}",
+              "paragraphSpacing": "{3ds.m3.font.style.paragraph_spacing.none}",
+              "paragraphIndent": "{3ds.m3.font.style.paragraph_indent.none}",
+              "textDecoration": "{3ds.m3.font.style.decoration.none}",
+              "textCase": "{3ds.m3.font.style.case.none}"
+            },
+            "type": "typography"
+          },
+          "md": {
+            "value": {
+              "fontFamily": "{3ds.m3.font.family.title.default}",
+              "fontWeight": "{3ds.m3.font.weight.regular}",
+              "fontSize": "{3ds.m3.font.size.title.md}px",
+              "lineHeight": "{3ds.m3.font.style.line_height.title.default}",
+              "letterSpacing": "{3ds.m3.font.style.letter_spacing.default}",
+              "paragraphSpacing": "{3ds.m3.font.style.paragraph_spacing.none}",
+              "paragraphIndent": "{3ds.m3.font.style.paragraph_indent.none}",
+              "textDecoration": "{3ds.m3.font.style.decoration.none}",
+              "textCase": "{3ds.m3.font.style.case.none}"
+            },
+            "type": "typography"
+          },
+          "lg": {
+            "value": {
+              "fontFamily": "{3ds.m3.font.family.title.default}",
+              "fontWeight": "{3ds.m3.font.weight.regular}",
+              "fontSize": "{3ds.m3.font.size.title.lg}px",
+              "lineHeight": "{3ds.m3.font.style.line_height.title.default}",
+              "letterSpacing": "{3ds.m3.font.style.letter_spacing.default}",
+              "paragraphSpacing": "{3ds.m3.font.style.paragraph_spacing.none}",
+              "paragraphIndent": "{3ds.m3.font.style.paragraph_indent.none}",
+              "textDecoration": "{3ds.m3.font.style.decoration.none}",
+              "textCase": "{3ds.m3.font.style.case.none}"
+            },
+            "type": "typography"
+          }
+        },
+        "body": {
+          "sm": {
+            "value": {
+              "fontFamily": "{3ds.m3.font.family.body.default}",
+              "fontWeight": "{3ds.m3.font.weight.regular}",
+              "fontSize": "{3ds.m3.font.size.body.sm}px",
+              "lineHeight": "{3ds.m3.font.style.line_height.body.default}",
+              "letterSpacing": "{3ds.m3.font.style.letter_spacing.default}",
+              "paragraphSpacing": "{3ds.m3.font.style.paragraph_spacing.none}",
+              "paragraphIndent": "{3ds.m3.font.style.paragraph_indent.none}",
+              "textDecoration": "{3ds.m3.font.style.decoration.none}",
+              "textCase": "{3ds.m3.font.style.case.none}"
+            },
+            "type": "typography"
+          },
+          "md": {
+            "value": {
+              "fontFamily": "{3ds.m3.font.family.body.default}",
+              "fontWeight": "{3ds.m3.font.weight.regular}",
+              "fontSize": "{3ds.m3.font.size.body.md}px",
+              "lineHeight": "{3ds.m3.font.style.line_height.body.default}",
+              "letterSpacing": "{3ds.m3.font.style.letter_spacing.default}",
+              "paragraphSpacing": "{3ds.m3.font.style.paragraph_spacing.none}",
+              "paragraphIndent": "{3ds.m3.font.style.paragraph_indent.none}",
+              "textDecoration": "{3ds.m3.font.style.decoration.none}",
+              "textCase": "{3ds.m3.font.style.case.none}"
+            },
+            "type": "typography"
+          },
+          "lg": {
+            "value": {
+              "fontFamily": "{3ds.m3.font.family.body.default}",
+              "fontWeight": "{3ds.m3.font.weight.regular}",
+              "fontSize": "{3ds.m3.font.size.body.lg}px",
+              "lineHeight": "{3ds.m3.font.style.line_height.body.default}",
+              "letterSpacing": "{3ds.m3.font.style.letter_spacing.default}",
+              "paragraphSpacing": "{3ds.m3.font.style.paragraph_spacing.none}",
+              "paragraphIndent": "{3ds.m3.font.style.paragraph_indent.none}",
+              "textDecoration": "{3ds.m3.font.style.decoration.none}",
+              "textCase": "{3ds.m3.font.style.case.none}"
+            },
+            "type": "typography"
+          }
+        },
+        "label": {
+          "sm": {
+            "value": {
+              "fontFamily": "{3ds.m3.font.family.label.default}",
+              "fontWeight": "{3ds.m3.font.weight.regular}",
+              "fontSize": "{3ds.m3.font.size.label.sm}px",
+              "lineHeight": "{3ds.m3.font.style.line_height.label.default}",
+              "letterSpacing": "{3ds.m3.font.style.letter_spacing.default}",
+              "paragraphSpacing": "{3ds.m3.font.style.paragraph_spacing.none}",
+              "paragraphIndent": "{3ds.m3.font.style.paragraph_indent.none}",
+              "textDecoration": "{3ds.m3.font.style.decoration.none}",
+              "textCase": "{3ds.m3.font.style.case.none}"
+            },
+            "type": "typography"
+          },
+          "md": {
+            "value": {
+              "fontFamily": "{3ds.m3.font.family.label.default}",
+              "fontWeight": "{3ds.m3.font.weight.regular}",
+              "fontSize": "{3ds.m3.font.size.label.md}px",
+              "lineHeight": "{3ds.m3.font.style.line_height.label.default}",
+              "letterSpacing": "{3ds.m3.font.style.letter_spacing.default}",
+              "paragraphSpacing": "{3ds.m3.font.style.paragraph_spacing.none}",
+              "paragraphIndent": "{3ds.m3.font.style.paragraph_indent.none}",
+              "textDecoration": "{3ds.m3.font.style.decoration.none}",
+              "textCase": "{3ds.m3.font.style.case.none}"
+            },
+            "type": "typography"
+          },
+          "lg": {
+            "value": {
+              "fontFamily": "{3ds.m3.font.family.label.default}",
+              "fontWeight": "{3ds.m3.font.weight.regular}",
+              "fontSize": "{3ds.m3.font.size.label.lg}px",
+              "lineHeight": "{3ds.m3.font.style.line_height.label.default}",
+              "letterSpacing": "{3ds.m3.font.style.letter_spacing.default}",
+              "paragraphSpacing": "{3ds.m3.font.style.paragraph_spacing.none}",
+              "paragraphIndent": "{3ds.m3.font.style.paragraph_indent.none}",
+              "textDecoration": "{3ds.m3.font.style.decoration.none}",
+              "textCase": "{3ds.m3.font.style.case.none}"
+            },
+            "type": "typography"
+          }
+        }
+      }
+    }
+  }
+}
