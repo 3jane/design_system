@@ -117,31 +117,23 @@
         },
         "xs": {
           "value": {
-            "color": "#1018280_d",
-            "type": "dropShadow",
             "x": "0",
             "y": "1",
             "blur": "2",
-            "spread": "0"
+            "spread": "0",
+            "color": "rgba(0, 0, 0, 0.1)",
+            "type": "dropShadow"
           },
           "type": "boxShadow"
         },
         "sm": {
           "value": [
             {
-              "color": "#1018280_f",
+              "color": "rgba(0, 0, 0, 0.1)",
               "type": "dropShadow",
               "x": "0",
-              "y": "1",
-              "blur": "2",
-              "spread": "0"
-            },
-            {
-              "color": "#1018281_a",
-              "type": "dropShadow",
-              "x": "0",
-              "y": "1",
-              "blur": "3",
+              "y": "2",
+              "blur": "4",
               "spread": "0"
             }
           ],
@@ -150,20 +142,12 @@
         "md": {
           "value": [
             {
-              "color": "#1018280_f",
+              "color": "rgba(0, 0, 0, 0.1)",
               "type": "dropShadow",
               "x": "0",
-              "y": "2",
-              "blur": "4",
-              "spread": "-2"
-            },
-            {
-              "color": "#1018281_a",
-              "type": "dropShadow",
-              "x": "0",
-              "y": "4",
-              "blur": "8",
-              "spread": "-2"
+              "y": "3",
+              "blur": "6",
+              "spread": "0"
             }
           ],
           "type": "boxShadow"
@@ -171,20 +155,12 @@
         "lg": {
           "value": [
             {
-              "color": "#10182808",
+              "color": "rgba(0, 0, 0, 0.1)",
               "type": "dropShadow",
               "x": "0",
               "y": "4",
-              "blur": "6",
-              "spread": "-2"
-            },
-            {
-              "color": "#10182814",
-              "type": "dropShadow",
-              "x": "0",
-              "y": "12",
-              "blur": "16",
-              "spread": "-4"
+              "blur": "8",
+              "spread": "0"
             }
           ],
           "type": "boxShadow"
@@ -192,44 +168,14 @@
         "xl": {
           "value": [
             {
-              "color": "#10182808",
+              "color": "rgba(0, 0, 0, 0.1)",
               "type": "dropShadow",
               "x": "0",
               "y": "8",
-              "blur": "8",
-              "spread": "-4"
-            },
-            {
-              "color": "#10182814",
-              "type": "dropShadow",
-              "x": "0",
-              "y": "20",
-              "blur": "24",
-              "spread": "-4"
+              "blur": "12",
+              "spread": "0"
             }
           ],
-          "type": "boxShadow"
-        },
-        "2xl": {
-          "value": {
-            "color": "#1018282_e",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "24",
-            "blur": "48",
-            "spread": "-12"
-          },
-          "type": "boxShadow"
-        },
-        "3xl": {
-          "value": {
-            "color": "#10182824",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "32",
-            "blur": "64",
-            "spread": "-12"
-          },
           "type": "boxShadow"
         }
       },
@@ -285,28 +231,6 @@
             "x": "0",
             "y": "0",
             "blur": "30",
-            "spread": "0"
-          },
-          "type": "boxShadow"
-        },
-        "2xl": {
-          "value": {
-            "color": "#0000002_e",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "0",
-            "blur": "50",
-            "spread": "0"
-          },
-          "type": "boxShadow"
-        },
-        "3xl": {
-          "value": {
-            "color": "#00000033",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "0",
-            "blur": "60",
             "spread": "0"
           },
           "type": "boxShadow"
