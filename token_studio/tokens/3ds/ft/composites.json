@@ -24,6 +24,82 @@
       "5": {
         "value": "{composites.shadow.default.xl}",
         "type": "boxShadow"
+      },
+      "6": {
+        "value": "{composites.shadow.default.xl}",
+        "type": "boxShadow"
+      },
+      "7": {
+        "value": "{composites.shadow.default.xl}",
+        "type": "boxShadow"
+      },
+      "8": {
+        "value": "{composites.shadow.default.xl}",
+        "type": "boxShadow"
+      },
+      "9": {
+        "value": "{composites.shadow.default.xl}",
+        "type": "boxShadow"
+      },
+      "10": {
+        "value": "{composites.shadow.default.xl}",
+        "type": "boxShadow"
+      },
+      "11": {
+        "value": "{composites.shadow.default.xl}",
+        "type": "boxShadow"
+      },
+      "12": {
+        "value": "{composites.shadow.default.xl}",
+        "type": "boxShadow"
+      },
+      "13": {
+        "value": "{composites.shadow.default.xl}",
+        "type": "boxShadow"
+      },
+      "14": {
+        "value": "{composites.shadow.default.xl}",
+        "type": "boxShadow"
+      },
+      "15": {
+        "value": "{composites.shadow.default.xl}",
+        "type": "boxShadow"
+      },
+      "16": {
+        "value": "{composites.shadow.default.xl}",
+        "type": "boxShadow"
+      },
+      "17": {
+        "value": "{composites.shadow.default.xl}",
+        "type": "boxShadow"
+      },
+      "18": {
+        "value": "{composites.shadow.default.xl}",
+        "type": "boxShadow"
+      },
+      "19": {
+        "value": "{composites.shadow.default.xl}",
+        "type": "boxShadow"
+      },
+      "20": {
+        "value": "{composites.shadow.default.xl}",
+        "type": "boxShadow"
+      },
+      "21": {
+        "value": "{composites.shadow.default.xl}",
+        "type": "boxShadow"
+      },
+      "22": {
+        "value": "{composites.shadow.default.xl}",
+        "type": "boxShadow"
+      },
+      "23": {
+        "value": "{composites.shadow.default.xl}",
+        "type": "boxShadow"
+      },
+      "24": {
+        "value": "{composites.shadow.default.xl}",
+        "type": "boxShadow"
       }
     },
     "shadow": {
