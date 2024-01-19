@@ -6,223 +6,223 @@
           "primary": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.white}"
+              "value": "{semantics.color.theme.current.common.white}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.main}"
+              "value": "{semantics.color.theme.current.primary.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "secondary": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.white}"
+              "value": "{semantics.color.theme.current.common.white}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.secondary.main}"
+              "value": "{semantics.color.theme.current.secondary.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "neutral": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.white}"
+              "value": "{semantics.color.theme.current.common.white}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.neutral.main}"
+              "value": "{semantics.color.theme.current.neutral.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "success": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.white}"
+              "value": "{semantics.color.theme.current.common.white}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.success.main}"
+              "value": "{semantics.color.theme.current.success.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "error": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.white}"
+              "value": "{semantics.color.theme.current.common.white}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.error.main}"
+              "value": "{semantics.color.theme.current.error.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "warning": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.white}"
+              "value": "{semantics.color.theme.current.common.white}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.warning.main}"
+              "value": "{semantics.color.theme.current.warning.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "info": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.white}"
+              "value": "{semantics.color.theme.current.common.white}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.info.main}"
+              "value": "{semantics.color.theme.current.info.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "digital": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.white}"
+              "value": "{semantics.color.theme.current.common.white}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.digital.main}"
+              "value": "{semantics.color.theme.current.digital.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "disabled": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.disabled.main}"
+              "value": "{semantics.color.theme.current.disabled.main}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.disabled.onMain}"
+              "value": "{semantics.color.theme.current.disabled.onMain}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             }
           }
         },
@@ -230,223 +230,223 @@
           "primary": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.main}"
+              "value": "{semantics.color.theme.current.primary.main}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.onMain}"
+              "value": "{semantics.color.theme.current.primary.onMain}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "secondary": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.secondary.main}"
+              "value": "{semantics.color.theme.current.secondary.main}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.secondary.onMain}"
+              "value": "{semantics.color.theme.current.secondary.onMain}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "neutral": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.neutral.main}"
+              "value": "{semantics.color.theme.current.neutral.main}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.neutral.onMain}"
+              "value": "{semantics.color.theme.current.neutral.onMain}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "success": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.success.main}"
+              "value": "{semantics.color.theme.current.success.main}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.success.onMain}"
+              "value": "{semantics.color.theme.current.success.onMain}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "error": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.error.main}"
+              "value": "{semantics.color.theme.current.error.main}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.error.onMain}"
+              "value": "{semantics.color.theme.current.error.onMain}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "warning": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.warning.main}"
+              "value": "{semantics.color.theme.current.warning.main}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.warning.onMain}"
+              "value": "{semantics.color.theme.current.warning.onMain}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "info": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.info.main}"
+              "value": "{semantics.color.theme.current.info.main}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.info.onMain}"
+              "value": "{semantics.color.theme.current.info.onMain}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "digital": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.digital.main}"
+              "value": "{semantics.color.theme.current.digital.main}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.digital.onMain}"
+              "value": "{semantics.color.theme.current.digital.onMain}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "disabled": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.disabled.main}"
+              "value": "{semantics.color.theme.current.disabled.main}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.disabled.onMain}"
+              "value": "{semantics.color.theme.current.disabled.onMain}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             }
           }
         },
@@ -454,223 +454,223 @@
           "primary": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.container}"
+              "value": "{semantics.color.theme.current.primary.container}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.onContainer}"
+              "value": "{semantics.color.theme.current.primary.onContainer}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "secondary": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.secondary.container}"
+              "value": "{semantics.color.theme.current.secondary.container}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.secondary.onContainer}"
+              "value": "{semantics.color.theme.current.secondary.onContainer}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "neutral": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.neutral.container}"
+              "value": "{semantics.color.theme.current.neutral.container}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.neutral.onContainer}"
+              "value": "{semantics.color.theme.current.neutral.onContainer}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "success": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.success.container}"
+              "value": "{semantics.color.theme.current.success.container}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.success.onContainer}"
+              "value": "{semantics.color.theme.current.success.onContainer}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "error": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.error.container}"
+              "value": "{semantics.color.theme.current.error.container}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.error.onContainer}"
+              "value": "{semantics.color.theme.current.error.onContainer}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "warning": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.warning.container}"
+              "value": "{semantics.color.theme.current.warning.container}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.warning.onContainer}"
+              "value": "{semantics.color.theme.current.warning.onContainer}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "info": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.info.container}"
+              "value": "{semantics.color.theme.current.info.container}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.info.onContainer}"
+              "value": "{semantics.color.theme.current.info.onContainer}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "digital": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.digital.container}"
+              "value": "{semantics.color.theme.current.digital.container}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.digital.onContainer}"
+              "value": "{semantics.color.theme.current.digital.onContainer}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "disabled": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.disabled.container}"
+              "value": "{semantics.color.theme.current.disabled.container}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.disabled.onContainer}"
+              "value": "{semantics.color.theme.current.disabled.onContainer}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             }
           }
         },
@@ -678,209 +678,209 @@
           "primary": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.main}"
+              "value": "{semantics.color.theme.current.primary.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.main}"
+              "value": "{semantics.color.theme.current.primary.main}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.primary.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.primary.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "secondary": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.secondary.main}"
+              "value": "{semantics.color.theme.current.secondary.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.secondary.main}"
+              "value": "{semantics.color.theme.current.secondary.main}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.secondary.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.secondary.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.secondary.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.secondary.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "neutral": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.neutral.main}"
+              "value": "{semantics.color.theme.current.neutral.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.neutral.main}"
+              "value": "{semantics.color.theme.current.neutral.main}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.neutral.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.neutral.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.neutral.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.neutral.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "success": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.success.main}"
+              "value": "{semantics.color.theme.current.success.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.success.main}"
+              "value": "{semantics.color.theme.current.success.main}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.success.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.success.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.success.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.success.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "error": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.error.main}"
+              "value": "{semantics.color.theme.current.error.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.error.main}"
+              "value": "{semantics.color.theme.current.error.main}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.error.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.error.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "warning": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.warning.main}"
+              "value": "{semantics.color.theme.current.warning.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.warning.main}"
+              "value": "{semantics.color.theme.current.warning.main}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.warning.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.warning.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.warning.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.warning.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "info": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.info.main}"
+              "value": "{semantics.color.theme.current.info.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.info.main}"
+              "value": "{semantics.color.theme.current.info.main}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.info.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.info.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.info.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.info.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "digital": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.digital.main}"
+              "value": "{semantics.color.theme.current.digital.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.digital.main}"
+              "value": "{semantics.color.theme.current.digital.main}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.digital.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.digital.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.digital.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.digital.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "disabled": {
@@ -890,11 +890,11 @@
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.disabled.main}"
+              "value": "{semantics.color.theme.current.disabled.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.disabled.main}"
+              "value": "{semantics.color.theme.current.disabled.main}"
             }
           }
         },
@@ -902,223 +902,223 @@
           "primary": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.main}"
+              "value": "{semantics.color.theme.current.primary.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.primary.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.primary.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "secondary": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.secondary.main}"
+              "value": "{semantics.color.theme.current.secondary.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.secondary.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.secondary.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.secondary.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.secondary.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "neutral": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.neutral.main}"
+              "value": "{semantics.color.theme.current.neutral.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.neutral.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.neutral.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.neutral.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.neutral.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "success": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.success.main}"
+              "value": "{semantics.color.theme.current.success.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.success.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.success.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.success.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.success.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "error": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.error.main}"
+              "value": "{semantics.color.theme.current.error.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.error.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.error.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "warning": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.warning.main}"
+              "value": "{semantics.color.theme.current.warning.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.warning.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.warning.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.warning.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.warning.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "info": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.info.main}"
+              "value": "{semantics.color.theme.current.info.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.info.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.info.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.info.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.info.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "digital": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.digital.main}"
+              "value": "{semantics.color.theme.current.digital.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.digital.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.digital.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.digital.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.digital.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "disabled": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.disabled.main}"
+              "value": "{semantics.color.theme.current.disabled.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             }
           }
         }
@@ -1126,66 +1126,66 @@
       "border": {
         "elevated": {
           "type": "borderWidth",
-          "value": "{3ds.ft.semantics.size.border.none}"
+          "value": "{semantics.size.border.none}"
         },
         "filled": {
           "type": "borderWidth",
-          "value": "{3ds.ft.semantics.size.border.none}"
+          "value": "{semantics.size.border.none}"
         },
         "tonal": {
           "type": "borderWidth",
-          "value": "{3ds.ft.semantics.size.border.none}"
+          "value": "{semantics.size.border.none}"
         },
         "outlined": {
           "type": "borderWidth",
-          "value": "{3ds.ft.semantics.size.border.thin}"
+          "value": "{semantics.size.border.thin}"
         },
         "text": {
           "type": "borderWidth",
-          "value": "{3ds.ft.semantics.size.border.none}"
+          "value": "{semantics.size.border.none}"
         }
       },
       "size": {
         "small": {
           "height": {
             "type": "sizing",
-            "value": "{3ds.ft.semantics.size.height.buttonLike.small}"
+            "value": "{semantics.size.height.buttonLike.small}"
           },
           "icon": {
             "type": "sizing",
-            "value": "{3ds.ft.semantics.size.height.iconLike.small}"
+            "value": "{semantics.size.height.iconLike.small}"
           },
           "radius": {
             "type": "borderRadius",
-            "value": "{3ds.ft.semantics.size.radius.buttonLike.small}"
+            "value": "{semantics.size.radius.buttonLike.small}"
           }
         },
         "medium": {
           "height": {
             "type": "sizing",
-            "value": "{3ds.ft.semantics.size.height.buttonLike.medium}"
+            "value": "{semantics.size.height.buttonLike.medium}"
           },
           "icon": {
             "type": "sizing",
-            "value": "{3ds.ft.semantics.size.height.iconLike.medium}"
+            "value": "{semantics.size.height.iconLike.medium}"
           },
           "radius": {
             "type": "borderRadius",
-            "value": "{3ds.ft.semantics.size.radius.buttonLike.medium}"
+            "value": "{semantics.size.radius.buttonLike.medium}"
           }
         },
         "large": {
           "height": {
             "type": "sizing",
-            "value": "{3ds.ft.semantics.size.height.buttonLike.large}"
+            "value": "{semantics.size.height.buttonLike.large}"
           },
           "icon": {
             "type": "sizing",
-            "value": "{3ds.ft.semantics.size.height.iconLike.large}"
+            "value": "{semantics.size.height.iconLike.large}"
           },
           "radius": {
             "type": "borderRadius",
-            "value": "{3ds.ft.semantics.size.radius.buttonLike.large}"
+            "value": "{semantics.size.radius.buttonLike.large}"
           }
         }
       },
@@ -1193,57 +1193,57 @@
         "small": {
           "margin": {
             "type": "spacing",
-            "value": "{3ds.ft.semantics.space.none}"
+            "value": "{semantics.space.none}"
           },
           "padding": {
             "type": "spacing",
-            "value": "{3ds.ft.semantics.space.2xl}"
+            "value": "{semantics.space.2xl}"
           },
           "gap": {
             "type": "spacing",
-            "value": "{3ds.ft.semantics.space.sm}"
+            "value": "{semantics.space.sm}"
           }
         },
         "medium": {
           "margin": {
             "type": "spacing",
-            "value": "{3ds.ft.semantics.space.none}"
+            "value": "{semantics.space.none}"
           },
           "padding": {
             "type": "spacing",
-            "value": "{3ds.ft.semantics.space.3xl}"
+            "value": "{semantics.space.3xl}"
           },
           "gap": {
             "type": "spacing",
-            "value": "{3ds.ft.semantics.space.sm}"
+            "value": "{semantics.space.sm}"
           }
         },
         "large": {
           "margin": {
             "type": "spacing",
-            "value": "{3ds.ft.semantics.space.none}"
+            "value": "{semantics.space.none}"
           },
           "padding": {
             "type": "spacing",
-            "value": "{3ds.ft.semantics.space.3xl}"
+            "value": "{semantics.space.3xl}"
           },
           "gap": {
             "type": "spacing",
-            "value": "{3ds.ft.semantics.space.sm}"
+            "value": "{semantics.space.sm}"
           }
         }
       },
       "font": {
         "small": {
-          "value": "{3ds.ft.composites.font.label.sm}",
+          "value": "{composites.font.label.sm}",
           "type": "typography"
         },
         "medium": {
-          "value": "{3ds.ft.composites.font.label.md}",
+          "value": "{composites.font.label.md}",
           "type": "typography"
         },
         "large": {
-          "value": "{3ds.ft.composites.font.label.lg}",
+          "value": "{composites.font.label.lg}",
           "type": "typography"
         }
       }
@@ -1254,259 +1254,259 @@
           "primary": {
             "slide": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.main}"
+              "value": "{semantics.color.theme.current.primary.main}"
             },
             "knob": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.onMain}"
+              "value": "{semantics.color.theme.current.primary.onMain}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.onContainer}"
+              "value": "{semantics.color.theme.current.primary.onContainer}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.primary.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.primary.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "secondary": {
             "slide": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.secondary.main}"
+              "value": "{semantics.color.theme.current.secondary.main}"
             },
             "knob": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.secondary.onMain}"
+              "value": "{semantics.color.theme.current.secondary.onMain}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.secondary.onContainer}"
+              "value": "{semantics.color.theme.current.secondary.onContainer}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.secondary.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.secondary.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.secondary.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.secondary.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "neutral": {
             "slide": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.neutral.main}"
+              "value": "{semantics.color.theme.current.neutral.main}"
             },
             "knob": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.neutral.onMain}"
+              "value": "{semantics.color.theme.current.neutral.onMain}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.neutral.onContainer}"
+              "value": "{semantics.color.theme.current.neutral.onContainer}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.neutral.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.neutral.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.neutral.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.neutral.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "success": {
             "slide": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.success.main}"
+              "value": "{semantics.color.theme.current.success.main}"
             },
             "knob": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.success.onMain}"
+              "value": "{semantics.color.theme.current.success.onMain}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.success.onContainer}"
+              "value": "{semantics.color.theme.current.success.onContainer}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.success.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.success.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.success.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.success.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "error": {
             "slide": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.error.main}"
+              "value": "{semantics.color.theme.current.error.main}"
             },
             "knob": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.error.onMain}"
+              "value": "{semantics.color.theme.current.error.onMain}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.error.onContainer}"
+              "value": "{semantics.color.theme.current.error.onContainer}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.error.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.error.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "warning": {
             "slide": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.warning.main}"
+              "value": "{semantics.color.theme.current.warning.main}"
             },
             "knob": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.warning.onMain}"
+              "value": "{semantics.color.theme.current.warning.onMain}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.warning.onContainer}"
+              "value": "{semantics.color.theme.current.warning.onContainer}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.warning.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.warning.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.warning.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.warning.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "info": {
             "slide": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.info.main}"
+              "value": "{semantics.color.theme.current.info.main}"
             },
             "knob": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.info.onMain}"
+              "value": "{semantics.color.theme.current.info.onMain}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.info.onContainer}"
+              "value": "{semantics.color.theme.current.info.onContainer}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.info.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.info.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.info.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.info.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "digital": {
             "slide": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.digital.main}"
+              "value": "{semantics.color.theme.current.digital.main}"
             },
             "knob": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.digital.onMain}"
+              "value": "{semantics.color.theme.current.digital.onMain}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.digital.onContainer}"
+              "value": "{semantics.color.theme.current.digital.onContainer}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.digital.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.digital.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.digital.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.digital.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "disabled": {
             "slide": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.disabled.main}"
+              "value": "{semantics.color.theme.current.disabled.main}"
             },
             "knob": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.disabled.container}"
+              "value": "{semantics.color.theme.current.disabled.container}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.disabled.main}"
+              "value": "{semantics.color.theme.current.disabled.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             }
           }
         },
@@ -1514,49 +1514,49 @@
           "neutral": {
             "slide": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.neutral.container}"
+              "value": "{semantics.color.theme.current.neutral.container}"
             },
             "knob": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.neutral.main}"
+              "value": "{semantics.color.theme.current.neutral.main}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.neutral.container}"
+              "value": "{semantics.color.theme.current.neutral.container}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.neutral.main}"
+              "value": "{semantics.color.theme.current.neutral.main}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           },
           "disabled": {
             "slide": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.disabled.container}"
+              "value": "{semantics.color.theme.current.disabled.container}"
             },
             "knob": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.disabled.main}"
+              "value": "{semantics.color.theme.current.disabled.main}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.disabled.container}"
+              "value": "{semantics.color.theme.current.disabled.container}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.disabled.main}"
+              "value": "{semantics.color.theme.current.disabled.main}"
             }
           }
         }
@@ -1584,13 +1584,13 @@
         },
         "radius": {
           "type": "borderRadius",
-          "value": "{3ds.ft.semantics.size.radius.full}"
+          "value": "{semantics.size.radius.full}"
         }
       },
       "space": {
         "padding": {
           "type": "spacing",
-          "value": "{3ds.ft.semantics.space.xs}"
+          "value": "{semantics.space.xs}"
         }
       }
     },
@@ -1600,67 +1600,67 @@
           "primary": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.main}"
+              "value": "{semantics.color.theme.current.primary.main}"
             },
             "icon": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.onMain}"
+              "value": "{semantics.color.theme.current.primary.onMain}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.primary.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.primary.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "error": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.error.main}"
+              "value": "{semantics.color.theme.current.error.main}"
             },
             "icon": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.error.onMain}"
+              "value": "{semantics.color.theme.current.error.onMain}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.error.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.error.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "disabled": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.disabled.main}"
+              "value": "{semantics.color.theme.current.disabled.main}"
             },
             "icon": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.disabled.onMain}"
+              "value": "{semantics.color.theme.current.disabled.onMain}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             }
           }
         },
@@ -1668,67 +1668,67 @@
           "primary": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "icon": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.main}"
+              "value": "{semantics.color.theme.current.primary.main}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.primary.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.primary.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "error": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "icon": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.error.main}"
+              "value": "{semantics.color.theme.current.error.main}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.error.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.hovered} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba( {3ds.ft.semantics.color.theme.default.mode.light.error.main}, {3ds.ft.semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
             }
           },
           "disabled": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "icon": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.disabled.main}"
+              "value": "{semantics.color.theme.current.disabled.main}"
             }
           }
         }
@@ -1748,7 +1748,7 @@
         },
         "radius": {
           "type": "borderRadius",
-          "value": "{3ds.ft.semantics.size.radius.xs}"
+          "value": "{semantics.size.radius.xs}"
         },
         "border": {
           "type": "borderWidth",
@@ -1762,69 +1762,69 @@
           "default": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.white}"
+              "value": "{semantics.color.theme.current.common.white}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.main}"
+              "value": "{semantics.color.theme.current.primary.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "leadingIcon": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "trailingIcon": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "dragged": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             }
           },
           "disabled": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.white}"
+              "value": "{semantics.color.theme.current.common.white}"
             },
             "text": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.main}"
+              "value": "{semantics.color.theme.current.primary.main}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "leadingIcon": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "trailingIcon": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.transparent}"
+              "value": "{semantics.color.theme.current.common.transparent}"
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "dragged": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             }
           }
         },
@@ -1847,49 +1847,49 @@
           },
           "radius": {
             "type": "borderRadius",
-            "value": "{3ds.ft.semantics.size.radius.full}"
+            "value": "{semantics.size.radius.full}"
           }
         },
         "space": {
           "padding": {
             "type": "spacing",
-            "value": "{3ds.ft.semantics.space.xs}"
+            "value": "{semantics.space.xs}"
           }
         },
         "font": {
           "small": {
-            "value": "{3ds.ft.composites.font.label.sm}",
+            "value": "{composites.font.label.sm}",
             "type": "typography"
           },
           "medium": {
-            "value": "{3ds.ft.composites.font.label.md}",
+            "value": "{composites.font.label.md}",
             "type": "typography"
           },
           "large": {
-            "value": "{3ds.ft.composites.font.label.lg}",
+            "value": "{composites.font.label.lg}",
             "type": "typography"
           }
         },
         "elevation": {
           "enabled": {
             "type": "boxShadow",
-            "value": "{3ds.ft.composites.elevation.1}"
+            "value": "{composites.elevation.1}"
           },
           "hovered": {
             "type": "boxShadow",
-            "value": "{3ds.ft.composites.elevation.2}"
+            "value": "{composites.elevation.2}"
           },
           "pressed": {
             "type": "boxShadow",
-            "value": "{3ds.ft.composites.elevation.3}"
+            "value": "{composites.elevation.3}"
           },
           "focused": {
             "type": "boxShadow",
-            "value": "{3ds.ft.composites.elevation.1}"
+            "value": "{composites.elevation.1}"
           },
           "disabled": {
             "type": "boxShadow",
-            "value": "{3ds.ft.composites.elevation.0}"
+            "value": "{composites.elevation.0}"
           }
         }
       }
@@ -1900,67 +1900,67 @@
           "primary": {
             "fill": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.common.white}"
+              "value": "{semantics.color.theme.current.common.white}"
             },
             "inputText": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.onContainer}"
+              "value": "{semantics.color.theme.current.primary.onContainer}"
             },
             "label": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.onContainer}"
+              "value": "{semantics.color.theme.current.primary.onContainer}"
             },
             "helperText": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.onContainer}"
+              "value": "{semantics.color.theme.current.primary.onContainer}"
             },
             "placeholderText": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.onContainer}"
+              "value": "{semantics.color.theme.current.primary.onContainer}"
             },
             "prefix": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.onContainer}"
+              "value": "{semantics.color.theme.current.primary.onContainer}"
             },
             "suffix": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.onContainer}"
+              "value": "{semantics.color.theme.current.primary.onContainer}"
             },
             "inputIcon": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.onContainer}"
+              "value": "{semantics.color.theme.current.primary.onContainer}"
             },
             "inputIconPressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.onContainer}"
+              "value": "{semantics.color.theme.current.primary.onContainer}"
             },
             "leadingIcon": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.onContainer}"
+              "value": "{semantics.color.theme.current.primary.onContainer}"
             },
             "trailingIcon": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.onContainer}"
+              "value": "{semantics.color.theme.current.primary.onContainer}"
             },
             "leadingIconPressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.onContainer}"
+              "value": "{semantics.color.theme.current.primary.onContainer}"
             },
             "trailingIconPressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.onContainer}"
+              "value": "{semantics.color.theme.current.primary.onContainer}"
             },
             "border": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.onContainer}"
+              "value": "{semantics.color.theme.current.primary.onContainer}"
             },
             "borderSelected": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.main}"
+              "value": "{semantics.color.theme.current.primary.main}"
             },
             "borderHovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.primary.onContainer}"
+              "value": "{semantics.color.theme.current.primary.onContainer}"
             },
             "error": {
               "type": "color",
@@ -1972,30 +1972,30 @@
             },
             "enabled": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.none}"
+              "value": "{semantics.color.theme.current.action.none}"
             },
             "hovered": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.current.action.hovered}"
             },
             "focused": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.focused}"
+              "value": "{semantics.color.theme.current.action.focused}"
             },
             "pressed": {
               "type": "color",
-              "value": "{3ds.ft.semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.pressed}"
             }
           }
         },
         "size": {
           "containerHeight": {
             "type": "sizing",
-            "value": "{3ds.ft.semantics.size.height.buttonLike.medium}"
+            "value": "{semantics.size.height.buttonLike.medium}"
           },
           "iconSize": {
             "type": "sizing",
-            "value": "{3ds.ft.semantics.size.height.iconLike.medium}"
+            "value": "{semantics.size.height.iconLike.medium}"
           },
           "trailingIconMargin": {
             "type": "sizing",
@@ -2003,11 +2003,11 @@
           },
           "errorIconSize": {
             "type": "sizing",
-            "value": "{3ds.ft.semantics.size.height.iconLike.medium}"
+            "value": "{semantics.size.height.iconLike.medium}"
           },
           "clearIconSize": {
             "type": "sizing",
-            "value": "{3ds.ft.semantics.size.height.iconLike.medium}"
+            "value": "{semantics.size.height.iconLike.medium}"
           },
           "clearIconMargin": {
             "type": "spacing",
@@ -2022,62 +2022,62 @@
           "padding": {
             "inputHorizontal": {
               "type": "spacing",
-              "value": "{3ds.ft.semantics.space.2xl}"
+              "value": "{semantics.space.2xl}"
             },
             "inputVertical": {
               "type": "spacing",
-              "value": "{3ds.ft.semantics.space.xs}"
+              "value": "{semantics.space.xs}"
             },
             "hint": {
               "type": "spacing",
-              "value": "{3ds.ft.semantics.space.2xl}"
+              "value": "{semantics.space.2xl}"
             }
           },
           "gap": {
             "row": {
               "type": "spacing",
-              "value": "{3ds.ft.semantics.space.md}"
+              "value": "{semantics.space.md}"
             },
             "column": {
               "type": "spacing",
-              "value": "{3ds.ft.semantics.space.md}"
+              "value": "{semantics.space.md}"
             }
           }
         },
         "font": {
           "text": {
             "type": "typography",
-            "value": "{3ds.ft.composites.font.label.sm}"
+            "value": "{composites.font.label.sm}"
           },
           "label": {
             "type": "typography",
-            "value": "{3ds.ft.composites.font.label.sm}"
+            "value": "{composites.font.label.sm}"
           },
           "hint": {
             "type": "typography",
-            "value": "{3ds.ft.composites.font.label.sm}"
+            "value": "{composites.font.label.sm}"
           }
         },
         "elevation": {
           "enabled": {
             "type": "boxShadow",
-            "value": "{3ds.ft.composites.elevation.enabled}"
+            "value": "{composites.elevation.enabled}"
           },
           "hovered": {
             "type": "boxShadow",
-            "value": "{3ds.ft.composites.elevation.hovered}"
+            "value": "{composites.elevation.hovered}"
           },
           "focused": {
             "type": "boxShadow",
-            "value": "{3ds.ft.composites.elevation.focused}"
+            "value": "{composites.elevation.focused}"
           },
           "pressed": {
             "type": "boxShadow",
-            "value": "{3ds.ft.composites.elevation.pressed}"
+            "value": "{composites.elevation.pressed}"
           },
           "disabled": {
             "type": "boxShadow",
-            "value": "{3ds.ft.composites.elevation.disabled}"
+            "value": "{composites.elevation.disabled}"
           }
         }
       }

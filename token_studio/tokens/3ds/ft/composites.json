@@ -2,27 +2,27 @@
   "composites": {
     "elevation": {
       "0": {
-        "value": "{3ds.ft.composites.shadow.default.none}",
+        "value": "{composites.shadow.default.none}",
         "type": "boxShadow"
       },
       "1": {
-        "value": "{3ds.ft.composites.shadow.default.xs}",
+        "value": "{composites.shadow.default.xs}",
         "type": "boxShadow"
       },
       "2": {
-        "value": "{3ds.ft.composites.shadow.default.sm}",
+        "value": "{composites.shadow.default.sm}",
         "type": "boxShadow"
       },
       "3": {
-        "value": "{3ds.ft.composites.shadow.default.md}",
+        "value": "{composites.shadow.default.md}",
         "type": "boxShadow"
       },
       "4": {
-        "value": "{3ds.ft.composites.shadow.default.lg}",
+        "value": "{composites.shadow.default.lg}",
         "type": "boxShadow"
       },
       "5": {
-        "value": "{3ds.ft.composites.shadow.default.xl}",
+        "value": "{composites.shadow.default.xl}",
         "type": "boxShadow"
       }
     },
@@ -241,43 +241,43 @@
       "display": {
         "sm": {
           "value": {
-            "fontFamily": "{3ds.ft.semantics.font.family.display.default}",
-            "fontWeight": "{3ds.ft.semantics.font.weight.display.sm}",
-            "fontSize": "{3ds.ft.semantics.font.size.display.sm}px",
-            "lineHeight": "{3ds.ft.semantics.font.style.lineHeight.display.default}",
-            "letterSpacing": "{3ds.ft.semantics.font.style.letterSpacing.default}",
-            "paragraphSpacing": "{3ds.ft.semantics.font.style.paragraphSpacing.none}",
-            "paragraphIndent": "{3ds.ft.semantics.font.style.paragraphIndent.none}",
-            "textDecoration": "{3ds.ft.semantics.font.style.decoration.none}",
-            "textCase": "{3ds.ft.semantics.font.style.case.none}"
+            "fontFamily": "{semantics.font.family.display.default}",
+            "fontWeight": "{semantics.font.weight.display.sm}",
+            "fontSize": "{semantics.font.size.display.sm}px",
+            "lineHeight": "{semantics.font.style.lineHeight.display.default}",
+            "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+            "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+            "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+            "textDecoration": "{semantics.font.style.decoration.none}",
+            "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         },
         "md": {
           "value": {
-            "fontFamily": "{3ds.ft.semantics.font.family.display.default}",
-            "fontWeight": "{3ds.ft.semantics.font.weight.display.md}",
-            "fontSize": "{3ds.ft.semantics.font.size.display.md}px",
-            "lineHeight": "{3ds.ft.semantics.font.style.lineHeight.display.default}",
-            "letterSpacing": "{3ds.ft.semantics.font.style.letterSpacing.default}",
-            "paragraphSpacing": "{3ds.ft.semantics.font.style.paragraphSpacing.none}",
-            "paragraphIndent": "{3ds.ft.semantics.font.style.paragraphIndent.none}",
-            "textDecoration": "{3ds.ft.semantics.font.style.decoration.none}",
-            "textCase": "{3ds.ft.semantics.font.style.case.none}"
+            "fontFamily": "{semantics.font.family.display.default}",
+            "fontWeight": "{semantics.font.weight.display.md}",
+            "fontSize": "{semantics.font.size.display.md}px",
+            "lineHeight": "{semantics.font.style.lineHeight.display.default}",
+            "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+            "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+            "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+            "textDecoration": "{semantics.font.style.decoration.none}",
+            "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         },
         "lg": {
           "value": {
-            "fontFamily": "{3ds.ft.semantics.font.family.display.default}",
-            "fontWeight": "{3ds.ft.semantics.font.weight.display.lg}",
-            "fontSize": "{3ds.ft.semantics.font.size.display.lg}px",
-            "lineHeight": "{3ds.ft.semantics.font.style.lineHeight.display.default}",
-            "letterSpacing": "{3ds.ft.semantics.font.style.letterSpacing.default}",
-            "paragraphSpacing": "{3ds.ft.semantics.font.style.paragraphSpacing.none}",
-            "paragraphIndent": "{3ds.ft.semantics.font.style.paragraphIndent.none}",
-            "textDecoration": "{3ds.ft.semantics.font.style.decoration.none}",
-            "textCase": "{3ds.ft.semantics.font.style.case.none}"
+            "fontFamily": "{semantics.font.family.display.default}",
+            "fontWeight": "{semantics.font.weight.display.lg}",
+            "fontSize": "{semantics.font.size.display.lg}px",
+            "lineHeight": "{semantics.font.style.lineHeight.display.default}",
+            "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+            "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+            "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+            "textDecoration": "{semantics.font.style.decoration.none}",
+            "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         }
@@ -285,43 +285,43 @@
       "headline": {
         "sm": {
           "value": {
-            "fontFamily": "{3ds.ft.semantics.font.family.headline.default}",
-            "fontWeight": "{3ds.ft.semantics.font.weight.headline.sm}",
-            "fontSize": "{3ds.ft.semantics.font.size.headline.sm}px",
-            "lineHeight": "{3ds.ft.semantics.font.style.lineHeight.headline.default}",
-            "letterSpacing": "{3ds.ft.semantics.font.style.letterSpacing.default}",
-            "paragraphSpacing": "{3ds.ft.semantics.font.style.paragraphSpacing.none}",
-            "paragraphIndent": "{3ds.ft.semantics.font.style.paragraphIndent.none}",
-            "textDecoration": "{3ds.ft.semantics.font.style.decoration.none}",
-            "textCase": "{3ds.ft.semantics.font.style.case.none}"
+            "fontFamily": "{semantics.font.family.headline.default}",
+            "fontWeight": "{semantics.font.weight.headline.sm}",
+            "fontSize": "{semantics.font.size.headline.sm}px",
+            "lineHeight": "{semantics.font.style.lineHeight.headline.default}",
+            "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+            "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+            "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+            "textDecoration": "{semantics.font.style.decoration.none}",
+            "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         },
         "md": {
           "value": {
-            "fontFamily": "{3ds.ft.semantics.font.family.headline.default}",
-            "fontWeight": "{3ds.ft.semantics.font.weight.headline.md}",
-            "fontSize": "{3ds.ft.semantics.font.size.headline.md}px",
-            "lineHeight": "{3ds.ft.semantics.font.style.lineHeight.headline.default}",
-            "letterSpacing": "{3ds.ft.semantics.font.style.letterSpacing.default}",
-            "paragraphSpacing": "{3ds.ft.semantics.font.style.paragraphSpacing.none}",
-            "paragraphIndent": "{3ds.ft.semantics.font.style.paragraphIndent.none}",
-            "textDecoration": "{3ds.ft.semantics.font.style.decoration.none}",
-            "textCase": "{3ds.ft.semantics.font.style.case.none}"
+            "fontFamily": "{semantics.font.family.headline.default}",
+            "fontWeight": "{semantics.font.weight.headline.md}",
+            "fontSize": "{semantics.font.size.headline.md}px",
+            "lineHeight": "{semantics.font.style.lineHeight.headline.default}",
+            "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+            "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+            "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+            "textDecoration": "{semantics.font.style.decoration.none}",
+            "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         },
         "lg": {
           "value": {
-            "fontFamily": "{3ds.ft.semantics.font.family.headline.default}",
-            "fontWeight": "{3ds.ft.semantics.font.weight.headline.lg}",
-            "fontSize": "{3ds.ft.semantics.font.size.headline.lg}px",
-            "lineHeight": "{3ds.ft.semantics.font.style.lineHeight.headline.default}",
-            "letterSpacing": "{3ds.ft.semantics.font.style.letterSpacing.default}",
-            "paragraphSpacing": "{3ds.ft.semantics.font.style.paragraphSpacing.none}",
-            "paragraphIndent": "{3ds.ft.semantics.font.style.paragraphIndent.none}",
-            "textDecoration": "{3ds.ft.semantics.font.style.decoration.none}",
-            "textCase": "{3ds.ft.semantics.font.style.case.none}"
+            "fontFamily": "{semantics.font.family.headline.default}",
+            "fontWeight": "{semantics.font.weight.headline.lg}",
+            "fontSize": "{semantics.font.size.headline.lg}px",
+            "lineHeight": "{semantics.font.style.lineHeight.headline.default}",
+            "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+            "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+            "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+            "textDecoration": "{semantics.font.style.decoration.none}",
+            "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         }
@@ -329,43 +329,43 @@
       "title": {
         "sm": {
           "value": {
-            "fontFamily": "{3ds.ft.semantics.font.family.title.default}",
-            "fontWeight": "{3ds.ft.semantics.font.weight.title.sm}",
-            "fontSize": "{3ds.ft.semantics.font.size.title.sm}px",
-            "lineHeight": "{3ds.ft.semantics.font.style.lineHeight.title.default}",
-            "letterSpacing": "{3ds.ft.semantics.font.style.letterSpacing.default}",
-            "paragraphSpacing": "{3ds.ft.semantics.font.style.paragraphSpacing.none}",
-            "paragraphIndent": "{3ds.ft.semantics.font.style.paragraphIndent.none}",
-            "textDecoration": "{3ds.ft.semantics.font.style.decoration.none}",
-            "textCase": "{3ds.ft.semantics.font.style.case.none}"
+            "fontFamily": "{semantics.font.family.title.default}",
+            "fontWeight": "{semantics.font.weight.title.sm}",
+            "fontSize": "{semantics.font.size.title.sm}px",
+            "lineHeight": "{semantics.font.style.lineHeight.title.default}",
+            "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+            "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+            "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+            "textDecoration": "{semantics.font.style.decoration.none}",
+            "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         },
         "md": {
           "value": {
-            "fontFamily": "{3ds.ft.semantics.font.family.title.default}",
-            "fontWeight": "{3ds.ft.semantics.font.weight.title.md}",
-            "fontSize": "{3ds.ft.semantics.font.size.title.md}px",
-            "lineHeight": "{3ds.ft.semantics.font.style.lineHeight.title.default}",
-            "letterSpacing": "{3ds.ft.semantics.font.style.letterSpacing.default}",
-            "paragraphSpacing": "{3ds.ft.semantics.font.style.paragraphSpacing.none}",
-            "paragraphIndent": "{3ds.ft.semantics.font.style.paragraphIndent.none}",
-            "textDecoration": "{3ds.ft.semantics.font.style.decoration.none}",
-            "textCase": "{3ds.ft.semantics.font.style.case.none}"
+            "fontFamily": "{semantics.font.family.title.default}",
+            "fontWeight": "{semantics.font.weight.title.md}",
+            "fontSize": "{semantics.font.size.title.md}px",
+            "lineHeight": "{semantics.font.style.lineHeight.title.default}",
+            "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+            "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+            "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+            "textDecoration": "{semantics.font.style.decoration.none}",
+            "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         },
         "lg": {
           "value": {
-            "fontFamily": "{3ds.ft.semantics.font.family.title.default}",
-            "fontWeight": "{3ds.ft.semantics.font.weight.title.lg}",
-            "fontSize": "{3ds.ft.semantics.font.size.title.lg}px",
-            "lineHeight": "{3ds.ft.semantics.font.style.lineHeight.title.default}",
-            "letterSpacing": "{3ds.ft.semantics.font.style.letterSpacing.default}",
-            "paragraphSpacing": "{3ds.ft.semantics.font.style.paragraphSpacing.none}",
-            "paragraphIndent": "{3ds.ft.semantics.font.style.paragraphIndent.none}",
-            "textDecoration": "{3ds.ft.semantics.font.style.decoration.none}",
-            "textCase": "{3ds.ft.semantics.font.style.case.none}"
+            "fontFamily": "{semantics.font.family.title.default}",
+            "fontWeight": "{semantics.font.weight.title.lg}",
+            "fontSize": "{semantics.font.size.title.lg}px",
+            "lineHeight": "{semantics.font.style.lineHeight.title.default}",
+            "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+            "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+            "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+            "textDecoration": "{semantics.font.style.decoration.none}",
+            "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         }
@@ -373,43 +373,43 @@
       "body": {
         "sm": {
           "value": {
-            "fontFamily": "{3ds.ft.semantics.font.family.body.default}",
-            "fontWeight": "{3ds.ft.semantics.font.weight.body.sm}",
-            "fontSize": "{3ds.ft.semantics.font.size.body.sm}px",
-            "lineHeight": "{3ds.ft.semantics.font.style.lineHeight.body.default}",
-            "letterSpacing": "{3ds.ft.semantics.font.style.letterSpacing.default}",
-            "paragraphSpacing": "{3ds.ft.semantics.font.style.paragraphSpacing.none}",
-            "paragraphIndent": "{3ds.ft.semantics.font.style.paragraphIndent.none}",
-            "textDecoration": "{3ds.ft.semantics.font.style.decoration.none}",
-            "textCase": "{3ds.ft.semantics.font.style.case.none}"
+            "fontFamily": "{semantics.font.family.body.default}",
+            "fontWeight": "{semantics.font.weight.body.sm}",
+            "fontSize": "{semantics.font.size.body.sm}px",
+            "lineHeight": "{semantics.font.style.lineHeight.body.default}",
+            "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+            "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+            "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+            "textDecoration": "{semantics.font.style.decoration.none}",
+            "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         },
         "md": {
           "value": {
-            "fontFamily": "{3ds.ft.semantics.font.family.body.default}",
-            "fontWeight": "{3ds.ft.semantics.font.weight.body.md}",
-            "fontSize": "{3ds.ft.semantics.font.size.body.md}px",
-            "lineHeight": "{3ds.ft.semantics.font.style.lineHeight.body.default}",
-            "letterSpacing": "{3ds.ft.semantics.font.style.letterSpacing.default}",
-            "paragraphSpacing": "{3ds.ft.semantics.font.style.paragraphSpacing.none}",
-            "paragraphIndent": "{3ds.ft.semantics.font.style.paragraphIndent.none}",
-            "textDecoration": "{3ds.ft.semantics.font.style.decoration.none}",
-            "textCase": "{3ds.ft.semantics.font.style.case.none}"
+            "fontFamily": "{semantics.font.family.body.default}",
+            "fontWeight": "{semantics.font.weight.body.md}",
+            "fontSize": "{semantics.font.size.body.md}px",
+            "lineHeight": "{semantics.font.style.lineHeight.body.default}",
+            "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+            "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+            "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+            "textDecoration": "{semantics.font.style.decoration.none}",
+            "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         },
         "lg": {
           "value": {
-            "fontFamily": "{3ds.ft.semantics.font.family.body.default}",
-            "fontWeight": "{3ds.ft.semantics.font.weight.body.lg}",
-            "fontSize": "{3ds.ft.semantics.font.size.body.lg}px",
-            "lineHeight": "{3ds.ft.semantics.font.style.lineHeight.body.default}",
-            "letterSpacing": "{3ds.ft.semantics.font.style.letterSpacing.default}",
-            "paragraphSpacing": "{3ds.ft.semantics.font.style.paragraphSpacing.none}",
-            "paragraphIndent": "{3ds.ft.semantics.font.style.paragraphIndent.none}",
-            "textDecoration": "{3ds.ft.semantics.font.style.decoration.none}",
-            "textCase": "{3ds.ft.semantics.font.style.case.none}"
+            "fontFamily": "{semantics.font.family.body.default}",
+            "fontWeight": "{semantics.font.weight.body.lg}",
+            "fontSize": "{semantics.font.size.body.lg}px",
+            "lineHeight": "{semantics.font.style.lineHeight.body.default}",
+            "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+            "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+            "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+            "textDecoration": "{semantics.font.style.decoration.none}",
+            "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         }
@@ -417,43 +417,43 @@
       "label": {
         "sm": {
           "value": {
-            "fontFamily": "{3ds.ft.semantics.font.family.label.default}",
-            "fontWeight": "{3ds.ft.semantics.font.weight.label.sm}",
-            "fontSize": "{3ds.ft.semantics.font.size.label.sm}px",
-            "lineHeight": "{3ds.ft.semantics.font.style.lineHeight.label.default}",
-            "letterSpacing": "{3ds.ft.semantics.font.style.letterSpacing.default}",
-            "paragraphSpacing": "{3ds.ft.semantics.font.style.paragraphSpacing.none}",
-            "paragraphIndent": "{3ds.ft.semantics.font.style.paragraphIndent.none}",
-            "textDecoration": "{3ds.ft.semantics.font.style.decoration.none}",
-            "textCase": "{3ds.ft.semantics.font.style.case.none}"
+            "fontFamily": "{semantics.font.family.label.default}",
+            "fontWeight": "{semantics.font.weight.label.sm}",
+            "fontSize": "{semantics.font.size.label.sm}px",
+            "lineHeight": "{semantics.font.style.lineHeight.label.default}",
+            "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+            "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+            "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+            "textDecoration": "{semantics.font.style.decoration.none}",
+            "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         },
         "md": {
           "value": {
-            "fontFamily": "{3ds.ft.semantics.font.family.label.default}",
-            "fontWeight": "{3ds.ft.semantics.font.weight.label.md}",
-            "fontSize": "{3ds.ft.semantics.font.size.label.md}px",
-            "lineHeight": "{3ds.ft.semantics.font.style.lineHeight.label.default}",
-            "letterSpacing": "{3ds.ft.semantics.font.style.letterSpacing.default}",
-            "paragraphSpacing": "{3ds.ft.semantics.font.style.paragraphSpacing.none}",
-            "paragraphIndent": "{3ds.ft.semantics.font.style.paragraphIndent.none}",
-            "textDecoration": "{3ds.ft.semantics.font.style.decoration.none}",
-            "textCase": "{3ds.ft.semantics.font.style.case.none}"
+            "fontFamily": "{semantics.font.family.label.default}",
+            "fontWeight": "{semantics.font.weight.label.md}",
+            "fontSize": "{semantics.font.size.label.md}px",
+            "lineHeight": "{semantics.font.style.lineHeight.label.default}",
+            "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+            "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+            "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+            "textDecoration": "{semantics.font.style.decoration.none}",
+            "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         },
         "lg": {
           "value": {
-            "fontFamily": "{3ds.ft.semantics.font.family.label.default}",
-            "fontWeight": "{3ds.ft.semantics.font.weight.label.lg}",
-            "fontSize": "{3ds.ft.semantics.font.size.label.lg}px",
-            "lineHeight": "{3ds.ft.semantics.font.style.lineHeight.label.default}",
-            "letterSpacing": "{3ds.ft.semantics.font.style.letterSpacing.default}",
-            "paragraphSpacing": "{3ds.ft.semantics.font.style.paragraphSpacing.none}",
-            "paragraphIndent": "{3ds.ft.semantics.font.style.paragraphIndent.none}",
-            "textDecoration": "{3ds.ft.semantics.font.style.decoration.none}",
-            "textCase": "{3ds.ft.semantics.font.style.case.none}"
+            "fontFamily": "{semantics.font.family.label.default}",
+            "fontWeight": "{semantics.font.weight.label.lg}",
+            "fontSize": "{semantics.font.size.label.lg}px",
+            "lineHeight": "{semantics.font.style.lineHeight.label.default}",
+            "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+            "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+            "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+            "textDecoration": "{semantics.font.style.decoration.none}",
+            "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         }
