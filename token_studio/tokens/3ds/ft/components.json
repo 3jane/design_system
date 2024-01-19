@@ -1246,6 +1246,98 @@
           "value": "{composites.font.label.lg}",
           "type": "typography"
         }
+      },
+      "elevation": {
+        "elevated": {
+          "enabled": {
+            "value": "{composites.elevation.1}",
+            "type": "boxShadow"
+          },
+          "hovered": {
+            "value": "{composites.elevation.2}",
+            "type": "boxShadow"
+          },
+          "focused": {
+            "value": "{composites.elevation.3}",
+            "type": "boxShadow"
+          },
+          "active": {
+            "value": "{composites.elevation.4}",
+            "type": "boxShadow"
+          }
+        },
+        "filled": {
+          "enabled": {
+            "value": "{composites.elevation.0}",
+            "type": "boxShadow"
+          },
+          "hovered": {
+            "value": "{composites.elevation.1}",
+            "type": "boxShadow"
+          },
+          "focused": {
+            "value": "{composites.elevation.2}",
+            "type": "boxShadow"
+          },
+          "active": {
+            "value": "{composites.elevation.3}",
+            "type": "boxShadow"
+          }
+        },
+        "tonal": {
+          "enabled": {
+            "value": "{composites.elevation.0}",
+            "type": "boxShadow"
+          },
+          "hovered": {
+            "value": "{composites.elevation.1}",
+            "type": "boxShadow"
+          },
+          "focused": {
+            "value": "{composites.elevation.2}",
+            "type": "boxShadow"
+          },
+          "active": {
+            "value": "{composites.elevation.3}",
+            "type": "boxShadow"
+          }
+        },
+        "outlined": {
+          "enabled": {
+            "value": "{composites.elevation.0}",
+            "type": "boxShadow"
+          },
+          "hovered": {
+            "value": "{composites.elevation.1}",
+            "type": "boxShadow"
+          },
+          "focused": {
+            "value": "{composites.elevation.2}",
+            "type": "boxShadow"
+          },
+          "active": {
+            "value": "{composites.elevation.3}",
+            "type": "boxShadow"
+          }
+        },
+        "text": {
+          "enabled": {
+            "value": "{composites.elevation.0}",
+            "type": "boxShadow"
+          },
+          "hovered": {
+            "value": "{composites.elevation.1}",
+            "type": "boxShadow"
+          },
+          "focused": {
+            "value": "{composites.elevation.2}",
+            "type": "boxShadow"
+          },
+          "active": {
+            "value": "{composites.elevation.3}",
+            "type": "boxShadow"
+          }
+        }
       }
     },
     "switch": {
