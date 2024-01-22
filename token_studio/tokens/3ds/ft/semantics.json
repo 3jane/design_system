@@ -1318,72 +1318,72 @@
       "weight": {
         "display": {
           "sm": {
-            "value": "{base.font.weight.regular}",
-            "type": "fontSizes"
+            "value": "{base.font.weight.medium}",
+            "type": "fontWeights"
           },
           "md": {
-            "value": "{base.font.weight.regular}",
-            "type": "fontSizes"
+            "value": "{base.font.weight.semiBold}",
+            "type": "fontWeights"
           },
           "lg": {
-            "value": "{base.font.weight.regular}",
-            "type": "fontSizes"
+            "value": "{base.font.weight.bold}",
+            "type": "fontWeights"
           }
         },
         "headline": {
           "sm": {
-            "value": "{base.font.weight.regular}",
-            "type": "fontSizes"
+            "value": "{base.font.weight.medium}",
+            "type": "fontWeights"
           },
           "md": {
-            "value": "{base.font.weight.regular}",
-            "type": "fontSizes"
+            "value": "{base.font.weight.semiBold}",
+            "type": "fontWeights"
           },
           "lg": {
-            "value": "{base.font.weight.regular}",
-            "type": "fontSizes"
+            "value": "{base.font.weight.bold}",
+            "type": "fontWeights"
           }
         },
         "title": {
           "sm": {
-            "value": "{base.font.weight.regular}",
-            "type": "fontSizes"
+            "value": "{base.font.weight.medium}",
+            "type": "fontWeights"
           },
           "md": {
-            "value": "{base.font.weight.regular}",
-            "type": "fontSizes"
+            "value": "{base.font.weight.semiBold}",
+            "type": "fontWeights"
           },
           "lg": {
-            "value": "{base.font.weight.regular}",
-            "type": "fontSizes"
+            "value": "{base.font.weight.bold}",
+            "type": "fontWeights"
           }
         },
         "body": {
           "sm": {
             "value": "{base.font.weight.regular}",
-            "type": "fontSizes"
+            "type": "fontWeights"
           },
           "md": {
             "value": "{base.font.weight.regular}",
-            "type": "fontSizes"
+            "type": "fontWeights"
           },
           "lg": {
-            "value": "{base.font.weight.regular}",
-            "type": "fontSizes"
+            "value": "{base.font.weight.medium}",
+            "type": "fontWeights"
           }
         },
         "label": {
           "sm": {
             "value": "{base.font.weight.regular}",
-            "type": "fontSizes"
+            "type": "fontWeights"
           },
           "md": {
-            "value": "{base.font.weight.regular}",
-            "type": "fontSizes"
+            "value": "{base.font.weight.medium}",
+            "type": "fontWeights"
           },
           "lg": {
-            "value": "{base.font.weight.regular}",
-            "type": "fontSizes"
+            "value": "{base.font.weight.semiBold}",
+            "type": "fontWeights"
           }
         }
       },
@@ -1394,21 +1394,21 @@
             "type": "fontSizes"
           },
           "md": {
-            "value": "{base.font.size.45px}",
+            "value": "{base.font.size.48px}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{base.font.size.58px}",
+            "value": "{base.font.size.60px}",
             "type": "fontSizes"
           }
         },
         "headline": {
           "sm": {
-            "value": "{base.font.size.24px}",
+            "value": "{base.font.size.20px}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{base.font.size.28px}",
+            "value": "{base.font.size.24px}",
             "type": "fontSizes"
           },
           "lg": {
@@ -1418,15 +1418,15 @@
         },
         "title": {
           "sm": {
-            "value": "{base.font.size.14px}",
+            "value": "{base.font.size.12px}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{base.font.size.16px}",
+            "value": "{base.font.size.14px}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{base.font.size.22px}",
+            "value": "{base.font.size.16px}",
             "type": "fontSizes"
           }
         },

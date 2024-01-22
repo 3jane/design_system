@@ -1153,7 +1153,7 @@
           },
           "icon": {
             "type": "sizing",
-            "value": "{semantics.size.height.iconLike.small}"
+            "value": "{semantics.size.height.iconLike.medium}"
           },
           "radius": {
             "type": "borderRadius",
@@ -1181,7 +1181,7 @@
           },
           "icon": {
             "type": "sizing",
-            "value": "{semantics.size.height.iconLike.large}"
+            "value": "{semantics.size.height.iconLike.medium}"
           },
           "radius": {
             "type": "borderRadius",
@@ -1197,7 +1197,7 @@
           },
           "padding": {
             "type": "spacing",
-            "value": "{semantics.space.2xl}"
+            "value": "{semantics.space.3xl}"
           },
           "gap": {
             "type": "spacing",
@@ -1235,15 +1235,15 @@
       },
       "font": {
         "small": {
-          "value": "{composites.font.label.sm}",
+          "value": "{composites.font.title.md}",
           "type": "typography"
         },
         "medium": {
-          "value": "{composites.font.label.md}",
+          "value": "{composites.font.title.md}",
           "type": "typography"
         },
         "large": {
-          "value": "{composites.font.label.lg}",
+          "value": "{composites.font.title.md}",
           "type": "typography"
         }
       },
