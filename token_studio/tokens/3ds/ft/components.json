@@ -1826,25 +1826,29 @@
         }
       },
       "size": {
-        "container": {
+        "stateLayer": {
           "type": "sizing",
           "value": "40"
         },
-        "box": {
+        "container": {
           "type": "sizing",
           "value": "18"
         },
-        "icon": {
-          "type": "sizing",
-          "value": "18"
-        },
-        "radius": {
+        "containerRadius": {
           "type": "borderRadius",
           "value": "{semantics.size.radius.xs}"
         },
+        "stateLayerRadius": {
+          "type": "borderRadius",
+          "value": "{semantics.size.radius.full}"
+        },
         "border": {
           "type": "borderWidth",
-          "value": "0"
+          "value": "2"
+        },
+        "icon": {
+          "value": "{semantics.size.height.iconLike.large}",
+          "type": "sizing"
         }
       }
     }
