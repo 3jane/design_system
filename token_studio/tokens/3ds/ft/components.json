@@ -454,11 +454,11 @@
           "primary": {
             "fill": {
               "type": "color",
-              "value": "{semantics.color.theme.current.primary.container}"
+              "value": "{semantics.color.theme.default.palette.primary.95}"
             },
             "text": {
               "type": "color",
-              "value": "{semantics.color.theme.current.primary.onContainer}"
+              "value": "{semantics.color.theme.default.palette.primary.25}"
             },
             "border": {
               "type": "color",
@@ -480,11 +480,11 @@
           "secondary": {
             "fill": {
               "type": "color",
-              "value": "{semantics.color.theme.current.secondary.container}"
+              "value": "{semantics.color.theme.default.palette.secondary.95}"
             },
             "text": {
               "type": "color",
-              "value": "{semantics.color.theme.current.secondary.onContainer}"
+              "value": "{semantics.color.theme.default.palette.secondary.25}"
             },
             "border": {
               "type": "color",
@@ -506,11 +506,11 @@
           "neutral": {
             "fill": {
               "type": "color",
-              "value": "{semantics.color.theme.current.neutral.container}"
+              "value": "{semantics.color.theme.default.palette.neutral.95}"
             },
             "text": {
               "type": "color",
-              "value": "{semantics.color.theme.current.neutral.onContainer}"
+              "value": "{semantics.color.theme.default.palette.neutral.25}"
             },
             "border": {
               "type": "color",
@@ -532,11 +532,11 @@
           "success": {
             "fill": {
               "type": "color",
-              "value": "{semantics.color.theme.current.success.container}"
+              "value": "{semantics.color.theme.default.palette.success.95}"
             },
             "text": {
               "type": "color",
-              "value": "{semantics.color.theme.current.success.onContainer}"
+              "value": "{semantics.color.theme.default.palette.success.25}"
             },
             "border": {
               "type": "color",
@@ -558,11 +558,11 @@
           "error": {
             "fill": {
               "type": "color",
-              "value": "{semantics.color.theme.current.error.container}"
+              "value": "{semantics.color.theme.default.palette.error.95}"
             },
             "text": {
               "type": "color",
-              "value": "{semantics.color.theme.current.error.onContainer}"
+              "value": "{semantics.color.theme.default.palette.error.25}"
             },
             "border": {
               "type": "color",
@@ -584,11 +584,11 @@
           "warning": {
             "fill": {
               "type": "color",
-              "value": "{semantics.color.theme.current.warning.container}"
+              "value": "{semantics.color.theme.default.palette.warning.95}"
             },
             "text": {
               "type": "color",
-              "value": "{semantics.color.theme.current.warning.onContainer}"
+              "value": "{semantics.color.theme.default.palette.warning.25}"
             },
             "border": {
               "type": "color",
@@ -610,11 +610,11 @@
           "info": {
             "fill": {
               "type": "color",
-              "value": "{semantics.color.theme.current.info.container}"
+              "value": "{semantics.color.theme.default.palette.info.95}"
             },
             "text": {
               "type": "color",
-              "value": "{semantics.color.theme.current.info.onContainer}"
+              "value": "{semantics.color.theme.default.palette.info.25}"
             },
             "border": {
               "type": "color",
@@ -636,11 +636,11 @@
           "digital": {
             "fill": {
               "type": "color",
-              "value": "{semantics.color.theme.current.digital.container}"
+              "value": "{semantics.color.theme.default.palette.digital.95}"
             },
             "text": {
               "type": "color",
-              "value": "{semantics.color.theme.current.digital.onContainer}"
+              "value": "{semantics.color.theme.default.palette.digital.25}"
             },
             "border": {
               "type": "color",
@@ -1235,15 +1235,15 @@
       },
       "font": {
         "small": {
-          "value": "{composites.font.label.sm}",
+          "value": "{composites.font.title.md}",
           "type": "typography"
         },
         "medium": {
-          "value": "{composites.font.label.md}",
+          "value": "{composites.font.title.md}",
           "type": "typography"
         },
         "large": {
-          "value": "{composites.font.label.lg}",
+          "value": "{composites.font.title.md}",
           "type": "typography"
         }
       },

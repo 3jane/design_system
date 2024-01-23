@@ -315,7 +315,7 @@
         "sm": {
           "value": {
             "fontFamily": "{semantics.font.family.body.default}",
-            "fontWeight": "{semantics.font.weight.body.sm}",
+            "fontWeight": "{semantics.font.weight.body.md}",
             "fontSize": "{semantics.font.size.body.sm}",
             "lineHeight": "{semantics.font.style.lineHeight.body.default}",
             "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -343,7 +343,7 @@
         "lg": {
           "value": {
             "fontFamily": "{semantics.font.family.body.default}",
-            "fontWeight": "{semantics.font.weight.body.lg}",
+            "fontWeight": "{semantics.font.weight.body.md}",
             "fontSize": "{semantics.font.size.body.lg}",
             "lineHeight": "{semantics.font.style.lineHeight.body.default}",
             "letterSpacing": "{semantics.font.style.letterSpacing.default}",

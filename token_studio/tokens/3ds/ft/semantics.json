@@ -623,16 +623,8 @@
                 "value": "#000000",
                 "type": "color"
               },
-              "5": {
-                "value": "#00150d",
-                "type": "color"
-              },
               "10": {
                 "value": "#002116",
-                "type": "color"
-              },
-              "15": {
-                "value": "#002c1f",
                 "type": "color"
               },
               "20": {
@@ -697,16 +689,8 @@
                 "value": "#000000",
                 "type": "color"
               },
-              "5": {
-                "value": "#1d0d00",
-                "type": "color"
-              },
               "10": {
                 "value": "#2b1700",
-                "type": "color"
-              },
-              "15": {
-                "value": "#3a2000",
                 "type": "color"
               },
               "20": {
@@ -771,16 +755,8 @@
                 "value": "#000000",
                 "type": "color"
               },
-              "5": {
-                "value": "#05004c",
-                "type": "color"
-              },
               "10": {
                 "value": "#0b006b",
-                "type": "color"
-              },
-              "15": {
-                "value": "#110088",
                 "type": "color"
               },
               "20": {
@@ -853,8 +829,16 @@
                 "value": "#002c72",
                 "type": "color"
               },
+              "25": {
+                "value": "#003689",
+                "type": "color"
+              },
               "30": {
                 "value": "#0040a0",
+                "type": "color"
+              },
+              "35": {
+                "value": "#004bb8",
                 "type": "color"
               },
               "40": {
@@ -883,6 +867,10 @@
               },
               "95": {
                 "value": "#eef0ff",
+                "type": "color"
+              },
+              "98": {
+                "value": "#faf8ff",
                 "type": "color"
               },
               "99": {
@@ -1360,7 +1348,7 @@
         },
         "body": {
           "sm": {
-            "value": "{base.font.weight.regular}",
+            "value": "{base.font.weight.light}",
             "type": "fontWeights"
           },
           "md": {
