@@ -24,9 +24,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "secondary": {
@@ -50,9 +50,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "neutral": {
@@ -76,9 +76,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "success": {
@@ -102,9 +102,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "error": {
@@ -128,9 +128,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "warning": {
@@ -154,9 +154,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "info": {
@@ -180,9 +180,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "digital": {
@@ -206,9 +206,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "disabled": {
@@ -248,9 +248,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "secondary": {
@@ -274,9 +274,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "neutral": {
@@ -300,9 +300,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "success": {
@@ -326,9 +326,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "error": {
@@ -352,9 +352,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "warning": {
@@ -378,9 +378,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "info": {
@@ -404,9 +404,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "digital": {
@@ -430,9 +430,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "disabled": {
@@ -472,9 +472,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "secondary": {
@@ -498,9 +498,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "neutral": {
@@ -524,9 +524,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "success": {
@@ -550,9 +550,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "error": {
@@ -576,9 +576,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "warning": {
@@ -602,9 +602,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "info": {
@@ -628,9 +628,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "digital": {
@@ -654,9 +654,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "disabled": {
@@ -696,9 +696,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "secondary": {
@@ -722,9 +722,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.secondary.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.secondary.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.secondary.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "neutral": {
@@ -748,9 +748,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.neutral.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.neutral.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.neutral.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "success": {
@@ -774,9 +774,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.success.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.success.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.success.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "error": {
@@ -800,9 +800,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "warning": {
@@ -826,9 +826,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.warning.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.warning.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.warning.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "info": {
@@ -852,9 +852,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.info.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.info.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.info.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "digital": {
@@ -878,9 +878,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.digital.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.digital.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.digital.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "disabled": {
@@ -920,9 +920,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "secondary": {
@@ -946,9 +946,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.secondary.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.secondary.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.secondary.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "neutral": {
@@ -972,9 +972,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.neutral.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.neutral.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.neutral.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "success": {
@@ -998,9 +998,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.success.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.success.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.success.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "error": {
@@ -1024,9 +1024,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "warning": {
@@ -1050,9 +1050,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.warning.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.warning.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.warning.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "info": {
@@ -1076,9 +1076,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.info.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.info.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.info.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "digital": {
@@ -1102,9 +1102,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.digital.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.digital.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.digital.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "disabled": {
@@ -1153,7 +1153,7 @@
           },
           "icon": {
             "type": "sizing",
-            "value": "{semantics.size.height.iconLike.medium}"
+            "value": "{semantics.size.height.iconLike.small}"
           },
           "radius": {
             "type": "borderRadius",
@@ -1181,7 +1181,7 @@
           },
           "icon": {
             "type": "sizing",
-            "value": "{semantics.size.height.iconLike.medium}"
+            "value": "{semantics.size.height.iconLike.large}"
           },
           "radius": {
             "type": "borderRadius",
@@ -1197,7 +1197,7 @@
           },
           "padding": {
             "type": "spacing",
-            "value": "{semantics.space.3xl}"
+            "value": "{semantics.space.2xl}"
           },
           "gap": {
             "type": "spacing",
@@ -1235,15 +1235,15 @@
       },
       "font": {
         "small": {
-          "value": "{composites.font.title.md}",
+          "value": "{composites.font.label.sm}",
           "type": "typography"
         },
         "medium": {
-          "value": "{composites.font.title.md}",
+          "value": "{composites.font.label.md}",
           "type": "typography"
         },
         "large": {
-          "value": "{composites.font.title.md}",
+          "value": "{composites.font.label.lg}",
           "type": "typography"
         }
       },
@@ -1368,9 +1368,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "secondary": {
@@ -1398,9 +1398,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.secondary.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.secondary.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.secondary.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "neutral": {
@@ -1428,9 +1428,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.neutral.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.neutral.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.neutral.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "success": {
@@ -1458,9 +1458,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.success.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.success.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.success.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "error": {
@@ -1488,9 +1488,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "warning": {
@@ -1518,9 +1518,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.warning.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.warning.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.warning.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "info": {
@@ -1548,9 +1548,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.info.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.info.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.info.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "digital": {
@@ -1578,9 +1578,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.digital.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.digital.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.digital.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "disabled": {
@@ -1628,9 +1628,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.action.hovered}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.pressed}"
+              "value": "{semantics.color.theme.current.action.interacted}"
             }
           },
           "disabled": {
@@ -1710,9 +1710,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "error": {
@@ -1736,9 +1736,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "disabled": {
@@ -1778,9 +1778,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.primary.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "error": {
@@ -1804,9 +1804,9 @@
               "type": "color",
               "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+              "value": "rgba( {semantics.color.theme.default.mode.light.error.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
             }
           },
           "disabled": {

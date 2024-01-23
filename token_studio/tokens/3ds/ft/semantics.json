@@ -182,9 +182,9 @@
               "type": "color",
               "value": "{semantics.color.theme.default.mode.light.action.selected}"
             },
-            "pressed": {
+            "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.default.mode.light.action.pressed}"
+              "value": "{semantics.color.theme.default.mode.light.action.interacted}"
             }
           },
           "common": {
@@ -214,8 +214,8 @@
               "value": "{semantics.color.theme.default.mode.light.opacity.selected}",
               "type": "color"
             },
-            "pressed": {
-              "value": "{semantics.color.theme.default.mode.light.opacity.pressed}",
+            "interacted": {
+              "value": "{semantics.color.theme.default.mode.light.opacity.interacted}",
               "type": "color"
             }
           }
@@ -1076,9 +1076,9 @@
                   "type": "color",
                   "value": "rgba( {semantics.color.theme.default.mode.light.action.color}, {semantics.color.theme.default.mode.light.opacity.selected} )"
                 },
-                "pressed": {
+                "interacted": {
                   "type": "color",
-                  "value": "rgba( {semantics.color.theme.default.mode.light.action.color}, {semantics.color.theme.default.mode.light.opacity.pressed} )"
+                  "value": "rgba( {semantics.color.theme.default.mode.light.action.color}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
                 }
               },
               "common": {
@@ -1108,7 +1108,7 @@
                   "value": "14%",
                   "type": "color"
                 },
-                "pressed": {
+                "interacted": {
                   "value": "14%",
                   "type": "color"
                 }

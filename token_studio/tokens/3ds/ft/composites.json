@@ -2,239 +2,180 @@
   "composites": {
     "elevation": {
       "0": {
-        "value": "{composites.shadow.default.none}",
+        "value": "{composites.shadow.none}",
         "type": "boxShadow"
       },
       "1": {
-        "value": "{composites.shadow.default.xs}",
+        "value": "{composites.shadow.xs}",
         "type": "boxShadow"
       },
       "2": {
-        "value": "{composites.shadow.default.sm}",
+        "value": "{composites.shadow.sm}",
         "type": "boxShadow"
       },
       "3": {
-        "value": "{composites.shadow.default.md}",
+        "value": "{composites.shadow.md}",
         "type": "boxShadow"
       },
       "4": {
-        "value": "{composites.shadow.default.lg}",
+        "value": "{composites.shadow.lg}",
         "type": "boxShadow"
       },
       "5": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       },
       "6": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       },
       "7": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       },
       "8": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       },
       "9": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       },
       "10": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       },
       "11": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       },
       "12": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       },
       "13": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       },
       "14": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       },
       "15": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       },
       "16": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       },
       "17": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       },
       "18": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       },
       "19": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       },
       "20": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       },
       "21": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       },
       "22": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       },
       "23": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       },
       "24": {
-        "value": "{composites.shadow.default.xl}",
+        "value": "{composites.shadow.xl}",
         "type": "boxShadow"
       }
     },
     "shadow": {
-      "default": {
-        "none": {
-          "value": {
-            "x": "0",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "#000000",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
+      "none": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0)",
+          "type": "dropShadow"
         },
-        "xs": {
-          "value": {
-            "x": "0",
-            "y": "1",
-            "blur": "2",
-            "spread": "0",
-            "color": "rgba(0, 0, 0, 0.1)",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "sm": {
-          "value": [
-            {
-              "color": "rgba(0, 0, 0, 0.1)",
-              "type": "dropShadow",
-              "x": "0",
-              "y": "2",
-              "blur": "4",
-              "spread": "0"
-            }
-          ],
-          "type": "boxShadow"
-        },
-        "md": {
-          "value": [
-            {
-              "color": "rgba(0, 0, 0, 0.1)",
-              "type": "dropShadow",
-              "x": "0",
-              "y": "3",
-              "blur": "6",
-              "spread": "0"
-            }
-          ],
-          "type": "boxShadow"
-        },
-        "lg": {
-          "value": [
-            {
-              "color": "rgba(0, 0, 0, 0.1)",
-              "type": "dropShadow",
-              "x": "0",
-              "y": "4",
-              "blur": "8",
-              "spread": "0"
-            }
-          ],
-          "type": "boxShadow"
-        },
-        "xl": {
-          "value": [
-            {
-              "color": "rgba(0, 0, 0, 0.1)",
-              "type": "dropShadow",
-              "x": "0",
-              "y": "8",
-              "blur": "12",
-              "spread": "0"
-            }
-          ],
-          "type": "boxShadow"
-        }
+        "type": "boxShadow"
       },
-      "centered": {
-        "xs": {
-          "value": {
-            "color": "#0000000_d",
+      "xs": {
+        "value": {
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.1)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "sm": {
+        "value": [
+          {
+            "color": "rgba(0, 0, 0, 0.1)",
             "type": "dropShadow",
             "x": "0",
-            "y": "0",
+            "y": "2",
             "blur": "4",
             "spread": "0"
-          },
-          "type": "boxShadow"
-        },
-        "sm": {
-          "value": {
-            "color": "#00000026",
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "md": {
+        "value": [
+          {
+            "color": "rgba(0, 0, 0, 0.1)",
             "type": "dropShadow",
             "x": "0",
-            "y": "0",
-            "blur": "4",
+            "y": "3",
+            "blur": "6",
             "spread": "0"
-          },
-          "type": "boxShadow"
-        },
-        "md": {
-          "value": {
-            "color": "#00000026",
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "lg": {
+        "value": [
+          {
+            "color": "rgba(0, 0, 0, 0.1)",
             "type": "dropShadow",
             "x": "0",
-            "y": "0",
+            "y": "4",
+            "blur": "8",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "xl": {
+        "value": [
+          {
+            "color": "rgba(0, 0, 0, 0.1)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "8",
             "blur": "12",
-            "spread": "-2"
-          },
-          "type": "boxShadow"
-        },
-        "lg": {
-          "value": {
-            "color": "#00000026",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "0",
-            "blur": "16",
             "spread": "0"
-          },
-          "type": "boxShadow"
-        },
-        "xl": {
-          "value": {
-            "color": "#00000026",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "0",
-            "blur": "30",
-            "spread": "0"
-          },
-          "type": "boxShadow"
-        }
+          }
+        ],
+        "type": "boxShadow"
       }
     },
     "font": {
