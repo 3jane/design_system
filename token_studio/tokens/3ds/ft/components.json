@@ -470,11 +470,11 @@
             },
             "hovered": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.default.palette.primary.95}"
             },
             "interacted": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.interacted}"
+              "value": "{semantics.color.theme.default.palette.primary.90}"
             }
           },
           "secondary": {
@@ -496,7 +496,7 @@
             },
             "hovered": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.default.palette.secondary.90}"
             },
             "interacted": {
               "type": "color",
@@ -522,7 +522,7 @@
             },
             "hovered": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.default.palette.neutral.90}"
             },
             "interacted": {
               "type": "color",
@@ -548,7 +548,7 @@
             },
             "hovered": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.default.palette.success.90}"
             },
             "interacted": {
               "type": "color",
@@ -574,7 +574,7 @@
             },
             "hovered": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.default.palette.error.90}"
             },
             "interacted": {
               "type": "color",
@@ -600,7 +600,7 @@
             },
             "hovered": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.default.palette.warning.90}"
             },
             "interacted": {
               "type": "color",
@@ -626,7 +626,7 @@
             },
             "hovered": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.default.palette.info.90}"
             },
             "interacted": {
               "type": "color",
@@ -652,7 +652,7 @@
             },
             "hovered": {
               "type": "color",
-              "value": "{semantics.color.theme.current.action.hovered}"
+              "value": "{semantics.color.theme.default.palette.digital.90}"
             },
             "interacted": {
               "type": "color",
@@ -1250,19 +1250,19 @@
       "elevation": {
         "elevated": {
           "enabled": {
-            "value": "{composites.elevation.1}",
-            "type": "boxShadow"
-          },
-          "hovered": {
             "value": "{composites.elevation.2}",
             "type": "boxShadow"
           },
+          "hovered": {
+            "value": "{composites.elevation.1}",
+            "type": "boxShadow"
+          },
           "focused": {
-            "value": "{composites.elevation.3}",
+            "value": "{composites.elevation.0}",
             "type": "boxShadow"
           },
           "active": {
-            "value": "{composites.elevation.4}",
+            "value": "{composites.elevation.0}",
             "type": "boxShadow"
           }
         },
@@ -1276,11 +1276,11 @@
             "type": "boxShadow"
           },
           "focused": {
-            "value": "{composites.elevation.2}",
+            "value": "{composites.elevation.0}",
             "type": "boxShadow"
           },
           "active": {
-            "value": "{composites.elevation.3}",
+            "value": "{composites.elevation.0}",
             "type": "boxShadow"
           }
         },
@@ -1294,11 +1294,11 @@
             "type": "boxShadow"
           },
           "focused": {
-            "value": "{composites.elevation.2}",
+            "value": "{composites.elevation.0}",
             "type": "boxShadow"
           },
           "active": {
-            "value": "{composites.elevation.3}",
+            "value": "{composites.elevation.0}",
             "type": "boxShadow"
           }
         },
@@ -1312,11 +1312,11 @@
             "type": "boxShadow"
           },
           "focused": {
-            "value": "{composites.elevation.2}",
+            "value": "{composites.elevation.0}",
             "type": "boxShadow"
           },
           "active": {
-            "value": "{composites.elevation.3}",
+            "value": "{composites.elevation.0}",
             "type": "boxShadow"
           }
         },
@@ -1326,15 +1326,15 @@
             "type": "boxShadow"
           },
           "hovered": {
-            "value": "{composites.elevation.1}",
-            "type": "boxShadow"
-          },
-          "focused": {
             "value": "{composites.elevation.2}",
             "type": "boxShadow"
           },
+          "focused": {
+            "value": "{composites.elevation.0}",
+            "type": "boxShadow"
+          },
           "active": {
-            "value": "{composites.elevation.3}",
+            "value": "{composites.elevation.0}",
             "type": "boxShadow"
           }
         }
