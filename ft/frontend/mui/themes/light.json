@@ -1,0 +1,959 @@
+{
+  "palette": {
+    "common": {
+      "white": "#ffffff",
+      "black": "#000000",
+      "transparent": "rgba(0, 0, 0, 0%)"
+    },
+    "primary": {
+      "main": "#616dd6",
+      "onMain": "#ffffff",
+      "container": "#dfe0ff",
+      "onContainer": "#000000"
+    },
+    "secondary": {
+      "main": "#74758b",
+      "onMain": "#ffffff",
+      "container": "#e0e0f9",
+      "onContainer": "#000000"
+    },
+    "neutral": {
+      "main": "#777680",
+      "onMain": "#ffffff",
+      "container": "#e3e1ec",
+      "onContainer": "#000000"
+    },
+    "success": {
+      "main": "#268751",
+      "onMain": "#ffffff",
+      "container": "#98f7b6",
+      "onContainer": "#000000"
+    },
+    "error": {
+      "main": "#de3730",
+      "onMain": "#ffffff",
+      "container": "#ffdad6",
+      "onContainer": "#000000"
+    },
+    "warning": {
+      "main": "#aa6800",
+      "onMain": "#ffffff",
+      "container": "#ffddbb",
+      "onContainer": "#000000"
+    },
+    "info": {
+      "main": "#6462fb",
+      "onMain": "#ffffff",
+      "container": "#e2dfff",
+      "onContainer": "#000000"
+    },
+    "digital": {
+      "main": "#1f6ef9",
+      "onMain": "#ffffff",
+      "container": "#dae2ff",
+      "onContainer": "#000000"
+    },
+    "disabled": {
+      "main": "#777680",
+      "onMain": "#ffffff",
+      "container": "#e3e1ec",
+      "onContainer": "#000000"
+    }
+  },
+  "shadows": [
+    "0 0 0 0 rgba(26, 27, 35, 0)",
+    "0 1px 3px 0 rgba(26, 27, 35, 0.1)",
+    "0 2px 4px 0 rgba(26, 27, 35, 0.1)",
+    "0 4px 8px 0 rgba(26, 27, 35, 0.1)",
+    "0 6px 12px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)",
+    "0 8px 16px 0 rgba(26, 27, 35, 0.1)"
+  ],
+  "components": {
+    "MuiButton": {
+      "styleOverrides": {
+        "root": {
+          "textTransform": "none",
+          "&.MuiButton-sizeSmall": {},
+          "&.MuiButton-sizeMedium": {},
+          "&.MuiButton-sizeLarge": {}
+        }
+      },
+      "variants": [
+        {
+          "props": {
+            "variant": "elevated",
+            "color": "primary"
+          },
+          "style": {
+            "boxShadow": "0 2px 4px 0 rgba(26, 27, 35, 0.1)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "elevated",
+            "color": "secondary"
+          },
+          "style": {
+            "boxShadow": "0 2px 4px 0 rgba(26, 27, 35, 0.1)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "elevated",
+            "color": "neutral"
+          },
+          "style": {
+            "boxShadow": "0 2px 4px 0 rgba(26, 27, 35, 0.1)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "elevated",
+            "color": "success"
+          },
+          "style": {
+            "boxShadow": "0 2px 4px 0 rgba(26, 27, 35, 0.1)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "elevated",
+            "color": "error"
+          },
+          "style": {
+            "boxShadow": "0 2px 4px 0 rgba(26, 27, 35, 0.1)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "elevated",
+            "color": "warning"
+          },
+          "style": {
+            "boxShadow": "0 2px 4px 0 rgba(26, 27, 35, 0.1)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "elevated",
+            "color": "info"
+          },
+          "style": {
+            "boxShadow": "0 2px 4px 0 rgba(26, 27, 35, 0.1)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "elevated",
+            "color": "digital"
+          },
+          "style": {
+            "boxShadow": "0 2px 4px 0 rgba(26, 27, 35, 0.1)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "elevated",
+            "color": "disabled"
+          },
+          "style": {
+            "boxShadow": "0 2px 4px 0 rgba(26, 27, 35, 0.1)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "filled",
+            "color": "primary"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "filled",
+            "color": "secondary"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "filled",
+            "color": "neutral"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "filled",
+            "color": "success"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "filled",
+            "color": "error"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "filled",
+            "color": "warning"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "filled",
+            "color": "info"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "filled",
+            "color": "digital"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "filled",
+            "color": "disabled"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "tonal",
+            "color": "primary"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "tonal",
+            "color": "secondary"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "tonal",
+            "color": "neutral"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "tonal",
+            "color": "success"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "tonal",
+            "color": "error"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "tonal",
+            "color": "warning"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "tonal",
+            "color": "info"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "tonal",
+            "color": "digital"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "tonal",
+            "color": "disabled"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "outlined",
+            "color": "primary"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "outlined",
+            "color": "secondary"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "outlined",
+            "color": "neutral"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "outlined",
+            "color": "success"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "outlined",
+            "color": "error"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "outlined",
+            "color": "warning"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "outlined",
+            "color": "info"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "outlined",
+            "color": "digital"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "outlined",
+            "color": "disabled"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 1px 3px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "text",
+            "color": "primary"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 2px 4px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "text",
+            "color": "secondary"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 2px 4px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "text",
+            "color": "neutral"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 2px 4px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "text",
+            "color": "success"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 2px 4px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "text",
+            "color": "error"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 2px 4px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "text",
+            "color": "warning"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 2px 4px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "text",
+            "color": "info"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 2px 4px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "text",
+            "color": "digital"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 2px 4px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        },
+        {
+          "props": {
+            "variant": "text",
+            "color": "disabled"
+          },
+          "style": {
+            "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)",
+            "&:hover": {
+              "boxShadow": "0 2px 4px 0 rgba(26, 27, 35, 0.1)"
+            },
+            "&:focus": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&:active": {
+              "boxShadow": "0 0 0 0 rgba(26, 27, 35, 0)"
+            },
+            "&.MuiButton-icon": {}
+          }
+        }
+      ]
+    }
+  }
+}

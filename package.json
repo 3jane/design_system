@@ -1,0 +1,21 @@
+{
+  "name": "design_system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tokens-studio/sd-transforms": "^0.13.4",
+    "esbuild": "^0.19.12",
+    "lodash": "^4.17.21",
+    "lodash.product": "^18.10.0",
+    "minimist": "^1.2.8",
+    "style-dictionary": "^4.0.0-prerelease.9"
+  }
+}
