@@ -1,4 +1,5 @@
-import {CreateComponentFn} from "./createComponent/base";
+import {ComponentType, createComponent as createComponentMock, CreateComponentFn} from "./createComponent/base";
+import {createButton} from "./createComponent/createButton";
 
 interface Variant {
     name: string;
@@ -6,26 +7,33 @@ interface Variant {
 }
 
 interface SwatchParams {
-    componentName: string;
+    componentType: ComponentType;
     tokens: Object;
     variants: Variant[];
-    createComponent: CreateComponentFn;
 }
 
-type CreateSwatchFn = (frame: PageNode | FrameNode, params: SwatchParams) => void;
+type CreateSwatchFn = (params: SwatchParams) => void;
 
 const createComponentSwatch: CreateSwatchFn = (
-    frame,
     {
-        componentName,
+        componentType,
         tokens,
         variants,
-        createComponent
     }: SwatchParams
 ): void => {
     if (figma.editorType === "figma") {
+
+        let createComponent
+        switch (componentType) {
+            case ComponentType.Button:
+                createComponent = createButton;
+                break;
+            default:
+                createComponent = createComponentMock
+        }
+
         let containerFrame = figma.createFrame();
-        containerFrame.name = `${componentName} Swatch`;
+        containerFrame.name = `${componentType} Swatch`;
         containerFrame.layoutMode = "VERTICAL";
         containerFrame.primaryAxisSizingMode = "AUTO";
         containerFrame.counterAxisSizingMode = "AUTO";
@@ -37,7 +45,7 @@ const createComponentSwatch: CreateSwatchFn = (
 
         createVariantFrames(containerFrame, createComponent, tokens, variants, {}, 0);
 
-        frame.appendChild(containerFrame);
+        figma.currentPage.appendChild(containerFrame);
         figma.viewport.scrollAndZoomIntoView([containerFrame]);
         // figma.closePlugin();
     }

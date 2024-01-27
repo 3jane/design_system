@@ -1,23 +1,18 @@
-import {useState} from "react";
-import * as Networker from "monorepo-networker";
 import {NetworkMessages} from "@common/network/messages";
 
 import {Button} from "@ui/components/Button";
 import styles from './main.module.css';
 
-import {createComponentSwatch} from "../generators/createComponentSwatch"
-import {createButton, TDSButtonTokens, TDSButtonVariant} from "../generators/createComponent/createButton"
-
 import tokens from "../../../../../build/json/tokens.json"
+import {ComponentType} from "../generators/createComponent/base";
 
 const variants = [
-    {name: 'variant', values: ["elevated", "filled"]},
-    {name: 'interaction', values: ["primary", "secondary"]},
-    {name: 'color', values: ["small", "medium", "large"]},
-    {name: 'size', values: ['enabled', 'disabled']},
+    {name: 'type', values: ["filled", "tonal"]},
+    {name: 'color', values: ["primary", "secondary", "error", 'success', 'warning', 'info']},
+    {name: 'size', values: ["small", "medium", "large"]},
+    {name: 'interaction', values: ['enabled', 'hovered']},
 ]
 
-const buttonTokens = TDSButtonTokens.fromJSON(tokens.components.button)
 
 function App() {
     return (
@@ -27,14 +22,9 @@ function App() {
                 className={styles.button}
                 onClick={() =>
                     NetworkMessages.CREATE_SWATCH.send({
-                        frame: figma.currentPage,
-                        fn: createComponentSwatch,
-                        params: {
-                            componentName: 'Button',
-                            tokens: tokens,
-                            variants: variants,
-                            createComponent: createButton
-                        }
+                        componentType: ComponentType.Button,
+                        tokens: tokens.components.button,
+                        variants: variants,
                     })
                 }
             >

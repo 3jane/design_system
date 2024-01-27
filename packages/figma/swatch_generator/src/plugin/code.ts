@@ -14,6 +14,8 @@ async function bootstrap() {
     });
   }
 
+  await figma.loadFontAsync({ family: "Inter", style: "Regular" })
+
   console.log("Bootstrapped @", Networker.Side.current.getName());
 
   NetworkMessages.HELLO_UI.send({ text: "Hey there, UI!" });

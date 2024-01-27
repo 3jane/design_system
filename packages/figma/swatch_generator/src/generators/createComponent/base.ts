@@ -1,5 +1,8 @@
 import {JSONObject} from "@common/types/json";
 
+enum ComponentType {
+    Button = 'Button'
+}
 abstract class TDSComponentVariant {
     type?: string;
     color?: string;
@@ -28,9 +31,15 @@ interface CreateComponentFn {
     (tokens: TDSComponentTokens, variant: TDSComponentVariant): FrameNode | ComponentNode;
 }
 
+const createComponent: CreateComponentFn = (tokens, variant) => {
+    throw Error('Must be extended by a specific component')
+}
+
 export {
+    createComponent,
     CreateComponentFn,
     TDSComponent,
     TDSComponentTokens,
     TDSComponentVariant,
+    ComponentType
 }

@@ -1,7 +1,8 @@
 import {CreateComponentFn, TDSComponent, TDSComponentTokens, TDSComponentVariant} from "./base";
 import {JSON, JSONObject} from "@common/types/json";
-import { get } from 'lodash-es';
+import {get} from 'lodash-es';
 
+import {hexToFigmaRGB} from "@figma-plugin/helpers";
 
 class TDSButtonVariant extends TDSComponentVariant {
     constructor(
@@ -11,6 +12,28 @@ class TDSButtonVariant extends TDSComponentVariant {
         public size: string
     ) {
         super()
+    }
+
+    static fromJSON(json: any): TDSButtonVariant {
+        // Validate specific to TDSButtonVariant structure
+        if (
+            !json || typeof json !== 'object'
+            || !json.type || !json.color || !json.interaction || !json.size
+        ) {
+            console.log(json)
+            throw new Error("Invalid JSON data for TDSButtonVariant");
+        }
+
+        const instance = new TDSButtonVariant(
+            json.type,
+            json.color,
+            json.interaction,
+            json.size
+        );
+        Object.assign(instance, json);
+        // Here, you can add more specific validations for ButtonTokens
+
+        return instance;
     }
 }
 
@@ -29,6 +52,7 @@ class TDSButtonTokens extends TDSComponentTokens {
     static fromJSON(json: any): TDSButtonTokens {
         // Validate specific to ButtonTokens structure
         if (!json || typeof json !== 'object' || !json.container || !json.icon || !json.label) {
+            console.log(json)
             throw new Error("Invalid JSON data for ButtonTokens");
         }
 
@@ -58,32 +82,24 @@ const createButton: CreateButtonFn = (
     tokens,
     variant
 ): FrameNode | ComponentNode => {
-    if (~(tokens instanceof TDSButtonTokens)) {
-        throw Error('Expected (tokens instanceof TDSButtonTokens) === true')
-    }
-    if (~(variant instanceof TDSButtonVariant)) {
-        throw Error('Expected (variant instanceof TDSButtonVariant) === true')
-    }
-
-    const {
-        type,
-        color,
-        interaction,
-        size
-    } = variant as TDSButtonVariant
-    const {
-        container,
-        label,
-        icon
-    } = tokens as TDSButtonTokens
+    const {container, label, icon}: TDSButtonTokens = TDSButtonTokens.fromJSON(tokens)
+    const {type, color, interaction, size}: TDSButtonVariant = TDSButtonVariant.fromJSON(variant)
 
     const button = figma.createFrame();
     button.name = `button_${type}_${color}_${interaction}_${size}`;
 
+    console.log(container)
+    console.log(type, color, interaction)
+
+
     // Set color
     button.fills = [{
         type: 'SOLID',
-        color: get(container, `fillColor.${type}.${color}.${interaction}`) as any
+        color: (() => {
+            const hex = get(container, `fillColor.${type}.${color}.${interaction}`) as any
+            // console.log(hex)
+            return hexToFigmaRGB(hex)
+        })()
     }];
 
     // Enable autolayout
@@ -92,16 +108,30 @@ const createButton: CreateButtonFn = (
     button.counterAxisSizingMode = "FIXED"; // Fixed height
     button.counterAxisAlignItems = "CENTER"; // Center items vertically
 
+    const gap = parseInt(get(container, `gap.${size}`) as string, 10)
+    const padding = parseInt(get(container, `padding.${size}`) as string, 10)
+    const height = parseInt(get(container, `height.${size}`) as string, 10)
+    const radius = parseInt(get(container, `borderRadius.${size}`) as string, 10)
     // Set spacing
-    button.itemSpacing = get(container, `gap.${size}`) as any // Adjust spacing between items inside the button
-    button.verticalPadding = get(container, `padding.${size}`) as any // Adjust padding as needed
-    button.horizontalPadding = get(container, `padding.${size}`) as any // Adjust padding as needed
+    button.itemSpacing = gap // Adjust spacing between items inside the button
+    button.verticalPadding = padding // Adjust padding as needed
+    button.horizontalPadding = padding // Adjust padding as needed
+    button.cornerRadius = radius
 
     // Set size
-    button.resizeWithoutConstraints(button.width, get(container, `height.${size}`) as any); // Fixed height of 40
+    button.resizeWithoutConstraints(button.width, height) // Fixed height of 40
 
     // Add label
     const textNode = figma.createText();
+    textNode.fills = [{
+        type: 'SOLID',
+        color: (() => {
+            const hex = get(label, `textColor.${type}.${color}`) as any
+            // console.log(hex)
+            return hexToFigmaRGB(hex)
+        })()
+    }]; // Red color
+
     textNode.characters = `Button`;
     button.appendChild(textNode);
 

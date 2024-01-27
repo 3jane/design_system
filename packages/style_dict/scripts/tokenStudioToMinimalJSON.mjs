@@ -6,6 +6,10 @@ await registerTransforms(StyleDictionary, {})
 
 StyleDictionary.registerFormat(minimalJSON)
 
+// TODO:
+// - Drop px from sizes?
+// - all colors to rgba(r, g, b, a)
+
 const sd = new StyleDictionary({
     source: ['./tokens/**/*.json'],
     platforms: {
