@@ -1159,7 +1159,7 @@
           "type": "borderRadius"
         },
         "sm": {
-          "value": "{base.size.6px}",
+          "value": "6",
           "type": "borderRadius"
         },
         "md": {
