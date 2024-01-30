@@ -508,63 +508,63 @@
                 "type": "color"
               },
               "10": {
-                "value": "#191c1e",
+                "value": "#1A1C1F",
                 "type": "color"
               },
               "20": {
-                "value": "#2e3133",
+                "value": "#343749",
                 "type": "color"
               },
               "25": {
-                "value": "#393c3e",
+                "value": "#434559",
                 "type": "color"
               },
               "30": {
-                "value": "#454749",
+                "value": "#525368",
                 "type": "color"
               },
               "35": {
-                "value": "#505355",
+                "value": "#616278",
                 "type": "color"
               },
               "40": {
-                "value": "#5c5f61",
+                "value": "#707288",
                 "type": "color"
               },
               "50": {
-                "value": "#757779",
+                "value": "#8D919A",
                 "type": "color"
               },
               "60": {
-                "value": "#8f9193",
+                "value": "#A9AEB5",
                 "type": "color"
               },
               "70": {
-                "value": "#aaabae",
+                "value": "#C6CBD0",
                 "type": "color"
               },
               "80": {
-                "value": "#c5c6c9",
+                "value": "#E2E5EA",
                 "type": "color"
               },
               "85": {
-                "value": "#d4d5d8",
+                "value": "#E9EBED",
                 "type": "color"
               },
               "90": {
-                "value": "#e1e2e5",
+                "value": "#F1F2F4",
                 "type": "color"
               },
               "95": {
-                "value": "#f0f1f3",
+                "value": "#F8F9FA",
                 "type": "color"
               },
               "98": {
-                "value": "#f8f9fc",
+                "value": "#FCFDFE",
                 "type": "color"
               },
               "99": {
-                "value": "#fbfcff",
+                "value": "#FEFEFF",
                 "type": "color"
               },
               "100": {
