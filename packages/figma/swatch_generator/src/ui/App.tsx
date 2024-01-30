@@ -8,9 +8,9 @@ import {ComponentType} from "../generators/createComponent/base";
 
 const variants = [
     {name: 'type', values: ["filled", "tonal"]},
-    {name: 'color', values: ["primary", "secondary", "error", 'success', 'warning', 'info']},
+    {name: 'color', values: ["primary", "secondary", "neutral", "digital", "error", 'success', 'warning', 'info']},
     {name: 'size', values: ["small", "medium", "large"]},
-    {name: 'interaction', values: ['enabled', 'hovered']},
+    {name: 'interaction', values: ['enabled', 'hovered', 'focused', 'interacted']},
 ]
 
 
@@ -29,6 +29,14 @@ function App() {
                 }
             >
                 Generate button swatch
+            </Button>
+            <Button
+                className={styles.button}
+                onClick={() =>
+                    NetworkMessages.TEST.send({})
+                }
+            >
+                Test
             </Button>
         </div>
     );

@@ -1,4 +1,5 @@
 import {CreateSwatchMessage} from "@common/network/messages/CreateSwatchMessage";
+import {TestMessage} from "@common/network/messages/TestMessage";
 import {HelloMessage} from "@common/network/messages/HelloMessage";
 import {PingMessage} from "@common/network/messages/PingMessage";
 import {NetworkSide} from "@common/network/sides";
@@ -21,6 +22,10 @@ namespace NetworkMessages {
 
     export const CREATE_SWATCH = registry.register(
         new CreateSwatchMessage("create-swatch")
+    );
+
+    export const TEST = registry.register(
+        new TestMessage("test")
     );
 }
 
