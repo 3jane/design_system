@@ -26,7 +26,7 @@
         "type": "boxShadow"
       },
       "6": {
-        "value": "{composites.shadow.xl}",
+        "value": "{composites.shadow.focusRing}",
         "type": "boxShadow"
       },
       "7": {
@@ -175,6 +175,28 @@
             "spread": "0"
           }
         ],
+        "type": "boxShadow"
+      },
+      "focusRing": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "{semantics.color.theme.default.palette.primary.90}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "errorRing": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "{semantics.color.theme.default.palette.error.90}",
+          "type": "dropShadow"
+        },
         "type": "boxShadow"
       }
     },
