@@ -1434,7 +1434,7 @@
             },
             "disabled": {
               "type": "color",
-              "value": "{semantics.color.theme.default.palette.neutral.80}"
+              "value": "{semantics.color.theme.default.palette.neutral.70}"
             }
           },
           "unchecked": {
@@ -1526,7 +1526,7 @@
             },
             "disabled": {
               "type": "color",
-              "value": "{semantics.color.theme.default.palette.neutral.70}"
+              "value": "{semantics.color.theme.default.palette.neutral.100}"
             }
           },
           "unchecked": {
@@ -2312,7 +2312,7 @@
             },
             "disabled": {
               "type": "color",
-              "value": "{semantics.color.theme.default.palette.neutral.40}"
+              "value": "{semantics.color.theme.default.palette.neutral.60}"
             }
           }
         },
