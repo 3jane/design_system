@@ -409,7 +409,7 @@
         "lg": {
           "value": {
             "fontFamily": "{semantics.font.family.label.default}",
-            "fontWeight": "{semantics.font.weight.label.lg}",
+            "fontWeight": "{base.font.weight.medium}",
             "fontSize": "{semantics.font.size.label.lg}",
             "lineHeight": "{semantics.font.style.lineHeight.label.default}",
             "letterSpacing": "{semantics.font.style.letterSpacing.default}",
