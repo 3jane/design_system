@@ -748,6 +748,42 @@
                 "value": "{semantics.color.theme.current.common.white}"
               }
             },
+            "inversePrimary": {
+              "enabled": {
+                "type": "color",
+                "value": "{semantics.color.theme.current.common.transparent}"
+              },
+              "hovered": {
+                "type": "color",
+                "value": "{semantics.color.theme.default.palette.neutral.15}"
+              },
+              "interacted": {
+                "type": "color",
+                "value": "{semantics.color.theme.default.palette.neutral.20}"
+              },
+              "focused": {
+                "type": "color",
+                "value": "#00000000"
+              }
+            },
+            "inverseNeutral": {
+              "enabled": {
+                "type": "color",
+                "value": "{semantics.color.theme.current.common.transparent}"
+              },
+              "hovered": {
+                "type": "color",
+                "value": "{semantics.color.theme.default.palette.neutral.15}"
+              },
+              "interacted": {
+                "type": "color",
+                "value": "{semantics.color.theme.default.palette.neutral.20}"
+              },
+              "focused": {
+                "type": "color",
+                "value": "#00000000"
+              }
+            },
             "disabled": {
               "type": "color",
               "value": "{semantics.color.theme.current.common.transparent}"
@@ -1090,6 +1126,14 @@
               "type": "color",
               "value": "{semantics.color.theme.current.digital.main}"
             },
+            "inversePrimary": {
+              "type": "color",
+              "value": "{semantics.color.theme.default.palette.primary.80}"
+            },
+            "inverseNeutral": {
+              "type": "color",
+              "value": "{semantics.color.theme.default.palette.neutral.100}"
+            },
             "disabled": {
               "type": "color",
               "value": "{semantics.color.theme.current.disabled.main}"
@@ -1311,6 +1355,14 @@
             "digital": {
               "type": "color",
               "value": "{semantics.color.theme.current.digital.main}"
+            },
+            "inversePrimary": {
+              "type": "color",
+              "value": "{semantics.color.theme.default.palette.primary.80}"
+            },
+            "inverseNeutral": {
+              "type": "color",
+              "value": "{semantics.color.theme.default.palette.neutral.100}"
             },
             "disabled": {
               "type": "color",
