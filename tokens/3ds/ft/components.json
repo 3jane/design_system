@@ -3232,6 +3232,96 @@
         }
       }
     },
+    "tooltip": {
+      "container": {
+        "fillColor": {
+          "type": "color",
+          "value": "{semantics.color.theme.default.palette.neutral.20}"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "#00000000"
+        },
+        "paddingHorizontal": {
+          "type": "spacing",
+          "value": "{semantics.space.md}"
+        },
+        "paddingVertical": {
+          "type": "spacing",
+          "value": "{semantics.space.md}"
+        },
+        "gapHorizontal": {
+          "type": "spacing",
+          "value": "{semantics.space.sm}"
+        },
+        "gapVertical": {
+          "type": "spacing",
+          "value": "{semantics.space.xs}"
+        },
+        "borderWidth": {
+          "type": "borderWidth",
+          "value": "{semantics.size.border.none}"
+        },
+        "borderRadius": {
+          "type": "borderRadius",
+          "value": "{semantics.size.radius.buttonLike.small}"
+        },
+        "shadow": {
+          "value": "{composites.elevation.2}",
+          "type": "boxShadow"
+        }
+      },
+      "arrow": {
+        "fillColor": {
+          "type": "color",
+          "value": "{semantics.color.theme.default.palette.neutral.20}"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "#00000000"
+        },
+        "height": {
+          "type": "sizing",
+          "value": "12"
+        },
+        "width": {
+          "type": "sizing",
+          "value": "20"
+        },
+        "padding": {
+          "type": "spacing",
+          "value": "{semantics.space.xl}"
+        },
+        "borderWidth": {
+          "type": "borderWidth",
+          "value": "{semantics.size.border.none}"
+        },
+        "borderRadius": {
+          "type": "borderRadius",
+          "value": "{semantics.size.radius.2xs}"
+        }
+      },
+      "labelText": {
+        "font": {
+          "type": "typography",
+          "value": "{composites.font.label.md}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{semantics.color.theme.default.palette.neutral.100}"
+        }
+      },
+      "supportingText": {
+        "font": {
+          "type": "typography",
+          "value": "{composites.font.body.sm}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{semantics.color.theme.default.palette.neutral.90}"
+        }
+      }
+    },
     "badge": {
       "container": {
         "fillColor": {
