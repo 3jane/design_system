@@ -1,4 +1,5 @@
 import { JSONObject } from "@common/types/json";
+import { hexToFigmaRGB } from "@figma-plugin/helpers";
 
 enum ComponentType {
   Button = "Button",
@@ -28,7 +29,7 @@ abstract class TDSComponent {
 }
 
 interface CreateComponentFn {
-  (variant: TDSComponentVariant): FrameNode | ComponentNode;
+  (variant: TDSComponentVariant): ComponentNode;
 }
 
 const createComponent: CreateComponentFn = (variant) => {
@@ -39,32 +40,14 @@ interface Variant {
   name: string;
   values: string[];
 }
-function createVariants(
-  componentType: string,
-  createFn: CreateComponentFn,
-  tokens: Object,
-  variants: Variant[]
-): FrameNode | ComponentNode {
+function createVariants(componentType: string, createFn: CreateComponentFn, variants: Variant[]): ComponentSetNode {
   const rootFrame = figma.createFrame();
-  rootFrame.name = `${componentType} Swatch`;
-  rootFrame.layoutMode = "VERTICAL";
-  rootFrame.primaryAxisSizingMode = "AUTO";
-  rootFrame.counterAxisSizingMode = "AUTO";
-  rootFrame.primaryAxisAlignItems = "CENTER";
-  rootFrame.counterAxisAlignItems = "CENTER";
-  rootFrame.itemSpacing = 20;
-  rootFrame.paddingTop = 0;
-  rootFrame.paddingBottom = 0;
+  const components: ComponentNode[] = [];
 
-  function _recursive(
-    parentFrame: FrameNode,
-    tokens: Object,
-    variants: Variant[],
-    variantValues: { [key: string]: string } = {},
-    depth: number = 0
-  ) {
+  function _recursive(variants: Variant[], variantValues: { [key: string]: string } = {}, depth: number = 0) {
     if (depth >= variants.length) {
-      parentFrame.appendChild(createFn(variantValues));
+      const component = createFn(variantValues);
+      components.push(component);
       return;
     }
 
@@ -72,37 +55,36 @@ function createVariants(
     variant.values.forEach((value) => {
       const updatedVariantValues = { ...variantValues, [variant.name]: value };
 
-      // Create a new frame for each variant option if not the last variant
-      if (depth < variants.length - 1) {
-        let frame = figma.createFrame();
-        frame.name = `${variant.name}: ${value}`;
-
-        const isEven = depth % 2 === 0;
-        const isPenultimate = depth === variants.length - 2;
-
-        frame.layoutMode = isEven ? "HORIZONTAL" : "VERTICAL";
-        frame.primaryAxisSizingMode = "AUTO";
-        frame.counterAxisSizingMode = "AUTO";
-        frame.primaryAxisAlignItems = "CENTER";
-        frame.counterAxisAlignItems = "CENTER";
-        frame.itemSpacing = isPenultimate ? 10 : 20;
-        frame.verticalPadding = isPenultimate ? 10 : 20;
-        frame.horizontalPadding = isPenultimate ? 10 : 20;
-
-        parentFrame.appendChild(frame);
-
-        // Recursive call to process the next level
-        _recursive(frame, tokens, variants, updatedVariantValues, depth + 1);
-      } else {
-        // Last variant, call createFn directly
-        _recursive(parentFrame, tokens, variants, updatedVariantValues, depth + 1);
-      }
+      _recursive(variants, updatedVariantValues, depth + 1);
     });
   }
 
-  _recursive(rootFrame, tokens, variants, {}, 0);
+  _recursive(variants, {}, 0);
 
-  return rootFrame;
+  const componentSet = figma.combineAsVariants(components, figma.currentPage);
+  componentSet.name = `${componentType}`;
+  componentSet.layoutMode = "HORIZONTAL";
+  componentSet.layoutWrap = "WRAP";
+  componentSet.primaryAxisSizingMode = "AUTO";
+  componentSet.counterAxisSizingMode = "AUTO";
+  componentSet.primaryAxisAlignItems = "CENTER";
+  componentSet.counterAxisAlignItems = "CENTER";
+  componentSet.itemSpacing = 20;
+  componentSet.counterAxisSpacing = 20;
+  componentSet.verticalPadding = 40;
+  componentSet.horizontalPadding = 40;
+  componentSet.fills = [
+    {
+      type: "SOLID",
+      color: hexToFigmaRGB("#fff"),
+    },
+  ];
+
+  componentSet.resize(2000, componentSet.height)
+
+  rootFrame.remove();
+
+  return componentSet;
 }
 
 export {

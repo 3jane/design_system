@@ -73,8 +73,8 @@ const createButton: CreateButtonFn = (variant) => {
   textNode.characters = `Button`;
 
   // BUTTON
-  const button = figma.createFrame();
-  button.name = [type, color, interaction, size].join(", ");
+  const button = figma.createComponent();
+  button.name = [`Type=${type}`, `Color=${color}`, `Interaction=${interaction}`, `Size=${size}`].join(", ");
   button.layoutMode = "HORIZONTAL";
   button.primaryAxisSizingMode = "AUTO";
   button.counterAxisSizingMode = "FIXED";
@@ -99,7 +99,7 @@ const createButton: CreateButtonFn = (variant) => {
 };
 
 const createButtonSwatch = (tokens: {}) => {
-  return createVariantFrames("Button", createButton, tokens, [
+  return createVariantFrames("Button", createButton, [
     { name: "type", values: ["elevated", "filled", "tonal", "outlined", "text"] },
     {
       name: "color",
