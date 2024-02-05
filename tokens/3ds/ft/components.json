@@ -755,11 +755,11 @@
               },
               "hovered": {
                 "type": "color",
-                "value": "{semantics.color.theme.default.palette.neutral.15}"
+                "value": "{semantics.color.theme.default.palette.neutral.12}"
               },
               "interacted": {
                 "type": "color",
-                "value": "{semantics.color.theme.default.palette.neutral.20}"
+                "value": "{semantics.color.theme.default.palette.neutral.15}"
               },
               "focused": {
                 "type": "color",
@@ -773,11 +773,11 @@
               },
               "hovered": {
                 "type": "color",
-                "value": "{semantics.color.theme.default.palette.neutral.15}"
+                "value": "{semantics.color.theme.default.palette.neutral.12}"
               },
               "interacted": {
                 "type": "color",
-                "value": "{semantics.color.theme.default.palette.neutral.20}"
+                "value": "{semantics.color.theme.default.palette.neutral.15}"
               },
               "focused": {
                 "type": "color",
