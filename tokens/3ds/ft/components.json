@@ -347,11 +347,11 @@
               },
               "hovered": {
                 "type": "color",
-                "value": "{semantics.color.theme.default.palette.neutral.90}"
+                "value": "{semantics.color.theme.default.palette.neutral.95}"
               },
               "interacted": {
                 "type": "color",
-                "value": "{semantics.color.theme.default.palette.neutral.85}"
+                "value": "{semantics.color.theme.default.palette.neutral.90}"
               },
               "focused": {
                 "type": "color",
@@ -2048,20 +2048,16 @@
           "type": "spacing",
           "value": "{semantics.space.xs}"
         },
-        "borderWidth": {
-          "type": "borderWidth",
-          "value": "0"
-        },
-        "borderRadius": {
-          "type": "borderRadius",
-          "value": "{semantics.size.radius.md}"
-        },
         "padding": {
           "type": "spacing",
           "value": "{semantics.space.none}"
         }
       },
       "track": {
+        "borderRadius": {
+          "type": "borderRadius",
+          "value": "{semantics.size.radius.full}"
+        },
         "fillColor": {
           "primary": {
             "active": {
@@ -2076,7 +2072,7 @@
           "neutral": {
             "active": {
               "type": "color",
-              "value": "{semantics.color.theme.default.palette.neutral.40}"
+              "value": "{semantics.color.theme.default.palette.neutral.10}"
             },
             "inactive": {
               "type": "color",
@@ -2086,7 +2082,7 @@
           "disabled": {
             "active": {
               "type": "color",
-              "value": "{semantics.color.theme.default.palette.primary.40}"
+              "value": "{semantics.color.theme.default.palette.neutral.70}"
             },
             "inactive": {
               "type": "color",
@@ -2098,7 +2094,7 @@
           "primary": {
             "active": {
               "type": "color",
-              "value": "{semantics.color.theme.current.common.transparent}"
+              "value": "#00000000"
             },
             "inactive": {
               "type": "color",
@@ -2135,26 +2131,30 @@
           "type": "boxShadow"
         }
       },
-      "dot": {
+      "step": {
         "container": {
           "padding": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.lg}"
           }
         },
-        "size": {
+        "height": {
           "type": "sizing",
-          "value": "4"
+          "value": "2"
+        },
+        "width": {
+          "type": "sizing",
+          "value": "2"
         },
         "fillColor": {
           "primary": {
             "inactive": {
               "type": "color",
-              "value": "{semantics.color.theme.default.palette.primary.40}"
+              "value": "{semantics.color.theme.default.palette.neutral.80}"
             },
             "active": {
               "type": "color",
-              "value": "{semantics.color.theme.default.palette.primary.95}"
+              "value": "{semantics.color.theme.default.palette.primary.85}"
             },
             "invisible": {
               "type": "color",
@@ -2164,11 +2164,11 @@
           "neutral": {
             "inactive": {
               "type": "color",
-              "value": "{semantics.color.theme.default.palette.neutral.20}"
+              "value": "{semantics.color.theme.default.palette.neutral.80}"
             },
             "active": {
               "type": "color",
-              "value": "{semantics.color.theme.default.palette.primary.95}"
+              "value": "{semantics.color.theme.default.palette.neutral.85}"
             },
             "invisible": {
               "type": "color",
@@ -2178,17 +2178,21 @@
           "disabled": {
             "inactive": {
               "type": "color",
-              "value": "{semantics.color.theme.default.palette.primary.40}"
+              "value": "{semantics.color.theme.default.palette.neutral.80}"
             },
             "active": {
               "type": "color",
-              "value": "{semantics.color.theme.default.palette.primary.95}"
+              "value": "{semantics.color.theme.default.palette.neutral.85}"
             },
             "invisible": {
               "type": "color",
               "value": "{semantics.color.theme.current.common.transparent}"
             }
           }
+        },
+        "borderRadius": {
+          "type": "borderRadius",
+          "value": "{semantics.size.radius.full}"
         }
       },
       "valueIndicator": {
@@ -2206,7 +2210,7 @@
         },
         "borderWidth": {
           "type": "borderWidth",
-          "value": "0"
+          "value": "1"
         },
         "borderRadius": {
           "type": "borderRadius",
@@ -2243,15 +2247,15 @@
         "borderColor": {
           "primary": {
             "type": "color",
-            "value": "{semantics.color.theme.current.common.transparent}"
+            "value": "{semantics.color.theme.default.palette.primary.40}"
           },
           "neutral": {
             "type": "color",
-            "value": "{semantics.color.theme.current.common.transparent}"
+            "value": "{semantics.color.theme.default.palette.neutral.10}"
           },
           "disabled": {
             "type": "color",
-            "value": "{semantics.color.theme.current.common.transparent}"
+            "value": "{semantics.color.theme.default.palette.neutral.70}"
           }
         },
         "size": {
@@ -2260,7 +2264,7 @@
         },
         "borderWidth": {
           "type": "borderWidth",
-          "value": "0"
+          "value": "2"
         },
         "borderRadius": {
           "type": "borderRadius",
@@ -3590,7 +3594,7 @@
       "container": {
         "fillColor": {
           "type": "color",
-          "value": "{semantics.color.theme.default.palette.neutral.12}"
+          "value": "{semantics.color.theme.default.palette.neutral.10}"
         },
         "borderColor": {
           "type": "color",
