@@ -1,6 +1,9 @@
 {
   "name": "design_system",
   "version": "1.0.0",
+  "scripts": {
+    "sd": "node ./packages/style_dict/scripts/tokenStudioToMinimalJSON.mjs"
+  },
   "dependencies": {
     "@tokens-studio/sd-transforms": "^0.13.3",
     "lodash": "^4.17.21",
