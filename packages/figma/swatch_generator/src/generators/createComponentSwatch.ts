@@ -1,5 +1,6 @@
 import { ComponentType, createComponent as createComponentMock, CreateComponentFn } from "./createComponent/base";
 import { createButtonSwatch } from "./createComponent/createButton";
+import { createInputSwatch } from "./createComponent/createInput";
 
 interface Variant {
   name: string;
@@ -18,6 +19,9 @@ const createComponentSwatch: CreateSwatchFn = ({ componentType }: SwatchParams):
     switch (componentType) {
       case ComponentType.Button:
         createComponent = createButtonSwatch;
+        break;
+      case ComponentType.Input:
+        createComponent = createInputSwatch;
         break;
       default:
         createComponent = createComponentMock;

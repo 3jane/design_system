@@ -3,6 +3,7 @@ import { hexToFigmaRGB } from "@figma-plugin/helpers";
 
 enum ComponentType {
   Button = "Button",
+  Input = "Input",
 }
 abstract class TDSComponentVariant {
   type?: string;
