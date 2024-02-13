@@ -5,68 +5,10 @@ import get from "lodash/get";
 
 import tokens from "../../../../../../build/json/tokens.json";
 
-import { cssFontToFigma } from "@common/utils";
+import { applyCssFontString, cssFontToFigma } from "@common/utils";
 
-async function applyCssFontString(textNode: TextNode, cssFontString: string) {
-  const { family, lineHeight, size, style } = cssFontToFigma(cssFontString);
-
-  textNode.fontSize = size;
-  textNode.fontName = { family, style };
-
-  if (!isNaN(lineHeight)) {
-    textNode.lineHeight = { value: lineHeight, unit: "PERCENT" };
-  }
-}
-
-class TDSButtonVariant extends TDSComponentVariant {
-  constructor(public type: string, public color: string, public interaction: string, public size: string) {
-    super();
-  }
-
-  static fromJSON(json: any): TDSButtonVariant {
-    // Validate specific to TDSButtonVariant structure
-    if (!json || typeof json !== "object" || !json.type || !json.color || !json.interaction || !json.size) {
-      console.log(json);
-      throw new Error("Invalid JSON data for TDSButtonVariant");
-    }
-
-    const instance = new TDSButtonVariant(json.type, json.color, json.interaction, json.size);
-    Object.assign(instance, json);
-    // Here, you can add more specific validations for ButtonTokens
-
-    return instance;
-  }
-}
-
-class TDSButtonTokens extends TDSComponentTokens {
-  [key: string]: JSON;
-
-  constructor(public container: JSONObject, public icon: JSONObject, public label: JSONObject) {
-    super();
-  }
-
-  static fromJSON(json: any): TDSButtonTokens {
-    // Validate specific to ButtonTokens structure
-    if (!json || typeof json !== "object" || !json.container || !json.icon || !json.label) {
-      console.log(json);
-      throw new Error("Invalid JSON data for ButtonTokens");
-    }
-
-    const instance = new TDSButtonTokens(json.container, json.icon, json.label);
-    Object.assign(instance, json);
-    // Here, you can add more specific validations for ButtonTokens
-
-    return instance;
-  }
-}
-
-interface CreateButtonFn extends CreateComponentFn {
-  (tokens: TDSButtonTokens, variant: TDSButtonVariant): FrameNode | ComponentNode;
-}
-
-const createButton: CreateButtonFn = (variant) => {
-  const { type, color, interaction, size }: TDSButtonVariant = TDSButtonVariant.fromJSON(variant);
-  const defaultValue = tokens.components.button;
+const createButton = (variant) => {
+  const { type, color, interaction, size } = variant;
 
   // LEFT ICON
   const leftIcon = figma.createNodeFromSvg(svg);
@@ -90,8 +32,8 @@ const createButton: CreateButtonFn = (variant) => {
   });
 
   leftIcon.resize(
-    parseInt(get(defaultValue, `icon.size.${size}`, String(leftIcon.height)), 10),
-    parseInt(get(defaultValue, `icon.size.${size}`, String(leftIcon.height)), 10)
+    parseInt(get(tokens, `components.button.icon.size.${size}`, String(leftIcon.height)), 10),
+    parseInt(get(tokens, `components.button.icon.size.${size}`, String(leftIcon.height)), 10)
   );
 
   // RIGHT ICON
@@ -105,7 +47,7 @@ const createButton: CreateButtonFn = (variant) => {
   textNode.setSharedPluginData("tokens", "typography", `"components.button.label.font.${size}"`);
   textNode.characters = `Button`;
 
-  applyCssFontString(textNode, get(defaultValue, `label.font.${size}`, ""));
+  applyCssFontString(textNode, get(tokens, `components.button.label.font.${size}`, ""));
   const textColor = get(tokens, `components.button.label.textColor.${type}.${color}`);
   if (textColor) {
     textNode.fills = [figma.util.solidPaint(textColor)];

@@ -27,3 +27,14 @@ export function cssFontToFigma(value: string) {
     lineHeight: lineHeight,
   };
 }
+
+export function applyCssFontString(textNode: TextNode, cssFontString: string) {
+  const { family, lineHeight, size, style } = cssFontToFigma(cssFontString);
+
+  textNode.fontSize = size;
+  textNode.fontName = { family, style };
+
+  if (!isNaN(lineHeight)) {
+    textNode.lineHeight = { value: lineHeight, unit: "PERCENT" };
+  }
+}
