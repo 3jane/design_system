@@ -58,24 +58,6 @@
                 "value": "{semantics.color.theme.current.common.white}"
               }
             },
-            "success": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.hovered}"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.interacted}"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
             "error": {
               "enabled": {
                 "type": "color",
@@ -88,60 +70,6 @@
               "interacted": {
                 "type": "color",
                 "value": "{semantics.color.theme.default.palette.neutral.100}"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
-            "warning": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.hovered}"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.interacted}"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
-            "info": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.hovered}"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.interacted}"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
-            "digital": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.hovered}"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.interacted}"
               },
               "focused": {
                 "type": "color",
@@ -208,24 +136,6 @@
                 "value": "{semantics.color.theme.current.common.white}"
               }
             },
-            "success": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.success.main}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.hovered}"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.interacted}"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
             "error": {
               "enabled": {
                 "type": "color",
@@ -238,60 +148,6 @@
               "interacted": {
                 "type": "color",
                 "value": "{semantics.color.theme.default.palette.error.35}"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
-            "warning": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.warning.main}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.hovered}"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.interacted}"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
-            "info": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.info.main}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.hovered}"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.interacted}"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
-            "digital": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.digital.main}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.hovered}"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.interacted}"
               },
               "focused": {
                 "type": "color",
@@ -358,24 +214,6 @@
                 "value": "{semantics.color.theme.current.common.white}"
               }
             },
-            "success": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.default.palette.success.95}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "{semantics.color.theme.default.palette.success.90}"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.interacted}"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
             "error": {
               "enabled": {
                 "type": "color",
@@ -388,60 +226,6 @@
               "interacted": {
                 "type": "color",
                 "value": "{semantics.color.theme.default.palette.error.90}"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
-            "warning": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.default.palette.warning.95}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "{semantics.color.theme.default.palette.warning.90}"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.interacted}"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
-            "info": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.default.palette.info.95}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "{semantics.color.theme.default.palette.info.90}"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.interacted}"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
-            "digital": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.default.palette.digital.95}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "{semantics.color.theme.default.palette.digital.90}"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.action.interacted}"
               },
               "focused": {
                 "type": "color",
@@ -508,24 +292,6 @@
                 "value": "{semantics.color.theme.current.common.white}"
               }
             },
-            "success": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.transparent}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "rgba( {semantics.color.theme.default.mode.light.success.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "rgba( {semantics.color.theme.default.mode.light.success.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
             "error": {
               "enabled": {
                 "type": "color",
@@ -538,60 +304,6 @@
               "interacted": {
                 "type": "color",
                 "value": "{semantics.color.theme.default.palette.error.95}"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
-            "warning": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.transparent}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "rgba( {semantics.color.theme.default.mode.light.warning.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "rgba( {semantics.color.theme.default.mode.light.warning.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
-            "info": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.transparent}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "rgba( {semantics.color.theme.default.mode.light.info.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "rgba( {semantics.color.theme.default.mode.light.info.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
-            "digital": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.transparent}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "rgba( {semantics.color.theme.default.mode.light.digital.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "rgba( {semantics.color.theme.default.mode.light.digital.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
               },
               "focused": {
                 "type": "color",
@@ -658,24 +370,6 @@
                 "value": "{semantics.color.theme.current.common.white}"
               }
             },
-            "success": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.transparent}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "rgba( {semantics.color.theme.default.mode.light.success.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "rgba( {semantics.color.theme.default.mode.light.success.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
             "error": {
               "enabled": {
                 "type": "color",
@@ -688,60 +382,6 @@
               "interacted": {
                 "type": "color",
                 "value": "{semantics.color.theme.default.palette.error.95}"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
-            "warning": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.transparent}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "rgba( {semantics.color.theme.default.mode.light.warning.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "rgba( {semantics.color.theme.default.mode.light.warning.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
-            "info": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.transparent}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "rgba( {semantics.color.theme.default.mode.light.info.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "rgba( {semantics.color.theme.default.mode.light.info.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
-              },
-              "focused": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.white}"
-              }
-            },
-            "digital": {
-              "enabled": {
-                "type": "color",
-                "value": "{semantics.color.theme.current.common.transparent}"
-              },
-              "hovered": {
-                "type": "color",
-                "value": "rgba( {semantics.color.theme.default.mode.light.digital.main}, {semantics.color.theme.default.mode.light.opacity.hovered} )"
-              },
-              "interacted": {
-                "type": "color",
-                "value": "rgba( {semantics.color.theme.default.mode.light.digital.main}, {semantics.color.theme.default.mode.light.opacity.interacted} )"
               },
               "focused": {
                 "type": "color",
@@ -816,25 +456,9 @@
               "type": "color",
               "value": "{semantics.color.theme.default.palette.neutral.80}"
             },
-            "success": {
-              "type": "color",
-              "value": "{semantics.color.theme.default.palette.success.80}"
-            },
             "error": {
               "type": "color",
               "value": "{semantics.color.theme.default.palette.error.80}"
-            },
-            "warning": {
-              "type": "color",
-              "value": "{semantics.color.theme.default.palette.warning.80}"
-            },
-            "info": {
-              "type": "color",
-              "value": "{semantics.color.theme.default.palette.info.80}"
-            },
-            "digital": {
-              "type": "color",
-              "value": "{semantics.color.theme.default.palette.digital.80}"
             },
             "disabled": {
               "type": "color",
@@ -954,25 +578,9 @@
               "type": "color",
               "value": "{semantics.color.theme.default.palette.neutral.30}"
             },
-            "success": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.success.main}"
-            },
             "error": {
               "type": "color",
               "value": "{semantics.color.theme.current.error.main}"
-            },
-            "warning": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.warning.main}"
-            },
-            "info": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.info.main}"
-            },
-            "digital": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.digital.main}"
             },
             "disabled": {
               "type": "color",
@@ -992,25 +600,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.neutral.onMain}"
             },
-            "success": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.success.onMain}"
-            },
             "error": {
               "type": "color",
               "value": "{semantics.color.theme.current.error.onMain}"
-            },
-            "warning": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.warning.onMain}"
-            },
-            "info": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.info.onMain}"
-            },
-            "digital": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.digital.onMain}"
             },
             "disabled": {
               "type": "color",
@@ -1030,21 +622,9 @@
               "type": "color",
               "value": "{semantics.color.theme.default.palette.neutral.30}"
             },
-            "success": {
-              "type": "color",
-              "value": "{semantics.color.theme.default.palette.success.25}"
-            },
             "error": {
               "type": "color",
               "value": "{semantics.color.theme.default.palette.error.50}"
-            },
-            "warning": {
-              "type": "color",
-              "value": "{semantics.color.theme.default.palette.warning.25}"
-            },
-            "info": {
-              "type": "color",
-              "value": "{semantics.color.theme.default.palette.info.25}"
             },
             "digital": {
               "type": "color",
@@ -1068,17 +648,9 @@
               "type": "color",
               "value": "{semantics.color.theme.default.palette.neutral.30}"
             },
-            "success": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.success.main}"
-            },
             "error": {
               "type": "color",
               "value": "{semantics.color.theme.current.error.main}"
-            },
-            "warning": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.warning.main}"
             },
             "info": {
               "type": "color",
@@ -1106,25 +678,9 @@
               "type": "color",
               "value": "{semantics.color.theme.default.palette.neutral.30}"
             },
-            "success": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.success.main}"
-            },
             "error": {
               "type": "color",
               "value": "{semantics.color.theme.current.error.main}"
-            },
-            "warning": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.warning.main}"
-            },
-            "info": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.info.main}"
-            },
-            "digital": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.digital.main}"
             },
             "inversePrimary": {
               "type": "color",
@@ -1184,25 +740,9 @@
               "type": "color",
               "value": "{semantics.color.theme.default.palette.neutral.30}"
             },
-            "success": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.success.main}"
-            },
             "error": {
               "type": "color",
               "value": "{semantics.color.theme.current.error.main}"
-            },
-            "warning": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.warning.main}"
-            },
-            "info": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.info.main}"
-            },
-            "digital": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.digital.main}"
             },
             "disabled": {
               "type": "color",
@@ -1222,25 +762,9 @@
               "type": "color",
               "value": "{semantics.color.theme.current.neutral.onMain}"
             },
-            "success": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.success.onMain}"
-            },
             "error": {
               "type": "color",
               "value": "{semantics.color.theme.current.error.onMain}"
-            },
-            "warning": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.warning.onMain}"
-            },
-            "info": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.info.onMain}"
-            },
-            "digital": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.digital.onMain}"
             },
             "disabled": {
               "type": "color",
@@ -1260,25 +784,9 @@
               "type": "color",
               "value": "{semantics.color.theme.default.palette.neutral.30}"
             },
-            "success": {
-              "type": "color",
-              "value": "{semantics.color.theme.default.palette.success.25}"
-            },
             "error": {
               "type": "color",
               "value": "{semantics.color.theme.default.palette.error.50}"
-            },
-            "warning": {
-              "type": "color",
-              "value": "{semantics.color.theme.default.palette.warning.25}"
-            },
-            "info": {
-              "type": "color",
-              "value": "{semantics.color.theme.default.palette.info.25}"
-            },
-            "digital": {
-              "type": "color",
-              "value": "{semantics.color.theme.default.palette.digital.25}"
             },
             "disabled": {
               "type": "color",
@@ -1298,25 +806,9 @@
               "type": "color",
               "value": "{semantics.color.theme.default.palette.neutral.30}"
             },
-            "success": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.success.main}"
-            },
             "error": {
               "type": "color",
               "value": "{semantics.color.theme.current.error.main}"
-            },
-            "warning": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.warning.main}"
-            },
-            "info": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.info.main}"
-            },
-            "digital": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.digital.main}"
             },
             "disabled": {
               "type": "color",
@@ -1336,25 +828,9 @@
               "type": "color",
               "value": "{semantics.color.theme.default.palette.neutral.30}"
             },
-            "success": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.success.main}"
-            },
             "error": {
               "type": "color",
               "value": "{semantics.color.theme.current.error.main}"
-            },
-            "warning": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.warning.main}"
-            },
-            "info": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.info.main}"
-            },
-            "digital": {
-              "type": "color",
-              "value": "{semantics.color.theme.current.digital.main}"
             },
             "inversePrimary": {
               "type": "color",
