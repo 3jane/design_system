@@ -966,15 +966,15 @@
         },
         "title": {
           "sm": {
-            "value": "{base.font.size.12px}",
+            "value": "{base.font.size.20px}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{base.font.size.14px}",
+            "value": "{base.font.size.24px}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{base.font.size.16px}",
+            "value": "{base.font.size.28px}",
             "type": "fontSizes"
           }
         },
@@ -994,15 +994,15 @@
         },
         "label": {
           "sm": {
-            "value": "{base.font.size.11px}",
-            "type": "fontSizes"
-          },
-          "md": {
             "value": "{base.font.size.12px}",
             "type": "fontSizes"
           },
-          "lg": {
+          "md": {
             "value": "{base.font.size.14px}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{base.font.size.16px}",
             "type": "fontSizes"
           }
         }
