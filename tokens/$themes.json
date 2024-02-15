@@ -2460,7 +2460,8 @@
       "3ds/base": "source",
       "3ds/ft/semantics": "source",
       "3ds/ft/composites": "source",
-      "3ds/ft/components": "enabled"
+      "3ds/ft/components": "enabled",
+      "test": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:347:7666",
     "$figmaModeId": "347:0",

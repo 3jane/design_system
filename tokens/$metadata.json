@@ -3,6 +3,7 @@
     "3ds/base",
     "3ds/ft/semantics",
     "3ds/ft/composites",
-    "3ds/ft/components"
+    "3ds/ft/components",
+    "test"
   ]
 }
