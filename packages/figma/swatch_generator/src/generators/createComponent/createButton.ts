@@ -1,40 +1,26 @@
-import { CreateComponentFn, TDSComponentTokens, TDSComponentVariant, createVariantFrames } from "./base";
-import { JSON, JSONObject } from "@common/types/json";
-import svg from "../../ui/assets/icon.svg?raw";
-import get from "lodash/get";
+import { TDSComponentVariant, createVariantFrames } from "./base";
 
+import svg from "../../ui/assets/icon.svg?raw";
 import tokens from "../../../../../../build/json/tokens.json";
 
-import { applyCssFontString, cssFontToFigma } from "@common/utils";
+import { bindTokensToHelpers } from "@common/utils";
 
-const createButton = (variant) => {
+const { setSize, setBorderColor, setBorderRadius, setBorderWidth, setColor, setFont, setGap, setPadding } =
+  bindTokensToHelpers(tokens);
+
+const createButton = (variant: TDSComponentVariant) => {
   const { type, color, interaction, size } = variant;
 
   // LEFT ICON
   const leftIcon = figma.createNodeFromSvg(svg);
   leftIcon.name = "left-icon";
-  leftIcon.setSharedPluginData("tokens", "width", `"components.button.icon.size.${size}"`);
-  leftIcon.setSharedPluginData("tokens", "height", `"components.button.icon.size.${size}"`);
   leftIcon.children.forEach((it) => {
     const f = it as FrameNode;
 
-    f.setSharedPluginData("tokens", "fill", `"components.button.icon.fillColor.${type}.${color}"`);
-    f.setSharedPluginData("tokens", "border", `"components.button.icon.fillColor.${type}.${color}"`);
-
-    const fillColor = get(tokens, `components.button.icon.fillColor.${type}.${color}`);
-    if (fillColor) {
-      f.fills = [figma.util.solidPaint(fillColor)];
-    }
-    const strokeColor = get(tokens, `components.button.icon.fillColor.${type}.${color}`);
-    if (strokeColor) {
-      f.strokes = [figma.util.solidPaint(strokeColor)];
-    }
+    setColor(f, `components.button.icon.fillColor.${type}.${color}`);
+    setBorderColor(f, `components.button.icon.fillColor.${type}.${color}`);
   });
-
-  leftIcon.resize(
-    parseInt(get(tokens, `components.button.icon.size.${size}`, String(leftIcon.height)), 10),
-    parseInt(get(tokens, `components.button.icon.size.${size}`, String(leftIcon.height)), 10)
-  );
+  setSize(leftIcon, [`components.button.icon.size.${size}`, `components.button.icon.size.${size}`]);
 
   // RIGHT ICON
   const rightIcon = leftIcon.clone();
@@ -43,15 +29,9 @@ const createButton = (variant) => {
   // TEXT
   const textNode = figma.createText();
   textNode.name = "label";
-  textNode.setSharedPluginData("tokens", "fill", `"components.button.label.textColor.${type}.${color}"`);
-  textNode.setSharedPluginData("tokens", "typography", `"components.button.label.font.${size}"`);
   textNode.characters = `Button`;
-
-  applyCssFontString(textNode, get(tokens, `components.button.label.font.${size}`, ""));
-  const textColor = get(tokens, `components.button.label.textColor.${type}.${color}`);
-  if (textColor) {
-    textNode.fills = [figma.util.solidPaint(textColor)];
-  }
+  setColor(textNode, `components.button.label.textColor.${type}.${color}`);
+  setFont(textNode, `components.button.label.font.${size}`);
 
   // BUTTON
   const button = figma.createComponent();
@@ -61,39 +41,13 @@ const createButton = (variant) => {
   button.counterAxisSizingMode = "FIXED";
   button.counterAxisAlignItems = "CENTER";
 
-  // CONNECT TO FT
-  button.setSharedPluginData(
-    "tokens",
-    "fill",
-    `"components.button.container.fillColor.${type}.${color}.${interaction}"`
-  );
-  button.setSharedPluginData("tokens", "border", `"components.button.container.borderColor.${type}.${color}"`);
-  button.setSharedPluginData("tokens", "itemSpacing", `"components.button.container.gap.${size}"`);
-  button.setSharedPluginData("tokens", "height", `"components.button.container.height.${size}"`);
-  button.setSharedPluginData("tokens", "verticalPadding", `"components.button.container.padding.${size}"`);
-  button.setSharedPluginData("tokens", "horizontalPadding", `"components.button.container.padding.${size}"`);
-  button.setSharedPluginData("tokens", "borderRadius", `"components.button.container.borderRadius.${size}"`);
-  button.setSharedPluginData("tokens", "borderWidth", `"components.button.container.borderWidth.${size}"`);
-
-  // SET DEFAULT VALUE
-  button.itemSpacing = parseInt(get(tokens, `components.button.container.gap.${size}`, "0"), 10);
-  button.verticalPadding = parseInt(get(tokens, `components.button.container.padding.${size}`, "0"), 10);
-  button.horizontalPadding = parseInt(get(tokens, `components.button.container.padding.${size}`, "0"), 10);
-  button.cornerRadius = parseInt(get(tokens, `components.button.container.borderRadius.${size}`, "0"), 10);
-  button.strokeWeight = parseInt(get(tokens, `components.button.container.borderWidth.${size}`, "0"), 10);
-  button.resize(
-    button.width,
-    parseInt(get(tokens, `components.button.container.height.${size}`, String(button.height)), 10)
-  );
-
-  const backgroundColor = get(tokens, `components.button.container.fillColor.${type}.${color}.${interaction}`);
-  if (backgroundColor) {
-    button.fills = [figma.util.solidPaint(backgroundColor)];
-  }
-  const borderColor = get(tokens, `components.button.container.borderColor.${type}.${color}`);
-  if (borderColor) {
-    button.strokes = [figma.util.solidPaint(borderColor)];
-  }
+  setColor(button, `components.button.container.fillColor.${type}.${color}.${interaction}`);
+  setBorderColor(button, `components.button.container.borderColor.${type}.${color}`);
+  setBorderWidth(button, `components.button.container.borderWidth.${size}`);
+  setBorderRadius(button, `components.button.container.borderRadius.${size}`);
+  setPadding(button, [`components.button.container.padding.${size}`, `components.button.container.padding.${size}`]);
+  setGap(button, `components.button.container.gap.${size}`);
+  setSize(button, [undefined, `components.button.container.height.${size}`]);
 
   button.appendChild(leftIcon);
   button.appendChild(textNode);
