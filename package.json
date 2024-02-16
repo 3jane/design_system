@@ -5,7 +5,7 @@
     "sd": "node ./packages/style_dict/scripts/tokenStudioToMinimalJSON.mjs"
   },
   "dependencies": {
-    "@tokens-studio/sd-transforms": "^0.13.3",
+    "@tokens-studio/sd-transforms": "^0.14.2",
     "lodash": "^4.17.21",
     "style-dictionary": "^4.0.0-prerelease.8"
   }
