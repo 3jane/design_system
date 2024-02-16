@@ -2,9 +2,9 @@
   "components": {
     "Icon": {
       "c=color": {
-        "s=enabled": {
-          "p=color": {
-            "m=onLight": {
+        "m=onLight": {
+          "s=enabled": {
+            "p=color": {
               "v=gray": {
                 "value": "{semantics.color.text.onLight.level.gray.3rd}",
                 "type": "color"
@@ -25,8 +25,20 @@
                 "value": "{semantics.color.text.onLight.level.error.3rd}",
                 "type": "color"
               }
-            },
-            "m=onDark": {
+            }
+          },
+          "s=disabled": {
+            "p=color": {
+              "v=disabled": {
+                "value": "{semantics.color.text.onLight.level.disabled.3rd}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "m=onDark": {
+          "s=enabled": {
+            "p=color": {
               "v=gray": {
                 "value": "{semantics.color.text.onDark.level.gray.3rd}",
                 "type": "color"
@@ -50,13 +62,7 @@
             }
           },
           "s=disabled": {
-            "m=onLight": {
-              "p=color": {
-                "value": "{semantics.color.text.onLight.level.disabled.3rd}",
-                "type": "color"
-              }
-            },
-            "m=onDark": {
+            "v=disabled": {
               "p=color": {
                 "value": "{semantics.color.text.onDark.level.disabled.3rd}",
                 "type": "color"
