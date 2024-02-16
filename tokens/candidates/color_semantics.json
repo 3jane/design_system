@@ -529,37 +529,37 @@
             "gray": {
               "l=1": {
                 "type": "color",
-                "value": "{semantics.color.palette.gray.95}"
+                "value": "{semantics.color.palette.gray.10}"
               },
               "l=2": {
                 "type": "color",
-                "value": "{semantics.color.palette.gray.90}"
+                "value": "{semantics.color.palette.gray.15}"
               },
               "l=3": {
                 "type": "color",
-                "value": "{semantics.color.palette.gray.85}"
+                "value": "{semantics.color.palette.gray.20}"
               },
               "l=4": {
                 "type": "color",
-                "value": "{semantics.color.palette.gray.80}"
+                "value": "{semantics.color.palette.gray.25}"
               }
             },
             "neutral": {
               "l=1": {
                 "type": "color",
-                "value": "{semantics.color.palette.neutral.95}"
+                "value": "{semantics.color.palette.neutral.10}"
               },
               "l=2": {
                 "type": "color",
-                "value": "{semantics.color.palette.neutral.90}"
+                "value": "{semantics.color.palette.neutral.15}"
               },
               "l=3": {
                 "type": "color",
-                "value": "{semantics.color.palette.neutral.85}"
+                "value": "{semantics.color.palette.neutral.20}"
               },
               "l=4": {
                 "type": "color",
-                "value": "{semantics.color.palette.neutral.80}"
+                "value": "{semantics.color.palette.neutral.25}"
               }
             },
             "brand": {
@@ -639,7 +639,7 @@
             "brand": {
               "weaker": {
                 "type": "color",
-                "value": "{semantics.color.palette.brand.50}"
+                "value": "{semantics.color.palette.brand.30}"
               },
               "default": {
                 "type": "color",
@@ -647,13 +647,13 @@
               },
               "stronger": {
                 "type": "color",
-                "value": "{semantics.color.palette.brand.30}"
+                "value": "{semantics.color.palette.brand.50}"
               }
             },
             "brand2": {
               "weaker": {
                 "type": "color",
-                "value": "{semantics.color.palette.brand2.50}"
+                "value": "{semantics.color.palette.brand2.30}"
               },
               "default": {
                 "type": "color",
@@ -661,13 +661,13 @@
               },
               "stronger": {
                 "type": "color",
-                "value": "{semantics.color.palette.brand2.30}"
+                "value": "{semantics.color.palette.brand2.50}"
               }
             },
             "error": {
               "weaker": {
                 "type": "color",
-                "value": "{semantics.color.palette.error.50}"
+                "value": "{semantics.color.palette.error.30}"
               },
               "default": {
                 "type": "color",
@@ -675,7 +675,7 @@
               },
               "stronger": {
                 "type": "color",
-                "value": "{semantics.color.palette.error.30}"
+                "value": "{semantics.color.palette.error.50}"
               }
             }
           }
@@ -843,109 +843,109 @@
             "gray": {
               "1st": {
                 "type": "color",
-                "value": "{semantics.color.palette.gray.10}"
+                "value": "{semantics.color.palette.gray.100}"
               },
               "2nd": {
                 "type": "color",
-                "value": "{semantics.color.palette.gray.15}"
+                "value": "{semantics.color.palette.gray.90}"
               },
               "3rd": {
                 "type": "color",
-                "value": "{semantics.color.palette.gray.20}"
+                "value": "{semantics.color.palette.gray.80}"
               },
               "4th": {
                 "type": "color",
-                "value": "{semantics.color.palette.gray.25}"
+                "value": "{semantics.color.palette.gray.70}"
               }
             },
             "neutral": {
               "1st": {
                 "type": "color",
-                "value": "{semantics.color.palette.neutral.10}"
+                "value": "{semantics.color.palette.neutral.100}"
               },
               "2nd": {
                 "type": "color",
-                "value": "{semantics.color.palette.neutral.15}"
+                "value": "{semantics.color.palette.neutral.90}"
               },
               "3rd": {
                 "type": "color",
-                "value": "{semantics.color.palette.neutral.20}"
+                "value": "{semantics.color.palette.neutral.80}"
               },
               "4th": {
                 "type": "color",
-                "value": "{semantics.color.palette.neutral.25}"
+                "value": "{semantics.color.palette.neutral.70}"
               }
             },
             "brand": {
               "1st": {
                 "type": "color",
-                "value": "{semantics.color.palette.brand.10}"
+                "value": "{semantics.color.palette.brand.100}"
               },
               "2nd": {
                 "type": "color",
-                "value": "{semantics.color.palette.brand.15}"
+                "value": "{semantics.color.palette.brand.90}"
               },
               "3rd": {
                 "type": "color",
-                "value": "{semantics.color.palette.brand.20}"
+                "value": "{semantics.color.palette.brand.80}"
               },
               "4th": {
                 "type": "color",
-                "value": "{semantics.color.palette.brand.25}"
+                "value": "{semantics.color.palette.brand.70}"
               }
             },
             "brand2": {
               "1st": {
                 "type": "color",
-                "value": "{semantics.color.palette.brand2.10}"
+                "value": "{semantics.color.palette.brand2.100}"
               },
               "2nd": {
                 "type": "color",
-                "value": "{semantics.color.palette.brand2.15}"
+                "value": "{semantics.color.palette.brand2.90}"
               },
               "3rd": {
                 "type": "color",
-                "value": "{semantics.color.palette.brand2.20}"
+                "value": "{semantics.color.palette.brand2.80}"
               },
               "4th": {
                 "type": "color",
-                "value": "{semantics.color.palette.brand2.25}"
+                "value": "{semantics.color.palette.brand2.70}"
               }
             },
             "error": {
               "1st": {
                 "type": "color",
-                "value": "{semantics.color.palette.error.10}"
+                "value": "{semantics.color.palette.error.100}"
               },
               "2nd": {
                 "type": "color",
-                "value": "{semantics.color.palette.error.15}"
+                "value": "{semantics.color.palette.error.90}"
               },
               "3rd": {
                 "type": "color",
-                "value": "{semantics.color.palette.error.20}"
+                "value": "{semantics.color.palette.error.80}"
               },
               "4th": {
                 "type": "color",
-                "value": "{semantics.color.palette.error.25}"
+                "value": "{semantics.color.palette.error.70}"
               }
             },
             "disabled": {
               "1st": {
                 "type": "color",
-                "value": "{semantics.color.palette.gray.40}"
+                "value": "{semantics.color.palette.gray.70}"
               },
               "2nd": {
                 "type": "color",
-                "value": "{semantics.color.palette.gray.50}"
+                "value": "{semantics.color.palette.gray.60}"
               },
               "3rd": {
                 "type": "color",
-                "value": "{semantics.color.palette.gray.60}"
+                "value": "{semantics.color.palette.gray.50}"
               },
               "4th": {
                 "type": "color",
-                "value": "{semantics.color.palette.gray.70}"
+                "value": "{semantics.color.palette.gray.40}"
               }
             }
           },
@@ -953,7 +953,7 @@
             "brand": {
               "weaker": {
                 "type": "color",
-                "value": "{semantics.color.palette.brand.50}"
+                "value": "{semantics.color.palette.brand.30}"
               },
               "default": {
                 "type": "color",
@@ -961,13 +961,13 @@
               },
               "stronger": {
                 "type": "color",
-                "value": "{semantics.color.palette.brand.30}"
+                "value": "{semantics.color.palette.brand.50}"
               }
             },
             "brand2": {
               "weaker": {
                 "type": "color",
-                "value": "{semantics.color.palette.brand2.50}"
+                "value": "{semantics.color.palette.brand2.30}"
               },
               "default": {
                 "type": "color",
@@ -975,13 +975,13 @@
               },
               "stronger": {
                 "type": "color",
-                "value": "{semantics.color.palette.brand2.30}"
+                "value": "{semantics.color.palette.brand2.50}"
               }
             },
             "error": {
               "weaker": {
                 "type": "color",
-                "value": "{semantics.color.palette.error.50}"
+                "value": "{semantics.color.palette.error.30}"
               },
               "default": {
                 "type": "color",
@@ -989,7 +989,7 @@
               },
               "stronger": {
                 "type": "color",
-                "value": "{semantics.color.palette.error.30}"
+                "value": "{semantics.color.palette.error.50}"
               }
             }
           }
