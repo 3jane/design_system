@@ -372,6 +372,80 @@
             "type": "color"
           }
         },
+        "opacity": {
+          "0": {
+            "value": "0%",
+            "type": "color"
+          },
+          "10": {
+            "value": "10%",
+            "type": "color"
+          },
+          "15": {
+            "value": "15%",
+            "type": "color"
+          },
+          "20": {
+            "value": "20%",
+            "type": "color"
+          },
+          "25": {
+            "value": "25%",
+            "type": "color"
+          },
+          "30": {
+            "value": "30%",
+            "type": "color"
+          },
+          "35": {
+            "value": "35%",
+            "type": "color"
+          },
+          "40": {
+            "value": "40%",
+            "type": "color"
+          },
+          "50": {
+            "value": "50%",
+            "type": "color"
+          },
+          "60": {
+            "value": "60%",
+            "type": "color"
+          },
+          "70": {
+            "value": "70%",
+            "type": "color"
+          },
+          "80": {
+            "value": "80%",
+            "type": "color"
+          },
+          "85": {
+            "value": "85%",
+            "type": "color"
+          },
+          "90": {
+            "value": "90%",
+            "type": "color"
+          },
+          "92": {
+            "value": "92%",
+            "type": "color"
+          },
+          "95": {
+            "value": "95%",
+            "type": "color"
+          },
+          "97": {
+            "value": "97%",
+            "type": "color"
+          },
+          "100": {
+            "value": "100%",
+            "type": "color"
+          }
+        },
         "common": {
           "link": {
             "value": "#0056d0",
@@ -387,6 +461,10 @@
           },
           "black": {
             "value": "#000000",
+            "type": "color"
+          },
+          "transparent": {
+            "value": "#00000000",
             "type": "color"
           }
         }
@@ -500,6 +578,38 @@
               "4th": {
                 "type": "color",
                 "value": "{semantics.color.palette.gray.40}"
+              }
+            }
+          },
+          "overlay": {
+            "gray": {
+              "1st": {
+                "type": "color",
+                "value": "rgba({semantics.color.palette.gray.90}, {semantics.color.palette.opacity.10}"
+              }
+            },
+            "neutral": {
+              "1st": {
+                "type": "color",
+                "value": "rgba({semantics.color.palette.neutral.90}, {semantics.color.palette.opacity.10}"
+              }
+            },
+            "brand": {
+              "1st": {
+                "type": "color",
+                "value": "rgba({semantics.color.palette.brand.90}, {semantics.color.palette.opacity.10}"
+              }
+            },
+            "brand2": {
+              "1st": {
+                "type": "color",
+                "value": "rgba({semantics.color.palette.brand2.90}, {semantics.color.palette.opacity.10}"
+              }
+            },
+            "error": {
+              "1st": {
+                "type": "color",
+                "value": "rgba({semantics.color.palette.error.90}, {semantics.color.palette.opacity.10}"
               }
             }
           },
@@ -656,6 +766,38 @@
               "4th": {
                 "type": "color",
                 "value": "{semantics.color.palette.gray.40}"
+              }
+            }
+          },
+          "overlay": {
+            "gray": {
+              "1st": {
+                "type": "color",
+                "value": "rgba({semantics.color.palette.gray.10}, {semantics.color.palette.opacity.10}"
+              }
+            },
+            "neutral": {
+              "1st": {
+                "type": "color",
+                "value": "rgba({semantics.color.palette.neutral.10}, {semantics.color.palette.opacity.10}"
+              }
+            },
+            "brand": {
+              "1st": {
+                "type": "color",
+                "value": "rgba({semantics.color.palette.brand.10}, {semantics.color.palette.opacity.10}"
+              }
+            },
+            "brand2": {
+              "1st": {
+                "type": "color",
+                "value": "rgba({semantics.color.palette.brand2.10}, {semantics.color.palette.opacity.10}"
+              }
+            },
+            "error": {
+              "1st": {
+                "type": "color",
+                "value": "rgba({semantics.color.palette.error.10}, {semantics.color.palette.opacity.10}"
               }
             }
           },
