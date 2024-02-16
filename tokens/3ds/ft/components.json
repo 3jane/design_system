@@ -1,5 +1,85 @@
 {
   "components": {
+    "Icon": {
+      "c=color": {
+        "s=enabled": {
+          "p=color": {
+            "m=onLight": {
+              "v=gray": {
+                "value": "{semantics.color.text.onLight.level.gray.3rd}",
+                "type": "color"
+              },
+              "v=neutral": {
+                "value": "{semantics.color.text.onLight.level.neutral.3rd}",
+                "type": "color"
+              },
+              "v=brand": {
+                "value": "{semantics.color.text.onLight.level.brand.3rd}",
+                "type": "color"
+              },
+              "v=brand2": {
+                "value": "{semantics.color.text.onLight.level.brand2.3rd}",
+                "type": "color"
+              },
+              "v=error": {
+                "value": "{semantics.color.text.onLight.level.error.3rd}",
+                "type": "color"
+              }
+            },
+            "m=onDark": {
+              "v=gray": {
+                "value": "{semantics.color.text.onDark.level.gray.3rd}",
+                "type": "color"
+              },
+              "v=neutral": {
+                "value": "{semantics.color.text.onDark.level.neutral.3rd}",
+                "type": "color"
+              },
+              "v=brand": {
+                "value": "{semantics.color.text.onDark.level.brand.3rd}",
+                "type": "color"
+              },
+              "v=brand2": {
+                "value": "{semantics.color.text.onDark.level.brand2.3rd}",
+                "type": "color"
+              },
+              "v=error": {
+                "value": "{semantics.color.text.onDark.level.error.3rd}",
+                "type": "color"
+              }
+            }
+          },
+          "s=disabled": {
+            "m=onLight": {
+              "p=color": {
+                "value": "{semantics.color.text.onLight.level.disabled.3rd}",
+                "type": "color"
+              }
+            },
+            "m=onDark": {
+              "p=color": {
+                "value": "{semantics.color.text.onDark.level.disabled.3rd}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      },
+      "c=size": {
+        "v=small": {
+          "value": "{base.size.16px}",
+          "type": "sizing"
+        },
+        "v=medium": {
+          "value": "{base.size.24px}",
+          "type": "sizing"
+        },
+        "v=large": {
+          "value": "{base.size.32px}",
+          "type": "sizing"
+        }
+      }
+    },
     "button": {
       "container": {
         "fillColor": {
