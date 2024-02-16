@@ -3,3 +3,5 @@ node_modules/
 experiments/
 build/
 .DS_Store
+scratch.json
+scratch.txt
