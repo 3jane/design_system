@@ -2,3 +2,4 @@
 node_modules/
 experiments/
 build/
+.DS_Store
