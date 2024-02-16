@@ -1,0 +1,122 @@
+{
+  "cmps": {
+    "Switch": {
+      "c=color": {
+        "t=checked": {
+          "s=enabled": {
+            "l=container": {
+              "p=fill": {
+                "v=brand": {
+                  "i=none": {
+                    "value": "#2e3aa2",
+                    "type": "color"
+                  },
+                  "i=hover": {
+                    "value": "#2e3aa2",
+                    "type": "color"
+                  },
+                  "i=focus": {
+                    "value": "#2e3aa2",
+                    "type": "color"
+                  },
+                  "i=active": {
+                    "value": "#2e3aa2",
+                    "type": "color"
+                  }
+                },
+                "v=error": {
+                  "i=none": {
+                    "value": "#2e3aa2",
+                    "type": "color"
+                  },
+                  "i=hover": {
+                    "value": "#2e3aa2",
+                    "type": "color"
+                  },
+                  "i=focus": {
+                    "value": "#2e3aa2",
+                    "type": "color"
+                  },
+                  "i=active": {
+                    "value": "#2e3aa2",
+                    "type": "color"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "t=unchecked": {
+          "s=enabled": {
+            "l=container": {
+              "p=fill": {
+                "v=gray": {
+                  "i=none": {
+                    "value": "#2e3aa2",
+                    "type": "color"
+                  },
+                  "i=hover": {
+                    "value": "#2e3aa2",
+                    "type": "color"
+                  },
+                  "i=focus": {
+                    "value": "#2e3aa2",
+                    "type": "color"
+                  },
+                  "i=active": {
+                    "value": "#2e3aa2",
+                    "type": "color"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "c=size": {
+        "l=container": {
+          "p=height": {
+            "v=small": {
+              "value": "{base.size.36px}",
+              "type": "sizing"
+            },
+            "v=medium": {
+              "value": "{base.size.36px}",
+              "type": "sizing"
+            },
+            "v=large": {
+              "value": "{base.size.36px}",
+              "type": "sizing"
+            }
+          }
+        }
+      }
+    },
+    "Icon": {
+      "c=color": {
+        "s=enabled": {
+          "p=color": {
+            "v=brand": {
+              "value": "#2e3aa2",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "c=size": {
+        "v=small": {
+          "value": "{base.size.36px}",
+          "type": "sizing"
+        },
+        "v=medium": {
+          "value": "{base.size.36px}",
+          "type": "sizing"
+        },
+        "v=large": {
+          "value": "{base.size.36px}",
+          "type": "sizing"
+        }
+      }
+    }
+  }
+}
