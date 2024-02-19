@@ -764,11 +764,11 @@
           "neutral": {
             "l=1": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.95}"
+              "value": "{semantics.color.palette.neutral.90}"
             },
             "l=2": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.90}"
+              "value": "{semantics.color.palette.neutral.95}"
             }
           },
           "brand": {
