@@ -1523,15 +1523,15 @@
       },
       "c=font": {
         "v=small": {
-          "value": "{composites.font.title.md}",
+          "value": "{composites.font.title.md.medium}",
           "type": "typography"
         },
         "v=medium": {
-          "value": "{composites.font.title.md}",
+          "value": "{composites.font.title.md.medium}",
           "type": "typography"
         },
         "v=large": {
-          "value": "{composites.font.title.md}",
+          "value": "{composites.font.title.md.medium}",
           "type": "typography"
         }
       }
