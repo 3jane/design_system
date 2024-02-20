@@ -35,10 +35,6 @@
         "m=onDark": {
           "s=enabled": {
             "p=color": {
-              "v=gray": {
-                "value": "{semantics.color.text.onDark.gray.l=1}",
-                "type": "color"
-              },
               "v=neutral": {
                 "value": "{semantics.color.text.onDark.neutral.l=1}",
                 "type": "color"
