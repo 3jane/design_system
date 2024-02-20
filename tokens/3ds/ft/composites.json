@@ -183,7 +183,7 @@
           "y": "0",
           "blur": "0",
           "spread": "3",
-          "color": "{semantics.color.theme.default.palette.primary.90}",
+          "color": "{semantics.color.bg.light.brand.o=1}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -194,7 +194,7 @@
           "y": "0",
           "blur": "0",
           "spread": "3",
-          "color": "{semantics.color.theme.default.palette.error.90}",
+          "color": "{semantics.color.bg.light.error.o=1}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
