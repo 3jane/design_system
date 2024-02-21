@@ -54,8 +54,8 @@
             }
           },
           "s=disabled": {
+            "p=color": {
             "v=disabled": {
-              "p=color": {
                 "value": "{semantics.color.text.onDark.disabled.l=1}",
                 "type": "color"
               }
