@@ -220,7 +220,7 @@
           "medium": {
             "value": {
               "fontFamily": "{semantics.font.family.display.default}",
-              "fontWeight": "{semantics.font.weight.display.sm}",
+              "fontWeight": "{semantics.font.weight.display.md}",
               "fontSize": "{semantics.font.size.display.sm}",
               "lineHeight": "{semantics.font.style.lineHeight.display.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -234,7 +234,7 @@
           "thick": {
             "value": {
               "fontFamily": "{semantics.font.family.display.default}",
-              "fontWeight": "{semantics.font.weight.display.sm}",
+              "fontWeight": "{semantics.font.weight.display.lg}",
               "fontSize": "{semantics.font.size.display.sm}",
               "lineHeight": "{semantics.font.style.lineHeight.display.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -250,7 +250,7 @@
           "thin": {
             "value": {
               "fontFamily": "{semantics.font.family.display.default}",
-              "fontWeight": "{semantics.font.weight.display.md}",
+              "fontWeight": "{semantics.font.weight.display.sm}",
               "fontSize": "{semantics.font.size.display.md}",
               "lineHeight": "{semantics.font.style.lineHeight.display.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -278,7 +278,7 @@
           "thick": {
             "value": {
               "fontFamily": "{semantics.font.family.display.default}",
-              "fontWeight": "{semantics.font.weight.display.md}",
+              "fontWeight": "{semantics.font.weight.display.lg}",
               "fontSize": "{semantics.font.size.display.md}",
               "lineHeight": "{semantics.font.style.lineHeight.display.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -294,7 +294,7 @@
           "thin": {
             "value": {
               "fontFamily": "{semantics.font.family.display.default}",
-              "fontWeight": "{semantics.font.weight.display.lg}",
+              "fontWeight": "{semantics.font.weight.display.sm}",
               "fontSize": "{semantics.font.size.display.lg}",
               "lineHeight": "{semantics.font.style.lineHeight.display.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -308,7 +308,7 @@
           "medium": {
             "value": {
               "fontFamily": "{semantics.font.family.display.default}",
-              "fontWeight": "{semantics.font.weight.display.lg}",
+              "fontWeight": "{semantics.font.weight.display.md}",
               "fontSize": "{semantics.font.size.display.lg}",
               "lineHeight": "{semantics.font.style.lineHeight.display.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -354,7 +354,7 @@
           "medium": {
             "value": {
               "fontFamily": "{semantics.font.family.title.default}",
-              "fontWeight": "{semantics.font.weight.title.sm}",
+              "fontWeight": "{semantics.font.weight.title.md}",
               "fontSize": "{semantics.font.size.title.sm}",
               "lineHeight": "{semantics.font.style.lineHeight.title.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -368,7 +368,7 @@
           "thick": {
             "value": {
               "fontFamily": "{semantics.font.family.title.default}",
-              "fontWeight": "{semantics.font.weight.title.sm}",
+              "fontWeight": "{semantics.font.weight.title.lg}",
               "fontSize": "{semantics.font.size.title.sm}",
               "lineHeight": "{semantics.font.style.lineHeight.title.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -384,7 +384,7 @@
           "thin": {
             "value": {
               "fontFamily": "{semantics.font.family.title.default}",
-              "fontWeight": "{semantics.font.weight.title.md}",
+              "fontWeight": "{semantics.font.weight.title.sm}",
               "fontSize": "{semantics.font.size.title.md}",
               "lineHeight": "{semantics.font.style.lineHeight.title.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -412,7 +412,7 @@
           "thick": {
             "value": {
               "fontFamily": "{semantics.font.family.title.default}",
-              "fontWeight": "{semantics.font.weight.title.md}",
+              "fontWeight": "{semantics.font.weight.title.lg}",
               "fontSize": "{semantics.font.size.title.md}",
               "lineHeight": "{semantics.font.style.lineHeight.title.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -428,7 +428,7 @@
           "thin": {
             "value": {
               "fontFamily": "{semantics.font.family.title.default}",
-              "fontWeight": "{semantics.font.weight.title.lg}",
+              "fontWeight": "{semantics.font.weight.title.sm}",
               "fontSize": "{semantics.font.size.title.lg}",
               "lineHeight": "{semantics.font.style.lineHeight.title.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -442,7 +442,7 @@
           "medium": {
             "value": {
               "fontFamily": "{semantics.font.family.title.default}",
-              "fontWeight": "{semantics.font.weight.title.lg}",
+              "fontWeight": "{semantics.font.weight.title.md}",
               "fontSize": "{semantics.font.size.title.lg}",
               "lineHeight": "{semantics.font.style.lineHeight.title.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -488,7 +488,7 @@
           "medium": {
             "value": {
               "fontFamily": "{semantics.font.family.body.default}",
-              "fontWeight": "{semantics.font.weight.body.sm}",
+              "fontWeight": "{semantics.font.weight.body.md}",
               "fontSize": "{semantics.font.size.body.sm}",
               "lineHeight": "{semantics.font.style.lineHeight.body.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -502,7 +502,7 @@
           "thick": {
             "value": {
               "fontFamily": "{semantics.font.family.body.default}",
-              "fontWeight": "{semantics.font.weight.body.sm}",
+              "fontWeight": "{semantics.font.weight.body.lg}",
               "fontSize": "{semantics.font.size.body.sm}",
               "lineHeight": "{semantics.font.style.lineHeight.body.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -518,7 +518,7 @@
           "thin": {
             "value": {
               "fontFamily": "{semantics.font.family.body.default}",
-              "fontWeight": "{semantics.font.weight.body.md}",
+              "fontWeight": "{semantics.font.weight.body.sm}",
               "fontSize": "{semantics.font.size.body.md}",
               "lineHeight": "{semantics.font.style.lineHeight.body.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -546,7 +546,7 @@
           "thick": {
             "value": {
               "fontFamily": "{semantics.font.family.body.default}",
-              "fontWeight": "{semantics.font.weight.body.md}",
+              "fontWeight": "{semantics.font.weight.body.lg}",
               "fontSize": "{semantics.font.size.body.md}",
               "lineHeight": "{semantics.font.style.lineHeight.body.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -562,7 +562,7 @@
           "thin": {
             "value": {
               "fontFamily": "{semantics.font.family.body.default}",
-              "fontWeight": "{semantics.font.weight.body.lg}",
+              "fontWeight": "{semantics.font.weight.body.sm}",
               "fontSize": "{semantics.font.size.body.lg}",
               "lineHeight": "{semantics.font.style.lineHeight.body.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -576,7 +576,7 @@
           "medium": {
             "value": {
               "fontFamily": "{semantics.font.family.body.default}",
-              "fontWeight": "{semantics.font.weight.body.lg}",
+              "fontWeight": "{semantics.font.weight.body.md}",
               "fontSize": "{semantics.font.size.body.lg}",
               "lineHeight": "{semantics.font.style.lineHeight.body.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -622,7 +622,7 @@
           "medium": {
             "value": {
               "fontFamily": "{semantics.font.family.label.default}",
-              "fontWeight": "{semantics.font.weight.label.sm}",
+              "fontWeight": "{semantics.font.weight.label.md}",
               "fontSize": "{semantics.font.size.label.sm}",
               "lineHeight": "{semantics.font.style.lineHeight.label.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -636,7 +636,7 @@
           "thick": {
             "value": {
               "fontFamily": "{semantics.font.family.label.default}",
-              "fontWeight": "{semantics.font.weight.label.sm}",
+              "fontWeight": "{semantics.font.weight.label.lg}",
               "fontSize": "{semantics.font.size.label.sm}",
               "lineHeight": "{semantics.font.style.lineHeight.label.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -652,7 +652,7 @@
           "thin": {
             "value": {
               "fontFamily": "{semantics.font.family.label.default}",
-              "fontWeight": "{semantics.font.weight.label.md}",
+              "fontWeight": "{semantics.font.weight.label.sm}",
               "fontSize": "{semantics.font.size.label.md}",
               "lineHeight": "{semantics.font.style.lineHeight.label.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -680,7 +680,7 @@
           "thick": {
             "value": {
               "fontFamily": "{semantics.font.family.label.default}",
-              "fontWeight": "{semantics.font.weight.label.md}",
+              "fontWeight": "{semantics.font.weight.label.lg}",
               "fontSize": "{semantics.font.size.label.md}",
               "lineHeight": "{semantics.font.style.lineHeight.label.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -696,7 +696,7 @@
           "thin": {
             "value": {
               "fontFamily": "{semantics.font.family.label.default}",
-              "fontWeight": "{semantics.font.weight.label.lg}",
+              "fontWeight": "{semantics.font.weight.label.sm}",
               "fontSize": "{semantics.font.size.label.lg}",
               "lineHeight": "{semantics.font.style.lineHeight.label.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",
@@ -710,7 +710,7 @@
           "medium": {
             "value": {
               "fontFamily": "{semantics.font.family.label.default}",
-              "fontWeight": "{semantics.font.weight.label.lg}",
+              "fontWeight": "{semantics.font.weight.label.md}",
               "fontSize": "{semantics.font.size.label.lg}",
               "lineHeight": "{semantics.font.style.lineHeight.label.default}",
               "letterSpacing": "{semantics.font.style.letterSpacing.default}",

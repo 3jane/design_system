@@ -1302,15 +1302,15 @@
         },
         "body": {
           "sm": {
-            "value": "{base.font.weight.light}",
-            "type": "fontWeights"
-          },
-          "md": {
             "value": "{base.font.weight.regular}",
             "type": "fontWeights"
           },
-          "lg": {
+          "md": {
             "value": "{base.font.weight.medium}",
+            "type": "fontWeights"
+          },
+          "lg": {
+            "value": "{base.font.weight.semiBold}",
             "type": "fontWeights"
           }
         },
@@ -1388,15 +1388,15 @@
         },
         "label": {
           "sm": {
-            "value": "{base.font.size.12px}",
+            "value": "{base.font.size.11px}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{base.font.size.14px}",
+            "value": "{base.font.size.12px}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{base.font.size.16px}",
+            "value": "{base.font.size.14px}",
             "type": "fontSizes"
           }
         }
