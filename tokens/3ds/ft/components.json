@@ -2262,7 +2262,7 @@
             "l=container": {
               "p=fill": {
                   "type": "color",
-                  "value": "{semantics.color.bg.light.brand.a=2}"
+                  "value": "{semantics.color.bg.light.brand2.a=2}"
               },
               "p=border": {
                 "type": "color",
@@ -2290,7 +2290,7 @@
       },
       "p=borderRadius": {
           "type": "borderRadius",
-          "value": "{semantics.size.radius.buttonLike.full}"
+          "value": "{semantics.size.radius.full}"
       },
       "p=borderWidth": {
         "v=standard": {
