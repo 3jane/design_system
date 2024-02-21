@@ -2220,6 +2220,106 @@
         }
       }
   },
+  "Badge": {
+    "c=color": {
+          "v=neutral": {
+            "l=container": {
+              "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.bg.dark.neutral.l=1}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
+              }
+            },
+            "l=text": {
+              "p=color": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.white}"
+              }
+            }
+          },
+          "v=brand": {
+            "l=container": {
+              "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.bg.light.brand.a=1}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
+              }
+            },
+            "l=text": {
+              "p=color": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.white}"
+              }
+            }
+          },
+          "v=brand2": {
+            "l=container": {
+              "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.bg.light.brand.a=2}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
+              }
+            },
+            "l=text": {
+              "p=color": {
+                "type": "color",
+                "value": "{semantics.color.bg.dark.brand2.l=1}"
+              }
+            }
+          }
+    },
+    "c=size": {
+      "p=size": {
+        "v=standard": {
+          "type": "sizing",
+          "value": "20"
+        },
+        "v=dot": {
+          "type": "sizing",
+          "value": "8"
+        }
+      },
+      "p=borderRadius": {
+          "type": "borderRadius",
+          "value": "{semantics.size.radius.buttonLike.full}"
+      },
+      "p=borderWidth": {
+        "v=standard": {
+          "type": "borderWidth",
+          "value": "{semantics.size.border.none}"
+        },
+        "v=dot": {
+          "type": "borderWidth",
+          "value": "{semantics.size.border.none}"
+        }
+      }
+    },
+    "c=elevation": {
+      "v=standard": {
+          "value": "{composites.elevation.0}",
+          "type": "boxShadow"
+      },
+      "v=dot": {
+        "value": "{composites.elevation.0}",
+        "type": "boxShadow"
+    }
+    },
+    "c=font": {
+      "v=standard": {
+        "value": "{composites.font.title.md.medium}",
+        "type": "typography"
+      }
+    }
+},
     "button": {
       "container": {
         "fillColor": {
