@@ -183,7 +183,18 @@
           "y": "0",
           "blur": "0",
           "spread": "3",
-          "color": "{semantics.color.bg.light.brand.o=1}",
+          "color": "{semantics.color.bg.light.brand.o=2}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "focusRingDark": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "{semantics.color.bg.dark.brand.o=2}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -194,7 +205,18 @@
           "y": "0",
           "blur": "0",
           "spread": "3",
-          "color": "{semantics.color.bg.light.error.o=1}",
+          "color": "{semantics.color.bg.light.error.o=2}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "errorRingDark": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "{semantics.color.bg.dark.error.o=2}",
           "type": "dropShadow"
         },
         "type": "boxShadow"

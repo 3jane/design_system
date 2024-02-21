@@ -491,6 +491,10 @@
             "o=1": {
               "type": "color",
               "value": "rgba({semantics.color.palette.neutral.10}, {semantics.color.palette.opacity.4})"
+            },
+            "o=2": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.neutral.10}, {semantics.color.palette.opacity.6})"
             }
           },
           "brand": {
@@ -513,6 +517,10 @@
             "o=1": {
               "type": "color",
               "value": "rgba({semantics.color.palette.brand.40}, {semantics.color.palette.opacity.8})"
+            },
+            "o=2": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.brand.40}, {semantics.color.palette.opacity.12})"
             },
             "a=1": {
               "type": "color",
@@ -545,6 +553,10 @@
               "value": "{semantics.color.palette.brand2.90}"
             },
             "o=1": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.brand2.80}, {semantics.color.palette.opacity.12})"
+            },
+            "o=2": {
               "type": "color",
               "value": "rgba({semantics.color.palette.brand2.80}, {semantics.color.palette.opacity.15})"
             },
@@ -581,6 +593,10 @@
             "o=1": {
               "type": "color",
               "value": "rgba({semantics.color.palette.error.50}, {semantics.color.palette.opacity.8})"
+            },
+            "o=2": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.error.50}, {semantics.color.palette.opacity.12})"
             },
             "a=1": {
               "type": "color",
@@ -635,6 +651,10 @@
             "o=1": {
               "type": "color",
               "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.10})"
+            },
+            "o=2": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.20})"
             }
           },
           "brand": {
@@ -656,7 +676,11 @@
             },
             "o=1": {
               "type": "color",
-              "value": "rgba({semantics.color.palette.brand.40}, {semantics.color.palette.opacity.12})"
+              "value": "rgba({semantics.color.palette.brand.50}, {semantics.color.palette.opacity.15})"
+            },
+            "o=2": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.brand.50}, {semantics.color.palette.opacity.20})"
             },
             "a=1": {
               "type": "color",
@@ -692,6 +716,10 @@
               "type": "color",
               "value": "rgba({semantics.color.palette.brand2.80}, {semantics.color.palette.opacity.15})"
             },
+            "o=2": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.brand2.90}, {semantics.color.palette.opacity.15})"
+            },
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.brand2.85}"
@@ -724,7 +752,11 @@
             },
             "o=1": {
               "type": "color",
-              "value": "rgba({semantics.color.palette.error.50}, {semantics.color.palette.opacity.12})"
+              "value": "rgba({semantics.color.palette.error.60}, {semantics.color.palette.opacity.12})"
+            },
+            "o=2": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.error.70}, {semantics.color.palette.opacity.12})"
             },
             "a=1": {
               "type": "color",
@@ -784,11 +816,11 @@
           "brand2": {
             "l=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.90}"
+              "value": "{semantics.color.palette.brand2.85}"
             },
             "l=2": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.92}"
+              "value": "{semantics.color.palette.brand2.90}"
             }
           },
           "error": {
