@@ -2219,8 +2219,8 @@
           "type": "typography"
         }
       }
-  },
-  "Badge": {
+    },
+    "Badge": {
     "c=color": {
           "v=neutral": {
             "l=container": {
@@ -2319,8 +2319,8 @@
         "type": "typography"
       }
     }
-},
-"RadioButton": {
+    },
+    "RadioButton": {
   "c=color": {
     "m=onLight": {
       "t=checked": {
@@ -2583,8 +2583,8 @@
     }
     }
   }
-},
-"Checkbox": {
+    },
+    "Checkbox": {
   "c=color": {
     "m=onLight": {
       "t=checked": {
@@ -2847,7 +2847,7 @@
     }
     }
   }
-},
+    },
     "button": {
       "container": {
         "fillColor": {
