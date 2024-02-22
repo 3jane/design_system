@@ -4,13 +4,16 @@ import { hexToFigmaRGB } from "@figma-plugin/helpers";
 enum ComponentType {
   Button = "Button",
   Input = "Input",
+  Icon = "Icon",
 }
 abstract class TDSComponentVariant {
   type?: string;
   color?: string;
+  mode?: string;
   interaction?: string;
-  size?: string;
   state?: string;
+  size?: string;
+  variant?: string;
 }
 
 abstract class TDSComponentTokens {
@@ -38,7 +41,7 @@ const createComponent: CreateComponentFn = (variant) => {
 };
 
 interface Variant {
-  name: string;
+  name: keyof TDSComponentVariant;
   values: string[];
 }
 function createVariants(componentType: string, createFn: CreateComponentFn, variants: Variant[]): ComponentSetNode {
