@@ -30,6 +30,48 @@ export function cssFontToFigma(value: string) {
   };
 }
 
+function cssBoxShadowToFigma(value: string): DropShadowEffect | InnerShadowEffect | undefined {
+  const isInset = value.includes("inset");
+  const normalizedString = value.replace("inset", "").trim();
+  const regex = /(-?\d*\.?\d+)(px)?\s(-?\d*\.?\d+)(px)?\s(\d*\.?\d+)(px)?(\s(\d*\.?\d+)(px)?)?\s(rgba?\([\d\s,\.]+\))/;
+  const match = normalizedString.match(regex);
+
+  if (!match) {
+    console.error("Invalid box shadow string");
+    return;
+  }
+
+  const xOffset = parseFloat(match[1]);
+  const yOffset = parseFloat(match[3]);
+  const blurRadius = parseFloat(match[5]);
+  // Figma unsupported spread radius
+  // const spreadRadius = match[7] ? parseFloat(match[8]) : 0;
+  const colorPart = match[10].match(/[\d.]+/g);
+
+  if (!colorPart) {
+    console.error("Invalid box shadow color");
+    return;
+  }
+  const color = {
+    r: parseInt(colorPart[0]) / 255,
+    g: parseInt(colorPart[1]) / 255,
+    b: parseInt(colorPart[2]) / 255,
+    a: parseFloat(colorPart[3]),
+  };
+
+  return {
+    type: isInset ? "INNER_SHADOW" : "DROP_SHADOW",
+    color: color,
+    offset: {
+      x: xOffset,
+      y: yOffset,
+    },
+    radius: blurRadius,
+    visible: true,
+    blendMode: "NORMAL",
+  };
+}
+
 /** @deprecated Use setFont instead */
 export function applyCssFontString(textNode: TextNode, cssFontString: string) {
   const { family, lineHeight, size, style } = cssFontToFigma(cssFontString);
@@ -58,6 +100,16 @@ export function setFont(element: TextNode, token: string, tokens: Tokens) {
   }
 }
 
+export function setShadow(element: DefaultFrameMixin, token: string, tokens: Tokens) {
+  const cssShadowString = get(tokens, token, "");
+  const shadowEffect = cssBoxShadowToFigma(cssShadowString);
+
+  element.setSharedPluginData("tokens", "boxShadow", `"${token}"`);
+  if (shadowEffect) {
+    element.effects = [shadowEffect];
+  }
+}
+
 export function setSize(
   element: DefaultFrameMixin,
   [width, height]: [string | undefined, string | undefined],
@@ -66,8 +118,12 @@ export function setSize(
   const widthValue = width ? parseInt(get(tokens, width, element.width), 10) : element.width;
   const heightValue = height ? parseInt(get(tokens, height, element.height), 10) : element.height;
 
-  element.setSharedPluginData("tokens", "width", `"${width}"`);
-  element.setSharedPluginData("tokens", "height", `"${height}"`);
+  if (width) {
+    element.setSharedPluginData("tokens", "width", `"${width}"`);
+  }
+  if (height) {
+    element.setSharedPluginData("tokens", "height", `"${height}"`);
+  }
   element.resize(widthValue, heightValue);
 }
 
@@ -134,5 +190,6 @@ export function bindTokensToHelpers(tokens: Tokens) {
     setBorderRadius: curryRight(setBorderRadius)(tokens),
     setPadding: curryRight(setPadding)(tokens),
     setGap: curryRight(setGap)(tokens),
+    setShadow: curryRight(setShadow)(tokens),
   };
 }
