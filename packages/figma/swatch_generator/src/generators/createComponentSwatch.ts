@@ -1,6 +1,6 @@
-import { ComponentType, createComponent as createComponentMock, CreateComponentFn } from "./createComponent/base";
-import { createButtonSwatch } from "./createComponent/createButton";
-import { createInputSwatch } from "./createComponent/createInput";
+import { ComponentType, createComponent as createComponentMock } from "./createComponent/base";
+import { createButtonSwatch } from "./createComponent/createButtonSwatch";
+import { createIconSwatch } from "./createComponent/createIconSwatch";
 
 interface Variant {
   name: string;
@@ -17,11 +17,11 @@ const createComponentSwatch: CreateSwatchFn = ({ componentType }: SwatchParams):
   if (figma.editorType === "figma") {
     let createComponent;
     switch (componentType) {
+      case ComponentType.Icon:
+        createComponent = createIconSwatch;
+        break;
       case ComponentType.Button:
         createComponent = createButtonSwatch;
-        break;
-      case ComponentType.Input:
-        createComponent = createInputSwatch;
         break;
       default:
         createComponent = createComponentMock;
