@@ -8,9 +8,7 @@ import { cssFontToFigma } from "@common/utils";
 
 async function loadAllFonts() {
   const fonts = Object.values(tokens.composites.font).reduce((set, { lg, md, sm }) => {
-    set.add(lg);
-    set.add(md);
-    set.add(sm);
+    [lg, md, sm].forEach((it) => Object.values(it).forEach((f) => set.add(f)));
 
     return set;
   }, new Set<string>());
