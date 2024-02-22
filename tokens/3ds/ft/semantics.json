@@ -1046,15 +1046,15 @@
             },
             "l=2": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.90}"
+              "value": "{semantics.color.palette.neutral.92}"
             },
             "l=3": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.80}"
+              "value": "{semantics.color.palette.neutral.85}"
             },
             "l=4": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.70}"
+              "value": "{semantics.color.palette.neutral.80}"
             }
           },
           "brand": {
@@ -1112,15 +1112,15 @@
             },
             "a=1": {
               "type": "color",
-              "value": "{semantics.color.palette.error.80}"
+              "value": "{semantics.color.palette.error.70}"
             },
             "a=2": {
               "type": "color",
-              "value": "{semantics.color.palette.error.70}"
+              "value": "{semantics.color.palette.error.60}"
             },
             "a=3": {
               "type": "color",
-              "value": "{semantics.color.palette.error.60}"
+              "value": "{semantics.color.palette.error.55}"
             }
           },
           "disabled": {
