@@ -845,6 +845,10 @@
             "l=2": {
               "type": "color",
               "value": "{semantics.color.palette.neutral.90}"
+            },
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.neutral.10}"
             }
           },
           "brand": {
@@ -855,6 +859,10 @@
             "l=2": {
               "type": "color",
               "value": "{semantics.color.palette.brand.80}"
+            },
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.brand.40}"
             }
           },
           "brand2": {
@@ -865,6 +873,10 @@
             "l=2": {
               "type": "color",
               "value": "{semantics.color.palette.brand2.90}"
+            },
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.brand2.80}"
             }
           },
           "error": {
@@ -875,6 +887,10 @@
             "l=2": {
               "type": "color",
               "value": "{semantics.color.palette.error.80}"
+            },
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.error.50}"
             }
           },
           "disabled": {
@@ -897,6 +913,10 @@
             "l=2": {
               "type": "color",
               "value": "{semantics.color.palette.neutral.30}"
+            },
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.common.white}"
             }
           },
           "brand": {
@@ -907,6 +927,10 @@
             "l=2": {
               "type": "color",
               "value": "{semantics.color.palette.brand.70}"
+            },
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.brand.45}"
             }
           },
           "brand2": {
@@ -917,6 +941,10 @@
             "l=2": {
               "type": "color",
               "value": "{semantics.color.palette.brand2.90}"
+            },
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.brand2.85}"
             }
           },
           "error": {
@@ -927,6 +955,10 @@
             "l=2": {
               "type": "color",
               "value": "{semantics.color.palette.error.70}"
+            },
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.error.55}"
             }
           },
           "disabled": {
