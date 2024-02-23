@@ -128,7 +128,7 @@ export function setSize(
 }
 
 export function setColor(element: DefaultShapeMixin, token: string, tokens: Tokens) {
-  const color = get(tokens, token);
+  const color = get(tokens, token, "rgba(0,0,0,0)");
 
   element.setSharedPluginData("tokens", "fill", `"${token}"`);
   if (color) {

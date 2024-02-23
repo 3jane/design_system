@@ -5,6 +5,7 @@ enum ComponentType {
   Button = "Button",
   Input = "Input",
   Icon = "Icon",
+  Switch = "Switch",
 }
 abstract class TDSComponentVariant {
   type?: string;
@@ -14,6 +15,7 @@ abstract class TDSComponentVariant {
   state?: string;
   size?: string;
   variant?: string;
+  icon?: string;
 }
 
 abstract class TDSComponentTokens {
@@ -111,6 +113,7 @@ function createVariants(componentType: string, createFn: CreateComponentFn, vari
       color: hexToFigmaRGB("#fff"),
     },
   ];
+  componentSet.clipsContent = false
 
   rootFrame.remove();
 

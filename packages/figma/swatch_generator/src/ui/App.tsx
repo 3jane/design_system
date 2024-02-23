@@ -28,8 +28,9 @@ function App() {
         <span>Select component</span>
         <br />
         <select name="type">
-          <option value={ComponentType.Icon}>Icon</option>
+          <option value={ComponentType.Switch}>Switch</option>
           <option value={ComponentType.Button}>Button</option>
+          <option value={ComponentType.Icon}>Icon</option>
         </select>
       </label>
       <br />
