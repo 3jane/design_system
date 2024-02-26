@@ -1,7 +1,7 @@
-import { JSONObject } from "@common/types/json";
 import { hexToFigmaRGB } from "@figma-plugin/helpers";
 
 enum ComponentType {
+  FAB = "FAB",
   Button = "Button",
   Input = "Input",
   Icon = "Icon",
@@ -16,6 +16,7 @@ abstract class TDSComponentVariant {
   size?: string;
   variant?: string;
   icon?: string;
+  text?: string;
 }
 
 abstract class TDSComponentTokens {
@@ -107,13 +108,7 @@ function createVariants(componentType: string, createFn: CreateComponentFn, vari
 
   const componentSet = figma.combineAsVariants(components, figma.currentPage);
   componentSet.name = `${componentType}`;
-  componentSet.fills = [
-    {
-      type: "SOLID",
-      color: hexToFigmaRGB("#fff"),
-    },
-  ];
-  componentSet.clipsContent = false
+  componentSet.clipsContent = false;
 
   rootFrame.remove();
 

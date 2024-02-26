@@ -1,5 +1,6 @@
 import { ComponentType, createComponent as createComponentMock } from "./createComponent/base";
 import { createButtonSwatch } from "./createComponent/createButtonSwatch";
+import { createFabSwatch } from "./createComponent/createFabSwatch";
 import { createIconSwatch } from "./createComponent/createIconSwatch";
 import { createSwitchSwatch } from "./createComponent/createSwitchSwatch";
 
@@ -27,6 +28,9 @@ const createComponentSwatch: CreateSwatchFn = ({ componentType }: SwatchParams):
       case ComponentType.Switch:
         createComponent = createSwitchSwatch;
         break;
+      case ComponentType.FAB:
+        createComponent = createFabSwatch;
+        break;
       default:
         createComponent = createComponentMock;
     }
@@ -35,8 +39,19 @@ const createComponentSwatch: CreateSwatchFn = ({ componentType }: SwatchParams):
 
     const swatchFrame = createComponent(tokens);
 
-    figma.currentPage.appendChild(swatchFrame);
-    figma.viewport.scrollAndZoomIntoView([swatchFrame]);
+    const whiteFrame = figma.createFrame();
+    whiteFrame.name = `${componentType} Swatch`;
+    whiteFrame.layoutMode = "VERTICAL";
+    whiteFrame.primaryAxisSizingMode = "AUTO";
+    whiteFrame.counterAxisSizingMode = "AUTO";
+    whiteFrame.primaryAxisAlignItems = "CENTER";
+    whiteFrame.counterAxisAlignItems = "CENTER";
+    whiteFrame.horizontalPadding = 20;
+    whiteFrame.verticalPadding = 20;
+
+    whiteFrame.appendChild(swatchFrame);
+    figma.currentPage.appendChild(whiteFrame);
+    figma.viewport.scrollAndZoomIntoView([whiteFrame]);
   }
 };
 
