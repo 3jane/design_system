@@ -1,8 +1,10 @@
 import { ComponentType, createComponent as createComponentMock } from "./createComponent/base";
+import { createBadgeSwatch } from "./createComponent/createBadgeSwatch";
 import { createButtonSwatch } from "./createComponent/createButtonSwatch";
 import { createFabSwatch } from "./createComponent/createFabSwatch";
 import { createIconSwatch } from "./createComponent/createIconSwatch";
 import { createSwitchSwatch } from "./createComponent/createSwitchSwatch";
+import { createTagSwatch } from "./createComponent/createTagSwatch";
 
 interface Variant {
   name: string;
@@ -30,6 +32,12 @@ const createComponentSwatch: CreateSwatchFn = ({ componentType }: SwatchParams):
         break;
       case ComponentType.FAB:
         createComponent = createFabSwatch;
+        break;
+      case ComponentType.Tag:
+        createComponent = createTagSwatch;
+        break;
+      case ComponentType.Badge:
+        createComponent = createBadgeSwatch;
         break;
       default:
         createComponent = createComponentMock;

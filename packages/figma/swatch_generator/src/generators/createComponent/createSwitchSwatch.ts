@@ -1,4 +1,4 @@
-import { TDSComponentVariant, createVariantFrames } from "./base";
+import { createVariantFrames } from "./base";
 import tokens from "../../../../../../build/json/tokens.json";
 import { bindTokensToHelpers } from "@common/utils";
 import { once } from "lodash";
@@ -8,7 +8,7 @@ const { setSize, setBorderColor, setBorderRadius, setBorderWidth, setColor, setF
 
 const getCheckIcon = once(() => figma.importComponentByKeyAsync("685c3ad7c7404413a2450750071f41c95558f878"));
 
-function createSwitch({ interaction, variant, state, type, mode, icon }: TDSComponentVariant) {
+function createSwitch({ interaction, variant, state, type, mode, icon }: Record<string, string>) {
   const knob = figma.createFrame();
   knob.name = "knob";
   knob.layoutMode = "HORIZONTAL";

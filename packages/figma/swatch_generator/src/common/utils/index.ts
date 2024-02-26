@@ -136,7 +136,7 @@ export function setColor(element: DefaultShapeMixin, token: string, tokens: Toke
   }
 }
 
-export function setBorderColor(element: DefaultFrameMixin, token: string, tokens: Tokens) {
+export function setBorderColor(element: DefaultShapeMixin, token: string, tokens: Tokens) {
   const color = get(tokens, token);
 
   element.setSharedPluginData("tokens", "borderColor", `"${token}"`);
@@ -192,4 +192,16 @@ export function bindTokensToHelpers(tokens: Tokens) {
     setGap: curryRight(setGap)(tokens),
     setShadow: curryRight(setShadow)(tokens),
   };
+}
+
+export function traverse(node: SceneNode, typesToFind: SceneNode["type"][], cb: (node: SceneNode) => void) {
+  if (typesToFind.includes(node.type)) {
+    cb(node);
+  }
+
+  if ("children" in node) {
+    for (const child of node.children) {
+      traverse(child, typesToFind, cb);
+    }
+  }
 }
