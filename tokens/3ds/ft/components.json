@@ -6938,21 +6938,6 @@
       }
       },
       "c=size": {
-        "l=container": {
-        "p=height": {
-            "type": "sizing",
-            "value": "32"
-        },
-        "p=borderRadius": {
-            "type": "borderRadius",
-            "value": "{semantics.size.radius.buttonLike.small}"
-        },
-        "p=borderWidth": {
-            "type": "borderWidth",
-            "value": "{semantics.size.border.thin}"
-        }
-      },
-      "c=size": {
         "p=height": {
             "type": "sizing",
             "value": "32"
