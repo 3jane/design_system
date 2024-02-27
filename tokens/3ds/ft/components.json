@@ -6468,11 +6468,11 @@
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.brand.l=1}"
+                    "value": "{semantics.color.bg.light.neutral.l=1}"
                   },
                   "i=active": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.brand.l=2}"
+                    "value": "{semantics.color.bg.light.neutral.l=2}"
                   },
                   "i=focus": {
                     "type": "color",
@@ -6500,11 +6500,11 @@
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.brand2.l=1}"
+                    "value": "{semantics.color.bg.light.neutral.l=1}"
                   },
                   "i=active": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.brand2.l=2}"
+                    "value": "{semantics.color.bg.light.neutral.l=2}"
                   },
                   "i=focus": {
                     "type": "color",
@@ -7677,11 +7677,11 @@
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.brand.l=1}"
+                    "value": "{semantics.color.bg.light.neutral.l=1}"
                   },
                   "i=active": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.brand.l=2}"
+                    "value": "{semantics.color.bg.light.neutral.l=2}"
                   },
                   "i=focus": {
                     "type": "color",
@@ -7709,11 +7709,11 @@
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.brand2.l=1}"
+                    "value": "{semantics.color.bg.light.neutral.l=1}"
                   },
                   "i=active": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.brand2.l=2}"
+                    "value": "{semantics.color.bg.light.neutral.l=2}"
                   },
                   "i=focus": {
                     "type": "color",
@@ -8049,6 +8049,224 @@
             "type": "spacing",
             "value": "{semantics.space.2xs}"
         }
+      }
+    },
+    "Divider": {
+      "c=color": {
+        "m=onLight": {
+          "t=primary": {
+            "v=neutral": {
+              "l=divider": {
+                "p=border": {
+                  "type": "color",
+                  "value": "{semantics.color.border.light.neutral.l=1}"
+                }
+              }
+            },
+            "v=brand": {
+              "l=divider": {
+                "p=border": {
+                  "type": "color",
+                  "value": "{semantics.color.border.light.brand.l=1}"
+                }
+              }
+            },
+            "v=brand2": {
+              "l=divider": {
+                "p=border": {
+                  "type": "color",
+                  "value": "{semantics.color.border.light.brand2.l=1}"
+                }
+              }
+            },
+            "v=error": {
+              "l=divider": {
+                "p=border": {
+                  "type": "color",
+                  "value": "{semantics.color.border.light.error.l=1}"
+                }
+              }
+            }
+          },
+          "t=secondary": {
+            "v=neutral": {
+              "l=divider": {
+                "p=border": {
+                  "type": "color",
+                  "value": "{semantics.color.border.light.neutral.l=2}"
+                }
+              }
+            },
+            "v=brand": {
+              "l=divider": {
+                "p=border": {
+                  "type": "color",
+                  "value": "{semantics.color.border.light.brand.l=2}"
+                }
+              }
+            },
+            "v=brand2": {
+              "l=divider": {
+                "p=border": {
+                  "type": "color",
+                  "value": "{semantics.color.border.light.brand2.l=2}"
+                }
+              }
+            },
+            "v=error": {
+              "l=divider": {
+                "p=border": {
+                  "type": "color",
+                  "value": "{semantics.color.border.light.error.l=2}"
+                }
+              }
+            }
+          },
+          "t=contrast": {
+            "v=neutral": {
+              "l=divider": {
+                "p=border": {
+                  "type": "color",
+                  "value": "{semantics.color.border.light.neutral.a=1}"
+                }
+              }
+            },
+            "v=brand": {
+              "l=divider": {
+                "p=border": {
+                  "type": "color",
+                  "value": "{semantics.color.border.light.brand.a=1}"
+                }
+              }
+            },
+            "v=brand2": {
+              "l=divider": {
+                "p=border": {
+                  "type": "color",
+                  "value": "{semantics.color.border.light.brand2.a=1}"
+                }
+              }
+            },
+            "v=error": {
+              "l=divider": {
+                "p=border": {
+                  "type": "color",
+                  "value": "{semantics.color.border.light.error.a=1}"
+                }
+              }
+            }
+          }
+      },
+      "m=onDark": {
+        "t=primary": {
+          "v=neutral": {
+            "l=divider": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.dark.neutral.l=1}"
+              }
+            }
+          },
+          "v=brand": {
+            "l=divider": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.dark.brand.l=1}"
+              }
+            }
+          },
+          "v=brand2": {
+            "l=divider": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.dark.brand2.l=1}"
+              }
+            }
+          },
+          "v=error": {
+            "l=divider": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.dark.error.l=1}"
+              }
+            }
+          }
+        },
+        "t=secondary": {
+          "v=neutral": {
+            "l=divider": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.dark.neutral.l=2}"
+              }
+            }
+          },
+          "v=brand": {
+            "l=divider": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.dark.brand.l=2}"
+              }
+            }
+          },
+          "v=brand2": {
+            "l=divider": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.dark.brand2.l=2}"
+              }
+            }
+          },
+          "v=error": {
+            "l=divider": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.dark.error.l=2}"
+              }
+            }
+          }
+        },
+        "t=contrast": {
+          "v=neutral": {
+            "l=divider": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.dark.neutral.a=1}"
+              }
+            }
+          },
+          "v=brand": {
+            "l=divider": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.dark.brand.a=1}"
+              }
+            }
+          },
+          "v=brand2": {
+            "l=divider": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.dark.brand2.a=1}"
+              }
+            }
+          },
+          "v=error": {
+            "l=divider": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.dark.error.a=1}"
+              }
+            }
+          }
+        }
+    }
+      },
+      "c=size": {
+        "p=borderWidth": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.thin}"
+        } 
       }
     }
   }
