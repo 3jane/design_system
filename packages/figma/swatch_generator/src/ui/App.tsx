@@ -28,6 +28,9 @@ function App() {
         <span>Select component</span>
         <br />
         <select name="type">
+          <option value={ComponentType.Slider}>Slider</option>
+          <option value={ComponentType.Checkbox}>Checkbox</option>
+          <option value={ComponentType.RadioButton}>RadioButton</option>
           <option value={ComponentType.Badge}>Badge</option>
           <option value={ComponentType.Tag}>Tag</option>
           <option value={ComponentType.FAB}>FAB</option>

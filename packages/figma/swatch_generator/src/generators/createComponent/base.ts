@@ -1,6 +1,9 @@
 import { hexToFigmaRGB } from "@figma-plugin/helpers";
 
 enum ComponentType {
+  Slider = "Slider",
+  Checkbox = "Checkbox",
+  RadioButton = "RadioButton",
   Badge = "Badge",
   Tag = "Tag",
   FAB = "FAB",
