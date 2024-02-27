@@ -1158,11 +1158,11 @@
           "disabled": {
             "l=1": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.50}"
+              "value": "{semantics.color.palette.neutral.55}"
             },
             "l=2": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.40}"
+              "value": "{semantics.color.palette.neutral.45}"
             }
           }
         }
