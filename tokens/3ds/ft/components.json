@@ -7768,7 +7768,7 @@
             "value": "{semantics.space.none}"
           }
         },
-        "p=horizontalPadding": {
+        "p=paddingHorizontal": {
           "v=small": {
             "type": "spacing",
             "value": "{semantics.space.lg}"
@@ -7782,7 +7782,7 @@
             "value": "{semantics.space.lg}"
           }
         },
-        "p=verticalPadding": {
+        "p=paddingVertical": {
           "v=small": {
             "type": "spacing",
             "value": "{semantics.space.md}"
@@ -8597,6 +8597,208 @@
             "type": "borderWidth",
             "value": "{semantics.size.border.thin}"
         } 
+      }
+    },
+    "BottomNavigation": {
+      "c=color": {
+        "m=onLight": {
+          "t=selected": {
+            "s=enabled": {
+              "v=neutral": {
+                "l=text": {
+                  "p=color": {
+                      "value": "{semantics.color.text.onLight.neutral.l=1}",
+                      "type": "color"
+                  }
+                }
+              },
+              "v=brand": {
+                "l=text": {
+                  "p=color": {
+                      "value": "{semantics.color.text.onLight.brand.a=1}",
+                      "type": "color"
+                  }
+                }
+              },
+              "v=brand2": {
+                "l=text": {
+                  "p=color": {
+                      "value": "{semantics.color.text.onLight.brand2.a=1}",
+                      "type": "color"
+                  }
+                }
+              }
+            },
+            "s=disabled": {
+              "v=disabled": {
+                "l=text": {
+                  "p=color": {
+                      "value": "{semantics.color.text.onLight.disabled.l=1}",
+                      "type": "color"
+                  }
+                }
+              }
+            }
+          },
+          "t=deselected": {
+            "s=enabled": {
+              "v=neutral": {
+                "l=text": {
+                  "p=color": {
+                      "value": "{semantics.color.text.onLight.neutral.l=4}",
+                      "type": "color"
+                  }
+                }
+              },
+              "v=brand": {
+                "l=text": {
+                  "p=color": {
+                      "value": "{semantics.color.text.onLight.neutral.l=4}",
+                      "type": "color"
+                  }
+                }
+              },
+              "v=brand2": {
+                "l=text": {
+                  "p=color": {
+                      "value": "{semantics.color.text.onLight.neutral.l=4}",
+                      "type": "color"
+                  }
+                }
+              }
+            },
+            "s=disabled": {
+              "v=disabled": {
+                "l=text": {
+                  "p=color": {
+                      "value": "{semantics.color.text.onLight.disabled.l=1}",
+                      "type": "color"
+                  }
+                }
+              }
+            }
+          }
+          },
+         "m=onDark": {
+            "t=selected": {
+              "s=enabled": {
+                "v=neutral": {
+                  "l=text": {
+                    "p=color": {
+                        "value": "{semantics.color.text.onDark.neutral.l=1}",
+                        "type": "color"
+                    }
+                  }
+                },
+                "v=brand": {
+                  "l=text": {
+                    "p=color": {
+                        "value": "{semantics.color.text.onDark.brand.a=1}",
+                        "type": "color"
+                    }
+                  }
+                },
+                "v=brand2": {
+                  "l=text": {
+                    "p=color": {
+                        "value": "{semantics.color.text.onDark.brand2.a=1}",
+                        "type": "color"
+                    }
+                  }
+                }
+              },
+              "s=disabled": {
+                "v=disabled": {
+                  "l=text": {
+                    "p=color": {
+                        "value": "{semantics.color.text.onDark.disabled.l=1}",
+                        "type": "color"
+                    }
+                  }
+                }
+              }
+            },
+            "t=deselected": {
+              "s=enabled": {
+                "v=neutral": {
+                  "l=text": {
+                    "p=color": {
+                        "value": "{semantics.color.text.onDark.neutral.l=4}",
+                        "type": "color"
+                    }
+                  }
+                },
+                "v=brand": {
+                  "l=text": {
+                    "p=color": {
+                        "value": "{semantics.color.text.onDark.neutral.l=4}",
+                        "type": "color"
+                    }
+                  }
+                },
+                "v=brand2": {
+                  "l=text": {
+                    "p=color": {
+                        "value": "{semantics.color.text.onDark.neutral.l=4}",
+                        "type": "color"
+                    }
+                  }
+                }
+              },
+              "s=disabled": {
+                "v=disabled": {
+                  "l=text": {
+                    "p=color": {
+                        "value": "{semantics.color.text.onDark.disabled.l=1}",
+                        "type": "color"
+                    }
+                  }
+                }
+              }
+            }
+          }
+      },
+      "c=space": {
+        "t=labelFalse": {
+        "p=margin": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+        },
+        "p=paddingTop": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+        },
+        "p=paddingBottom": {
+          "type": "spacing",
+          "value": "{semantics.space.none}"
+      },
+        "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+        }
+      },
+      "t=labelTrue": {
+        "p=margin": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+        },
+        "p=paddingTop": {
+            "type": "spacing",
+            "value": "{semantics.space.xs}"
+        },
+        "p=paddingBottom": {
+          "type": "spacing",
+          "value": "{semantics.space.2xs}"
+      },
+        "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.2xs}"
+        }
+      }
+      },
+      "c=font": {
+          "value": "{composites.font.label.sm.medium}",
+          "type": "typography"
       }
     }
   }
