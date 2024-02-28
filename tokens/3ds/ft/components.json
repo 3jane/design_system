@@ -9255,6 +9255,16 @@
       }
       },
       "c=size": {
+        "l=linkContainer": {
+          "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.buttonLike.small}"
+        },
+        "p=borderWidth": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.thin}"
+        }
+      },
         "l=iconSeparator": {
           "p=size": {
               "type": "sizing",
@@ -9264,13 +9274,13 @@
         "l=textSeparatorContainer": {
         "p=width": {
             "type": "sizing",
-            "value": "16"
+            "value": "20"
         }
         },
         "l=iconSeparatorContainer": {
           "p=width": {
               "type": "sizing",
-              "value": "24"
+              "value": "32"
           }
           }
       },
