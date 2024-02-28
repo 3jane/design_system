@@ -5739,19 +5739,23 @@
                     }
                   }
                 },
-                "l=sliderTooltip": {
+                "l=valueIndicator": {
+                  "p=fill": {
+                      "value": "{semantics.color.bg.dark.neutral.l=2}",
+                      "type": "color"
+                  },
+                  "p=border": {
+                    "value": "{semantics.color.palette.common.transparent}",
+                    "type": "color"
+                }
+                },
+                "l=valueIndicatorArrow": {
                   "p=fill": {
                       "value": "{semantics.color.bg.dark.neutral.l=2}",
                       "type": "color"
                   }
                 },
-                "l=sliderArrow": {
-                  "p=fill": {
-                      "value": "{semantics.color.bg.dark.neutral.l=2}",
-                      "type": "color"
-                  }
-                },
-                "l=sliderLabel": {
+                "l=valueIndicatorLabel": {
                   "p=color": {
                       "value": "{semantics.color.text.onDark.neutral.l=1}",
                       "type": "color"
@@ -5819,19 +5823,23 @@
                     }
                   }
                 },
-                "l=sliderTooltip": {
+                "l=valueIndicator": {
+                  "p=fill": {
+                      "value": "{semantics.color.bg.dark.neutral.l=2}",
+                      "type": "color"
+                  },
+                  "p=border": {
+                    "value": "{semantics.color.palette.common.transparent}",
+                    "type": "color"
+                }
+                },
+                "l=valueIndicatorArrow": {
                   "p=fill": {
                       "value": "{semantics.color.bg.dark.neutral.l=2}",
                       "type": "color"
                   }
                 },
-                "l=sliderArrow": {
-                  "p=fill": {
-                      "value": "{semantics.color.bg.dark.neutral.l=2}",
-                      "type": "color"
-                  }
-                },
-                "l=sliderLabel": {
+                "l=valueIndicatorLabel": {
                   "p=color": {
                       "value": "{semantics.color.text.onDark.neutral.l=1}",
                       "type": "color"
@@ -5899,19 +5907,23 @@
                     }
                   }
                 },
-                "l=sliderTooltip": {
+                "l=valueIndicator": {
+                  "p=fill": {
+                      "value": "{semantics.color.bg.dark.neutral.l=2}",
+                      "type": "color"
+                  },
+                  "p=border": {
+                    "value": "{semantics.color.palette.common.transparent}",
+                    "type": "color"
+                }
+                },
+                "l=valueIndicatorArrow": {
                   "p=fill": {
                       "value": "{semantics.color.bg.dark.neutral.l=2}",
                       "type": "color"
                   }
                 },
-                "l=sliderArrow": {
-                  "p=fill": {
-                      "value": "{semantics.color.bg.dark.neutral.l=2}",
-                      "type": "color"
-                  }
-                },
-                "l=sliderLabel": {
+                "l=valueIndicatorLabel": {
                   "p=color": {
                       "value": "{semantics.color.text.onDark.neutral.l=1}",
                       "type": "color"
@@ -6035,19 +6047,23 @@
                   }
                 }
               },
-              "l=sliderTooltip": {
+              "l=valueIndicator": {
+                "p=fill": {
+                    "value": "{semantics.color.bg.dark.neutral.l=4}",
+                    "type": "color"
+                },
+                "p=border": {
+                  "value": "{semantics.color.palette.common.transparent}",
+                  "type": "color"
+              }
+              },
+              "l=valueIndicatorArrow": {
                 "p=fill": {
                     "value": "{semantics.color.bg.dark.neutral.l=4}",
                     "type": "color"
                 }
               },
-              "l=sliderArrow": {
-                "p=fill": {
-                    "value": "{semantics.color.bg.dark.neutral.l=4}",
-                    "type": "color"
-                }
-              },
-              "l=sliderLabel": {
+              "l=valueIndicatorLabel": {
                 "p=color": {
                     "value": "{semantics.color.text.onDark.neutral.l=1}",
                     "type": "color"
@@ -6115,19 +6131,23 @@
                   }
                 }
               },
-              "l=sliderTooltip": {
+              "l=valueIndicator": {
+                "p=fill": {
+                    "value": "{semantics.color.bg.dark.neutral.l=4}",
+                    "type": "color"
+                },
+                "p=border": {
+                  "value": "{semantics.color.palette.common.transparent}",
+                  "type": "color"
+              }
+              },
+              "l=valueIndicatorArrow": {
                 "p=fill": {
                     "value": "{semantics.color.bg.dark.neutral.l=4}",
                     "type": "color"
                 }
               },
-              "l=sliderArrow": {
-                "p=fill": {
-                    "value": "{semantics.color.bg.dark.neutral.l=4}",
-                    "type": "color"
-                }
-              },
-              "l=sliderLabel": {
+              "l=valueIndicatorLabel": {
                 "p=color": {
                     "value": "{semantics.color.text.onDark.neutral.l=1}",
                     "type": "color"
@@ -6195,19 +6215,23 @@
                   }
                 }
               },
-              "l=sliderTooltip": {
+              "l=valueIndicator": {
+                "p=fill": {
+                    "value": "{semantics.color.bg.dark.neutral.l=4}",
+                    "type": "color"
+                },
+                "p=border": {
+                  "value": "{semantics.color.palette.common.transparent}",
+                  "type": "color"
+              }
+              },
+              "l=valueIndicatorArrow": {
                 "p=fill": {
                     "value": "{semantics.color.bg.dark.neutral.l=4}",
                     "type": "color"
                 }
               },
-              "l=sliderArrow": {
-                "p=fill": {
-                    "value": "{semantics.color.bg.dark.neutral.l=4}",
-                    "type": "color"
-                }
-              },
-              "l=sliderLabel": {
+              "l=valueIndicatorLabel": {
                 "p=color": {
                     "value": "{semantics.color.text.onDark.neutral.l=1}",
                     "type": "color"
@@ -6350,7 +6374,7 @@
           "value": "{semantics.size.radius.full}"
         }
         },
-        "l=sliderArrow": {
+        "l=valueIndicatorArrow": {
           "p=height": {
             "type": "sizing",
             "value": "6"
@@ -6360,10 +6384,14 @@
             "value": "12"
           }
         },
-        "l=sliderTooltip": {
+        "l=valueIndicator": {
           "p=borderRadius": {
           "type": "borderRadius",
-          "value": "{semantics.size.radius.full}"
+          "value": "{semantics.size.radius.md}"
+        },
+        "p=borderWidth": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.thin}"
         }
         }
       },
@@ -6375,12 +6403,12 @@
           }
         },
         "l=mainContainer": {
-          "p=padding": {
+          "p=gap": {
             "type": "spacing",
             "value": "{semantics.space.none}"
           }
         },
-        "l=sliderTooltip": {
+        "l=valueIndicator": {
           "p=paddingHorizontal": {
             "type": "spacing",
             "value": "{semantics.space.xl}"
@@ -6392,7 +6420,7 @@
         }
       },
       "c=font": {
-        "sliderLabel": {
+        "valueIndicatorLabel": {
           "value": "{composites.font.label.lg.medium}",
           "type": "typography"
       },
