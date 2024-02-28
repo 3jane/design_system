@@ -698,50 +698,6 @@
           "value": "{semantics.size.radius.full}"
         }
         }
-      },
-      "c=space": {
-        "l=container": {
-          "p=margin": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          },
-          "p=padding": {
-            "type": "spacing",
-            "value": "{semantics.space.xs}"
-          },
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          }
-        },
-        "l=knob": {
-          "p=margin": {
-          "type": "spacing",
-          "value": "{semantics.space.none}"
-        },
-          "p=padding": {
-          "type": "spacing",
-          "value": "{semantics.space.none}"
-        },
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          }
-        },
-        "l=halo": {
-          "p=margin": {
-          "type": "spacing",
-          "value": "{base.space.4px}"
-        },
-          "p=padding": {
-          "type": "spacing",
-          "value": "{base.space.8px}"
-        },
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          }
-        }
       }
     },
     "Button": {
@@ -2344,20 +2300,6 @@
         }
       },
       "c=space": {
-        "p=margin": {
-          "v=small": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          },
-          "v=medium": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          },
-          "v=large": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          }
-        },
         "p=padding": {
           "v=small": {
             "type": "spacing",
@@ -3030,20 +2972,6 @@
           }
         },
         "c=space": {
-          "p=margin": {
-            "v=small": {
-              "type": "spacing",
-              "value": "{semantics.space.none}"
-            },
-            "v=medium": {
-              "type": "spacing",
-              "value": "{semantics.space.none}"
-            },
-            "v=large": {
-              "type": "spacing",
-              "value": "{semantics.space.none}"
-            }
-          },
           "p=padding": {
             "v=small": {
               "type": "spacing",
@@ -3654,16 +3582,6 @@
         }
       },
       "c=space": {
-        "p=margin": {
-          "v=small": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          },
-          "v=medium": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          }
-        },
         "p=padding": {
           "v=small": {
             "type": "spacing",
@@ -5540,16 +5458,6 @@
         }
       },
       "c=space": {
-        "p=margin": {
-          "v=small": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          },
-          "v=medium": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          }
-        },
         "p=padding": {
           "v=small": {
             "type": "spacing",
@@ -6817,12 +6725,6 @@
           }
         }
       },
-      "c=space": {
-        "p=margin": {
-            "type": "spacing",
-            "value": "{semantics.space.2xs}"
-        }
-      },
       "c=font": {
         "t=selected": {
           "value": "{composites.font.label.lg.thick}",
@@ -7089,10 +6991,6 @@
       
       },
       "c=space": {
-        "p=margin": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-        },
         "p=padding": {
             "type": "spacing",
             "value": "{semantics.space.md}"
@@ -7387,20 +7285,6 @@
         } 
       },
       "c=space": {
-        "p=margin": {
-          "v=small": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          },
-          "v=medium": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          },
-          "v=large": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          }
-        },
         "p=padding": {
           "v=small": {
             "type": "spacing",
@@ -7750,20 +7634,6 @@
       },
       "c=space": {
         "l=container": {
-        "p=margin": {
-          "v=small": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          },
-          "v=medium": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          },
-          "v=large": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          }
-        },
         "p=paddingHorizontal": {
           "v=small": {
             "type": "spacing",
@@ -8369,12 +8239,6 @@
             "value": "{semantics.size.border.none}"
           }
         }
-      },
-      "c=space": {
-        "p=margin": {
-            "type": "spacing",
-            "value": "{semantics.space.2xs}"
-        }
       }
     },
     "Divider": {
@@ -8862,10 +8726,6 @@
       },
       "c=space": {
       "t=labelFalse": {
-        "p=margin": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-        },
         "p=paddingTop": {
             "type": "spacing",
             "value": "{semantics.space.none}"
@@ -8880,10 +8740,6 @@
         }
       },
       "t=labelTrue": {
-        "p=margin": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-        },
         "p=paddingTop": {
             "type": "spacing",
             "value": "{semantics.space.xs}"
