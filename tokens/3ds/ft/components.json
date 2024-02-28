@@ -6288,14 +6288,10 @@
         }
       },
       "c=space": {
-        "l=mark": {
-          "p=margin": {
-            "type": "spacing",
-            "value": "{semantics.space.lg}"
-          },
+        "l=markContainer": {
           "p=padding": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.lg}"
           }
         }
       }
