@@ -1,9 +1,11 @@
 import { ComponentType, createComponent as createComponentMock } from "./createComponent/base";
 import { createBadgeSwatch } from "./createComponent/createBadgeSwatch";
+import { createBreadcrumbsSwatch } from "./createComponent/createBreadcrumbsSwatch";
 import { createButtonSwatch } from "./createComponent/createButtonSwatch";
 import { createCheckboxSwatch } from "./createComponent/createCheckboxSwatch";
 import { createFabSwatch } from "./createComponent/createFabSwatch";
 import { createIconSwatch } from "./createComponent/createIconSwatch";
+import { createPaginationSwatch } from "./createComponent/createPaginationSwatch";
 import { createRadioButtonSwatch } from "./createComponent/createRadioButtonSwatch";
 import { createSliderSwatch } from "./createComponent/createSliderSwatch";
 import { createSwitchSwatch } from "./createComponent/createSwitchSwatch";
@@ -50,6 +52,12 @@ const createComponentSwatch: CreateSwatchFn = ({ componentType }: SwatchParams):
         break;
       case ComponentType.Slider:
         createComponent = createSliderSwatch;
+        break;
+      case ComponentType.Pagination:
+        createComponent = createPaginationSwatch;
+        break;
+      case ComponentType.Breadcrumbs:
+        createComponent = createBreadcrumbsSwatch;
         break;
       default:
         createComponent = createComponentMock;

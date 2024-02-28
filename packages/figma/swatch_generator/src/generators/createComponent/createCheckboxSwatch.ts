@@ -5,14 +5,20 @@ import { once } from "lodash";
 
 const { setSize, setBorderColor, setBorderRadius, setBorderWidth, setColor } = bindTokensToHelpers(tokens);
 
-const getCheckedIcon = once(() => figma.importComponentByKeyAsync("76fa7dfa06744eae660f355f1291c264c8c8b2ce"));
-const getIndeterminateIcon = once(() => figma.importComponentByKeyAsync("e68419391a7a0ffc8c0cb7dca6bd8b2748837b3e"));
+const getCheckedIcon = once(() => figma.importComponentByKeyAsync("46e477b5bc82f8e7f04100d9dea49c785bf6f684"));
+const getIndeterminateIcon = once(() => figma.importComponentByKeyAsync("764e1e26ea7d726ac8043dba0c120192c202a69a"));
+const getUncheckedIcon = once(() => figma.importComponentByKeyAsync("404836f5a9c5b7a57e59090596f9ef2e14f4ba37"));
 
-function createCheckboxButton({ color, mode, type, state, interaction }: Record<string, string>) {
+function createCheckboxButton({ color, mode, type, state, interaction, indeterminate }: Record<string, string>) {
   const root = figma.createComponent();
-  root.name = [`Interaction=${interaction}`, `Mode=${mode}`, `State=${state}`, `Type=${type}`, `Color=${color}`].join(
-    ", "
-  );
+  root.name = [
+    `Interaction=${interaction}`,
+    `Mode=${mode}`,
+    `State=${state}`,
+    `Type=${type}`,
+    `Color=${color}`,
+    `Indeterminate=${indeterminate}`,
+  ].join(", ");
   root.layoutMode = "HORIZONTAL";
   root.primaryAxisSizingMode = "AUTO";
   root.counterAxisSizingMode = "AUTO";
@@ -47,35 +53,33 @@ function createCheckboxButton({ color, mode, type, state, interaction }: Record<
   icon.layoutMode = "HORIZONTAL";
   icon.primaryAxisAlignItems = "CENTER";
   icon.counterAxisAlignItems = "CENTER";
+  icon.fills = [figma.util.solidPaint("rgba(0,0,0,0)")];
   setSize(icon, [`components.Checkbox.c=size.l=icon.p=size`, `components.Checkbox.c=size.l=icon.p=size`]);
 
-  if (type === "checked") {
-    getCheckedIcon().then((Component) => {
-      const instance = Component.createInstance();
-      instance.resize(24, 24);
-
-      traverse(instance, ["VECTOR"], (node) => {
-        const v = node as VectorNode;
-        if (state !== "disabled") {
-          setColor(v, `components.Checkbox.c=color.m=${mode}.t=${type}.s=${state}.v=${color}.l=icon.p=fill`);
-          setBorderColor(v, `components.Checkbox.c=color.m=${mode}.t=${type}.s=${state}.v=${color}.l=icon.p=fill`);
-        } else {
-          setColor(v, `components.Checkbox.c=color.m=${mode}.t=${type}.s=${state}.v=disabled.l=icon.p=fill`);
-          setBorderColor(v, `components.Checkbox.c=color.m=${mode}.t=${type}.s=${state}.v=disabled.l=icon.p=fill`);
-        }
-      });
-
-      icon.appendChild(instance);
-      icon.layoutSizingHorizontal = "HUG";
-      icon.layoutSizingVertical = "HUG";
-    });
-  } else {
-    if (state !== "disabled") {
-      setBorderColor(icon, `components.Checkbox.c=color.m=${mode}.t=${type}.s=${state}.v=${color}.l=icon.p=fill`);
-    } else {
-      setBorderColor(icon, `components.Checkbox.c=color.m=${mode}.t=${type}.s=${state}.v=disabled.l=icon.p=fill`);
-    }
+  let getIcon = indeterminate === "false" ? getCheckedIcon : getIndeterminateIcon;
+  if (state === "unchecked") {
+    getIcon = getUncheckedIcon;
   }
+
+  getIcon().then((Component) => {
+    const instance = Component.createInstance();
+    instance.resize(24, 24);
+
+    traverse(instance, ["VECTOR"], (node) => {
+      const v = node as VectorNode;
+      if (state !== "disabled") {
+        setColor(v, `components.Checkbox.c=color.m=${mode}.t=${type}.s=${state}.v=${color}.l=icon.p=fill`);
+        setBorderColor(v, `components.Checkbox.c=color.m=${mode}.t=${type}.s=${state}.v=${color}.l=icon.p=fill`);
+      } else {
+        setColor(v, `components.Checkbox.c=color.m=${mode}.t=${type}.s=${state}.v=disabled.l=icon.p=fill`);
+        setBorderColor(v, `components.Checkbox.c=color.m=${mode}.t=${type}.s=${state}.v=disabled.l=icon.p=fill`);
+      }
+    });
+
+    icon.appendChild(instance);
+    icon.layoutSizingHorizontal = "HUG";
+    icon.layoutSizingVertical = "HUG";
+  });
 
   halo.appendChild(icon);
   root.appendChild(halo);
@@ -87,7 +91,7 @@ export function createCheckboxSwatch(tokens: {}) {
   return createVariantFrames("Checkbox", createCheckboxButton, [
     {
       name: "color",
-      values: ["neutral", "brand", "brand2", "disabled"],
+      values: ["neutral", "brand", "brand2"],
     },
     {
       name: "mode",
@@ -104,6 +108,10 @@ export function createCheckboxSwatch(tokens: {}) {
     {
       name: "interaction",
       values: ["none", "hover", "focus", "active"],
+    },
+    {
+      name: "indeterminate",
+      values: ["true", "false"],
     },
   ]);
 }
