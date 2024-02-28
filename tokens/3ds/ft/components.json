@@ -6383,7 +6383,7 @@
         "l=progressContainer": {
           "p=height": {
             "type": "sizing",
-            "value": "8"
+            "value": "4"
           },
           "p=borderRadius": {
             "type": "borderRadius",
@@ -6427,9 +6427,9 @@
             "type": "spacing",
             "value": "{semantics.space.xs}"
           },
-          "p=padding": {
+          "p=paddingLeft": {
             "type": "spacing",
-            "value": "{semantics.space.xs}"
+            "value": "{semantics.space.none}"
           }
         }
       },
