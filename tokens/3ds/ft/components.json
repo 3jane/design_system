@@ -6331,7 +6331,7 @@
         },
           "p=borderWidth": {
           "type": "borderWidth",
-          "value": "1"
+          "value": "2"
         },
           "p=borderRadius": {
           "type": "borderRadius",
