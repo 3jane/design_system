@@ -6420,11 +6420,11 @@
         }
       },
       "c=font": {
-        "valueIndicatorLabel": {
+        "l=valueIndicatorLabel": {
           "value": "{composites.font.label.lg.medium}",
           "type": "typography"
       },
-      "markLabel": {
+      "l=markLabel": {
         "value": "{composites.font.label.lg.medium}",
         "type": "typography"
     }
@@ -6660,7 +6660,7 @@
         }
       },
       "c=font": {
-        "label": {
+        "l=label": {
           "value": "{composites.font.label.lg.medium}",
           "type": "typography"
       }
