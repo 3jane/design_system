@@ -1041,7 +1041,7 @@
               "l=text": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=1}"
+                  "value": "{semantics.color.text.onLight.neutral.l=2}"
                 }
               }
             },
@@ -1349,7 +1349,7 @@
               "l=text": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=3}"
+                  "value": "{semantics.color.text.onLight.neutral.l=4}"
                 }
               }
             },
@@ -1813,7 +1813,7 @@
               "l=text": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=1}"
+                  "value": "{semantics.color.text.onDark.neutral.l=2}"
                 }
               }
             },
@@ -2121,7 +2121,7 @@
               "l=text": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=3}"
+                  "value": "{semantics.color.text.onDark.neutral.l=4}"
                 }
               }
             },
@@ -6428,6 +6428,16 @@
         "value": "{composites.font.label.lg.medium}",
         "type": "typography"
     }
+    },
+    "c=elevation": {
+      "l=thumb": {
+          "value": "{composites.elevation.2}",
+          "type": "boxShadow"
+      },
+      "l=valueIndicator": {
+        "value": "{composites.elevation.2}",
+        "type": "boxShadow"
+    }
     }
     },
     "ProgressLinear": {
@@ -8200,7 +8210,7 @@
               "l=text": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=1}"
+                  "value": "{semantics.color.text.onLight.neutral.l=2}"
                 }
               }
             },
@@ -8446,7 +8456,7 @@
               "l=text": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=1}"
+                  "value": "{semantics.color.text.onDark.neutral.l=2}"
                 }
               }
             },
