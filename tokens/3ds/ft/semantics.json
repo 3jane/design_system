@@ -848,7 +848,7 @@
             },
             "a=1": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.10}"
+              "value": "{semantics.color.palette.neutral.20}"
             }
           },
           "brand": {
@@ -916,7 +916,7 @@
             },
             "a=1": {
               "type": "color",
-              "value": "{semantics.color.palette.common.white}"
+              "value": "{semantics.color.palette.neutral.92}"
             }
           },
           "brand": {
