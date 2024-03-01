@@ -8167,11 +8167,11 @@
       }
       },
       "c=font": {
-          "p=titleText": {
+          "l=titleText": {
           "value": "{composites.font.label.lg.medium}",
           "type": "typography"
           },
-          "p=supportingText": {
+          "l=supportingText": {
             "value": "{composites.font.body.sm.thin}",
             "type": "typography"
           }
@@ -9787,6 +9787,94 @@
           "value": "{composites.font.label.lg.thick}",
           "type": "typography"
       }
+      }
+    },
+    "Snackbar": {
+      "c=color": {
+        "m=onLight": {
+              "l=container": {
+                "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.dark.neutral.l=2}"
+                },
+                "p=border": {
+                  "type": "color",
+                  "value": "{semantics.color.palette.common.transparent}"
+                }
+              },
+              "l=text": {
+                "p=color": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onDark.neutral.l=2}"
+                }
+              }
+  
+        
+      },
+        "m=onDark": {
+          "l=container": {
+                  "p=fill": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.light.neutral.l=3}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+          "l=text": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=2}"
+                  }
+                }
+      }
+      },
+      "c=size": {
+        "p=height": { 
+            "type": "sizing",
+            "value": "48"
+        },
+        "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.lg}"
+        },
+        "p=borderWidth": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.thin}"
+        } 
+      },
+      "c=space": {
+        "l=container": {
+        "p=paddingLeft": {
+            "type": "spacing",
+            "value": "{semantics.space.2xl}"
+        },
+        "p=paddingRight": {
+          "type": "spacing",
+          "value": "{semantics.space.xs}"
+      },
+        "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.xs}"
+        }
+      },
+      "l=buttonContainer": {
+        "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+        }
+      }
+      },
+      "c=font": {
+        "t=selected": {
+          "value": "{composites.font.body.md.medium}",
+          "type": "typography"
+        },
+        "t=deselected": {
+          "value": "{composites.font.body.md.medium}",
+          "type": "typography"
+        }
       }
     }
   }
