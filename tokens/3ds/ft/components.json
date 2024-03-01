@@ -9805,7 +9805,7 @@
               "l=text": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=2}"
+                  "value": "{semantics.color.text.onDark.neutral.l=1}"
                 }
               }
   
@@ -9815,7 +9815,7 @@
           "l=container": {
                   "p=fill": {
                       "type": "color",
-                      "value": "{semantics.color.bg.light.neutral.l=3}"
+                      "value": "{semantics.color.bg.light.neutral.l=1}"
                   },
                   "p=border": {
                     "type": "color",
@@ -9867,14 +9867,8 @@
       }
       },
       "c=font": {
-        "t=selected": {
           "value": "{composites.font.body.md.medium}",
           "type": "typography"
-        },
-        "t=deselected": {
-          "value": "{composites.font.body.md.medium}",
-          "type": "typography"
-        }
       }
     }
   }
