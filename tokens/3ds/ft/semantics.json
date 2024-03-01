@@ -930,7 +930,7 @@
             },
             "a=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand.45}"
+              "value": "{semantics.color.palette.brand.70}"
             }
           },
           "brand2": {
@@ -944,7 +944,7 @@
             },
             "a=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.85}"
+              "value": "{semantics.color.palette.brand2.92}"
             }
           },
           "error": {
@@ -958,7 +958,7 @@
             },
             "a=1": {
               "type": "color",
-              "value": "{semantics.color.palette.error.55}"
+              "value": "{semantics.color.palette.error.70}"
             }
           },
           "disabled": {
