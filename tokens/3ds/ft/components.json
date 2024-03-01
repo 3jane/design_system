@@ -9773,22 +9773,28 @@
       }
       },
       "c=font": {
-        "l=link": {
         "t=selected": {
+          "l=link": {
           "value": "{composites.font.label.lg.thick}",
           "type": "typography"
+          },
+          "l=textSeparator": {
+            "value": "{composites.font.label.lg.thick}",
+            "type": "typography"
+        }
         },
         "t=deselected": {
-          "value": "{composites.font.label.lg.medium}",
-          "type": "typography"
+          "l=link": {
+            "value": "{composites.font.label.lg.medium}",
+            "type": "typography"
+            },
+            "l=textSeparator": {
+              "value": "{composites.font.label.lg.thick}",
+              "type": "typography"
+          }
         }
+      }
       },
-      "l=textSeparator": {
-          "value": "{composites.font.label.lg.thick}",
-          "type": "typography"
-      }
-      }
-    },
     "Snackbar": {
       "c=color": {
         "m=onLight": {
@@ -9869,6 +9875,12 @@
       "c=font": {
           "value": "{composites.font.body.md.medium}",
           "type": "typography"
+      },
+      "c=elevation": {
+        "l=contianer": {
+            "value": "{composites.elevation.3}",
+            "type": "boxShadow"
+        }
       }
     }
   }
