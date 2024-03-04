@@ -78,6 +78,176 @@
         }
       }
     },
+    "Typography": {
+      "c=color": {
+        "m=onLight": {
+            "p=color": {
+              "v=neutral": {
+                "l=primary": {
+                "value": "{semantics.color.text.onLight.neutral.l=1}",
+                "type": "color"
+                },
+                "l=secondary": {
+                  "value": "{semantics.color.text.onLight.neutral.l=2}",
+                  "type": "color"
+                },
+                "l=tertiary": {
+                  "value": "{semantics.color.text.onLight.neutral.l=3}",
+                  "type": "color"
+                },
+                "l=quaternary": {
+                    "value": "{semantics.color.text.onLight.neutral.l=4}",
+                    "type": "color"
+                }
+              },
+              "v=brand": {
+                "l=primary": {
+                "value": "{semantics.color.text.onLight.brand.a=1}",
+                "type": "color"
+                },
+                "l=secondary": {
+                  "value": "{semantics.color.text.onLight.brand.l=1}",
+                  "type": "color"
+                }
+              },
+              "v=brand2": {
+                "l=primary": {
+                  "value": "{semantics.color.text.onLight.brand2.a=1}",
+                  "type": "color"
+                  },
+                  "l=secondary": {
+                    "value": "{semantics.color.text.onLight.brand2.l=1}",
+                    "type": "color"
+                  }
+              },
+              "v=error": {
+                "l=primary": {
+                  "value": "{semantics.color.text.onLight.error.a=1}",
+                  "type": "color"
+                  },
+                "l=secondary": {
+                    "value": "{semantics.color.text.onLight.error.l=1}",
+                    "type": "color"
+                 }
+              }
+            }
+        },
+        "m=onDark": {
+          "p=color": {
+            "v=neutral": {
+              "l=primary": {
+              "value": "{semantics.color.text.onDark.neutral.l=1}",
+              "type": "color"
+              },
+              "l=secondary": {
+                "value": "{semantics.color.text.onDark.neutral.l=2}",
+                "type": "color"
+              },
+              "l=tertiary": {
+                "value": "{semantics.color.text.onDark.neutral.l=3}",
+                "type": "color"
+              },
+              "l=quaternary": {
+                  "value": "{semantics.color.text.onDark.neutral.l=4}",
+                  "type": "color"
+              }
+            },
+            "v=brand": {
+              "l=primary": {
+              "value": "{semantics.color.text.onDark.brand.a=1}",
+              "type": "color"
+              },
+              "l=secondary": {
+                "value": "{semantics.color.text.onDark.brand.l=1}",
+                "type": "color"
+              }
+            },
+            "v=brand2": {
+              "l=primary": {
+                "value": "{semantics.color.text.onDark.brand2.a=1}",
+                "type": "color"
+                },
+                "l=secondary": {
+                  "value": "{semantics.color.text.onDark.brand2.l=1}",
+                  "type": "color"
+                }
+            },
+            "v=error": {
+              "l=primary": {
+                "value": "{semantics.color.text.onDark.error.a=1}",
+                "type": "color"
+                },
+              "l=secondary": {
+                  "value": "{semantics.color.text.onDark.error.l=1}",
+                  "type": "color"
+               }
+            }
+          }
+        }
+      },
+      "c=font": {
+      "t=display": {
+        "v=display1": {
+          "value": "{composites.font.display.md.medium}",
+          "type": "typography"
+        },
+        "v=display2": {
+          "value": "{composites.font.display.sm.medium}",
+          "type": "typography"
+        },
+        "v=title1": {
+          "value": "{composites.font.title.md.thin}",
+          "type": "typography"
+        },
+        "v=title2": {
+          "value": "{composites.font.title.sm.thin}",
+          "type": "typography"
+        },
+        "v=body1": {
+          "value": "{composites.font.body.md.thin}",
+          "type": "typography"
+        },
+        "v=body2": {
+          "value": "{composites.font.body.sm.thin}",
+          "type": "typography"
+        },
+        "v=caption": {
+          "value": "{composites.font.label.sm.thin}",
+          "type": "typography"
+        }
+      },
+      "t=bold": {
+        "v=display1": {
+          "value": "{composites.font.display.md.thick}",
+          "type": "typography"
+        },
+        "v=display2": {
+          "value": "{composites.font.display.sm.thick}",
+          "type": "typography"
+        },
+        "v=title1": {
+          "value": "{composites.font.title.md.medium}",
+          "type": "typography"
+        },
+        "v=title2": {
+          "value": "{composites.font.title.sm.medium}",
+          "type": "typography"
+        },
+        "v=body1": {
+          "value": "{composites.font.body.md.thick}",
+          "type": "typography"
+        },
+        "v=body2": {
+          "value": "{composites.font.body.sm.thick}",
+          "type": "typography"
+        },
+        "v=caption": {
+          "value": "{composites.font.label.sm.thick}",
+          "type": "typography"
+        }
+      }
+      }
+    },
     "Switch": {
       "c=color": {
         "m=onLight": {
