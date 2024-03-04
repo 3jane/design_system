@@ -10788,6 +10788,46 @@
             "type": "boxShadow"
         }
       }
+    },
+    "Sleleton": {
+      "c=color": {
+        "m=onLight": {
+            "v=neutral": {
+                "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.neutral.l=2}"
+                }
+            }
+      },
+      "m=onDark": {
+            "v=neutral": {
+                  "p=fill": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.dark.neutral.l=3}"
+                  }
+              }
+      }
+      },
+      "c=size": {
+        "t=rectangle": {
+        "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.md}"
+        }
+        },
+        "t=circle": {
+          "p=borderRadius": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.full}"
+          }
+         },
+        "t=text": {
+            "p=borderRadius": {
+                "type": "borderRadius",
+                "value": "{semantics.size.radius.md}"
+            }
+        }
+      }
     }
   }
 }
