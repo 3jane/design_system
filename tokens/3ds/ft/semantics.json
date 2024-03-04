@@ -495,8 +495,32 @@
             "value": "#0056d0",
             "type": "color"
           },
+          "linkBorder": {
+            "value": "#D6E4F7",
+            "type": "color"
+          },
           "visited": {
             "value": "#9A00D0",
+            "type": "color"
+          },
+          "visitedBorder": {
+            "value": "#EFD6F7",
+            "type": "color"
+          },
+          "linkDark": {
+            "value": "#3B83EA",
+            "type": "color"
+          },
+          "linkBorderDark": {
+            "value": "#29416B",
+            "type": "color"
+          },
+          "visitedDark": {
+            "value": "#BD31ED",
+            "type": "color"
+          },
+          "visitedBorderDark": {
+            "value": "#60387D",
             "type": "color"
           },
           "white": {
