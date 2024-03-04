@@ -1015,6 +1015,10 @@
             "l=4": {
               "type": "color",
               "value": "{semantics.color.palette.neutral.40}"
+            },
+            "o=1": {
+              "type": "color",
+              "value": "({semantics.color.palette.neutral.40},{semantics.color.palette.opacity.40})"
             }
           },
           "brand": {
@@ -1030,13 +1034,9 @@
               "type": "color",
               "value": "{semantics.color.palette.brand.40}"
             },
-            "a=2": {
+            "o=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand.35}"
-            },
-            "a=3": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand.30}"
+              "value": "({semantics.color.palette.brand.40},{semantics.color.palette.opacity.40})"
             }
           },
           "brand2": {
@@ -1052,14 +1052,11 @@
               "type": "color",
               "value": "{semantics.color.palette.brand2.50}"
             },
-            "a=2": {
+            "o=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.40}"
-            },
-            "a=3": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand2.35}"
+              "value": "({semantics.color.palette.brand2.50},{semantics.color.palette.opacity.40})"
             }
+            
           },
           "error": {
             "l=1": {
@@ -1074,14 +1071,11 @@
               "type": "color",
               "value": "{semantics.color.palette.error.50}"
             },
-            "a=2": {
+            "o=1": {
               "type": "color",
-              "value": "{semantics.color.palette.error.45}"
-            },
-            "a=3": {
-              "type": "color",
-              "value": "{semantics.color.palette.error.40}"
+              "value": "({semantics.color.palette.error.50},{semantics.color.palette.opacity.40})"
             }
+            
           },
           "disabled": {
             "l=1": {
@@ -1111,6 +1105,10 @@
             "l=4": {
               "type": "color",
               "value": "{semantics.color.palette.neutral.80}"
+            },
+            "o=1": {
+              "type": "color",
+              "value": "({semantics.color.palette.neutral.80},{semantics.color.palette.opacity.40})"
             }
           },
           "brand": {
@@ -1126,14 +1124,11 @@
               "type": "color",
               "value": "{semantics.color.palette.brand.70}"
             },
-            "a=2": {
+            "o=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand.60}"
-            },
-            "a=3": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand.55}"
+              "value": "({semantics.color.palette.brand.70},{semantics.color.palette.opacity.40})"
             }
+            
           },
           "brand2": {
             "l=1": {
@@ -1148,14 +1143,11 @@
               "type": "color",
               "value": "{semantics.color.palette.brand2.92}"
             },
-            "a=2": {
+            "o=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.90}"
-            },
-            "a=3": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand2.85}"
+              "value": "({semantics.color.palette.brand2.92},{semantics.color.palette.opacity.40})"
             }
+            
           },
           "error": {
             "l=1": {
@@ -1170,13 +1162,9 @@
               "type": "color",
               "value": "{semantics.color.palette.error.70}"
             },
-            "a=2": {
+            "o=1": {
               "type": "color",
-              "value": "{semantics.color.palette.error.60}"
-            },
-            "a=3": {
-              "type": "color",
-              "value": "{semantics.color.palette.error.55}"
+              "value": "({semantics.color.palette.error.70},{semantics.color.palette.opacity.40})"
             }
           },
           "disabled": {
