@@ -496,7 +496,7 @@
             "type": "color"
           },
           "linkBorder": {
-            "value": "#D6E4F7",
+            "value": "#99BBEC",
             "type": "color"
           },
           "visited": {
@@ -504,7 +504,7 @@
             "type": "color"
           },
           "visitedBorder": {
-            "value": "#EFD6F7",
+            "value": "#D799EC",
             "type": "color"
           },
           "linkDark": {
