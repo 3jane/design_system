@@ -12411,6 +12411,26 @@
             }
         }
       }
+    },
+    "Backdrop": { 
+    "c=color": {
+      "m=onLight": {
+              "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.bg.light.neutral.o=3}"
+              }
+        },
+        "m=onDark": {
+          "p=fill": {
+            "type": "color",
+            "value": "{semantics.color.bg.light.neutral.o=3}"
+        }
+        }
+    },
+    "c=backgroundBlur": {
+        "value": "{semantics.backgroundBlur.md}",
+        "type": "composition"
+    }
     }
   }
 }
