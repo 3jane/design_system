@@ -11202,6 +11202,62 @@
         }
       }
     },
+    "Drawer": { 
+      "c=color": {
+        "m=onLight": {
+                "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.white}"
+                },
+                "p=border": {
+                  "type": "color",
+                  "value": "{semantics.color.palette.common.transparent}"
+              }
+          },
+          "m=onDark": {
+            "p=fill": {
+              "type": "color",
+              "value": "{semantics.color.bg.dark.neutral.l=1}"
+          },
+          "p=border": {
+            "type": "color",
+            "value": "{semantics.color.palette.common.transparent}"
+        }
+          }
+      },
+      "c=backgroundBlur": {
+          "value": "{semantics.backgroundBlur.none}",
+          "type": "composition"
+      },
+      "c=size": {
+        "p=width": {
+          "type": "borderRadius",
+          "value": "300"
+      },
+        "p=borderWidth": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.thin}"
+        }
+      },
+      "c=space": {
+        "p=paddingVertical": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+        },
+        "p=paddingHorizontal": {
+          "type": "spacing",
+          "value": "{semantics.space.none}"
+      },
+        "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.xl}"
+        }
+      },
+      "c=elevation": {
+        "value": "{composites.elevation.4}",
+        "type": "boxShadow"
+    }
+      },
     "Divider": {
       "c=color": {
         "m=onLight": {
@@ -12428,7 +12484,7 @@
         }
     },
     "c=backgroundBlur": {
-        "value": "{semantics.backgroundBlur.md}",
+        "value": "{semantics.backgroundBlur.2xl}",
         "type": "composition"
     }
     }
