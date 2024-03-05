@@ -563,6 +563,10 @@
             "o=2": {
               "type": "color",
               "value": "rgba({semantics.color.palette.neutral.10}, {semantics.color.palette.opacity.6})"
+            },
+            "o=3": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.neutral.10}, {semantics.color.palette.opacity.60})"
             }
           },
           "brand": {
@@ -723,6 +727,10 @@
             "o=2": {
               "type": "color",
               "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.20})"
+            },
+            "o=3": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.60})"
             }
           },
           "brand": {
@@ -1630,6 +1638,62 @@
           "value": "{base.font.size.14px}",
           "type": "fontSizes"
         }
+      }
+    },
+    "backgroundBlur": {
+      "xxs": {
+        "value": {
+          "backgroundBlur": "1"
+        },
+        "type": "composition"
+      },
+      "xs": {
+        "value": {
+          "backgroundBlur": "2"
+        },
+        "type": "composition"
+      },
+      "sm": {
+        "value": {
+          "backgroundBlur": "4"
+        },
+        "type": "composition"
+      },
+      "md": {
+        "value": {
+          "backgroundBlur": "8"
+        },
+        "type": "composition"
+      },
+      "lg": {
+        "value": {
+          "backgroundBlur": "12"
+        },
+        "type": "composition"
+      },
+      "xl": {
+        "value": {
+          "backgroundBlur": "20"
+        },
+        "type": "composition"
+      },
+      "2xl": {
+        "value": {
+          "backgroundBlur": "30"
+        },
+        "type": "composition"
+      },
+      "3xl": {
+        "value": {
+          "backgroundBlur": "50"
+        },
+        "type": "composition"
+      },
+      "4xl": {
+        "value": {
+          "backgroundBlur": "100"
+        },
+        "type": "composition"
       }
     }
   }
