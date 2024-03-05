@@ -12709,7 +12709,7 @@
     "Shortcut": {
       "c=color": {
         "m=onLight": {
-          "t=primary": {
+          "t=default": {
               "l=keyContainer": {
                 "p=fill": {
                     "type": "color",
@@ -12728,7 +12728,7 @@
               }
   
             },
-            "t=secondary": {
+            "t=alternative": {
               "l=keyContainer": {
                 "p=fill": {
                     "type": "color",
@@ -12748,7 +12748,7 @@
             } 
       },
       "m=onDark": {
-        "t=primary": {
+        "t=default": {
           "l=keyContainer": {
             "p=fill": {
                 "type": "color",
@@ -12766,7 +12766,7 @@
             }
           }
         },
-        "t=secondary": {
+        "t=alternative": {
           "l=keyContainer": {
             "p=fill": {
                 "type": "color",
