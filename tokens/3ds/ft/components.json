@@ -11205,6 +11205,7 @@
     "Drawer": { 
       "c=color": {
         "m=onLight": {
+          "t=elevated": {
                 "p=fill": {
                     "type": "color",
                     "value": "{semantics.color.palette.common.white}"
@@ -11213,8 +11214,20 @@
                   "type": "color",
                   "value": "{semantics.color.palette.common.transparent}"
               }
+            },
+            "t=outlined": {
+              "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.palette.common.white}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.light.neutral.l=1}"
+            }
+          }
           },
           "m=onDark": {
+            "t=elevated": {
             "p=fill": {
               "type": "color",
               "value": "{semantics.color.bg.dark.neutral.l=1}"
@@ -11222,7 +11235,18 @@
           "p=border": {
             "type": "color",
             "value": "{semantics.color.palette.common.transparent}"
-        }
+          }
+          },
+          "t=outlined": {
+            "p=fill": {
+              "type": "color",
+              "value": "{semantics.color.bg.dark.neutral.l=1}"
+          },
+          "p=border": {
+            "type": "color",
+            "value": "{semantics.color.border.dark.neutral.l=1}"
+          }
+          }
           }
       },
       "c=backgroundBlur": {
@@ -11231,7 +11255,7 @@
       },
       "c=size": {
         "p=width": {
-          "type": "borderRadius",
+          "type": "sizing",
           "value": "300"
       },
         "p=borderWidth": {
@@ -11254,9 +11278,203 @@
         }
       },
       "c=elevation": {
+        "t=elevated": {
         "value": "{composites.elevation.4}",
         "type": "boxShadow"
+        },
+        "t=outlined": {
+          "value": "{composites.elevation.0}",
+          "type": "boxShadow"
+          }
     }
+      },
+      "DrawerSwipeable": { 
+      "c=color": {
+        "m=onLight": {
+          "t=primary": {
+                "l=mainContainer": {
+                "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.white}"
+                }
+                },
+                "l=handle": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.bg.light.neutral.l=2}"
+            }
+                },
+                "l=titleText": {
+              "p=color": {
+                "type": "color",
+                "value": "{semantics.color.text.onLight.neutral.l=2}"
+            }
+                }
+            },
+            "t=secondary": {
+              "l=mainContainer": {
+              "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.bg.light.neutral.l=1}"
+              }
+              },
+              "l=handle": {
+            "p=fill": {
+              "type": "color",
+              "value": "{semantics.color.bg.light.neutral.l=3}"
+          }
+              },
+              "l=titleText": {
+            "p=color": {
+              "type": "color",
+              "value": "{semantics.color.text.onLight.neutral.l=2}"
+          }
+              }
+          }
+          },
+          "m=onDark": {
+            "t=primary": {
+              "l=mainContainer": {
+            "p=fill": {
+              "type": "color",
+              "value": "{semantics.color.bg.dark.neutral.l=1}"
+          }
+            },
+            "l=handle": {
+          "p=fill": {
+            "type": "color",
+            "value": "{semantics.color.bg.dark.neutral.l=3}"
+        }
+            },
+            "l=titleText": {
+          "p=color": {
+            "type": "color",
+            "value": "{semantics.color.text.onDark.neutral.l=2}"
+        }
+            }
+          },
+          "t=secondary": {
+            "l=mainContainer": {
+            "p=fill": {
+              "type": "color",
+              "value": "{semantics.color.bg.dark.neutral.l=2}"
+          }
+            },
+            "l=handle": {
+          "p=fill": {
+            "type": "color",
+            "value": "{semantics.color.bg.light.neutral.l=4}"
+        }
+            },
+            "l=titleText": {
+          "p=color": {
+            "type": "color",
+            "value": "{semantics.color.text.onDark.neutral.l=2}"
+        }
+            }
+          }
+          }
+      },
+      "c=backgroundBlur": {
+        "t=primary": {
+          "l=mainContainer": {
+          "value": "{semantics.backgroundBlur.none}",
+          "type": "composition"
+          }
+        },
+        "t=secondary": {
+          "l=mainContainer": {
+          "value": "{semantics.backgroundBlur.none}",
+          "type": "composition"
+          }
+        }
+      },
+      "c=size": {
+        "l=mainContainer": {
+        "p=borderRadiusLeft": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.md}"
+        },
+        "p=borderRadiusRight": {
+          "type": "borderRadius",
+          "value": "{semantics.size.radius.md}"
+        }
+        },
+        "l=buttonContainer": {
+          "p=width": {
+            "type": "100",
+            "value": "{semantics.size.radius.md}"
+        }
+        },
+        "l=handle": {
+          "p=width": {
+              "type": "36",
+              "value": "{semantics.size.radius.md}"
+          },
+          "p=height": {
+            "type": "6",
+            "value": "{semantics.size.radius.md}"
+          },
+          "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.full}"
+          }
+          }
+      },
+      "c=space": {
+      "l=handleContainer": {
+        "p=paddingVertical": {
+            "type": "spacing",
+            "value": "{semantics.space.xs}"
+        }
+      },
+      "l=labelAndButtonsContainer": {
+        "p=paddingHorizontal": {
+            "type": "spacing",
+            "value": "{semantics.space.xl}"
+        },
+        "p=paddingTop": {
+          "type": "spacing",
+          "value": "{semantics.space.none}"
+      },
+      "p=paddingBottom": {
+        "type": "spacing",
+        "value": "{semantics.space.none}"
+    },
+        "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.sm}"
+        }
+      },
+      "l=contentContainer": {
+        "p=paddingHorizontal": {
+            "type": "spacing",
+            "value": "{semantics.space.xl}"
+        },
+        "p=paddingTop": {
+          "type": "spacing",
+          "value": "{semantics.space.xl}"
+      },
+      "p=paddingBottom": {
+        "type": "spacing",
+        "value": "{semantics.space.xl}"
+    },
+        "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.xl}"
+        }
+      }
+      },
+      "c=elevation": {
+        "value": "{composites.elevation.4}",
+        "type": "boxShadow"
+      },
+      "c=font": {
+        "l=label": {
+          "value": "{composites.font.label.lg.medium}",
+          "type": "typography"
+        }
+      }
       },
     "Divider": {
       "c=color": {
