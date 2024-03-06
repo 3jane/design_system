@@ -33,9 +33,11 @@ export function cssFontToFigma(value: string) {
 function cssBoxShadowToFigma(value: string): DropShadowEffect | InnerShadowEffect | undefined {
   const isInset = value.includes("inset");
   const normalizedString = value.replace("inset", "").trim();
-  const regex = /(-?\d*\.?\d+)(px)?\s(-?\d*\.?\d+)(px)?\s(\d*\.?\d+)(px)?(\s(\d*\.?\d+)(px)?)?\s(rgba?\([\d\s,\.]+\))/;
+  const regex =
+    /(-?\d*\.?\d+)(px)?\s(-?\d*\.?\d+)(px)?\s(\d*\.?\d+)(px)?(\s(\d*\.?\d+)(px)?)?\s(rgba?\((\d{1,3}),\s*(\d{1,3}),\s*(\d{1,3}),\s*((\d*\.?\d+)(%?))\))/;
   const match = normalizedString.match(regex);
 
+  console.log("🚧 ~ cssBoxShadowToFigma ~ value:", value);
   if (!match) {
     console.error("Invalid box shadow string");
     return;
@@ -45,18 +47,20 @@ function cssBoxShadowToFigma(value: string): DropShadowEffect | InnerShadowEffec
   const yOffset = parseFloat(match[3]);
   const blurRadius = parseFloat(match[5]);
   // Figma unsupported spread radius
-  // const spreadRadius = match[7] ? parseFloat(match[8]) : 0;
+  const spreadRadius = match[7] ? parseFloat(match[8]) : 0;
   const colorPart = match[10].match(/[\d.]+/g);
 
   if (!colorPart) {
     console.error("Invalid box shadow color");
     return;
   }
+
+  const alpha = parseFloat(colorPart[3]);
   const color = {
     r: parseInt(colorPart[0]) / 255,
     g: parseInt(colorPart[1]) / 255,
     b: parseInt(colorPart[2]) / 255,
-    a: parseFloat(colorPart[3]),
+    a: alpha > 1 ? alpha / 100 : alpha,
   };
 
   return {
@@ -67,6 +71,7 @@ function cssBoxShadowToFigma(value: string): DropShadowEffect | InnerShadowEffec
       y: yOffset,
     },
     radius: blurRadius,
+    spread: spreadRadius,
     visible: true,
     blendMode: "NORMAL",
   };
@@ -94,6 +99,8 @@ export function setFont(element: TextNode, token: string, tokens: Tokens) {
 
   element.fontSize = size;
   element.fontName = { family, style };
+  element.textAlignVertical = "CENTER";
+  element.resize(element.width, size);
 
   if (!isNaN(lineHeight)) {
     element.lineHeight = { value: lineHeight, unit: "PERCENT" };
@@ -155,23 +162,45 @@ export function setBorderRadius(element: DefaultFrameMixin, token: string, token
   element.cornerRadius = parseInt(get(tokens, token, "0"), 10);
 }
 
-export function setPadding(
-  element: DefaultFrameMixin,
-  [vertical, horizontal]: [string | undefined, string | undefined],
-  tokens: Tokens
-) {
-  if (vertical) {
-    const verticalPadding = parseInt(get(tokens, vertical, "0"), 10);
+export function setPadding(element: DefaultFrameMixin, paddings: (string | undefined)[], tokens: Tokens): void {
+  let top, right, bottom, left;
 
-    element.setSharedPluginData("tokens", "verticalPadding", `"${vertical}"`);
-    element.verticalPadding = verticalPadding;
+  if (paddings.length === 2) {
+    top = bottom = paddings[0];
+    right = left = paddings[1];
+  } else {
+    top = paddings[0];
+    right = paddings[1];
+    bottom = paddings[2];
+    left = paddings[3];
   }
 
-  if (horizontal) {
-    const horizontalPadding = parseInt(get(tokens, horizontal, "0"), 10);
+  if (top) {
+    const value = parseInt(get(tokens, top, "0"), 10);
 
-    element.setSharedPluginData("tokens", "horizontalPadding", `"${horizontal}"`);
-    element.horizontalPadding = horizontalPadding;
+    element.setSharedPluginData("tokens", "paddingTop", `"${top}"`);
+    element.paddingTop = value;
+  }
+
+  if (right) {
+    const value = parseInt(get(tokens, right, "0"), 10);
+
+    element.setSharedPluginData("tokens", "paddingRight", `"${right}"`);
+    element.paddingRight = value;
+  }
+
+  if (bottom) {
+    const value = parseInt(get(tokens, bottom, "0"), 10);
+
+    element.setSharedPluginData("tokens", "paddingBottom", `"${bottom}"`);
+    element.paddingBottom = value;
+  }
+
+  if (left) {
+    const value = parseInt(get(tokens, left, "0"), 10);
+
+    element.setSharedPluginData("tokens", "paddingLeft", `"${left}"`);
+    element.paddingLeft = value;
   }
 }
 
