@@ -9703,7 +9703,7 @@
               "l=container": {
                 "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.dark.neutral.l=2}"
+                    "value": "{semantics.color.bg.dark.neutral.l=3}"
                 },
                 "p=border": {
                   "type": "color",
@@ -9729,7 +9729,7 @@
           "l=container": {
                   "p=fill": {
                       "type": "color",
-                      "value": "{semantics.color.bg.light.neutral.l=2}"
+                      "value": "{semantics.color.bg.light.neutral.l=3}"
                   },
                   "p=border": {
                     "type": "color",
@@ -9752,10 +9752,6 @@
       },
       "c=size": {
         "l=tooltipContainer": {
-        "p=height": { 
-            "type": "sizing",
-            "value": "48"
-        },
         "p=borderRadius": {
             "type": "borderRadius",
             "value": "{semantics.size.radius.lg}"
@@ -9809,6 +9805,12 @@
         "p=gap": {
             "type": "spacing",
             "value": "{semantics.space.sm}"
+        }
+      },
+      "l=arrowContainer": {
+        "p=paddingHorizontal": {
+            "type": "spacing",
+            "value": "{semantics.space.xl}"
         }
       }
       },
@@ -12864,7 +12866,7 @@
               "l=keyContainer": {
                 "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.neutral.l=3}"
+                    "value": "{semantics.color.bg.light.neutral.l=4}"
                 },
                 "p=border": {
                   "type": "color",
