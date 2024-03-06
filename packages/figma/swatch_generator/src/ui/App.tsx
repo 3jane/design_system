@@ -28,6 +28,7 @@ function App() {
         <span>Select component</span>
         <br />
         <select name="type">
+          <option value={ComponentType.Input}>Input</option>
           <option value={ComponentType.Breadcrumbs}>Breadcrumbs</option>
           <option value={ComponentType.Pagination}>Pagination</option>
           <option value={ComponentType.Slider}>Slider</option>

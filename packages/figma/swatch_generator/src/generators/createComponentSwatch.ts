@@ -5,6 +5,7 @@ import { createButtonSwatch } from "./createComponent/createButtonSwatch";
 import { createCheckboxSwatch } from "./createComponent/createCheckboxSwatch";
 import { createFabSwatch } from "./createComponent/createFabSwatch";
 import { createIconSwatch } from "./createComponent/createIconSwatch";
+import { createInputSwatch } from "./createComponent/createInputSwatch";
 import { createPaginationSwatch } from "./createComponent/createPaginationSwatch";
 import { createRadioButtonSwatch } from "./createComponent/createRadioButtonSwatch";
 import { createSliderSwatch } from "./createComponent/createSliderSwatch";
@@ -58,6 +59,9 @@ const createComponentSwatch: CreateSwatchFn = ({ componentType }: SwatchParams):
         break;
       case ComponentType.Breadcrumbs:
         createComponent = createBreadcrumbsSwatch;
+        break;
+      case ComponentType.Input:
+        createComponent = createInputSwatch;
         break;
       default:
         createComponent = createComponentMock;
