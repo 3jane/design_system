@@ -66,7 +66,7 @@ function createLink({ color, mode, type, state, interaction, separator }: Record
   const label = figma.createText();
   label.name = "label";
   label.characters = "Label";
-  setFont(label, `components.Breadcrumbs.c=font.l=link.t=${type}`);
+  setFont(label, `components.Breadcrumbs.c=font.t=${type}.l=link`);
   if (state !== "disabled") {
     setColor(label, `components.Breadcrumbs.c=color.m=${mode}.t=${type}.s=${state}.v=brand.l=text.p=color`);
   } else {
@@ -96,7 +96,7 @@ function createSeparator({ color, mode, type, state, interaction, separator }: R
     const label = figma.createText();
     label.name = "label";
     label.characters = "/";
-    setFont(label, `components.Breadcrumbs.c=font.l=textSeparator`);
+    setFont(label, `components.Breadcrumbs.c=font.t=${type}.l=textSeparator`);
     if (state !== "disabled") {
       setColor(label, `components.Breadcrumbs.c=color.m=${mode}.t=${type}.s=${state}.v=brand.l=text.p=color`);
     } else {
