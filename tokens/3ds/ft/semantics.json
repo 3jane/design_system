@@ -1655,7 +1655,7 @@
         },
         "type": "composition"
       },
-      "xxs": {
+      "2xs": {
         "value": {
           "backgroundBlur": "1"
         },
