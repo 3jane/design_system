@@ -876,7 +876,7 @@
         }
       },
       "border": {
-        "light": {
+        "onLight": {
           "neutral": {
             "l=1": {
               "type": "color",
@@ -964,7 +964,7 @@
             }
           }
         },
-        "dark": {
+        "onDark": {
           "neutral": {
             "l=1": {
               "type": "color",
@@ -1114,7 +1114,6 @@
               "type": "color",
               "value": "{semantics.color.palette.error.50}"
             }
-            
           },
           "disabled": {
             "l=1": {
@@ -1159,7 +1158,6 @@
               "type": "color",
               "value": "{semantics.color.palette.brand.70}"
             }
-            
           },
           "brand2": {
             "l=1": {
@@ -1174,7 +1172,6 @@
               "type": "color",
               "value": "{semantics.color.palette.brand2.92}"
             }
-            
           },
           "error": {
             "l=1": {
