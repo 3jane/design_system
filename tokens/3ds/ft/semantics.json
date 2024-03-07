@@ -844,7 +844,7 @@
             },
             "l=2": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.90}"
+              "value": "{semantics.color.palette.neutral.92}"
             },
             "a=1": {
               "type": "color",
@@ -852,7 +852,7 @@
             },
             "o=1": {
               "type": "color",
-              "value": "rgba({semantics.color.palette.neutral.10},{semantics.color.palette.opacity.5})"
+              "value": "rgba({semantics.color.palette.neutral.10},{semantics.color.palette.opacity.6})"
             },
             "o=2": {
               "type": "color",
