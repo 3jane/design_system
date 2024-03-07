@@ -3,10 +3,6 @@
     "color": {
       "palette": {
         "brand": {
-          "0": {
-            "value": "#000000",
-            "type": "color"
-          },
           "10": {
             "value": "#131842",
             "type": "color"
@@ -78,99 +74,83 @@
           "97": {
             "value": "#f7f6fb",
             "type": "color"
-          },
-          "100": {
-            "value": "#ffffff",
-            "type": "color"
           }
         },
         "brand2": {
-          "0": {
-            "value": "#000000",
-            "type": "color"
-          },
           "10": {
-            "value": "#201b09",
+            "value": "#29170d",
             "type": "color"
           },
           "15": {
-            "value": "#2c250b",
+            "value": "#3b1d10",
             "type": "color"
           },
           "20": {
-            "value": "#392f0b",
+            "value": "#4e2411",
             "type": "color"
           },
           "25": {
-            "value": "#463a0b",
+            "value": "#612a13",
             "type": "color"
           },
           "30": {
-            "value": "#53450e",
+            "value": "#743216",
             "type": "color"
           },
           "35": {
-            "value": "#605111",
+            "value": "#873a1a",
             "type": "color"
           },
           "40": {
-            "value": "#6e5d15",
+            "value": "#99431f",
             "type": "color"
           },
           "45": {
-            "value": "#7b6919",
+            "value": "#ac4d24",
             "type": "color"
           },
           "50": {
-            "value": "#8a751d",
+            "value": "#bf5629",
             "type": "color"
           },
           "55": {
-            "value": "#988121",
+            "value": "#d6612f",
             "type": "color"
           },
           "60": {
-            "value": "#a78e25",
+            "value": "#e76934",
             "type": "color"
           },
           "70": {
-            "value": "#c5a82e",
+            "value": "#ed936c",
             "type": "color"
           },
           "80": {
-            "value": "#dbbb35",
+            "value": "#f1b9a1",
             "type": "color"
           },
           "85": {
-            "value": "#f3d14a",
+            "value": "#f3ccbb",
             "type": "color"
           },
           "90": {
-            "value": "#fae08e",
+            "value": "#f5ddd3",
             "type": "color"
           },
           "92": {
-            "value": "#fae6ae",
+            "value": "#f7e4dc",
             "type": "color"
           },
           "95": {
-            "value": "#fbf0d3",
+            "value": "#f9eeea",
             "type": "color"
           },
           "97": {
-            "value": "#fcf6e7",
-            "type": "color"
-          },
-          "100": {
-            "value": "#ffffff",
+            "value": "#fbf5f3",
             "type": "color"
           }
         },
         "error": {
-          "0": {
-            "value": "#000000",
-            "type": "color"
-          },
           "10": {
             "value": "#390907",
             "type": "color"
@@ -242,17 +222,9 @@
           "97": {
             "value": "#fcf5f3",
             "type": "color"
-          },
-          "100": {
-            "value": "#ffffff",
-            "type": "color"
           }
         },
         "neutral": {
-          "0": {
-            "value": "#000000",
-            "type": "color"
-          },
           "10": {
             "value": "#191c22",
             "type": "color"
@@ -324,17 +296,9 @@
           "97": {
             "value": "#f6f6f8",
             "type": "color"
-          },
-          "100": {
-            "value": "#ffffff",
-            "type": "color"
           }
         },
         "gray": {
-          "0": {
-            "value": "#000000",
-            "type": "color"
-          },
           "10": {
             "value": "#1b1b1b",
             "type": "color"
@@ -405,10 +369,6 @@
           },
           "97": {
             "value": "#f6f6f6",
-            "type": "color"
-          },
-          "100": {
-            "value": "#ffffff",
             "type": "color"
           }
         },
@@ -630,23 +590,23 @@
             },
             "o=1": {
               "type": "color",
-              "value": "rgba({semantics.color.palette.brand2.80}, {semantics.color.palette.opacity.12})"
+              "value": "rgba({semantics.color.palette.brand2.50}, {semantics.color.palette.opacity.8})"
             },
             "o=2": {
               "type": "color",
-              "value": "rgba({semantics.color.palette.brand2.80}, {semantics.color.palette.opacity.15})"
+              "value": "rgba({semantics.color.palette.brand2.50}, {semantics.color.palette.opacity.12})"
             },
             "a=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.85}"
+              "value": "{semantics.color.palette.brand2.50}"
             },
             "a=2": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.80}"
+              "value": "{semantics.color.palette.brand2.45}"
             },
             "a=3": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.70}"
+              "value": "{semantics.color.palette.brand2.40}"
             }
           },
           "error": {
@@ -782,39 +742,39 @@
           "brand2": {
             "l=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.20}"
+              "value": "{semantics.color.palette.brand2.10}"
             },
             "l=2": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.25}"
+              "value": "{semantics.color.palette.brand2.15}"
             },
             "l=3": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.35}"
+              "value": "{semantics.color.palette.brand2.20}"
             },
             "l=4": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.40}"
+              "value": "{semantics.color.palette.brand2.25}"
             },
             "o=1": {
               "type": "color",
-              "value": "rgba({semantics.color.palette.brand2.80}, {semantics.color.palette.opacity.15})"
+              "value": "rgba({semantics.color.palette.brand2.60}, {semantics.color.palette.opacity.12})"
             },
             "o=2": {
               "type": "color",
-              "value": "rgba({semantics.color.palette.brand2.90}, {semantics.color.palette.opacity.15})"
+              "value": "rgba({semantics.color.palette.brand2.70}, {semantics.color.palette.opacity.12})"
             },
             "a=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.85}"
+              "value": "{semantics.color.palette.brand2.55}"
             },
             "a=2": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.80}"
+              "value": "{semantics.color.palette.brand2.50}"
             },
             "a=3": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.70}"
+              "value": "{semantics.color.palette.brand2.45}"
             }
           },
           "error": {
@@ -920,11 +880,11 @@
           "brand2": {
             "l=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.85}"
+              "value": "{semantics.color.palette.brand2.70}"
             },
             "l=2": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.90}"
+              "value": "{semantics.color.palette.brand2.80}"
             },
             "a=1": {
               "type": "color",
@@ -1008,19 +968,19 @@
           "brand2": {
             "l=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.92}"
+              "value": "{semantics.color.palette.brand2.80}"
             },
             "l=2": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.90}"
+              "value": "{semantics.color.palette.brand2.70}"
             },
             "a=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.92}"
+              "value": "{semantics.color.palette.brand2.70}"
             },
             "o=1": {
               "type": "color",
-              "value": "rgba({semantics.color.palette.brand2.92},{semantics.color.palette.opacity.40})"
+              "value": "rgba({semantics.color.palette.brand2.70},{semantics.color.palette.opacity.40})"
             }
           },
           "error": {
@@ -1162,15 +1122,15 @@
           "brand2": {
             "l=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.97}"
+              "value": "{semantics.color.palette.brand2.90}"
             },
             "l=2": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.95}"
+              "value": "{semantics.color.palette.brand2.85}"
             },
             "a=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.92}"
+              "value": "{semantics.color.palette.brand2.70}"
             }
           },
           "error": {
