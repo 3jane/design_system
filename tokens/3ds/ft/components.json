@@ -8732,6 +8732,224 @@
         }
       }
     },
+    "ProgressCircular": {
+      "c=color": {
+        "m=onLight": {
+          "s=enabled": {
+            "v=neutral": {
+              "l=line": {
+                "p=fill": {
+                  "value": "{semantics.color.bg.dark.neutral.l=1}",
+                  "type": "color"
+                }
+              },
+              "l=background": {
+                "p=fill": {
+                  "value": "{semantics.color.bg.light.neutral.l=2}",
+                  "type": "color"
+                }
+              },
+              "l=label": {
+                "p=color": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onLight.neutral.l=2}"
+                }
+              }
+            },
+            "v=brand": {
+              "l=line": {
+                "p=fill": {
+                  "value": "{semantics.color.bg.light.brand.a=1}",
+                  "type": "color"
+                }
+              },
+              "l=background": {
+                "p=fill": {
+                  "value": "{semantics.color.bg.light.neutral.l=2}",
+                  "type": "color"
+                }
+              },
+              "l=label": {
+                "p=color": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onLight.neutral.l=2}"
+                }
+              }
+            },
+            "v=brand2": {
+              "l=line": {
+                "p=fill": {
+                  "value": "{semantics.color.bg.light.brand2.a=1}",
+                  "type": "color"
+                }
+              },
+              "l=background": {
+                "p=fill": {
+                  "value": "{semantics.color.bg.light.neutral.l=2}",
+                  "type": "color"
+                }
+              },
+              "l=label": {
+                "p=color": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onLight.neutral.l=2}"
+                }
+              }
+            }
+          },
+          "s=disabled": {
+            "v=disabled": {
+              "l=line": {
+                "p=fill": {
+                  "value": "{semantics.color.bg.light.disabled.l=4}",
+                  "type": "color"
+                }
+              },
+              "l=background": {
+                "p=fill": {
+                  "value": "{semantics.color.bg.light.disabled.l=1}",
+                  "type": "color"
+                }
+              },
+              "l=label": {
+                "p=color": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onLight.disabled.l=1}"
+                }
+              }
+            }
+          }
+        },
+        "m=onDark": {
+          "s=enabled": {
+            "v=neutral": {
+              "l=line": {
+                "p=fill": {
+                  "value": "{semantics.color.palette.common.white}",
+                  "type": "color"
+                }
+              },
+              "l=background": {
+                "p=fill": {
+                  "value": "{semantics.color.bg.dark.neutral.l=3}",
+                  "type": "color"
+                }
+              },
+              "l=label": {
+                "p=color": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onDark.neutral.l=2}"
+                }
+              }
+            },
+            "v=brand": {
+              "l=line": {
+                "p=fill": {
+                  "value": "{semantics.color.bg.dark.brand.a=1}",
+                  "type": "color"
+                }
+              },
+              "l=background": {
+                "p=fill": {
+                  "value": "{semantics.color.bg.dark.neutral.l=3}",
+                  "type": "color"
+                }
+              },
+              "l=label": {
+                "p=color": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onDark.neutral.l=2}"
+                }
+              }
+            },
+            "v=brand2": {
+              "l=line": {
+                "p=fill": {
+                  "value": "{semantics.color.bg.dark.brand2.a=1}",
+                  "type": "color"
+                }
+              },
+              "l=background": {
+                "p=fill": {
+                  "value": "{semantics.color.bg.dark.neutral.l=3}",
+                  "type": "color"
+                }
+              },
+              "l=label": {
+                "p=color": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onDark.neutral.l=2}"
+                }
+              }
+            }
+          },
+          "s=disabled": {
+            "v=disabled": {
+              "l=line": {
+                "p=fill": {
+                  "value": "{semantics.color.bg.dark.disabled.l=4}",
+                  "type": "color"
+                }
+              },
+              "l=background": {
+                "p=fill": {
+                  "value": "{semantics.color.bg.dark.disabled.l=1}",
+                  "type": "color"
+                }
+              },
+              "l=label": {
+                "p=color": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onDark.disabled.l=1}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "c=size": {
+        "l=progressContainer": {
+          "p=height": {
+            "type": "sizing",
+            "value": "4"
+          },
+          "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.full}"
+          }
+        },
+        "l=line": {
+          "p=size": {
+            "v=small": {
+            "type": "sizing",
+            "value": "16"
+            },
+            "v=large": {
+            "type": "sizing",
+            "value": "32"
+            }
+          }
+        },
+        "l=background": {
+          "p=borderRadius": {
+            "v=small": {
+              "type": "sizing",
+              "value": "16"
+              },
+              "v=large": {
+              "type": "sizing",
+              "value": "32"
+              }
+          }
+        }
+      },
+      "c=font": {
+        "l=label": {
+          "value": "{composites.font.label.lg.medium}",
+          "type": "typography"
+        }
+      }
+    },
     "Pagination": {
       "c=color": {
         "m=onLight": {
