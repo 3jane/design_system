@@ -892,7 +892,7 @@
             },
             "o=1": {
               "type": "color",
-              "value": "rgba({semantics.color.palette.neutral.10},{semantics.color.palette.opacity.8})"
+              "value": "rgba({semantics.color.palette.neutral.10},{semantics.color.palette.opacity.5})"
             },
             "o=2": {
               "type": "color",

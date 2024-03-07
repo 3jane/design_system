@@ -13571,6 +13571,210 @@
           "type": "typography"
         }
       }
+    },
+    "Rating": {
+      "c=color": {
+        "m=onLight": {
+          "t=checked": {
+            "s=enabled": {
+              "v=neutral": {
+                "l=icon": {
+                  "p=fill": {
+                    "value": "{semantics.color.text.onLight.neutral.l=1}",
+                    "type": "color"
+                  }
+                }
+              },
+              "v=colored": {
+                "l=icon": {
+                  "p=fill": {
+                    "value": "{semantics.color.text.onLight.brand2.a=1}",
+                    "type": "color"
+                  }
+                }
+              }
+            },
+            "s=disabled": {
+              "v=disabled": {
+                "l=halo": {
+                  "p=fill": {
+                    "i=none": {
+                      "value": "{semantics.color.palette.common.transparent}",
+                      "type": "color"
+                    }
+                  }
+                },
+                "l=icon": {
+                  "p=fill": {
+                    "value": "{semantics.color.text.onLight.disabled.l=1}",
+                    "type": "color"
+                  }
+                }
+              }
+            }
+          },
+          "t=unchecked": {
+            "s=enabled": {
+              "v=neutral": {
+                "l=icon": {
+                  "p=fill": {
+                    "value": "{semantics.color.text.onLight.neutral.l=4}",
+                    "type": "color"
+                  }
+                }
+              },
+              "v=colored": {
+                "l=icon": {
+                  "p=fill": {
+                    "value": "{semantics.color.text.onLight.neutral.l=4}",
+                    "type": "color"
+                  }
+                }
+              }
+            },
+            "s=disabled": {
+              "v=disabled": {
+                "l=icon": {
+                  "p=fill": {
+                    "value": "{semantics.color.text.onLight.disabled.l=1}",
+                    "type": "color"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "m=onDark": {
+          "t=checked": {
+            "s=enabled": {
+              "v=neutral": {
+                "l=icon": {
+                  "p=fill": {
+                    "value": "{semantics.color.text.onDark.neutral.l=1}",
+                    "type": "color"
+                  }
+                }
+              },
+              "v=colored": {
+                "l=icon": {
+                  "p=fill": {
+                    "value": "{semantics.color.text.onDark.brand2.a=1}",
+                    "type": "color"
+                  }
+                }
+              }
+            },
+            "s=disabled": {
+              "v=disabled": {
+                "l=icon": {
+                  "p=fill": {
+                    "value": "{semantics.color.text.onDark.disabled.l=1}",
+                    "type": "color"
+                  }
+                }
+              }
+            }
+          },
+          "t=unchecked": {
+            "s=enabled": {
+              "v=neutral": {
+                "l=icon": {
+                  "p=fill": {
+                    "value": "{semantics.color.text.onDark.neutral.l=4}",
+                    "type": "color"
+                  }
+                }
+              },
+              "v=colored": {
+                "l=icon": {
+                  "p=fill": {
+                    "value": "{semantics.color.text.onDark.neutral.l=4}",
+                    "type": "color"
+                  }
+                }
+              }
+            },
+            "s=disabled": {
+              "v=disabled": {
+                "l=icon": {
+                  "p=fill": {
+                    "value": "{semantics.color.text.onDark.disabled.l=1}",
+                    "type": "color"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "c=size": {
+        "l=icon": {
+          "p=size": {
+            "v=small": {
+              "i=none": {
+            "type": "sizing",
+            "value": "16"
+              },
+              "i=hover": {
+                "type": "sizing",
+                "value": "20"
+                  }
+            },
+            "v=medium": {
+              "i=none": {
+                "type": "sizing",
+                "value": "20"
+                  },
+                  "i=hover": {
+                    "type": "sizing",
+                    "value": "24"
+                      }
+            },
+            "v=large": {
+              "i=none": {
+                "type": "sizing",
+                "value": "24"
+                  },
+                  "i=hover": {
+                    "type": "sizing",
+                    "value": "28"
+                      }
+            }
+          }
+        },
+        "l=container": {
+          "p=size": {
+            "v=small": {
+            "type": "sizing",
+            "value": "16"
+            },
+            "v=medium": {
+              "type": "sizing",
+              "value": "20"
+            },
+            "v=large": {
+                "type": "sizing",
+                "value": "24"
+            }
+          }
+        }
+      },
+      "c=space": {
+        "p=gap": {
+          "v=small": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          },
+          "v=medium": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          },
+          "v=large": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          }
+        }
+      }
     }
   }
 }
