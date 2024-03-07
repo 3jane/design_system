@@ -889,6 +889,14 @@
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.neutral.20}"
+            },
+            "o=1": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.neutral.10},{semantics.color.palette.opacity.10})"
+            },
+            "o=2": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.neutral.10},{semantics.color.palette.opacity.20})"
             }
           },
           "brand": {
@@ -903,6 +911,10 @@
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.brand.40}"
+            },
+            "o=1": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.brand.40},{semantics.color.palette.opacity.40})"
             }
           },
           "brand2": {
@@ -916,7 +928,11 @@
             },
             "a=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.80}"
+              "value": "{semantics.color.palette.brand2.50}"
+            },
+            "o=1": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.brand2.50},{semantics.color.palette.opacity.40})"
             }
           },
           "error": {
@@ -931,6 +947,10 @@
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.error.50}"
+            },
+            "o=1": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.error.50},{semantics.color.palette.opacity.40})"
             }
           },
           "disabled": {
@@ -957,6 +977,14 @@
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.neutral.92}"
+            },
+            "o=1": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.common.white},{semantics.color.palette.opacity.10})"
+            },
+            "o=2": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.common.white},{semantics.color.palette.opacity.20})"
             }
           },
           "brand": {
@@ -971,6 +999,10 @@
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.brand.70}"
+            },
+            "o=1": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.brand.70},{semantics.color.palette.opacity.40})"
             }
           },
           "brand2": {
@@ -985,6 +1017,10 @@
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.brand2.92}"
+            },
+            "o=1": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.brand2.92},{semantics.color.palette.opacity.40})"
             }
           },
           "error": {
@@ -999,6 +1035,10 @@
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.error.70}"
+            },
+            "o=1": {
+              "type": "color",
+              "value": "rgba({semantics.color.palette.error.70},{semantics.color.palette.opacity.40})"
             }
           },
           "disabled": {
@@ -1031,10 +1071,6 @@
             "l=4": {
               "type": "color",
               "value": "{semantics.color.palette.neutral.40}"
-            },
-            "o=1": {
-              "type": "color",
-              "value": "rgba({semantics.color.palette.neutral.40},{semantics.color.palette.opacity.40})"
             }
           },
           "brand": {
@@ -1049,10 +1085,6 @@
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.brand.40}"
-            },
-            "o=1": {
-              "type": "color",
-              "value": "rgba({semantics.color.palette.brand.40},{semantics.color.palette.opacity.40})"
             }
           },
           "brand2": {
@@ -1067,12 +1099,7 @@
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.brand2.50}"
-            },
-            "o=1": {
-              "type": "color",
-              "value": "rgba({semantics.color.palette.brand2.50},{semantics.color.palette.opacity.40})"
             }
-            
           },
           "error": {
             "l=1": {
@@ -1086,10 +1113,6 @@
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.error.50}"
-            },
-            "o=1": {
-              "type": "color",
-              "value": "rgba({semantics.color.palette.error.50},{semantics.color.palette.opacity.40})"
             }
             
           },
@@ -1121,10 +1144,6 @@
             "l=4": {
               "type": "color",
               "value": "{semantics.color.palette.neutral.80}"
-            },
-            "o=1": {
-              "type": "color",
-              "value": "rgba({semantics.color.palette.neutral.80},{semantics.color.palette.opacity.40})"
             }
           },
           "brand": {
@@ -1139,10 +1158,6 @@
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.brand.70}"
-            },
-            "o=1": {
-              "type": "color",
-              "value": "rgba({semantics.color.palette.brand.70},{semantics.color.palette.opacity.40})"
             }
             
           },
@@ -1158,10 +1173,6 @@
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.brand2.92}"
-            },
-            "o=1": {
-              "type": "color",
-              "value": "rgba({semantics.color.palette.brand2.92},{semantics.color.palette.opacity.40})"
             }
             
           },
@@ -1177,10 +1188,6 @@
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.error.70}"
-            },
-            "o=1": {
-              "type": "color",
-              "value": "rgba({semantics.color.palette.error.70},{semantics.color.palette.opacity.40})"
             }
           },
           "disabled": {
