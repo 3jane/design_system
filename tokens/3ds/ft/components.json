@@ -10099,6 +10099,20 @@
           "value": "{composites.font.body.md.thin}",
           "type": "typography"
           }
+      },
+      "c=elevation": {
+          "i=none": {
+            "value": "{composites.elevation.1}",
+            "type": "boxShadow"
+          },
+          "i=hover": {
+            "value": "{composites.elevation.2}",
+            "type": "boxShadow"
+          },
+          "i=focus": {
+            "value": "{composites.elevation.1}",
+            "type": "boxShadow"
+          }
       }
     },
     "Pagination": {
