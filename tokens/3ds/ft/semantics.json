@@ -898,6 +898,10 @@
               "type": "color",
               "value": "{semantics.color.palette.neutral.20}"
             },
+            "a=2": {
+              "type": "color",
+              "value": "{semantics.color.palette.neutral.35}"
+            },
             "o=1": {
               "type": "color",
               "value": "rgba({semantics.color.palette.neutral.10},{semantics.color.palette.opacity.6})"
@@ -920,6 +924,10 @@
               "type": "color",
               "value": "{semantics.color.palette.brand.40}"
             },
+            "a=2": {
+              "type": "color",
+              "value": "{semantics.color.palette.brand.50}"
+            },
             "o=1": {
               "type": "color",
               "value": "rgba({semantics.color.palette.brand.40},{semantics.color.palette.opacity.40})"
@@ -938,6 +946,10 @@
               "type": "color",
               "value": "{semantics.color.palette.brand2.50}"
             },
+            "a=2": {
+              "type": "color",
+              "value": "{semantics.color.palette.brand2.60}"
+            },
             "o=1": {
               "type": "color",
               "value": "rgba({semantics.color.palette.brand2.50},{semantics.color.palette.opacity.40})"
@@ -955,6 +967,10 @@
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.error.50}"
+            },
+            "a=2": {
+              "type": "color",
+              "value": "{semantics.color.palette.error.60}"
             },
             "o=1": {
               "type": "color",
@@ -986,6 +1002,10 @@
               "type": "color",
               "value": "{semantics.color.palette.neutral.92}"
             },
+            "a=2": {
+              "type": "color",
+              "value": "{semantics.color.palette.neutral.85}"
+            },
             "o=1": {
               "type": "color",
               "value": "rgba({semantics.color.palette.common.white},{semantics.color.palette.opacity.10})"
@@ -1008,6 +1028,10 @@
               "type": "color",
               "value": "{semantics.color.palette.brand.70}"
             },
+            "a=2": {
+              "type": "color",
+              "value": "{semantics.color.palette.brand.60}"
+            },
             "o=1": {
               "type": "color",
               "value": "rgba({semantics.color.palette.brand.70},{semantics.color.palette.opacity.40})"
@@ -1026,6 +1050,10 @@
               "type": "color",
               "value": "{semantics.color.palette.brand2.70}"
             },
+            "a=2": {
+              "type": "color",
+              "value": "{semantics.color.palette.brand2.65}"
+            },
             "o=1": {
               "type": "color",
               "value": "rgba({semantics.color.palette.brand2.70},{semantics.color.palette.opacity.40})"
@@ -1043,6 +1071,10 @@
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.error.70}"
+            },
+            "a=2": {
+              "type": "color",
+              "value": "{semantics.color.palette.error.65}"
             },
             "o=1": {
               "type": "color",
@@ -1074,11 +1106,11 @@
             },
             "l=3": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.30}"
+              "value": "{semantics.color.palette.neutral.35}"
             },
             "l=4": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.40}"
+              "value": "{semantics.color.palette.neutral.50}"
             }
           },
           "brand": {
