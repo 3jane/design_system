@@ -1036,55 +1036,43 @@
           "brand": {
             "l=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand.15}"
+              "value": "{semantics.color.palette.brand.40}"
             },
             "l=2": {
               "type": "color",
-              "value": "{semantics.color.palette.brand.25}"
+              "value": "{semantics.color.palette.brand.50}"
             },
-            "a=1": {
+            "l=3": {
               "type": "color",
-              "value": "{semantics.color.palette.brand.40}"
-            },
-            "a=2": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand.35}"
+              "value": "{semantics.color.palette.brand.60}"
             }
           },
           "brand2": {
             "l=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.15}"
+              "value": "{semantics.color.palette.brand2.50}"
             },
             "l=2": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.25}"
+              "value": "{semantics.color.palette.brand2.55}"
             },
-            "a=1": {
+            "l=3": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.50}"
-            },
-            "a=2": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand2.45}"
+              "value": "{semantics.color.palette.brand2.60}"
             }
           },
           "error": {
             "l=1": {
               "type": "color",
-              "value": "{semantics.color.palette.error.15}"
+              "value": "{semantics.color.palette.error.50}"
             },
             "l=2": {
               "type": "color",
-              "value": "{semantics.color.palette.error.25}"
+              "value": "{semantics.color.palette.error.55}"
             },
-            "a=1": {
+            "l=3": {
               "type": "color",
-              "value": "{semantics.color.palette.error.50}"
-            },
-            "a=2": {
-              "type": "color",
-              "value": "{semantics.color.palette.error.45}"
+              "value": "{semantics.color.palette.error.60}"
             }
           },
           "disabled": {
@@ -1120,55 +1108,43 @@
           "brand": {
             "l=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand.95}"
+              "value": "{semantics.color.palette.brand.70}"
             },
             "l=2": {
               "type": "color",
-              "value": "{semantics.color.palette.brand.85}"
-            },
-            "a=1": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand.70}"
-            },
-            "a=2": {
-              "type": "color",
               "value": "{semantics.color.palette.brand.60}"
+            },
+            "l=3": {
+              "type": "color",
+              "value": "{semantics.color.palette.brand.55}"
             }
           },
           "brand2": {
             "l=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.90}"
+              "value": "{semantics.color.palette.brand2.70}"
             },
             "l=2": {
               "type": "color",
-              "value": "{semantics.color.palette.brand2.85}"
-            },
-            "a=1": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand2.70}"
-            },
-            "a=2": {
-              "type": "color",
               "value": "{semantics.color.palette.brand2.60}"
+            },
+            "l=3": {
+              "type": "color",
+              "value": "{semantics.color.palette.brand2.55}"
             }
           },
           "error": {
             "l=1": {
               "type": "color",
-              "value": "{semantics.color.palette.error.90}"
+              "value": "{semantics.color.palette.error.70}"
             },
             "l=2": {
               "type": "color",
-              "value": "{semantics.color.palette.error.85}"
-            },
-            "a=1": {
-              "type": "color",
-              "value": "{semantics.color.palette.error.70}"
-            },
-            "a=2": {
-              "type": "color",
               "value": "{semantics.color.palette.error.60}"
+            },
+            "l=3": {
+              "type": "color",
+              "value": "{semantics.color.palette.error.55}"
             }
           },
           "disabled": {
