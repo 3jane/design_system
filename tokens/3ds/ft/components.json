@@ -10061,6 +10061,10 @@
           "p=borderWidth": {
             "type": "borderWidth",
             "value": "{semantics.size.border.thin}"
+          },
+          "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.md}"
           }
         }
       },
