@@ -10056,7 +10056,7 @@
         "l=iconContainer": {
           "p=size": {
             "type": "sizing",
-            "value": "40"
+            "value": "36"
           },
           "p=borderWidth": {
             "type": "borderWidth",
@@ -10072,7 +10072,7 @@
         "l=container": {
         "p=paddingTop": {
           "type": "spacing",
-          "value": "{semantics.space.xl}"
+          "value": "{semantics.space.2xl}"
         },
         "p=gap": {
           "type": "spacing",
@@ -10111,7 +10111,7 @@
             "type": "boxShadow"
           },
           "i=focus": {
-            "value": "{composites.elevation.1}",
+            "value": "{composites.elevation.2}",
             "type": "boxShadow"
           }
         }
