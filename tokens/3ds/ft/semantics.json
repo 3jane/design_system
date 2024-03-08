@@ -894,6 +894,10 @@
               "type": "color",
               "value": "{semantics.color.palette.neutral.92}"
             },
+            "l=3": {
+              "type": "color",
+              "value": "{semantics.color.palette.neutral.95}"
+            },
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.neutral.20}"
@@ -997,6 +1001,10 @@
             "l=2": {
               "type": "color",
               "value": "{semantics.color.palette.neutral.30}"
+            },
+            "l=3": {
+              "type": "color",
+              "value": "{semantics.color.palette.neutral.35}"
             },
             "a=1": {
               "type": "color",
