@@ -1160,11 +1160,11 @@
             },
             "l=2": {
               "type": "color",
-              "value": "{semantics.color.palette.brand.65}"
+              "value": "{semantics.color.palette.brand.60}"
             },
             "l=3": {
               "type": "color",
-              "value": "{semantics.color.palette.brand.60}"
+              "value": "{semantics.color.palette.brand.55}"
             }
           },
           "brand2": {
