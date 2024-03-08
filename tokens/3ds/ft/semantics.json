@@ -1004,7 +1004,7 @@
             },
             "l=3": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.35}"
+              "value": "{semantics.color.palette.neutral.25}"
             },
             "a=1": {
               "type": "color",
@@ -1128,11 +1128,11 @@
             },
             "l=2": {
               "type": "color",
-              "value": "{semantics.color.palette.brand.50}"
+              "value": "{semantics.color.palette.brand.45}"
             },
             "l=3": {
               "type": "color",
-              "value": "{semantics.color.palette.brand.60}"
+              "value": "{semantics.color.palette.brand.50}"
             }
           },
           "brand2": {

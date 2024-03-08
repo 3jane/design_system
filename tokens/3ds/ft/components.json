@@ -9883,11 +9883,11 @@
       "l=textContainer": {
         "p=paddingHorizontal": {
           "type": "spacing",
-          "value": "{semantics.space.xl}"
+          "value": "{semantics.space.none}"
         },
         "p=gap": {
           "type": "spacing",
-          "value": "{semantics.space.xs}"
+          "value": "{semantics.space.2xs}"
         }
       }
       },
