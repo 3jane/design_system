@@ -10101,6 +10101,7 @@
           }
       },
       "c=elevation": {
+        "l=iconContainer": {
           "i=none": {
             "value": "{composites.elevation.1}",
             "type": "boxShadow"
@@ -10113,6 +10114,7 @@
             "value": "{composites.elevation.1}",
             "type": "boxShadow"
           }
+        }
       }
     },
     "Pagination": {
