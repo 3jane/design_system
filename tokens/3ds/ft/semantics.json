@@ -996,15 +996,15 @@
           "neutral": {
             "l=1": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.35}"
+              "value": "{semantics.color.palette.neutral.30}"
             },
             "l=2": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.30}"
+              "value": "{semantics.color.palette.neutral.25}"
             },
             "l=3": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.25}"
+              "value": "{semantics.color.palette.neutral.20}"
             },
             "a=1": {
               "type": "color",
