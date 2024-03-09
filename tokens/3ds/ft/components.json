@@ -10120,7 +10120,11 @@
     "Alert": {
       "c=color": {
         "m=onLight": {
-              "l=container": {
+              "l=mainContainer": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.bg.light.neutral.l=1}"
+              },
                 "p=border": {
                     "type": "color",
                     "value": "{semantics.color.border.onLight.neutral.l=2}"
@@ -10150,10 +10154,14 @@
               }
         },
         "m=onDark": {
-              "l=container": {
+              "l=mainContainer": {
                 "p=border": {
                     "type": "color",
                     "value": "{semantics.color.border.onDark.neutral.l=2}"
+                },
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.dark.l=2}"
                 }
               },
               "l=iconContainer": {
@@ -10181,10 +10189,14 @@
         }
       },
       "c=size": {
-        "l=container": {
+        "l=mainContainer": {
           "p=borderWidth": {
             "type": "borderWidth",
             "value": "{semantics.size.border.thin}"
+          },
+          "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.xl}"
           }
         },
         "l=iconContainer": {
