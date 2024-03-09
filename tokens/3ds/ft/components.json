@@ -4780,8 +4780,14 @@
         }
       },
       "c=font": {
-        "value": "{composites.font.label.lg.thick}",
+        "t=thin": {
+        "value": "{composites.font.label.lg.thin}",
         "type": "typography"
+        },
+        "t=thick": {
+          "value": "{composites.font.label.lg.thick}",
+          "type": "typography"
+          }
       },
       "c=elevation": {
         "m=onLight": {
@@ -10167,7 +10173,7 @@
               "l=iconContainer": {
                 "p=fill": {
                   "type": "color",
-                  "value": "{semantics.color.bg.dark.neutral.l=2}"
+                  "value": "{semantics.color.bg.dark.neutral.l=3}"
               },
                 "p=border": {
                     "type": "color",
