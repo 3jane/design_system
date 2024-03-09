@@ -10117,6 +10117,146 @@
         }
       }
     },
+    "Alert": {
+      "c=color": {
+        "m=onLight": {
+              "l=container": {
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.border.onLight.neutral.l=2}"
+                }
+              },
+              "l=iconContainer": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.palette.common.transparent}"
+              },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.border.onLight.neutral.l=2}"
+                }
+              },
+              "l=labelText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=2}"
+                }
+              },
+              "l=supportingText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=3}"
+                }
+              }
+        },
+        "m=onDark": {
+              "l=container": {
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.border.onDark.neutral.l=2}"
+                }
+              },
+              "l=iconContainer": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.bg.dark.neutral.l=2}"
+              },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.border.onDark.neutral.l=2}"
+                }
+              },
+              "l=labelText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=2}"
+                }
+              },
+              "l=supportingText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=3}"
+                }
+              }         
+        }
+      },
+      "c=size": {
+        "l=container": {
+          "p=borderWidth": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.thin}"
+          }
+        },
+        "l=iconContainer": {
+          "p=size": {
+            "type": "sizing",
+            "value": "36"
+          },
+          "p=borderWidth": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.thin}"
+          },
+          "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.md}"
+          }
+        }
+      },
+      "c=space": {
+        "l=mainContainer": {
+        "p=paddingVertical": {
+          "type": "spacing",
+          "value": "{semantics.space.2xl}"
+        },
+        "p=paddingHorizontal": {
+          "type": "spacing",
+          "value": "{semantics.space.2xl}"
+        },
+        "p=gap": {
+          "type": "spacing",
+          "value": "{semantics.space.xl}"
+        }
+      },
+      "l=textContainer": {
+        "p=gap": {
+          "type": "spacing",
+          "value": "{semantics.space.2xs}"
+        }
+      },
+      "l=buttonsContainer": {
+        "p=gap": {
+          "type": "spacing",
+          "value": "{semantics.space.xl}"
+        }
+      },
+      "l=textAndButtonsContainer": {
+        "p=gap": {
+          "type": "spacing",
+          "value": "{semantics.space.xl}"
+        }
+      }
+      },
+      "c=font": {
+        "l=labelText": {
+        "value": "{composites.font.label.lg.thick}",
+        "type": "typography"
+        },
+        "l=supportingText": {
+          "value": "{composites.font.body.md.thin}",
+          "type": "typography"
+          }
+      },
+      "c=elevation": {
+        "l=iconContainer": {
+            "value": "{composites.elevation.1}",
+            "type": "boxShadow"
+        },
+        "l= mainContainer": {
+          "value": "{composites.elevation.2}",
+          "type": "boxShadow"
+      }
+      }
+    },
     "Pagination": {
       "c=color": {
         "m=onLight": {
