@@ -10161,7 +10161,7 @@
                 },
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.dark.l=2}"
+                    "value": "{semantics.color.bg.dark.neutral.l=2}"
                 }
               },
               "l=iconContainer": {
