@@ -3249,7 +3249,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.brand.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
                 }
               },
@@ -3349,7 +3349,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.brand.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
                 }
               },
@@ -3399,7 +3399,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.brand.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
                 }
               },
@@ -3449,7 +3449,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.brand.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
                 }
               },
@@ -3501,7 +3501,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.brand.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
                 }
               },
@@ -3551,7 +3551,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.brand.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
                 }
               },
@@ -3601,7 +3601,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.brand.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
                 }
               },
@@ -3651,7 +3651,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.brand.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
                 }
               },
@@ -3701,7 +3701,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.brand.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
                 }
               },
@@ -4007,7 +4007,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.border.onDark.brand.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
                 }
               },
@@ -4057,7 +4057,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.border.onDark.brand.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
                 }
               },
@@ -4107,7 +4107,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.border.onDark.brand.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
                 }
               },
@@ -4157,7 +4157,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.border.onDark.brand.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
                 }
               },
@@ -4207,7 +4207,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.border.onDark.brand.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
                 }
               },
@@ -4259,7 +4259,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.border.onDark.brand.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
                 }
               },
@@ -4309,7 +4309,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.border.onDark.brand.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
                 }
               },
@@ -4359,7 +4359,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.border.onDark.brand.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
                 }
               },
@@ -4409,7 +4409,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.border.onDark.brand.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
                 }
               },
@@ -4459,7 +4459,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.border.onDark.brand.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
                 }
               },
@@ -4759,7 +4759,7 @@
           },
           "p=borderRadius": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.md}"
+            "value": "{semantics.size.radius.xs}"
           }
         },
         "l=line": {
