@@ -12651,7 +12651,7 @@
                     "value": "{semantics.color.text.onLight.disabled.l=1}"
                   }
                 },
-                "l=labelText": {
+                "l=supportingText": {
                   "p=color": {
                     "type": "color",
                     "value": "{semantics.color.text.onLight.disabled.l=2}"
@@ -14299,9 +14299,8 @@
       "c=color": {
         "m=onLight": {
           "t=selected": {
-            "s=enabled": {
               "v=neutral": {
-                "l=container": {
+                "l=linkContainer": {
                   "p=fill": {
                     "i=none": {
                       "type": "color",
@@ -14325,15 +14324,15 @@
                     "value": "{semantics.color.palette.common.transparent}"
                   }
                 },
-                "l=text": {
+                "l=textSeparator": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.onLight.neutral.l=2}"
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
                   }
                 }
               },
               "v=brand": {
-                "l=container": {
+                "l=linkContainer": {
                   "p=fill": {
                     "i=none": {
                       "type": "color",
@@ -14357,15 +14356,15 @@
                     "value": "{semantics.color.palette.common.transparent}"
                   }
                 },
-                "l=text": {
+                "l=textSeparator": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.onLight.brand.l=1}"
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
                   }
                 }
               },
               "v=brand2": {
-                "l=container": {
+                "l=linkContainer": {
                   "p=fill": {
                     "i=none": {
                       "type": "color",
@@ -14389,41 +14388,17 @@
                     "value": "{semantics.color.palette.common.transparent}"
                   }
                 },
-                "l=text": {
+                "l=textSeparator": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.onLight.brand2.l=1}"
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
                   }
                 }
               }
-            },
-            "s=disabled": {
-              "v=disabled": {
-                "l=container": {
-                  "p=fill": {
-                    "i=none": {
-                      "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
-                    }
-                  },
-                  "p=border": {
-                    "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
-                  }
-                },
-                "l=text": {
-                  "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.disabled.l=1}"
-                  }
-                }
-              }
-            }
           },
           "t=deselected": {
-            "s=enabled": {
               "v=neutral": {
-                "l=container": {
+                "l=linkContainer": {
                   "p=fill": {
                     "i=none": {
                       "type": "color",
@@ -14447,7 +14422,7 @@
                     "value": "{semantics.color.palette.common.transparent}"
                   }
                 },
-                "l=text": {
+                "l=textSeparator": {
                   "p=color": {
                     "type": "color",
                     "value": "{semantics.color.text.onLight.neutral.l=4}"
@@ -14455,7 +14430,7 @@
                 }
               },
               "v=brand": {
-                "l=container": {
+                "l=linkContainer": {
                   "p=fill": {
                     "i=none": {
                       "type": "color",
@@ -14479,7 +14454,7 @@
                     "value": "{semantics.color.palette.common.transparent}"
                   }
                 },
-                "l=text": {
+                "l=textSeparator": {
                   "p=color": {
                     "type": "color",
                     "value": "{semantics.color.text.onLight.neutral.l=4}"
@@ -14487,7 +14462,7 @@
                 }
               },
               "v=brand2": {
-                "l=container": {
+                "l=linkContainer": {
                   "p=fill": {
                     "i=none": {
                       "type": "color",
@@ -14511,43 +14486,19 @@
                     "value": "{semantics.color.palette.common.transparent}"
                   }
                 },
-                "l=text": {
+                "l=textSeparator": {
                   "p=color": {
                     "type": "color",
                     "value": "{semantics.color.text.onLight.neutral.l=4}"
                   }
                 }
               }
-            },
-            "s=disabled": {
-              "v=disabled": {
-                "l=container": {
-                  "p=fill": {
-                    "i=none": {
-                      "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
-                    }
-                  },
-                  "p=border": {
-                    "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
-                  }
-                },
-                "l=text": {
-                  "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.disabled.l=1}"
-                  }
-                }
-              }
-            }
           }
         },
         "m=onDark": {
           "t=selected": {
-            "s=enabled": {
               "v=neutral": {
-                "l=container": {
+                "l=linkContainer": {
                   "p=fill": {
                     "i=none": {
                       "type": "color",
@@ -14571,15 +14522,15 @@
                     "value": "{semantics.color.palette.common.transparent}"
                   }
                 },
-                "l=text": {
+                "l=textSeparator": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                    "value": "{semantics.color.text.onDark.neutral.l=4}"
                   }
                 }
               },
               "v=brand": {
-                "l=container": {
+                "l=linkContainer": {
                   "p=fill": {
                     "i=none": {
                       "type": "color",
@@ -14603,15 +14554,15 @@
                     "value": "{semantics.color.palette.common.transparent}"
                   }
                 },
-                "l=text": {
+                "l=textSeparator": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.onDark.brand.l=1}"
+                    "value": "{semantics.color.text.onDark.neutral.l=4}"
                   }
                 }
               },
               "v=brand2": {
-                "l=container": {
+                "l=linkContainer": {
                   "p=fill": {
                     "i=none": {
                       "type": "color",
@@ -14635,41 +14586,17 @@
                     "value": "{semantics.color.palette.common.transparent}"
                   }
                 },
-                "l=text": {
+                "l=textSeparator": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.onDark.brand2.l=1}"
+                    "value": "{semantics.color.text.onDark.neutral.l=4}"
                   }
                 }
               }
-            },
-            "s=disabled": {
-              "v=disabled": {
-                "l=container": {
-                  "p=fill": {
-                    "i=none": {
-                      "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
-                    }
-                  },
-                  "p=border": {
-                    "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
-                  }
-                },
-                "l=text": {
-                  "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.disabled.l=1}"
-                  }
-                }
-              }
-            }
           },
           "t=deselected": {
-            "s=enabled": {
               "v=neutral": {
-                "l=container": {
+                "l=linkContainer": {
                   "p=fill": {
                     "i=none": {
                       "type": "color",
@@ -14693,7 +14620,7 @@
                     "value": "{semantics.color.palette.common.transparent}"
                   }
                 },
-                "l=text": {
+                "l=textSeparator": {
                   "p=color": {
                     "type": "color",
                     "value": "{semantics.color.text.onDark.neutral.l=4}"
@@ -14701,7 +14628,7 @@
                 }
               },
               "v=brand": {
-                "l=container": {
+                "l=linkContainer": {
                   "p=fill": {
                     "i=none": {
                       "type": "color",
@@ -14725,7 +14652,7 @@
                     "value": "{semantics.color.palette.common.transparent}"
                   }
                 },
-                "l=text": {
+                "l=textSeparator": {
                   "p=color": {
                     "type": "color",
                     "value": "{semantics.color.text.onDark.neutral.l=4}"
@@ -14733,7 +14660,7 @@
                 }
               },
               "v=brand2": {
-                "l=container": {
+                "l=linkContainer": {
                   "p=fill": {
                     "i=none": {
                       "type": "color",
@@ -14757,36 +14684,13 @@
                     "value": "{semantics.color.palette.common.transparent}"
                   }
                 },
-                "l=text": {
+                "l=textSeparator": {
                   "p=color": {
                     "type": "color",
                     "value": "{semantics.color.text.onDark.neutral.l=4}"
                   }
                 }
               }
-            },
-            "s=disabled": {
-              "v=disabled": {
-                "l=container": {
-                  "p=fill": {
-                    "i=none": {
-                      "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
-                    }
-                  },
-                  "p=border": {
-                    "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
-                  }
-                },
-                "l=text": {
-                  "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.disabled.l=1}"
-                  }
-                }
-              }
-            }
           }
         }
       },
@@ -14837,26 +14741,10 @@
         }
       },
       "c=font": {
-        "t=selected": {
-          "l=link": {
-            "value": "{composites.font.label.lg.thick}",
-            "type": "typography"
-          },
           "l=textSeparator": {
             "value": "{composites.font.label.lg.thick}",
             "type": "typography"
           }
-        },
-        "t=deselected": {
-          "l=link": {
-            "value": "{composites.font.label.lg.medium}",
-            "type": "typography"
-          },
-          "l=textSeparator": {
-            "value": "{composites.font.label.lg.thick}",
-            "type": "typography"
-          }
-        }
       }
     },
     "Snackbar": {
