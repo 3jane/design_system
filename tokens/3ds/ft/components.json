@@ -4481,7 +4481,7 @@
       },
       "c=font": {
         "t=thin": {
-        "value": "{composites.font.label.lg.thin}",
+        "value": "{composites.font.label.lg.medium}",
         "type": "typography"
         },
         "t=thick": {
