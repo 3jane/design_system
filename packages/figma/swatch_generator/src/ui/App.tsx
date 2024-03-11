@@ -43,11 +43,11 @@ function App() {
         </select>
       </label>
       <br />
-      <Button type="submit">Generate</Button>
-      <br />
+      <Button type="submit">Generate swatch</Button>
+      {/* <br />
       <Button type="button" onClick={handleGetId}>
         Get id
-      </Button>
+      </Button> */}
     </form>
   );
 }
