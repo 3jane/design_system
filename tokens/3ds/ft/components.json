@@ -128,11 +128,11 @@
                 "type": "color"
               },
               "l=tertiary": {
-                "value": "{semantics.color.text.onLight.bran2.l=3}",
+                "value": "{semantics.color.text.onLight.brand2.l=3}",
                 "type": "color"
               },
               "l=quaternary": {
-                "value": "{semantics.color.text.onLight.bran2.l=3}",
+                "value": "{semantics.color.text.onLight.brand2.l=3}",
                 "type": "color"
               }
             },
