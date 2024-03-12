@@ -108,6 +108,14 @@
               "l=secondary": {
                 "value": "{semantics.color.text.onLight.brand.l=2}",
                 "type": "color"
+              },
+              "l=tertiary": {
+                "value": "{semantics.color.text.onLight.brand.l=3}",
+                "type": "color"
+              },
+              "l=quaternary": {
+                "value": "{semantics.color.text.onLight.brand.l=3}",
+                "type": "color"
               }
             },
             "v=brand2": {
@@ -118,6 +126,14 @@
               "l=secondary": {
                 "value": "{semantics.color.text.onLight.brand2.l=2}",
                 "type": "color"
+              },
+              "l=tertiary": {
+                "value": "{semantics.color.text.onLight.bran2.l=3}",
+                "type": "color"
+              },
+              "l=quaternary": {
+                "value": "{semantics.color.text.onLight.bran2.l=3}",
+                "type": "color"
               }
             },
             "v=error": {
@@ -127,6 +143,14 @@
               },
               "l=secondary": {
                 "value": "{semantics.color.text.onLight.error.l=2}",
+                "type": "color"
+              },
+              "l=tertiary": {
+                "value": "{semantics.color.text.onLight.error.l=3}",
+                "type": "color"
+              },
+              "l=quaternary": {
+                "value": "{semantics.color.text.onLight.error.l=3}",
                 "type": "color"
               }
             }
@@ -160,6 +184,14 @@
               "l=secondary": {
                 "value": "{semantics.color.text.onDark.brand.l=2}",
                 "type": "color"
+              },
+              "l=tertiary": {
+                "value": "{semantics.color.text.onDark.brand.l=3}",
+                "type": "color"
+              },
+              "l=quaternary": {
+                "value": "{semantics.color.text.onDark.brand.l=3}",
+                "type": "color"
               }
             },
             "v=brand2": {
@@ -169,6 +201,14 @@
               },
               "l=secondary": {
                 "value": "{semantics.color.text.onDark.brand2.l=2}",
+                "type": "color"
+              },
+              "l=tertiary": {
+                "value": "{semantics.color.text.onDark.brand2.l=3}",
+                "type": "color"
+              },
+              "l=quaternary": {
+                "value": "{semantics.color.text.onDark.brand2.l=3}",
                 "type": "color"
               }
             },
@@ -180,13 +220,21 @@
               "l=secondary": {
                 "value": "{semantics.color.text.onDark.error.l=2}",
                 "type": "color"
+              },
+              "l=tertiary": {
+                "value": "{semantics.color.text.onDark.error.l=3}",
+                "type": "color"
+              },
+              "l=quaternary": {
+                "value": "{semantics.color.text.onDark.error.l=3}",
+                "type": "color"
               }
             }
           }
         }
       },
       "c=font": {
-        "t=display": {
+        "t=thin": {
           "v=display1": {
             "value": "{composites.font.display.md.medium}",
             "type": "typography"
@@ -216,7 +264,7 @@
             "type": "typography"
           }
         },
-        "t=bold": {
+        "t=thick": {
           "v=display1": {
             "value": "{composites.font.display.md.thick}",
             "type": "typography"
@@ -3837,8 +3885,8 @@
                   }
                 }
               },
-              "l=border": {
-                "p=color": {
+              "l=line": {
+                "p=border": {
                   "i=none": {
                     "type": "color",
                     "value": "{semantics.color.palette.common.transparent}"
@@ -4547,10 +4595,6 @@
       },
       "c=size": {
         "l=container": {
-          "p=borderWidth": {
-            "type": "borderWidth",
-            "value": "{semantics.size.border.thin}"
-          },
           "p=borderRadius": {
             "type": "borderRadius",
             "value": "{semantics.size.radius.xs}"
@@ -4574,14 +4618,8 @@
         }
       },
       "c=font": {
-        "t=thin": {
         "value": "{composites.font.label.lg.medium}",
         "type": "typography"
-        },
-        "t=thick": {
-          "value": "{composites.font.label.lg.thick}",
-          "type": "typography"
-          }
       },
       "c=elevation": {
         "m=onLight": {
