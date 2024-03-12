@@ -15376,6 +15376,136 @@
         }
       }
     },
+    "AppBar": {
+      "c=color": {
+        "m=onLight": {
+          "t=solid": {
+            "l=container": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.bg.light.neutral.l=1}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.onLight.neutral.l=2}"
+              }
+            },
+            "l=titleText": {
+              "p=color": {
+                "type": "color",
+                "value": "{semantics.color.text.onLight.neutral.l=2}"
+              }
+            }
+           },
+           "t=blurred": {
+            "l=container": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.bg.light.neutral.o=4}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.onLight.neutral.l=2}"
+              }
+            },
+            "l=titleText": {
+              "p=color": {
+                "type": "color",
+                "value": "{semantics.color.text.onLight.neutral.l=2}"
+              }
+            }
+           }
+        },
+        "m=onDark": {
+          "t=solid": {
+            "l=container": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.bg.dark.neutral.l=1}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.onDark.neutral.l=2}"
+              }
+            },
+            "l=titleText": {
+              "p=color": {
+                "type": "color",
+                "value": "{semantics.color.text.onDark.neutral.l=2}"
+              }
+            }
+           },
+           "t=blurred": {
+            "l=container": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.bg.dark.neutral.o=4}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.onDark.neutral.l=2}"
+              }
+            },
+            "l=titleText": {
+              "p=color": {
+                "type": "color",
+                "value": "{semantics.color.text.onDark.neutral.l=2}"
+              }
+            }
+           }
+        }
+      },
+      "c=size": {
+        "l=container": {
+          "p=height": {
+            "type": "sizing",
+            "value": "52"
+          },
+          "p=borderRadiusBottom": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.none}"
+          },
+          "p=borderWidth": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.thin}"
+          }
+        }
+      },
+      "c=space": {
+        "l=topContainer": {
+          "p=paddingHorizontal": {
+            "type": "spacing",
+            "value": "{semantics.space.xl}"
+          },
+          "p=gap": {
+              "type": "spacing",
+              "value": "{semantics.space.none}"
+          }
+        }
+      },
+      "c=backgroundBlur": {
+        "l=mainContainer": {
+          "value": "{semantics.backgroundBlur.xl}",
+          "type": "composition"
+        }
+      },
+      "c=elevation": {
+        "t=solid": {
+        "value": "{composites.elevation.1}",
+        "type": "boxShadow"
+        },
+        "t=blurred": {
+          "value": "{composites.elevation.1}",
+          "type": "boxShadow"
+          }
+      },
+      "c=font": {
+        "l=titleText": {
+          "value": "{composites.font.title.sm.medium}",
+          "type": "typography"
+        }
+      }
+    },
     "Snackbar": {
       "c=color": {
         "m=onLight": {
