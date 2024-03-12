@@ -15261,6 +15261,121 @@
           }
       }
     },
+    "Accordion": {
+      "c=color": {
+        "m=onLight": {
+            "l=mainContainer": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.bg.light.neutral.l=1}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.onLight.neutral.l=2}"
+              }
+            },
+            "l=topContainer": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.onLight.neutral.l=2}"
+              }
+            },
+            "l=titleText": {
+              "p=color": {
+                "type": "color",
+                "value": "{semantics.color.text.onLight.neutral.l=2}"
+              }
+            }
+        },
+        "m=onDark": {
+            "l=mainContainer": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.bg.dark.neutral.l=1}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.onDark.neutral.l=2}"
+              }
+            },
+            "l=topContainer": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.onDark.neutral.l=2}"
+              }
+            },
+            "l=titleText": {
+              "p=color": {
+                "type": "color",
+                "value": "{semantics.color.text.onDark.neutral.l=2}"
+              }
+            }
+        }
+      },
+      "c=size": {
+        "l=mainContainer": {
+          "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.lg}"
+          },
+          "p=borderWidth": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.thin}"
+          }
+        },
+        "l=topContainer": {
+          "p=height": {
+            "type": "sizing",
+            "value": "44"
+          },
+          "p=borderWidthBottom": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.thin}"
+          }
+        }
+        
+      },
+      "c=space": {
+        "l=topCantainer": {
+          "p=paddingHorizontal": {
+            "type": "spacing",
+            "value": "{semantics.space.xl}"
+          },
+          "p=gap": {
+              "type": "spacing",
+              "value": "{semantics.space.none}"
+          }
+        },
+        "l=DetailsContainer": {
+          "p=paddingHorizontal": {
+            "type": "spacing",
+            "value": "{semantics.space.xl}"
+          },
+          "p=paddingTop": {
+            "type": "spacing",
+            "value": "{semantics.space.xl}"
+          },
+          "p=paddingBottom": {
+            "type": "spacing",
+            "value": "{semantics.space.xl}"
+          },
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+        }
+        }
+      },
+      "c=elevation": {
+        "value": "{composites.elevation.1}",
+        "type": "boxShadow"
+      },
+      "c=font": {
+        "l=label": {
+          "value": "{composites.font.body.md.thick}",
+          "type": "typography"
+        }
+      }
+    },
     "Snackbar": {
       "c=color": {
         "m=onLight": {
