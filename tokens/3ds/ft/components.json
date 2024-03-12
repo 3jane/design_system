@@ -13069,7 +13069,7 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{emantics.color.bg.dark.neutral.l=1}"
+                      "value": "{semantics.color.bg.dark.neutral.l=1}"
                     },
                     "i=hover": {
                       "type": "color",
@@ -13077,11 +13077,11 @@
                     },
                     "i=active": {
                       "type": "color",
-                      "value": "{emantics.color.bg.dark.neutral.l=1}"
+                      "value": "{semantics.color.bg.dark.neutral.l=1}"
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{emantics.color.bg.dark.neutral.l=2}"
+                      "value": "{semantics.color.bg.dark.neutral.l=2}"
                     }
                   },
                   "p=border": {
@@ -15038,7 +15038,7 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{emantics.color.bg.dark.neutral.l=1}"
+                      "value": "{semantics.color.bg.dark.neutral.l=1}"
                     },
                     "i=hover": {
                       "type": "color",
@@ -15070,7 +15070,7 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{emantics.color.bg.dark.neutral.l=1}"
+                      "value": "{semantics.color.bg.dark.neutral.l=1}"
                     },
                     "i=hover": {
                       "type": "color",
@@ -15102,7 +15102,7 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{emantics.color.bg.dark.neutral.l=1}"
+                      "value": "{semantics.color.bg.dark.neutral.l=1}"
                     },
                     "i=hover": {
                       "type": "color",
