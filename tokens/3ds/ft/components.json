@@ -15465,7 +15465,7 @@
             "type": "borderRadius",
             "value": "{semantics.size.radius.none}"
           },
-          "p=borderWidth": {
+          "p=borderWidthBottom": {
             "type": "borderWidth",
             "value": "{semantics.size.border.thin}"
           }
@@ -15479,7 +15479,7 @@
           },
           "p=gap": {
               "type": "spacing",
-              "value": "{semantics.space.none}"
+              "value": "{semantics.space.xs}"
           }
         }
       },
@@ -15491,11 +15491,11 @@
       },
       "c=elevation": {
         "t=solid": {
-        "value": "{composites.elevation.1}",
+        "value": "{composites.elevation.0}",
         "type": "boxShadow"
         },
         "t=blurred": {
-          "value": "{composites.elevation.1}",
+          "value": "{composites.elevation.0}",
           "type": "boxShadow"
           }
       },

@@ -578,7 +578,7 @@
             },
             "o=4": {
               "type": "color",
-              "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.95})"
+              "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.90})"
             }
           },
           "brand": {
@@ -746,7 +746,7 @@
             },
             "o=4": {
               "type": "color",
-              "value": "rgba({semantics.color.palette.neutral.20}, {semantics.color.palette.opacity.90})"
+              "value": "rgba({semantics.color.palette.neutral.10}, {semantics.color.palette.opacity.90})"
             }
           },
           "brand": {
