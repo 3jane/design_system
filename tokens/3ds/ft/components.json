@@ -15277,7 +15277,7 @@
             "l=topContainer": {
               "p=border": {
                 "type": "color",
-                "value": "{semantics.color.border.onLight.neutral.l=2}"
+                "value": "{semantics.color.palette.common.transparent}"
               }
             },
             "l=titleText": {
@@ -15291,7 +15291,7 @@
             "l=mainContainer": {
               "p=fill": {
                 "type": "color",
-                "value": "{semantics.color.bg.dark.neutral.l=1}"
+                "value": "{semantics.color.bg.dark.neutral.l=2}"
               },
               "p=border": {
                 "type": "color",
@@ -15301,7 +15301,7 @@
             "l=topContainer": {
               "p=border": {
                 "type": "color",
-                "value": "{semantics.color.border.onDark.neutral.l=2}"
+                "value": "{semantics.color.palette.common.transparent}"
               }
             },
             "l=titleText": {
