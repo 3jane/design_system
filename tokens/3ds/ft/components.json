@@ -15336,10 +15336,10 @@
         
       },
       "c=space": {
-        "l=topCantainer": {
+        "l=topContainer": {
           "p=paddingHorizontal": {
             "type": "spacing",
-            "value": "{semantics.space.xl}"
+            "value": "{semantics.space.2xl}"
           },
           "p=gap": {
               "type": "spacing",
@@ -15349,7 +15349,7 @@
         "l=DetailsContainer": {
           "p=paddingHorizontal": {
             "type": "spacing",
-            "value": "{semantics.space.xl}"
+            "value": "{semantics.space.2xl}"
           },
           "p=paddingTop": {
             "type": "spacing",
@@ -15357,7 +15357,7 @@
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.xl}"
+            "value": "{semantics.space.2xl}"
           },
           "p=gap": {
             "type": "spacing",
@@ -15370,7 +15370,7 @@
         "type": "boxShadow"
       },
       "c=font": {
-        "l=label": {
+        "l=titleText": {
           "value": "{composites.font.body.md.thick}",
           "type": "typography"
         }
