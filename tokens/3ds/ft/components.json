@@ -14224,7 +14224,7 @@
         "l=mainContainer": {
           "p=borderRadius": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.xl}"
+            "value": "{semantics.size.radius.2xl}"
           },
           "p=borderWidth": {
             "type": "borderWidth",
@@ -14246,7 +14246,7 @@
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.4x}"
+            "value": "{semantics.space.4xl}"
           },
           "p=paddingBottom": {
             "type": "spacing",
@@ -14274,7 +14274,7 @@
         "l=textContainer": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.xl}"
+            "value": "{semantics.space.sm}"
           }
         },
         "l=contentContainer": {
@@ -14306,7 +14306,7 @@
           },
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.md}"
+            "value": "{semantics.space.xl}"
           }
         }
       },
@@ -14316,7 +14316,7 @@
       },
       "c=font": {
         "l=titleText": {
-          "value": "{composites.font.label.lg.medium}",
+          "value": "{composites.font.title.sm.medium}",
           "type": "typography"
         },
         "l=supportingText": {
