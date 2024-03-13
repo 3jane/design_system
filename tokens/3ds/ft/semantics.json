@@ -1300,6 +1300,10 @@
           "value": "{base.size.16px}",
           "type": "borderRadius"
         },
+        "3xl": {
+          "value": "{base.size.20px}",
+          "type": "borderRadius"
+        },
         "full": {
           "value": "{base.size.9999px}",
           "type": "borderRadius"

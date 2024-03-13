@@ -14224,7 +14224,7 @@
         "l=mainContainer": {
           "p=borderRadius": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.2xl}"
+            "value": "{semantics.size.radius.3xl}"
           },
           "p=borderWidth": {
             "type": "borderWidth",
@@ -14274,7 +14274,7 @@
         "l=textContainer": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.sm}"
+            "value": "{semantics.space.xs}"
           }
         },
         "l=contentContainer": {
@@ -14321,6 +14321,196 @@
         },
         "l=supportingText": {
           "value": "{composites.font.body.md.thin}",
+          "type": "typography"
+        }
+      }
+    },
+    "Card": {
+      "c=color": {
+        "m=onLight": {
+            "l=mainContainer": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.bg.light.neutral.l=1}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.onLight.neutral.l=2}"
+              }
+            },
+            "l=buttonContainer": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
+              }
+            },
+            "l=titleText": {
+              "p=color": {
+                "type": "color",
+                "value": "{semantics.color.text.onLight.neutral.l=2}"
+              }
+            },
+            "l=supportingText": {
+              "p=color": {
+                "type": "color",
+                "value": "{semantics.color.text.onLight.neutral.l=3}"
+              }
+            },
+            "l=additionalText": {
+              "p=color": {
+                "type": "color",
+                "value": "{semantics.color.text.onLight.neutral.l=4}"
+              }
+            }
+        },
+        "m=onDark": {
+            "l=mainContainer": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.bg.dark.neutral.l=1}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
+              }
+            },
+            "l=buttonContainer": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
+              }
+            },
+            "l=titleText": {
+              "p=color": {
+                "type": "color",
+                "value": "{semantics.color.text.onDark.neutral.l=2}"
+              }
+            },
+            "l=supportingText": {
+              "p=color": {
+                "type": "color",
+                "value": "{semantics.color.text.onDark.neutral.l=3}"
+              }
+            },
+            "l=additionalText": {
+              "p=color": {
+                "type": "color",
+                "value": "{semantics.color.text.onDark.neutral.l=4}"
+              }
+            }
+        }
+      },
+      "c=backgroundBlur": {
+          "l=mainContainer": {
+            "value": "{semantics.backgroundBlur.none}",
+            "type": "composition"
+          }
+      },
+      "c=size": {
+        "l=mainContainer": {
+          "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.3xl}"
+          },
+          "p=borderWidth": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.thin}"
+          }
+        },
+        "l=buttonContainer": {
+          "p=borderWidthTop": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.thin}"
+          }
+        }
+      },
+      "c=space": {
+        "l=mediaContainer": {
+          "p=paddingHorizontal": {
+            "type": "spacing",
+            "value": "{semantics.space.4xl}"
+          },
+          "p=paddingTop": {
+            "type": "spacing",
+            "value": "{semantics.space.4xl}"
+          },
+          "p=paddingBottom": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          }
+        },
+        "l=textAndIconContainer": {
+          "p=paddingHorizontal": {
+            "type": "spacing",
+            "value": "{semantics.space.4xl}"
+          },
+          "p=paddingTop": {
+            "type": "spacing",
+            "value": "{semantics.space.4xl}"
+          },
+          "p=paddingBottom": {
+            "type": "spacing",
+            "value": "{semantics.space.4xl}"
+          },
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.xl}"
+          }
+        },
+        "l=textContainer": {
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.xs}"
+          }
+        },
+        "l=contentContainerBottom": {
+          "p=paddingHorizontal": {
+            "type": "spacing",
+            "value": "{semantics.space.4xl}"
+          },
+          "p=paddingTop": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          },
+          "p=paddingBottom": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          }
+        },
+        "l=buttonContainer": {
+          "p=paddingHorizontal": {
+            "type": "spacing",
+            "value": "{semantics.space.4xl}"
+          },
+          "p=paddingTop": {
+            "type": "spacing",
+            "value": "{semantics.space.4xl}"
+          },
+          "p=paddingBottom": {
+            "type": "spacing",
+            "value": "{semantics.space.4xl}"
+          },
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.xl}"
+          }
+        }
+      },
+      "c=elevation": {
+        "value": "{composites.elevation.1}",
+        "type": "boxShadow"
+      },
+      "c=font": {
+        "l=titleText": {
+          "value": "{composites.font.title.sm.medium}",
+          "type": "typography"
+        },
+        "l=supportingText": {
+          "value": "{composites.font.body.md.thin}",
+          "type": "typography"
+        },
+        "l=additionalText": {
+          "value": "{composites.font.label.md.medium}",
           "type": "typography"
         }
       }
