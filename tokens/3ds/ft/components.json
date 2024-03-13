@@ -14350,32 +14350,12 @@
           "p=paddingHorizontal": {
             "type": "spacing",
             "value": "{semantics.space.4xl}"
-          },
-          "p=paddingTop": {
-            "type": "spacing",
-            "value": "{semantics.space.4xl}"
-          },
-          "p=paddingBottom": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
           }
         },
-        "l=textAndIconContainer": {
+        "l=contentContainer1": {
           "p=paddingHorizontal": {
             "type": "spacing",
             "value": "{semantics.space.4xl}"
-          },
-          "p=paddingTop": {
-            "type": "spacing",
-            "value": "{semantics.space.4xl}"
-          },
-          "p=paddingBottom": {
-            "type": "spacing",
-            "value": "{semantics.space.4xl}"
-          },
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.xl}"
           }
         },
         "l=textContainer": {
@@ -14384,18 +14364,10 @@
             "value": "{semantics.space.xs}"
           }
         },
-        "l=contentContainer": {
+        "l=contentContaine2": {
           "p=paddingHorizontal": {
             "type": "spacing",
             "value": "{semantics.space.4xl}"
-          },
-          "p=paddingTop": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          },
-          "p=paddingBottom": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
           }
         },
         "l=buttonContainer": {
@@ -14538,14 +14510,10 @@
             "value": "{semantics.space.4xl}"
           }
         },
-        "l=textAndElementContainer": {
+        "l=contentContainer1": {
           "p=paddingHorizontal": {
             "type": "spacing",
             "value": "{semantics.space.4xl}"
-          },
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.xl}"
           }
         },
         "l=textContainer": {
@@ -14554,7 +14522,7 @@
             "value": "{semantics.space.xs}"
           }
         },
-        "l=contentContainer": {
+        "l=contentContainer2": {
           "p=paddingHorizontal": {
             "type": "spacing",
             "value": "{semantics.space.4xl}"
