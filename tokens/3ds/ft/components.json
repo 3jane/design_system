@@ -14158,6 +14158,16 @@
               "p=fill": {
                 "type": "color",
                 "value": "{semantics.color.bg.light.neutral.l=1}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
+              }
+            },
+            "l=buttonContainer": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
               }
             },
             "l=titleText": {
@@ -14178,6 +14188,16 @@
               "p=fill": {
                 "type": "color",
                 "value": "{semantics.color.bg.dark.neutral.l=1}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
+              }
+            },
+            "l=buttonContainer": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
               }
             },
             "l=titleText": {
