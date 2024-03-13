@@ -296,6 +296,137 @@
         }
       }
     },
+
+  "Spacing": {
+    "c=color": {
+      "m=onLight": {
+        "v=visible": {
+          "p=fill": {
+            "type": "color",
+            "value": "{semantics.color.bg.light.brand.o=1}"
+          }
+        },
+        "v=transparent": {
+          "p=fill": {
+            "type": "color",
+            "value": "{semantics.color.palette.common.transparent}"
+          }
+        }
+      },
+      "m=onDark": {
+        "v=visible": {
+          "p=fill": {
+            "type": "color",
+            "value": "{semantics.color.bg.dark.brand.o=1}"
+          }
+        },
+        "v=transparent": {
+          "p=fill": {
+            "type": "color",
+            "value": "{semantics.color.palette.common.transparent}"
+          }
+        }
+      }
+    },
+    "c=size": {
+      "t=horizontal": {
+        "p=width": {
+        "v=none": {
+          "type": "sizing",
+          "value": "{semantics.space.none}"
+        },
+        "v=2xs": {
+            "type": "sizing",
+            "value": "{semantics.space.2xs}"
+          },
+          "v=xs": {
+              "type": "sizing",
+              "value": "{semantics.space.xs}"
+          },
+          "v=sm": {
+              "type": "sizing",
+              "value": "{semantics.space.sm}"
+          },
+          "v=md": {
+              "type": "sizing",
+              "value": "{semantics.space.md}"
+          },
+          "v=lg": {
+              "type": "sizing",
+              "value": "{semantics.space.lg}"
+          },
+          "v=xl": {
+              "type": "sizing",
+              "value": "{semantics.space.xl}"
+          },
+          "v=2xl": {
+              "type": "sizing",
+              "value": "{semantics.space.2xl}"
+          },
+          "v=3xl": {
+              "type": "sizing",
+              "value": "{semantics.space.3xl}"
+          },
+          "v=4xl": {
+              "type": "sizing",
+              "value": "{semantics.space.4xl}"
+          }
+        },
+        "p=height": {
+            "type": "sizing",
+            "value": "{semantics.space.md}"
+          }
+      },
+      "t=vertical": {
+        "p=height": {
+        "v=none": {
+          "type": "sizing",
+          "value": "{semantics.space.none}"
+        },
+        "v=2xs": {
+            "type": "sizing",
+            "value": "{semantics.space.2xs}"
+          },
+          "v=xs": {
+              "type": "sizing",
+              "value": "{semantics.space.xs}"
+          },
+          "v=sm": {
+              "type": "sizing",
+              "value": "{semantics.space.sm}"
+          },
+          "v=md": {
+              "type": "sizing",
+              "value": "{semantics.space.md}"
+          },
+          "v=lg": {
+              "type": "sizing",
+              "value": "{semantics.space.lg}"
+          },
+          "v=xl": {
+              "type": "sizing",
+              "value": "{semantics.space.xl}"
+          },
+          "v=2xl": {
+              "type": "sizing",
+              "value": "{semantics.space.2xl}"
+          },
+          "v=3xl": {
+              "type": "sizing",
+              "value": "{semantics.space.3xl}"
+          },
+          "v=4xl": {
+              "type": "sizing",
+              "value": "{semantics.space.4xl}"
+          }
+        },
+        "p=width": {
+            "type": "sizing",
+            "value": "{semantics.space.md}"
+          }
+      }
+      }
+    },
     "Switch": {
       "c=color": {
         "m=onLight": {
@@ -14239,7 +14370,7 @@
         }
       },
       "c=space": {
-        "l=imageContainer": {
+        "l=mediaContainer": {
           "p=paddingHorizontal": {
             "type": "spacing",
             "value": "{semantics.space.4xl}"
@@ -14463,7 +14594,7 @@
             "value": "{semantics.space.xs}"
           }
         },
-        "l=contentContainerBottom": {
+        "l=contentContainer": {
           "p=paddingHorizontal": {
             "type": "spacing",
             "value": "{semantics.space.4xl}"
