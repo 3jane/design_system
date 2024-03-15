@@ -481,7 +481,7 @@
         "l=container": {
                   "p=fill": {
                       "type": "color",
-                      "value": "{semantics.color.bg.light.brand.o=2}"
+                      "value": "{semantics.color.bg.light.brand.o=1}"
                   },
                   "p=border": {
                     "type": "color",
@@ -493,6 +493,18 @@
                     "type": "color",
                     "value": "{semantics.color.text.onLight.brand.l=1}"
                   }
+        }
+      },
+      "c=size": {
+        "l=container": {
+          "p=borderWidth": {
+              "type": "borderWidth",
+              "value": "0"
+          },
+          "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.md}"
+          }
         }
       },
       "c=space": {
