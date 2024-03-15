@@ -476,7 +476,7 @@
       }
       }
     },
-    "Stack": {
+    "InstanceSlot": {
       "c=color": {
         "l=container": {
                   "p=fill": {
@@ -518,7 +518,7 @@
         }
       },
       "c=font": {
-          "value": "{composites.font.label.lg.medium}",
+          "value": "{composites.font.label.md.medium}",
           "type": "typography"
       }
     },
