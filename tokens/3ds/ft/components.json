@@ -476,6 +476,40 @@
       }
       }
     },
+    "Stack": {
+      "c=color": {
+        "l=container": {
+                  "p=fill": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.light.brand.o=2}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+        },
+        "l=text": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.brand.l=1}"
+                  }
+        }
+      },
+      "c=space": {
+        "p=paddingVertical": {
+          "type": "spacing",
+          "value": "{semantics.space.sm}"
+        },
+        "p=paddingHorizontal": {
+          "type": "spacing",
+          "value": "{semantics.space.2xl}"
+        }
+      },
+      "c=font": {
+          "value": "{composites.font.label.lg.medium}",
+          "type": "typography"
+      }
+    },
     "Switch": {
       "c=color": {
         "m=onLight": {
