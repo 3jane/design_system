@@ -1375,6 +1375,10 @@
         "value": "{base.space.0px}",
         "type": "spacing"
       },
+      "3xs": {
+        "value": "{base.space.1px}",
+        "type": "spacing"
+      },
       "2xs": {
         "value": "{base.space.2px}",
         "type": "spacing"

@@ -351,8 +351,16 @@
         "value": "-2",
         "type": "spacing"
       },
+      "-1px": {
+        "value": "-1",
+        "type": "spacing"
+      },
       "0px": {
         "value": "0",
+        "type": "spacing"
+      },
+      "1px": {
+        "value": "1",
         "type": "spacing"
       },
       "2px": {

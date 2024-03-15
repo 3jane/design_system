@@ -7954,6 +7954,26 @@
         }
       }
     },
+    "Autocomplete": {
+      "c=space": {
+        "l=mainContainer": {
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.3xs}"
+          }
+        } 
+    }
+    },
+    "Select": {
+      "c=space": {
+        "l=mainContainer": {
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.3xs}"
+          }
+        } 
+    }
+    },
     "Slider": {
       "c=color": {
         "m=onLight": {
@@ -14880,6 +14900,12 @@
               }
             }
           }
+        }
+      },
+      "c=space": {
+        "p=paddingVertical": {
+          "type": "spacing",
+          "value": "{semantics.space.md}"
         }
       },
       "c=size": {
