@@ -900,11 +900,11 @@
             },
             "a=1": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.20}"
+              "value": "{semantics.color.palette.neutral.15}"
             },
             "a=2": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.35}"
+              "value": "{semantics.color.palette.neutral.25}"
             },
             "o=1": {
               "type": "color",
