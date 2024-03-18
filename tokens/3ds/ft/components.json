@@ -16717,6 +16717,500 @@
           }
           }
       }
+    },
+    "Timeline": {
+      "c=color": {
+        "m=onLight": {
+          "t=outlined": {
+            "v=neutral": {
+              "l=mainText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                }
+              },
+              "l=opposingText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                }
+              },
+              "l=connector": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onLight.neutral.l=4}"
+              },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                }
+              },
+              "l=dot": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.palette.common.transparent}"
+                },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                }
+              }
+            },
+            "v=brand": {
+              "l=mainText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                }
+              },
+              "l=opposingText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                }
+              },
+              "l=connector": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onLight.neutral.l=4}"
+              },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                }
+              },
+              "l=dot": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.palette.common.transparent}"
+                },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                }
+              }
+            },
+            "v=brand2": {
+              "l=mainText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                }
+              },
+              "l=opposingText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                }
+              },
+              "l=connector": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onLight.neutral.l=4}"
+              },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                }
+              },
+              "l=dot": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.palette.common.transparent}"
+                },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                }
+              }
+            }
+          },
+          "t=filled": {
+            "v=neutral": {
+              "l=mainText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=1}"
+                }
+              },
+              "l=opposingText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                }
+              },
+              "l=connector": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onLight.neutral.l=1}"
+              },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                }
+              },
+              "l=dot": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onLight.neutral.l=1}"
+                },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                }
+              }
+            },
+            "v=brand": {
+              "l=mainText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.brand.l=1}"
+                }
+              },
+              "l=opposingText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.brand.l=3}"
+                }
+              },
+              "l=connector": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onLight.brand.l=1}"
+              },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                }
+              },
+              "l=dot": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onLight.brand.l=1}"
+                },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                }
+              }
+            },
+            "v=brand2": {
+              "l=mainText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.brand2.l=1}"
+                }
+              },
+              "l=opposingText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.brand2.l=3}"
+                }
+              },
+              "l=connector": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onLight.brand2.l=1}"
+              },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                }
+              },
+              "l=dot": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onLight.brand2.l=1}"
+                },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                }
+              }
+            }
+          }
+        },
+        "m=onDark": {
+          "t=outlined": {
+            "v=neutral": {
+              "l=mainText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=4}"
+                }
+              },
+              "l=opposingText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=4}"
+                }
+              },
+              "l=connector": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onDark.neutral.l=4}"
+              },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                }
+              },
+              "l=dot": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.palette.common.transparent}"
+                },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=4}"
+                }
+              }
+            },
+            "v=brand": {
+              "l=mainText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=4}"
+                }
+              },
+              "l=opposingText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=4}"
+                }
+              },
+              "l=connector": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onDark.neutral.l=4}"
+              },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                }
+              },
+              "l=dot": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.palette.common.transparent}"
+                },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=4}"
+                }
+              }
+            },
+            "v=brand2": {
+              "l=mainText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=4}"
+                }
+              },
+              "l=opposingText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=4}"
+                }
+              },
+              "l=connector": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onDark.neutral.l=4}"
+              },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                }
+              },
+              "l=dot": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.palette.common.transparent}"
+                },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=4}"
+                }
+              }
+            }
+          },
+          "t=filled": {
+            "v=neutral": {
+              "l=mainText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                }
+              },
+              "l=opposingText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=4}"
+                }
+              },
+              "l=connector": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onDark.neutral.l=1}"
+              },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                }
+              },
+              "l=dot": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onDark.neutral.l=1}"
+                },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                }
+              }
+            },
+            "v=brand": {
+              "l=mainText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.brand.l=1}"
+                }
+              },
+              "l=opposingText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.brand.l=3}"
+                }
+              },
+              "l=connector": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onDark.brand.l=1}"
+              },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                }
+              },
+              "l=dot": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onDark.brand.l=1}"
+                },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                }
+              }
+            },
+            "v=brand2": {
+              "l=mainText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.brand2.l=1}"
+                }
+              },
+              "l=opposingText": {
+                "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.brand2.l=3}"
+                }
+              },
+              "l=connector": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onDark.brand2.l=1}"
+              },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                }
+              },
+              "l=dot": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.text.onDark.brand2.l=1}"
+                },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "c=size": {
+        "l=dot": {
+          "p=height": {
+            "type": "sizing",
+            "value": "12"
+          },
+          "p=width": {
+            "type": "sizing",
+            "value": "12"
+          },
+          "p=borderWidth": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.medium}"
+          }
+        },
+        "l=connector": {
+          "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.full}"
+          },
+          "p=width": {
+            "type": "sizing",
+            "value": "2"
+          }
+        },
+        "l=dotContainer": {
+          "p=height": {
+            "type": "sizing",
+            "value": "36"
+          }
+        },
+        "l=connectorContainer": {
+          "p=width": {
+            "type": "sizing",
+            "value": "12"
+          },
+          "p=height": {
+            "type": "sizing",
+            "value": "36"
+          },
+          "p=borderWidth": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.none}"
+          }
+        }
+      },
+      "c=space": {
+        "l=mainContainer": {
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          },
+        "l=timelineItemContainer": {
+        "p=gap": {
+          "type": "spacing",
+          "value": "{semantics.space.2xl}"
+        }
+        }
+          }
+      },
+      "c=font": {
+        "l=mainText": {
+        "value": "{composites.font.label.lg.thick}",
+        "type": "typography"
+        },
+        "l=opposingText": {
+          "value": "{composites.font.label.lg.thin}",
+          "type": "typography"
+          }
+      }
     }
   }
 }
