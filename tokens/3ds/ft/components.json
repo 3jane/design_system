@@ -17154,6 +17154,10 @@
           "p=borderWidth": {
             "type": "borderWidth",
             "value": "{semantics.size.border.medium}"
+          },
+          "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.full}"
           }
         },
         "l=connector": {
@@ -17192,6 +17196,7 @@
           "p=gap": {
             "type": "spacing",
             "value": "{semantics.space.none}"
+          }
           },
         "l=timelineItemContainer": {
         "p=gap": {
@@ -17199,9 +17204,19 @@
           "value": "{semantics.space.2xl}"
         }
         }
-          }
-      },
+        },
       "c=font": {
+        "t=outlined": {
+          "l=mainText": {
+          "value": "{composites.font.label.lg.medium}",
+          "type": "typography"
+          },
+          "l=opposingText": {
+            "value": "{composites.font.label.lg.thin}",
+            "type": "typography"
+            }
+          },
+        "t=filled": {
         "l=mainText": {
         "value": "{composites.font.label.lg.thick}",
         "type": "typography"
@@ -17210,6 +17225,7 @@
           "value": "{composites.font.label.lg.thin}",
           "type": "typography"
           }
+        }
       }
     }
   }
