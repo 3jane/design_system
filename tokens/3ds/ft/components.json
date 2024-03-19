@@ -2844,99 +2844,6 @@
         }
       },
       "c=elevation": {
-        "m=onLight": {
-          "t=elevated": {
-            "i=none": {
-              "value": "{composites.dropShadow.down.xs}",
-              "type": "boxShadow"
-            },
-            "i=hover": {
-              "value": "{composites.dropShadow.down.sm}",
-              "type": "boxShadow"
-            },
-            "i=active": {
-              "value": "{composites.dropShadow.down.xs}",
-              "type": "boxShadow"
-            },
-            "i=focus": {
-              "value": "{composites.focusRing.onLight.brand}",
-              "type": "boxShadow"
-            }
-          },
-          "t=filled": {
-            "i=none": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=hover": {
-              "value": "{composites.dropShadow.down.xs}",
-              "type": "boxShadow"
-            },
-            "i=active": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=focus": {
-              "value": "{composites.focusRing.onLight.brand}",
-              "type": "boxShadow"
-            }
-          },
-          "t=tonal": {
-            "i=none": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=hover": {
-              "value": "{composites.dropShadow.down.xs}",
-              "type": "boxShadow"
-            },
-            "i=active": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=focus": {
-              "value": "{composites.focusRing.onLight.brand}",
-              "type": "boxShadow"
-            }
-          },
-          "t=outlined": {
-            "i=none": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=hover": {
-              "value": "{composites.dropShadow.down.xs}",
-              "type": "boxShadow"
-            },
-            "i=active": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=focus": {
-              "value": "{composites.focusRing.onLight.brand}",
-              "type": "boxShadow"
-            }
-          },
-          "t=text": {
-            "i=none": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=hover": {
-              "value": "{composites.dropShadow.down.xs}",
-              "type": "boxShadow"
-            },
-            "i=active": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=focus": {
-              "value": "{composites.focusRing.onLight.brand}",
-              "type": "boxShadow"
-            }
-          }
-        },
-        "m=onDark": {
           "t=elevated": {
             "i=none": {
               "value": "{composites.dropShadow.down.xs}",
@@ -3027,7 +2934,6 @@
               "type": "boxShadow"
             }
           }
-        }
       },
       "c=font": {
         "v=small": {
@@ -4918,21 +4824,6 @@
         "type": "typography"
       },
       "c=elevation": {
-        "m=onLight": {
-          "i=none": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          },
-          "i=hover": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          },
-          "i=focus": {
-            "value": "{composites.focusRing.onLight.brand}",
-            "type": "boxShadow"
-          }
-        },
-        "m=onDark": {
           "i=none": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
@@ -4945,7 +4836,6 @@
             "value": "{composites.focusRing.brand}",
             "type": "boxShadow"
           }
-        }
       }
     },
     "FAB": {
@@ -5514,45 +5404,6 @@
         }
       },
       "c=elevation": {
-        "m=onLight": {
-          "t=filled": {
-            "i=none": {
-              "value": "{composites.dropShadow.down.xs}",
-              "type": "boxShadow"
-            },
-            "i=hover": {
-              "value": "{composites.dropShadow.down.sm}",
-              "type": "boxShadow"
-            },
-            "i=focus": {
-              "value": "{composites.focusRing.onLight.brand}",
-              "type": "boxShadow"
-            },
-            "i=active": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            }
-          },
-          "t=outlined": {
-            "i=none": {
-              "value": "{composites.dropShadow.down.xs}",
-              "type": "boxShadow"
-            },
-            "i=hover": {
-              "value": "{composites.dropShadow.down.sm}",
-              "type": "boxShadow"
-            },
-            "i=focus": {
-              "value": "{composites.focusRing.onLight.brand}",
-              "type": "boxShadow"
-            },
-            "i=active": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            }
-          }
-        },
-        "m=onDark": {
           "t=filled": {
             "i=none": {
               "value": "{composites.dropShadow.down.xs}",
@@ -5589,7 +5440,6 @@
               "type": "boxShadow"
             }
           }
-        }
       },
       "c=font": {
         "v=small": {
@@ -6156,45 +6006,6 @@
         }
       },
       "c=elevation": {
-        "m=onLight": {
-          "t=filled": {
-            "i=none": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=hover": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=focus": {
-              "value": "{composites.focusRing.onLight.brand}",
-              "type": "boxShadow"
-            },
-            "i=active": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            }
-          },
-          "t=outlined": {
-            "i=none": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=hover": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=focus": {
-              "value": "{composites.focusRing.onLight.brand}",
-              "type": "boxShadow"
-            },
-            "i=active": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            }
-          }
-        },
-        "m=onDark": {
           "t=filled": {
             "i=none": {
               "value": "{composites.dropShadow.none}",
@@ -6231,7 +6042,6 @@
               "type": "boxShadow"
             }
           }
-        }
       },
       "c=font": {
         "v=small": {
@@ -7828,53 +7638,6 @@
         }
       },
       "c=elevation": {
-        "m=onLight": {
-          "v=neutral": {
-            "i=none": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=hover": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=entered": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=focus": {
-              "value": "{composites.focusRing.onLight.brand}",
-              "type": "boxShadow"
-            },
-            "i=active": {
-              "value": "{composites.focusRing.onLight.brand}",
-              "type": "boxShadow"
-            }
-          },
-          "v=error": {
-            "i=none": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=hover": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=entered": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=focus": {
-              "value": "{composites.focusRing.onLight.error}",
-              "type": "boxShadow"
-            },
-            "i=active": {
-              "value": "{composites.focusRing.onLight.error}",
-              "type": "boxShadow"
-            }
-          }
-        },
-        "m=onDark": {
           "v=neutral": {
             "i=none": {
               "value": "{composites.dropShadow.none}",
@@ -7919,7 +7682,6 @@
               "type": "boxShadow"
             }
           }
-        }
       },
       "c=font": {
         "l=inputText": {
@@ -10432,37 +10194,6 @@
         }
       },
       "c=elevation": {
-        "m=onLight": {
-          "l=container": {
-            "i=none": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=hover": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=focus": {
-              "value": "{composites.focusRing.onLight.brand}",
-              "type": "boxShadow"
-            }
-          },
-          "l=iconContainer": {
-            "i=none": {
-              "value": "{composites.dropShadow.down.xs}",
-              "type": "boxShadow"
-            },
-            "i=hover": {
-              "value": "{composites.dropShadow.down.sm}",
-              "type": "boxShadow"
-            },
-            "i=focus": {
-              "value": "{composites.dropShadow.down.sm}",
-              "type": "boxShadow"
-            }
-          }
-        },
-        "m=onDark": {
           "l=container": {
             "i=none": {
               "value": "{composites.dropShadow.none}",
@@ -10491,7 +10222,6 @@
               "type": "boxShadow"
             }
           }
-        }
       }
     },
     "Alert": {
@@ -11168,45 +10898,6 @@
         }
       },
       "c=elevation": {
-        "m=onLight": {
-          "t=selected": {
-            "i=none": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=hover": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=focus": {
-              "value": "{composites.focusRing.onLight.brand}",
-              "type": "boxShadow"
-            },
-            "i=active": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            }
-          },
-          "t=deselected": {
-            "i=none": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=hover": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=focus": {
-              "value": "{composites.focusRing.onLight.brand}",
-              "type": "boxShadow"
-            },
-            "i=active": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            }
-          }
-        },
-        "m=onDark": {
           "t=selected": {
             "i=none": {
               "value": "{composites.dropShadow.none}",
@@ -11243,7 +10934,6 @@
               "type": "boxShadow"
             }
           }
-        }
       },
       "c=font": {
         "t=selected": {
@@ -11776,25 +11466,6 @@
         }
       },
       "c=elevation": {
-        "m=onLight": {
-          "i=none": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          },
-          "i=hover": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          },
-          "i=focus": {
-            "value": "{composites.focusRing.onLight.brand}",
-            "type": "boxShadow"
-          },
-          "i=active": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          }
-        },
-        "m=onDark": {
           "i=none": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
@@ -11811,7 +11482,6 @@
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
           }
-        }
       },
       "c=font": {
         "t=selected": {
@@ -12344,25 +12014,6 @@
         }
       },
       "c=elevation": {
-        "m=onLight": {
-          "i=none": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          },
-          "i=hover": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          },
-          "i=focus": {
-            "value": "{composites.focusRing.onLight.brand}",
-            "type": "boxShadow"
-          },
-          "i=active": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          }
-        },
-        "m=onDark": {
           "i=none": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
@@ -12379,7 +12030,6 @@
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
           }
-        }
       },
       "c=font": {
         "t=selected": {
@@ -12826,25 +12476,6 @@
         }
       },
       "c=elevation": {
-        "m=onLight": {
-          "i=none": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          },
-          "i=hover": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          },
-          "i=focus": {
-            "value": "{composites.focusRing.onLight.brand}",
-            "type": "boxShadow"
-          },
-          "i=active": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          }
-        },
-        "m=onDark": {
           "i=none": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
@@ -12861,7 +12492,6 @@
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
           }
-        }
       },
       "c=font": {
         "t=selected": {
@@ -13356,57 +12986,6 @@
         }
       },
       "c=elevation": {
-        "m=onLight": {
-          "l=mainContainer": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          },
-          "l=cell": {
-            "i=none": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=hover": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=focus": {
-              "value": "{composites.focusRing.onLight.brand}",
-              "type": "boxShadow"
-            },
-            "i=active": {
-              "value": "{composites.dropShadow.down.lg}",
-              "type": "boxShadow"
-            }
-          },
-          "l=head": {
-            "i=none": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=hover": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=focus": {
-              "value": "{composites.focusRing.onLight.brand}",
-              "type": "boxShadow"
-            },
-            "i=active": {
-              "value": "{composites.dropShadow.down.lg}",
-              "type": "boxShadow"
-            }
-          },
-          "l=headRow": {
-            "value": "{composites.dropShadow.down.xs}",
-            "type": "boxShadow"
-          },
-          "l=footer": {
-            "value": "{composites.dropShadow.down.xs}",
-            "type": "boxShadow"
-          }
-        },
-        "m=onDark": {
           "l=mainContainer": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
@@ -13455,7 +13034,6 @@
             "value": "{composites.dropShadow.down.xs}",
             "type": "boxShadow"
           }
-        }
       }
     },
     "MenuItem": {
@@ -13762,25 +13340,6 @@
         }
       },
       "c=elevation": {
-        "m=onLight": {
-          "i=none": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          },
-          "i=hover": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          },
-          "i=focus": {
-            "value": "{composites.focusRing.onLight.brand}",
-            "type": "boxShadow"
-          },
-          "i=active": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          }
-        },
-        "m=onDark": {
           "i=none": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
@@ -13797,7 +13356,6 @@
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
           }
-        }
       },
       "c=font": {
         "t=selected": {
@@ -14180,25 +13738,6 @@
         }
       },
       "c=elevation": {
-        "m=onLight": {
-          "i=none": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          },
-          "i=hover": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          },
-          "i=focus": {
-            "value": "{composites.focusRing.onLight.brand}",
-            "type": "boxShadow"
-          },
-          "i=active": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          }
-        },
-        "m=onDark": {
           "i=none": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
@@ -14215,7 +13754,6 @@
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
           }
-        }
       },
       "c=font": {
         "l=titleText": {
@@ -14764,25 +14302,6 @@
         }
       },
       "c=elevation": {
-        "m=onLight": {
-          "i=none": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          },
-          "i=hover": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          },
-          "i=focus": {
-            "value": "{composites.focusRing.onLight.brand}",
-            "type": "boxShadow"
-          },
-          "i=active": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          }
-        },
-        "m=onDark": {
           "i=none": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
@@ -14799,7 +14318,6 @@
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
           }
-        }
       }
     },
     "Drawer": {
@@ -15888,25 +15406,6 @@
         }
       },
       "c=elevation": {
-        "m=onLight": {
-          "i=none": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          },
-          "i=hover": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          },
-          "i=focus": {
-            "value": "{composites.focusRing.onLight.brand}",
-            "type": "boxShadow"
-          },
-          "i=active": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          }
-        },
-        "m=onDark": {
           "i=none": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
@@ -15923,7 +15422,6 @@
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
           }
-        }
       },
       "c=font": {
         "value": "{composites.font.label.sm.medium}",
@@ -16376,25 +15874,6 @@
         }
       },
       "c=elevation": {
-        "m=onLight": {
-          "i=none": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          },
-          "i=hover": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          },
-          "i=focus": {
-            "value": "{composites.focusRing.onLight.brand}",
-            "type": "boxShadow"
-          },
-          "i=active": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          }
-        },
-        "m=onDark": {
           "i=none": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
@@ -16411,7 +15890,6 @@
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
           }
-        }
       },
       "c=font": {
         "l=textSeparator": {
@@ -17264,25 +16742,6 @@
         }
       },
       "c=elevation": {
-        "m=onLight": {
-          "i=none": {
-            "value": "{composites.dropShadow.down.xs}",
-            "type": "boxShadow"
-          },
-          "i=hover": {
-            "value": "{composites.dropShadow.down.sm}",
-            "type": "boxShadow"
-          },
-          "i=focus": {
-            "value": "{composites.focusRing.onLight.brand}",
-            "type": "boxShadow"
-          },
-          "i=active": {
-            "value": "{composites.dropShadow.down.xs}",
-            "type": "boxShadow"
-          }
-        },
-        "m=onDark": {
           "i=none": {
             "value": "{composites.dropShadow.down.xs}",
             "type": "boxShadow"
@@ -17299,7 +16758,6 @@
             "value": "{composites.dropShadow.down.xs}",
             "type": "boxShadow"
           }
-        }
       }
     },
     "Timeline": {
