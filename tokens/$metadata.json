@@ -4,7 +4,6 @@
     "3ds/ft/semantics",
     "3ds/ft/composites",
     "3ds/ft/components",
-    "candidates/cmp_structure",
-    "candidates/oldcomponents"
+    "candidates/cmp_structure"
   ]
 }
