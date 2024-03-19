@@ -815,11 +815,11 @@
           },
           "o=3": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.60})"
+            "value": "rgba({semantics.color.palette.neutral.15}, {semantics.color.palette.opacity.85})"
           },
           "o=4": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.90})"
+            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.85})"
           }
         },
         "brand": {
