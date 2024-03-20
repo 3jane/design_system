@@ -417,52 +417,56 @@
           }
         },
         "system": {
-          "red": {
-            "value": "#FF3B30",
-            "type": "color"
+          "onLight": {
+            "red": {
+              "value": "#FF3B30",
+              "type": "color"
+            },
+            "orange": {
+              "value": "#FF9500",
+              "type": "color"
+            },
+            "yellow": {
+              "value": "#FFCC00",
+              "type": "color"
+            },
+            "green": {
+              "value": "#34C759",
+              "type": "color"
+            },
+            "teal": {
+              "value": "#5AC8FA",
+              "type": "color"
+            },
+            "blue": {
+              "value": "#007AFF",
+              "type": "color"
+            },
+            "indigo": {
+              "value": "#5856D6",
+              "type": "color"
+            },
+            "purple": {
+              "value": "#AF52DE",
+              "type": "color"
+            },
+            "pink": {
+              "value": "#FF2D55",
+              "type": "color"
+            }
           },
-          "orange": {
-            "value": "#FF9500",
-            "type": "color"
-          },
-          "yellow": {
-            "value": "#FFCC00",
-            "type": "color"
-          },
-          "green": {
-            "value": "#34C759",
-            "type": "color"
-          },
-          "teal": {
-            "value": "#5AC8FA",
-            "type": "color"
-          },
-          "blue": {
-            "value": "#007AFF",
-            "type": "color"
-          },
-          "indigo": {
-            "value": "#5856D6",
-            "type": "color"
-          },
-          "purple": {
-            "value": "#AF52DE",
-            "type": "color"
-          },
-          "pink": {
-            "value": "#FF2D55",
-            "type": "color"
+          "onDark": {
+            "blue": {
+              "value": "#3B83EA",
+              "type": "color"
+            },
+            "purple": {
+              "value": "#BD31ED",
+              "type": "color"
+            }
           }
         },
         "common": {
-          "linkDark": {
-            "value": "#3B83EA",
-            "type": "color"
-          },
-          "visitedDark": {
-            "value": "#BD31ED",
-            "type": "color"
-          },
           "white": {
             "value": "#ffffff",
             "type": "color"
