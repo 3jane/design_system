@@ -13045,7 +13045,7 @@
       },
       "c=elevation": {
           "l=mainContainer": {
-            "value": "{composites.dropShadow.xs}",
+            "value": "{composites.dropShadow.down.xs}",
             "type": "boxShadow"
           },
           "l=cell": {
