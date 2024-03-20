@@ -418,15 +418,39 @@
         },
         "system": {
           "red": {
-            "value": "#0056d0",
+            "value": "#FF3B30",
+            "type": "color"
+          },
+          "orange": {
+            "value": "#FF9500",
+            "type": "color"
+          },
+          "yellow": {
+            "value": "#FFCC00",
+            "type": "color"
+          },
+          "green": {
+            "value": "#34C759",
+            "type": "color"
+          },
+          "teal": {
+            "value": "#5AC8FA",
             "type": "color"
           },
           "blue": {
-            "value": "#0056d0",
+            "value": "#007AFF",
+            "type": "color"
+          },
+          "indigo": {
+            "value": "#5856D6",
             "type": "color"
           },
           "purple": {
-            "value": "#9A00D0",
+            "value": "#AF52DE",
+            "type": "color"
+          },
+          "pink": {
+            "value": "#FF2D55",
             "type": "color"
           }
         },
