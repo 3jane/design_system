@@ -456,12 +456,40 @@
             }
           },
           "onDark": {
+            "red": {
+              "value": "#FF6961",
+              "type": "color"
+            },
+            "orange": {
+              "value": "#FFB340",
+              "type": "color"
+            },
+            "yellow": {
+              "value": "#FFD426",
+              "type": "color"
+            },
+            "green": {
+              "value": "#30DB5B",
+              "type": "color"
+            },
+            "teal": {
+              "value": "#70D7FF",
+              "type": "color"
+            },
             "blue": {
-              "value": "#3B83EA",
+              "value": "#409CFF",
+              "type": "color"
+            },
+            "indigo": {
+              "value": "#7D7AFF",
               "type": "color"
             },
             "purple": {
-              "value": "#BD31ED",
+              "value": "#DA8FFF",
+              "type": "color"
+            },
+            "pink": {
+              "value": "#FF6482",
               "type": "color"
             }
           }
