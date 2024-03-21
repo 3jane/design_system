@@ -782,6 +782,42 @@
         }
       }
     },
+    "AvatarGroup": {
+      "c=space": {
+        "l=mainContainer": {
+        "p=gap": {
+          "v=xs": {
+            "type": "spacing",
+            "value": "{semantics.space.-ld}"
+          },
+          "v=sm": {
+            "type": "spacing",
+            "value": "{semantics.space.-ld}"
+          },
+          "v=md": {
+            "type": "spacing",
+            "value": "{semantics.space.-ld}"
+          }
+        }
+        },
+        "l=avatarsContainer": {
+          "p=gap": {
+            "v=xs": {
+              "type": "spacing",
+              "value": "{semantics.space.-xs}"
+            },
+            "v=sm": {
+              "type": "spacing",
+              "value": "{semantics.space.-md}"
+            },
+            "v=md": {
+              "type": "spacing",
+              "value": "{semantics.space.-xl}"
+            }
+          }
+          }
+      }
+    },
     "Switch": {
       "c=color": {
         "m=onLight": {
