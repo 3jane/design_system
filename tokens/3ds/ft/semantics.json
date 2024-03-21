@@ -1164,16 +1164,24 @@
           "value": "{base.size.0px}",
           "type": "borderWidth"
         },
-        "thin": {
+        "xs": {
+          "value": "{base.size.0,5px}",
+          "type": "borderWidth"
+        },
+        "sm": {
           "value": "{base.size.1px}",
           "type": "borderWidth"
         },
-        "medium": {
+        "md": {
+          "value": "{base.size.1,5px}",
+          "type": "borderWidth"
+        },
+        "lg": {
           "value": "{base.size.2px}",
           "type": "borderWidth"
         },
-        "thick": {
-          "value": "{base.size.4px}",
+        "xl": {
+          "value": "{base.size.3px}",
           "type": "borderWidth"
         }
       },

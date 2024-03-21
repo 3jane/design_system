@@ -109,16 +109,36 @@
         "value": "0",
         "type": "sizing"
       },
+      "0,5px": {
+        "value": "0.5",
+        "type": "sizing"
+      },
       "1px": {
         "value": "1",
+        "type": "sizing"
+      },
+      "1,5px": {
+        "value": "1.5",
         "type": "sizing"
       },
       "2px": {
         "value": "2",
         "type": "sizing"
       },
+      "2,5px": {
+        "value": "2.5",
+        "type": "sizing"
+      },
+      "3px": {
+        "value": "3",
+        "type": "sizing"
+      },
       "4px": {
         "value": "4",
+        "type": "sizing"
+      },
+      "5px": {
+        "value": "5",
         "type": "sizing"
       },
       "6px": {
