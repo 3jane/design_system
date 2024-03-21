@@ -832,6 +832,10 @@
               "type": "color",
               "value": "{semantics.color.palette.neutral.97}"
             },
+            "l=4": {
+              "type": "color",
+              "value": "{semantics.color.palette.common.white}"
+            },
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.neutral.15}"
@@ -843,10 +847,6 @@
             "o=1": {
               "type": "color",
               "value": "rgba({semantics.color.palette.neutral.10},{semantics.color.palette.opacity.6})"
-            },
-            "o=2": {
-              "type": "color",
-              "value": "rgba({semantics.color.palette.neutral.10},{semantics.color.palette.opacity.20})"
             }
           },
           "brand": {
@@ -865,10 +865,6 @@
             "a=2": {
               "type": "color",
               "value": "{semantics.color.palette.brand.50}"
-            },
-            "o=1": {
-              "type": "color",
-              "value": "rgba({semantics.color.palette.brand.40},{semantics.color.palette.opacity.40})"
             }
           },
           "brand2": {
@@ -887,10 +883,6 @@
             "a=2": {
               "type": "color",
               "value": "{semantics.color.palette.brand2.65}"
-            },
-            "o=1": {
-              "type": "color",
-              "value": "rgba({semantics.color.palette.brand2.50},{semantics.color.palette.opacity.40})"
             }
           },
           "error": {
@@ -909,10 +901,6 @@
             "a=2": {
               "type": "color",
               "value": "{semantics.color.palette.error.60}"
-            },
-            "o=1": {
-              "type": "color",
-              "value": "rgba({semantics.color.palette.error.50},{semantics.color.palette.opacity.40})"
             }
           },
           "disabled": {
@@ -940,6 +928,10 @@
               "type": "color",
               "value": "{semantics.color.palette.neutral.20}"
             },
+            "l=4": {
+              "type": "color",
+              "value": "{semantics.color.palette.neutral.15}"
+            },
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.neutral.92}"
@@ -951,10 +943,6 @@
             "o=1": {
               "type": "color",
               "value": "rgba({semantics.color.palette.common.white},{semantics.color.palette.opacity.10})"
-            },
-            "o=2": {
-              "type": "color",
-              "value": "rgba({semantics.color.palette.common.white},{semantics.color.palette.opacity.20})"
             }
           },
           "brand": {
@@ -973,10 +961,6 @@
             "a=2": {
               "type": "color",
               "value": "{semantics.color.palette.brand.60}"
-            },
-            "o=1": {
-              "type": "color",
-              "value": "rgba({semantics.color.palette.brand.70},{semantics.color.palette.opacity.40})"
             }
           },
           "brand2": {
@@ -995,10 +979,6 @@
             "a=2": {
               "type": "color",
               "value": "{semantics.color.palette.brand2.65}"
-            },
-            "o=1": {
-              "type": "color",
-              "value": "rgba({semantics.color.palette.brand2.70},{semantics.color.palette.opacity.40})"
             }
           },
           "error": {
@@ -1017,10 +997,6 @@
             "a=2": {
               "type": "color",
               "value": "{semantics.color.palette.error.65}"
-            },
-            "o=1": {
-              "type": "color",
-              "value": "rgba({semantics.color.palette.error.70},{semantics.color.palette.opacity.40})"
             }
           },
           "disabled": {
