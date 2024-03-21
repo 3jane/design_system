@@ -618,7 +618,7 @@
             "l=container": {
             "p=fill": {
               "type": "color",
-              "value": "{semantics.color.bg.light.neutral.l=2}"
+              "value": "{semantics.color.bg.dark.neutral.l=2}"
             },
             "p=border": {
               "type": "color",
@@ -738,26 +738,8 @@
        },
        "l=contrastBorderContainer": {
         "p=borderWidth": {
-          "v=xs": {
             "type": "borderWidth",
-            "value": "0.5"
-          },
-          "v=sm": {
-            "type": "borderWidth",
-            "value": "1"
-          },
-          "v=md": {
-            "type": "borderWidth",
-            "value": "1"
-          },
-          "v=lg": {
-            "type": "borderWidth",
-            "value": "1"
-          },
-          "v=xl": {
-            "type": "borderWidth",
-            "value": "2"
-          }
+            "value": "{semantics.size.border.thin}"
         }
        }
       },
