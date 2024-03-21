@@ -714,32 +714,46 @@
             }
           },
           "p=borderWidth": {
-            "v=xs": {
               "type": "borderWidth",
-              "value": "1"
-            },
-            "v=sm": {
-              "type": "borderWidth",
-              "value": "1.5"
-            },
-            "v=md": {
-              "type": "borderWidth",
-              "value": "1.5"
-            },
-            "v=lg": {
-              "type": "borderWidth",
-              "value": "1.5"
-            },
-            "v=xl": {
-              "type": "borderWidth",
-              "value": "2"
-            }
+              "value": "{semantics.size.border.md}"
           }
         },
         "l=contrastBorderContainer": {
           "p=borderWidth": {
             "type": "borderWidth",
             "value": "{semantics.size.border.sm}"
+          }
+        },
+        "l=miniAvatar": {
+          "p=size": {
+            "v=xs": {
+              "type": "sizing",
+              "value": "10"
+            },
+            "v=sm": {
+              "type": "sizing",
+              "value": "12"
+            },
+            "v=md": {
+              "type": "sizing",
+              "value": "16"
+            },
+            "v=lg": {
+              "type": "sizing",
+              "value": "18"
+            },
+            "v=xl": {
+              "type": "sizing",
+              "value": "20"
+            }
+          },
+          "p=borderRadius": {
+                "type": "borderRadius",
+                "value": "{semantics.size.radius.full}"
+          },
+          "p=borderWidth": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.md}"
           }
         }
       },
@@ -16249,6 +16263,148 @@
           }
         }
       }
-    }
+    },
+    "Miscellaneous": {
+      "onlineIndicator": {
+        "c=color": {
+          "m=onLight": {
+            "t=online": {
+              "l=container": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.palette.system.onLight.green}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.onLight.neutral.l=4}"
+              }
+              }
+            },
+            "t=offline": {
+              "l=container": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.bg.light.neutral.l=4}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.onLight.neutral.l=4}"
+              }
+              }
+            }
+          },
+          "m=onDark": {
+            "t=online": {
+              "l=container": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.palette.system.onDark.green}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.onDark.neutral.l=4}"
+              }
+              }
+            },
+            "t=offline": {
+              "l=container": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.bg.dark.neutral.l=4}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.onDark.neutral.l=4}"
+              }
+              }
+            }
+          }
+        },
+        "c=size": {
+          "p=size": {
+            "v=xs": {
+              "type": "sizing",
+              "value": "6"
+            },
+            "v=sm": {
+              "type": "sizing",
+              "value": "8"
+            },
+            "v=md": {
+              "type": "sizing",
+              "value": "10"
+            },
+            "v=lg": {
+              "type": "sizing",
+              "value": "12"
+            },
+            "v=xl": {
+              "type": "sizing",
+              "value": "14"
+            }
+          },
+          "p=borderRadius": {
+                "type": "borderRadius",
+                "value": "{semantics.size.radius.full}"
+          },
+          "p=borderWidth": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.md}"
+          }
+        }
+      },
+      "miniAvatar": {
+        "c=color": {
+          "m=onLight": {
+              "l=container": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.onLight.neutral.l=4}"
+              }
+            }
+          },
+          "m=onDark": {
+            "l=container": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.onDark.neutral.l=4}"
+              }
+            }
+          }
+        },
+        "c=size": {
+          "p=size": {
+            "v=xs": {
+              "type": "sizing",
+              "value": "10"
+            },
+            "v=sm": {
+              "type": "sizing",
+              "value": "12"
+            },
+            "v=md": {
+              "type": "sizing",
+              "value": "16"
+            },
+            "v=lg": {
+              "type": "sizing",
+              "value": "18"
+            },
+            "v=xl": {
+              "type": "sizing",
+              "value": "20"
+            }
+          },
+          "p=borderRadius": {
+                "type": "borderRadius",
+                "value": "{semantics.size.radius.full}"
+          },
+          "p=borderWidth": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.md}"
+          }
+        }
+      }
+      }
   }
 }
