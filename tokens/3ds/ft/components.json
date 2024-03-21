@@ -599,6 +599,10 @@
             }
             },
             "l=contrastBorderContainer": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
+              },
               "p=border": {
                 "type": "color",
                 "value": "{semantics.color.border.onLight.neutral.o=1}"
@@ -623,6 +627,10 @@
               }
               },
               "l=contrastBorderContainer": {
+                "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
+              },
                 "p=border": {
                   "type": "color",
                   "value": "{semantics.color.border.onLight.neutral.o=1}"
@@ -647,6 +655,10 @@
                 }
                 },
                 "l=contrastBorderContainer": {
+                  "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
+              },
                   "p=border": {
                     "type": "color",
                     "value": "{semantics.color.border.onLight.neutral.o=1}"
@@ -673,6 +685,10 @@
             }
             },
             "l=contrastBorderContainer": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
+              },
               "p=border": {
                 "type": "color",
                 "value": "{semantics.color.border.onLight.neutral.o=1}"
@@ -697,6 +713,10 @@
               }
               },
               "l=contrastBorderContainer": {
+                "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
+              },
                 "p=border": {
                   "type": "color",
                   "value": "{semantics.color.border.onLight.neutral.o=1}"
@@ -721,6 +741,10 @@
                 }
                 },
                 "l=contrastBorderContainer": {
+                  "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
+              },
                   "p=border": {
                     "type": "color",
                     "value": "{semantics.color.border.onLight.neutral.o=1}"
@@ -757,8 +781,96 @@
           "v=xl": {
             "type": "sizing",
             "value": "64"
+          }
+        },
+        "p=borderRadius": {
+          "t=circular": {
+            "v=xs": {
+             "type": "borderRadius",
+             "value": "{semantics.size.radius.full}"
+            },
+            "v=sm": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.full}"
+             },
+             "v=md": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.full}"
+             },
+             "v=lg": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.full}"
+             },
+             "v=xl": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.full}"
+             }
           },
-          "v=2xl": {
+          "t=square": {
+            "v=xs": {
+             "type": "borderRadius",
+             "value": "{semantics.size.radius.xs}"
+            },
+            "v=sm": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.sm}"
+             },
+             "v=md": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.md}"
+             },
+             "v=lg": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.md}"
+             },
+             "v=xl": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.lg}"
+             }
+          }
+        },
+        "p=borderWidth": {
+          "v=xs": {
+            "type": "borderWidth",
+            "value": "1"
+          },
+          "v=sm": {
+            "type": "borderWidth",
+            "value": "1.5"
+          },
+          "v=md": {
+            "type": "borderWidth",
+            "value": "1.5"
+          },
+          "v=lg": {
+            "type": "borderWidth",
+            "value": "1.5"
+          },
+          "v=xl": {
+            "type": "borderWidth",
+            "value": "2"
+          }
+        }
+       },
+       "l=contrastBorderContainer": {
+        "p=size": {
+          "v=xs": {
+            "type": "sizing",
+            "value": "24"
+            },
+          "v=sm": {
+          "type": "sizing",
+          "value": "32"
+          },
+          "v=md": {
+            "type": "sizing",
+            "value": "40"
+          },
+          "v=lg": {
+            "type": "sizing",
+            "value": "52"
+          },
+          "v=xl": {
             "type": "sizing",
             "value": "64"
           }
@@ -784,10 +896,6 @@
              "v=xl": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.full}"
-             },
-             "v=2xl": {
-              "type": "borderRadius",
-              "value": "{semantics.size.radius.full}"
              }
           },
           "t=square": {
@@ -810,10 +918,6 @@
              "v=xl": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.lg}"
-             },
-             "v=2xl": {
-              "type": "borderRadius",
-              "value": "{semantics.size.radius.xl}"
              }
           }
         },
@@ -835,10 +939,6 @@
             "value": "1"
           },
           "v=xl": {
-            "type": "borderWidth",
-            "value": "2"
-          },
-          "v=2xl": {
             "type": "borderWidth",
             "value": "2"
           }
@@ -865,10 +965,6 @@
             },
             "v=xl": {
               "value": "{composites.font.title.md.thin}",
-              "type": "typography"
-            },
-            "v=2xl": {
-              "value": "{composites.font.title.lg.thin}",
               "type": "typography"
             }
           }
