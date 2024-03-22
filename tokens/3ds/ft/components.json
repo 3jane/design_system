@@ -788,15 +788,15 @@
         "p=gap": {
           "v=xs": {
             "type": "spacing",
-            "value": "{semantics.space.-ld}"
+            "value": "{semantics.space.lg}"
           },
           "v=sm": {
             "type": "spacing",
-            "value": "{semantics.space.-ld}"
+            "value": "{semantics.space.lg}"
           },
           "v=md": {
             "type": "spacing",
-            "value": "{semantics.space.-ld}"
+            "value": "{semantics.space.lg}"
           }
         }
         },
