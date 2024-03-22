@@ -14332,7 +14332,7 @@
         }
       }
     },
-    "BottomNavigation": {
+    "BottomNavigationAction": {
       "c=color": {
         "m=onLight": {
           "t=selected": {
@@ -14341,7 +14341,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -14359,7 +14359,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -14377,7 +14377,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -14397,7 +14397,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -14419,7 +14419,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -14437,7 +14437,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -14455,7 +14455,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -14475,7 +14475,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -14499,7 +14499,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.dark.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -14517,7 +14517,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.dark.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -14535,7 +14535,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.dark.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -14555,7 +14555,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.dark.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -14577,7 +14577,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.dark.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -14595,7 +14595,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.dark.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -14613,7 +14613,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.dark.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -14633,7 +14633,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.dark.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -14712,6 +14712,96 @@
       "c=font": {
         "value": "{composites.font.label.sm.medium}",
         "type": "typography"
+      }
+    },
+    "BottomNavigation": {
+      "c=color": {
+        "m=onLight": {
+          "t=solid": {
+                "l=container": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.neutral.l=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.border.onLight.neutral.l=2}"
+                  }
+                }
+          },
+          "t=blurred": {
+            "l=container": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.overlay.neutral.o=4}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.onLight.neutral.l=2}"
+              }
+            }
+          }
+        },
+        "m=onDark": {
+          "t=solid": {
+            "l=container": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.bg.dark.neutral.l=1}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.onDark.neutral.l=2}"
+              }
+            }
+      },
+      "t=blurred": {
+        "l=container": {
+          "p=fill": {
+            "type": "color",
+            "value": "{semantics.color.overlay.neutral.o=3}"
+          },
+          "p=border": {
+            "type": "color",
+            "value": "{semantics.color.border.onDark.neutral.l=2}"
+          }
+        }
+      }
+        }
+      },
+      "c=size": {
+        "t=solid": {
+        "p=borderWidthTop": {
+          "type": "borderWidth",
+          "value": "{semantics.size.border.sm}"
+        }
+        },
+        "t=blurred": {
+          "p=borderWidthTop": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.sm}"
+          }
+          }
+      },
+      "c=space": {
+          "p=paddingHorizontal": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          },
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          }
+      },
+      "c=elevation": {
+        "t=solid": {
+          "value": "{composites.dropShadow.none}",
+          "type": "boxShadow"
+        },
+        "t=blurred": {
+          "value": "{composites.dropShadow.none}",
+          "type": "boxShadow"
+        }
       }
     },
     "Breadcrumbs": {
