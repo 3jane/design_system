@@ -1132,6 +1132,56 @@
               "type": "color",
               "value": "{semantics.color.palette.neutral.85}"
             }
+          },
+          "extra1": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra1.97}"
+            },           
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra1.50}"
+            }
+          },
+          "extra2": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra2.97}"
+            },           
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra2.50}"
+            }
+          },
+          "extra3": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra3.97}"
+            },           
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra3.50}"
+            }
+          },
+          "extra4": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra4.97}"
+            },           
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra4.50}"
+            }
+          },
+          "extra5": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra5.97}"
+            },           
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra5.50}"
+            }
           }
         },
         "dark": {
@@ -1260,56 +1310,56 @@
               "type": "color",
               "value": "{semantics.color.palette.neutral.30}"
             }
-          }
-        }
-      },
-      "overlay": {
-        "neutral": {
-          "o=1": {
-            "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.15})"
           },
-          "o=2": {
-            "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.25})"
+          "extra1": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra1.10}"
+            },           
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra1.55}"
+            }
           },
-          "o=3": {
-            "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.15}, {semantics.color.palette.opacity.85})"
+          "extra2": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra2.10}"
+            },           
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra2.55}"
+            }
           },
-          "o=4": {
-            "type": "color",
-            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.85})"
-          }
-        },
-        "brand": {
-          "o=1": {
-            "type": "color",
-            "value": "rgba( {semantics.color.palette.brand.70} , {semantics.color.palette.opacity.15})"
+          "extra3": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra3.10}"
+            },           
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra3.55}"
+            }
           },
-          "o=2": {
-            "type": "color",
-            "value": "rgba({semantics.color.palette.brand.70}, {semantics.color.palette.opacity.25})"
-          }
-        },
-        "brand2": {
-          "o=1": {
-            "type": "color",
-            "value": "rgba( {semantics.color.palette.brand2.70} , {semantics.color.palette.opacity.15} )"
+          "extra4": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra4.10}"
+            },           
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra4.55}"
+            }
           },
-          "o=2": {
-            "type": "color",
-            "value": "rgba({semantics.color.palette.brand2.70}, {semantics.color.palette.opacity.25} )"
-          }
-        },
-        "error": {
-          "o=1": {
-            "type": "color",
-            "value": "rgba({semantics.color.palette.error.70}, {semantics.color.palette.opacity.15})"
-          },
-          "o=2": {
-            "type": "color",
-            "value": "rgba({semantics.color.palette.error.70}, {semantics.color.palette.opacity.25})"
+          "extra5": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra5.10}"
+            },           
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra5.55}"
+            }
           }
         }
       },
@@ -1408,6 +1458,56 @@
               "type": "color",
               "value": "{semantics.color.palette.neutral.90}"
             }
+          },
+          "extra1": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra1.70}"
+            },            
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra1.55}"
+            }
+          },
+          "extra2": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra2.70}"
+            },            
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra2.55}"
+            }
+          },
+          "extra3": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra3.70}"
+            },            
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra3.55}"
+            }
+          },
+          "extra4": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra4.70}"
+            },            
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra4.55}"
+            }
+          },
+          "extra5": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra5.70}"
+            },            
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra5.55}"
+            }
           }
         },
         "onDark": {
@@ -1504,6 +1604,56 @@
               "type": "color",
               "value": "{semantics.color.palette.neutral.30}"
             }
+          },
+          "extra1": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra1.80}"
+            },            
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra1.70}"
+            }
+          },
+          "extra2": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra2.80}"
+            },            
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra2.70}"
+            }
+          },
+          "extra3": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra3.80}"
+            },            
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra3.70}"
+            }
+          },
+          "extra4": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra4.80}"
+            },            
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra4.70}"
+            }
+          },
+          "extra5": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra5.80}"
+            },            
+            "a=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra5.70}"
+            }
           }
         }
       },
@@ -1578,6 +1728,36 @@
               "type": "color",
               "value": "{semantics.color.palette.neutral.60}"
             }
+          },
+          "extra1": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra1.50}"
+            }
+          },
+          "extra2": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra2.50}"
+            }
+          },
+          "extra3": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra3.50}"
+            }
+          },
+          "extra4": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra4.50}"
+            }
+          },
+          "extra5": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra5.50}"
+            }
           }
         },
         "onDark": {
@@ -1650,6 +1830,86 @@
               "type": "color",
               "value": "{semantics.color.palette.neutral.45}"
             }
+          },
+          "extra1": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra1.70}"
+            }
+          },
+          "extra2": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra2.70}"
+            }
+          },
+          "extra3": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra3.70}"
+            }
+          },
+          "extra4": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra4.70}"
+            }
+          },
+          "extra5": {
+            "l=1": {
+              "type": "color",
+              "value": "{semantics.color.palette.extra5.70}"
+            }
+          }
+        }
+      },
+      "overlay": {
+        "neutral": {
+          "o=1": {
+            "type": "color",
+            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.15})"
+          },
+          "o=2": {
+            "type": "color",
+            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.25})"
+          },
+          "o=3": {
+            "type": "color",
+            "value": "rgba({semantics.color.palette.neutral.15}, {semantics.color.palette.opacity.85})"
+          },
+          "o=4": {
+            "type": "color",
+            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.85})"
+          }
+        },
+        "brand": {
+          "o=1": {
+            "type": "color",
+            "value": "rgba( {semantics.color.palette.brand.70} , {semantics.color.palette.opacity.15})"
+          },
+          "o=2": {
+            "type": "color",
+            "value": "rgba({semantics.color.palette.brand.70}, {semantics.color.palette.opacity.25})"
+          }
+        },
+        "brand2": {
+          "o=1": {
+            "type": "color",
+            "value": "rgba( {semantics.color.palette.brand2.70} , {semantics.color.palette.opacity.15} )"
+          },
+          "o=2": {
+            "type": "color",
+            "value": "rgba({semantics.color.palette.brand2.70}, {semantics.color.palette.opacity.25} )"
+          }
+        },
+        "error": {
+          "o=1": {
+            "type": "color",
+            "value": "rgba({semantics.color.palette.error.70}, {semantics.color.palette.opacity.15})"
+          },
+          "o=2": {
+            "type": "color",
+            "value": "rgba({semantics.color.palette.error.70}, {semantics.color.palette.opacity.25})"
           }
         }
       }
