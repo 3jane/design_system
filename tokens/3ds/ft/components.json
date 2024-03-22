@@ -9371,13 +9371,13 @@
               "l=text": {
                 "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.onLight.blue.l=1}"
+                    "value": "{semantics.color.text.onDark.blue.l=1}"
                 }
               },
               "l=line": {
                 "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.text.onLight.blue.l=1}"
+                    "value": "{semantics.color.text.onDark.blue.l=1}"
                 }
               }
             },
@@ -9391,13 +9391,13 @@
               "l=text": {
                 "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.onLight.purple.l=1}"
+                    "value": "{semantics.color.text.onDark.purple.l=1}"
                 }
               },
               "l=line": {
                 "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.text.onLight.purple.l=1}"
+                    "value": "{semantics.color.text.onDark.purple.l=1}"
                 }
               }
             }
@@ -9413,7 +9413,7 @@
         "l=line": {
           "p=borderWidth": {
             "type": "borderWidth",
-            "value": "{semantics.size.border.thin}"
+            "value": "{semantics.size.border.sm}"
           }
         }
       },
