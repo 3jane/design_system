@@ -9431,6 +9431,12 @@
           "value": "{semantics.space.xs}"
         }
       },
+      "c=font": {
+        "l=text": {
+          "value": "{composites.font.label.lg.thick}",
+          "type": "typography"
+        }
+      },
       "c=elevation": {
         "i=none": {
           "value": "{composites.dropShadow.none}",
