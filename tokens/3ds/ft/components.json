@@ -16838,45 +16838,45 @@
           "l=container": {
           "t=vertical": {
           "p=width": {
-              "type": "width",
+              "type": "sizing",
               "value": "12"
           },
           "p=borderWidthLeft": {
-            "type": "borderWidthLeft",
+            "type": "borderWidth",
             "value": "{semantics.size.border.none}"
           },
           "p=borderWidthRight": {
-            "type": "borderWidthRight",
+            "type": "borderWidth",
             "value": "{semantics.size.border.none}"
           },
           "p=borderWidthTop": {
-            "type": "borderWidthTop",
+            "type": "borderWidth",
             "value": "{semantics.size.border.none}"
           },
           "p=borderWidthBottom": {
-            "type": "borderWidthBottom",
+            "type": "borderWidth",
             "value": "{semantics.size.border.none}"
           }
           },
           "t=horizontal": {
             "p=height": {
-                "type": "height",
+                "type": "sizing",
                 "value": "12"
             },
             "p=borderWidthLeft": {
-              "type": "borderWidthLeft",
+              "type": "borderWidth",
               "value": "{semantics.size.border.none}"
             },
             "p=borderWidthRight": {
-              "type": "borderWidthRight",
+              "type": "borderWidth",
               "value": "{semantics.size.border.none}"
             },
             "p=borderWidthTop": {
-              "type": "borderWidthTop",
+              "type": "borderWidth",
               "value": "{semantics.size.border.none}"
             },
             "p=borderWidthBottom": {
-              "type": "borderWidthBottom",
+              "type": "borderWidth",
               "value": "{semantics.size.border.none}"
             }
             }
@@ -16896,11 +16896,11 @@
           "t=vertical": {
           "l=container": {
             "p=paddingHorizontal": {
-              "type": "horizontalPadding",
+              "type": "spacing",
               "value": "{semantics.space.xs}"
             },
             "p=paddingVertical": {
-              "type": "verticalPadding",
+              "type": "spacing",
               "value": "{semantics.space.xs}"
             }
           }
@@ -16908,11 +16908,11 @@
           "t=horizontal": {
             "l=container": {
               "p=paddingHorizontal": {
-                "type": "horizontalPadding",
+                "type": "spacing",
                 "value": "{semantics.space.xs}"
               },
               "p=paddingVertical": {
-                "type": "verticalPadding",
+                "type": "spacing",
                 "value": "{semantics.space.xs}"
               }
             }
