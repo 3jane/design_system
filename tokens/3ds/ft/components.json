@@ -16786,7 +16786,145 @@
               "value": "{semantics.size.border.md}"
           }
         }
+      },
+      "scrollBar": {
+        "c=color": {
+          "m=onLight": {
+              "l=container": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
+              }
+              },
+              "l=thumb": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.bg.light.neutral.l=1}"
+                },
+                "p=border": {
+                  "type": "color",
+                  "value": "{semantics.color.palette.common.transparent}"
+                }
+                }
+          },
+          "m=onDark": {
+            "l=container": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
+              }
+              },
+              "l=thumb": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.bg.light.neutral.l=1}"
+                },
+                "p=border": {
+                  "type": "color",
+                  "value": "{semantics.color.palette.common.transparent}"
+                }
+                }
+          }
+        },
+        "c=size": {
+          "l=container": {
+          "t=vertical": {
+          "p=width": {
+              "type": "width",
+              "value": "12"
+          },
+          "p=borderWidthLeft": {
+            "type": "borderWidthLeft",
+            "value": "{semantics.size.border.none}"
+          },
+          "p=borderWidthRight": {
+            "type": "borderWidthRight",
+            "value": "{semantics.size.border.none}"
+          },
+          "p=borderWidthTop": {
+            "type": "borderWidthTop",
+            "value": "{semantics.size.border.none}"
+          },
+          "p=borderWidthBottom": {
+            "type": "borderWidthBottom",
+            "value": "{semantics.size.border.none}"
+          }
+          },
+          "t=horizontal": {
+            "p=height": {
+                "type": "height",
+                "value": "12"
+            },
+            "p=borderWidthLeft": {
+              "type": "borderWidthLeft",
+              "value": "{semantics.size.border.none}"
+            },
+            "p=borderWidthRight": {
+              "type": "borderWidthRight",
+              "value": "{semantics.size.border.none}"
+            },
+            "p=borderWidthTop": {
+              "type": "borderWidthTop",
+              "value": "{semantics.size.border.none}"
+            },
+            "p=borderWidthBottom": {
+              "type": "borderWidthBottom",
+              "value": "{semantics.size.border.none}"
+            }
+            }
+          },
+          "l=thumb": {
+          "p=borderRadius": {
+                "type": "borderRadius",
+                "value": "{semantics.size.radius.full}"
+          },
+          "p=borderWidth": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.sm}"
+          }
+          }
+        },
+        "c=space": {
+          "t=vertical": {
+          "l=container": {
+            "p=paddingHorizontal": {
+              "type": "horizontalPadding",
+              "value": "{semantics.space.xs}"
+            },
+            "p=paddingVertical": {
+              "type": "verticalPadding",
+              "value": "{semantics.space.xs}"
+            }
+          }
+          },
+          "t=horizontal": {
+            "l=container": {
+              "p=paddingHorizontal": {
+                "type": "horizontalPadding",
+                "value": "{semantics.space.xs}"
+              },
+              "p=paddingVertical": {
+                "type": "verticalPadding",
+                "value": "{semantics.space.xs}"
+              }
+            }
+            }
+        },
+        "c=elevation": {
+          "l=thumb": {
+            "value": "{composites.dropShadow.none}",
+            "type": "boxShadow"
+          }
+        }
       }
-      }
+    }
   }
 }
