@@ -16308,7 +16308,7 @@
               "l=container": {
               "p=fill": {
                 "type": "color",
-                "value": "{semantics.color.palette.system.onLight.green}"
+                "value": "{semantics.color.bg.light.success.a=1}"
               },
               "p=border": {
                 "type": "color",
