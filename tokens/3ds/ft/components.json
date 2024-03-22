@@ -9215,7 +9215,7 @@
               "l=line": {
                 "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.neutral.a=2}"
+                    "value": "{semantics.color.text.onLight.neutral.l=3}"
                 }
               }
             },
@@ -9235,7 +9235,7 @@
               "l=line": {
                 "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.brand.a=1}"
+                    "value": "{semantics.color.text.onLight.brand.l=1}"
                 }
               }
             },
@@ -9255,7 +9255,7 @@
               "l=line": {
                 "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.brand2.a=1}"
+                    "value": "{semantics.color.text.onLight.brand2.l=1}"
                 }
               }
             },
@@ -9317,7 +9317,7 @@
               "l=line": {
                 "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onDark.neutral.a=2}"
+                    "value": "{semantics.color.text.onDark.neutral.l=3}"
                 }
               }
             },
@@ -9337,7 +9337,7 @@
               "l=line": {
                 "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onDark.brand.a=1}"
+                    "value": "{semantics.color.text.onDark.brand.l=1}"
                 }
               }
             },
@@ -9357,7 +9357,7 @@
               "l=line": {
                 "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onDark.brand2.a=1}"
+                    "value": "{semantics.color.text.onDark.brand2.l=1}"
                 }
               }
             },
