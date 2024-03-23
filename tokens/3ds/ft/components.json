@@ -16803,7 +16803,7 @@
               "l=thumb": {
                 "p=fill": {
                   "type": "color",
-                  "value": "{semantics.color.bg.light.neutral.l=2}"
+                  "value": "{semantics.color.bg.light.neutral.l=3}"
                 },
                 "p=border": {
                   "type": "color",
@@ -16825,7 +16825,7 @@
               "l=thumb": {
                 "p=fill": {
                   "type": "color",
-                  "value": "{semantics.color.bg.light.neutral.l=2}"
+                  "value": "{semantics.color.bg.dark.neutral.l=3}"
                 },
                 "p=border": {
                   "type": "color",
