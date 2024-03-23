@@ -165,6 +165,10 @@
         "value": "16",
         "type": "sizing"
       },
+      "18px": {
+        "value": "16",
+        "type": "sizing"
+      },
       "20px": {
         "value": "20",
         "type": "sizing"
