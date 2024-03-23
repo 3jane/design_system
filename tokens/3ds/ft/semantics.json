@@ -2091,7 +2091,7 @@
             "value": "{base.size.4px}",
             "type": "sizing"
           },
-          "4": {
+          "": {
             "value": "{base.size.6px}",
             "type": "sizing"
           },
