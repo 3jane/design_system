@@ -2178,14 +2178,10 @@
             "type": "sizing"
           },
           "12": {
-            "value": "{base.size.88px}",
-            "type": "sizing"
-          },
-          "13": {
             "value": "{base.size.96px}",
             "type": "sizing"
           },
-          "14": {
+          "13": {
             "value": "{base.size.128px}",
             "type": "sizing"
           }
