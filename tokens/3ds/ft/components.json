@@ -17429,7 +17429,7 @@
                 "v=neutral": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.dark.neutral.l=1}"
+                    "value": "{semantics.color.bg.light.neutral.l=1}"
                   },
                   "p=border": {
                     "type": "color",
@@ -17469,7 +17469,7 @@
                 "v=success": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.success.a=1}"
+                    "value": "{semantics.color.bg.light.success.l=1}"
                   },
                   "p=border": {
                     "type": "color",
@@ -17479,7 +17479,7 @@
                 "v=warning": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.warning.a=1}"
+                    "value": "{semantics.color.bg.light.warning.l=1}"
                   },
                   "p=border": {
                     "type": "color",
@@ -17489,7 +17489,7 @@
                 "v=blue": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.blue.a=1}"
+                    "value": "{semantics.color.bg.light.blue.l=1}"
                   },
                   "p=border": {
                     "type": "color",
@@ -17809,14 +17809,8 @@
               "value": "{semantics.size.border.sm}"
             },
             "p=borderRadius": {
-              "t=square": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.md}"
-              },
-              "t=circular": {
-                "type": "borderRadius",
-                "value": "{semantics.size.radius.full}"
-              }
             }
           }
         },
@@ -17824,6 +17818,10 @@
           "l=container": {
             "t=filled": {
               "value": "{composites.dropShadow.down.xs}",
+              "type": "boxShadow"
+            },
+            "t=tonal": {
+              "value": "{composites.dropShadow.none}",
               "type": "boxShadow"
             },
             "t=outlined": {
