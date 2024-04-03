@@ -13300,6 +13300,256 @@
         }
       }
     },
+    "PaginationMini": {
+      "Dot": {
+        "c=color": {
+          "m=onLight": {
+            "l=dot": {
+              "t=selected": {
+              "v=neutral": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.dark.neutral.l=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+              },
+              "v=brand": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.brand.a=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+              },
+              "v=brand2": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.bg.light.brand2.a=1}"
+                },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+              }
+              },
+              "t=deselected": {
+              "v=neutral": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.neutral.l=3}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+              },
+              "v=brand": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.neutral.l=3}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+              },
+              "v=brand2": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.neutral.l=3}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+              }
+              }
+            }
+          },
+          "m=onDark": {
+            "l=dot": {
+              "t=selected": {
+              "v=neutral": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.neutral.l=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+              },
+              "v=brand": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.dark.brand.a=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+              },
+              "v=brand2": {
+                "p=fill": {
+                  "type": "color",
+                  "value": "{semantics.color.bg.dark.brand2.a=1}"
+                },
+                "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+              }
+              },
+              "t=deselected": {
+              "v=neutral": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.dark.neutral.l=3}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+              },
+              "v=brand": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.dark.neutral.l=3}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+              },
+              "v=brand2": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.dark.neutral.l=3}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+              }
+              }
+            }
+          }
+        },
+        "c=size": {
+          "l=dot": {
+            "p=size": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.small.5}"
+            },
+            "p=borderWidth": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.sm}"
+            },
+            "p=borderRadius": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.full}"
+            }
+          }
+        },
+        "c=space": {
+          "l=touchTarget": {
+            "p=paddingVertical": {
+              "type": "spacing",
+              "value": "{semantics.space.sm}"
+            },
+            "p=paddingHorizontal": {
+              "type": "spacing",
+              "value": "{semantics.space.sm}"
+            }
+          }
+        },
+        "c=elevation": {
+          "l=dot": {
+            "t=complete": {
+              "value": "{composites.dropShadow.none}",
+              "type": "boxShadow"
+            },
+            "t=incomplete": {
+              "value": "{composites.dropShadow.none}",
+              "type": "boxShadow"
+            }
+          }
+        }
+      },
+      "Group": {
+        "c=color": {
+          "m=onLight": {
+            "l=container": {
+              "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.overlay.neutral.o=4}"
+              },
+              "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+              }
+            }
+          },
+          "m=onDark": {
+            "l=container": {
+              "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.overlay.neutral.o=3}"
+              },
+              "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+              }
+            }
+          }
+        },
+        "c=size": {
+          "l=container": {
+            "p=borderWidth": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.sm}"
+            },
+            "p=borderRadius": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.full}"
+            }
+          }
+        },
+        "c=space": {
+          "l=container": {
+            "p=gap": {
+              "type": "spacing",
+              "value": "{semantics.space.none}"
+            },
+            "p=paddingHorizontal": {
+              "type": "spacing",
+              "value": "{semantics.space.2xs}"
+            },
+            "p=paddingVertical": {
+              "type": "spacing",
+              "value": "{semantics.space.2xs}"
+            }
+          }
+        },
+        "c=elevation": {
+          "l=container": {
+              "value": "{composites.dropShadow.down.xs}",
+              "type": "boxShadow"
+          }
+        },
+        "c=backgroundBlur": {
+          "l=container": {
+              "value": "{semantics.backgroundBlur.lg}",
+              "type": "boxShadow"
+          }
+        }
+      }
+    },
     "SpeedDial": {
       "c=color": {
         "m=onLight": {
@@ -14905,7 +15155,7 @@
           }
         }
       }
-      },
+    },
     "TabHorizontal": {
       "c=color": {
         "m=onLight": {
