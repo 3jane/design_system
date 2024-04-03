@@ -14715,7 +14715,7 @@
       }
     },
     "StepperMobile": {
-      "StepperMobileStep": {
+      "Step": {
         "c=color": {
           "m=onLight": {
             "l=stepIndicator": {
@@ -14871,7 +14871,7 @@
           }
         }
       },
-      "StepperMobileGroup": {
+      "Group": {
         "c=space": {
           "l=container": {
             "p=gap": {
