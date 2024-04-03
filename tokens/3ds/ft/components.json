@@ -14877,6 +14877,18 @@
               "value": "{semantics.space.2xl}"
             }
           }
+        },
+        "c=elevation": {
+          "l=stepIndicator": {
+            "t=complete": {
+              "value": "{composites.dropShadow.none}",
+              "type": "boxShadow"
+            },
+            "t=incomplete": {
+              "value": "{composites.dropShadow.none}",
+              "type": "boxShadow"
+            }
+          }
         }
       },
       "Group": {
