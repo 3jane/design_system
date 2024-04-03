@@ -17346,6 +17346,184 @@
             "type": "composition"
           }
         }
+      },
+      "IconBox": {
+        "c=color": {
+          "m=onLight": {
+            "t=filled": {
+              "l=container": {
+                "v=neutral": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.dark.neutral.l=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "v=brand": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.brand.a=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "v=brand2": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.brand2.a=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                }
+              }
+            },
+            "t=outlined": {
+              "l=container": {
+                "v=neutral": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.neutral.l=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.border.onLight.neutral.l=2}"
+                  }
+                },
+                "v=brand": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.neutral.l=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.border.onLight.neutral.l=2}"
+                  }
+                },
+                "v=brand2": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.neutral.l=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.border.onLight.neutral.l=2}"
+                  }
+                }
+              }
+            }
+          },
+          "m=onDark": {
+            "t=filled": {
+              "l=container": {
+                "v=neutral": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.neutral.l=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "v=brand": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.dark.brand.a=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "v=brand2": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.dark.brand2.a=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                }
+              }
+            },
+            "t=outlined": {
+              "l=container": {
+                "v=neutral": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.dark.neutral.l=2}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.border.onDark.neutral.l=2}"
+                  }
+                },
+                "v=brand": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.dark.neutral.l=2}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.border.onDark.neutral.l=2}"
+                  }
+                },
+                "v=brand2": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.dark.neutral.l=2}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.border.onDark.neutral.l=2}"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "c=size": {
+          "l=container": {
+            "p=size": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.medium.2}"
+            },
+            "p=borderWidth": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.sm}"
+            },
+            "p=borderRadius": {
+              "t=square": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.md}"
+              },
+              "t=circular": {
+                "type": "borderRadius",
+                "value": "{semantics.size.radius.full}"
+              }
+            }
+          }
+        },
+        "c=elevation": {
+          "l=container": {
+            "t=filled": {
+              "value": "{composites.dropShadow.down.xs}",
+              "type": "boxShadow"
+            },
+            "t=outlined": {
+              "value": "{composites.dropShadow.down.xs}",
+              "type": "boxShadow"
+            }
+          }
+        }
       }
     }
   }
