@@ -1566,11 +1566,11 @@
             },
             "a=1": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.92}"
+              "value": "{semantics.color.palette.common.white}"
             },
             "a=2": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.85}"
+              "value": "{semantics.color.palette.neutral.92}"
             },
             "o=1": {
               "type": "color",
