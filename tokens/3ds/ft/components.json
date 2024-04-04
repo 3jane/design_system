@@ -9793,7 +9793,7 @@
       },
       "c=backgroundBlur": {
         "value": "{semantics.backgroundBlur.2xl}",
-        "type": "composition"
+        "type": "backgroundBlur"
       }
     },
     "Dialog": {
@@ -9862,7 +9862,7 @@
       "c=backgroundBlur": {
         "l=mainContainer": {
           "value": "{semantics.backgroundBlur.none}",
-          "type": "composition"
+          "type": "backgroundBlur"
         }
       },
       "c=size": {
@@ -10740,7 +10740,7 @@
       "c=backgroundBlur": {
         "l=mainContainer": {
           "value": "{semantics.backgroundBlur.xl}",
-          "type": "composition"
+          "type": "backgroundBlur"
         }
       },
       "c=elevation": {
@@ -10838,7 +10838,7 @@
       "c=backgroundBlur": {
         "l=mainContainer": {
           "value": "{semantics.backgroundBlur.none}",
-          "type": "composition"
+          "type": "backgroundBlur"
         }
       },
       "c=size": {
@@ -11917,7 +11917,7 @@
       },
       "c=backgroundBlur": {
         "value": "{semantics.backgroundBlur.none}",
-        "type": "composition"
+        "type": "backgroundBlur"
       },
       "c=size": {
         "p=width": {
@@ -12045,13 +12045,13 @@
         "t=primary": {
           "l=mainContainer": {
             "value": "{semantics.backgroundBlur.none}",
-            "type": "composition"
+            "type": "backgroundBlur"
           }
         },
         "t=secondary": {
           "l=mainContainer": {
             "value": "{semantics.backgroundBlur.none}",
-            "type": "composition"
+            "type": "backgroundBlur"
           }
         }
       },
@@ -13528,11 +13528,11 @@
             },
             "p=paddingHorizontal": {
               "type": "spacing",
-              "value": "{semantics.space.2xs}"
+              "value": "{semantics.space.sm}"
             },
             "p=paddingVertical": {
               "type": "spacing",
-              "value": "{semantics.space.2xs}"
+              "value": "{semantics.space.sm}"
             }
           }
         },
@@ -13545,7 +13545,7 @@
         "c=backgroundBlur": {
           "l=container": {
               "value": "{semantics.backgroundBlur.lg}",
-              "type": "boxShadow"
+              "type": "backgroundBlur"
           }
         }
       }
@@ -16898,44 +16898,6 @@
                     "value": "{semantics.color.palette.common.transparent}"
                   }
                 },
-                "c=elevation": {
-                  "m=onLight": {
-                    "i=none": {
-                      "value": "{composites.dropShadow.none}",
-                      "type": "boxShadow"
-                    },
-                    "i=hover": {
-                      "value": "{composites.dropShadow.none}",
-                      "type": "boxShadow"
-                    },
-                    "i=focus": {
-                      "value": "{composites.focusRing.onLight.brand}",
-                      "type": "boxShadow"
-                    },
-                    "i=active": {
-                      "value": "{composites.dropShadow.none}",
-                      "type": "boxShadow"
-                    }
-                  },
-                  "m=onDark": {
-                    "i=none": {
-                      "value": "{composites.dropShadow.none}",
-                      "type": "boxShadow"
-                    },
-                    "i=hover": {
-                      "value": "{composites.dropShadow.none}",
-                      "type": "boxShadow"
-                    },
-                    "i=focus": {
-                      "value": "{composites.focusRing.brand}",
-                      "type": "boxShadow"
-                    },
-                    "i=active": {
-                      "value": "{composites.dropShadow.none}",
-                      "type": "boxShadow"
-                    }
-                  }
-                },
                 "l=text": {
                   "p=color": {
                     "type": "color",
@@ -17589,11 +17551,11 @@
         "c=backgroundBlur": {
           "l=container": {
             "value": "{semantics.backgroundBlur.none}",
-            "type": "composition"
+            "type": "backgroundBlur"
           },
           "l=thumb": {
             "value": "{semantics.backgroundBlur.none}",
-            "type": "composition"
+            "type": "backgroundBlur"
           }
         }
       },
