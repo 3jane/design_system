@@ -1657,7 +1657,7 @@
         }
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "t=elevated": {
           "l=container": {
           "i=none": {
@@ -2387,7 +2387,7 @@
           }
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "t=filled": {
           "l=container": {
           "value": "{composites.dropShadow.none}",
@@ -3431,7 +3431,7 @@
         }
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "l=container": {
         "t=filled": {
           "i=none": {
@@ -4756,7 +4756,7 @@
           }
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "l=thumb": {
           "value": "{composites.dropShadow.down.sm}",
           "type": "boxShadow"
@@ -4860,7 +4860,7 @@
           "type": "typography"
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "l=mainContainer": {
           "value": "{composites.dropShadow.down.sm}",
           "type": "boxShadow"
@@ -6089,7 +6089,7 @@
           }
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "v=neutral": {
           "i=none": {
             "value": "{composites.dropShadow.none}",
@@ -6438,7 +6438,7 @@
           "type": "typography"
         }
        },
-       "c=elevation": {
+       "c=shadow": {
         "l=container": {
         "i=none": {
           "value": "{composites.dropShadow.none}",
@@ -6514,7 +6514,7 @@
             }
           }
         },
-        "c=elevation": {
+        "c=shadow": {
           "l=container": {
               "value": "{composites.dropShadow.none}",
               "type": "boxShadow"
@@ -6871,7 +6871,7 @@
           }
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "v=standard": {
           "value": "{composites.dropShadow.none}",
           "type": "boxShadow"
@@ -7437,7 +7437,7 @@
           }
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "t=filled": {
           "i=none": {
             "value": "{composites.dropShadow.none}",
@@ -8488,7 +8488,7 @@
           }
         }
         },
-        "c=elevation": {
+        "c=shadow": {
         "i=none": {
           "value": "{composites.dropShadow.none}",
           "type": "boxShadow"
@@ -8564,7 +8564,7 @@
             "value": "{semantics.space.xs}"
         }
         },
-        "c=elevation": {
+        "c=shadow": {
           "value": "{composites.dropShadow.none}",
           "type": "boxShadow"
         }
@@ -8724,7 +8724,7 @@
             }
           }
         },
-        "c=elevation": {
+        "c=shadow": {
           "l=container": {
             "i=none": {
               "value": "{composites.dropShadow.none}",
@@ -8894,7 +8894,7 @@
             }
           }
         },
-        "c=elevation": {
+        "c=shadow": {
           "l=container": {
             "i=none": {
               "value": "{composites.dropShadow.none}",
@@ -9080,7 +9080,7 @@
             }
           }
         },
-        "c=elevation": {
+        "c=shadow": {
           "l=container": {
             "i=none": {
               "value": "{composites.dropShadow.none}",
@@ -9160,7 +9160,7 @@
             }
           }
         },
-        "c=elevation": {
+        "c=shadow": {
           "l=container": {
             "i=none": {
               "value": "{composites.dropShadow.none}",
@@ -9240,7 +9240,7 @@
             }
           }
         },
-        "c=elevation": {
+        "c=shadow": {
           "l=container": {
             "value": "{composites.dropShadow.down.xs}",
             "type": "boxShadow"
@@ -9356,7 +9356,7 @@
             }
           }
         },
-        "c=elevation": {
+        "c=shadow": {
           "l=container": {
             "value": "{composites.dropShadow.up.xs}",
             "type": "boxShadow"
@@ -9428,7 +9428,7 @@
             }
           }
         },
-        "c=elevation": {
+        "c=shadow": {
           "l=container": {
             "value": "{composites.dropShadow.down.xs}",
             "type": "boxShadow"
@@ -9561,7 +9561,7 @@
           "type": "typography"
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "l=contianer": {
           "value": "{composites.dropShadow.down.md}",
           "type": "boxShadow"
@@ -9927,7 +9927,7 @@
           "type": "typography"
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "l=iconContainer": {
           "value": "{composites.dropShadow.down.xs}",
           "type": "boxShadow"
@@ -10093,7 +10093,7 @@
           }
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "value": "{composites.dropShadow.down.lg}",
         "type": "boxShadow"
       },
@@ -10671,7 +10671,7 @@
         "value": "{composites.font.body.md.medium}",
         "type": "typography"
       },
-      "c=elevation": {
+      "c=shadow": {
         "l=contianer": {
           "value": "{composites.dropShadow.down.md}",
           "type": "boxShadow"
@@ -10781,7 +10781,7 @@
           }
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "value": "{composites.dropShadow.down.xs}",
         "type": "boxShadow"
       },
@@ -10905,7 +10905,7 @@
           "type": "composition"
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "t=solid": {
           "value": "{composites.dropShadow.none}",
           "type": "boxShadow"
@@ -11069,7 +11069,7 @@
           }
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "value": "{composites.dropShadow.down.xs}",
         "type": "boxShadow"
       },
@@ -11447,7 +11447,7 @@
           }
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "i=none": {
           "value": "{composites.dropShadow.none}",
           "type": "boxShadow"
@@ -11549,7 +11549,7 @@
             "value": "{semantics.space.none}"
           }
       },
-      "c=elevation": {
+      "c=shadow": {
         "t=solid": {
           "value": "{composites.dropShadow.none}",
           "type": "boxShadow"
@@ -12005,7 +12005,7 @@
           }
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "i=none": {
           "value": "{composites.dropShadow.none}",
           "type": "boxShadow"
@@ -12105,7 +12105,7 @@
           "value": "{semantics.space.xl}"
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "t=elevated": {
           "value": "{composites.dropShadow.down.lg}",
           "type": "boxShadow"
@@ -12293,7 +12293,7 @@
           }
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "value": "{composites.dropShadow.down.lg}",
         "type": "boxShadow"
       },
@@ -12545,7 +12545,7 @@
           "type": "typography"
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "i=none": {
           "value": "{composites.dropShadow.none}",
           "type": "boxShadow"
@@ -12856,7 +12856,7 @@
             "value": "{semantics.space.md}"
         }
         },
-        "c=elevation": {
+        "c=shadow": {
         "i=none": {
           "value": "{composites.dropShadow.none}",
           "type": "boxShadow"
@@ -12926,7 +12926,7 @@
             "value": "{semantics.space.xs}"
         }
         },
-        "c=elevation": {
+        "c=shadow": {
           "value": "{composites.dropShadow.none}",
           "type": "boxShadow"
         }
@@ -13453,7 +13453,7 @@
           }
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "t=selected": {
           "i=none": {
             "value": "{composites.dropShadow.none}",
@@ -13670,7 +13670,7 @@
             }
           }
         },
-        "c=elevation": {
+        "c=shadow": {
           "l=dot": {
             "t=complete": {
               "value": "{composites.dropShadow.none}",
@@ -13738,7 +13738,7 @@
             }
           }
         },
-        "c=elevation": {
+        "c=shadow": {
           "l=container": {
               "value": "{composites.dropShadow.down.xs}",
               "type": "boxShadow"
@@ -13891,7 +13891,7 @@
           }
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "i=none": {
           "value": "{composites.dropShadow.down.xs}",
           "type": "boxShadow"
@@ -15135,7 +15135,7 @@
           "type": "typography"
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "l=container": {
           "i=none": {
             "value": "{composites.dropShadow.none}",
@@ -15330,7 +15330,7 @@
             }
           }
         },
-        "c=elevation": {
+        "c=shadow": {
           "l=stepIndicator": {
             "t=complete": {
               "value": "{composites.dropShadow.none}",
@@ -15877,7 +15877,7 @@
           "value": "{semantics.space.md}"
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "i=none": {
           "value": "{composites.dropShadow.none}",
           "type": "boxShadow"
@@ -16425,7 +16425,7 @@
           "value": "{semantics.space.xs}"
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "i=none": {
           "value": "{composites.dropShadow.none}",
           "type": "boxShadow"
@@ -17333,7 +17333,7 @@
           "value": "{semantics.space.xs}"
         }
       },
-      "c=elevation": {
+      "c=shadow": {
         "i=none": {
           "value": "{composites.dropShadow.none}",
           "type": "boxShadow"
@@ -17744,7 +17744,7 @@
             }
             }
         },
-        "c=elevation": {
+        "c=shadow": {
           "l=thumb": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
@@ -18228,7 +18228,7 @@
             }
           }
         },
-        "c=elevation": {
+        "c=shadow": {
           "l=container": {
             "t=filled": {
               "value": "{composites.dropShadow.down.xs}",
