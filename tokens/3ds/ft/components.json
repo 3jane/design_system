@@ -2840,6 +2840,12 @@
         }
       },
       "c=size": {
+        "l=container": {
+          "p=size": {
+            "type": "sizing",
+            "value": "{semantics.size.sizing.medium.4}"
+          }
+        },
         "l=halo": {
           "p=size": {
             "type": "sizing",
@@ -3920,6 +3926,12 @@
         }
       },
       "c=size": {
+        "l=container": {
+          "p=size": {
+            "type": "sizing",
+            "value": "{semantics.size.sizing.medium.4}"
+          }
+        },
         "l=halo": {
           "p=size": {
             "type": "sizing",
@@ -6846,7 +6858,8 @@
         }
       },
       "c=size": {
-        "p=size": {
+        "l=container": {
+          "p=size": {
           "v=standard": {
             "type": "sizing",
             "value": "{semantics.size.sizing.small.11}"
@@ -6855,12 +6868,12 @@
             "type": "sizing",
             "value": "{semantics.size.sizing.small.5}"
           }
-        },
-        "p=borderRadius": {
+          },
+          "p=borderRadius": {
           "type": "borderRadius",
           "value": "{semantics.size.radius.full}"
-        },
-        "p=borderWidth": {
+          },
+          "p=borderWidth": {
           "v=standard": {
             "type": "borderWidth",
             "value": "{semantics.size.border.none}"
@@ -6869,22 +6882,27 @@
             "type": "borderWidth",
             "value": "{semantics.size.border.none}"
           }
+          }
         }
       },
       "c=shadow": {
-        "v=standard": {
-          "value": "{composites.dropShadow.none}",
-          "type": "boxShadow"
-        },
-        "v=dot": {
-          "value": "{composites.dropShadow.none}",
-          "type": "boxShadow"
+        "l=container": {
+          "v=standard": {
+            "value": "{composites.dropShadow.none}",
+            "type": "boxShadow"
+          },
+          "v=dot": {
+            "value": "{composites.dropShadow.none}",
+            "type": "boxShadow"
+          }
         }
       },
       "c=font": {
         "v=standard": {
-          "value": "{composites.font.label.lg.thick}",
-          "type": "typography"
+          "l=label": {
+            "value": "{composites.font.label.lg.thick}",
+            "type": "typography"
+          }
         }
       }
     },
@@ -7384,7 +7402,8 @@
         }
       },
       "c=size": {
-        "p=height": {
+        "l=container": {
+          "p=height": {
           "v=small": {
             "type": "sizing",
             "value": "{semantics.size.sizing.medium.2}"
@@ -7393,8 +7412,8 @@
             "type": "sizing",
             "value": "{semantics.size.sizing.medium.3}"
           }
-        },
-        "p=borderRadius": {
+          },
+          "p=borderRadius": {
           "v=small": {
             "type": "borderRadius",
             "value": "{semantics.size.radius.buttonLike.small}"
@@ -7403,8 +7422,8 @@
             "type": "borderRadius",
             "value": "{semantics.size.radius.buttonLike.medium}"
           }
-        },
-        "p=borderWidth": {
+          },
+          "p=borderWidth": {
           "t=filled": {
             "type": "borderWidth",
             "value": "{semantics.size.border.none}"
@@ -7413,10 +7432,12 @@
             "type": "borderWidth",
             "value": "{semantics.size.border.sm}"
           }
+          }
         }
       },
       "c=space": {
-        "p=padding": {
+        "l=container": {
+          "p=padding": {
           "v=small": {
             "type": "spacing",
             "value": "{semantics.space.md}"
@@ -7425,8 +7446,8 @@
             "type": "spacing",
             "value": "{semantics.space.lg}"
           }
-        },
-        "p=gap": {
+          },
+          "p=gap": {
           "v=small": {
             "type": "spacing",
             "value": "{semantics.space.sm}"
@@ -7435,10 +7456,12 @@
             "type": "spacing",
             "value": "{semantics.space.sm}"
           }
-        }
+          }
+        }  
       },
       "c=shadow": {
         "t=filled": {
+          "l=container": {
           "i=none": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
@@ -7455,8 +7478,10 @@
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
           }
+          }
         },
         "t=outlined": {
+          "l=container": {
           "i=none": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
@@ -7472,10 +7497,12 @@
           "i=active": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
+          }
           }
         }
       },
       "c=font": {
+        "l=label": {
         "v=small": {
           "value": "{composites.font.label.lg.thick}",
           "type": "typography"
@@ -7484,12 +7511,14 @@
           "value": "{composites.font.label.lg.thick}",
           "type": "typography"
         }
+        }
       }
     },
     "Divider": {
       "c=color": {
         "m=onLight": {
-          "p=border": {
+          "l=line": {
+            "p=border": {
             "v=neutral": {
               "t=primary": {
                 "value": "{semantics.color.border.onLight.neutral.l=1}",
@@ -7546,10 +7575,12 @@
                 "type": "color"
               }
             }
+            }
           }
         },
         "m=onDark": {
-          "p=border": {
+          "l=line": {
+            "p=border": {
             "v=neutral": {
               "t=primary": {
                 "value": "{semantics.color.border.onDark.neutral.l=1}",
@@ -7606,19 +7637,24 @@
                 "type": "color"
               }
             }
+            }
           }
         }
       },
       "c=space": {
-        "p=paddingVertical": {
-          "type": "spacing",
-          "value": "{semantics.space.md}"
+        "l=container": {
+          "p=paddingVertical": {
+            "type": "spacing",
+            "value": "{semantics.space.md}"
+          }
         }
       },
       "c=size": {
-        "p=borderWidth": {
-          "type": "borderWidth",
-          "value": "{semantics.size.border.sm}"
+        "l=line": {
+          "p=borderWidth": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.sm}"
+          }
         }
       }
     },
@@ -9538,7 +9574,7 @@
             "value": "{semantics.space.xs}"
           }
         },
-        "l=labelContainer": {
+        "l=textContainer": {
           "p=gap": {
             "type": "spacing",
             "value": "{semantics.space.sm}"
@@ -9562,7 +9598,7 @@
         }
       },
       "c=shadow": {
-        "l=contianer": {
+        "l=mainContianer": {
           "value": "{composites.dropShadow.down.md}",
           "type": "boxShadow"
         }
