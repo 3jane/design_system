@@ -4794,7 +4794,7 @@
               "type": "color"
             }
           },
-          "l=Label": {
+          "l=label": {
             "p=color": {
               "value": "{semantics.color.text.onDark.neutral.l=1}",
               "type": "color"
@@ -13713,21 +13713,24 @@
         }
         },
         "c=size": {
-        "p=size": {
-          "type": "sizing",
-          "value": "{semantics.size.sizing.medium.4}"
-        },
-        "p=borderRadius": {
-            "type": "borderRadius",
-            "value": "{semantics.size.radius.buttonLike.medium}"
-        },
-        "p=borderWidth": {
-            "type": "borderWidth",
-            "value": "{semantics.size.border.none}"
-        }
+          "l=container": {
+           "p=size": {
+             "type": "sizing",
+             "value": "{semantics.size.sizing.medium.4}"
+           },
+           "p=borderRadius": {
+               "type": "borderRadius",
+               "value": "{semantics.size.radius.buttonLike.medium}"
+           },
+           "p=borderWidth": {
+               "type": "borderWidth",
+               "value": "{semantics.size.border.none}"
+           }
+          }
         },
         "c=shadow": {
         "t=selected": {
+          "l=container": {
           "i=none": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
@@ -13744,8 +13747,10 @@
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
           }
+          }
         },
         "t=deselected": {
+          "l=container": {
           "i=none": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
@@ -13761,18 +13766,21 @@
           "i=active": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
+          }
           }
         }
         },
         "c=font": {
-        "t=selected": {
-          "value": "{composites.font.label.lg.thick}",
-          "type": "typography"
-        },
-        "t=deselected": {
-          "value": "{composites.font.label.lg.thick}",
-          "type": "typography"
-        }
+          "l=text": {
+            "t=selected": {
+              "value": "{composites.font.label.lg.thick}",
+              "type": "typography"
+            },
+            "t=deselected": {
+              "value": "{composites.font.label.lg.thick}",
+              "type": "typography"
+            }
+          }
         }
       },
       "Group": {
@@ -13803,32 +13811,38 @@
         }
         },
         "c=size": {
-        "p=borderRadius": {
-            "type": "borderRadius",
-            "value": "{semantics.size.radius.buttonLike.medium}"
-        },
-        "p=borderWidth": {
-          "type": "borderWidth",
-          "value": "{semantics.size.border.sm}"
-        }
+          "l=container": {
+           "p=borderRadius": {
+               "type": "borderRadius",
+               "value": "{semantics.size.radius.buttonLike.medium}"
+           },
+           "p=borderWidth": {
+             "type": "borderWidth",
+              "value": "{semantics.size.border.sm}"
+           }
+          }
         },
         "c=space": {
-        "p=paddingHorizontal": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-        },
-        "p=paddingVertical": {
-          "type": "spacing",
-          "value": "{semantics.space.none}"
-        },
-        "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.md}"
+          "l=container": {
+           "p=paddingHorizontal": {
+               "type": "spacing",
+               "value": "{semantics.space.none}"
+           },
+           "p=paddingVertical": {
+             "type": "spacing",
+             "value": "{semantics.space.none}"
+           },
+           "p=gap": {
+               "type": "spacing",
+               "value": "{semantics.space.md}"
         }
+          } 
         },
         "c=shadow": {
-          "value": "{composites.dropShadow.none}",
-          "type": "boxShadow"
+          "l=container": {
+            "value": "{composites.dropShadow.none}",
+            "type": "boxShadow"
+          }
         }
       }
     },
