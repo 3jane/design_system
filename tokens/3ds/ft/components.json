@@ -17572,10 +17572,10 @@
     },
     "Miscellaneous": {
       "Shortcut": {
-        "c=color": {
+        "Key": {
+         "c=color": {
           "m=onLight": {
-            "t=default": {
-              "l=keyContainer": {
+              "l=container": {
                 "p=fill": {
                   "type": "color",
                   "value": "{semantics.color.bg.light.neutral.l=2}"
@@ -17591,29 +17591,9 @@
                   "value": "{semantics.color.text.onLight.neutral.l=3}"
                 }
               }
-            },
-            "t=alternative": {
-              "l=keyContainer": {
-                "p=fill": {
-                  "type": "color",
-                  "value": "{semantics.color.bg.light.neutral.l=4}"
-                },
-                "p=border": {
-                  "type": "color",
-                  "value": "{semantics.color.palette.common.transparent}"
-                }
-              },
-              "l=text": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=3}"
-                }
-              }
-            }
           },
           "m=onDark": {
-            "t=default": {
-              "l=keyContainer": {
+              "l=container": {
                 "p=fill": {
                   "type": "color",
                   "value": "{semantics.color.bg.dark.neutral.l=3}"
@@ -17629,29 +17609,10 @@
                   "value": "{semantics.color.text.onDark.neutral.l=2}"
                 }
               }
-            },
-            "t=alternative": {
-              "l=keyContainer": {
-                "p=fill": {
-                  "type": "color",
-                  "value": "{semantics.color.bg.dark.neutral.l=4}"
-                },
-                "p=border": {
-                  "type": "color",
-                  "value": "{semantics.color.palette.common.transparent}"
-                }
-              },
-              "l=text": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=2}"
-                }
-              }
-            }
           }
-        },
-        "c=size": {
-          "l=keyContainer": {
+         },
+         "c=size": {
+          "l=container": {
             "p=size": {
               "type": "sizing",
               "value": "{semantics.size.sizing.small.11}"
@@ -17665,21 +17626,24 @@
               "value": "{semantics.size.border.sm}"
             }
           }
-        },
-        "c=space": {
-          "l=mainContainer": {
-            "p=gap": {
-              "type": "spacing",
-              "value": "{semantics.space.xs}"
-            }
-          }
-        },
-        "c=font": {
+         },
+         "c=font": {
           "l=text": {
             "value": "{composites.font.label.md.thick}",
             "type": "typography"
           }
-        }
+         }
+        },
+        "Group": {
+          "c=space": {
+           "l=container": {
+             "p=gap": {
+               "type": "spacing",
+               "value": "{semantics.space.xs}"
+             }
+           }
+          }
+         }
       },
       "OnlineIndicator": {
         "c=color": {
