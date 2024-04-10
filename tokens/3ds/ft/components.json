@@ -16657,6 +16657,7 @@
       }
     },
     "Timeline": {
+      "Step": {
       "c=color": {
         "m=onLight": {
           "t=outlined": {
@@ -16671,16 +16672,6 @@
                 "p=color": {
                   "type": "color",
                   "value": "{semantics.color.text.onLight.neutral.l=4}"
-                }
-              },
-              "l=connector": {
-                "p=fill": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=4}"
-                },
-                "p=border": {
-                  "type": "color",
-                  "value": "{semantics.color.palette.common.transparent}"
                 }
               },
               "l=dot": {
@@ -16707,16 +16698,6 @@
                   "value": "{semantics.color.text.onLight.neutral.l=4}"
                 }
               },
-              "l=connector": {
-                "p=fill": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=4}"
-                },
-                "p=border": {
-                  "type": "color",
-                  "value": "{semantics.color.palette.common.transparent}"
-                }
-              },
               "l=dot": {
                 "p=fill": {
                   "type": "color",
@@ -16739,16 +16720,6 @@
                 "p=color": {
                   "type": "color",
                   "value": "{semantics.color.text.onLight.neutral.l=4}"
-                }
-              },
-              "l=connector": {
-                "p=fill": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=4}"
-                },
-                "p=border": {
-                  "type": "color",
-                  "value": "{semantics.color.palette.common.transparent}"
                 }
               },
               "l=dot": {
@@ -16777,16 +16748,6 @@
                   "value": "{semantics.color.text.onLight.neutral.l=4}"
                 }
               },
-              "l=connector": {
-                "p=fill": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=1}"
-                },
-                "p=border": {
-                  "type": "color",
-                  "value": "{semantics.color.palette.common.transparent}"
-                }
-              },
               "l=dot": {
                 "p=fill": {
                   "type": "color",
@@ -16811,16 +16772,6 @@
                   "value": "{semantics.color.text.onLight.neutral.l=4}"
                 }
               },
-              "l=connector": {
-                "p=fill": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.brand.l=1}"
-                },
-                "p=border": {
-                  "type": "color",
-                  "value": "{semantics.color.palette.common.transparent}"
-                }
-              },
               "l=dot": {
                 "p=fill": {
                   "type": "color",
@@ -16843,16 +16794,6 @@
                 "p=color": {
                   "type": "color",
                   "value": "{semantics.color.text.onLight.neutral.l=4}"
-                }
-              },
-              "l=connector": {
-                "p=fill": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.brand2.l=1}"
-                },
-                "p=border": {
-                  "type": "color",
-                  "value": "{semantics.color.palette.common.transparent}"
                 }
               },
               "l=dot": {
@@ -16883,16 +16824,6 @@
                   "value": "{semantics.color.text.onDark.neutral.l=4}"
                 }
               },
-              "l=connector": {
-                "p=fill": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=4}"
-                },
-                "p=border": {
-                  "type": "color",
-                  "value": "{semantics.color.palette.common.transparent}"
-                }
-              },
               "l=dot": {
                 "p=fill": {
                   "type": "color",
@@ -16917,16 +16848,6 @@
                   "value": "{semantics.color.text.onDark.neutral.l=4}"
                 }
               },
-              "l=connector": {
-                "p=fill": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=4}"
-                },
-                "p=border": {
-                  "type": "color",
-                  "value": "{semantics.color.palette.common.transparent}"
-                }
-              },
               "l=dot": {
                 "p=fill": {
                   "type": "color",
@@ -16949,16 +16870,6 @@
                 "p=color": {
                   "type": "color",
                   "value": "{semantics.color.text.onDark.neutral.l=4}"
-                }
-              },
-              "l=connector": {
-                "p=fill": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=4}"
-                },
-                "p=border": {
-                  "type": "color",
-                  "value": "{semantics.color.palette.common.transparent}"
                 }
               },
               "l=dot": {
@@ -16987,16 +16898,6 @@
                   "value": "{semantics.color.text.onDark.neutral.l=4}"
                 }
               },
-              "l=connector": {
-                "p=fill": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=1}"
-                },
-                "p=border": {
-                  "type": "color",
-                  "value": "{semantics.color.palette.common.transparent}"
-                }
-              },
               "l=dot": {
                 "p=fill": {
                   "type": "color",
@@ -17021,16 +16922,6 @@
                   "value": "{semantics.color.text.onDark.neutral.l=4}"
                 }
               },
-              "l=connector": {
-                "p=fill": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.brand.l=1}"
-                },
-                "p=border": {
-                  "type": "color",
-                  "value": "{semantics.color.palette.common.transparent}"
-                }
-              },
               "l=dot": {
                 "p=fill": {
                   "type": "color",
@@ -17053,16 +16944,6 @@
                 "p=color": {
                   "type": "color",
                   "value": "{semantics.color.text.onDark.neutral.l=4}"
-                }
-              },
-              "l=connector": {
-                "p=fill": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.brand2.l=1}"
-                },
-                "p=border": {
-                  "type": "color",
-                  "value": "{semantics.color.palette.common.transparent}"
                 }
               },
               "l=dot": {
@@ -17098,45 +16979,15 @@
             "value": "{semantics.size.radius.full}"
           }
         },
-        "l=connector": {
-          "p=borderRadius": {
-            "type": "borderRadius",
-            "value": "{semantics.size.radius.full}"
-          },
-          "p=width": {
-            "type": "sizing",
-            "value": "{semantics.size.sizing.small.2}"
-          }
-        },
-        "l=dotContainer": {
+        "l=container": {
           "p=height": {
             "type": "sizing",
             "value": "{semantics.size.sizing.medium.2}"
-          }
-        },
-        "l=connectorContainer": {
-          "p=width": {
-            "type": "sizing",
-            "value": "{semantics.size.sizing.small.7}"
-          },
-          "p=height": {
-            "type": "sizing",
-            "value": "{semantics.size.sizing.medium.2}"
-          },
-          "p=borderWidth": {
-            "type": "borderWidth",
-            "value": "{semantics.size.border.none}"
           }
         }
       },
       "c=space": {
-        "l=mainContainer": {
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          }
-        },
-        "l=timelineItemContainer": {
+        "l=container": {
           "p=gap": {
             "type": "spacing",
             "value": "{semantics.space.2xl}"
@@ -17162,6 +17013,161 @@
           "l=opposingText": {
             "value": "{composites.font.label.lg.thin}",
             "type": "typography"
+          }
+        }
+      }
+      },
+      "Connector": {
+        "c=color": {
+          "m=onLight": {
+            "t=outlined": {
+              "v=neutral": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                  }
+                }
+              },
+              "v=brand": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                  }
+                }
+              },
+              "v=brand2": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                  }
+                }
+              }
+            },
+            "t=filled": {
+              "v=neutral": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=1}"
+                  }
+                }
+              },
+              "v=brand": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.brand.l=1}"
+                  }
+                }
+              },
+              "v=brand2": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.brand2.l=1}"
+                  }
+                }
+              }
+            }
+          },
+          "m=onDark": {
+            "t=outlined": {
+              "v=neutral": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=4}"
+                  }
+                }
+              },
+              "v=brand": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=4}"
+                  }
+                }
+              },
+              "v=brand2": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=4}"
+                  }
+                }
+              }
+            },
+            "t=filled": {
+              "v=neutral": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                  }
+                }
+              },
+              "v=brand": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.brand.l=1}"
+                  }
+                }
+              },
+              "v=brand2": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.brand2.l=1}"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "c=size": {
+          "l=line": {
+            "p=borderRadius": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.full}"
+            },
+            "p=width": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.small.2}"
+            }
+          },
+          "l=subContainer": {
+            "p=width": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.small.7}"
+            }
+          },
+          "l=container": {
+            "p=height": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.medium.2}"
+            }
+          }
+        }
+      },
+      "Group": {
+        "c=space": {
+          "l=container": {
+            "p=gap": {
+              "type": "spacing",
+              "value": "{semantics.space.none}"
+            },
+            "p=paddingHorizontal": {
+              "type": "spacing",
+              "value": "{semantics.space.none}"
+            },
+            "p=paddingVertical": {
+              "type": "spacing",
+              "value": "{semantics.space.none}"
+            }
           }
         }
       }
@@ -17451,52 +17457,60 @@
         }
         },
         "c=size": {
-        "p=height": {
+          "l=container": {
+           "p=height": {
           "type": "sizing",
           "value": "{semantics.size.sizing.medium.1}"
-        },
-        "p=borderRadius": {
+           },
+           "p=borderRadius": {
           "type": "borderRadius",
           "value": "{semantics.size.radius.buttonLike.small}"
-        },
-        "p=borderWidth": {
+           },
+           "p=borderWidth": {
           "type": "borderWidth",
           "value": "{semantics.size.border.sm}"
-        }
+           }
+      }
         },
         "c=space": {
-        "p=paddingHorizontal": {
+          "l=container": {
+           "p=paddingHorizontal": {
           "type": "spacing",
           "value": "{semantics.space.md}"
-        },
-        "p=gap": {
+           },
+           "p=gap": {
           "type": "spacing",
           "value": "{semantics.space.xs}"
-        }
+           }
+      }
         },
         "c=shadow": {
-        "i=none": {
+          "l=container": {
+           "i=none": {
           "value": "{composites.dropShadow.none}",
           "type": "boxShadow"
-        },
-        "i=hover": {
+           },
+           "i=hover": {
           "value": "{composites.dropShadow.none}",
           "type": "boxShadow"
-        },
-        "i=focus": {
+           },
+           "i=focus": {
           "value": "{composites.focusRing.brand}",
           "type": "boxShadow"
-        }
+           }
+      }
         },
         "c=font": {
-          "t=selected": {
+          "l=text": {
+           "t=selected": {
           "value": "{composites.font.label.lg.medium}",
           "type": "typography"
-          },
-          "t=deselected": {
+            },
+            "t=deselected": {
             "value": "{composites.font.label.lg.medium}",
             "type": "typography"
             }
+          }
         }
       },
       "Group": {
