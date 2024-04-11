@@ -4245,6 +4245,7 @@
         }
       },
       "c=size": {
+        "l=container": {
           "p=height": {
             "type": "sizing",
             "value": "{semantics.size.sizing.small.5}"
@@ -4253,6 +4254,7 @@
             "type": "borderRadius",
             "value": "{semantics.size.radius.full}"
           }
+        }
       }
     },
     "Rail": {
@@ -4319,6 +4321,7 @@
         }
       },
       "c=size": {
+        "l=container": {
           "p=height": {
             "type": "sizing",
             "value": "{semantics.size.sizing.small.5}"
@@ -4327,6 +4330,7 @@
             "type": "borderRadius",
             "value": "{semantics.size.radius.full}"
           }
+        }
       }
     },
     "Mark": {
@@ -4457,6 +4461,7 @@
          }
       },
       "c=size": {
+        "l=dot": {
         "p=height": {
           "type": "sizing",
           "value": "{semantics.size.sizing.small.2}"
@@ -4474,12 +4479,15 @@
           "value": "{semantics.size.radius.full}"
         }
       }
+      }
     },
     "MarkGroup": {
       "c=space": {
-        "p=padding": {
-          "type": "spacing",
-          "value": "{semantics.space.lg}"
+        "l=container": {
+          "p=padding": {
+            "type": "spacing",
+            "value": "{semantics.space.lg}"
+          }
         }
       }
     },
@@ -4882,29 +4890,37 @@
     "MarkLabel": {
       "c=color": {
         "m=onLight": {
+          "l=text": {
           "p=color": {
             "value": "{semantics.color.text.onLight.neutral.l=2}",
             "type": "color"
           }
+        }
         },
         "m=onDark": {
+          "l=text": {
           "p=color": {
             "value": "{semantics.color.text.onDark.neutral.l=2}",
             "type": "color"
           }
         }
+        }
       },
       "c=font": {
+        "l=text": {
         "value": "{composites.font.label.lg.medium}",
         "type": "typography"
+        }
       }
     },
     "Group": {
       "c=space": {
+        "l=container": {
           "p=gap": {
             "type": "spacing",
             "value": "{semantics.space.none}"
           }
+        }
       }
     }
     },
