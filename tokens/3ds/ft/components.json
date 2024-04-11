@@ -15808,6 +15808,264 @@
         }
       }
     },
+    "TabSegmented": {
+      "Item": {
+       "c=color": {
+        "m=onLight": {
+         "t=selected": {
+                "l=container": {
+                  "p=fill": {
+                    "i=none": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.light.neutral.l=1}"
+                    },
+                    "i=hover": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.light.neutral.l=1}"
+                    },
+                    "i=focus": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.light.neutral.l=1}"
+                    }
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "l=label": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=2}"
+                  }
+                }
+         },
+        "t=deselected": {
+                "l=container": {
+                  "p=fill": {
+                    "i=none": {
+                      "type": "color",
+                      "value": "{semantics.color.palette.common.transparent}"
+                    },
+                    "i=hover": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.light.neutral.l=2}"
+                    },
+                    "i=focus": {
+                      "type": "color",
+                      "value": "{semantics.color.palette.common.transparent}"
+                    }
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "l=label": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=2}"
+                  }
+                }
+         }
+        },
+        "m=onDark": {
+         "t=selected": {
+                "l=container": {
+                  "p=fill": {
+                    "i=none": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.dark.neutral.l=1}"
+                    },
+                    "i=hover": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.dark.neutral.l=1}"
+                    },
+                    "i=focus": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.dark.neutral.l=1}"
+                    }
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "l=label": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=2}"
+                  }
+                }
+         },
+         "t=deselected": {
+                "l=container": {
+                  "p=fill": {
+                    "i=none": {
+                      "type": "color",
+                      "value": "{semantics.color.palette.common.transparent}"
+                    },
+                    "i=hover": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.dark.neutral.l=2}"
+                    },
+                    "i=focus": {
+                      "type": "color",
+                      "value": "{semantics.color.palette.common.transparent}"
+                    }
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "l=label": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=2}"
+                  }
+                }
+         }
+        }
+       },
+       "c=size": {
+        "l=container": {
+        "p=height": {
+         "type": "sizing",
+         "value": "{semantics.size.sizing.medium.3}"
+        },
+        "p=borderRadius": {
+          "type": "borderRadius",
+          "value": "{semantics.size.radius.md}"
+        },
+        "p=borderWidth": {
+          "type": "borderWidth",
+          "value": "{semantics.size.border.sm}"
+        }
+        }
+       },
+       "c=space": {
+        "l=container": {
+        "p=paddingHorizontal": {
+          "type": "spacing",
+          "value": "{semantics.space.2xl}"
+        },
+        "p=gap": {
+          "type": "spacing",
+          "value": "{semantics.space.md}"
+        }
+        }
+       },
+       "c=shadow": {
+        "t=selected": {
+        "l=container": {
+        "i=none": {
+          "value": "{composites.dropShadow.none}",
+          "type": "boxShadow"
+        },
+        "i=hover": {
+          "value": "{composites.dropShadow.none}",
+          "type": "boxShadow"
+        },
+        "i=focus": {
+          "value": "{composites.focusRing.brand}",
+          "type": "boxShadow"
+        }
+        }
+        },
+        "t=deselected": {
+          "l=container": {
+          "i=none": {
+            "value": "{composites.dropShadow.none}",
+            "type": "boxShadow"
+          },
+          "i=hover": {
+            "value": "{composites.dropShadow.none}",
+            "type": "boxShadow"
+          },
+          "i=focus": {
+            "value": "{composites.focusRing.brand}",
+            "type": "boxShadow"
+          }
+          }
+          }
+       },
+       "c=font": {
+        "l=label": {
+        "t=selected": {
+          "value": "{composites.font.label.lg.thick}",
+          "type": "typography"
+        },
+        "t=deselected": {
+          "value": "{composites.font.label.lg.thick}",
+          "type": "typography"
+        }
+      }
+       }
+      },
+      "Group": {
+        "c=color": {
+        "m=onLight": {
+           "l=container": {
+                  "p=fill": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.light.neutral.l=3}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+          }
+        },
+        "m=onDark": {
+           "l=container": {
+                  "p=fill": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.dark.neutral.l=3}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+          }
+        }
+        },
+        "c=size": {
+          "l=container": {
+        "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.none}"
+        },
+        "p=borderWidth": {
+          "type": "borderWidth",
+          "value": "{semantics.size.border.none}"
+        }
+        }
+        },
+        "c=space": {
+          "l=container": {
+        "p=paddingHorizontal": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+        },
+        "p=paddingVertical": {
+          "type": "spacing",
+          "value": "{semantics.space.none}"
+        },
+        "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+        }
+        }
+        },
+        "c=shadow": {
+          "l=container": {
+          "value": "{composites.dropShadow.none}",
+          "type": "boxShadow"
+          }
+        }
+      }
+    },
     "TabUnderlineHorizontal": {
       "Item": {
        "c=color": {
