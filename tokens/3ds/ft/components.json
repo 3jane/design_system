@@ -11338,7 +11338,7 @@
         }
       },
       "c=shadow": {
-        "l=contianer": {
+        "l=container": {
           "value": "{composites.dropShadow.down.md}",
           "type": "boxShadow"
         }
