@@ -4876,7 +4876,7 @@
       },
       "c=font": {
         "l=label": {
-          "value": "{composites.font.label.lg.medium}",
+          "value": "{composites.font.label.lg.thick}",
           "type": "typography"
         }
       },
@@ -4908,7 +4908,7 @@
       },
       "c=font": {
         "l=text": {
-        "value": "{composites.font.label.lg.thick}",
+        "value": "{composites.font.label.lg.medium}",
         "type": "typography"
         }
       }
