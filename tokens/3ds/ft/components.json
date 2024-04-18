@@ -10102,12 +10102,6 @@
               "type": "color",
               "value": "{semantics.color.text.onDark.neutral.l=1}"
             }
-          },
-          "l=supportingText": {
-            "p=color": {
-              "type": "color",
-              "value": "{semantics.color.text.onDark.neutral.l=3}"
-            }
           }
         },
         "m=onDark": {
@@ -10136,12 +10130,6 @@
               "type": "color",
               "value": "{semantics.color.text.onLight.neutral.l=1}"
             }
-          },
-          "l=supportingText": {
-            "p=color": {
-              "type": "color",
-              "value": "{semantics.color.text.onLight.neutral.l=3}"
-            }
           }
         }
       },
@@ -10155,33 +10143,9 @@
             "type": "borderWidth",
             "value": "{semantics.size.border.sm}"
           }
-        },
-        "l=arrow": {
-          "p=height": {
-            "type": "sizing",
-            "value": "{semantics.size.sizing.small.7}"
-          },
-          "p=width": {
-            "type": "sizing",
-            "value": "{semantics.size.sizing.small.11}"
-          },
-          "p=borderRadius": {
-            "type": "borderRadius",
-            "value": "{semantics.size.radius.2xs}"
-          },
-          "p=borderWidth": {
-            "type": "borderWidth",
-            "value": "{semantics.size.border.sm}"
-          }
         }
       },
       "c=space": {
-        "l=mainContainer": {
-          "p=gap": {
-            "type": "spacing",
-            "value": "-4"
-          }
-        },
         "l=tooltipContainer": {
           "p=paddingHorizontal": {
             "type": "spacing",
@@ -10195,27 +10159,11 @@
             "type": "spacing",
             "value": "{semantics.space.xs}"
           }
-        },
-        "l=textContainer": {
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.sm}"
-          }
-        },
-        "l=arrowContainer": {
-          "p=paddingHorizontal": {
-            "type": "spacing",
-            "value": "{semantics.space.xl}"
-          }
         }
       },
       "c=font": {
         "l=label": {
           "value": "{composites.font.label.md.medium}",
-          "type": "typography"
-        },
-        "l=supportingText": {
-          "value": "{composites.font.label.md.thin}",
           "type": "typography"
         }
       },
