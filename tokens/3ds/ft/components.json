@@ -6569,16 +6569,6 @@
               "value": "{semantics.color.border.onLight.neutral.l=4}"
             }
           },
-          "l=contrastBorderContainer": {
-            "p=fill": {
-              "type": "color",
-              "value": "{semantics.color.palette.common.transparent}"
-            },
-            "p=border": {
-              "type": "color",
-              "value": "{semantics.color.border.onLight.neutral.o=1}"
-            }
-          },
           "l=text": {
             "p=color": {
               "type": "color",
@@ -6595,16 +6585,6 @@
             "p=border": {
               "type": "color",
               "value": "{semantics.color.border.onDark.neutral.l=4}"
-            }
-          },
-          "l=contrastBorderContainer": {
-            "p=fill": {
-              "type": "color",
-              "value": "{semantics.color.palette.common.transparent}"
-            },
-            "p=border": {
-              "type": "color",
-              "value": "{semantics.color.border.onLight.neutral.o=1}"
             }
           },
           "l=text": {
@@ -6689,12 +6669,6 @@
               "type": "borderWidth",
               "value": "{semantics.size.border.md}"
           }
-        },
-        "l=contrastBorderContainer": {
-          "p=borderWidth": {
-            "type": "borderWidth",
-            "value": "{semantics.size.border.sm}"
-          }
         }
       },
       "c=font": {
@@ -6724,23 +6698,7 @@
     },
     "AvatarGroup": {
       "c=space": {
-        "l=mainContainer": {
-        "p=gap": {
-          "v=xs": {
-            "type": "spacing",
-            "value": "{semantics.space.lg}"
-          },
-          "v=sm": {
-            "type": "spacing",
-            "value": "{semantics.space.lg}"
-          },
-          "v=md": {
-            "type": "spacing",
-            "value": "{semantics.space.lg}"
-          }
-        }
-        },
-        "l=avatarsContainer": {
+        "l=container": {
           "p=gap": {
             "v=xs": {
               "type": "spacing",
@@ -6755,7 +6713,7 @@
               "value": "{semantics.space.-xl}"
             }
           }
-          }
+        }
       }
     },
     "Badge": {
