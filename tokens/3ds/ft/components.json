@@ -9161,7 +9161,7 @@
         "l=container": {
           "p=height": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.medium.3}"
+            "value": "{semantics.size.sizing.medium.1}"
           },
           "p=borderRadius": {
             "type": "borderRadius",
@@ -9181,7 +9181,7 @@
           },
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.sm}"
+            "value": "{semantics.space.xs}"
           }
         }  
       },
@@ -9203,7 +9203,7 @@
       },
       "c=font": {
         "l=label": {
-          "value": "{composites.font.label.lg.thick}",
+          "value": "{composites.font.label.md.medium}",
           "type": "typography"
         }
       }
