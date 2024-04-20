@@ -9203,7 +9203,7 @@
       },
       "c=font": {
         "l=label": {
-          "value": "{composites.font.label.md.medium}",
+          "value": "{composites.font.label.md.thick}",
           "type": "typography"
         }
       }
