@@ -2019,6 +2019,10 @@
         "xl": {
           "value": "{base.size.3px}",
           "type": "borderWidth"
+        },
+        "2xl": {
+          "value": "{base.size.4px}",
+          "type": "borderWidth"
         }
       },
       "radius": {

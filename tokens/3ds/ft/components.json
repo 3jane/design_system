@@ -10734,13 +10734,13 @@
         "m=onLight": {
             "v=neutral": {
               "l=line": {
-                "p=fill": {
+                "p=border": {
                   "value": "{semantics.color.bg.dark.neutral.l=1}",
                   "type": "color"
                 }
               },
               "l=background": {
-                "p=fill": {
+                "p=border": {
                   "value": "{semantics.color.bg.light.neutral.l=2}",
                   "type": "color"
                 }
@@ -10748,13 +10748,13 @@
             },
             "v=brand": {
               "l=line": {
-                "p=fill": {
+                "p=border": {
                   "value": "{semantics.color.bg.light.brand.a=1}",
                   "type": "color"
                 }
               },
               "l=background": {
-                "p=fill": {
+                "p=border": {
                   "value": "{semantics.color.bg.light.neutral.l=2}",
                   "type": "color"
                 }
@@ -10762,13 +10762,13 @@
             },
             "v=brand2": {
               "l=line": {
-                "p=fill": {
+                "p=border": {
                   "value": "{semantics.color.bg.light.brand2.a=1}",
                   "type": "color"
                 }
               },
               "l=background": {
-                "p=fill": {
+                "p=border": {
                   "value": "{semantics.color.bg.light.neutral.l=2}",
                   "type": "color"
                 }
@@ -10778,13 +10778,13 @@
         "m=onDark": {
             "v=neutral": {
               "l=line": {
-                "p=fill": {
+                "p=border": {
                   "value": "{semantics.color.bg.light.neutral.l=1}",
                   "type": "color"
                 }
               },
               "l=background": {
-                "p=fill": {
+                "p=border": {
                   "value": "{semantics.color.bg.dark.neutral.l=3}",
                   "type": "color"
                 }
@@ -10792,13 +10792,13 @@
             },
             "v=brand": {
               "l=line": {
-                "p=fill": {
+                "p=border": {
                   "value": "{semantics.color.bg.dark.brand.a=1}",
                   "type": "color"
                 }
               },
               "l=background": {
-                "p=fill": {
+                "p=border": {
                   "value": "{semantics.color.bg.dark.neutral.l=3}",
                   "type": "color"
                 }
@@ -10806,13 +10806,13 @@
             },
             "v=brand2": {
               "l=line": {
-                "p=fill": {
+                "p=border": {
                   "value": "{semantics.color.bg.dark.brand2.a=1}",
                   "type": "color"
                 }
               },
               "l=background": {
-                "p=fill": {
+                "p=border": {
                   "value": "{semantics.color.bg.dark.neutral.l=3}",
                   "type": "color"
                 }
@@ -10831,7 +10831,17 @@
               "type": "sizing",
               "value": "{semantics.size.sizing.medium.1}"
             }
-          }
+          },
+          "p=borderWidth": {
+            "v=small": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.2xl}"
+            },
+            "v=large": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.2xl}"
+            }
+            }
         },
         "l=background": {
           "p=size": {
@@ -10843,7 +10853,17 @@
               "type": "sizing",
               "value": "{semantics.size.sizing.medium.1}"
             }
-          }
+          },
+          "p=borderWidth": {
+            "v=small": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.2xl}"
+            },
+            "v=large": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.2xl}"
+            }
+            }
         }
       }
     },
