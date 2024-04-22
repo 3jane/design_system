@@ -6222,6 +6222,12 @@
                     "type": "color",
                     "value": "{semantics.color.palette.common.transparent}"
                   }
+                },
+                "l=label": {
+                  "p=color": {
+                      "type": "color",
+                      "value": "{semantics.color.text.onLight.neutral.l=2}"
+                  }
                 }
               }
             },
@@ -6237,6 +6243,12 @@
                   "p=border": {
                     "type": "color",
                     "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "l=label": {
+                  "p=color": {
+                      "type": "color",
+                      "value": "{semantics.color.text.onLight.disabled.l=1}"
                   }
                 }
               }
@@ -6264,6 +6276,12 @@
                     "type": "color",
                     "value": "{semantics.color.palette.common.transparent}"
                   }
+                },
+                "l=label": {
+                  "p=color": {
+                      "type": "color",
+                      "value": "{semantics.color.text.onLight.neutral.l=2}"
+                  }
                 }
               }
             },
@@ -6279,6 +6297,12 @@
                   "p=border": {
                     "type": "color",
                     "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "l=label": {
+                  "p=color": {
+                      "type": "color",
+                      "value": "{semantics.color.text.onLight.disabled.l=1}"
                   }
                 }
               }
@@ -6308,6 +6332,12 @@
                     "type": "color",
                     "value": "{semantics.color.palette.common.transparent}"
                   }
+                },
+                "l=label": {
+                  "p=color": {
+                      "type": "color",
+                      "value": "{semantics.color.text.onDark.neutral.l=2}"
+                  }
                 }
               }
             },
@@ -6323,6 +6353,12 @@
                   "p=border": {
                     "type": "color",
                     "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "l=label": {
+                  "p=color": {
+                      "type": "color",
+                      "value": "{semantics.color.text.onDark.disabled.l=1}"
                   }
                 }
               }
@@ -6350,6 +6386,12 @@
                     "type": "color",
                     "value": "{semantics.color.palette.common.transparent}"
                   }
+                },
+                "l=label": {
+                  "p=color": {
+                      "type": "color",
+                      "value": "{semantics.color.text.onDark.neutral.l=2}"
+                  }
                 }
               }
             },
@@ -6365,6 +6407,12 @@
                   "p=border": {
                     "type": "color",
                     "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "l=label": {
+                  "p=color": {
+                      "type": "color",
+                      "value": "{semantics.color.text.onDark.disabled.l=1}"
                   }
                 }
               }
@@ -6399,6 +6447,12 @@
             "value": "{semantics.space.md}"
           }
           
+        }
+      },
+      "c=font": {
+        "l=label": {
+          "value": "{composites.font.label.md.thick}",
+          "type": "typography"
         }
       },
        "c=shadow": {
