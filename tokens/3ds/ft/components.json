@@ -10704,16 +10704,16 @@
       },
       "c=size": {
         "l=progress": {
-          "p=height": {
-            "type": "sizing",
-            "value": "{semantics.size.sizing.small.3}"
-          },
           "p=borderRadius": {
             "type": "borderRadius",
             "value": "{semantics.size.radius.full}"
           }
         },
         "l=bar": {
+          "p=height": {
+            "type": "sizing",
+            "value": "{semantics.size.sizing.small.3}"
+          },
           "p=borderRadius": {
             "type": "borderRadius",
             "value": "{semantics.size.radius.full}"
