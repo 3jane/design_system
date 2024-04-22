@@ -6226,12 +6226,6 @@
                     "type": "color",
                     "value": "{semantics.color.palette.common.transparent}"
                   }
-                },
-                "l=label": {
-                  "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.neutral.l=2}"
-                  }
                 }
               }
             },
@@ -6247,12 +6241,6 @@
                   "p=border": {
                     "type": "color",
                     "value": "{semantics.color.palette.common.transparent}"
-                  }
-                },
-                "l=label": {
-                  "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.disabled.l=1}"
                   }
                 }
               }
@@ -6284,12 +6272,6 @@
                     "type": "color",
                     "value": "{semantics.color.palette.common.transparent}"
                   }
-                },
-                "l=label": {
-                  "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.neutral.l=4}"
-                  }
                 }
               }
             },
@@ -6305,12 +6287,6 @@
                   "p=border": {
                     "type": "color",
                     "value": "{semantics.color.palette.common.transparent}"
-                  }
-                },
-                "l=label": {
-                  "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.disabled.l=2}"
                   }
                 }
               }
@@ -6344,12 +6320,6 @@
                     "type": "color",
                     "value": "{semantics.color.palette.common.transparent}"
                   }
-                },
-                "l=label": {
-                  "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=2}"
-                  }
                 }
               }
             },
@@ -6365,12 +6335,6 @@
                   "p=border": {
                     "type": "color",
                     "value": "{semantics.color.palette.common.transparent}"
-                  }
-                },
-                "l=label": {
-                  "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.disabled.l=1}"
                   }
                 }
               }
@@ -6402,12 +6366,6 @@
                     "type": "color",
                     "value": "{semantics.color.palette.common.transparent}"
                   }
-                },
-                "l=label": {
-                  "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=4}"
-                  }
                 }
               }
             },
@@ -6424,12 +6382,6 @@
                     "type": "color",
                     "value": "{semantics.color.palette.common.transparent}"
                   }
-                },
-                "l=label": {
-                  "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.disabled.l=2}"
-                  }
                 }
               }
             }
@@ -6438,10 +6390,6 @@
        },
        "c=size": {
         "l=container": {
-          "p=size": {
-            "type": "sizing",
-            "value": "{semantics.size.sizing.medium.2}"
-          },
           "p=borderRadius": {
             "type": "borderRadius",
             "value": "{semantics.size.radius.buttonLike.small}"
@@ -6457,15 +6405,18 @@
           "p=gap": {
             "type": "spacing",
             "value": "{semantics.space.sm}"
+          },
+          "p=paddingHorizontal": {
+            "type": "spacing",
+            "value": "{semantics.space.md}"
+          },
+          "p=paddingVertical": {
+            "type": "spacing",
+            "value": "{semantics.space.md}"
           }
+          
         }
       },
-       "c=font": {
-        "l=label": {
-          "value": "{composites.font.label.md.thick}",
-          "type": "typography"
-        }
-       },
        "c=shadow": {
         "l=container": {
         "i=none": {
