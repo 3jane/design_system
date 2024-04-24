@@ -9498,24 +9498,12 @@
                   "value": "{semantics.color.bg.dark.neutral.l=1}",
                   "type": "color"
                 }
-              },
-              "l=background": {
-                "p=border": {
-                  "value": "{semantics.color.bg.light.neutral.l=2}",
-                  "type": "color"
-                }
               }
             },
             "v=brand": {
               "l=line": {
                 "p=border": {
                   "value": "{semantics.color.bg.light.brand.a=1}",
-                  "type": "color"
-                }
-              },
-              "l=background": {
-                "p=border": {
-                  "value": "{semantics.color.bg.light.neutral.l=2}",
                   "type": "color"
                 }
               }
@@ -9528,12 +9516,6 @@
                   "value": "{semantics.color.bg.light.neutral.l=1}",
                   "type": "color"
                 }
-              },
-              "l=background": {
-                "p=border": {
-                  "value": "{semantics.color.bg.dark.neutral.l=3}",
-                  "type": "color"
-                }
               }
             },
             "v=brand": {
@@ -9542,40 +9524,12 @@
                   "value": "{semantics.color.bg.dark.brand.a=1}",
                   "type": "color"
                 }
-              },
-              "l=background": {
-                "p=border": {
-                  "value": "{semantics.color.bg.dark.neutral.l=3}",
-                  "type": "color"
-                }
               }
             }
         }
       },
       "c=size": {
         "l=line": {
-          "p=size": {
-            "v=small": {
-              "type": "sizing",
-              "value": "{semantics.size.sizing.small.9}"
-            },
-            "v=large": {
-              "type": "sizing",
-              "value": "{semantics.size.sizing.medium.1}"
-            }
-          },
-          "p=borderWidth": {
-            "v=small": {
-              "type": "borderWidth",
-              "value": "{semantics.size.border.2xl}"
-            },
-            "v=large": {
-              "type": "borderWidth",
-              "value": "{semantics.size.border.2xl}"
-            }
-            }
-        },
-        "l=background": {
           "p=size": {
             "v=small": {
               "type": "sizing",
