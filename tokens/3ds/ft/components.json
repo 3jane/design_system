@@ -10737,7 +10737,7 @@
             "l=container": {
              "p=width": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.small.13}"
+              "value": "{semantics.size.sizing.small.11}"
              }
             }
         },
@@ -10751,6 +10751,14 @@
       "Group": {
         "c=space": {
         "l=container": {
+          "p=paddingVertical": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          },
+          "p=paddingHorizontal": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          },
           "p=gap": {
             "type": "spacing",
             "value": "{semantics.space.xs}"
