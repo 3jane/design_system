@@ -10720,7 +10720,7 @@
               "l=text": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=4}"
+                  "value": "{semantics.color.text.onLight.neutral.l=3}"
                 }
               }
         },
@@ -10728,28 +10728,18 @@
               "l=text": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=4}"
+                  "value": "{semantics.color.text.onDark.neutral.l=3}"
                 }
               }
         }
         },
         "c=size": {
-          "t=icon": {
             "l=container": {
              "p=width": {
               "type": "sizing",
               "value": "{semantics.size.sizing.small.13}"
              }
             }
-          },
-          "t=text": {
-            "l=container": {
-             "p=width": {
-              "type": "sizing",
-              "value": "{semantics.size.sizing.small.11}"
-             }
-            }
-          }
         },
         "c=font": {
         "l=text": {
