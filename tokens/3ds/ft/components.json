@@ -16675,6 +16675,16 @@
                     "value": "{semantics.color.palette.common.transparent}"
                   }
                 },
+                "v=brand2": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.brand.a=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
                 "v=error": {
                   "p=fill": {
                     "type": "color",
@@ -16739,6 +16749,16 @@
                     "value": "{semantics.color.palette.common.transparent}"
                   }
                 },
+                "v=brand2": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.brand2.l=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
                 "v=error": {
                   "p=fill": {
                     "type": "color",
@@ -16794,6 +16814,16 @@
                   }
                 },
                 "v=brand": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.neutral.l=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.border.onLight.neutral.l=2}"
+                  }
+                },
+                "v=brand2": {
                   "p=fill": {
                     "type": "color",
                     "value": "{semantics.color.bg.light.neutral.l=1}"
@@ -16869,6 +16899,16 @@
                     "value": "{semantics.color.palette.common.transparent}"
                   }
                 },
+                "v=brand2": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.dark.brand.a=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
                 "v=error": {
                   "p=fill": {
                     "type": "color",
@@ -16933,6 +16973,16 @@
                     "value": "{semantics.color.palette.common.transparent}"
                   }
                 },
+                "v=brand2": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.dark.neutral.l=2}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
                 "v=error": {
                   "p=fill": {
                     "type": "color",
@@ -16988,6 +17038,16 @@
                   }
                 },
                 "v=brand": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.dark.neutral.l=2}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.border.onDark.neutral.l=2}"
+                  }
+                },
+                "v=brand2": {
                   "p=fill": {
                     "type": "color",
                     "value": "{semantics.color.bg.dark.neutral.l=2}"
