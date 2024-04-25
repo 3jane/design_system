@@ -16678,7 +16678,7 @@
                 "v=brand2": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.brand.a=1}"
+                    "value": "{semantics.color.bg.light.brand2.a=1}"
                   },
                   "p=border": {
                     "type": "color",
@@ -16902,7 +16902,7 @@
                 "v=brand2": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.dark.brand.a=1}"
+                    "value": "{semantics.color.bg.dark.brand2.a=1}"
                   },
                   "p=border": {
                     "type": "color",
