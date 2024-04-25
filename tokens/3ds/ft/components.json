@@ -11185,24 +11185,14 @@
               },
               "l=text": {
                 "p=color": {
-                  "i=none": {
                     "type": "color",
                     "value": "{semantics.color.text.onLight.neutral.l=1}"
-                  },
-                  "i=hover": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.neutral.l=3}"
-                  },
-                  "i=focus": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.neutral.l=1}"
-                  }
                 }
               },
               "l=line": {
                 "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.text.onLight.neutral.l=3}"
+                    "value": "{semantics.color.text.onLight.neutral.l=1}"
                 }
               }
             },
@@ -11215,24 +11205,14 @@
               },
               "l=text": {
                 "p=color": {
-                  "i=none": {
                     "type": "color",
                     "value": "{semantics.color.text.onLight.brand.l=1}"
-                  },
-                  "i=hover": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.brand.l=3}"
-                  },
-                  "i=focus": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.brand.l=1}"
-                  }
                 }
               },
               "l=line": {
                 "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.text.onLight.brand.l=3}"
+                    "value": "{semantics.color.text.onLight.brand.l=1}"
                 }
               }
             },
@@ -11245,18 +11225,8 @@
               },
               "l=text": {
                 "p=color": {
-                  "i=none": {
                     "type": "color",
                     "value": "{semantics.color.text.onLight.blue.l=1}"
-                  },
-                  "i=hover": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.blue.l=1}"
-                  },
-                  "i=focus": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.blue.l=1}"
-                  }
                 }
               },
               "l=line": {
@@ -11275,18 +11245,8 @@
               },
               "l=text": {
                 "p=color": {
-                  "i=none": {
                     "type": "color",
                     "value": "{semantics.color.text.onLight.purple.l=1}"
-                  },
-                  "i=hover": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.purple.l=1}"
-                  },
-                  "i=focus": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.purple.l=1}"
-                  }
                 }
               },
               "l=line": {
@@ -11307,24 +11267,14 @@
               },
               "l=text": {
                 "p=color": {
-                  "i=none": {
                     "type": "color",
                     "value": "{semantics.color.text.onDark.neutral.l=1}"
-                  },
-                  "i=hover": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=3}"
-                  },
-                  "i=focus": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=1}"
-                  }
                 }
               },
               "l=line": {
                 "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=3}"
+                    "value": "{semantics.color.text.onDark.neutral.l=1}"
                 }
               }
             },
@@ -11337,24 +11287,14 @@
               },
               "l=text": {
                 "p=color": {
-                  "i=none": {
                     "type": "color",
                     "value": "{semantics.color.text.onDark.brand.l=1}"
-                  },
-                  "i=hover": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.brand.l=3}"
-                  },
-                  "i=focus": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.brand.l=1}"
-                  }
                 }
               },
               "l=line": {
                 "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.text.onDark.brand.l=3}"
+                    "value": "{semantics.color.text.onDark.brand.l=1}"
                 }
               }
             },
@@ -11367,18 +11307,8 @@
               },
               "l=text": {
                 "p=color": {
-                  "i=none": {
                     "type": "color",
                     "value": "{semantics.color.text.onDark.blue.l=1}"
-                  },
-                  "i=hover": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.blue.l=1}"
-                  },
-                  "i=focus": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.blue.l=1}"
-                  }
                 }
               },
               "l=line": {
@@ -11397,18 +11327,8 @@
               },
               "l=text": {
                 "p=color": {
-                  "i=none": {
                     "type": "color",
                     "value": "{semantics.color.text.onDark.purple.l=1}"
-                  },
-                  "i=hover": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.purple.l=1}"
-                  },
-                  "i=focus": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.purple.l=1}"
-                  }
                 }
               },
               "l=line": {
