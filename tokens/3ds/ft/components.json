@@ -10717,112 +10717,20 @@
       "Separator": {
         "c=color": {
         "m=onLight": {
-          "t=selected": {
-            "v=neutral": {
               "l=text": {
                 "p=color": {
                   "type": "color",
                   "value": "{semantics.color.text.onLight.neutral.l=4}"
                 }
               }
-            },
-            "v=brand": {
-              "l=text": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=4}"
-                }
-              }
-            },
-            "v=brand2": {
-              "l=text": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=4}"
-                }
-              }
-            }
-          },
-          "t=deselected": {
-            "v=neutral": {
-              "l=text": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=4}"
-                }
-              }
-            },
-            "v=brand": {
-              "l=text": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=4}"
-                }
-              }
-            },
-            "v=brand2": {
-              "l=text": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=4}"
-                }
-              }
-            }
-          }
         },
         "m=onDark": {
-          "t=selected": {
-            "v=neutral": {
               "l=text": {
                 "p=color": {
                   "type": "color",
                   "value": "{semantics.color.text.onDark.neutral.l=4}"
                 }
               }
-            },
-            "v=brand": {
-              "l=text": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=4}"
-                }
-              }
-            },
-            "v=brand2": {
-              "l=text": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=4}"
-                }
-              }
-            }
-          },
-          "t=deselected": {
-            "v=neutral": {
-              "l=text": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=4}"
-                }
-              }
-            },
-            "v=brand": {
-              "l=text": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=4}"
-                }
-              }
-            },
-            "v=brand2": {
-              "l=text": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=4}"
-                }
-              }
-            }
-          }
         }
         },
         "c=size": {
