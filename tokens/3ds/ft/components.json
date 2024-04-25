@@ -16732,7 +16732,7 @@
                 "v=neutral": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.neutral.l=1}"
+                    "value": "{semantics.color.bg.light.neutral.l=2}"
                   },
                   "p=border": {
                     "type": "color",
