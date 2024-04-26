@@ -9318,7 +9318,7 @@
         "l=mainContainer": {
           "p=borderRadius": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.xl}"
+            "value": "{semantics.size.radius.2xl}"
           },
           "p=borderWidth": {
             "type": "borderWidth",
@@ -9374,7 +9374,7 @@
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.2xl}"
+            "value": "{semantics.space.3xl}"
           },
           "p=paddingBottom": {
             "type": "spacing",
