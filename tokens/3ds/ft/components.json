@@ -545,7 +545,7 @@
                 "l=label": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                    "value": "{semantics.color.text.onLight.neutral.l=3}"
                   }
                 }
               },
@@ -1157,7 +1157,7 @@
                 "l=label": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=4}"
+                    "value": "{semantics.color.text.onDark.neutral.l=3}"
                   }
                 }
               },
