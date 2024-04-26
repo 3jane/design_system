@@ -9374,7 +9374,7 @@
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.2xl}"
+            "value": "{semantics.space.3xl}"
           },
           "p=paddingBottom": {
             "type": "spacing",
