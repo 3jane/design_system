@@ -9360,7 +9360,7 @@
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.lg}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingBottom": {
             "type": "spacing",
@@ -9374,7 +9374,7 @@
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.4xl}"
+            "value": "{semantics.space.xl}"
           },
           "p=paddingBottom": {
             "type": "spacing",
