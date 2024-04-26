@@ -9350,7 +9350,7 @@
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.xl}"
+            "value": "{semantics.space.2xl}"
           }
         },
         "l=contentContainer": {
@@ -9364,7 +9364,7 @@
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.lg}"
+            "value": "{semantics.space.none}"
           }
         },
         "l=actionsContainer": {
@@ -9374,7 +9374,7 @@
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.xl}"
+            "value": "{semantics.space.2xl}"
           },
           "p=paddingBottom": {
             "type": "spacing",
