@@ -9937,7 +9937,7 @@
           "l=mainContainer": {
             "p=fill": {
               "type": "color",
-              "value": "{semantics.color.bg.light.neutral.l=1}"
+              "value": "{semantics.color.palette.common.transparent}"
             },
             "p=border": {
               "type": "color",
@@ -9961,7 +9961,7 @@
           "l=mainContainer": {
             "p=fill": {
               "type": "color",
-              "value": "{semantics.color.bg.dark.neutral.l=1}"
+              "value": "{semantics.color.palette.common.transparent}"
             },
             "p=border": {
               "type": "color",
@@ -10010,57 +10010,57 @@
         "l=headerContainer": {
           "p=paddingHorizontal": {
             "type": "spacing",
-            "value": "{semantics.space.4xl}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.4xl}"
+            "value": "{semantics.space.md}"
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.4xl}"
+            "value": "{semantics.space.md}"
           }
         },
         "l=mediaContainer": {
           "p=paddingHorizontal": {
             "type": "spacing",
-            "value": "{semantics.space.4xl}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.4xl}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.4xl}"
+            "value": "{semantics.space.md}"
           }
         },
         "l=contentContainer": {
           "p=paddingHorizontal": {
             "type": "spacing",
-            "value": "{semantics.space.4xl}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.4xl}"
+            "value": "{semantics.space.md}"
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.4xl}"
+            "value": "{semantics.space.md}"
           }
         },
         "l=actionsContainer": {
           "p=paddingHorizontal": {
             "type": "spacing",
-            "value": "{semantics.space.4xl}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.4xl}"
+            "value": "{semantics.space.md}"
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.4xl}"
+            "value": "{semantics.space.none}"
           },
           "p=gap": {
             "type": "spacing",
@@ -10070,7 +10070,7 @@
       },
       "c=shadow": {
         "l=mainContainer": {
-        "value": "{composites.dropShadow.down.lg}",
+        "value": "{composites.dropShadow.none}",
         "type": "boxShadow"
         }
       },
