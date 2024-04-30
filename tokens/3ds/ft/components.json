@@ -8986,6 +8986,42 @@
                 "value": "{semantics.color.text.onLight.error.l=3}",
                 "type": "color"
               }
+            },
+            "v=link": {
+              "t=primary": {
+                "value": "{semantics.color.text.onLight.blue.l=1}",
+                "type": "color"
+              },
+              "t=secondary": {
+                "value": "{semantics.color.text.onLight.blue.l=1}",
+                "type": "color"
+              },
+              "t=tertiary": {
+                "value": "{semantics.color.text.onLight.blue.l=1}",
+                "type": "color"
+              },
+              "t=quaternary": {
+                "value": "{semantics.color.text.onLight.blue.l=1}",
+                "type": "color"
+              }
+            },
+            "v=visited": {
+              "t=primary": {
+                "value": "{semantics.color.text.onLight.purple.l=1}",
+                "type": "color"
+              },
+              "t=secondary": {
+                "value": "{semantics.color.text.onLight.purple.l=1}",
+                "type": "color"
+              },
+              "t=tertiary": {
+                "value": "{semantics.color.text.onLight.purple.l=1}",
+                "type": "color"
+              },
+              "t=quaternary": {
+                "value": "{semantics.color.text.onLight.purple.l=1}",
+                "type": "color"
+              }
             }
           }
         },
@@ -9060,6 +9096,42 @@
               },
               "t=quaternary": {
                 "value": "{semantics.color.text.onDark.error.l=3}",
+                "type": "color"
+              }
+            },
+            "v=link": {
+              "t=primary": {
+                "value": "{semantics.color.text.onDark.blue.l=1}",
+                "type": "color"
+              },
+              "t=secondary": {
+                "value": "{semantics.color.text.onDark.blue.l=1}",
+                "type": "color"
+              },
+              "t=tertiary": {
+                "value": "{semantics.color.text.onDark.blue.l=1}",
+                "type": "color"
+              },
+              "t=quaternary": {
+                "value": "{semantics.color.text.onDark.blue.l=1}",
+                "type": "color"
+              }
+            },
+            "v=visited": {
+              "t=primary": {
+                "value": "{semantics.color.text.onDark.purple.l=1}",
+                "type": "color"
+              },
+              "t=secondary": {
+                "value": "{semantics.color.text.onDark.purple.l=1}",
+                "type": "color"
+              },
+              "t=tertiary": {
+                "value": "{semantics.color.text.onDark.purple.l=1}",
+                "type": "color"
+              },
+              "t=quaternary": {
+                "value": "{semantics.color.text.onDark.purple.l=1}",
                 "type": "color"
               }
             }
@@ -10873,12 +10945,6 @@
                 "type": "color",
                 "value": "{semantics.color.bg.light.neutral.l=4}"
               }
-            },
-            "l=titleText": {
-              "p=color": {
-                "type": "color",
-                "value": "{semantics.color.text.onLight.neutral.l=2}"
-              }
             }
         },
         "m=onDark": {
@@ -10892,12 +10958,6 @@
               "p=fill": {
                 "type": "color",
                 "value": "{semantics.color.bg.dark.neutral.l=4}"
-              }
-            },
-            "l=label": {
-              "p=color": {
-                "type": "color",
-                "value": "{semantics.color.text.onDark.neutral.l=2}"
               }
             }
         }
@@ -10919,11 +10979,7 @@
             "value": "{semantics.size.radius.xl}"
           }
         },
-        "l=buttonContainer": {
-          "p=width": {
-            "type": "sizing",
-            "value": "{semantics.size.sizing.medium.12}"
-          },
+        "l=navigationContainer": {
           "p=height": {
             "type": "sizing",
             "value": "{semantics.size.sizing.medium.1}"
@@ -10951,7 +11007,7 @@
             "value": "{semantics.space.xs}"
           }
         },
-        "l=labelAndButtonsContainer": {
+        "l=navigationContainer": {
           "p=paddingHorizontal": {
             "type": "spacing",
             "value": "{semantics.space.xl}"
@@ -10986,14 +11042,8 @@
       },
       "c=shadow": {
         "l=mainContainer": {
-         "value": "{composites.dropShadow.down.lg}",
+         "value": "{composites.dropShadow.up.sm}",
          "type": "boxShadow"
-        }
-      },
-      "c=font": {
-        "l=label": {
-          "value": "{composites.font.label.lg.medium}",
-          "type": "typography"
         }
       }
     },
