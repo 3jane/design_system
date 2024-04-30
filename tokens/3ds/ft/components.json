@@ -10004,6 +10004,12 @@
             "type": "borderWidth",
             "value": "{semantics.size.border.sm}"
           }
+        },
+        "l=mediaContainer": {
+          "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.md}"
+          }
         }
       },
       "c=space": {
@@ -10856,7 +10862,6 @@
     "DrawerSwipeable": {
       "c=color": {
         "m=onLight": {
-          "t=primary": {
             "l=mainContainer": {
               "p=fill": {
                 "type": "color",
@@ -10875,30 +10880,8 @@
                 "value": "{semantics.color.text.onLight.neutral.l=2}"
               }
             }
-          },
-          "t=secondary": {
-            "l=mainContainer": {
-              "p=fill": {
-                "type": "color",
-                "value": "{semantics.color.bg.light.neutral.l=1}"
-              }
-            },
-            "l=handle": {
-              "p=fill": {
-                "type": "color",
-                "value": "{semantics.color.bg.light.neutral.l=4}"
-              }
-            },
-            "l=titleText": {
-              "p=color": {
-                "type": "color",
-                "value": "{semantics.color.text.onLight.neutral.l=2}"
-              }
-            }
-          }
         },
         "m=onDark": {
-          "t=primary": {
             "l=mainContainer": {
               "p=fill": {
                 "type": "color",
@@ -10917,52 +10900,23 @@
                 "value": "{semantics.color.text.onDark.neutral.l=2}"
               }
             }
-          },
-          "t=secondary": {
-            "l=mainContainer": {
-              "p=fill": {
-                "type": "color",
-                "value": "{semantics.color.bg.dark.neutral.l=2}"
-              }
-            },
-            "l=handle": {
-              "p=fill": {
-                "type": "color",
-                "value": "{semantics.color.bg.dark.neutral.l=4}"
-              }
-            },
-            "l=label": {
-              "p=color": {
-                "type": "color",
-                "value": "{semantics.color.text.onDark.neutral.l=2}"
-              }
-            }
-          }
         }
       },
       "c=backgroundBlur": {
-        "t=primary": {
           "l=mainContainer": {
             "value": "{semantics.backgroundBlur.none}",
             "type": "composition"
           }
-        },
-        "t=secondary": {
-          "l=mainContainer": {
-            "value": "{semantics.backgroundBlur.none}",
-            "type": "composition"
-          }
-        }
       },
       "c=size": {
         "l=mainContainer": {
           "p=borderRadiusTopLeft": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.lg}"
+            "value": "{semantics.size.radius.xl}"
           },
           "p=borderRadiusTopRight": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.lg}"
+            "value": "{semantics.size.radius.xl}"
           }
         },
         "l=buttonContainer": {
