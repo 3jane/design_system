@@ -10937,7 +10937,11 @@
             "l=mainContainer": {
               "p=fill": {
                 "type": "color",
-                "value": "{semantics.color.palette.common.white}"
+                "value": "{semantics.color.bg.light.neutral.l=1}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
               }
             },
             "l=handle": {
@@ -10952,6 +10956,10 @@
               "p=fill": {
                 "type": "color",
                 "value": "{semantics.color.bg.dark.neutral.l=1}"
+              },
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
               }
             },
             "l=handle": {
@@ -10977,6 +10985,10 @@
           "p=borderRadiusTopRight": {
             "type": "borderRadius",
             "value": "{semantics.size.radius.xl}"
+          },
+          "p=borderWidthTop": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.sm}"
           }
         },
         "l=navigationContainer": {
@@ -11011,10 +11023,6 @@
           "p=paddingHorizontal": {
             "type": "spacing",
             "value": "{semantics.space.xl}"
-          },
-          "p=paddingVertical": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
           },
           "p=gap": {
             "type": "spacing",
