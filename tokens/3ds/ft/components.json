@@ -10096,7 +10096,7 @@
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.md}"
+            "value": "{semantics.space.2xl}"
           }
         },
         "l=mediaContainer": {
