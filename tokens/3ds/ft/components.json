@@ -11057,12 +11057,6 @@
                   "value": "{semantics.color.bg.light.neutral.l=1}"
                 }
               },
-              "l=text": {
-                "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.neutral.l=1}"
-                }
-              },
               "l=line": {
                 "p=border": {
                     "type": "color",
@@ -11075,12 +11069,6 @@
                 "p=fill": {
                   "type": "color",
                   "value": "{semantics.color.bg.light.neutral.l=1}"
-                }
-              },
-              "l=text": {
-                "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.neutral.l=3}"
                 }
               },
               "l=line": {
@@ -11097,12 +11085,6 @@
                   "value": "{semantics.color.bg.light.neutral.l=1}"
                 }
               },
-              "l=text": {
-                "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.brand.l=1}"
-                }
-              },
               "l=line": {
                 "p=border": {
                     "type": "color",
@@ -11117,12 +11099,6 @@
                   "value": "{semantics.color.bg.light.neutral.l=1}"
                 }
               },
-              "l=text": {
-                "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.blue.l=1}"
-                }
-              },
               "l=line": {
                 "p=border": {
                     "type": "color",
@@ -11135,12 +11111,6 @@
                 "p=fill": {
                   "type": "color",
                   "value": "{semantics.color.bg.light.neutral.l=1}"
-                }
-              },
-              "l=text": {
-                "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.purple.l=1}"
                 }
               },
               "l=line": {
@@ -11159,12 +11129,6 @@
                   "value": "{semantics.color.bg.dark.neutral.l=1}"
                 }
               },
-              "l=text": {
-                "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=1}"
-                }
-              },
               "l=line": {
                 "p=border": {
                     "type": "color",
@@ -11177,12 +11141,6 @@
                 "p=fill": {
                   "type": "color",
                   "value": "{semantics.color.bg.dark.neutral.l=1}"
-                }
-              },
-              "l=text": {
-                "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=3}"
                 }
               },
               "l=line": {
@@ -11199,12 +11157,6 @@
                   "value": "{semantics.color.bg.dark.neutral.l=1}"
                 }
               },
-              "l=text": {
-                "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.brand.l=1}"
-                }
-              },
               "l=line": {
                 "p=border": {
                     "type": "color",
@@ -11219,12 +11171,6 @@
                   "value": "{semantics.color.bg.dark.neutral.l=1}"
                 }
               },
-              "l=text": {
-                "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.blue.l=1}"
-                }
-              },
               "l=line": {
                 "p=border": {
                     "type": "color",
@@ -11237,12 +11183,6 @@
                 "p=fill": {
                   "type": "color",
                   "value": "{semantics.color.bg.dark.neutral.l=1}"
-                }
-              },
-              "l=text": {
-                "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.purple.l=1}"
                 }
               },
               "l=line": {
@@ -11282,12 +11222,6 @@
             "type": "spacing",
             "value": "{semantics.space.xs}"
           }
-        }
-      },
-      "c=font": {
-        "l=text": {
-          "value": "{composites.font.label.lg.thick}",
-          "type": "typography"
         }
       },
       "c=shadow": {
