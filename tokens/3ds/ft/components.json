@@ -10092,11 +10092,11 @@
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.md}"
+            "value": "{semantics.space.2xl}"
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.md}"
+            "value": "{semantics.space.2xl}"
           }
         },
         "l=mediaContainer": {
@@ -10110,7 +10110,7 @@
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.md}"
+            "value": "{semantics.space.none}"
           }
         },
         "l=contentContainer": {
@@ -10120,11 +10120,11 @@
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.md}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.md}"
+            "value": "{semantics.space.none}"
           }
         },
         "l=actionsContainer": {
@@ -10134,7 +10134,7 @@
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.md}"
+            "value": "{semantics.space.3xl}"
           },
           "p=paddingBottom": {
             "type": "spacing",
