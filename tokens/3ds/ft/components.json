@@ -15225,10 +15225,18 @@
           "p=fill": {
             "type": "color",
             "value": "{semantics.color.overlay.brand.o=2}"
+          },
+          "p=border": {
+            "type": "color",
+            "value": "{semantics.color.border.onLight.brand.l=1}"
           }
         },
         "v=transparent": {
           "p=fill": {
+            "type": "color",
+            "value": "{semantics.color.palette.common.transparent}"
+          },
+          "p=border": {
             "type": "color",
             "value": "{semantics.color.palette.common.transparent}"
           }
@@ -15274,9 +15282,21 @@
               "value": "{semantics.space.4xl}"
             }
           },
-          "p=height": {
-            "type": "sizing",
-            "value": "{semantics.space.md}"
+          "p=borderWidthLeft": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.sm}"
+          },
+          "p=borderWidthRight": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.sm}"
+          },
+          "p=borderWidthTop": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.none}"
+          },
+          "p=borderWidthBottom": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.none}"
           }
         },
         "t=vertical": {
@@ -15318,9 +15338,21 @@
               "value": "{semantics.space.4xl}"
             }
           },
-          "p=width": {
-            "type": "sizing",
-            "value": "{semantics.space.md}"
+          "p=borderWidthLeft": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.none}"
+          },
+          "p=borderWidthRight": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.none}"
+          },
+          "p=borderWidthTop": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.sm}"
+          },
+          "p=borderWidthBottom": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.sm}"
           }
         }
       }
