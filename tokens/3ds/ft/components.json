@@ -15736,9 +15736,7 @@
             "p=width": {
               "type": "sizing",
               "value": "{semantics.size.sizing.small.7}"
-            }
-          },
-          "l=container": {
+            },
             "p=height": {
               "type": "sizing",
               "value": "{semantics.size.sizing.medium.2}"
