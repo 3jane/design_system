@@ -15349,20 +15349,8 @@
       "Step": {
       "c=color": {
         "m=onLight": {
-          "t=outlined": {
+          "t=incomplete": {
             "v=neutral": {
-              "l=mainText": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=4}"
-                }
-              },
-              "l=opposingText": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=4}"
-                }
-              },
               "l=dot": {
                 "p=fill": {
                   "type": "color",
@@ -15375,18 +15363,6 @@
               }
             },
             "v=brand": {
-              "l=mainText": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=4}"
-                }
-              },
-              "l=opposingText": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=4}"
-                }
-              },
               "l=dot": {
                 "p=fill": {
                   "type": "color",
@@ -15399,20 +15375,8 @@
               }
             }
           },
-          "t=filled": {
+          "t=complete": {
             "v=neutral": {
-              "l=mainText": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=1}"
-                }
-              },
-              "l=opposingText": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=4}"
-                }
-              },
               "l=dot": {
                 "p=fill": {
                   "type": "color",
@@ -15425,18 +15389,6 @@
               }
             },
             "v=brand": {
-              "l=mainText": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.brand.l=1}"
-                }
-              },
-              "l=opposingText": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=4}"
-                }
-              },
               "l=dot": {
                 "p=fill": {
                   "type": "color",
@@ -15451,20 +15403,8 @@
           }
         },
         "m=onDark": {
-          "t=outlined": {
+          "t=incomplete": {
             "v=neutral": {
-              "l=mainText": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=4}"
-                }
-              },
-              "l=opposingText": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=4}"
-                }
-              },
               "l=dot": {
                 "p=fill": {
                   "type": "color",
@@ -15477,18 +15417,6 @@
               }
             },
             "v=brand": {
-              "l=mainText": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=4}"
-                }
-              },
-              "l=opposingText": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=4}"
-                }
-              },
               "l=dot": {
                 "p=fill": {
                   "type": "color",
@@ -15501,20 +15429,8 @@
               }
             }
           },
-          "t=filled": {
+          "t=complete": {
             "v=neutral": {
-              "l=mainText": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=1}"
-                }
-              },
-              "l=opposingText": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=4}"
-                }
-              },
               "l=dot": {
                 "p=fill": {
                   "type": "color",
@@ -15527,18 +15443,6 @@
               }
             },
             "v=brand": {
-              "l=mainText": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.brand.l=1}"
-                }
-              },
-              "l=opposingText": {
-                "p=color": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=4}"
-                }
-              },
               "l=dot": {
                 "p=fill": {
                   "type": "color",
@@ -15586,34 +15490,12 @@
             "value": "{semantics.space.2xl}"
           }
         }
-      },
-      "c=font": {
-        "t=outlined": {
-          "l=mainText": {
-            "value": "{composites.font.label.lg.medium}",
-            "type": "typography"
-          },
-          "l=opposingText": {
-            "value": "{composites.font.label.lg.thin}",
-            "type": "typography"
-          }
-        },
-        "t=filled": {
-          "l=mainText": {
-            "value": "{composites.font.label.lg.thick}",
-            "type": "typography"
-          },
-          "l=opposingText": {
-            "value": "{composites.font.label.lg.thin}",
-            "type": "typography"
-          }
-        }
       }
       },
       "Connector": {
         "c=color": {
           "m=onLight": {
-            "t=outlined": {
+            "t=incomplete": {
               "v=neutral": {
                 "l=line": {
                   "p=fill": {
@@ -15629,17 +15511,9 @@
                     "value": "{semantics.color.text.onLight.neutral.l=4}"
                   }
                 }
-              },
-              "v=brand2": {
-                "l=line": {
-                  "p=fill": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.neutral.l=4}"
-                  }
-                }
               }
             },
-            "t=filled": {
+            "t=complete": {
               "v=neutral": {
                 "l=line": {
                   "p=fill": {
@@ -15655,19 +15529,11 @@
                     "value": "{semantics.color.text.onLight.brand.l=1}"
                   }
                 }
-              },
-              "v=brand2": {
-                "l=line": {
-                  "p=fill": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.brand2.l=1}"
-                  }
-                }
               }
             }
           },
           "m=onDark": {
-            "t=outlined": {
+            "t=incomplete": {
               "v=neutral": {
                 "l=line": {
                   "p=fill": {
@@ -15683,17 +15549,9 @@
                     "value": "{semantics.color.text.onDark.neutral.l=4}"
                   }
                 }
-              },
-              "v=brand2": {
-                "l=line": {
-                  "p=fill": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=4}"
-                  }
-                }
               }
             },
-            "t=filled": {
+            "t=complete": {
               "v=neutral": {
                 "l=line": {
                   "p=fill": {
@@ -15707,14 +15565,6 @@
                   "p=fill": {
                     "type": "color",
                     "value": "{semantics.color.text.onDark.brand.l=1}"
-                  }
-                }
-              },
-              "v=brand2": {
-                "l=line": {
-                  "p=fill": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.brand2.l=1}"
                   }
                 }
               }
@@ -15732,7 +15582,7 @@
               "value": "{semantics.size.sizing.small.2}"
             }
           },
-          "l=subContainer": {
+          "l=container": {
             "p=width": {
               "type": "sizing",
               "value": "{semantics.size.sizing.small.7}"
