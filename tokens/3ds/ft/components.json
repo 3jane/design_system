@@ -15358,7 +15358,7 @@
                 },
                 "p=border": {
                   "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=4}"
+                  "value": "{semantics.color.text.onLight.neutral.l=3}"
                 }
               }
             },
@@ -15370,7 +15370,7 @@
                 },
                 "p=border": {
                   "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=4}"
+                  "value": "{semantics.color.text.onLight.neutral.l=3}"
                 }
               }
             }
@@ -15412,7 +15412,7 @@
                 },
                 "p=border": {
                   "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=4}"
+                  "value": "{semantics.color.text.onDark.neutral.l=3}"
                 }
               }
             },
@@ -15424,7 +15424,7 @@
                 },
                 "p=border": {
                   "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=4}"
+                  "value": "{semantics.color.text.onDark.neutral.l=3}"
                 }
               }
             }
@@ -15476,7 +15476,7 @@
             "value": "{semantics.size.radius.full}"
           }
         },
-        "l=container": {
+        "l=dotContainer": {
           "p=height": {
             "type": "sizing",
             "value": "{semantics.size.sizing.medium.2}"
@@ -15582,7 +15582,7 @@
               "value": "{semantics.size.sizing.small.2}"
             }
           },
-          "l=container": {
+          "l=lineContainer": {
             "p=width": {
               "type": "sizing",
               "value": "{semantics.size.sizing.small.7}"
