@@ -15221,7 +15221,6 @@
     },
     "Spacing": {
       "c=color": {
-        "v=visible": {
           "p=fill": {
             "type": "color",
             "value": "{semantics.color.overlay.brand.o=2}"
@@ -15230,17 +15229,6 @@
             "type": "color",
             "value": "{semantics.color.border.onLight.brand.l=1}"
           }
-        },
-        "v=transparent": {
-          "p=fill": {
-            "type": "color",
-            "value": "{semantics.color.palette.common.transparent}"
-          },
-          "p=border": {
-            "type": "color",
-            "value": "{semantics.color.palette.common.transparent}"
-          }
-        }
       },
       "c=size": {
         "t=horizontal": {
