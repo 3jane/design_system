@@ -11652,6 +11652,10 @@
                       "type": "color",
                       "value": "{semantics.color.bg.light.neutral.l=2}"
                     },
+                    "i=active": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.light.neutral.l=2}"
+                    },
                     "i=focus": {
                       "type": "color",
                       "value": "{semantics.color.bg.light.neutral.l=2}"
@@ -11678,6 +11682,10 @@
                       "value": "{semantics.color.bg.light.brand.l=1}"
                     },
                     "i=hover": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.light.brand.l=1}"
+                    },
+                    "i=active": {
                       "type": "color",
                       "value": "{semantics.color.bg.light.brand.l=1}"
                     },
@@ -11738,6 +11746,10 @@
                       "type": "color",
                       "value": "{semantics.color.bg.light.neutral.l=2}"
                     },
+                    "i=active": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.light.neutral.l=3}"
+                    },
                     "i=focus": {
                       "type": "color",
                       "value": "{semantics.color.bg.light.neutral.l=1}"
@@ -11766,6 +11778,10 @@
                     "i=hover": {
                       "type": "color",
                       "value": "{semantics.color.bg.light.neutral.l=2}"
+                    },
+                    "i=active": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.light.neutral.l=3}"
                     },
                     "i=focus": {
                       "type": "color",
@@ -11826,6 +11842,10 @@
                       "type": "color",
                       "value": "{semantics.color.bg.dark.neutral.l=2}"
                     },
+                    "i=active": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.dark.neutral.l=2}"
+                    },
                     "i=focus": {
                       "type": "color",
                       "value": "{semantics.color.bg.dark.neutral.l=2}"
@@ -11851,6 +11871,10 @@
                       "value": "{semantics.color.bg.dark.neutral.l=2}"
                     },
                     "i=hover": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.dark.neutral.l=2}"
+                    },
+                    "i=active": {
                       "type": "color",
                       "value": "{semantics.color.bg.dark.neutral.l=2}"
                     },
@@ -11910,6 +11934,10 @@
                       "type": "color",
                       "value": "{semantics.color.bg.dark.neutral.l=2}"
                     },
+                    "i=active": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.dark.neutral.l=3}"
+                    },
                     "i=focus": {
                       "type": "color",
                       "value": "{semantics.color.bg.dark.neutral.l=1}"
@@ -11937,6 +11965,10 @@
                     "i=hover": {
                       "type": "color",
                       "value": "{semantics.color.bg.dark.neutral.l=2}"
+                    },
+                    "i=active": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.dark.neutral.l=3}"
                     },
                     "i=focus": {
                       "type": "color",
@@ -12010,6 +12042,10 @@
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
           },
+          "i=active": {
+            "value": "{composites.dropShadow.none}",
+            "type": "boxShadow"
+          },
           "i=focus": {
             "value": "{composites.focusRing.brand}",
             "type": "boxShadow"
@@ -12023,6 +12059,10 @@
             "type": "boxShadow"
           },
           "i=hover": {
+            "value": "{composites.dropShadow.none}",
+            "type": "boxShadow"
+          },
+          "i=active": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
           },
