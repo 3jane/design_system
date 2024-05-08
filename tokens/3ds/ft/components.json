@@ -9815,10 +9815,6 @@
           }
         },
         "l=summaryContainer": {
-          "p=height": {
-            "type": "sizing",
-            "value": "{semantics.size.sizing.medium.4}"
-          },
           "p=borderWidthBottom": {
             "type": "borderWidth",
             "value": "{semantics.size.border.sm}"
@@ -9827,9 +9823,21 @@
       },
       "c=space": {
         "l=summaryContainer": {
-          "p=paddingHorizontal": {
+          "p=paddingTop": {
+            "type": "spacing",
+            "value": "{semantics.space.xs}"
+          },
+          "p=paddingBottom": {
+            "type": "spacing",
+            "value": "{semantics.space.xs}"
+          },
+          "p=paddingLeft": {
             "type": "spacing",
             "value": "{semantics.space.2xl}"
+          },
+          "p=paddingRight": {
+            "type": "spacing",
+            "value": "{semantics.space.xs}"
           },
           "p=gap": {
             "type": "spacing",
@@ -9843,7 +9851,7 @@
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.xl}"
+            "value": "{semantics.space.md}"
           },
           "p=paddingBottom": {
             "type": "spacing",
