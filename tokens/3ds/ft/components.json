@@ -9756,6 +9756,7 @@
       }
     },
     "Accordion": {
+      "Item": {
       "c=color": {
         "m=onLight": {
           "l=mainContainer": {
@@ -9860,6 +9861,27 @@
           "type": "boxShadow"
         }
       }
+    },
+    "Group": {
+      "c=space": {
+          "p=paddingHorizontal": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          },
+          "p=paddingTop": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          },
+          "p=paddingBottom": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          },
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          }
+      }
+    }
     },
     "AppBar": {
       "c=color": {
