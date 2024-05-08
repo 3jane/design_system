@@ -9768,16 +9768,14 @@
               "value": "{semantics.color.border.onLight.neutral.l=2}"
             }
           },
-          "l=topContainer": {
+          "l=summaryContainer": {
+            "p=fill": {
+              "type": "color",
+              "value": "{semantics.color.palette.common.transparent}"
+            },
             "p=border": {
               "type": "color",
               "value": "{semantics.color.palette.common.transparent}"
-            }
-          },
-          "l=title": {
-            "p=color": {
-              "type": "color",
-              "value": "{semantics.color.text.onLight.neutral.l=2}"
             }
           }
         },
@@ -9792,16 +9790,14 @@
               "value": "{semantics.color.border.onDark.neutral.l=2}"
             }
           },
-          "l=topContainer": {
+          "l=summaryContainer": {
+            "p=fill": {
+              "type": "color",
+              "value": "{semantics.color.palette.common.transparent}"
+            },
             "p=border": {
               "type": "color",
               "value": "{semantics.color.palette.common.transparent}"
-            }
-          },
-          "l=title": {
-            "p=color": {
-              "type": "color",
-              "value": "{semantics.color.text.onDark.neutral.l=2}"
             }
           }
         }
@@ -9817,7 +9813,7 @@
             "value": "{semantics.size.border.sm}"
           }
         },
-        "l=topContainer": {
+        "l=summaryContainer": {
           "p=height": {
             "type": "sizing",
             "value": "{semantics.size.sizing.medium.4}"
@@ -9829,7 +9825,7 @@
         }
       },
       "c=space": {
-        "l=topContainer": {
+        "l=summaryContainer": {
           "p=paddingHorizontal": {
             "type": "spacing",
             "value": "{semantics.space.2xl}"
@@ -9839,7 +9835,7 @@
             "value": "{semantics.space.none}"
           }
         },
-        "l=DetailsContainer": {
+        "l=detailsContainer": {
           "p=paddingHorizontal": {
             "type": "spacing",
             "value": "{semantics.space.2xl}"
@@ -9862,12 +9858,6 @@
         "l=mainContainer": {
           "value": "{composites.dropShadow.down.xs}",
           "type": "boxShadow"
-        }
-      },
-      "c=font": {
-        "l=title": {
-          "value": "{composites.font.body.md.thick}",
-          "type": "typography"
         }
       }
     },
