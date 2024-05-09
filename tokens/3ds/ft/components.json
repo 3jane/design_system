@@ -10173,7 +10173,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.overlay.neutral.o=1}"
                     }
                   },
                   "p=border": {
@@ -10197,7 +10197,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.overlay.brand.o=1"
                     }
                   },
                   "p=border": {
@@ -10223,7 +10223,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.overlay.neutral.o=1}"
                     }
                   },
                   "p=border": {
@@ -10247,7 +10247,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.overlay.brand.o=1}"
                     }
                   },
                   "p=border": {
@@ -10275,7 +10275,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.overlay.neutral.o=1}"
                     }
                   },
                   "p=border": {
@@ -10299,7 +10299,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.overlay.brand.o=1}"
                     }
                   },
                   "p=border": {
