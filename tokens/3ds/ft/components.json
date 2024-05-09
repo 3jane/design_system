@@ -9968,7 +9968,27 @@
             "type": "borderRadius",
             "value": "{semantics.size.radius.none}"
           },
+          "p=borderRadiusTopLeft": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.none}"
+          },
+          "p=borderRadiusTopRight": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.none}"
+          },
           "p=borderWidthBottom": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.sm}"
+          },
+          "p=borderWidthTop": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.sm}"
+          },
+          "p=borderWidthLeft": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.sm}"
+          },
+          "p=borderWidthRight": {
             "type": "borderWidth",
             "value": "{semantics.size.border.sm}"
           }
