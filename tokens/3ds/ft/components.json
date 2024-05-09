@@ -9756,6 +9756,7 @@
       }
     },
     "Accordion": {
+      "Item": {
       "c=color": {
         "m=onLight": {
           "l=mainContainer": {
@@ -9866,6 +9867,29 @@
         "l=mainContainer": {
           "value": "{composites.dropShadow.down.xs}",
           "type": "boxShadow"
+        }
+      }
+      },
+      "Group": {
+        "c=space": {
+          "l=container": {
+            "p=paddingHorizontal": {
+              "type": "spacing",
+              "value": "{semantics.space.none}"
+            },
+            "p=paddingTop": {
+              "type": "spacing",
+              "value": "{semantics.space.none}"
+            },
+            "p=paddingBottom": {
+              "type": "spacing",
+              "value": "{semantics.space.none}"
+            },
+            "p=gap": {
+              "type": "spacing",
+              "value": "{semantics.space.xl}"
+            }
+          }
         }
       }
     },
