@@ -10197,7 +10197,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.overlay.brand.o=1"
+                      "value": "{semantics.color.overlay.brand.o=1}"
                     }
                   },
                   "p=border": {
