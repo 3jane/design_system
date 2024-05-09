@@ -9953,11 +9953,11 @@
           "p=height": {
             "v=small": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.medium.5}"
+            "value": "{semantics.size.sizing.medium.6}"
             },
             "v=large": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.medium.6}"
+              "value": "{semantics.size.sizing.medium.7}"
             }
           },
           "p=borderRadiusBottomLeft": {
@@ -9982,15 +9982,15 @@
           },
           "p=borderWidthTop": {
             "type": "borderWidth",
-            "value": "{semantics.size.border.sm}"
+            "value": "{semantics.size.border.none}"
           },
           "p=borderWidthLeft": {
             "type": "borderWidth",
-            "value": "{semantics.size.border.sm}"
+            "value": "{semantics.size.border.none}"
           },
           "p=borderWidthRight": {
             "type": "borderWidth",
-            "value": "{semantics.size.border.sm}"
+            "value": "{semantics.size.border.none}"
           }
         }
       },
