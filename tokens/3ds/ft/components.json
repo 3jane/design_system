@@ -9978,23 +9978,23 @@
         "l=container": {
           "p=paddingLeft": {
             "type": "spacing",
-            "value": "{semantics.space.xl}"
+            "value": "{semantics.space.2xl}"
           },
           "p=paddingRight": {
             "type": "spacing",
-            "value": "{semantics.space.xl}"
+            "value": "{semantics.space.2xl}"
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.xl}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.xl}"
+            "value": "{semantics.space.none}"
           },
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.xs}"
+            "value": "{semantics.space.none}"
           }
         }
       },
