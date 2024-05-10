@@ -16561,16 +16561,52 @@
         "m=onLight": {
           "l=vector": {
             "p=fill": {
-             "type": "color",
-             "value": "{semantics.color.bg.light.neutral.l=4}"
+              "i=none": {
+               "type": "color",
+               "value": "{semantics.color.bg.light.neutral.l=4}"
+              },
+              "i=hover": {
+                "type": "color",
+                "value": "{semantics.color.bg.light.neutral.l=4}"
+              },
+              "i=active": {
+                "type": "color",
+                "value": "{semantics.color.bg.light.neutral.l=4}"
+              },
+              "i=focus": {
+                "type": "color",
+                "value": "{semantics.color.bg.light.neutral.l=4}"
+              }
+            },
+            "p=border": {
+              "type": "color",
+              "value": "{semantics.color.palette.common.transparent}"
             }
           }
         },
         "m=onDark": {
           "l=vector": {
            "p=fill": {
+            "i=none": {
               "type": "color",
               "value": "{semantics.color.bg.dark.neutral.l=4}"
+             },
+             "i=hover": {
+               "type": "color",
+               "value": "{semantics.color.bg.dark.neutral.l=4}"
+             },
+             "i=active": {
+               "type": "color",
+               "value": "{semantics.color.bg.dark.neutral.l=4}"
+             },
+             "i=focus": {
+               "type": "color",
+               "value": "{semantics.color.bg.light.neutral.l=4}"
+             }
+            },
+            "p=border": {
+              "type": "color",
+              "value": "{semantics.color.palette.common.transparent}"
             }
           }
         }
@@ -16605,8 +16641,22 @@
         },
         "c=shadow": {
           "l=vector": {
-          "value": "{composites.dropShadow.none}",
-          "type": "boxShadow"
+            "i=none": {
+              "value": "{composites.dropShadow.none}",
+              "type": "boxShadow"
+            },
+            "i=hover": {
+              "value": "{composites.dropShadow.none}",
+              "type": "boxShadow"
+            },
+            "i=active": {
+              "value": "{composites.dropShadow.none}",
+              "type": "boxShadow"
+            },
+            "i=focus": {
+              "value": "{composites.focusRing.brand}",
+              "type": "boxShadow"
+            }
           }
         },
         "c=backgroundBlur": {
