@@ -16555,6 +16555,36 @@
             }
           }
         }
+      },
+      "Handle": {
+        "c=color": {
+        "m=onLight": {
+          "p=fill": {
+            "type": "color",
+            "value": "{semantics.color.bg.light.neutral.l=4}"
+          }
+        },
+        "m=onDark": {
+          "p=fill": {
+            "type": "color",
+            "value": "{semantics.color.bg.dark.neutral.l=4}"
+          }
+        }
+        },
+        "c=size": {
+          "p=width": {
+            "type": "sizing",
+            "value": "{semantics.size.sizing.medium.2}"
+          },
+          "p=height": {
+            "type": "sizing",
+            "value": "{semantics.size.sizing.small.4}"
+          },
+          "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.full}"
+          }
+        }
       }
     }
   }
