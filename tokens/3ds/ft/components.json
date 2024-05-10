@@ -10839,10 +10839,6 @@
         "type": "composition"
       },
       "c=size": {
-        "p=width": {
-          "type": "sizing",
-          "value": "{semantics.size.sizing.large.5}"
-        },
         "p=borderWidth": {
           "type": "borderWidth",
           "value": "{semantics.size.border.sm}"
@@ -10855,11 +10851,11 @@
         },
         "p=paddingHorizontal": {
           "type": "spacing",
-          "value": "{semantics.space.none}"
+          "value": "{semantics.space.2xl}"
         },
         "p=gap": {
           "type": "spacing",
-          "value": "{semantics.space.xl}"
+          "value": "{semantics.space.none}"
         }
       },
       "c=shadow": {
@@ -10870,130 +10866,6 @@
         "t=outlined": {
           "value": "{composites.dropShadow.none}",
           "type": "boxShadow"
-        }
-      }
-    },
-    "DrawerSwipeable": {
-      "c=color": {
-        "m=onLight": {
-            "l=mainContainer": {
-              "p=fill": {
-                "type": "color",
-                "value": "{semantics.color.bg.light.neutral.l=1}"
-              },
-              "p=border": {
-                "type": "color",
-                "value": "{semantics.color.palette.common.transparent}"
-              }
-            },
-            "l=handle": {
-              "p=fill": {
-                "type": "color",
-                "value": "{semantics.color.bg.light.neutral.l=4}"
-              }
-            }
-        },
-        "m=onDark": {
-            "l=mainContainer": {
-              "p=fill": {
-                "type": "color",
-                "value": "{semantics.color.bg.dark.neutral.l=1}"
-              },
-              "p=border": {
-                "type": "color",
-                "value": "{semantics.color.palette.common.transparent}"
-              }
-            },
-            "l=handle": {
-              "p=fill": {
-                "type": "color",
-                "value": "{semantics.color.bg.dark.neutral.l=4}"
-              }
-            }
-        }
-      },
-      "c=backgroundBlur": {
-          "l=mainContainer": {
-            "value": "{semantics.backgroundBlur.none}",
-            "type": "composition"
-          }
-      },
-      "c=size": {
-        "l=mainContainer": {
-          "p=borderRadiusTopLeft": {
-            "type": "borderRadius",
-            "value": "{semantics.size.radius.xl}"
-          },
-          "p=borderRadiusTopRight": {
-            "type": "borderRadius",
-            "value": "{semantics.size.radius.xl}"
-          },
-          "p=borderWidthTop": {
-            "type": "borderWidth",
-            "value": "{semantics.size.border.sm}"
-          }
-        },
-        "l=navigationContainer": {
-          "p=height": {
-            "type": "sizing",
-            "value": "{semantics.size.sizing.medium.1}"
-          }
-        },
-        "l=handle": {
-          "p=width": {
-            "type": "sizing",
-            "value": "{semantics.size.sizing.medium.2}"
-          },
-          "p=height": {
-            "type": "sizing",
-            "value": "{semantics.size.sizing.small.4}"
-          },
-          "p=borderRadius": {
-            "type": "borderRadius",
-            "value": "{semantics.size.radius.full}"
-          }
-        }
-      },
-      "c=space": {
-        "l=handleContainer": {
-          "p=paddingVertical": {
-            "type": "spacing",
-            "value": "{semantics.space.xs}"
-          }
-        },
-        "l=navigationContainer": {
-          "p=paddingHorizontal": {
-            "type": "spacing",
-            "value": "{semantics.space.xl}"
-          },
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.sm}"
-          }
-        },
-        "l=contentContainer": {
-          "p=paddingHorizontal": {
-            "type": "spacing",
-            "value": "{semantics.space.xl}"
-          },
-          "p=paddingTop": {
-            "type": "spacing",
-            "value": "{semantics.space.xl}"
-          },
-          "p=paddingBottom": {
-            "type": "spacing",
-            "value": "{semantics.space.xl}"
-          },
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.xl}"
-          }
-        }
-      },
-      "c=shadow": {
-        "l=mainContainer": {
-         "value": "{composites.dropShadow.up.sm}",
-         "type": "boxShadow"
         }
       }
     },
@@ -15266,7 +15138,7 @@
             "value": "{semantics.size.radius.full}"
           }
         },
-        "l=dotContainer": {
+        "l=container": {
           "p=height": {
             "type": "sizing",
             "value": "{semantics.size.sizing.medium.2}"
@@ -15290,7 +15162,7 @@
                 "l=line": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                    "value": "{semantics.color.text.onLight.neutral.l=3}"
                   }
                 }
               },
@@ -15298,7 +15170,7 @@
                 "l=line": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                    "value": "{semantics.color.text.onLight.neutral.l=3}"
                   }
                 }
               }
@@ -15328,7 +15200,7 @@
                 "l=line": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=4}"
+                    "value": "{semantics.color.text.onDark.neutral.l=3}"
                   }
                 }
               },
@@ -15336,7 +15208,7 @@
                 "l=line": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=4}"
+                    "value": "{semantics.color.text.onDark.neutral.l=3}"
                   }
                 }
               }
@@ -15372,11 +15244,7 @@
               "value": "{semantics.size.sizing.small.2}"
             }
           },
-          "l=lineContainer": {
-            "p=width": {
-              "type": "sizing",
-              "value": "{semantics.size.sizing.small.7}"
-            },
+          "l=container": {
             "p=height": {
               "type": "sizing",
               "value": "{semantics.size.sizing.medium.2}"
@@ -16601,7 +16469,7 @@
              },
              "i=focus": {
                "type": "color",
-               "value": "{semantics.color.bg.light.neutral.l=4}"
+               "value": "{semantics.color.bg.dark.neutral.l=4}"
              }
             },
             "p=border": {
