@@ -10488,6 +10488,12 @@
           "value": "{composites.dropShadow.none}",
           "type": "boxShadow"
         }
+      },
+      "c=backgroundBlur": {
+        "l=mainContainer": {
+          "value": "{semantics.backgroundBlur.xl}",
+          "type": "composition"
+        }
       }
       }
     },
