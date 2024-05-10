@@ -16462,22 +16462,8 @@
            }
         },
         "c=shadow": {
-            "i=none": {
               "value": "{composites.dropShadow.none}",
               "type": "boxShadow"
-            },
-            "i=hover": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=active": {
-              "value": "{composites.dropShadow.none}",
-              "type": "boxShadow"
-            },
-            "i=focus": {
-              "value": "{composites.focusRing.brand}",
-              "type": "boxShadow"
-            }
         },
         "c=backgroundBlur": {
           "value": "{semantics.backgroundBlur.none}",
