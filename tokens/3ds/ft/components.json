@@ -10411,7 +10411,7 @@
       "Group": {
       "c=color": {
         "m=onLight": {
-            "l=container": {
+            "l=mainContainer": {
               "p=fill": {
                 "type": "color",
                 "value": "{semantics.color.overlay.neutral.o=4}"
@@ -10423,7 +10423,7 @@
             }
         },
         "m=onDark": {
-        "l=container": {
+        "l=mainContainer": {
           "p=fill": {
             "type": "color",
             "value": "{semantics.color.overlay.neutral.o=3}"
@@ -10436,7 +10436,7 @@
         }
       },
       "c=size": {
-        "l=container": {
+        "l=mainContainer": {
           "p=borderRadiusBottomLeft": {
             "type": "borderRadius",
             "value": "{semantics.size.radius.none}"
@@ -10472,7 +10472,7 @@
         }
       },
       "c=space": {
-        "l=container": {
+        "l=itemContainer": {
           "p=paddingHorizontal": {
             "type": "spacing",
             "value": "{semantics.space.none}"
@@ -10484,7 +10484,7 @@
         }
       },
       "c=shadow": {
-        "l=container": {
+        "l=mainContainer": {
           "value": "{composites.dropShadow.none}",
           "type": "boxShadow"
         }
