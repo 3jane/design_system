@@ -10790,48 +10790,24 @@
     "Drawer": {
       "c=color": {
         "m=onLight": {
-          "t=elevated": {
             "p=fill": {
               "type": "color",
-              "value": "{semantics.color.palette.common.white}"
+              "value": "{semantics.color.bg.light.neutral.l=1}"
             },
             "p=border": {
               "type": "color",
-              "value": "{semantics.color.palette.common.transparent}"
+              "value": "{semantics.color.border.onLight.neutral.l=2}"
             }
-          },
-          "t=outlined": {
-            "p=fill": {
-              "type": "color",
-              "value": "{semantics.color.palette.common.white}"
-            },
-            "p=border": {
-              "type": "color",
-              "value": "{semantics.color.border.onLight.neutral.l=1}"
-            }
-          }
         },
         "m=onDark": {
-          "t=elevated": {
             "p=fill": {
               "type": "color",
               "value": "{semantics.color.bg.dark.neutral.l=1}"
             },
             "p=border": {
               "type": "color",
-              "value": "{semantics.color.palette.common.transparent}"
+              "value": "{semantics.color.border.onDark.neutral.l=2}"
             }
-          },
-          "t=outlined": {
-            "p=fill": {
-              "type": "color",
-              "value": "{semantics.color.bg.dark.neutral.l=1}"
-            },
-            "p=border": {
-              "type": "color",
-              "value": "{semantics.color.border.onDark.neutral.l=1}"
-            }
-          }
         }
       },
       "c=backgroundBlur": {
@@ -10859,14 +10835,8 @@
         }
       },
       "c=shadow": {
-        "t=elevated": {
-          "value": "{composites.dropShadow.down.lg}",
+          "value": "{composites.dropShadow.center.lg}",
           "type": "boxShadow"
-        },
-        "t=outlined": {
-          "value": "{composites.dropShadow.none}",
-          "type": "boxShadow"
-        }
       }
     },
     "Link": {
