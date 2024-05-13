@@ -11356,7 +11356,7 @@
                   },
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.border.onLight.neutral.l=2}"
                   }
           }
         },
@@ -11368,7 +11368,7 @@
                   },
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.border.onDark.neutral.l=2}"
                   }
           }
         }
@@ -11377,7 +11377,7 @@
           "l=container": {
         "p=borderRadius": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.buttonLike.medium}"
+            "value": "{semantics.size.radius.xl}"
         },
         "p=borderWidth": {
           "type": "borderWidth",
@@ -11389,21 +11389,21 @@
           "l=container": {
         "p=paddingHorizontal": {
             "type": "spacing",
-            "value": "{semantics.space.lg}"
+            "value": "{semantics.space.xs}"
         },
         "p=paddingVertical": {
           "type": "spacing",
-          "value": "{semantics.space.lg}"
+          "value": "{semantics.space.xs}"
         },
         "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.xs}"
+            "value": "{semantics.space.none}"
         }
         }
         },
         "c=shadow": {
           "l=container": {
-          "value": "{composites.dropShadow.none}",
+          "value": "{composites.dropShadow.center.xs}",
           "type": "boxShadow"
           }
         }
