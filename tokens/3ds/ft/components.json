@@ -16401,19 +16401,19 @@
             "p=fill": {
               "i=none": {
                "type": "color",
-               "value": "{semantics.color.bg.light.neutral.l=4}"
+               "value": "{semantics.color.bg.light.neutral.l=3}"
               },
               "i=hover": {
                 "type": "color",
-                "value": "{semantics.color.bg.light.neutral.l=4}"
+                "value": "{semantics.color.bg.light.neutral.l=3}"
               },
               "i=active": {
                 "type": "color",
-                "value": "{semantics.color.bg.light.neutral.l=4}"
+                "value": "{semantics.color.bg.light.neutral.l=3}"
               },
               "i=focus": {
                 "type": "color",
-                "value": "{semantics.color.bg.light.neutral.l=4}"
+                "value": "{semantics.color.bg.light.neutral.l=3}"
               }
             },
             "p=border": {
@@ -16427,19 +16427,19 @@
            "p=fill": {
             "i=none": {
               "type": "color",
-              "value": "{semantics.color.bg.dark.neutral.l=4}"
+              "value": "{semantics.color.bg.dark.neutral.l=3}"
              },
              "i=hover": {
                "type": "color",
-               "value": "{semantics.color.bg.dark.neutral.l=4}"
+               "value": "{semantics.color.bg.dark.neutral.l=3}"
              },
              "i=active": {
                "type": "color",
-               "value": "{semantics.color.bg.dark.neutral.l=4}"
+               "value": "{semantics.color.bg.dark.neutral.l=3}"
              },
              "i=focus": {
                "type": "color",
-               "value": "{semantics.color.bg.dark.neutral.l=4}"
+               "value": "{semantics.color.bg.dark.neutral.l=3}"
              }
             },
             "p=border": {
@@ -16467,10 +16467,6 @@
         },
         "c=space": {
           "l=container": {
-            "p=paddingHorizontal": {
-              "type": "spacing",
-              "value": "{semantics.space.md}"
-            },
             "p=paddingVertical": {
               "type": "spacing",
               "value": "{semantics.space.md}"
