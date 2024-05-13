@@ -11299,7 +11299,7 @@
             },
             "p=borderRadius": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.buttonLike.medium}"
+            "value": "{semantics.size.radius.none}"
             },
             "p=borderWidth": {
           "type": "borderWidth",
@@ -11311,7 +11311,7 @@
           "l=container": {
             "p=paddingHorizontal": {
             "type": "spacing",
-            "value": "{semantics.space.lg}"
+            "value": "{semantics.space.xl}"
             },
             "p=paddingVertical": {
               "type": "spacing",
@@ -11389,11 +11389,11 @@
           "l=container": {
         "p=paddingHorizontal": {
             "type": "spacing",
-            "value": "{semantics.space.xs}"
+            "value": "{semantics.space.none}"
         },
         "p=paddingVertical": {
           "type": "spacing",
-          "value": "{semantics.space.xs}"
+          "value": "{semantics.space.sm}"
         },
         "p=gap": {
             "type": "spacing",
