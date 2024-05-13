@@ -6841,7 +6841,6 @@
         "m=onLight": {
           "t=selected": {
             "s=enabled": {
-              "v=neutral": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -6894,10 +6893,8 @@
                     }
                   }
                 }
-              }
             },
             "s=disabled": {
-              "v=disabled": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -6926,12 +6923,10 @@
                     }
                   }
                 }
-              }
             }
           },
           "t=deselected": {
             "s=enabled": {
-              "v=neutral": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -6984,10 +6979,8 @@
                     }
                   }
                 }
-              }
             },
             "s=disabled": {
-              "v=disabled": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -7016,14 +7009,12 @@
                     }
                   }
                 }
-              }
             }
           }
         },
         "m=onDark": {
           "t=selected": {
             "s=enabled": {
-              "v=neutral": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -7076,10 +7067,8 @@
                     }
                   }
                 }
-              }
             },
             "s=disabled": {
-              "v=disabled": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -7108,12 +7097,10 @@
                     }
                   }
                 }
-              }
             }
           },
           "t=deselected": {
             "s=enabled": {
-              "v=neutral": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -7166,10 +7153,8 @@
                     }
                   }
                 }
-              }
             },
             "s=disabled": {
-              "v=disabled": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -7198,7 +7183,6 @@
                     }
                   }
                 }
-              }
             }
           }
         }
@@ -11093,7 +11077,6 @@
         "m=onLight": {
           "t=selected": {
             "s=enabled": {
-              "v=neutral": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -11130,10 +11113,8 @@
                     }
                   }
                 }
-              }
             },
             "s=disabled": {
-              "v=disabled": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -11154,12 +11135,10 @@
                     }
                   }
                 }
-              }
             }
           },
           "t=deselected": {
             "s=enabled": {
-              "v=neutral": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -11196,10 +11175,8 @@
                     }
                   }
                 }
-              }
             },
             "s=disabled": {
-              "v=disabled": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -11220,14 +11197,12 @@
                     }
                   }
                 }
-              }
             }
           }
         },
         "m=onDark": {
           "t=selected": {
             "s=enabled": {
-              "v=neutral": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -11264,10 +11239,8 @@
                     }
                   }
                 }
-              }
             },
             "s=disabled": {
-              "v=disabled": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -11288,12 +11261,10 @@
                     }
                   }
                 }
-              }
             }
           },
           "t=deselected": {
             "s=enabled": {
-              "v=neutral": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -11330,10 +11301,8 @@
                     }
                   }
                 }
-              }
             },
             "s=disabled": {
-              "v=disabled": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -11354,7 +11323,6 @@
                     }
                   }
                 }
-              }
             }
           }
         }
@@ -15301,7 +15269,6 @@
         "m=onLight": {
           "t=selected": {
             "s=enabled": {
-              "v=neutral": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -15328,10 +15295,8 @@
                     "value": "{semantics.color.text.onLight.neutral.l=1}"
                   }
                 }
-              }
             },
             "s=disabled": {
-              "v=disabled": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -15352,12 +15317,10 @@
                     }
                   }
                 }
-              }
             }
           },
           "t=deselected": {
             "s=enabled": {
-              "v=neutral": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -15384,10 +15347,8 @@
                       "value": "{semantics.color.text.onLight.neutral.l=3}"
                   }
                 }
-              }
             },
             "s=disabled": {
-              "v=disabled": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -15408,14 +15369,12 @@
                     }
                   }
                 }
-              }
             }
           }
         },
         "m=onDark": {
           "t=selected": {
             "s=enabled": {
-              "v=neutral": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -15442,10 +15401,8 @@
                       "value": "{semantics.color.text.onDark.neutral.l=1}"
                   }
                 }
-              }
             },
             "s=disabled": {
-              "v=disabled": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -15466,12 +15423,10 @@
                     }
                   }
                 }
-              }
             }
           },
           "t=deselected": {
             "s=enabled": {
-              "v=neutral": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -15498,10 +15453,8 @@
                       "value": "{semantics.color.text.onDark.neutral.l=3}"
                   }
                 }
-              }
             },
             "s=disabled": {
-              "v=disabled": {
                 "l=container": {
                   "p=fill": {
                     "i=none": {
@@ -15522,7 +15475,6 @@
                     }
                   }
                 }
-              }
             }
           }
         }
