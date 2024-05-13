@@ -9728,7 +9728,7 @@
           },
           "p=paddingRight": {
             "type": "spacing",
-            "value": "{semantics.space.xs}"
+            "value": "{semantics.space.sm}"
           },
           "p=paddingVertical": {
             "type": "spacing",
@@ -9737,12 +9737,6 @@
           "p=gap": {
             "type": "spacing",
             "value": "{semantics.space.xs}"
-          }
-        },
-        "l=buttonContainer": {
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
           }
         }
       },
