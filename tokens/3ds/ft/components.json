@@ -7189,14 +7189,18 @@
         },
         "c=size": {
           "l=container": {
-        "p=borderRadius": {
-            "type": "borderRadius",
-            "value": "{semantics.size.radius.buttonLike.medium}"
-        },
-        "p=borderWidth": {
-          "type": "borderWidth",
-          "value": "{semantics.size.border.sm}"
-        }
+            "p=minHeight": {
+                "type": "sizing",
+                "value": "{semantics.size.sizing.medium.4}"
+              },
+            "p=borderRadius": {
+             "type": "borderRadius",
+             "value": "{semantics.size.radius.buttonLike.medium}"
+            },
+            "p=borderWidth": {
+             "type": "borderWidth",
+             "value": "{semantics.size.border.sm}"
+            }
       }
         },
         "c=space": {
@@ -11329,9 +11333,9 @@
         },
         "c=size": {
           "l=container": {
-            "p=height": {
+            "p=minHeight": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.medium.4}"
+            "value": "{semantics.size.sizing.medium.2}"
             },
             "p=borderRadius": {
             "type": "borderRadius",
@@ -11349,6 +11353,10 @@
             "type": "spacing",
             "value": "{semantics.space.lg}"
             },
+            "p=paddingVertical": {
+              "type": "spacing",
+              "value": "{semantics.space.sm}"
+              },
             "p=gap": {
             "type": "spacing",
             "value": "{semantics.space.md}"
@@ -15481,7 +15489,7 @@
         },
         "c=size": {
           "l=container": {
-           "p=height": {
+           "p=minHeight": {
           "type": "sizing",
           "value": "{semantics.size.sizing.medium.1}"
            },
@@ -15501,6 +15509,10 @@
           "type": "spacing",
           "value": "{semantics.space.md}"
            },
+           "p=paddingVertical": {
+            "type": "spacing",
+            "value": "{semantics.space.sm}"
+             },
            "p=gap": {
           "type": "spacing",
           "value": "{semantics.space.xs}"
