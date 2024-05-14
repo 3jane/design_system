@@ -6862,34 +6862,14 @@
                 },
                 "l=titleText": {
                   "p=color": {
-                    "i=none": {
                       "type": "color",
                       "value": "{semantics.color.text.onLight.neutral.l=2}"
-                    },
-                    "i=hover": {
-                      "type": "color",
-                      "value": "{semantics.color.text.onLight.neutral.l=2}"
-                    },
-                    "i=focus": {
-                      "type": "color",
-                      "value": "{semantics.color.text.onLight.neutral.l=2}"
-                    }
                   }
                 },
                 "l=supportingText": {
                   "p=color": {
-                    "i=none": {
                       "type": "color",
                       "value": "{semantics.color.text.onLight.neutral.l=4}"
-                    },
-                    "i=hover": {
-                      "type": "color",
-                      "value": "{semantics.color.text.onLight.neutral.l=4}"
-                    },
-                    "i=focus": {
-                      "type": "color",
-                      "value": "{semantics.color.text.onLight.neutral.l=4}"
-                    }
                   }
                 }
               },
@@ -6948,34 +6928,14 @@
                 },
                 "l=titleText": {
                   "p=color": {
-                    "i=none": {
                       "type": "color",
                       "value": "{semantics.color.text.onLight.neutral.l=2}"
-                    },
-                    "i=hover": {
-                      "type": "color",
-                      "value": "{semantics.color.text.onLight.neutral.l=2}"
-                    },
-                    "i=focus": {
-                      "type": "color",
-                      "value": "{semantics.color.text.onLight.neutral.l=2}"
-                    }
                   }
                 },
                 "l=supportingText": {
                   "p=color": {
-                    "i=none": {
                       "type": "color",
                       "value": "{semantics.color.text.onLight.neutral.l=4}"
-                    },
-                    "i=hover": {
-                      "type": "color",
-                      "value": "{semantics.color.text.onLight.neutral.l=4}"
-                    },
-                    "i=focus": {
-                      "type": "color",
-                      "value": "{semantics.color.text.onLight.neutral.l=4}"
-                    }
                   }
                 }
               },
@@ -7036,34 +6996,14 @@
                 },
                 "l=titleText": {
                   "p=color": {
-                    "i=none": {
                       "type": "color",
                       "value": "{semantics.color.text.onDark.neutral.l=2}"
-                    },
-                    "i=hover": {
-                      "type": "color",
-                      "value": "{semantics.color.text.onDark.neutral.l=2}"
-                    },
-                    "i=focus": {
-                      "type": "color",
-                      "value": "{semantics.color.text.onDark.neutral.l=2}"
-                    }
                   }
                 },
                 "l=supportingText": {
                   "p=color": {
-                    "i=none": {
                       "type": "color",
                       "value": "{semantics.color.text.onDark.neutral.l=4}"
-                    },
-                    "i=hover": {
-                      "type": "color",
-                      "value": "{semantics.color.text.onDark.neutral.l=4}"
-                    },
-                    "i=focus": {
-                      "type": "color",
-                      "value": "{semantics.color.text.onDark.neutral.l=4}"
-                    }
                   }
                 }
               },
@@ -7122,34 +7062,14 @@
                 },
                 "l=titleText": {
                   "p=color": {
-                    "i=none": {
                       "type": "color",
                       "value": "{semantics.color.text.onDark.neutral.l=2}"
-                    },
-                    "i=hover": {
-                      "type": "color",
-                      "value": "{semantics.color.text.onDark.neutral.l=2}"
-                    },
-                    "i=focus": {
-                      "type": "color",
-                      "value": "{semantics.color.text.onDark.neutral.l=2}"
-                    }
                   }
                 },
                 "l=supportingText": {
                   "p=color": {
-                    "i=none": {
                       "type": "color",
                       "value": "{semantics.color.text.onDark.neutral.l=4}"
-                    },
-                    "i=hover": {
-                      "type": "color",
-                      "value": "{semantics.color.text.onDark.neutral.l=4}"
-                    },
-                    "i=focus": {
-                      "type": "color",
-                      "value": "{semantics.color.text.onDark.neutral.l=4}"
-                    }
                   }
                 }
               },
