@@ -7172,44 +7172,6 @@
         }
       },
       "Group": {
-        "c=color": {
-          "m=onLight": {
-            "l=container": {
-              "p=fill": {
-                "type": "color",
-                "value": "{semantics.color.bg.light.neutral.l=1}"
-              },
-              "p=border": {
-                "type": "color",
-                "value": "{semantics.color.palette.common.transparent}"
-              }
-            }
-          },
-          "m=onDark": {
-            "l=container": {
-              "p=fill": {
-                "type": "color",
-                "value": "{semantics.color.bg.dark.neutral.l=1}"
-              },
-              "p=border": {
-                "type": "color",
-                "value": "{semantics.color.palette.common.transparent}"
-              }
-            }
-          }
-        },
-        "c=size": {
-          "l=container": {
-            "p=borderRadius": {
-              "type": "borderRadius",
-              "value": "{semantics.size.radius.buttonLike.medium}"
-            },
-            "p=borderWidth": {
-              "type": "borderWidth",
-              "value": "{semantics.size.border.sm}"
-            }
-          }
-        },
         "c=space": {
           "l=container": {
             "p=paddingHorizontal": {
@@ -7224,12 +7186,6 @@
               "type": "spacing",
               "value": "{semantics.space.xs}"
             }
-          }
-        },
-        "c=shadow": {
-          "l=container": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
           }
         }
       }
