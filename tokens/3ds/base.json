@@ -585,6 +585,18 @@
         "robotoMono": {
           "value": "Roboto Mono",
           "type": "fontFamilies"
+        },
+        "dmsans": {
+          "value": "DM Sans",
+          "type": "fontFamilies"
+        },
+        "satoshi": {
+          "value": "Satoshi Variable",
+          "type": "fontFamilies"
+        },
+        "manrope": {
+          "value": "Manrope",
+          "type": "fontFamilies"
         }
       },
       "weight": {
