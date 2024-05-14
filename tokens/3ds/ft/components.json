@@ -7114,7 +7114,7 @@
             },
             "p=borderRadius": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.buttonLike.medium}"
+              "value": "{semantics.size.radius.none}"
             },
             "p=borderWidth": {
               "type": "borderWidth",
@@ -7126,7 +7126,7 @@
           "l=container": {
             "p=paddingHorizontal": {
               "type": "spacing",
-              "value": "{semantics.space.lg}"
+              "value": "{semantics.space.2xl}"
             },
             "p=paddingVertical": {
               "type": "spacing",
@@ -7134,7 +7134,7 @@
             },
             "p=gap": {
               "type": "spacing",
-              "value": "{semantics.space.md}"
+              "value": "{semantics.space.none}"
             }
           },
           "l=textContainer": {
@@ -7180,11 +7180,11 @@
             },
             "p=paddingVertical": {
               "type": "spacing",
-              "value": "{semantics.space.xs}"
+              "value": "{semantics.space.none}"
             },
             "p=gap": {
               "type": "spacing",
-              "value": "{semantics.space.xs}"
+              "value": "{semantics.space.none}"
             }
           }
         }
