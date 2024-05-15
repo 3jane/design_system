@@ -13544,11 +13544,11 @@
           "t=selected": {
             "l=container": {
               "i=none": {
-                "value": "{composites.dropShadow.none}",
+                "value": "{composites.dropShadow.center.sm}",
                 "type": "boxShadow"
               },
               "i=hover": {
-                "value": "{composites.dropShadow.none}",
+                "value": "{composites.dropShadow.center.sm}",
                 "type": "boxShadow"
               },
               "i=focus": {
