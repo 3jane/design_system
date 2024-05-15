@@ -4575,10 +4575,6 @@
                     "type": "color",
                     "value": "{semantics.color.bg.light.neutral.l=1}"
                   },
-                  "i=active": {
-                    "type": "color",
-                    "value": "{semantics.color.bg.light.neutral.l=1}"
-                  },
                   "i=focus": {
                     "type": "color",
                     "value": "{semantics.color.bg.light.neutral.l=1}"
@@ -4597,10 +4593,6 @@
                     "type": "color",
                     "value": "{semantics.color.border.onLight.neutral.l=1}"
                   },
-                  "i=active": {
-                    "type": "color",
-                    "value": "{semantics.color.border.onLight.brand.l=1}"
-                  },
                   "i=focus": {
                     "type": "color",
                     "value": "{semantics.color.border.onLight.brand.l=1}"
@@ -4618,10 +4610,6 @@
                     "value": "{semantics.color.text.onLight.neutral.l=4}"
                   },
                   "i=entered": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.neutral.l=2}"
-                  },
-                  "i=active": {
                     "type": "color",
                     "value": "{semantics.color.text.onLight.neutral.l=2}"
                   },
@@ -4659,10 +4647,6 @@
                     "type": "color",
                     "value": "{semantics.color.bg.light.neutral.l=1}"
                   },
-                  "i=active": {
-                    "type": "color",
-                    "value": "{semantics.color.bg.light.neutral.l=1}"
-                  },
                   "i=focus": {
                     "type": "color",
                     "value": "{semantics.color.bg.light.neutral.l=1}"
@@ -4678,10 +4662,6 @@
                     "value": "{semantics.color.border.onLight.error.l=1}"
                   },
                   "i=entered": {
-                    "type": "color",
-                    "value": "{semantics.color.border.onLight.error.l=1}"
-                  },
-                  "i=active": {
                     "type": "color",
                     "value": "{semantics.color.border.onLight.error.l=1}"
                   },
@@ -4702,10 +4682,6 @@
                     "value": "{semantics.color.text.onLight.neutral.l=4}"
                   },
                   "i=entered": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onLight.neutral.l=2}"
-                  },
-                  "i=active": {
                     "type": "color",
                     "value": "{semantics.color.text.onLight.neutral.l=2}"
                   },
@@ -4785,10 +4761,6 @@
                     "type": "color",
                     "value": "{semantics.color.bg.dark.neutral.l=2}"
                   },
-                  "i=active": {
-                    "type": "color",
-                    "value": "{semantics.color.bg.dark.neutral.l=2}"
-                  },
                   "i=focus": {
                     "type": "color",
                     "value": "{semantics.color.bg.dark.neutral.l=2}"
@@ -4807,10 +4779,6 @@
                     "type": "color",
                     "value": "{semantics.color.border.onDark.neutral.l=1}"
                   },
-                  "i=active": {
-                    "type": "color",
-                    "value": "{semantics.color.border.onDark.brand.l=1}"
-                  },
                   "i=focus": {
                     "type": "color",
                     "value": "{semantics.color.border.onDark.brand.l=1}"
@@ -4828,10 +4796,6 @@
                     "value": "{semantics.color.text.onDark.neutral.l=4}"
                   },
                   "i=entered": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=2}"
-                  },
-                  "i=active": {
                     "type": "color",
                     "value": "{semantics.color.text.onDark.neutral.l=2}"
                   },
@@ -4869,10 +4833,6 @@
                     "type": "color",
                     "value": "{semantics.color.bg.dark.neutral.l=2}"
                   },
-                  "i=active": {
-                    "type": "color",
-                    "value": "{semantics.color.bg.dark.neutral.l=2}"
-                  },
                   "i=focus": {
                     "type": "color",
                     "value": "{semantics.color.bg.dark.neutral.l=2}"
@@ -4888,10 +4848,6 @@
                     "value": "{semantics.color.border.onDark.error.l=1}"
                   },
                   "i=entered": {
-                    "type": "color",
-                    "value": "{semantics.color.border.onDark.error.l=1}"
-                  },
-                  "i=active": {
                     "type": "color",
                     "value": "{semantics.color.border.onDark.error.l=1}"
                   },
@@ -4912,10 +4868,6 @@
                     "value": "{semantics.color.text.onDark.neutral.l=4}"
                   },
                   "i=entered": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=2}"
-                  },
-                  "i=active": {
                     "type": "color",
                     "value": "{semantics.color.text.onDark.neutral.l=2}"
                   },
@@ -5003,7 +4955,7 @@
           },
           "p=gap": {
               "type": "spacing",
-              "value": "{semantics.space.lg}"
+              "value": "{semantics.space.none}"
           }
         },
         "l=placeholderContainer": {
@@ -5064,10 +5016,6 @@
           "i=focus": {
             "value": "{composites.focusRing.brand}",
             "type": "boxShadow"
-          },
-          "i=active": {
-            "value": "{composites.focusRing.brand}",
-            "type": "boxShadow"
           }
         },
         "v=error": {
@@ -5084,10 +5032,6 @@
             "type": "boxShadow"
           },
           "i=focus": {
-            "value": "{composites.focusRing.error}",
-            "type": "boxShadow"
-          },
-          "i=active": {
             "value": "{composites.focusRing.error}",
             "type": "boxShadow"
           }
