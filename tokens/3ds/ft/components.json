@@ -13408,7 +13408,7 @@
               "l=label": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=2}"
+                  "value": "{semantics.color.text.onLight.neutral.l=1}"
                 }
               }
             },
@@ -13425,7 +13425,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.bg.light.neutral.l=2}"
                   }
                 },
                 "p=border": {
@@ -13466,7 +13466,7 @@
               "l=label": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=2}"
+                  "value": "{semantics.color.text.onDark.neutral.l=1}"
                 }
               }
             },
@@ -13483,7 +13483,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.bg.dark.neutral.l=2}"
                   }
                 },
                 "p=border": {
@@ -13807,7 +13807,7 @@
             "l=container": {
               "p=fill": {
                 "type": "color",
-                "value": "{semantics.color.bg.light.neutral.l=3}"
+                "value": "{semantics.color.bg.light.neutral.l=2}"
               },
               "p=border": {
                 "type": "color",
@@ -13819,7 +13819,7 @@
             "l=container": {
               "p=fill": {
                 "type": "color",
-                "value": "{semantics.color.bg.dark.neutral.l=3}"
+                "value": "{semantics.color.bg.dark.neutral.l=2}"
               },
               "p=border": {
                 "type": "color",
@@ -13832,7 +13832,7 @@
           "l=container": {
             "p=borderRadius": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.none}"
+              "value": "{semantics.size.radius.xl}"
             },
             "p=borderWidth": {
               "type": "borderWidth",
@@ -13844,15 +13844,15 @@
           "l=container": {
             "p=paddingHorizontal": {
               "type": "spacing",
-              "value": "{semantics.space.none}"
+              "value": "{semantics.space.xs}"
             },
             "p=paddingVertical": {
               "type": "spacing",
-              "value": "{semantics.space.none}"
+              "value": "{semantics.space.xs}"
             },
             "p=gap": {
               "type": "spacing",
-              "value": "{semantics.space.none}"
+              "value": "{semantics.space.xs}"
             }
           }
         },
