@@ -1,25 +1,11 @@
 {
   "components": {
     "Autocomplete": {
-      "c=size": {
-        "l=container": {
-          "p=height": {
-            "v=small": {
-              "type": "sizing",
-              "value": "90"
-            },
-            "v=medium": {
-              "type": "sizing",
-              "value": "89"
-            }
-          }
-        }
-      },
       "c=space": {
         "l=container": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.3xs}"
+            "value": "{semantics.space.2xs}"
           }
         }
       }
@@ -3377,25 +3363,11 @@
       }
     },
     "Select": {
-      "c=size": {
-        "l=container": {
-          "p=height": {
-            "v=small": {
-              "type": "sizing",
-              "value": "85"
-            },
-            "v=medium": {
-              "type": "sizing",
-              "value": "89"
-            }
-          }
-        }
-      },
       "c=space": {
         "l=container": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.3xs}"
+            "value": "{semantics.space .2xs}"
           }
         }
       }
