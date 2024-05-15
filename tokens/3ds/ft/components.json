@@ -4981,95 +4981,69 @@
       },
       "c=size": {
         "l=inputContainer": {
-          "p=height": {
-            "v=small": {
-              "type": "sizing",
-              "value": "{semantics.size.sizing.medium.2}"
-            },
-            "v=medium": {
+          "p=minHeight": {
               "type": "sizing",
               "value": "{semantics.size.sizing.medium.4}"
-            }
           },
           "p=borderRadius": {
-            "v=small": {
-              "type": "borderRadius",
-              "value": "{semantics.size.radius.buttonLike.small}"
-            },
-            "v=medium": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.buttonLike.medium}"
-            }
           },
           "p=borderWidth": {
-            "v=small": {
               "type": "borderWidth",
               "value": "{semantics.size.border.sm}"
-            },
-            "v=medium": {
-              "type": "borderWidth",
-              "value": "{semantics.size.border.sm}"
-            }
           }
         }
       },
       "c=space": {
         "l=inputContainer": {
-          "p=padding": {
-            "v=small": {
+          "p=paddingHorizontal": {
               "type": "spacing",
               "value": "{semantics.space.xl}"
-            },
-            "v=medium": {
-              "type": "spacing",
-              "value": "{semantics.space.xl}"
-            }
           },
           "p=gap": {
-            "v=small": {
               "type": "spacing",
               "value": "{semantics.space.lg}"
-            },
-            "v=medium": {
+          }
+        },
+        "l=placeholderContainer": {
+          "p=paddingHorizontal": {
               "type": "spacing",
-              "value": "{semantics.space.lg}"
-            }
+              "value": "{semantics.space.none}"
+          },
+          "p=paddingVertical": {
+            "type": "spacing",
+            "value": "{semantics.space.lg}"
+        },
+          "p=gap": {
+              "type": "spacing",
+              "value": "{semantics.space.none}"
           }
         },
         "l=mainContainer": {
           "p=gap": {
-            "v=small": {
               "type": "spacing",
               "value": "{semantics.space.sm}"
-            },
-            "v=medium": {
-              "type": "spacing",
-              "value": "{semantics.space.sm}"
-            }
           }
         },
         "l=labelContainer": {
           "p=padding": {
-            "v=small": {
               "type": "spacing",
               "value": "{semantics.space.none}"
-            },
-            "v=medium": {
+          },
+          "p=gap": {
               "type": "spacing",
-              "value": "{semantics.space.none}"
-            }
+              "value": "{semantics.space.sm}"
           }
         },
         "l=hintContainer": {
           "p=padding": {
-            "v=small": {
               "type": "spacing",
               "value": "{semantics.space.none}"
-            },
-            "v=medium": {
+          },
+          "p=gap": {
               "type": "spacing",
-              "value": "{semantics.space.none}"
-            }
+              "value": "{semantics.space.sm}"
           }
         }
       },
@@ -5121,34 +5095,16 @@
       },
       "c=font": {
         "l=inputText": {
-          "v=small": {
             "value": "{composites.font.label.lg.thin}",
             "type": "typography"
-          },
-          "v=medium": {
-            "value": "{composites.font.label.lg.thin}",
-            "type": "typography"
-          }
         },
         "l=labelText": {
-          "v=small": {
             "value": "{composites.font.label.md.medium}",
             "type": "typography"
-          },
-          "v=medium": {
-            "value": "{composites.font.label.md.medium}",
-            "type": "typography"
-          }
         },
         "l=hintText": {
-          "v=small": {
             "value": "{composites.font.label.md.thin}",
             "type": "typography"
-          },
-          "v=medium": {
-            "value": "{composites.font.label.md.thin}",
-            "type": "typography"
-          }
         }
       }
     },
@@ -13864,7 +13820,7 @@
         }
       }
     },
-    "TabUnderline": {
+    "TabUnderline": { 
       "Item": {
         "c=color": {
           "m=onLight": {
