@@ -13380,7 +13380,7 @@
         }
       }
     },
-    "TabClassical": {
+    "TabBrowser": {
       "Item": {
         "c=color": {
           "m=onLight": {
