@@ -4999,7 +4999,7 @@
         "l=inputContainer": {
           "p=paddingHorizontal": {
               "type": "spacing",
-              "value": "{semantics.space.xl}"
+              "value": "{semantics.space.none}"
           },
           "p=gap": {
               "type": "spacing",
@@ -5027,7 +5027,7 @@
           }
         },
         "l=labelContainer": {
-          "p=padding": {
+          "p=paddingHorizontal": {
               "type": "spacing",
               "value": "{semantics.space.none}"
           },
@@ -5037,7 +5037,7 @@
           }
         },
         "l=hintContainer": {
-          "p=padding": {
+          "p=paddingHorizontal": {
               "type": "spacing",
               "value": "{semantics.space.none}"
           },
