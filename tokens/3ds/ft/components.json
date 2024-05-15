@@ -5000,7 +5000,8 @@
         }
       },
       "c=shadow": {
-        "v=neutral": {
+        "l=inputContainer": {
+         "v=neutral": {
           "i=none": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
@@ -5017,8 +5018,8 @@
             "value": "{composites.focusRing.brand}",
             "type": "boxShadow"
           }
-        },
-        "v=error": {
+         },
+         "v=error": {
           "i=none": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
@@ -5035,7 +5036,8 @@
             "value": "{composites.focusRing.error}",
             "type": "boxShadow"
           }
-        }
+         }
+       }
       },
       "c=font": {
         "l=inputText": {
