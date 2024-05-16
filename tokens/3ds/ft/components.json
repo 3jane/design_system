@@ -3367,7 +3367,7 @@
         "l=container": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space .2xs}"
+            "value": "{semantics.space.2xs}"
           }
         }
       }
