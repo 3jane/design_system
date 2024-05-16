@@ -2775,11 +2775,15 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.dropShadow.down.xs}",
+              "value": "{composites.focusRing.brand}",
               "type": "boxShadow"
             }
           }
         }
+      },
+      "c=backgroundBlur": {
+        "value": "{semantics.backgroundBlur.2xl}",
+        "type": "composition"
       },
       "c=font": {
         "l=label": {
