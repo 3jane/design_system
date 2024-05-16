@@ -11830,11 +11830,11 @@
           "l=container": {
             "p=paddingHorizontal": {
                 "type": "spacing",
-                "value": "{semantics.space.sm}"
+                "value": "{semantics.space.xs}"
             },
             "p=paddingVertical": {
               "type": "spacing",
-              "value": "{semantics.space.sm}"
+              "value": "{semantics.space.xs}"
           },
             "p=gap": {
                 "type": "spacing",
