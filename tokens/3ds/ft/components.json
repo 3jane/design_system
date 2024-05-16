@@ -2700,15 +2700,15 @@
           "p=borderRadius": {
             "v=small": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.buttonLike.medium}"
+              "value": "{semantics.size.radius.none}"
             },
             "v=medium": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.buttonLike.large}"
+              "value": "{semantics.size.radius.none}"
             },
             "v=large": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.buttonLike.large}"
+              "value": "{semantics.size.radius.none}"
             }
           },
           "p=borderWidth": {
