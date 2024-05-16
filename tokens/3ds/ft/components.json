@@ -2686,15 +2686,15 @@
           "p=borderRadius": {
             "v=small": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.none}"
+              "value": "{semantics.size.radius.full}"
             },
             "v=medium": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.none}"
+              "value": "{semantics.size.radius.full}"
             },
             "v=large": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.none}"
+              "value": "{semantics.size.radius.full}"
             }
           },
           "p=borderWidth": {
@@ -2745,11 +2745,11 @@
         "l=container": {
           "t=filled": {
             "i=none": {
-              "value": "{composites.dropShadow.down.xs}",
+              "value": "{composites.dropShadow.none}",
               "type": "boxShadow"
             },
             "i=hover": {
-              "value": "{composites.dropShadow.down.sm}",
+              "value": "{composites.dropShadow.none}",
               "type": "boxShadow"
             },
             "i=active": {
@@ -2767,15 +2767,15 @@
               "type": "boxShadow"
             },
             "i=hover": {
-              "value": "{composites.dropShadow.down.sm}",
+              "value": "{composites.dropShadow.down.xs}",
               "type": "boxShadow"
             },
             "i=active": {
-              "value": "{composites.dropShadow.none}",
+              "value": "{composites.dropShadow.down.xs}",
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.dropShadow.down.xs}",
               "type": "boxShadow"
             }
           }
