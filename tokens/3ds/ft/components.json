@@ -2683,20 +2683,6 @@
       },
       "c=size": {
         "l=container": {
-          "p=height": {
-            "v=small": {
-              "type": "sizing",
-              "value": "{semantics.size.sizing.medium.3}"
-            },
-            "v=medium": {
-              "type": "sizing",
-              "value": "{semantics.size.sizing.medium.5}"
-            },
-            "v=large": {
-              "type": "sizing",
-              "value": "{semantics.size.sizing.medium.7}"
-            }
-          },
           "p=borderRadius": {
             "v=small": {
               "type": "borderRadius",
@@ -2725,14 +2711,14 @@
       },
       "c=space": {
         "l=container": {
-          "p=paddingHorizontal": {
+          "p=padding": {
             "v=small": {
               "type": "spacing",
-              "value": "{semantics.space.2xl}"
+              "value": "{semantics.space.md}"
             },
             "v=medium": {
               "type": "spacing",
-              "value": "{semantics.space.2xl}"
+              "value": "{semantics.space.xl}"
             },
             "v=large": {
               "type": "spacing",
@@ -2766,12 +2752,12 @@
               "value": "{composites.dropShadow.down.sm}",
               "type": "boxShadow"
             },
-            "i=focus": {
-              "value": "{composites.focusRing.brand}",
-              "type": "boxShadow"
-            },
             "i=active": {
               "value": "{composites.dropShadow.none}",
+              "type": "boxShadow"
+            },
+            "i=focus": {
+              "value": "{composites.focusRing.brand}",
               "type": "boxShadow"
             }
           },
@@ -2784,12 +2770,12 @@
               "value": "{composites.dropShadow.down.sm}",
               "type": "boxShadow"
             },
-            "i=focus": {
-              "value": "{composites.focusRing.brand}",
-              "type": "boxShadow"
-            },
             "i=active": {
               "value": "{composites.dropShadow.none}",
+              "type": "boxShadow"
+            },
+            "i=focus": {
+              "value": "{composites.focusRing.brand}",
               "type": "boxShadow"
             }
           }
