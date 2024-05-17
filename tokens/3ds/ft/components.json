@@ -9092,6 +9092,10 @@
           "value": "{composites.dropShadow.down.sm}",
           "type": "boxShadow"
         }
+      },
+      "c=backgroundBlur": {
+        "value": "{semantics.backgroundBlur.2xl}",
+        "type": "composition"
       }
     },
     "Backdrop": {
