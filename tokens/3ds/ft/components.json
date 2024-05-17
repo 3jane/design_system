@@ -10721,6 +10721,20 @@
               }
             }
           },
+          "v=error": {
+            "l=container": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.bg.light.neutral.l=1}"
+              }
+            },
+            "l=line": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.text.onLight.error.l=1}"
+              }
+            }
+          },
           "v=link": {
             "l=container": {
               "p=fill": {
@@ -10790,6 +10804,20 @@
               "p=border": {
                 "type": "color",
                 "value": "{semantics.color.text.onDark.brand.l=1}"
+              }
+            }
+          },
+          "v=error": {
+            "l=container": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.bg.dark.neutral.l=1}"
+              }
+            },
+            "l=line": {
+              "p=border": {
+                "type": "color",
+                "value": "{semantics.color.text.onDark.error.l=1}"
               }
             }
           },
