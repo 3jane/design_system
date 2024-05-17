@@ -7775,7 +7775,7 @@
                 "type": "sizing",
                 "value": "{semantics.size.sizing.medium.4}"
               },
-              "v=medium": {
+              "v=large": {
                 "type": "sizing",
                 "value": "{semantics.size.sizing.medium.6}"
               }
@@ -7793,7 +7793,7 @@
                 "type": "spacing",
                 "value": "{semantics.space.2xl}"
               },
-              "v=medium": {
+              "v=large": {
                 "type": "spacing",
                 "value": "{semantics.space.2xl}"
               }
@@ -7803,7 +7803,7 @@
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               },
-              "v=medium": {
+              "v=large": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               }
@@ -7913,7 +7913,7 @@
                 "type": "sizing",
                 "value": "{semantics.size.sizing.medium.4}"
               },
-              "v=medium": {
+              "v=large": {
                 "type": "sizing",
                 "value": "{semantics.size.sizing.medium.6}"
               }
@@ -7931,7 +7931,7 @@
                 "type": "spacing",
                 "value": "{semantics.space.2xl}"
               },
-              "v=medium": {
+              "v=large": {
                 "type": "spacing",
                 "value": "{semantics.space.2xl}"
               }
@@ -7941,7 +7941,7 @@
                 "type": "spacing",
                 "value": "{semantics.space.xs}"
               },
-              "v=medium": {
+              "v=large": {
                 "type": "spacing",
                 "value": "{semantics.space.xs}"
               }
@@ -7966,11 +7966,11 @@
         },
         "c=font": {
           "l=label": {
-            "small": {
+            "v=small": {
               "value": "{composites.font.label.lg.thick}",
               "type": "typography"
             },
-            "medium": {
+            "v=large": {
               "value": "{composites.font.label.lg.thick}",
               "type": "typography"
             }
@@ -8019,7 +8019,7 @@
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               },
-              "v=medium": {
+              "v=large": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               }
@@ -8029,7 +8029,7 @@
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               },
-              "v=medium": {
+              "v=large": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               }
@@ -8085,7 +8085,7 @@
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               },
-              "v=medium": {
+              "v=large": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               }
@@ -8095,7 +8095,7 @@
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               },
-              "v=medium": {
+              "v=large": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               }
@@ -8167,7 +8167,7 @@
                 "type": "sizing",
                 "value": "{semantics.size.sizing.medium.3}"
               },
-              "v=medium": {
+              "v=large": {
                 "type": "sizing",
                 "value": "{semantics.size.sizing.medium.5}"
               }
@@ -8185,7 +8185,7 @@
                 "type": "spacing",
                 "value": "{semantics.space.4xl}"
               },
-              "v=medium": {
+              "v=large": {
                 "type": "spacing",
                 "value": "{semantics.space.4xl}"
               }
@@ -8195,7 +8195,7 @@
                 "type": "spacing",
                 "value": "{semantics.space.2xl}"
               },
-              "v=medium": {
+              "v=large": {
                 "type": "spacing",
                 "value": "{semantics.space.2xl}"
               }
@@ -8205,7 +8205,7 @@
                 "type": "spacing",
                 "value": "{semantics.space.2xl}"
               },
-              "v=medium": {
+              "v=large": {
                 "type": "spacing",
                 "value": "{semantics.space.2xl}"
               }
