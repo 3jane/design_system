@@ -7852,18 +7852,8 @@
             },
             "l=label": {
               "p=color": {
-               "i=none": {
                   "type": "color",
                   "value": "{semantics.color.text.onLight.neutral.l=1}"
-               },
-               "i=hover": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=2}"
-               },
-               "i=focus": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onLight.neutral.l=2}"
-               }
              }
             }
           },
@@ -7890,18 +7880,8 @@
             },
             "l=label": {
               "p=color": {
-              "i=none": {
                   "type": "color",
                   "value": "{semantics.color.text.onDark.neutral.l=1}"
-              },
-              "i=hover": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=2}"
-              },
-              "i=focus": {
-                  "type": "color",
-                  "value": "{semantics.color.text.onDark.neutral.l=2}"
-              }
              }
             }
           }
