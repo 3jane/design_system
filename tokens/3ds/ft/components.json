@@ -9216,12 +9216,6 @@
               "type": "color",
               "value": "{semantics.color.palette.common.transparent}"
             }
-          },
-          "l=text": {
-            "p=color": {
-              "type": "color",
-              "value": "{semantics.color.text.onDark.neutral.l=2}"
-            }
           }
         },
         "m=onDark": {
@@ -9233,12 +9227,6 @@
             "p=border": {
               "type": "color",
               "value": "{semantics.color.palette.common.transparent}"
-            }
-          },
-          "l=text": {
-            "p=color": {
-              "type": "color",
-              "value": "{semantics.color.text.onLight.neutral.l=2}"
             }
           }
         }
@@ -9277,12 +9265,6 @@
             "type": "spacing",
             "value": "{semantics.space.xs}"
           }
-        }
-      },
-      "c=font": {
-        "l=text": {
-          "value": "{composites.font.body.md.medium}",
-          "type": "typography"
         }
       },
       "c=shadow": {
