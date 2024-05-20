@@ -5601,7 +5601,17 @@
       },
       "c=size": {
         "l=container": {
-          "p=size": {
+          "p=height": {
+            "v=standard": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.small.11}"
+            },
+            "v=dot": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.small.5}"
+            }
+          },
+          "p=minWidth": {
             "v=standard": {
               "type": "sizing",
               "value": "{semantics.size.sizing.small.11}"
@@ -5624,6 +5634,18 @@
               "type": "borderWidth",
               "value": "{semantics.size.border.none}"
             }
+          }
+        }
+      },
+      "c=space": {
+        "l=container": {
+          "p=paddingHorizontal": {
+            "type": "spacing",
+            "value": "{semantics.space.2xs}"
+          },
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
           }
         }
       },
@@ -11678,7 +11700,7 @@
         }
       }
     },
-    "Stepper": {
+    "StepperAlternative": {
       "Item": {
         "c=color": {
           "m=onLight": {
