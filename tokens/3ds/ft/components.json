@@ -7946,14 +7946,8 @@
         },
         "c=font": {
           "l=label": {
-            "v=small": {
               "value": "{composites.font.label.lg.thick}",
               "type": "typography"
-            },
-            "v=large": {
-              "value": "{composites.font.label.lg.thick}",
-              "type": "typography"
-            }
           }
         }
       },
