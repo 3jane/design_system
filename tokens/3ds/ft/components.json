@@ -12223,7 +12223,7 @@
                 "l=label": {
                   "p=color": {
                       "type": "color",
-                      "value": "{semantics.color.text.onLight.neutral.l=4}"
+                      "value": "{semantics.color.text.onLight.neutral.l=3}"
                   }
                 },
                 "l=supportingText": {
@@ -12248,13 +12248,13 @@
                 "l=label": {
                   "p=color": {
                       "type": "color",
-                      "value": "{semantics.color.text.onLight.neutral.l=2}"
+                      "value": "{semantics.color.text.onLight.neutral.l=3}"
                   }
                 },
                 "l=supportingText": {
                   "p=color": {
                       "type": "color",
-                      "value": "{semantics.color.text.onLight.neutral.l=3}"
+                      "value": "{semantics.color.text.onLight.neutral.l=4}"
                   }
                 }
               }
@@ -12274,7 +12274,7 @@
                 "l=label": {
                   "p=color": {
                       "type": "color",
-                      "value": "{semantics.color.text.onLight.neutral.l=2}"
+                      "value": "{semantics.color.text.onLight.neutral.l=1}"
                   }
                 },
                 "l=supportingText": {
@@ -12324,7 +12324,7 @@
                 "l=label": {
                   "p=color": {
                       "type": "color",
-                      "value": "{semantics.color.text.onLight.neutral.l=2}"
+                      "value": "{semantics.color.text.onLight.neutral.l=1}"
                   }
                 },
                 "l=supportingText": {
@@ -12348,13 +12348,13 @@
                 "l=label": {
                   "p=color": {
                       "type": "color",
-                      "value": "{semantics.color.text.onLight.neutral.l=2}"
+                      "value": "{semantics.color.text.onLight.neutral.l=3}"
                   }
                 },
                 "l=supportingText": {
                   "p=color": {
                       "type": "color",
-                      "value": "{semantics.color.text.onLight.neutral.l=3}"
+                      "value": "{semantics.color.text.onLight.neutral.l=4}"
                   }
                 }
               }
@@ -12533,10 +12533,6 @@
             }
           },
           "l=textContainer": {
-            "p=paddingHorizontal": {
-              "type": "spacing",
-              "value": "{semantics.space.none}"
-            },
             "p=gap": {
               "type": "spacing",
               "value": "{semantics.space.2xs}"
