@@ -12051,6 +12051,28 @@
             }
             }
           }
+        },
+        "c=font": {
+            "t=incomplete": {
+              "l=title": {
+              "value": "{composites.font.label.lg.thick}",
+              "type": "typography"
+              },
+              "l=supportingText": {
+                "value": "{composites.font.label.md.thin}",
+                "type": "typography"
+              }
+            },
+            "t=complete": {
+              "l=title": {
+                  "value": "{composites.font.label.lg.thick}",
+                  "type": "typography"
+                },
+                "l=supportingText": {
+                  "value": "{composites.font.label.md.thin}",
+                  "type": "typography"
+                }
+            }
         }
       },
       "Connector": {
