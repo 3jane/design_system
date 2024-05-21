@@ -12324,13 +12324,13 @@
                 "l=label": {
                   "p=color": {
                       "type": "color",
-                      "value": "{semantics.color.text.onLight.neutral.l=1}"
+                      "value": "{semantics.color.text.onLight.neutral.l=3}"
                   }
                 },
                 "l=supportingText": {
                   "p=color": {
                       "type": "color",
-                      "value": "{semantics.color.text.onLight.neutral.l=3}"
+                      "value": "{semantics.color.text.onLight.neutral.l=4}"
                   }
                 }
               },
