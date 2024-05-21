@@ -13342,7 +13342,19 @@
               "type": "borderRadius",
               "value": "{semantics.size.radius.buttonLike.small}"
             },
-            "p=borderWidth": {
+            "p=borderWidthLeft": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.sm}"
+            },
+            "p=borderWidthTop": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.sm}"
+            },
+            "p=borderWidthRight": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.sm}"
+            },
+            "p=borderWidthBottom": {
               "type": "borderWidth",
               "value": "{semantics.size.border.sm}"
             }
