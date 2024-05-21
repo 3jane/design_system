@@ -11682,6 +11682,470 @@
         }
       }
     },
+    "Stepper": {
+      "StepIcon": {
+        "c=color": {
+          "m=onLight": {
+            "t=incomplete": {
+              "v=neutral": {
+                "l=container": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.neutral.l=4}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "l=number": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                  }
+                }
+              },
+              "v=brand": {
+                "l=container": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.neutral.l=4}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "l=number": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                  }
+                }
+              }
+            },
+            "t=complete": {
+              "v=neutral": {
+                "l=container": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "l=number": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                  }
+                }
+              },
+              "v=brand": {
+                "l=container": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.brand.l=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "l=number": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                  }
+                }
+              }
+            }
+          },
+          "m=onDark": {
+            "t=incomplete": {
+              "v=neutral": {
+                "l=container": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.neutral.l=4}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "l=number": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                  }
+                },
+                "l=title": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                  }
+                }
+              },
+              "v=brand": {
+                "l=container": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.light.neutral.l=4}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "l=number": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                  }
+                }
+              }
+            },
+            "t=complete": {
+              "v=neutral": {
+                "l=container": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "l=number": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                  }
+                }
+              },
+              "v=brand": {
+                "l=container": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.brand.l=1}"
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
+                  }
+                },
+                "l=number": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "c=size": {
+          "l=container": {
+            "p=height": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.small.11}"
+            },
+            "p=minWidth": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.small.11}"
+            },
+            "p=borderWidth": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.none}"
+            },
+            "p=borderRadius": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.full}"
+            }
+          }
+        },
+        "c=space": {
+            "l=container": {
+            "p=paddingHorizontal": {
+              "type": "spacing",
+              "value": "{semantics.space.2xs}"
+            }
+            }
+        }
+      },
+      "Step": {
+        "c=color": {
+          "m=onLight": {
+            "t=incomplete": {
+              "v=neutral": {
+                "l=title": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=3}"
+                  }
+                },
+                "l=supportingText": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                  }
+                }
+              },
+              "v=brand": {
+                "l=title": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=3}"
+                  }
+                },
+                "l=supportingText": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                  }
+                }
+              }
+            },
+            "t=complete": {
+              "v=neutral": {
+                "l=title": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=1}"
+                  }
+                },
+                "l=supportingText": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=3}"
+                  }
+                }
+              },
+              "v=brand": {
+                "l=title": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=1}"
+                  }
+                },
+                "l=supportingText": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=3}"
+                  }
+                }
+              }
+            }
+          },
+          "m=onDark": {
+            "t=incomplete": {
+              "v=neutral": {
+                "l=title": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=3}"
+                  }
+                },
+                "l=supportingText": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=4}"
+                  }
+                }
+              },
+              "v=brand": {
+                "l=title": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=3}"
+                  }
+                },
+                "l=supportingText": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=4}"
+                  }
+                }
+              }
+            },
+            "t=complete": {
+              "v=neutral": {
+                "l=title": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                  }
+                },
+                "l=supportingText": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=3}"
+                  }
+                }
+              },
+              "v=brand": {
+                "l=title": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                  }
+                },
+                "l=supportingText": {
+                  "p=color": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=3}"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "c=space": {
+          "t=vertical": {
+            "l=textContainer": {
+            "p=gap": {
+              "type": "spacing",
+              "value": "{semantics.space.none}"
+            }
+            },
+            "l=mainContainer": {
+            "p=gap": {
+              "type": "spacing",
+              "value": "{semantics.space.xl}"
+            }
+            }
+          },
+          "t=horizontal": {
+            "l=textContainer": {
+            "p=gap": {
+              "type": "spacing",
+              "value": "{semantics.space.none}"
+            }
+            },
+            "l=mainContainer": {
+            "p=gap": {
+              "type": "spacing",
+              "value": "{semantics.space.lg}"
+            }
+            }
+          }
+        }
+      },
+      "Connector": {
+        "c=color": {
+          "m=onLight": {
+            "t=incomplete": {
+              "v=neutral": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=3}"
+                  }
+                }
+              },
+              "v=brand": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=3}"
+                  }
+                }
+              }
+            },
+            "t=complete": {
+              "v=neutral": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.neutral.l=1}"
+                  }
+                }
+              },
+              "v=brand": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onLight.brand.l=1}"
+                  }
+                }
+              }
+            }
+          },
+          "m=onDark": {
+            "t=incomplete": {
+              "v=neutral": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=3}"
+                  }
+                }
+              },
+              "v=brand": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=3}"
+                  }
+                }
+              }
+            },
+            "t=complete": {
+              "v=neutral": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                  }
+                }
+              },
+              "v=brand": {
+                "l=line": {
+                  "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.text.onDark.brand.l=1}"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "c=size": {
+          "l=line": {
+            "p=borderRadius": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.full}"
+            },
+            "p=height": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.small.2}"
+            }
+          }
+        }
+      },
+      "Group": {
+        "c=space": {
+          "l=container": {
+            "p=gap": {
+              "type": "spacing",
+              "value": "{semantics.space.xs}"
+            },
+            "p=paddingHorizontal": {
+              "type": "spacing",
+              "value": "{semantics.space.none}"
+            },
+            "p=paddingVertical": {
+              "type": "spacing",
+              "value": "{semantics.space.none}"
+            }
+          }
+        }
+      }
+    },
     "StepperAlternative": {
       "Item": {
         "c=color": {
