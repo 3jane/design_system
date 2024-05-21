@@ -11878,13 +11878,19 @@
         },
         "c=shadow": {
           "l=container": {
+            "t=incomplete": {
               "value": "{composites.dropShadow.none}",
               "type": "boxShadow"
+            },
+            "t=complete": {
+              "value": "{composites.dropShadow.none}",
+              "type": "boxShadow"
+            }
           }
         },
         "c=font": {
           "l=text": {
-            "t=inconmplete": {
+            "t=incomplete": {
               "value": "{composites.font.label.md.medium}",
               "type": "typography"
             },
