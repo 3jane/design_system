@@ -11691,7 +11691,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.neutral.l=4}"
+                    "value": "{semantics.color.bg.light.neutral.l=2}"
                   },
                   "p=border": {
                     "type": "color",
@@ -11701,7 +11701,7 @@
                 "l=number": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                    "value": "{semantics.color.text.onLight.neutral.l=2}"
                   }
                 }
               },
@@ -11709,7 +11709,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.neutral.l=4}"
+                    "value": "{semantics.color.bg.light.brand.l=2}"
                   },
                   "p=border": {
                     "type": "color",
@@ -11719,7 +11719,7 @@
                 "l=number": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                    "value": "{semantics.color.text.onLight.brand.l=1}"
                   }
                 }
               }
@@ -11769,7 +11769,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.neutral.l=4}"
+                    "value": "{semantics.color.bg.dark.neutral.l=2}"
                   },
                   "p=border": {
                     "type": "color",
@@ -11779,13 +11779,7 @@
                 "l=number": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.onLight.neutral.l=4}"
-                  }
-                },
-                "l=title": {
-                  "p=color": {
-                    "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                    "value": "{semantics.color.text.onLight.neutral.l=2}"
                   }
                 }
               },
@@ -11793,7 +11787,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.light.neutral.l=4}"
+                    "value": "{semantics.color.bg.dark.neutral.l=2}"
                   },
                   "p=border": {
                     "type": "color",
@@ -11803,7 +11797,7 @@
                 "l=number": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.onLight.neutral.l=4}"
+                    "value": "{semantics.color.text.onLight.brand.l=1}"
                   }
                 }
               }
@@ -11813,7 +11807,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                    "value": "{semantics.color.bg.light.neutral.l=1}"
                   },
                   "p=border": {
                     "type": "color",
@@ -11831,7 +11825,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.text.onDark.brand.l=1}"
+                    "value": "{semantics.color.bg.dark.brand.a=1}"
                   },
                   "p=border": {
                     "type": "color",
@@ -11852,11 +11846,11 @@
           "l=container": {
             "p=height": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.small.11}"
+              "value": "{semantics.size.sizing.small.12}"
             },
             "p=minWidth": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.small.11}"
+              "value": "{semantics.size.sizing.small.12}"
             },
             "p=borderWidth": {
               "type": "borderWidth",
