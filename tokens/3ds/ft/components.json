@@ -11701,7 +11701,7 @@
                 "l=number": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
                   }
                 }
               },
@@ -11719,7 +11719,7 @@
                 "l=number": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
                   }
                 }
               }
@@ -11779,7 +11779,7 @@
                 "l=number": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
                   }
                 },
                 "l=title": {
@@ -11803,7 +11803,7 @@
                 "l=number": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.onDark.neutral.l=1}"
+                    "value": "{semantics.color.text.onLight.neutral.l=4}"
                   }
                 }
               }
@@ -11875,6 +11875,24 @@
               "value": "{semantics.space.2xs}"
             }
             }
+        },
+        "c=shadow": {
+          "l=container": {
+              "value": "{composites.dropShadow.none}",
+              "type": "boxShadow"
+          }
+        },
+        "c=font": {
+          "l=text": {
+            "t=inconmplete": {
+              "value": "{composites.font.label.md.medium}",
+              "type": "typography"
+            },
+            "t=complete": {
+              "value": "{composites.font.label.md.thick}",
+              "type": "typography"
+            }
+          }
         }
       },
       "Step": {
