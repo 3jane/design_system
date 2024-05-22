@@ -1461,7 +1461,7 @@
                 "l=divider": {
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onDark.neutral.o=1}"
+                    "value": "{semantics.color.overlay.neutral.o=2}"
                   }
                 }
               },
@@ -1479,7 +1479,7 @@
                 "l=divider": {
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.neutral.o=1}"
+                    "value": "{semantics.color.overlay.neutral.o=2}"
                   }
                 }
               },
@@ -1497,7 +1497,7 @@
                 "l=divider": {
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.neutral.o=1}"
+                    "value": "{semantics.color.overlay.neutral.o=2}"
                   }
                 }
               }
@@ -1517,7 +1517,7 @@
                 "l=divider": {
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.neutral.o=1}"
+                    "value": "{semantics.color.overlay.neutral.o=2}"
                   }
                 }
               }
@@ -1539,7 +1539,7 @@
                 "l=divider": {
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.neutral.o=1}"
+                    "value": "{semantics.color.overlay.neutral.o=2}"
                   }
                 }
               },
@@ -1557,7 +1557,7 @@
                 "l=divider": {
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.neutral.o=1}"
+                    "value": "{semantics.color.overlay.neutral.o=2}"
                   }
                 }
               },
@@ -1575,7 +1575,7 @@
                 "l=divider": {
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.neutral.o=1}"
+                    "value": "{semantics.color.overlay.neutral.o=2}"
                   }
                 }
               }
@@ -1595,7 +1595,7 @@
                 "l=divider": {
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.neutral.o=1}"
+                    "value": "{semantics.color.overlay.neutral.o=2}"
                   }
                 }
               }
@@ -1697,7 +1697,7 @@
                 "l=divider": {
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.neutral.o=1}"
+                    "value": "{semantics.color.overlay.neutral.o=2}"
                   }
                 }
               },
@@ -1715,7 +1715,7 @@
                 "l=divider": {
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.neutral.o=1}"
+                    "value": "{semantics.color.overlay.neutral.o=2}"
                   }
                 }
               },
@@ -1733,7 +1733,7 @@
                 "l=divider": {
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.neutral.o=1}"
+                    "value": "{semantics.color.overlay.neutral.o=2}"
                   }
                 }
               }
@@ -1753,7 +1753,7 @@
                 "l=divider": {
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.neutral.o=1}"
+                    "value": "{semantics.color.overlay.neutral.o=2}"
                   }
                 }
               }
@@ -1775,7 +1775,7 @@
                 "l=divider": {
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.neutral.o=1}"
+                    "value": "{semantics.color.overlay.neutral.o=2}"
                   }
                 }
               },
@@ -1793,7 +1793,7 @@
                 "l=divider": {
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.neutral.o=1}"
+                    "value": "{semantics.color.overlay.neutral.o=2}"
                   }
                 }
               },
@@ -1811,7 +1811,7 @@
                 "l=divider": {
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.neutral.o=1}"
+                    "value": "{semantics.color.overlay.neutral.o=2}"
                   }
                 }
               }
@@ -1831,7 +1831,7 @@
                 "l=divider": {
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border.onLight.neutral.o=1}"
+                    "value": "{semantics.color.overlay.neutral.o=2}"
                   }
                 }
               }
