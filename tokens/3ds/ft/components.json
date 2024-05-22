@@ -2309,7 +2309,7 @@
         "l=icon": {
           "p=size": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.small.12}"
+            "value": "{semantics.size.sizing.small.11}"
           }
         }
       }
@@ -3145,7 +3145,7 @@
         "l=icon": {
           "p=size": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.small.12}"
+            "value": "{semantics.size.sizing.small.11}"
           }
         }
       }
