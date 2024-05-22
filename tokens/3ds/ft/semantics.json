@@ -1030,14 +1030,6 @@
               "type": "color",
               "value": "{semantics.color.palette.brand.97}"
             },
-            "l=2": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand.95}"
-            },
-            "l=3": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand.92}"
-            },
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.brand.40}"
@@ -1056,14 +1048,6 @@
               "type": "color",
               "value": "{semantics.color.palette.brand2.97}"
             },
-            "l=2": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand2.95}"
-            },
-            "l=3": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand2.92}"
-            },
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.brand2.50}"
@@ -1081,14 +1065,6 @@
             "l=1": {
               "type": "color",
               "value": "{semantics.color.palette.error.97}"
-            },
-            "l=2": {
-              "type": "color",
-              "value": "{semantics.color.palette.error.95}"
-            },
-            "l=3": {
-              "type": "color",
-              "value": "{semantics.color.palette.error.92}"
             },
             "a=1": {
               "type": "color",
@@ -1216,14 +1192,6 @@
               "type": "color",
               "value": "{semantics.color.palette.brand.10}"
             },
-            "l=2": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand.15}"
-            },
-            "l=3": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand.20}"
-            },
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.brand.45}"
@@ -1242,14 +1210,6 @@
               "type": "color",
               "value": "{semantics.color.palette.brand2.10}"
             },
-            "l=2": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand2.15}"
-            },
-            "l=3": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand2.20}"
-            },
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.brand2.55}"
@@ -1267,14 +1227,6 @@
             "l=1": {
               "type": "color",
               "value": "{semantics.color.palette.error.10}"
-            },
-            "l=2": {
-              "type": "color",
-              "value": "{semantics.color.palette.error.15}"
-            },
-            "l=3": {
-              "type": "color",
-              "value": "{semantics.color.palette.error.20}"
             },
             "a=1": {
               "type": "color",
