@@ -632,7 +632,7 @@
           "y": "0",
           "blur": "0",
           "spread": "4",
-          "color": "{semantics.color.overlay.neutral.o=2}",
+          "color": "{semantics.color.overlay.neutral.o=3}",
           "type": "dropShadow"
         },
         "type": "boxShadow"

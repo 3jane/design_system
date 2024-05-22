@@ -1693,10 +1693,6 @@
             "l=2": {
               "type": "color",
               "value": "{semantics.color.palette.brand.45}"
-            },
-            "l=3": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand.50}"
             }
           },
           "brand2": {
@@ -1707,10 +1703,6 @@
             "l=2": {
               "type": "color",
               "value": "{semantics.color.palette.brand2.60}"
-            },
-            "l=3": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand2.65}"
             }
           },
           "error": {
@@ -1721,10 +1713,6 @@
             "l=2": {
               "type": "color",
               "value": "{semantics.color.palette.error.55}"
-            },
-            "l=3": {
-              "type": "color",
-              "value": "{semantics.color.palette.error.60}"
             }
           },
           "success": {
@@ -1896,22 +1884,28 @@
         }
       },
       "overlay": {
+        "surface": {
+          "light": {
+            "type": "color",
+            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.85})"
+          },
+          "dark": {
+            "type": "color",
+            "value": "rgba({semantics.color.palette.neutral.15}, {semantics.color.palette.opacity.85})"
+          }
+        },
         "neutral": {
           "o=1": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.15})"
+            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.10} )"
           },
           "o=2": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.25})"
+            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.15})"
           },
           "o=3": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.15}, {semantics.color.palette.opacity.85})"
-          },
-          "o=4": {
-            "type": "color",
-            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.85})"
+            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.25})"
           }
         },
         "brand": {
