@@ -6287,11 +6287,11 @@
                   "type": "color"
                 },
                 "t=tertiary": {
-                  "value": "{semantics.color.text.onLight.brand.l=3}",
+                  "value": "{semantics.color.text.onLight.brand.l=2}",
                   "type": "color"
                 },
                 "t=quaternary": {
-                  "value": "{semantics.color.text.onLight.brand.l=3}",
+                  "value": "{semantics.color.text.onLight.brand.l=2}",
                   "type": "color"
                 }
               },
@@ -6305,11 +6305,11 @@
                   "type": "color"
                 },
                 "t=tertiary": {
-                  "value": "{semantics.color.text.onLight.brand2.l=3}",
+                  "value": "{semantics.color.text.onLight.brand2.l=2}",
                   "type": "color"
                 },
                 "t=quaternary": {
-                  "value": "{semantics.color.text.onLight.brand2.l=3}",
+                  "value": "{semantics.color.text.onLight.brand2.l=2}",
                   "type": "color"
                 }
               },
@@ -6323,11 +6323,11 @@
                   "type": "color"
                 },
                 "t=tertiary": {
-                  "value": "{semantics.color.text.onLight.error.l=3}",
+                  "value": "{semantics.color.text.onLight.error.l=2}",
                   "type": "color"
                 },
                 "t=quaternary": {
-                  "value": "{semantics.color.text.onLight.error.l=3}",
+                  "value": "{semantics.color.text.onLight.error.l=2}",
                   "type": "color"
                 }
               },
@@ -6511,11 +6511,11 @@
                   "type": "color"
                 },
                 "t=tertiary": {
-                  "value": "{semantics.color.text.onDark.brand.l=3}",
+                  "value": "{semantics.color.text.onDark.brand.l=2}",
                   "type": "color"
                 },
                 "t=quaternary": {
-                  "value": "{semantics.color.text.onDark.brand.l=3}",
+                  "value": "{semantics.color.text.onDark.brand.l=2}",
                   "type": "color"
                 }
               },
@@ -6529,11 +6529,11 @@
                   "type": "color"
                 },
                 "t=tertiary": {
-                  "value": "{semantics.color.text.onDark.brand2.l=3}",
+                  "value": "{semantics.color.text.onDark.brand2.l=2}",
                   "type": "color"
                 },
                 "t=quaternary": {
-                  "value": "{semantics.color.text.onDark.brand2.l=3}",
+                  "value": "{semantics.color.text.onDark.brand2.l=2}",
                   "type": "color"
                 }
               },
@@ -6547,11 +6547,11 @@
                   "type": "color"
                 },
                 "t=tertiary": {
-                  "value": "{semantics.color.text.onDark.error.l=3}",
+                  "value": "{semantics.color.text.onDark.error.l=2}",
                   "type": "color"
                 },
                 "t=quaternary": {
-                  "value": "{semantics.color.text.onDark.error.l=3}",
+                  "value": "{semantics.color.text.onDark.error.l=2}",
                   "type": "color"
                 }
               },
@@ -8426,11 +8426,11 @@
                 "type": "color"
               },
               "t=tertiary": {
-                "value": "{semantics.color.text.onLight.brand.l=3}",
+                "value": "{semantics.color.text.onLight.brand.l=2}",
                 "type": "color"
               },
               "t=quaternary": {
-                "value": "{semantics.color.text.onLight.brand.l=3}",
+                "value": "{semantics.color.text.onLight.brand.l=2}",
                 "type": "color"
               }
             },
@@ -8444,11 +8444,11 @@
                 "type": "color"
               },
               "t=tertiary": {
-                "value": "{semantics.color.text.onLight.brand2.l=3}",
+                "value": "{semantics.color.text.onLight.brand2.l=2}",
                 "type": "color"
               },
               "t=quaternary": {
-                "value": "{semantics.color.text.onLight.brand2.l=3}",
+                "value": "{semantics.color.text.onLight.brand2.l=2}",
                 "type": "color"
               }
             },
@@ -8462,11 +8462,11 @@
                 "type": "color"
               },
               "t=tertiary": {
-                "value": "{semantics.color.text.onLight.error.l=3}",
+                "value": "{semantics.color.text.onLight.error.l=2}",
                 "type": "color"
               },
               "t=quaternary": {
-                "value": "{semantics.color.text.onLight.error.l=3}",
+                "value": "{semantics.color.text.onLight.error.l=2}",
                 "type": "color"
               }
             },
@@ -8538,11 +8538,11 @@
                 "type": "color"
               },
               "t=tertiary": {
-                "value": "{semantics.color.text.onDark.brand.l=3}",
+                "value": "{semantics.color.text.onDark.brand.l=2}",
                 "type": "color"
               },
               "t=quaternary": {
-                "value": "{semantics.color.text.onDark.brand.l=3}",
+                "value": "{semantics.color.text.onDark.brand.l=2}",
                 "type": "color"
               }
             },
@@ -8556,11 +8556,11 @@
                 "type": "color"
               },
               "t=tertiary": {
-                "value": "{semantics.color.text.onDark.brand2.l=3}",
+                "value": "{semantics.color.text.onDark.brand2.l=2}",
                 "type": "color"
               },
               "t=quaternary": {
-                "value": "{semantics.color.text.onDark.brand2.l=3}",
+                "value": "{semantics.color.text.onDark.brand2.l=2}",
                 "type": "color"
               }
             },
@@ -8574,11 +8574,11 @@
                 "type": "color"
               },
               "t=tertiary": {
-                "value": "{semantics.color.text.onDark.error.l=3}",
+                "value": "{semantics.color.text.onDark.error.l=2}",
                 "type": "color"
               },
               "t=quaternary": {
-                "value": "{semantics.color.text.onDark.error.l=3}",
+                "value": "{semantics.color.text.onDark.error.l=2}",
                 "type": "color"
               }
             },
