@@ -610,7 +610,7 @@
           "y": "0",
           "blur": "0",
           "spread": "4",
-          "color": "{semantics.color.overlay.brand.o=2}",
+          "color": "{semantics.color.overlay.brand.o=3}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -621,7 +621,7 @@
           "y": "0",
           "blur": "0",
           "spread": "4",
-          "color": "{semantics.color.overlay.brand2.o=2}",
+          "color": "{semantics.color.overlay.brand2.o=3}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -643,7 +643,7 @@
           "y": "0",
           "blur": "0",
           "spread": "4",
-          "color": "{semantics.color.overlay.error.o=2}",
+          "color": "{semantics.color.overlay.error.o=3}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
