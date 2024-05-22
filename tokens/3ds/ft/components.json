@@ -3383,7 +3383,7 @@
             "s=disabled": {
               "v=disabled": {
                 "p=fill": {
-                  "value": "{semantics.color.bg.light.disabled.l=4}",
+                  "value": "{semantics.color.bg.light.disabled.l=2}",
                   "type": "color"
                 }
               }
@@ -3407,7 +3407,7 @@
             "s=disabled": {
               "v=disabled": {
                 "p=fill": {
-                  "value": "{semantics.color.bg.dark.disabled.l=4}",
+                  "value": "{semantics.color.bg.dark.disabled.l=2}",
                   "type": "color"
                 }
               }
@@ -3536,7 +3536,7 @@
               "s=disabled": {
                 "v=disabled": {
                   "p=fill": {
-                    "value": "{semantics.color.bg.light.disabled.l=4}",
+                    "value": "{semantics.color.bg.light.disabled.l=2}",
                     "type": "color"
                   }
                 }
@@ -3562,7 +3562,7 @@
               "s=disabled": {
                 "v=disabled": {
                   "p=fill": {
-                    "value": "{semantics.color.bg.light.disabled.l=4}",
+                    "value": "{semantics.color.bg.light.disabled.l=2}",
                     "type": "color"
                   }
                 }
@@ -3788,7 +3788,7 @@
               "v=disabled": {
                 "l=thumb": {
                   "p=fill": {
-                    "value": "{semantics.color.bg.light.disabled.l=4}",
+                    "value": "{semantics.color.bg.light.disabled.l=2}",
                     "type": "color"
                   },
                   "p=border": {
@@ -4080,7 +4080,7 @@
               "v=disabled": {
                 "l=container": {
                   "p=fill": {
-                    "value": "{semantics.color.bg.light.disabled.l=4}",
+                    "value": "{semantics.color.bg.light.disabled.l=2}",
                     "type": "color"
                   },
                   "p=border": {
@@ -4180,7 +4180,7 @@
               "v=disabled": {
                 "l=container": {
                   "p=fill": {
-                    "value": "{semantics.color.bg.light.disabled.l=4}",
+                    "value": "{semantics.color.bg.light.disabled.l=2}",
                     "type": "color"
                   },
                   "p=border": {
@@ -4292,7 +4292,7 @@
                 },
                 "l=knob": {
                   "p=fill": {
-                    "value": "{semantics.color.bg.dark.disabled.l=3}",
+                    "value": "{semantics.color.bg.dark.disabled.l=2}",
                     "type": "color"
                   }
                 }
@@ -4392,7 +4392,7 @@
                 },
                 "l=knob": {
                   "p=fill": {
-                    "value": "{semantics.color.bg.dark.disabled.l=4}",
+                    "value": "{semantics.color.bg.dark.disabled.l=2}",
                     "type": "color"
                   }
                 }

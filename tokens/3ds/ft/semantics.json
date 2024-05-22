@@ -1157,14 +1157,6 @@
             "l=2": {
               "type": "color",
               "value": "{semantics.color.palette.neutral.92}"
-            },
-            "l=3": {
-              "type": "color",
-              "value": "{semantics.color.palette.neutral.90}"
-            },
-            "l=4": {
-              "type": "color",
-              "value": "{semantics.color.palette.neutral.85}"
             }
           }
         },
@@ -1319,14 +1311,6 @@
             "l=2": {
               "type": "color",
               "value": "{semantics.color.palette.neutral.20}"
-            },
-            "l=3": {
-              "type": "color",
-              "value": "{semantics.color.palette.neutral.25}"
-            },
-            "l=4": {
-              "type": "color",
-              "value": "{semantics.color.palette.neutral.30}"
             }
           }
         }
