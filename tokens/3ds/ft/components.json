@@ -1256,15 +1256,15 @@
           "p=borderRadius": {
             "v=small": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.buttonLike.small}"
+              "value": "{semantics.size.radius.md}"
             },
             "v=medium": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.buttonLike.medium}"
+              "value": "{semantics.size.radius.md}"
             },
             "v=large": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.buttonLike.large}"
+              "value": "{semantics.size.radius.md}"
             }
           },
           "p=borderWidth": {
@@ -1922,15 +1922,15 @@
           "p=borderRadius": {
             "v=small": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.buttonLike.small}"
+              "value": "{semantics.size.radius.md}"
             },
             "v=medium": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.buttonLike.medium}"
+              "value": "{semantics.size.radius.md}"
             },
             "v=large": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.buttonLike.large}"
+              "value": "{semantics.size.radius.md}"
             }
           },
           "p=borderWidth": {
@@ -4901,7 +4901,7 @@
           },
           "p=borderRadius": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.buttonLike.medium}"
+            "value": "{semantics.size.radius.md}"
           },
           "p=borderWidth": {
             "type": "borderWidth",
@@ -5244,7 +5244,7 @@
           "l=container": {
             "p=borderRadius": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.buttonLike.small}"
+              "value": "{semantics.size.radius.md}"
             },
             "p=borderWidth": {
               "type": "borderWidth",
@@ -6020,11 +6020,11 @@
           "p=borderRadius": {
             "v=small": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.buttonLike.small}"
+              "value": "{semantics.size.radius.md}"
             },
             "v=medium": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.buttonLike.medium}"
+              "value": "{semantics.size.radius.md}"
             }
           },
           "p=borderWidth": {
@@ -7651,7 +7651,7 @@
           },
           "p=borderRadius": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.buttonLike.medium}"
+            "value": "{semantics.size.radius.md}"
           },
           "p=borderWidth": {
             "type": "borderWidth",
@@ -10212,7 +10212,7 @@
           "l=container": {
             "p=borderRadius": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.buttonLike.small}"
+              "value": "{semantics.size.radius.md}"
             },
             "p=borderWidth": {
               "type": "borderWidth",
@@ -11354,7 +11354,7 @@
             },
             "p=borderRadius": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.buttonLike.medium}"
+              "value": "{semantics.size.radius.md}"
             },
             "p=borderWidth": {
               "type": "borderWidth",
@@ -12960,7 +12960,7 @@
             },
             "p=borderRadius": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.buttonLike.small}"
+              "value": "{semantics.size.radius.md}"
             },
             "p=borderWidth": {
               "type": "borderWidth",
@@ -14536,7 +14536,7 @@
             },
             "p=borderRadius": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.buttonLike.small}"
+              "value": "{semantics.size.radius.md}"
             },
             "p=borderWidth": {
               "type": "borderWidth",

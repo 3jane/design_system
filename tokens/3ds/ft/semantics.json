@@ -1933,7 +1933,7 @@
           "type": "borderRadius"
         },
         "sm": {
-          "value": "6",
+          "value": "{base.size.6px}",
           "type": "borderRadius"
         },
         "md": {
@@ -1959,20 +1959,6 @@
         "full": {
           "value": "{base.size.9999px}",
           "type": "borderRadius"
-        },
-        "buttonLike": {
-          "small": {
-            "value": "{semantics.size.radius.md}",
-            "type": "sizing"
-          },
-          "medium": {
-            "value": "{semantics.size.radius.md}",
-            "type": "sizing"
-          },
-          "large": {
-            "value": "{semantics.size.radius.md}",
-            "type": "sizing"
-          }
         }
       },
       "sizing": {
