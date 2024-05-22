@@ -5297,7 +5297,7 @@
             "l=container": {
               "p=fill": {
                 "type": "color",
-                "value": "{semantics.color.overlay.surface.light}"
+                "value": "{semantics.color.overlay.surface.l=1}"
               },
               "p=border": {
                 "type": "color",
@@ -5309,7 +5309,7 @@
             "l=container": {
               "p=fill": {
                 "type": "color",
-                "value": "{semantics.color.overlay.surface.dark}"
+                "value": "{semantics.color.overlay.surface.a=1}"
               },
               "p=border": {
                 "type": "color",
@@ -8859,13 +8859,13 @@
         "m=onLight": {
           "p=fill": {
             "type": "color",
-            "value": "{semantics.color.overlay.surface.dark}"
+            "value": "{semantics.color.overlay.surface.a=1}"
           }
         },
         "m=onDark": {
           "p=fill": {
             "type": "color",
-            "value": "{semantics.color.overlay.surface.dark}"
+            "value": "{semantics.color.overlay.surface.a=1}"
           }
         }
       },
@@ -9418,7 +9418,7 @@
           "l=container": {
             "p=fill": {
               "type": "color",
-              "value": "{semantics.color.overlay.surface.light}"
+              "value": "{semantics.color.overlay.surface.l=1}"
             },
             "p=border": {
               "type": "color",
@@ -9430,7 +9430,7 @@
           "l=container": {
             "p=fill": {
               "type": "color",
-              "value": "{semantics.color.overlay.surface.light}"
+              "value": "{semantics.color.overlay.surface.l=1}"
             },
             "p=border": {
               "type": "color",
@@ -9933,7 +9933,7 @@
             "l=mainContainer": {
               "p=fill": {
                 "type": "color",
-                "value": "{semantics.color.overlay.surface.light}"
+                "value": "{semantics.color.overlay.surface.l=1}"
               },
               "p=border": {
                 "type": "color",
@@ -9945,7 +9945,7 @@
             "l=mainContainer": {
               "p=fill": {
                 "type": "color",
-                "value": "{semantics.color.overlay.surface.dark}"
+                "value": "{semantics.color.overlay.surface.a=1}"
               },
               "p=border": {
                 "type": "color",
@@ -11583,7 +11583,7 @@
             "l=container": {
               "p=fill": {
                 "type": "color",
-                "value": "{semantics.color.overlay.surface.light}"
+                "value": "{semantics.color.overlay.surface.l=1}"
               },
               "p=border": {
                 "type": "color",
@@ -11595,7 +11595,7 @@
             "l=container": {
               "p=fill": {
                 "type": "color",
-                "value": "{semantics.color.overlay.surface.dark}"
+                "value": "{semantics.color.overlay.surface.a=1}"
               },
               "p=border": {
                 "type": "color",
