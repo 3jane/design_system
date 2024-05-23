@@ -1256,15 +1256,15 @@
           "p=borderRadius": {
             "v=small": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.md}"
+              "value": "{semantics.size.radius.full}"
             },
             "v=medium": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.md}"
+              "value": "{semantics.size.radius.full}"
             },
             "v=large": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.md}"
+              "value": "{semantics.size.radius.full}"
             }
           },
           "p=borderWidth": {
