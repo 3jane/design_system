@@ -1235,7 +1235,7 @@
         "brand": {
           "l=1": {
             "type": "color",
-            "value": "{semantics.color.palette.brand.70}"
+            "value": "{semantics.color.palette.brand.80}"
           },
           "a=1": {
             "type": "color",
@@ -1245,7 +1245,7 @@
         "brand2": {
           "l=1": {
             "type": "color",
-            "value": "{semantics.color.palette.brand2.70}"
+            "value": "{semantics.color.palette.brand2.80}"
           },
           "a=1": {
             "type": "color",
@@ -1255,7 +1255,7 @@
         "error": {
           "l=1": {
             "type": "color",
-            "value": "{semantics.color.palette.error.70}"
+            "value": "{semantics.color.palette.error.80}"
           },
           "a=1": {
             "type": "color",
@@ -1265,7 +1265,7 @@
         "success": {
           "l=1": {
             "type": "color",
-            "value": "{semantics.color.palette.success.70}"
+            "value": "{semantics.color.palette.success.80}"
           },
           "a=1": {
             "type": "color",
@@ -1275,7 +1275,7 @@
         "warning": {
           "l=1": {
             "type": "color",
-            "value": "{semantics.color.palette.warning.70}"
+            "value": "{semantics.color.palette.warning.80}"
           },
           "a=1": {
             "type": "color",
@@ -1285,7 +1285,7 @@
         "blue": {
           "l=1": {
             "type": "color",
-            "value": "{semantics.color.palette.blue.70}"
+            "value": "{semantics.color.palette.blue.80}"
           },
           "a=1": {
             "type": "color",
@@ -1295,7 +1295,7 @@
         "purple": {
           "l=1": {
             "type": "color",
-            "value": "{semantics.color.palette.purple.70}"
+            "value": "{semantics.color.palette.purple.80}"
           },
           "a=1": {
             "type": "color",
@@ -1305,7 +1305,7 @@
         "extra1": {
           "l=1": {
             "type": "color",
-            "value": "{semantics.color.palette.extra1.70}"
+            "value": "{semantics.color.palette.extra1.80}"
           },
           "a=1": {
             "type": "color",
@@ -1315,7 +1315,7 @@
         "extra2": {
           "l=1": {
             "type": "color",
-            "value": "{semantics.color.palette.extra2.70}"
+            "value": "{semantics.color.palette.extra2.80}"
           },
           "a=1": {
             "type": "color",
@@ -1325,7 +1325,7 @@
         "extra3": {
           "l=1": {
             "type": "color",
-            "value": "{semantics.color.palette.extra3.70}"
+            "value": "{semantics.color.palette.extra3.80}"
           },
           "a=1": {
             "type": "color",
