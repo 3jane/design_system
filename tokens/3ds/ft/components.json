@@ -1903,13 +1903,13 @@
                   },
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border...disabled.a=1}"
+                    "value": "{semantics.color.border.neutral.l=2}"
                   }
                 },
                 "l=divider": {
                   "p=border": {
                     "type": "color",
-                    "value": "{semantics.color.border...disabled.a=1}"
+                    "value": "{semantics.color.border.neutral.l=2}"
                   }
                 }
               }
