@@ -1210,15 +1210,15 @@
           "neutral": {
             "l=1": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.90}"
+              "value": "{semantics.color.palette.neutral.95}"
             },
             "l=2": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.95}"
+              "value": "{semantics.color.palette.neutral.90}"
             },
             "a=1": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.15}"
+              "value": "{semantics.color.palette.neutral.25}"
             }
           },
           "brand": {
@@ -1336,10 +1336,6 @@
           "neutral": {
             "l=1": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.30}"
-            },
-            "l=2": {
-              "type": "color",
               "value": "{semantics.color.palette.neutral.25}"
             },
             "l=3": {
@@ -1352,30 +1348,18 @@
             }
           },
           "brand": {
-            "l=1": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand.80}"
-            },
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.brand.70}"
             }
           },
           "brand2": {
-            "l=1": {
-              "type": "color",
-              "value": "{semantics.color.palette.brand2.80}"
-            },
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.brand2.70}"
             }
           },
           "error": {
-            "l=1": {
-              "type": "color",
-              "value": "{semantics.color.palette.error.80}"
-            },
             "a=1": {
               "type": "color",
               "value": "{semantics.color.palette.error.70}"
@@ -1703,7 +1687,7 @@
           },
           "o=3": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.25})"
+            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.25} )"
           }
         },
         "brand": {
