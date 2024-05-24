@@ -1339,7 +1339,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           }
@@ -1359,7 +1359,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           }
@@ -1379,7 +1379,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           }
@@ -1399,7 +1399,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           }
@@ -1419,7 +1419,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           }
@@ -2757,7 +2757,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           },
@@ -2775,7 +2775,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           }
@@ -4977,7 +4977,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           },
@@ -4995,7 +4995,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.error}",
+              "value": "{composites.focusRing.error.dropShadow.none}",
               "type": "boxShadow"
             }
           }
@@ -5285,7 +5285,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           }
@@ -6075,7 +6075,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           }
@@ -6091,7 +6091,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           }
@@ -7041,7 +7041,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           }
@@ -7682,7 +7682,7 @@
             "type": "boxShadow"
           },
           "i=focus": {
-            "value": "{composites.focusRing.brand}",
+            "value": "{composites.focusRing.brand.dropShadow.none}",
             "type": "boxShadow"
           }
         }
@@ -7843,7 +7843,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           }
@@ -7961,7 +7961,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           }
@@ -10247,7 +10247,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           }
@@ -10630,7 +10630,7 @@
             "type": "boxShadow"
           },
           "i=focus": {
-            "value": "{composites.focusRing.brand}",
+            "value": "{composites.focusRing.brand.dropShadow.none}",
             "type": "boxShadow"
           }
         }
@@ -10895,7 +10895,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           }
@@ -11378,7 +11378,7 @@
                 "type": "boxShadow"
               },
               "i=focus": {
-                "value": "{composites.focusRing.brand}",
+                "value": "{composites.focusRing.brand.dropShadow.none}",
                 "type": "boxShadow"
               }
             }
@@ -11398,7 +11398,7 @@
                 "type": "boxShadow"
               },
               "i=focus": {
-                "value": "{composites.focusRing.brand}",
+                "value": "{composites.focusRing.brand.dropShadow.none}",
                 "type": "boxShadow"
               }
             }
@@ -12991,7 +12991,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           }
@@ -13198,7 +13198,7 @@
                 "type": "boxShadow"
               },
               "i=focus": {
-                "value": "{composites.focusRing.brand}",
+                "value": "{composites.focusRing.brand.dropShadow.none}",
                 "type": "boxShadow"
               }
             }
@@ -13214,7 +13214,7 @@
                 "type": "boxShadow"
               },
               "i=focus": {
-                "value": "{composites.focusRing.brand}",
+                "value": "{composites.focusRing.brand.dropShadow.none}",
                 "type": "boxShadow"
               }
             }
@@ -13412,7 +13412,7 @@
                 "type": "boxShadow"
               },
               "i=focus": {
-                "value": "{composites.focusRing.brand}",
+                "value": "{composites.focusRing.brand.dropShadow.none}",
                 "type": "boxShadow"
               }
             }
@@ -13428,7 +13428,7 @@
                 "type": "boxShadow"
               },
               "i=focus": {
-                "value": "{composites.focusRing.brand}",
+                "value": "{composites.focusRing.brand.dropShadow.none}",
                 "type": "boxShadow"
               }
             }
@@ -13885,7 +13885,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           }
@@ -14571,7 +14571,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           }
@@ -15547,7 +15547,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.focusRing.brand.dropShadow.none}",
               "type": "boxShadow"
             }
           }
