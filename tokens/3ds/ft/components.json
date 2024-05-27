@@ -1327,15 +1327,15 @@
         "t=elevated": {
           "l=container": {
             "i=none": {
-              "value": "{composites.dropShadow.down.xs}",
+              "value": "{composites.dropShadow.xs}",
               "type": "boxShadow"
             },
             "i=hover": {
-              "value": "{composites.dropShadow.down.sm}",
+              "value": "{composites.dropShadow.sm}",
               "type": "boxShadow"
             },
             "i=active": {
-              "value": "{composites.dropShadow.down.xs}",
+              "value": "{composites.dropShadow.xs}",
               "type": "boxShadow"
             },
             "i=focus": {
@@ -1387,15 +1387,15 @@
         "t=outlined": {
           "l=container": {
             "i=none": {
-              "value": "{composites.dropShadow.down.xs}",
+              "value": "{composites.dropShadow.xs}",
               "type": "boxShadow"
             },
             "i=hover": {
-              "value": "{composites.dropShadow.down.xs}",
+              "value": "{composites.dropShadow.xs}",
               "type": "boxShadow"
             },
             "i=active": {
-              "value": "{composites.dropShadow.down.xs}",
+              "value": "{composites.dropShadow.xs}",
               "type": "boxShadow"
             },
             "i=focus": {
@@ -2763,15 +2763,15 @@
           },
           "t=outlined": {
             "i=none": {
-              "value": "{composites.dropShadow.down.xs}",
+              "value": "{composites.dropShadow.xs}",
               "type": "boxShadow"
             },
             "i=hover": {
-              "value": "{composites.dropShadow.down.xs}",
+              "value": "{composites.dropShadow.xs}",
               "type": "boxShadow"
             },
             "i=active": {
-              "value": "{composites.dropShadow.down.xs}",
+              "value": "{composites.dropShadow.xs}",
               "type": "boxShadow"
             },
             "i=focus": {
@@ -3848,7 +3848,7 @@
         },
         "c=shadow": {
           "l=thumb": {
-            "value": "{composites.dropShadow.down.sm}",
+            "value": "{composites.dropShadow.sm}",
             "type": "boxShadow"
           }
         }
@@ -3952,7 +3952,7 @@
         },
         "c=shadow": {
           "l=mainContainer": {
-            "value": "{composites.dropShadow.down.sm}",
+            "value": "{composites.dropShadow.sm}",
             "type": "boxShadow"
           }
         }
@@ -8389,7 +8389,7 @@
       },
       "c=shadow": {
         "l=mainContainer": {
-          "value": "{composites.dropShadow.down.md}",
+          "value": "{composites.dropShadow.md}",
           "type": "boxShadow"
         }
       }
@@ -8845,7 +8845,7 @@
       },
       "c=shadow": {
         "l=mainContainer": {
-          "value": "{composites.dropShadow.down.sm}",
+          "value": "{composites.dropShadow.sm}",
           "type": "boxShadow"
         }
       },
@@ -8999,7 +8999,7 @@
       },
       "c=shadow": {
         "l=mainContainer": {
-          "value": "{composites.dropShadow.down.lg}",
+          "value": "{composites.dropShadow.lg}",
           "type": "boxShadow"
         }
       },
@@ -9269,7 +9269,7 @@
       },
       "c=shadow": {
         "l=container": {
-          "value": "{composites.dropShadow.down.md}",
+          "value": "{composites.dropShadow.md}",
           "type": "boxShadow"
         }
       }
@@ -9384,7 +9384,7 @@
         },
         "c=shadow": {
           "l=mainContainer": {
-            "value": "{composites.dropShadow.down.xs}",
+            "value": "{composites.dropShadow.xs}",
             "type": "boxShadow"
           }
         }
@@ -10354,7 +10354,7 @@
         }
       },
       "c=shadow": {
-        "value": "{composites.dropShadow.down.lg}",
+        "value": "{composites.dropShadow.lg}",
         "type": "boxShadow"
       }
     },
@@ -10410,7 +10410,7 @@
         }
       },
       "c=shadow": {
-        "value": "{composites.dropShadow.down.lg}",
+        "value": "{composites.dropShadow.lg}",
         "type": "boxShadow"
       }
     },
@@ -10964,7 +10964,7 @@
         },
         "c=shadow": {
           "l=container": {
-            "value": "{composites.dropShadow.down.xs}",
+            "value": "{composites.dropShadow.xs}",
             "type": "boxShadow"
           }
         }
@@ -11634,7 +11634,7 @@
         },
         "c=shadow": {
           "l=container": {
-            "value": "{composites.dropShadow.down.xs}",
+            "value": "{composites.dropShadow.xs}",
             "type": "boxShadow"
           }
         },
@@ -13404,11 +13404,11 @@
           "t=selected": {
             "l=container": {
               "i=none": {
-                "value": "{composites.dropShadow.down.sm}",
+                "value": "{composites.dropShadow.sm}",
                 "type": "boxShadow"
               },
               "i=hover": {
-                "value": "{composites.dropShadow.down.sm}",
+                "value": "{composites.dropShadow.sm}",
                 "type": "boxShadow"
               },
               "i=focus": {
@@ -15439,7 +15439,7 @@
         "c=shadow": {
           "l=container": {
             "t=filled": {
-              "value": "{composites.dropShadow.down.xs}",
+              "value": "{composites.dropShadow.xs}",
               "type": "boxShadow"
             },
             "t=tonal": {
@@ -15447,7 +15447,7 @@
               "type": "boxShadow"
             },
             "t=outlined": {
-              "value": "{composites.dropShadow.down.xs}",
+              "value": "{composites.dropShadow.xs}",
               "type": "boxShadow"
             }
           }

@@ -1454,19 +1454,15 @@
             },
             "a=1": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.15}"
+              "value": "linear-gradient (45deg, {semantics.color.palette.neutral.10} 0%, {semantics.color.palette.neutral.30} 100%)"
             },
             "a=2": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.20}"
+              "value": "linear-gradient (45deg, {semantics.color.palette.neutral.15} 0%, {semantics.color.palette.neutral.35} 100%)"
             },
             "a=3": {
               "type": "color",
-              "value": "{semantics.color.palette.neutral.25}"
-            },
-            "a=4": {
-              "type": "color",
-              "value": "{semantics.color.palette.neutral.30}"
+              "value": "linear-gradient (45deg, {semantics.color.palette.neutral.25} 0%, {semantics.color.palette.neutral.45} 100%)"
             }
           },
           "brand": {
