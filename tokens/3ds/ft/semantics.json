@@ -1410,29 +1410,29 @@
             }
           },
           "brand2": {
-            "o=1": {
+            "l=1": {
               "type": "color",
               "value": "rgba( {semantics.color.palette.brand2.70} , {semantics.color.palette.opacity.10} )"
             },
-            "o=2": {
+            "l=2": {
               "type": "color",
               "value": "rgba( {semantics.color.palette.brand2.70} , {semantics.color.palette.opacity.15} )"
             },
-            "o=3": {
+            "l=3": {
               "type": "color",
               "value": "rgba({semantics.color.palette.brand2.70}, {semantics.color.palette.opacity.25} )"
             }
           },
           "error": {
-            "o=1": {
+            "l=1": {
               "type": "color",
               "value": "rgba({semantics.color.palette.red.70}, {semantics.color.palette.opacity.10} )"
             },
-            "o=2": {
+            "l=2": {
               "type": "color",
               "value": "rgba({semantics.color.palette.red.70}, {semantics.color.palette.opacity.15})"
             },
-            "o=3": {
+            "l=3": {
               "type": "color",
               "value": "rgba({semantics.color.palette.red.70}, {semantics.color.palette.opacity.25})"
             }
