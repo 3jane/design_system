@@ -418,6 +418,69 @@
               "type": "dropShadow"
             },
             "type": "boxShadow"
+          },
+          "sm": {
+            "value": [
+              {
+                "x": "0",
+                "y": "1",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(255, 255, 255, 0.15)",
+                "type": "innerShadow"
+              },
+              {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "4",
+              "color": "{semantics.color.bg.overlay.brand.l=3}",
+              "type": "dropShadow"
+            }
+            ],
+            "type": "boxShadow"
+          },
+          "md": {
+            "value": [
+              {
+                "x": "0",
+                "y": "2",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(255, 255, 255, 0.15)",
+                "type": "innerShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "4",
+                "color": "{semantics.color.bg.overlay.brand.l=3}",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "lg": {
+            "value": [
+              {
+                "x": "0",
+                "y": "4",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(255, 255, 255, 0.15)",
+                "type": "innerShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "4",
+                "color": "{semantics.color.bg.overlay.brand.l=3}",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
           }
         }
       },
@@ -433,6 +496,114 @@
               "type": "dropShadow"
             },
             "type": "boxShadow"
+          },
+          "xs": {
+            "value":[
+            {
+              "x": "0",
+              "y": "1",
+              "blur": "3",
+              "spread": "0",
+              "color": "rgba(34, 38, 46, 0.08)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "4",
+              "color": "{semantics.color.bg.overlay.neutral.l=3}",
+              "type": "dropShadow"
+            }
+            ],
+            "type": "boxShadow"
+          },
+          "sm": {
+            "value":[
+            {
+              "x": "0",
+              "y": "2",
+              "blur": "4",
+              "spread": "0",
+              "color": "rgba(34, 38, 46, 0.08)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "1",
+              "blur": "3",
+              "spread": "0",
+              "color": "rgba(34, 38, 46, 0.06)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "4",
+              "color": "{semantics.color.bg.overlay.neutral.l=3}",
+              "type": "dropShadow"
+            }
+            ],
+            "type": "boxShadow"
+          },
+          "md": {
+            "value":[
+            {
+              "x": "0",
+              "y": "4",
+              "blur": "8",
+              "spread": "-1",
+              "color": "rgba(34, 38, 46, 0.08)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "2",
+              "blur": "4",
+              "spread": "-1",
+              "color": "rgba(34, 38, 46, 0.06)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "4",
+              "color": "{semantics.color.bg.overlay.neutral.l=3}",
+              "type": "dropShadow"
+            }
+            ],
+            "type": "boxShadow"
+          },
+          "lg": {
+            "value":[
+            {
+              "x": "0",
+              "y": "8",
+              "blur": "12",
+              "spread": "-4",
+              "color": "rgba(34, 38, 46, 0.08)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "6",
+              "blur": "8",
+              "spread": "-4",
+              "color": "rgba(34, 38, 46, 0.06)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "4",
+              "color": "{semantics.color.bg.overlay.neutral.l=3}",
+              "type": "dropShadow"
+            }
+            ],
+            "type": "boxShadow"
           }
         },
         "innerShadow": {
@@ -446,6 +617,69 @@
               "type": "dropShadow"
             },
             "type": "boxShadow"
+          },
+          "sm": {
+            "value": [
+              {
+                "x": "0",
+                "y": "1",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(255, 255, 255, 0.15)",
+                "type": "innerShadow"
+              },
+              {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "4",
+              "color": "{semantics.color.bg.overlay.neutral.l=3}",
+              "type": "dropShadow"
+            }
+            ],
+            "type": "boxShadow"
+          },
+          "md": {
+            "value": [
+              {
+                "x": "0",
+                "y": "2",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(255, 255, 255, 0.15)",
+                "type": "innerShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "4",
+                "color": "{semantics.color.bg.overlay.neutral.l=3}",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "lg": {
+            "value": [
+              {
+                "x": "0",
+                "y": "4",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(255, 255, 255, 0.15)",
+                "type": "innerShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "4",
+                "color": "{semantics.color.bg.overlay.neutral.l=3}",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
           }
         }
       },
@@ -457,9 +691,117 @@
               "y": "0",
               "blur": "0",
               "spread": "4",
-              "color": "{semantics.color.bg.overlay.error.o=3}",
+              "color": "{semantics.color.bg.overlay.error.l=3}",
               "type": "dropShadow"
             },
+            "type": "boxShadow"
+          },
+          "xs": {
+            "value":[
+            {
+              "x": "0",
+              "y": "1",
+              "blur": "3",
+              "spread": "0",
+              "color": "rgba(34, 38, 46, 0.08)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "4",
+              "color": "{semantics.color.bg.overlay.error.l=3}",
+              "type": "dropShadow"
+            }
+            ],
+            "type": "boxShadow"
+          },
+          "sm": {
+            "value":[
+            {
+              "x": "0",
+              "y": "2",
+              "blur": "4",
+              "spread": "0",
+              "color": "rgba(34, 38, 46, 0.08)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "1",
+              "blur": "3",
+              "spread": "0",
+              "color": "rgba(34, 38, 46, 0.06)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "4",
+              "color": "{semantics.color.bg.overlay.error.l=3}",
+              "type": "dropShadow"
+            }
+            ],
+            "type": "boxShadow"
+          },
+          "md": {
+            "value":[
+            {
+              "x": "0",
+              "y": "4",
+              "blur": "8",
+              "spread": "-1",
+              "color": "rgba(34, 38, 46, 0.08)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "2",
+              "blur": "4",
+              "spread": "-1",
+              "color": "rgba(34, 38, 46, 0.06)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "4",
+              "color": "{semantics.color.bg.overlay.error.l=3}",
+              "type": "dropShadow"
+            }
+            ],
+            "type": "boxShadow"
+          },
+          "lg": {
+            "value":[
+            {
+              "x": "0",
+              "y": "8",
+              "blur": "12",
+              "spread": "-4",
+              "color": "rgba(34, 38, 46, 0.08)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "6",
+              "blur": "8",
+              "spread": "-4",
+              "color": "rgba(34, 38, 46, 0.06)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "4",
+              "color": "{semantics.color.bg.overlay.error.l=3}",
+              "type": "dropShadow"
+            }
+            ],
             "type": "boxShadow"
           }
         },
@@ -470,9 +812,72 @@
               "y": "0",
               "blur": "0",
               "spread": "4",
-              "color": "{semantics.color.bg.overlay.error.o=3}",
+              "color": "{semantics.color.bg.overlay.error.l=3}",
               "type": "dropShadow"
             },
+            "type": "boxShadow"
+          },
+          "sm": {
+            "value": [
+              {
+                "x": "0",
+                "y": "1",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(255, 255, 255, 0.15)",
+                "type": "innerShadow"
+              },
+              {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "4",
+              "color": "{semantics.color.bg.overlay.error.l=3}",
+              "type": "dropShadow"
+            }
+            ],
+            "type": "boxShadow"
+          },
+          "md": {
+            "value": [
+              {
+                "x": "0",
+                "y": "2",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(255, 255, 255, 0.15)",
+                "type": "innerShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "4",
+                "color": "{semantics.color.bg.overlay.error.l=3}",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow"
+          },
+          "lg": {
+            "value": [
+              {
+                "x": "0",
+                "y": "4",
+                "blur": "0",
+                "spread": "0",
+                "color": "rgba(255, 255, 255, 0.15)",
+                "type": "innerShadow"
+              },
+              {
+                "x": "0",
+                "y": "0",
+                "blur": "0",
+                "spread": "4",
+                "color": "{semantics.color.bg.overlay.error.l=3}",
+                "type": "dropShadow"
+              }
+            ],
             "type": "boxShadow"
           }
         }
