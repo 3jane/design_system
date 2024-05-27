@@ -1212,15 +1212,15 @@
             },
             "a=1": {
               "type": "color",
-              "value": "{semantics.color.palette.brand.40}"
+              "value": "{semantics.color.palette.brand.45}"
             },
             "a=2": {
               "type": "color",
-              "value": "{semantics.color.palette.brand.35}"
+              "value": "{semantics.color.palette.brand.40}"
             },
             "a=3": {
               "type": "color",
-              "value": "{semantics.color.palette.brand.30}"
+              "value": "{semantics.color.palette.brand.35}"
             },
             "a=4": {
               "type": "color",
