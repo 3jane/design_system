@@ -386,7 +386,7 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.l=1}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     },
                     "i=hover": {
                       "type": "color",
@@ -398,7 +398,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.l=1}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     }
                   },
                   "p=border": {
@@ -418,7 +418,7 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.l=1}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     },
                     "i=hover": {
                       "type": "color",
@@ -430,7 +430,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.l=1}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     }
                   },
                   "p=border": {
@@ -450,7 +450,7 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.l=1}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     },
                     "i=hover": {
                       "type": "color",
@@ -462,7 +462,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.l=1}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     }
                   },
                   "p=border": {
@@ -484,7 +484,7 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.overlay.neutral.l=2}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     }
                   },
                   "p=border": {
@@ -876,19 +876,19 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=2}"
+                      "value": "{semantics.color.bg.overlay.neutral.l=1}"
                     },
                     "i=hover": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=3}"
+                      "value": "{semantics.color.bg.overlay.neutral.l=2}"
                     },
                     "i=active": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=4}"
+                      "value": "{semantics.color.bg.overlay.neutral.l=3}"
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=2}"
+                      "value": "{semantics.color.bg.overlay.neutral.l=1}"
                     }
                   },
                   "p=border": {
@@ -908,19 +908,19 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=2}"
+                      "value": "{semantics.color.bg.overlay.brand.l=1}"
                     },
                     "i=hover": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=3}"
+                      "value": "{semantics.color.bg.overlay.brand.l=2}"
                     },
                     "i=active": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=4}"
+                      "value": "{semantics.color.bg.overlay.brand.l=3}"
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=2}"
+                      "value": "{semantics.color.bg.overlay.brand.l=1}"
                     }
                   },
                   "p=border": {
@@ -940,19 +940,19 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=2}"
+                      "value": "{semantics.color.bg.overlay.error.l=1}"
                     },
                     "i=hover": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=3}"
+                      "value": "{semantics.color.bg.overlay.error.l=2}"
                     },
                     "i=active": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=4}"
+                      "value": "{semantics.color.bg.overlay.error.l=3}"
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=2}"
+                      "value": "{semantics.color.bg.overlay.error.l=1}"
                     }
                   },
                   "p=border": {
@@ -974,7 +974,7 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=3}"
+                      "value": "{semantics.color.bg.overlay.neutral.l=1}"
                     }
                   },
                   "p=border": {
@@ -998,19 +998,19 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=2}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     },
                     "i=hover": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=3}"
+                      "value": "{semantics.color.bg.overlay.neutral.l=1}"
                     },
                     "i=active": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=4}"
+                      "value": "{semantics.color.bg.overlay.neutral.l=2}"
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=2}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     }
                   },
                   "p=border": {
@@ -1030,19 +1030,19 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=2}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     },
                     "i=hover": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=3}"
+                      "value": "{semantics.color.bg.overlay.brand.l=1}"
                     },
                     "i=active": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=4}"
+                      "value": "{semantics.color.bg.overlay.brand.l=2}"
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=2}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     }
                   },
                   "p=border": {
@@ -1062,19 +1062,19 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=2}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     },
                     "i=hover": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=3}"
+                      "value": "{semantics.color.bg.overlay.error.l=1}"
                     },
                     "i=active": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=4}"
+                      "value": "{semantics.color.bg.overlay.error.l=2}"
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=2}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     }
                   },
                   "p=border": {
@@ -1096,7 +1096,7 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=3}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     }
                   },
                   "p=border": {
@@ -1120,19 +1120,19 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=1}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     },
                     "i=hover": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=2}"
+                      "value": "{semantics.color.bg.overlay.neutral.l=1}"
                     },
                     "i=active": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=3}"
+                      "value": "{semantics.color.bg.overlay.neutral.l=2}"
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=1}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     }
                   },
                   "p=border": {
@@ -1152,19 +1152,19 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=1}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     },
                     "i=hover": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=2}"
+                      "value": "{semantics.color.bg.overlay.brand.l=1}"
                     },
                     "i=active": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=3}"
+                      "value": "{semantics.color.bg.overlay.brand.l=2}"
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=1}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     }
                   },
                   "p=border": {
@@ -1184,19 +1184,19 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=1}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     },
                     "i=hover": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=2}"
+                      "value": "{semantics.color.bg.overlay.error.l=1}"
                     },
                     "i=active": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=3}"
+                      "value": "{semantics.color.bg.overlay.error.l=2}"
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=1}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     }
                   },
                   "p=border": {
@@ -1218,7 +1218,7 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.solid.neutral.a=1}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     }
                   },
                   "p=border": {
