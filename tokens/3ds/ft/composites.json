@@ -173,7 +173,7 @@
               "y": "0",
               "blur": "0",
               "spread": "4",
-              "color": "{semantics.color.bg.overlay.brand.l=3}",
+              "color": "{semantics.color.bg.brand.o=3}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -193,7 +193,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.brand.l=3}",
+                "color": "{semantics.color.bg.brand.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -222,7 +222,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.brand.l=3}",
+                "color": "{semantics.color.bg.brand.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -251,7 +251,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.brand.l=3}",
+                "color": "{semantics.color.bg.brand.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -280,7 +280,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.brand.l=3}",
+                "color": "{semantics.color.bg.brand.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -294,7 +294,7 @@
               "y": "0",
               "blur": "0",
               "spread": "4",
-              "color": "{semantics.color.bg.overlay.brand.l=3}",
+              "color": "{semantics.color.bg.brand.o=3}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -314,7 +314,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.brand.l=3}",
+                "color": "{semantics.color.bg.brand.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -335,7 +335,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.brand.l=3}",
+                "color": "{semantics.color.bg.brand.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -356,7 +356,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.brand.l=3}",
+                "color": "{semantics.color.bg.brand.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -372,7 +372,7 @@
               "y": "0",
               "blur": "0",
               "spread": "4",
-              "color": "{semantics.color.bg.overlay.neutral.l=3}",
+              "color": "{semantics.color.bg.neutral.o=3}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -392,7 +392,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.neutral.l=3}",
+                "color": "{semantics.color.bg.neutral.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -421,7 +421,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.neutral.l=3}",
+                "color": "{semantics.color.bg.neutral.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -450,7 +450,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.neutral.l=3}",
+                "color": "{semantics.color.bg.neutral.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -479,7 +479,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.neutral.l=3}",
+                "color": "{semantics.color.bg.neutral.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -493,7 +493,7 @@
               "y": "0",
               "blur": "0",
               "spread": "4",
-              "color": "{semantics.color.bg.overlay.neutral.l=3}",
+              "color": "{semantics.color.bg.neutral.o=3}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -513,7 +513,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.neutral.l=3}",
+                "color": "{semantics.color.bg.neutral.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -534,7 +534,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.neutral.l=3}",
+                "color": "{semantics.color.bg.neutral.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -555,7 +555,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.neutral.l=3}",
+                "color": "{semantics.color.bg.neutral.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -571,7 +571,7 @@
               "y": "0",
               "blur": "0",
               "spread": "4",
-              "color": "{semantics.color.bg.overlay.error.l=3}",
+              "color": "{semantics.color.bg.error.o=3}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -591,7 +591,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.error.l=3}",
+                "color": "{semantics.color.bg.error.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -620,7 +620,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.error.l=3}",
+                "color": "{semantics.color.bg.error.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -649,7 +649,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.error.l=3}",
+                "color": "{semantics.color.bg.error.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -678,7 +678,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.error.l=3}",
+                "color": "{semantics.color.bg.error.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -692,7 +692,7 @@
               "y": "0",
               "blur": "0",
               "spread": "4",
-              "color": "{semantics.color.bg.overlay.error.l=3}",
+              "color": "{semantics.color.bg.error.o=3}",
               "type": "dropShadow"
             },
             "type": "boxShadow"
@@ -712,7 +712,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.error.l=3}",
+                "color": "{semantics.color.bg.error.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -733,7 +733,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.error.l=3}",
+                "color": "{semantics.color.bg.error.o=3}",
                 "type": "dropShadow"
               }
             ],
@@ -754,7 +754,7 @@
                 "y": "0",
                 "blur": "0",
                 "spread": "4",
-                "color": "{semantics.color.bg.overlay.error.l=3}",
+                "color": "{semantics.color.bg.error.o=3}",
                 "type": "dropShadow"
               }
             ],
