@@ -129,7 +129,7 @@
                 "l=label": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.disabled.a=1}"
+                    "value": "{semantics.color.text.disabled.l=1}"
                   }
                 }
               }
@@ -251,7 +251,7 @@
                 "l=label": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.disabled.a=1}"
+                    "value": "{semantics.color.text.disabled.l=1}"
                   }
                 }
               }
@@ -373,7 +373,7 @@
                 "l=label": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.disabled.a=1}"
+                    "value": "{semantics.color.text.disabled.l=1}"
                   }
                 }
               }
@@ -495,7 +495,7 @@
                 "l=label": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.disabled.a=1}"
+                    "value": "{semantics.color.text.disabled.l=1}"
                   }
                 }
               }
@@ -617,7 +617,7 @@
                 "l=label": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.disabled.a=1}"
+                    "value": "{semantics.color.text.disabled.l=1}"
                   }
                 }
               }
@@ -2040,7 +2040,7 @@
                 },
                 "l=icon": {
                   "p=fill": {
-                    "value": "{semantics.color.text.disabled.a=1}",
+                    "value": "{semantics.color.text.disabled.l=1}",
                     "type": "color"
                   }
                 }
@@ -2118,7 +2118,7 @@
                 },
                 "l=icon": {
                   "p=fill": {
-                    "value": "{semantics.color.text.disabled.a=1}",
+                    "value": "{semantics.color.text.disabled.l=1}",
                     "type": "color"
                   }
                 }
@@ -2401,7 +2401,7 @@
                 "l=label": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.disabled.a=1}"
+                    "value": "{semantics.color.text.disabled.l=1}"
                   }
                 }
               }
@@ -2491,7 +2491,7 @@
                 "l=label": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.disabled.a=1}"
+                    "value": "{semantics.color.text.disabled.l=1}"
                   }
                 }
               }
@@ -2876,7 +2876,7 @@
                 },
                 "l=icon": {
                   "p=fill": {
-                    "value": "{semantics.color.text.disabled.a=1}",
+                    "value": "{semantics.color.text.disabled.l=1}",
                     "type": "color"
                   }
                 }
@@ -2954,7 +2954,7 @@
                 },
                 "l=icon": {
                   "p=fill": {
-                    "value": "{semantics.color.text.disabled.a=1}",
+                    "value": "{semantics.color.text.disabled.l=1}",
                     "type": "color"
                   }
                 }
@@ -3177,7 +3177,7 @@
                 "v=disabled": {
                   "l=icon": {
                     "p=fill": {
-                      "value": "{semantics.color.text.disabled.a=1}",
+                      "value": "{semantics.color.text.disabled.l=1}",
                       "type": "color"
                     }
                   }
@@ -3207,7 +3207,7 @@
                 "v=disabled": {
                   "l=icon": {
                     "p=fill": {
-                      "value": "{semantics.color.text.disabled.a=1}",
+                      "value": "{semantics.color.text.disabled.l=1}",
                       "type": "color"
                     }
                   }
@@ -4687,7 +4687,7 @@
                 "p=color": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.text.disabled.a=1}"
+                    "value": "{semantics.color.text.disabled.l=1}"
                   }
                 }
               },
@@ -5068,7 +5068,7 @@
                   "l=label": {
                     "p=color": {
                       "type": "color",
-                      "value": "{semantics.color.text.disabled.a=1}"
+                      "value": "{semantics.color.text.disabled.l=1}"
                     }
                   }
                 }
@@ -5122,7 +5122,7 @@
                   "l=label": {
                     "p=color": {
                       "type": "color",
-                      "value": "{semantics.color.text.disabled.a=1}"
+                      "value": "{semantics.color.text.disabled.l=1}"
                     }
                   }
                 }
@@ -5749,7 +5749,7 @@
                 "l=text": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.disabled.a=1}"
+                    "value": "{semantics.color.text.disabled.l=1}"
                   }
                 }
               }
@@ -5831,7 +5831,7 @@
                 "l=text": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.disabled.a=1}"
+                    "value": "{semantics.color.text.disabled.l=1}"
                   }
                 }
               }
@@ -6461,19 +6461,19 @@
             "s=disabled": {
               "v=disabled": {
                 "t=primary": {
-                  "value": "{semantics.color.text.disabled.a=1}",
+                  "value": "{semantics.color.text.disabled.l=1}",
                   "type": "color"
                 },
                 "t=secondary": {
-                  "value": "{semantics.color.text.disabled.a=2}",
+                  "value": "{semantics.color.text.disabled.l=2}",
                   "type": "color"
                 },
                 "t=tertiary": {
-                  "value": "{semantics.color.text.disabled.a=2}",
+                  "value": "{semantics.color.text.disabled.l=2}",
                   "type": "color"
                 },
                 "t=quaternary": {
-                  "value": "{semantics.color.text.disabled.a=2}",
+                  "value": "{semantics.color.text.disabled.l=2}",
                   "type": "color"
                 }
               }
@@ -6776,7 +6776,7 @@
                   "p=color": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.text.disabled.a=1}"
+                      "value": "{semantics.color.text.disabled.l=1}"
                     }
                   }
                 },
@@ -6784,7 +6784,7 @@
                   "p=color": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.text.disabled.a=2}"
+                      "value": "{semantics.color.text.disabled.l=2}"
                     }
                   }
                 }
@@ -6842,7 +6842,7 @@
                   "p=color": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.text.disabled.a=1}"
+                      "value": "{semantics.color.text.disabled.l=1}"
                     }
                   }
                 },
@@ -6850,7 +6850,7 @@
                   "p=color": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.text.disabled.a=2}"
+                      "value": "{semantics.color.text.disabled.l=2}"
                     }
                   }
                 }
@@ -10686,7 +10686,7 @@
                   "p=color": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.text.disabled.a=1}"
+                      "value": "{semantics.color.text.disabled.l=1}"
                     }
                   }
                 }
@@ -10738,7 +10738,7 @@
                   "p=color": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.text.disabled.a=1}"
+                      "value": "{semantics.color.text.disabled.l=1}"
                     }
                   }
                 }
@@ -11059,7 +11059,7 @@
                     "p=color": {
                       "i=none": {
                         "type": "color",
-                        "value": "{semantics.color.text.disabled.a=1}"
+                        "value": "{semantics.color.text.disabled.l=1}"
                       }
                     }
                   }
@@ -11151,7 +11151,7 @@
                     "p=color": {
                       "i=none": {
                         "type": "color",
-                        "value": "{semantics.color.text.disabled.a=1}"
+                        "value": "{semantics.color.text.disabled.l=1}"
                       }
                     }
                   }
@@ -12773,7 +12773,7 @@
                     "p=color": {
                       "i=none": {
                         "type": "color",
-                        "value": "{semantics.color.text.disabled.a=1}"
+                        "value": "{semantics.color.text.disabled.l=1}"
                       }
                     }
                   }
@@ -12829,7 +12829,7 @@
                     "p=color": {
                       "i=none": {
                         "type": "color",
-                        "value": "{semantics.color.text.disabled.a=1}"
+                        "value": "{semantics.color.text.disabled.l=1}"
                       }
                     }
                   }
@@ -12943,7 +12943,7 @@
                     "p=color": {
                       "i=none": {
                         "type": "color",
-                        "value": "{semantics.color.text.disabled.a=1}"
+                        "value": "{semantics.color.text.disabled.l=1}"
                       }
                     }
                   }
@@ -13590,7 +13590,7 @@
                   "l=label": {
                     "p=color": {
                       "type": "color",
-                      "value": "{semantics.color.text.disabled.a=1}"
+                      "value": "{semantics.color.text.disabled.l=1}"
                     }
                   }
                 }
@@ -13672,7 +13672,7 @@
                   "l=label": {
                     "p=color": {
                       "type": "color",
-                      "value": "{semantics.color.text.disabled.a=1}"
+                      "value": "{semantics.color.text.disabled.l=1}"
                     }
                   }
                 }
@@ -14362,7 +14362,7 @@
                   "p=color": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.text.disabled.a=1}"
+                      "value": "{semantics.color.text.disabled.l=1}"
                     }
                   }
                 }
@@ -14414,7 +14414,7 @@
                   "p=color": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.text.disabled.a=1}"
+                      "value": "{semantics.color.text.disabled.l=1}"
                     }
                   }
                 }
@@ -14520,7 +14520,7 @@
                   "p=color": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.text.disabled.a=1}"
+                      "value": "{semantics.color.text.disabled.l=1}"
                     }
                   }
                 }
