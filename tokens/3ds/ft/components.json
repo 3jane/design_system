@@ -1978,15 +1978,15 @@
                       "type": "color"
                     },
                     "i=hover": {
-                      "value": "{semantics.color.bg.neutral.o=3}",
+                      "value": "{semantics.color.bg.neutral.o=2}",
                       "type": "color"
                     },
                     "i=active": {
-                      "value": "{semantics.color.bg.neutral.o=4}",
+                      "value": "{semantics.color.bg.neutral.o=3}",
                       "type": "color"
                     },
                     "i=focus": {
-                      "value": "{semantics.color.bg.neutral.o=3}",
+                      "value": "{semantics.color.bg.neutral.o=2}",
                       "type": "color"
                     }
                   }
@@ -2000,15 +2000,15 @@
                       "type": "color"
                     },
                     "i=hover": {
-                      "value": "{semantics.color.bg.brand.o=2}",
+                      "value": "{semantics.color.bg.brand.o=1}",
                       "type": "color"
                     },
                     "i=active": {
-                      "value": "{semantics.color.bg.brand.o=3}",
+                      "value": "{semantics.color.bg.brand.o=2}",
                       "type": "color"
                     },
                     "i=focus": {
-                      "value": "{semantics.color.bg.brand.o=2}",
+                      "value": "{semantics.color.bg.brand.o=1}",
                       "type": "color"
                     }
                   }
@@ -2038,15 +2038,15 @@
                       "type": "color"
                     },
                     "i=hover": {
-                      "value": "{semantics.color.bg.neutral.o=3}",
+                      "value": "{semantics.color.bg.neutral.o=2}",
                       "type": "color"
                     },
                     "i=active": {
-                      "value": "{semantics.color.bg.neutral.o=4}",
+                      "value": "{semantics.color.bg.neutral.o=3}",
                       "type": "color"
                     },
                     "i=focus": {
-                      "value": "{semantics.color.bg.neutral.o=3}",
+                      "value": "{semantics.color.bg.neutral.o=2}",
                       "type": "color"
                     }
                   }
@@ -2060,15 +2060,15 @@
                       "type": "color"
                     },
                     "i=hover": {
-                      "value": "{semantics.color.bg.neutral.o=3}",
+                      "value": "{semantics.color.bg.neutral.o=2}",
                       "type": "color"
                     },
                     "i=active": {
-                      "value": "{semantics.color.bg.neutral.o=4}",
+                      "value": "{semantics.color.bg.neutral.o=3}",
                       "type": "color"
                     },
                     "i=focus": {
-                      "value": "{semantics.color.bg.neutral.o=3}",
+                      "value": "{semantics.color.bg.neutral.o=2}",
                       "type": "color"
                     }
                   }
