@@ -7287,7 +7287,7 @@
               },
               "p=border": {
                 "type": "color",
-                "value": "{semantics.color.border.brand.o=1t}"
+                "value": "{semantics.color.border.brand.o=1}"
               }
             },
             "l=text": {
