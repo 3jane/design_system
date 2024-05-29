@@ -6020,11 +6020,11 @@
           "p=borderRadius": {
             "v=small": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.sm}"
+              "value": "{semantics.size.radius.xs}"
             },
             "v=medium": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.md}"
+              "value": "{semantics.size.radius.lg}"
             }
           },
           "p=borderWidth": {
@@ -6044,7 +6044,7 @@
           "p=paddingHorizontal": {
             "v=small": {
               "type": "spacing",
-              "value": "{semantics.space.md}"
+              "value": "{semantics.space.sm}"
             },
             "v=medium": {
               "type": "spacing",
@@ -6054,7 +6054,7 @@
           "p=gap": {
             "v=small": {
               "type": "spacing",
-              "value": "{semantics.space.sm}"
+              "value": "{semantics.space.xs}"
             },
             "v=medium": {
               "type": "spacing",
