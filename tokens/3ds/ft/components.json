@@ -7283,11 +7283,11 @@
             "l=container": {
               "p=fill": {
                 "type": "color",
-                "value": "{semantics.color.border.brand.o=1}"
+                "value": "{semantics.color.bg.brand.o=1}"
               },
               "p=border": {
                 "type": "color",
-                "value": "{semantics.color.palette.common.transparent}"
+                "value": "{semantics.color.border.brand.o=1t}"
               }
             },
             "l=text": {
@@ -7301,11 +7301,11 @@
             "l=container": {
               "p=fill": {
                 "type": "color",
-                "value": "{semantics.color.border.error.o=1}"
+                "value": "{semantics.color.bg.error.o=1}"
               },
               "p=border": {
                 "type": "color",
-                "value": "{semantics.color.palette.common.transparent}"
+                "value": "{semantics.color.border.error.o=1}"
               }
             },
             "l=text": {
