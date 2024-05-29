@@ -4429,11 +4429,11 @@
         "l=knob": {
           "p=height": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.small.12}"
+            "value": "{semantics.size.sizing.small.11}"
           },
           "p=width": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.small.12}"
+            "value": "{semantics.size.sizing.small.11}"
           },
           "p=borderWidth": {
             "type": "borderWidth",
@@ -4467,7 +4467,7 @@
         "l=container": {
           "p=paddingHorizontal": {
             "type": "spacing",
-            "value": "{semantics.space.xs}"
+            "value": "{semantics.space.sm}"
           }
         }
       }
