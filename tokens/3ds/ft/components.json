@@ -4545,15 +4545,15 @@
                 "p=border": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.border.neutral.o=1}"
+                    "value": "{semantics.color.border.neutral.o=2}"
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.border.neutral.o=1}"
+                    "value": "{semantics.color.border.neutral.a=1}"
                   },
                   "i=entered": {
                     "type": "color",
-                    "value": "{semantics.color.border.neutral.o=1}"
+                    "value": "{semantics.color.border.neutral.o=2}"
                   },
                   "i=focus": {
                     "type": "color",
@@ -4621,7 +4621,7 @@
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.border.error.o=1}"
+                    "value": "{semantics.color.border.error.a=1}"
                   },
                   "i=entered": {
                     "type": "color",
@@ -4673,7 +4673,7 @@
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.l=3}"
+                    "value": "{semantics.color.bg.neutral.o=4}"
                   }
                 },
                 "p=border": {
@@ -4735,7 +4735,7 @@
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.border.neutral.o=2}"
+                    "value": "{semantics.color.border.neutral.a=2}"
                   },
                   "i=entered": {
                     "type": "color",
@@ -4807,7 +4807,7 @@
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.border.error.o=1}"
+                    "value": "{semantics.color.border.error.a=1}"
                   },
                   "i=entered": {
                     "type": "color",
@@ -4859,7 +4859,7 @@
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.a=3}"
+                    "value": "{semantics.color.bg.neutral.o=4}"
                   }
                 },
                 "p=border": {
@@ -4917,7 +4917,7 @@
           },
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.md}"
           }
         },
         "l=placeholderContainer": {
@@ -4965,37 +4965,37 @@
         "l=inputContainer": {
           "v=neutral": {
             "i=none": {
-              "value": "{composites.dropShadow.none}",
+              "value": "{composites.dropShadow.xs}",
               "type": "boxShadow"
             },
             "i=hover": {
-              "value": "{composites.dropShadow.none}",
+              "value": "{composites.dropShadow.xs}",
               "type": "boxShadow"
             },
             "i=entered": {
-              "value": "{composites.dropShadow.none}",
+              "value": "{composites.dropShadow.xs}",
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand.dropShadow.none}",
+              "value": "{composites.focusRing.brand.dropShadow.xs}",
               "type": "boxShadow"
             }
           },
           "v=error": {
             "i=none": {
-              "value": "{composites.dropShadow.none}",
+              "value": "{composites.dropShadow.xs}",
               "type": "boxShadow"
             },
             "i=hover": {
-              "value": "{composites.dropShadow.none}",
+              "value": "{composites.dropShadow.xs}",
               "type": "boxShadow"
             },
             "i=entered": {
-              "value": "{composites.dropShadow.none}",
+              "value": "{composites.dropShadow.xs}",
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.error.dropShadow.none}",
+              "value": "{composites.focusRing.error.dropShadow.xs}",
               "type": "boxShadow"
             }
           }
