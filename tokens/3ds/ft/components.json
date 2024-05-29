@@ -6020,7 +6020,7 @@
           "p=borderRadius": {
             "v=small": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.xs}"
+              "value": "{semantics.size.radius.md}"
             },
             "v=medium": {
               "type": "borderRadius",
