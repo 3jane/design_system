@@ -7872,7 +7872,7 @@
             }
           },
           "m=onDark": {
-            "l=cotnainer": {
+            "l=container": {
               "p=fill": {
                 "type": "color",
                 "value": "{semantics.color.bg.neutral.a=1}"
