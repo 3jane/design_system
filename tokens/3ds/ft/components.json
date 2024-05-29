@@ -4549,7 +4549,7 @@
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.border.neutral.a=1}"
+                    "value": "{semantics.color.border.neutral.o=1}"
                   },
                   "i=entered": {
                     "type": "color",
@@ -4735,7 +4735,7 @@
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.border.neutral.a=2}"
+                    "value": "{semantics.color.border.neutral.o=1}"
                   },
                   "i=entered": {
                     "type": "color",
@@ -4917,7 +4917,7 @@
           },
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.md}"
+            "value": "{semantics.space.none}"
           }
         },
         "l=placeholderContainer": {
@@ -4931,7 +4931,7 @@
           },
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.md}"
           }
         },
         "l=mainContainer": {
