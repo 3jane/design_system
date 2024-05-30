@@ -1490,12 +1490,6 @@
         }
       },
       "c=shadow": {
-        "t=elevated": {
-          "l=container": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          }
-        },
         "t=filled": {
           "l=container": {
             "value": "{composites.dropShadow.none}",
@@ -1503,12 +1497,6 @@
           }
         },
         "t=tonal": {
-          "l=container": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          }
-        },
-        "t=outlined": {
           "l=container": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
