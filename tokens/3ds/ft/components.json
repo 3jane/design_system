@@ -1444,22 +1444,60 @@
     },
     "ButtonGroup": {
       "c=color": {
+        "t=filled": {
         "l=container": {
-                  "p=fill": {
-                    "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
-                  },
-                  "p=border": {
-                    "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
-                  }
+          "p=fill": {
+            "type": "color",
+            "value": "{semantics.color.palette.common.transparent}"
+          },
+          "p=border": {
+             "type": "color",
+             "value": "{semantics.color.palette.common.transparent}"
+           }
         },
          "l=divider": {
-                  "p=border": {
-                    "type": "color",
-                    "value": "{semantics.color.border.neutral.o=2}"
-                  }
+          "p=border": {
+            "type": "color",
+             "value": "{semantics.color.border.neutral.o=2}"
+           }
          }
+        },
+        "t=tonal": {
+          "l=container": {
+            "p=fill": {
+              "type": "color",
+              "value": "{semantics.color.palette.common.transparent}"
+             },
+             "p=border": {
+              "type": "color",
+              "value": "{semantics.color.border.neutral.o=2}"
+             }
+          },
+           "l=divider": {
+            "p=border": {
+              "type": "color",
+               "value": "{semantics.color.border.neutral.o=2}"
+             }
+           }
+          },
+          "t=text": {
+            "l=container": {
+              "p=fill": {
+                "type": "color",
+                "value": "{semantics.color.palette.common.transparent}"
+               },
+               "p=border": {
+                "type": "color",
+                "value": "{semantics.color.border.neutral.o=2}"
+               }
+            },
+             "l=divider": {
+              "p=border": {
+                "type": "color",
+                 "value": "{semantics.color.border.neutral.o=2}"
+               }
+             }
+            }
       },
       "c=size": {
         "l=container": {
