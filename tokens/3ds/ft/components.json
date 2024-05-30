@@ -3425,7 +3425,7 @@
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.border.brand.o=1}"
+                    "value": "{semantics.color.border.neutral.o=2}"
                   },
                   "i=focus": {
                     "type": "color",
@@ -3497,7 +3497,7 @@
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.border.error.a=1}"
+                    "value": "{semantics.color.border.error.o=1}"
                   },
                   "i=focus": {
                     "type": "color",
@@ -3611,7 +3611,7 @@
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.border.brand.o=1}"
+                    "value": "{semantics.color.border.neutral.o=2}"
                   },
                   "i=focus": {
                     "type": "color",
@@ -3683,7 +3683,7 @@
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.border.error.a=1}"
+                    "value": "{semantics.color.border.error.o=1}"
                   },
                   "i=focus": {
                     "type": "color",
