@@ -3879,8 +3879,8 @@
       },
       "c=backgroundBlur": {
         "l=inputContainer": {
-        "value": "{semantics.backgroundBlur.2xl}",
-        "type": "composition"
+          "value": "{semantics.backgroundBlur.2xl}",
+          "type": "composition"
         }
       },
       "c=font": {
