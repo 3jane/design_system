@@ -4345,7 +4345,7 @@
       },
       "c=font": {
         "t=standard": {
-          "l=label": {
+          "l=text": {
             "value": "{composites.font.label.lg.thick}",
             "type": "typography"
           }
@@ -4749,11 +4749,11 @@
         "t=filled": {
           "l=container": {
             "i=none": {
-              "value": "{composites.innerShadow.sm}",
+              "value": "{composites.innerShadow.md}",
               "type": "boxShadow"
             },
             "i=hover": {
-              "value": "{composites.innerShadow.sm}",
+              "value": "{composites.innerShadow.md}",
               "type": "boxShadow"
             },
             "i=focus": {
