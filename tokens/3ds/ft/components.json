@@ -1746,7 +1746,7 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.neutral.o=3}"
+                      "value": "{semantics.color.bg.neutral.l=3}"
                     }
                   },
                   "p=border": {
@@ -1836,7 +1836,7 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.neutral.o=3}"
+                      "value": "{semantics.color.bg.neutral.l=3}"
                     }
                   },
                   "p=border": {
@@ -1928,7 +1928,7 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.neutral.o=3}"
+                      "value": "{semantics.color.bg.neutral.l=3}"
                     }
                   },
                   "p=border": {
@@ -2018,7 +2018,7 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.neutral.o=3}"
+                      "value": "{semantics.color.bg.neutral.l=3}"
                     }
                   },
                   "p=border": {
