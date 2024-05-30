@@ -1441,7 +1441,7 @@
         "brand": {
           "a=1": {
             "type": "color",
-            "value": "{semantics.color.palette.brand.40}"
+            "value": "{semantics.color.palette.brand.45}"
           },
           "o=1": {
             "type": "color",
@@ -1585,11 +1585,11 @@
           },
           "a=1": {
             "type": "color",
-            "value": "{semantics.color.palette.brand.40}"
+            "value": "{semantics.color.palette.brand.45}"
           },
           "a=2": {
             "type": "color",
-            "value": "{semantics.color.palette.brand.45}"
+            "value": "{semantics.color.palette.brand.50}"
           }
         },
         "brand2": {
