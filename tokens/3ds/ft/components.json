@@ -1479,25 +1479,7 @@
                "value": "{semantics.color.border.neutral.o=2}"
              }
            }
-          },
-          "t=text": {
-            "l=container": {
-              "p=fill": {
-                "type": "color",
-                "value": "{semantics.color.palette.common.transparent}"
-               },
-               "p=border": {
-                "type": "color",
-                "value": "{semantics.color.border.neutral.o=2}"
-               }
-            },
-             "l=divider": {
-              "p=border": {
-                "type": "color",
-                 "value": "{semantics.color.border.neutral.o=2}"
-               }
-             }
-            }
+          }
       },
       "c=size": {
         "l=container": {
@@ -1535,12 +1517,6 @@
           }
         },
         "t=tonal": {
-          "l=container": {
-            "value": "{composites.dropShadow.none}",
-            "type": "boxShadow"
-          }
-        },
-        "t=text": {
           "l=container": {
             "value": "{composites.dropShadow.none}",
             "type": "boxShadow"
