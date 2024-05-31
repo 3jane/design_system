@@ -2101,19 +2101,19 @@
         "l=container": {
           "t=filled": {
             "i=none": {
-              "value": "{composites.dropShadow.none}",
+              "value": "{composites.innerShadow.md}",
               "type": "boxShadow"
             },
             "i=hover": {
-              "value": "{composites.dropShadow.none}",
+              "value": "{composites.innerShadow.md}",
               "type": "boxShadow"
             },
             "i=active": {
-              "value": "{composites.dropShadow.none}",
+              "value": "{composites.innerShadow.md}",
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand.dropShadow.none}",
+              "value": "{composites.focusRing.brand.innerShadow.md}",
               "type": "boxShadow"
             }
           },
@@ -4757,7 +4757,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand.innerShadow.sm}",
+              "value": "{composites.focusRing.brand.innerShadow.md}",
               "type": "boxShadow"
             }
           }
