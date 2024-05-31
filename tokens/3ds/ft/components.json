@@ -13062,7 +13062,7 @@
               "v=neutral": {
                 "p=fill": {
                   "type": "color",
-                  "value": "{semantics.color.bg.neutral.l=2}"
+                  "value": "{semantics.color.bg.neutral.o=2}"
                 },
                 "p=border": {
                   "type": "color",
@@ -13102,7 +13102,7 @@
               "v=success": {
                 "p=fill": {
                   "type": "color",
-                  "value": "{semantics.color.bg.success.l=1}"
+                  "value": "{semantics.color.bg.success.o=1}"
                 },
                 "p=border": {
                   "type": "color",
@@ -13112,7 +13112,7 @@
               "v=warning": {
                 "p=fill": {
                   "type": "color",
-                  "value": "{semantics.color.bg.warning.l=1}"
+                  "value": "{semantics.color.bg.warning.o=1}"
                 },
                 "p=border": {
                   "type": "color",
@@ -13122,7 +13122,7 @@
               "v=blue": {
                 "p=fill": {
                   "type": "color",
-                  "value": "{semantics.color.bg.blue.l=1}"
+                  "value": "{semantics.color.bg.blue.o=1}"
                 },
                 "p=border": {
                   "type": "color",
@@ -13136,7 +13136,7 @@
               "v=neutral": {
                 "p=fill": {
                   "type": "color",
-                  "value": "{semantics.color.bg.neutral.l=1}"
+                  "value": "{semantics.color.palette.common.transparent}"
                 },
                 "p=border": {
                   "type": "color",
@@ -13146,7 +13146,7 @@
               "v=brand": {
                 "p=fill": {
                   "type": "color",
-                  "value": "{semantics.color.bg.neutral.l=1}"
+                  "value": "{semantics.color.palette.common.transparent}"
                 },
                 "p=border": {
                   "type": "color",
@@ -13156,7 +13156,7 @@
               "v=brand2": {
                 "p=fill": {
                   "type": "color",
-                  "value": "{semantics.color.bg.neutral.l=1}"
+                  "value": "{semantics.color.palette.common.transparent}"
                 },
                 "p=border": {
                   "type": "color",
@@ -13166,7 +13166,7 @@
               "v=error": {
                 "p=fill": {
                   "type": "color",
-                  "value": "{semantics.color.bg.neutral.l=1}"
+                  "value": "{semantics.color.palette.common.transparent}"
                 },
                 "p=border": {
                   "type": "color",
@@ -13176,7 +13176,7 @@
               "v=success": {
                 "p=fill": {
                   "type": "color",
-                  "value": "{semantics.color.bg.neutral.l=1}"
+                  "value": "{semantics.color.palette.common.transparent}"
                 },
                 "p=border": {
                   "type": "color",
@@ -13186,7 +13186,7 @@
               "v=warning": {
                 "p=fill": {
                   "type": "color",
-                  "value": "{semantics.color.bg.neutral.l=1}"
+                  "value": "{semantics.color.palette.common.transparent}"
                 },
                 "p=border": {
                   "type": "color",
@@ -13196,7 +13196,7 @@
               "v=blue": {
                 "p=fill": {
                   "type": "color",
-                  "value": "{semantics.color.bg.neutral.l=1}"
+                  "value": "{semantics.color.palette.common.transparent}"
                 },
                 "p=border": {
                   "type": "color",
