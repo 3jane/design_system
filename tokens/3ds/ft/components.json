@@ -13237,6 +13237,12 @@
               "type": "boxShadow"
             }
           }
+        },
+        "c=backgroundBlur": {
+          "l=container": {
+            "value": "{semantics.backgroundBlur.2xl}",
+            "type": "composition"
+          }
         }
       },
       "Handle": {
