@@ -1431,11 +1431,11 @@
           },
           "o=1": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.65}, {semantics.color.palette.opacity.30} )"
+            "value": "rgba({semantics.color.palette.neutral.65}, {semantics.color.palette.opacity.15} )"
           },
           "o=2": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.65}, {semantics.color.palette.opacity.15} )"
+            "value": "rgba({semantics.color.palette.neutral.65}, {semantics.color.palette.opacity.30} )"
           }
         },
         "brand": {
