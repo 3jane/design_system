@@ -6269,11 +6269,11 @@
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.bg.brand.a=2}"
+                    "value": "{semantics.color.bg.brand.o=2}"
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.bg.brand.a=3}"
+                    "value": "{semantics.color.bg.brand.o=3}"
                   }
                 },
                 "p=border": {
