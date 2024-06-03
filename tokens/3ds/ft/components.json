@@ -7399,7 +7399,7 @@
           },
           "l=bar": {
             "p=fill": {
-              "value": "{semantics.color.bg.neutral.l=2}",
+              "value": "{semantics.color.bg.neutral.o=3}",
               "type": "color"
             }
           }
@@ -7413,7 +7413,7 @@
           },
           "l=bar": {
             "p=fill": {
-              "value": "{semantics.color.bg.neutral.l=2}",
+              "value": "{semantics.color.bg.neutral.o=3}",
               "type": "color"
             }
           }
