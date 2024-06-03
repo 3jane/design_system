@@ -8854,7 +8854,7 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.neutral.o=1}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     },
                     "i=hover": {
                       "type": "color",
@@ -8960,7 +8960,7 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.neutral.o=1}"
+                      "value": "{semantics.color.palette.common.transparent}"
                     },
                     "i=hover": {
                       "type": "color",
