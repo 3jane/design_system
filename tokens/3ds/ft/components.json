@@ -7789,7 +7789,7 @@
       },
       "c=backgroundBlur": {
         "l=container": {
-          "value": "{semantics.backgroundBlur.xl}",
+          "value": "{semantics.backgroundBlur.4xl}",
           "type": "composition"
         }
       },
