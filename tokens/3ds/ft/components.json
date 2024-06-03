@@ -5745,7 +5745,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand.dropShadow.none}",
+              "value": "{composites.dropShadow.none}",
               "type": "boxShadow"
             }
           }

@@ -1164,7 +1164,7 @@
             "type": "color"
           },
           "transparent": {
-            "value": "#ffffff03",
+            "value": "#ffffff00",
             "type": "color"
           }
         }
