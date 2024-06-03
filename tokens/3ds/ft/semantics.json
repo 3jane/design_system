@@ -1189,19 +1189,19 @@
           },
           "a=1": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.15}"
+            "value": "{semantics.color.palette.neutral.10}"
           },
           "a=2": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.20}"
+            "value": "{semantics.color.palette.neutral.15}"
           },
           "a=3": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.25}"
+            "value": "{semantics.color.palette.neutral.20}"
           },
           "a=4": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.30}"
+            "value": "{semantics.color.palette.neutral.25}"
           },
           "o=1": {
             "type": "color",
@@ -1209,7 +1209,7 @@
           },
           "o=2": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.10} )"
+            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.8} )"
           },
           "o=3": {
             "type": "color",
@@ -1217,7 +1217,7 @@
           },
           "o=4": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.30} )"
+            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.25} )"
           }
         },
         "brand": {
@@ -1427,15 +1427,15 @@
           },
           "a=1": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.15}"
+            "value": "{semantics.color.palette.neutral.10}"
           },
           "o=1": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.35} )"
+            "value": "rgba({semantics.color.palette.neutral.65}, {semantics.color.palette.opacity.30} )"
           },
           "o=2": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.20} )"
+            "value": "rgba({semantics.color.palette.neutral.65}, {semantics.color.palette.opacity.15} )"
           }
         },
         "brand": {
@@ -1559,19 +1559,19 @@
           },
           "a=1": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.15}"
+            "value": "{semantics.color.palette.neutral.10}"
           },
           "a=2": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.25}"
+            "value": "{semantics.color.palette.neutral.20}"
           },
           "a=3": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.35}"
+            "value": "{semantics.color.palette.neutral.30}"
           },
           "a=4": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.45}"
+            "value": "{semantics.color.palette.neutral.40}"
           }
         },
         "brand": {
