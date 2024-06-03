@@ -9069,7 +9069,7 @@
             "l=container": {
               "p=fill": {
                 "type": "color",
-                "value": "{semantics.color.bg.neutral.l=1}"
+                "value": "{semantics.color.bg.neutral.o=1}"
               },
               "p=border": {
                 "type": "color",
@@ -9081,7 +9081,7 @@
             "l=container": {
               "p=fill": {
                 "type": "color",
-                "value": "{semantics.color.bg.neutral.a=2}"
+                "value": "{semantics.color.bg.neutral.o=1}"
               },
               "p=border": {
                 "type": "color",
@@ -9122,6 +9122,12 @@
           "l=container": {
             "value": "{composites.dropShadow.xs}",
             "type": "boxShadow"
+          }
+        },
+        "c=backgroundBlur": {
+          "l=container": {
+            "value": "{semantics.backgroundBlur.4xl}",
+            "type": "composition"
           }
         }
       }
