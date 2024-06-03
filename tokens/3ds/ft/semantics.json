@@ -1205,7 +1205,7 @@
           },
           "o=1": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.85})"
+            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.10})"
           },
           "o=2": {
             "type": "color",
