@@ -4420,11 +4420,11 @@
       "c=shadow": {
         "l=container": {
           "t=standard": {
-            "value": "{composites.dropShadow.none}",
+            "value": "{composites.innerShadow.sm}",
             "type": "boxShadow"
           },
           "t=dot": {
-            "value": "{composites.dropShadow.none}",
+            "value": "{composites.innerShadow.sm}",
             "type": "boxShadow"
           }
         }
@@ -7571,7 +7571,7 @@
       },
       "c=shadow": {
         "l=container": {
-          "value": "{composites.dropShadow.md}",
+          "value": "{composites.innerShadow.md}",
           "type": "boxShadow"
         }
       }
