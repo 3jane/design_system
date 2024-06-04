@@ -10311,7 +10311,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -10335,7 +10335,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -10361,7 +10361,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -10385,7 +10385,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -10411,7 +10411,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -10435,7 +10435,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -10463,7 +10463,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.a=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -10487,7 +10487,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.a=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -10513,7 +10513,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.a=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -10537,7 +10537,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.a=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -10563,7 +10563,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.a=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
@@ -10587,7 +10587,7 @@
                 "l=container": {
                   "p=fill": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.a=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "p=border": {
                     "type": "color",
