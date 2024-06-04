@@ -1166,6 +1166,10 @@
           "transparent": {
             "value": "#ffffff00",
             "type": "color"
+          },
+          "transparentish": {
+            "value": "#ffffff03",
+            "type": "color"
           }
         }
       },

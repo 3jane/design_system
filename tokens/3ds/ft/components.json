@@ -8277,15 +8277,15 @@
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.l=2}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.l=2}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.l=2}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   }
                 },
                 "p=border": {
@@ -8323,15 +8323,15 @@
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.l=2}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.l=2}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   }
                 },
                 "p=border": {
@@ -8345,15 +8345,15 @@
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.l=1}"
+                    "value": "{semantics.color.palette.common.transparent}"
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.l=2}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.l=2}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   }
                 },
                 "p=border": {
