@@ -1213,7 +1213,7 @@
           },
           "o=2": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.8} )"
+            "value": "rgba({semantics.color.palette.neutral.75}, {semantics.color.palette.opacity.10} )"
           },
           "o=3": {
             "type": "color",
