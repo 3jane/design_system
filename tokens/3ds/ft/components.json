@@ -9628,7 +9628,7 @@
               "v=neutral": {
                 "p=fill": {
                   "type": "color",
-                  "value": "{semantics.color.bg.neutral.l=3}"
+                  "value": "{semantics.color.bg.neutral.o=4}"
                 },
                 "p=border": {
                   "type": "color",
@@ -9638,7 +9638,7 @@
               "v=brand": {
                 "p=fill": {
                   "type": "color",
-                  "value": "{semantics.color.bg.neutral.l=3}"
+                  "value": "{semantics.color.bg.neutral.o=4}"
                 },
                 "p=border": {
                   "type": "color",
