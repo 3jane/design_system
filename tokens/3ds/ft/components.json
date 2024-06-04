@@ -9665,7 +9665,7 @@
           }
         },
         "c=space": {
-          "l=touchTarget": {
+          "l=container": {
             "p=paddingVertical": {
               "type": "spacing",
               "value": "{semantics.space.sm}"
