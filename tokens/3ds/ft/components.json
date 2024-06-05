@@ -1246,7 +1246,7 @@
             },
             "v=medium": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.medium.4}"
+              "value": "{semantics.size.sizing.medium.3}"
             },
             "v=large": {
               "type": "sizing",
