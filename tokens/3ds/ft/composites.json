@@ -137,7 +137,7 @@
             "y": "1",
             "blur": "0",
             "spread": "0",
-            "color": "rgba(255, 255, 255, 0.25)",
+            "color": "rgba(255, 255, 255, 0.20)",
             "type": "innerShadow"
           },
           {
@@ -145,7 +145,7 @@
             "y": "-1",
             "blur": "0",
             "spread": "0",
-            "color": "rgba(0, 0, 0, 0.18)",
+            "color": "rgba(0, 0, 0, 0.15)",
             "type": "innerShadow"
           }
         ],
@@ -158,7 +158,7 @@
             "y": "2",
             "blur": "0",
             "spread": "0",
-            "color": "rgba(255, 255, 255, 0.25)",
+            "color": "rgba(255, 255, 255, 0.20)",
             "type": "innerShadow"
           },
           {
@@ -166,7 +166,7 @@
             "y": "-2",
             "blur": "0",
             "spread": "0",
-            "color": "rgba(0, 0, 0, 0.18)",
+            "color": "rgba(0, 0, 0, 0.15)",
             "type": "innerShadow"
           }
         ],
@@ -179,7 +179,7 @@
             "y": "4",
             "blur": "0",
             "spread": "0",
-            "color": "rgba(255, 255, 255, 0.25)",
+            "color": "rgba(255, 255, 255, 0.20)",
             "type": "innerShadow"
           },
           {
@@ -187,7 +187,7 @@
             "y": "-4",
             "blur": "0",
             "spread": "0",
-            "color": "rgba(0, 0, 0, 0.18)",
+            "color": "rgba(0, 0, 0, 0.15)",
             "type": "innerShadow"
           }
         ],
