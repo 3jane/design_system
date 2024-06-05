@@ -398,7 +398,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.palette.common.transparentish}"
                     }
                   },
                   "p=border": {
@@ -430,7 +430,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.palette.common.transparentish}"
                     }
                   },
                   "p=border": {
@@ -462,7 +462,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.palette.common.transparentish}"
                     }
                   },
                   "p=border": {
@@ -520,7 +520,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.palette.common.transparentish}"
                     }
                   },
                   "p=border": {
@@ -552,7 +552,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.palette.common.transparentish}"
                     }
                   },
                   "p=border": {
@@ -584,7 +584,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.palette.common.transparentish}"
                     }
                   },
                   "p=border": {
@@ -1010,7 +1010,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.palette.common.transparentish}"
                     }
                   },
                   "p=border": {
@@ -1042,7 +1042,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.palette.common.transparentish}"
                     }
                   },
                   "p=border": {
@@ -1074,7 +1074,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.palette.common.transparentish}"
                     }
                   },
                   "p=border": {
@@ -1132,7 +1132,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.palette.common.transparentish}"
                     }
                   },
                   "p=border": {
@@ -1164,7 +1164,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.palette.common.transparentish}"
                     }
                   },
                   "p=border": {
@@ -1196,7 +1196,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.palette.common.transparentish}"
                     }
                   },
                   "p=border": {
@@ -3459,19 +3459,19 @@
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   },
                   "i=entered": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   }
                 },
                 "p=border": {
@@ -3531,19 +3531,19 @@
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   },
                   "i=entered": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   }
                 },
                 "p=border": {
@@ -3645,19 +3645,19 @@
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   },
                   "i=entered": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   }
                 },
                 "p=border": {
@@ -3717,19 +3717,19 @@
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   },
                   "i=entered": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   }
                 },
                 "p=border": {
@@ -4014,7 +4014,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.palette.common.transparentish}"
                     }
                   },
                   "p=border": {
@@ -4538,7 +4538,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.palette.common.transparentish}"
                     }
                   },
                   "p=border": {
@@ -4704,7 +4704,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.palette.common.transparentish}"
                     }
                   },
                   "p=border": {
@@ -5442,7 +5442,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.brand.o=3}"
+                      "value": "{semantics.color.bg.brand.o=2}"
                     }
                   },
                   "p=border": {
@@ -5508,7 +5508,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.neutral.o=3}"
+                      "value": "{semantics.color.bg.neutral.o=2}"
                     }
                   },
                   "p=border": {
@@ -5576,7 +5576,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.brand.o=3}"
+                      "value": "{semantics.color.bg.brand.o=2}"
                     }
                   },
                   "p=border": {
@@ -5642,7 +5642,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.neutral.o=3}"
+                      "value": "{semantics.color.bg.neutral.o=2}"
                     }
                   },
                   "p=border": {
@@ -6205,7 +6205,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.o=3}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   }
                 },
                 "p=border": {
@@ -6251,7 +6251,7 @@
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.o=3}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   }
                 },
                 "p=border": {
@@ -6358,7 +6358,7 @@
                 },
                 "i=focus": {
                   "type": "color",
-                  "value": "{semantics.color.palette.common.transparent}"
+                  "value": "{semantics.color.bg.neutral.o=2}"
                 }
               },
               "p=border": {
@@ -7582,7 +7582,7 @@
           "l=mainContainer": {
             "p=fill": {
               "type": "color",
-              "value": "{semantics.color.bg.neutral.o=1}"
+              "value": "{semantics.color.palette.common.transparent}"
             },
             "p=border": {
               "type": "color",
@@ -8467,7 +8467,7 @@
         "m=onLight": {
           "p=fill": {
             "type": "color",
-            "value": "{semantics.color.bg.neutral.l=1}"
+            "value": "{semantics.color.bg.neutral.o=1}"
           },
           "p=border": {
             "type": "color",
@@ -8477,7 +8477,7 @@
         "m=onDark": {
           "p=fill": {
             "type": "color",
-            "value": "{semantics.color.bg.neutral.a=1}"
+            "value": "{semantics.color.bg.stable.darkOpacity}"
           },
           "p=border": {
             "type": "color",
@@ -8519,7 +8519,7 @@
         "m=onLight": {
           "p=fill": {
             "type": "color",
-            "value": "{semantics.color.bg.neutral.l=1}"
+            "value": "{semantics.color.bg.neutral.o=1}"
           },
           "p=border": {
             "type": "color",
@@ -8529,7 +8529,7 @@
         "m=onDark": {
           "p=fill": {
             "type": "color",
-            "value": "{semantics.color.bg.neutral.a=1}"
+            "value": "{semantics.color.bg.stable.darkOpacity}"
           },
           "p=border": {
             "type": "color",
@@ -8862,7 +8862,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.neutral.o=3}"
+                      "value": "{semantics.color.palette.common.transparentish}"
                     }
                   },
                   "p=border": {
@@ -8968,7 +8968,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.neutral.o=3}"
+                      "value": "{semantics.color.palette.common.transparentish}"
                     }
                   },
                   "p=border": {
@@ -12924,7 +12924,7 @@
           "l=container": {
             "p=fill": {
               "type": "color",
-              "value": "{semantics.color.palette.common.transparent}"
+              "value": "{semantics.color.palette.common.transparentish}"
             },
             "p=border": {
               "type": "color",
