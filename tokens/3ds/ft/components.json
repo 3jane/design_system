@@ -11378,7 +11378,7 @@
               "l=label": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.neutral.a=2}"
+                  "value": "{semantics.color.text.neutral.a=1}"
                 }
               }
             },
@@ -11391,11 +11391,11 @@
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.l=2}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   }
                 },
                 "p=border": {
@@ -11406,7 +11406,7 @@
               "l=label": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.neutral.a=2}"
+                  "value": "{semantics.color.text.neutral.a=3}"
                 }
               }
             }
@@ -11449,11 +11449,11 @@
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.a=2}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.transparent}"
+                    "value": "{semantics.color.palette.common.transparentish}"
                   }
                 },
                 "p=border": {
@@ -11551,7 +11551,7 @@
             "l=container": {
               "p=fill": {
                 "type": "color",
-                "value": "{semantics.color.bg.neutral.l=2}"
+                "value": "{semantics.color.bg.neutral.o=2}"
               },
               "p=border": {
                 "type": "color",
@@ -11563,7 +11563,7 @@
             "l=container": {
               "p=fill": {
                 "type": "color",
-                "value": "{semantics.color.bg.neutral.a=2}"
+                "value": "{semantics.color.bg.neutral.o=2}"
               },
               "p=border": {
                 "type": "color",
