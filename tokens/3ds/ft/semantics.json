@@ -1417,9 +1417,9 @@
             "type": "color",
             "value": "{semantics.color.palette.common.white}"
           },
-          "backdrop": {
+          "darkOpacity": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.15}, {semantics.color.palette.opacity.85})"
+            "value": "rgba({semantics.color.palette.neutral.10}, {semantics.color.palette.opacity.85})"
           }
         }
       },
