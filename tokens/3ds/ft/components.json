@@ -11325,7 +11325,7 @@
               "type": "typography"
             },
             "t=deselected": {
-              "value": "{composites.font.label.lg.thick}",
+              "value": "{composites.font.label.lg.thin}",
               "type": "typography"
             }
           }
@@ -11406,7 +11406,7 @@
               "l=label": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.neutral.a=3}"
+                  "value": "{semantics.color.text.neutral.a=2}"
                 }
               }
             }
@@ -11417,15 +11417,15 @@
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.a=1}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.a=1}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.a=1}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   }
                 },
                 "p=border": {
@@ -11436,7 +11436,7 @@
               "l=label": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.neutral.l=2}"
+                  "value": "{semantics.color.text.neutral.l=1}"
                 }
               }
             },
