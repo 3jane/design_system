@@ -3829,7 +3829,7 @@
         "l=inputContainer": {
           "p=minHeight": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.medium.4}"
+            "value": "{semantics.size.sizing.medium.3}"
           },
           "p=borderRadius": {
             "type": "borderRadius",
