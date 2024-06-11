@@ -11321,11 +11321,11 @@
         "c=font": {
           "l=label": {
             "t=selected": {
-              "value": "{composites.font.label.lg.thick}",
+              "value": "{composites.font.label.md.thick}",
               "type": "typography"
             },
             "t=deselected": {
-              "value": "{composites.font.label.lg.medium}",
+              "value": "{composites.font.label.md.medium}",
               "type": "typography"
             }
           }
