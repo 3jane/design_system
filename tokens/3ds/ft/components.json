@@ -1853,7 +1853,7 @@
         "l=halo": {
           "p=size": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.medium.3}"
+            "value": "{semantics.size.sizing.medium.2}"
           },
           "p=borderWidth": {
             "type": "borderWidth",
