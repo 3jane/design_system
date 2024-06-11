@@ -4941,14 +4941,6 @@
           }
         }
       },
-      "c=space": {
-        "l=container": {
-          "p=paddingVertical": {
-            "type": "spacing",
-            "value": "{semantics.space.md}"
-          }
-        }
-      },
       "c=size": {
         "l=line": {
           "p=borderWidth": {
