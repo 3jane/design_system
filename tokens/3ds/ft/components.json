@@ -1847,7 +1847,7 @@
         "l=container": {
           "p=size": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.medium.4}"
+            "value": "{semantics.size.sizing.small.11}"
           }
         },
         "l=halo": {
