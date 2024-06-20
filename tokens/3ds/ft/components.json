@@ -2704,11 +2704,11 @@
           "l=dot": {
             "p=height": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.small.2}"
+              "value": "2"
             },
             "p=width": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.small.2}"
+              "value": "2"
             },
             "p=borderWidth": {
               "type": "borderWidth",
@@ -4184,7 +4184,7 @@
             },
             "v=lg": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.medium.6}"
+              "value": "{semantics.size.sizing.4xl}"
             },
             "v=xl": {
               "type": "sizing",
@@ -6285,7 +6285,7 @@
               },
               "v=large": {
                 "type": "sizing",
-                "value": "{semantics.size.sizing.medium.6}"
+                "value": "{semantics.size.sizing.4xl}"
               }
             },
             "p=borderWidthRight": {
@@ -6403,7 +6403,7 @@
               },
               "v=large": {
                 "type": "sizing",
-                "value": "{semantics.size.sizing.medium.6}"
+                "value": "{semantics.size.sizing.4xl}"
               }
             },
             "p=borderWidthRight": {
@@ -7421,7 +7421,7 @@
         "l=bar": {
           "p=height": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.small.3}"
+            "value": "4"
           },
           "p=borderRadius": {
             "type": "borderRadius",
@@ -7714,7 +7714,7 @@
           "p=height": {
             "v=small": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.medium.6}"
+              "value": "{semantics.size.sizing.4xl}"
             },
             "v=large": {
               "type": "sizing",
@@ -10252,7 +10252,7 @@
             },
             "p=height": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.small.2}"
+              "value": "2"
             }
           }
         }
@@ -12372,7 +12372,7 @@
             },
             "p=width": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.small.2}"
+              "value": "2"
             }
           },
           "l=container": {
@@ -12830,23 +12830,23 @@
           "p=size": {
             "v=xs": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.6xs}"
+              "value": "6"
             },
             "v=sm": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.5xs}"
+              "value": "8"
             },
             "v=md": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.small.6}"
+              "value": "10"
             },
             "v=lg": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.4xs}"
+              "value": "12"
             },
             "v=xl": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.small.8}"
+              "value": "14"
             }
           },
           "p=borderRadius": {
@@ -12882,23 +12882,23 @@
           "p=size": {
             "v=xs": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.small.6}"
+              "value": "10"
             },
             "v=sm": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.4xs}"
+              "value": "12"
             },
             "v=md": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.3xs}"
+              "value": "16"
             },
             "v=lg": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.small.10}"
+              "value": "18"
             },
             "v=xl": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.2xs}"
+              "value": "20"
             }
           },
           "p=borderRadius": {
