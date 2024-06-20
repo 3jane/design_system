@@ -4046,7 +4046,7 @@
           "l=container": {
             "p=borderRadius": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.md}"
+              "value": "{semantics.size.radius.none}"
             },
             "p=borderWidth": {
               "type": "borderWidth",
