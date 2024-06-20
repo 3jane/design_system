@@ -1874,167 +1874,65 @@
         }
       },
       "sizing": {
-        "small": {
-          "1": {
-            "value": "{base.size.1px}",
-            "type": "sizing"
-          },
-          "2": {
-            "value": "{base.size.2px}",
-            "type": "sizing"
-          },
-          "3": {
-            "value": "{base.size.4px}",
-            "type": "sizing"
-          },
-          "4": {
-            "value": "{base.size.6px}",
-            "type": "sizing"
-          },
-          "5": {
-            "value": "{base.size.8px}",
-            "type": "sizing"
-          },
-          "6": {
-            "value": "{base.size.10px}",
-            "type": "sizing"
-          },
-          "7": {
-            "value": "{base.size.12px}",
-            "type": "sizing"
-          },
-          "8": {
-            "value": "{base.size.14px}",
-            "type": "sizing"
-          },
-          "9": {
-            "value": "{base.size.16px}",
-            "type": "sizing"
-          },
-          "10": {
-            "value": "{base.size.18px}",
-            "type": "sizing"
-          },
-          "11": {
-            "value": "{base.size.20px}",
-            "type": "sizing"
-          },
-          "12": {
-            "value": "{base.size.24px}",
-            "type": "sizing"
-          },
-          "13": {
-            "value": "{base.size.28px}",
-            "type": "sizing"
-          }
+        "6xs": {
+          "value": "{base.size.6px}",
+          "type": "sizing"
         },
-        "medium": {
-          "1": {
-            "value": "{base.size.32px}",
-            "type": "sizing"
-          },
-          "2": {
-            "value": "{base.size.36px}",
-            "type": "sizing"
-          },
-          "3": {
-            "value": "{base.size.40px}",
-            "type": "sizing"
-          },
-          "4": {
-            "value": "{base.size.44px}",
-            "type": "sizing"
-          },
-          "5": {
-            "value": "{base.size.48px}",
-            "type": "sizing"
-          },
-          "6": {
-            "value": "{base.size.52px}",
-            "type": "sizing"
-          },
-          "7": {
-            "value": "{base.size.56px}",
-            "type": "sizing"
-          },
-          "8": {
-            "value": "{base.size.60px}",
-            "type": "sizing"
-          },
-          "9": {
-            "value": "{base.size.64px}",
-            "type": "sizing"
-          },
-          "10": {
-            "value": "{base.size.72px}",
-            "type": "sizing"
-          },
-          "11": {
-            "value": "{base.size.80px}",
-            "type": "sizing"
-          },
-          "12": {
-            "value": "{base.size.96px}",
-            "type": "sizing"
-          },
-          "13": {
-            "value": "{base.size.128px}",
-            "type": "sizing"
-          }
+        "5xs": {
+          "value": "{base.size.8px}",
+          "type": "sizing"
         },
-        "large": {
-          "1": {
-            "value": "{base.size.160px}",
-            "type": "sizing"
-          },
-          "2": {
-            "value": "{base.size.192px}",
-            "type": "sizing"
-          },
-          "3": {
-            "value": "{base.size.224px}",
-            "type": "sizing"
-          },
-          "4": {
-            "value": "{base.size.256px}",
-            "type": "sizing"
-          },
-          "5": {
-            "value": "{base.size.320px}",
-            "type": "sizing"
-          },
-          "6": {
-            "value": "{base.size.384px}",
-            "type": "sizing"
-          },
-          "7": {
-            "value": "{base.size.512px}",
-            "type": "sizing"
-          },
-          "8": {
-            "value": "{base.size.640px}",
-            "type": "sizing"
-          },
-          "9": {
-            "value": "{base.size.768px}",
-            "type": "sizing"
-          },
-          "10": {
-            "value": "{base.size.1024px}",
-            "type": "sizing"
-          },
-          "11": {
-            "value": "{base.size.1280px}",
-            "type": "sizing"
-          },
-          "12": {
-            "value": "{base.size.1440px}",
-            "type": "sizing"
-          },
-          "13": {
-            "value": "{base.size.1920px}",
-            "type": "sizing"
-          }
+        "4xs": {
+          "value": "{base.size.12px}",
+          "type": "sizing"
+        },
+        "3xs": {
+          "value": "{base.size.16px}",
+          "type": "sizing"
+        },
+        "2xs": {
+          "value": "{base.size.20px}",
+          "type": "sizing"
+        },
+        "xs": {
+          "value": "{base.size.24px}",
+          "type": "sizing"
+        },
+        "sm": {
+          "value": "{base.size.28px}",
+          "type": "sizing"
+        },
+        "md": {
+          "value": "{base.size.32px}",
+          "type": "sizing"
+        },
+        "lg": {
+          "value": "{base.size.36px}",
+          "type": "sizing"
+        },
+        "xl": {
+          "value": "{base.size.40px}",
+          "type": "sizing"
+        },
+        "2xl": {
+          "value": "{base.size.44px}",
+          "type": "sizing"
+        },
+        "3xl": {
+          "value": "{base.size.48px}",
+          "type": "sizing"
+        },
+        "4xl": {
+          "value": "{base.size.56px}",
+          "type": "sizing"
+        },
+        "5xl": {
+          "value": "{base.size.64px}",
+          "type": "sizing"
+        },
+        "6xl": {
+          "value": "{base.size.72px}",
+          "type": "sizing"
         }
       }
     },
