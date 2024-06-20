@@ -4126,11 +4126,11 @@
             },
             "p=paddingHorizontal": {
               "type": "spacing",
-              "value": "{semantics.space.sm}"
+              "value": "{semantics.space.none}"
             },
             "p=paddingVertical": {
               "type": "spacing",
-              "value": "{semantics.space.sm}"
+              "value": "{semantics.space.none}"
             }
           }
         },
