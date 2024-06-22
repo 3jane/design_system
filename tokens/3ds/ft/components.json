@@ -11362,6 +11362,10 @@
               "type": "sizing",
               "value": "{semantics.size.sizing.xl}"
             },
+            "p=minWidth": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.2xl}"
+            },
             "p=borderRadius": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.none}"
@@ -11707,6 +11711,10 @@
             "p=height": {
               "type": "sizing",
               "value": "{semantics.size.sizing.xl}"
+            },
+            "p=minWidth": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.2xl}"
             },
             "p=borderRadius": {
               "type": "borderRadius",
@@ -12206,6 +12214,10 @@
         },
         "c=size": {
           "l=container": {
+            "p=minWidth": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.2xl}"
+            },
             "p=borderRadius": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.none}"
