@@ -3833,7 +3833,7 @@
           },
           "p=borderRadius": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.md}"
+            "value": "{semantics.size.radius.lg}"
           },
           "p=borderWidth": {
             "type": "borderWidth",
@@ -11050,7 +11050,7 @@
             },
             "p=borderRadius": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.sm}"
+              "value": "{semantics.size.radius.lg}"
             },
             "p=borderWidth": {
               "type": "borderWidth",
@@ -11062,7 +11062,7 @@
           "l=container": {
             "p=paddingHorizontal": {
               "type": "spacing",
-              "value": "{semantics.space.md}"
+              "value": "{semantics.space.lg}"
             },
             "p=gap": {
               "type": "spacing",
