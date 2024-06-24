@@ -2,6 +2,7 @@
   "tokenSetOrder": [
     "3ds/base",
     "3ds/ft/semantics",
+    "3ds/ft/semanticsDark",
     "3ds/ft/composites",
     "3ds/ft/components",
     "candidates/cmp_structure"
