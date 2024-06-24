@@ -1455,7 +1455,7 @@
         "brand2": {
           "a=1": {
             "type": "color",
-            "value": "{semantics.color.palette.brand2.55}"
+            "value": "{semantics.color.palette.brand2.50}"
           },
           "o=1": {
             "type": "color",

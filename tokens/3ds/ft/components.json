@@ -3848,7 +3848,7 @@
           "l=container": {
             "p=fill": {
               "type": "color",
-              "value": "{semantics.color.bg.success.l=1}"
+              "value": "{semantics.color.bg.success.o=1}"
             },
             "p=border": {
               "type": "color",
@@ -3866,7 +3866,7 @@
           "l=container": {
             "p=fill": {
               "type": "color",
-              "value": "{semantics.color.bg.warning.l=1}"
+              "value": "{semantics.color.bg.warning.o=1}"
             },
             "p=border": {
               "type": "color",
@@ -3884,7 +3884,7 @@
           "l=container": {
             "p=fill": {
               "type": "color",
-              "value": "{semantics.color.bg.blue.l=1}"
+              "value": "{semantics.color.bg.blue.o=1}"
             },
             "p=border": {
               "type": "color",
@@ -3902,7 +3902,7 @@
           "l=container": {
             "p=fill": {
               "type": "color",
-              "value": "{semantics.color.bg.purple.l=1}"
+              "value": "{semantics.color.bg.purple.o=1}"
             },
             "p=border": {
               "type": "color",
@@ -3920,7 +3920,7 @@
           "l=container": {
             "p=fill": {
               "type": "color",
-              "value": "{semantics.color.bg.extra1.l=1}"
+              "value": "{semantics.color.bg.extra1.o=1}"
             },
             "p=border": {
               "type": "color",
@@ -3938,7 +3938,7 @@
           "l=container": {
             "p=fill": {
               "type": "color",
-              "value": "{semantics.color.bg.extra2.l=1}"
+              "value": "{semantics.color.bg.extra2.o=1}"
             },
             "p=border": {
               "type": "color",
@@ -3956,7 +3956,7 @@
           "l=container": {
             "p=fill": {
               "type": "color",
-              "value": "{semantics.color.bg.extra3.l=1}"
+              "value": "{semantics.color.bg.extra3.o=1}"
             },
             "p=border": {
               "type": "color",
