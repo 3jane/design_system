@@ -2005,7 +2005,7 @@
               },
               "l=knob": {
                 "p=fill": {
-                  "value": "{semantics.color.bg.neutral.l=1}",
+                  "value": "{semantics.color.bg.stable.light}",
                   "type": "color"
                 }
               },
@@ -4505,7 +4505,7 @@
         "l=tooltipContainer": {
           "p=fill": {
             "type": "color",
-            "value": "{semantics.color.bg.neutral.a=3}"
+            "value": "{semantics.color.bg.stable.dark}"
           },
           "p=border": {
             "type": "color",
@@ -4515,7 +4515,7 @@
         "l=arrow": {
           "p=fill": {
             "type": "color",
-            "value": "{semantics.color.bg.neutral.a=3}"
+            "value": "{semantics.color.bg.stable.dark}"
           },
           "p=border": {
             "type": "color",
