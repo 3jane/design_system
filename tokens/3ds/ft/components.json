@@ -7754,7 +7754,7 @@
               "l=label": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.neutral.a=4}"
+                  "value": "{semantics.color.text.neutral.a=3}"
                 }
               }
             },
@@ -7782,7 +7782,7 @@
               "l=label": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.neutral.a=4}"
+                  "value": "{semantics.color.text.neutral.a=3}"
                 }
               }
             }
