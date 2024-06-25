@@ -164,7 +164,7 @@
               "l=label": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.neutral.l=1}"
+                  "value": "{semantics.color.text.neutralAlt.l=1}"
                 }
               }
             },
@@ -4660,24 +4660,6 @@
             },
             "t=quaternary": {
               "value": "{semantics.color.text.purple.a=1}",
-              "type": "color"
-            }
-          },
-          "v=neutralLight": {
-            "t=primary": {
-              "value": "{semantics.color.text.neutral.l=1}",
-              "type": "color"
-            },
-            "t=secondary": {
-              "value": "{semantics.color.text.neutral.l=2}",
-              "type": "color"
-            },
-            "t=tertiary": {
-              "value": "{semantics.color.text.neutral.l=3}",
-              "type": "color"
-            },
-            "t=quaternary": {
-              "value": "{semantics.color.text.neutral.l=4}",
               "type": "color"
             }
           }
