@@ -1413,9 +1413,13 @@
           }
         },
         "stable": {
-          "white": {
+          "light": {
             "type": "color",
             "value": "{semantics.color.palette.common.white}"
+          },
+          "dark": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.20}"
           },
           "darkOpacity": {
             "type": "color",
