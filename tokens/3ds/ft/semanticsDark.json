@@ -1547,19 +1547,19 @@
         "neutral": {
           "l=1": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.10}"
+            "value": "{semantics.color.palette.common.white}"
           },
           "l=2": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.20}"
+            "value": "{semantics.color.palette.neutral.92}"
           },
           "l=3": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.30}"
+            "value": "{semantics.color.palette.neutral.85}"
           },
           "l=4": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.40}"
+            "value": "{semantics.color.palette.neutral.80}"
           },
           "a=1": {
             "type": "color",
