@@ -1321,7 +1321,7 @@
           },
           "a=1": {
             "type": "color",
-            "value": "{semantics.color.palette.green.50}"
+            "value": "{semantics.color.palette.green.55}"
           },
           "o=1": {
             "type": "color",
@@ -1335,7 +1335,7 @@
           },
           "a=1": {
             "type": "color",
-            "value": "{semantics.color.palette.yellow.50}"
+            "value": "{semantics.color.palette.yellow.55}"
           },
           "o=1": {
             "type": "color",
@@ -1661,7 +1661,7 @@
           },
           "a=1": {
             "type": "color",
-            "value": "{semantics.color.palette.green.50}"
+            "value": "{semantics.color.palette.green.55}"
           }
         },
         "warning": {
@@ -1671,7 +1671,7 @@
           },
           "a=1": {
             "type": "color",
-            "value": "{semantics.color.palette.yellow.50}"
+            "value": "{semantics.color.palette.yellow.55}"
           }
         },
         "blue": {
