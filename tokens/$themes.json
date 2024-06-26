@@ -4891,5 +4891,18 @@
       "3ds/ft/semanticsDark": "source"
     },
     "group": "color"
+  },
+  {
+    "id": "6df125910793922e5b0ffd96ddf35e87203f6735",
+    "name": "landing",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "3ds/base": "source",
+      "3ds/ft/components": "enabled",
+      "candidates/cmp_structure": "enabled",
+      "3ds/ft/composites_landing": "source",
+      "3ds/ft/semantics_landing": "source"
+    },
+    "group": "color"
   }
 ]
