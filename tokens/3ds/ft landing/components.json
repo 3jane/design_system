@@ -5351,19 +5351,19 @@
           },
           "p=borderRadiusBottomLeft": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.none}"
+            "value": "{semantics.size.radius.2xl}"
           },
           "p=borderRadiusBottomRight": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.none}"
+            "value": "{semantics.size.radius.2xl}"
           },
           "p=borderRadiusTopLeft": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.none}"
+            "value": "{semantics.size.radius.2xl}"
           },
           "p=borderRadiusTopRight": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.none}"
+            "value": "{semantics.size.radius.2xl}"
           },
           "p=borderWidthBottom": {
             "type": "borderWidth",
@@ -5371,15 +5371,15 @@
           },
           "p=borderWidthTop": {
             "type": "borderWidth",
-            "value": "{semantics.size.border.none}"
+            "value": "{semantics.size.border.sm}"
           },
           "p=borderWidthLeft": {
             "type": "borderWidth",
-            "value": "{semantics.size.border.none}"
+            "value": "{semantics.size.border.sm}"
           },
           "p=borderWidthRight": {
             "type": "borderWidth",
-            "value": "{semantics.size.border.none}"
+            "value": "{semantics.size.border.sm}"
           }
         }
       },
@@ -5387,19 +5387,19 @@
         "l=container": {
           "p=paddingLeft": {
             "type": "spacing",
-            "value": "{semantics.space.2xl}"
+            "value": "{semantics.space.lg}"
           },
           "p=paddingRight": {
             "type": "spacing",
-            "value": "{semantics.space.2xl}"
+            "value": "{semantics.space.lg}"
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.lg}"
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.lg}"
           },
           "p=gap": {
             "type": "spacing",
