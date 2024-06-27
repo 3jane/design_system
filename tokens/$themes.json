@@ -4898,10 +4898,9 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "3ds/base": "source",
-      "3ds/ft/components": "enabled",
-      "candidates/cmp_structure": "enabled",
-      "3ds/ft/composites_landing": "source",
-      "3ds/ft/semantics_landing": "source"
+      "3ds/ft landing/composites": "source",
+      "3ds/ft landing/semantics": "source",
+      "3ds/ft landing/components": "enabled"
     },
     "group": "color"
   }
