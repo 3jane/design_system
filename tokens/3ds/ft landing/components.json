@@ -5415,7 +5415,7 @@
       },
       "c=shadow": {
         "l=container": {
-          "value": "{composites.dropShadow.none}",
+          "value": "{composites.dropShadow.xs}",
           "type": "boxShadow"
         }
       }
