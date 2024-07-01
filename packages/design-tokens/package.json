@@ -1,0 +1,21 @@
+{
+  "name": "@3jane/design-tokens",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node ./scripts/build.mjs --input './src/**/*.json' --output './dist/tokens.json'"
+  },
+  "devDependencies": {
+    "@tokens-studio/sd-transforms": "^0.14.2",
+    "commander": "^12.1.0",
+    "lodash.setwith": "^4.3.2",
+    "style-dictionary": "4.0.0-prerelease.13",
+    "typescript": "^5.5.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "url": "https://github.com/3jane/design_system.git"
+  }
+}
