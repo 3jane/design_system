@@ -3,13 +3,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "node ./scripts/build.mjs --input './src/**/*.json' --output './dist/tokens.json'"
+    "build": "node ./scripts/build.mjs --input './src/**/*.json' --output './dist/tokens.json'",
+    "test": "glob -c \"tsx --test --no-warnings\" \"./tests/**/*.test.ts\""
   },
   "devDependencies": {
     "@tokens-studio/sd-transforms": "^0.14.2",
+    "ajv": "^8.16.0",
     "commander": "^12.1.0",
+    "glob": "^10.4.2",
     "lodash.setwith": "^4.3.2",
     "style-dictionary": "4.0.0-prerelease.13",
+    "tsx": "^4.16.0",
     "typescript": "^5.5.2"
   },
   "publishConfig": {
