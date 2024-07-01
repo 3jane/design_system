@@ -1,0 +1,35 @@
+{
+  "name": "@3jane/mui-themes",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup src/index.ts"
+  },
+  "devDependencies": {
+    "@mui/material": "^5.15.20",
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "url": "https://github.com/3jane/design_system.git"
+  },
+  "dependencies": {
+    "@3jane/design-tokens": "workspace:^0.0.0"
+  }
+}
