@@ -1,0 +1,95 @@
+name: Prepare release PR
+
+on:
+  push:
+    branches-ignore:
+      - main
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+jobs:
+  prepare-release-pr:
+    if: ${{ !contains(github.event.head_commit.message, '[release]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9.4.0
+          run_install: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: "pnpm"
+
+      - name: Get pnpm store directory
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      - uses: actions/cache@v4
+        name: Setup pnpm cache
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install Dependencies
+        run: pnpm install
+
+      - name: Setup git config
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Prepare changesets
+        run: |
+          pnpm changeset-conventional
+          if [ -n "$(git status --porcelain .changeset)" ]; then
+            pnpm version-packages
+
+            CHANGED_PACKAGES=$(git diff --name-only | grep 'package.json' | xargs -I{} jq -r '.name + ": " + .version' {} | sort -u)
+
+            git add .
+            git commit -m "chore: 🚀 release packages [release]"
+
+            echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
+            echo "CHANGED_PACKAGES<<EOF" >> $GITHUB_ENV
+            echo "$CHANGED_PACKAGES" >> $GITHUB_ENV
+            echo "EOF" >> $GITHUB_ENV
+          else
+            echo "CHANGES_DETECTED=false" >> $GITHUB_ENV
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Switch to main branch
+        if: env.CHANGES_DETECTED == 'true'
+        run: git checkout -b main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Pull Request
+        if: env.CHANGES_DETECTED == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref_name }}
+          title: "Release 🚀"
+          body: |
+            This PR was automatically created by the release workflow.
+
+            Updated packages:
+            ${{ env.CHANGED_PACKAGES }}
+          labels: release
