@@ -2,8 +2,20 @@
   "name": "@3jane/design-tokens",
   "version": "0.0.0",
   "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
   "scripts": {
-    "build": "node ./scripts/build.mjs --input './src/**/*.json' --output './dist/tokens.json'",
+    "build": "node ./scripts/build.mjs --input src/\\$themes.json --output ./dist",
     "test": "glob -c \"tsx --test --no-warnings\" \"./tests/**/*.test.ts\""
   },
   "devDependencies": {
@@ -11,6 +23,7 @@
     "ajv": "^8.16.0",
     "commander": "^12.1.0",
     "glob": "^10.4.2",
+    "lodash.camelcase": "^4.3.0",
     "lodash.setwith": "^4.3.2",
     "style-dictionary": "4.0.0-prerelease.13",
     "tsx": "^4.16.0",
