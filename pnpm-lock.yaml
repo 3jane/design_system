@@ -54,7 +54,7 @@ importers:
   packages/mui-themes:
     dependencies:
       '@3jane/design-tokens':
-        specifier: workspace:^0.0.0
+        specifier: workspace:^0.1.0
         version: link:../design-tokens
     devDependencies:
       '@mui/material':
