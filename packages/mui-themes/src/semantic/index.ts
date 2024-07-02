@@ -1,4 +1,4 @@
-import tokens from "@3jane/design-tokens/dist/tokens.json";
+import * as tokens from "@3jane/design-tokens";
 
 export const semantic = {
   color: {

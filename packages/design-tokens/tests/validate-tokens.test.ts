@@ -2,12 +2,17 @@ import { test } from "node:test";
 import { equal } from "node:assert";
 import Ajv from "ajv";
 
-import tokens from "../dist/tokens.json";
 import schema from "./tokens-schema.json";
 
-test("tokens should be valid structure", () => {
-  const ajv = new Ajv();
-  const validate = ajv.compile(schema);
+import * as tokens from "../dist";
 
-  equal(validate(tokens), true);
+const ajv = new Ajv();
+const validate = ajv.compile(schema);
+
+test("light tokens should be valid structure", () => {
+  equal(validate(tokens.light), true);
+});
+
+test("light tokens should be valid structure", () => {
+  equal(validate(tokens.dark), true);
 });
