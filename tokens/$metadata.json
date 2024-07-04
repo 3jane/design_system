@@ -1,11 +1,15 @@
 {
   "tokenSetOrder": [
     "3ds/global/base",
-    "3ds/ft/dimensions/app",
-    "3ds/ft/dimensions/landing",
-    "3ds/ft/color/light",
-    "3ds/ft/color/dark",
-    "3ds/ft/common/components",
-    "3ds/ft/common/composites"
+    "3ds/ft_app/color/light",
+    "3ds/ft_app/color/dark",
+    "3ds/ft_app/common/semantics",
+    "3ds/ft_app/common/components",
+    "3ds/ft_app/common/composites",
+    "3ds/ft_landing/color/dark",
+    "3ds/ft_landing/color/light",
+    "3ds/ft_landing/common/composites",
+    "3ds/ft_landing/common/components",
+    "3ds/ft_landing/common/semantics"
   ]
 }
