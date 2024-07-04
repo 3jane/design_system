@@ -745,7 +745,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.compositeFocusShadow.brand.innerShadow.md+ring}",
+              "value": "{composites.compositeFocusShadow.inner+ring.md+brand}",
               "type": "boxShadow"
             }
           }
@@ -785,7 +785,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.compositeFocusShadow.brand.dropShadow.xs+ring}",
+              "value": "{composites.compositeFocusShadow.drop+ring.xs+brand}",
               "type": "boxShadow"
             }
           }
@@ -1357,7 +1357,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.compositeFocusShadow.brand.innerShadow.md+ring}",
+              "value": "{composites.compositeFocusShadow.inner+ring.md+brand}",
               "type": "boxShadow"
             }
           },
@@ -2491,7 +2491,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.compositeFocusShadow.brand.dropShadow.xs+ring}",
+              "value": "{composites.compositeFocusShadow.drop+ring.xs+brand}",
               "type": "boxShadow"
             },
             "i=entered": {
@@ -2509,7 +2509,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.compositeFocusShadow.error.dropShadow.xs+ring}",
+              "value": "{composites.compositeFocusShadow.drop+ring.xs+error}",
               "type": "boxShadow"
             },
             "i=entered": {
@@ -3221,7 +3221,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.compositeFocusShadow.brand.innerShadow.md+ring}",
+              "value": "{composites.compositeFocusShadow.inner+ring.md+brand}",
               "type": "boxShadow"
             }
           }
@@ -3237,7 +3237,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.compositeFocusShadow.brand.dropShadow.xs+ring}",
+              "value": "{composites.compositeFocusShadow.drop+ring.xs+brand}",
               "type": "boxShadow"
             }
           }
