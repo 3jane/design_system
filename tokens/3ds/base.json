@@ -1,7 +1,7 @@
 {
   "base": {
     "color": {
-      "palette": {
+      "ft": {
         "neutral": {
           "10": {
             "value": "#191c22",
@@ -247,7 +247,9 @@
             "value": "#fcf5f2",
             "type": "color"
           }
-        },
+        }
+      },
+      "palette": {
         "red": {
           "10": {
             "value": "#390907",
