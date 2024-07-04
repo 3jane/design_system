@@ -1,13 +1,11 @@
 {
   "tokenSetOrder": [
-    "3ds/base",
-    "3ds/ft/semantics",
-    "3ds/ft/semanticsDark",
-    "3ds/ft/composites",
-    "3ds/ft/components",
-    "candidates/cmp_structure",
-    "3ds/ft landing/components",
-    "3ds/ft landing/composites",
-    "3ds/ft landing/semantics"
+    "3ds/global/base",
+    "3ds/ft/dimensions/app",
+    "3ds/ft/dimensions/landing",
+    "3ds/ft/color/light",
+    "3ds/ft/color/dark",
+    "3ds/ft/common/components",
+    "3ds/ft/common/composites"
   ]
 }

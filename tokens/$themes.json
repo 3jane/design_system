@@ -4868,11 +4868,10 @@
       "components.SpeedDial.c=elevation.m=onDark.i=active": "S:f5c274e366921db8c35df16166c25ff36059da6a,"
     },
     "selectedTokenSets": {
-      "3ds/base": "source",
-      "3ds/ft/semantics": "source",
-      "3ds/ft/composites": "source",
-      "3ds/ft/components": "enabled",
-      "candidates/cmp_structure": "enabled"
+      "3ds/global/base": "source",
+      "3ds/ft/common/composites": "source",
+      "3ds/ft/common/components": "enabled",
+      "3ds/ft/color/light": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:347:7666",
     "$figmaModeId": "347:0",
@@ -4884,24 +4883,35 @@
     "name": "dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "3ds/base": "source",
-      "3ds/ft/composites": "source",
-      "3ds/ft/components": "enabled",
-      "candidates/cmp_structure": "enabled",
-      "3ds/ft/semanticsDark": "source"
+      "3ds/global/base": "source",
+      "3ds/ft/common/composites": "source",
+      "3ds/ft/common/components": "enabled",
+      "3ds/ft/color/dark": "source"
     },
     "group": "color"
   },
   {
-    "id": "6df125910793922e5b0ffd96ddf35e87203f6735",
+    "id": "ef2c2664d077caa5f5f4397df42a76f5bb8b35a7",
+    "name": "app",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "3ds/global/base": "source",
+      "3ds/ft/dimensions/app": "source",
+      "3ds/ft/common/components": "enabled",
+      "3ds/ft/common/composites": "source"
+    },
+    "group": "dimensions"
+  },
+  {
+    "id": "055167886b3fb19b0f775a8c769d8df29badd41f",
     "name": "landing",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "3ds/base": "source",
-      "3ds/ft landing/composites": "source",
-      "3ds/ft landing/semantics": "source",
-      "3ds/ft landing/components": "enabled"
+      "3ds/global/base": "source",
+      "3ds/ft/dimensions/landing": "source",
+      "3ds/ft/common/components": "enabled",
+      "3ds/ft/common/composites": "source"
     },
-    "group": "color"
+    "group": "dimensions"
   }
 ]
