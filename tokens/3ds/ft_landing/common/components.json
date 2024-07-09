@@ -642,15 +642,15 @@
           "p=borderRadius": {
             "v=small": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.lg}"
+              "value": "{semantics.size.radius.full}"
             },
             "v=medium": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.lg}"
+              "value": "{semantics.size.radius.full}"
             },
             "v=large": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.lg}"
+              "value": "{semantics.size.radius.full}"
             }
           },
           "p=borderWidth": {
@@ -4722,7 +4722,7 @@
       "c=font": {
         "t=thin": {
           "v=display1": {
-            "value": "{composites.font.display.md.medium}",
+            "value": "{composites.font.display.lg.medium}",
             "type": "typography"
           },
           "v=display2": {
@@ -4738,11 +4738,11 @@
             "type": "typography"
           },
           "v=body1": {
-            "value": "{composites.font.body.md.thin}",
+            "value": "{composites.font.body.md.medium}",
             "type": "typography"
           },
           "v=body2": {
-            "value": "{composites.font.body.sm.thin}",
+            "value": "{composites.font.body.sm.medium}",
             "type": "typography"
           },
           "v=caption": {
@@ -4752,7 +4752,7 @@
         },
         "t=thick": {
           "v=display1": {
-            "value": "{composites.font.display.md.thick}",
+            "value": "{composites.font.display.lg.thick}",
             "type": "typography"
           },
           "v=display2": {
@@ -5329,11 +5329,11 @@
         "l=container": {
           "p=fill": {
             "type": "color",
-            "value": "{semantics.color.bg.neutral.o=1}"
+            "value": "{semantics.color.bg.brand.l=1}"
           },
           "p=border": {
             "type": "color",
-            "value": "{semantics.color.border.neutral.o=1}"
+            "value": "{semantics.color.palette.common.transparent}"
           }
         }
       },
@@ -5387,11 +5387,11 @@
         "l=container": {
           "p=paddingLeft": {
             "type": "spacing",
-            "value": "{semantics.space.2xl}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingRight": {
             "type": "spacing",
-            "value": "{semantics.space.2xl}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingTop": {
             "type": "spacing",

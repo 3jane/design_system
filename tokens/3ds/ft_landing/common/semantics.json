@@ -1400,19 +1400,19 @@
       "family": {
         "display": {
           "default": {
-            "value": "{base.font.family.dmsans}",
+            "value": "{base.font.family.inter}",
             "type": "fontFamilies"
           }
         },
         "title": {
           "default": {
-            "value": "{base.font.family.dmsans}",
+            "value": "{base.font.family.inter}",
             "type": "fontFamilies"
           }
         },
         "body": {
           "default": {
-            "value": "{base.font.family.dmsans}",
+            "value": "{base.font.family.inter}",
             "type": "fontFamilies"
           },
           "monospace": {
@@ -1422,7 +1422,7 @@
         },
         "label": {
           "default": {
-            "value": "{base.font.family.dmsans}",
+            "value": "{base.font.family.inter}",
             "type": "fontFamilies"
           }
         }
