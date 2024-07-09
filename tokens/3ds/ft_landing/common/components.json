@@ -2232,19 +2232,19 @@
               "p=fill": {
                 "i=none": {
                   "type": "color",
-                  "value": "{semantics.color.palette.common.transparent}"
+                  "value": "{semantics.color.bg.neutral.l=1}"
                 },
                 "i=hover": {
                   "type": "color",
-                  "value": "{semantics.color.palette.common.transparent}"
+                  "value": "{semantics.color.bg.neutral.l=1}"
                 },
                 "i=focus": {
                   "type": "color",
-                  "value": "{semantics.color.palette.common.transparent}"
+                  "value": "{semantics.color.bg.neutral.l=1}"
                 },
                 "i=entered": {
                   "type": "color",
-                  "value": "{semantics.color.palette.common.transparent}"
+                  "value": "{semantics.color.bg.neutral.l=1}"
                 }
               },
               "p=border": {
@@ -2415,11 +2415,11 @@
         "l=inputContainer": {
           "p=minHeight": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.xl}"
+            "value": "{semantics.size.sizing.5xl}"
           },
           "p=borderRadius": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.lg}"
+            "value": "{semantics.size.radius.full}"
           },
           "p=borderWidth": {
             "type": "borderWidth",
@@ -2431,7 +2431,7 @@
         "l=inputContainer": {
           "p=paddingHorizontal": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.sm}"
           },
           "p=gap": {
             "type": "spacing",

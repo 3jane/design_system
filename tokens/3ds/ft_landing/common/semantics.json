@@ -1488,29 +1488,29 @@
       "size": {
         "display": {
           "sm": {
-            "value": "{base.font.size.48px}",
+            "value": "{base.font.size.36px}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{base.font.size.64px}",
+            "value": "{base.font.size.48px}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{base.font.size.72px}",
+            "value": "{base.font.size.64px}",
             "type": "fontSizes"
           }
         },
         "title": {
           "sm": {
-            "value": "{base.font.size.32px}",
+            "value": "{base.font.size.20px}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{base.font.size.36px}",
+            "value": "{base.font.size.28px}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{base.font.size.40px}",
+            "value": "{base.font.size.32px}",
             "type": "fontSizes"
           }
         },
@@ -1530,15 +1530,15 @@
         },
         "label": {
           "sm": {
-            "value": "{base.font.size.12px}",
-            "type": "fontSizes"
-          },
-          "md": {
             "value": "{base.font.size.14px}",
             "type": "fontSizes"
           },
-          "lg": {
+          "md": {
             "value": "{base.font.size.16px}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{base.font.size.20px}",
             "type": "fontSizes"
           }
         }
