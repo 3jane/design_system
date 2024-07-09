@@ -304,6 +304,10 @@
           "97": {
             "value": "#f6f6f8",
             "type": "color"
+          },
+          "99": {
+            "value": "##fcfcfc",
+            "type": "color"
           }
         },
         "brand": {
@@ -385,6 +389,10 @@
           },
           "97": {
             "value": "#f7f6fb",
+            "type": "color"
+          },
+          "99": {
+            "value": "#fcfcfe",
             "type": "color"
           }
         },
@@ -468,6 +476,10 @@
           "97": {
             "value": "#fcf5f2",
             "type": "color"
+          },
+          "99": {
+            "value": "#fefcfb",
+            "type": "color"
           }
         },
         "red": {
@@ -549,6 +561,10 @@
           },
           "97": {
             "value": "#fcf5f3",
+            "type": "color"
+          },
+          "99": {
+            "value": "#fefcfb",
             "type": "color"
           }
         },
@@ -632,7 +648,12 @@
           "97": {
             "value": "#fbf5f3",
             "type": "color"
+          },
+          "99": {
+            "value": "#fdfcfb",
+            "type": "color"
           }
+          
         },
         "yellow": {
           "10": {
@@ -713,6 +734,10 @@
           },
           "97": {
             "value": "#fcf5ef",
+            "type": "color"
+          },
+          "99": {
+            "value": "#fefcfa",
             "type": "color"
           }
         },
@@ -796,6 +821,10 @@
           "97": {
             "value": "#ebfbe0",
             "type": "color"
+          },
+          "99": {
+            "value": "#f9fef6",
+            "type": "color"
           }
         },
         "green": {
@@ -877,6 +906,10 @@
           },
           "97": {
             "value": "#e5fceb",
+            "type": "color"
+          },
+          "99": {
+            "value": "#f7fef9",
             "type": "color"
           }
         },
@@ -960,6 +993,10 @@
           "97": {
             "value": "#f1f7fc",
             "type": "color"
+          },
+          "99": {
+            "value": "#fbfcfe",
+            "type": "color"
           }
         },
         "blue": {
@@ -1041,6 +1078,10 @@
           },
           "97": {
             "value": "#f5f6fc",
+            "type": "color"
+          },
+          "99": {
+            "value": "#fcfcfe",
             "type": "color"
           }
         },
@@ -1124,6 +1165,10 @@
           "97": {
             "value": "#f7f6fb",
             "type": "color"
+          },
+          "99": {
+            "value": "#fcfcfe",
+            "type": "color"
           }
         },
         "purple": {
@@ -1206,6 +1251,10 @@
           "97": {
             "value": "#f9f5fc",
             "type": "color"
+          },
+          "99": {
+            "value": "#fdfcfe",
+            "type": "color"
           }
         },
         "rose": {
@@ -1287,6 +1336,10 @@
           },
           "97": {
             "value": "#fcf5f4",
+            "type": "color"
+          },
+          "99": {
+            "value": "#fefcfb",
             "type": "color"
           }
         },
