@@ -1,6 +1,6 @@
 {
   "name": "@3jane/mui-themes",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
@@ -30,6 +30,6 @@
     "url": "https://github.com/3jane/design_system.git"
   },
   "dependencies": {
-    "@3jane/design-tokens": "workspace:^0.0.0"
+    "@3jane/design-tokens": "workspace:^0.1.0"
   }
 }
