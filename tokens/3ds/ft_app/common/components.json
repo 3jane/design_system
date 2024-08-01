@@ -2743,7 +2743,7 @@
           },
           "p=border": {
             "type": "color",
-            "value": "{semantics.color.border.neutral.l=1}"
+            "value": "{semantics.color.palette.common.none}"
           }
         },
         "l=text": {
