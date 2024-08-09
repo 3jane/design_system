@@ -1569,6 +1569,20 @@
         },
         "body": {
           "sm": {
+            "value": "{base.font.size.14px}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{base.font.size.16px}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{base.font.size.18px}",
+            "type": "fontSizes"
+          }
+        },
+        "label": {
+          "sm": {
             "value": "{base.font.size.12px}",
             "type": "fontSizes"
           },
@@ -1578,20 +1592,6 @@
           },
           "lg": {
             "value": "{base.font.size.16px}",
-            "type": "fontSizes"
-          }
-        },
-        "label": {
-          "sm": {
-            "value": "{base.font.size.11px}",
-            "type": "fontSizes"
-          },
-          "md": {
-            "value": "{base.font.size.12px}",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "{base.font.size.14px}",
             "type": "fontSizes"
           }
         }
