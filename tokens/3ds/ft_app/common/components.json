@@ -818,11 +818,11 @@
             "type": "typography"
           },
           "v=medium": {
-            "value": "{composites.font.label.lg.thick}",
+            "value": "{composites.font.label.md.thick}",
             "type": "typography"
           },
           "v=large": {
-            "value": "{composites.font.label.lg.thick}",
+            "value": "{composites.font.label.md.thick}",
             "type": "typography"
           }
         }
