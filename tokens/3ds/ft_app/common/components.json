@@ -814,7 +814,7 @@
       "c=font": {
         "l=label": {
           "v=small": {
-            "value": "{composites.font.label.lg.thick}",
+            "value": "{composites.font.label.md.thick}",
             "type": "typography"
           },
           "v=medium": {
@@ -1388,7 +1388,7 @@
       "c=font": {
         "l=label": {
           "v=small": {
-            "value": "{composites.font.label.lg.thick}",
+            "value": "{composites.font.label.md.thick}",
             "type": "typography"
           },
           "v=medium": {
@@ -2527,15 +2527,15 @@
       },
       "c=font": {
         "l=inputText": {
-          "value": "{composites.font.label.lg.thin}",
+          "value": "{composites.font.label.md.thin}",
           "type": "typography"
         },
         "l=labelText": {
-          "value": "{composites.font.label.md.medium}",
+          "value": "{composites.font.label.sm.medium}",
           "type": "typography"
         },
         "l=hintText": {
-          "value": "{composites.font.label.md.thin}",
+          "value": "{composites.font.label.sm.thin}",
           "type": "typography"
         }
       }
@@ -2658,7 +2658,7 @@
         },
         "c=font": {
           "l=label": {
-            "value": "{composites.font.label.md.thick}",
+            "value": "{composites.font.label.sm.thick}",
             "type": "typography"
           }
         },
@@ -2978,7 +2978,7 @@
       "c=font": {
         "t=standard": {
           "l=text": {
-            "value": "{composites.font.label.lg.thick}",
+            "value": "{composites.font.label.md.thick}",
             "type": "typography"
           }
         }
@@ -4043,7 +4043,7 @@
       },
       "c=font": {
         "l=label": {
-          "value": "{composites.font.label.md.thick}",
+          "value": "{composites.font.label.sm.thick}",
           "type": "typography"
         }
       }
@@ -4244,7 +4244,7 @@
         },
         "c=font": {
           "l=label": {
-            "value": "{composites.font.label.lg.thick}",
+            "value": "{composites.font.label.sm.thick}",
             "type": "typography"
           }
         }
@@ -4559,7 +4559,7 @@
       },
       "c=font": {
         "l=label": {
-          "value": "{composites.font.label.md.medium}",
+          "value": "{composites.font.label.sm.medium}",
           "type": "typography"
         }
       },
@@ -7905,11 +7905,11 @@
         "c=font": {
           "l=label": {
             "t=selected": {
-              "value": "{composites.font.label.md.thick}",
+              "value": "{composites.font.label.sm.thick}",
               "type": "typography"
             },
             "t=deselected": {
-              "value": "{composites.font.label.md.medium}",
+              "value": "{composites.font.label.sm.medium}",
               "type": "typography"
             }
           }
@@ -8123,11 +8123,11 @@
         "c=font": {
           "l=label": {
             "t=selected": {
-              "value": "{composites.font.label.lg.thick}",
+              "value": "{composites.font.label.md.thick}",
               "type": "typography"
             },
             "t=deselected": {
-              "value": "{composites.font.label.lg.thick}",
+              "value": "{composites.font.label.md.thick}",
               "type": "typography"
             }
           }
@@ -8415,11 +8415,11 @@
         "c=font": {
           "l=label": {
             "t=selected": {
-              "value": "{composites.font.label.lg.thick}",
+              "value": "{composites.font.label.md.thick}",
               "type": "typography"
             },
             "t=deselected": {
-              "value": "{composites.font.label.lg.thick}",
+              "value": "{composites.font.label.md.thick}",
               "type": "typography"
             }
           }
@@ -8897,11 +8897,11 @@
         "c=font": {
           "l=text": {
             "t=selected": {
-              "value": "{composites.font.label.lg.medium}",
+              "value": "{composites.font.label.md.medium}",
               "type": "typography"
             },
             "t=deselected": {
-              "value": "{composites.font.label.lg.medium}",
+              "value": "{composites.font.label.md.medium}",
               "type": "typography"
             }
           }
