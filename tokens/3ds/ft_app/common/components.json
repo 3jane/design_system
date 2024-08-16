@@ -626,29 +626,29 @@
       "c=size": {
         "l=container": {
           "p=height": {
-            "v=small": {
+            "v=sm": {
               "type": "sizing",
               "value": "{semantics.size.sizing.lg}"
             },
-            "v=medium": {
+            "v=md": {
               "type": "sizing",
               "value": "{semantics.size.sizing.xl}"
             },
-            "v=large": {
+            "v=lg": {
               "type": "sizing",
               "value": "{semantics.size.sizing.3xl}"
             }
           },
           "p=borderRadius": {
-            "v=small": {
+            "v=sm": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.lg}"
             },
-            "v=medium": {
+            "v=md": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.lg}"
             },
-            "v=large": {
+            "v=lg": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.lg}"
             }
@@ -680,29 +680,29 @@
       "c=space": {
         "l=container": {
           "p=paddingHorizontal": {
-            "v=small": {
+            "v=sm": {
               "type": "spacing",
               "value": "{semantics.space.xl}"
             },
-            "v=medium": {
+            "v=md": {
               "type": "spacing",
               "value": "{semantics.space.2xl}"
             },
-            "v=large": {
+            "v=lg": {
               "type": "spacing",
               "value": "{semantics.space.2xl}"
             }
           },
           "p=gap": {
-            "v=small": {
+            "v=sm": {
               "type": "spacing",
               "value": "{semantics.space.sm}"
             },
-            "v=medium": {
+            "v=md": {
               "type": "spacing",
               "value": "{semantics.space.sm}"
             },
-            "v=large": {
+            "v=lg": {
               "type": "spacing",
               "value": "{semantics.space.sm}"
             }
@@ -813,15 +813,15 @@
       },
       "c=font": {
         "l=label": {
-          "v=small": {
+          "v=sm": {
             "value": "{composites.font.label.md.thick}",
             "type": "typography"
           },
-          "v=medium": {
+          "v=md": {
             "value": "{composites.font.label.md.thick}",
             "type": "typography"
           },
-          "v=large": {
+          "v=lg": {
             "value": "{composites.font.label.md.thick}",
             "type": "typography"
           }
@@ -870,15 +870,15 @@
       "c=size": {
         "l=container": {
           "p=borderRadius": {
-            "v=small": {
+            "v=sm": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.md}"
             },
-            "v=medium": {
+            "v=md": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.md}"
             },
-            "v=large": {
+            "v=lg": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.md}"
             }
@@ -1284,15 +1284,15 @@
       "c=size": {
         "l=container": {
           "p=borderRadius": {
-            "v=small": {
+            "v=sm": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.full}"
             },
-            "v=medium": {
+            "v=md": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.full}"
             },
-            "v=large": {
+            "v=lg": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.full}"
             }
@@ -1312,29 +1312,29 @@
       "c=space": {
         "l=container": {
           "p=padding": {
-            "v=small": {
+            "v=sm": {
               "type": "spacing",
               "value": "{semantics.space.md}"
             },
-            "v=medium": {
+            "v=md": {
               "type": "spacing",
               "value": "{semantics.space.xl}"
             },
-            "v=large": {
+            "v=lg": {
               "type": "spacing",
               "value": "{semantics.space.2xl}"
             }
           },
           "p=gap": {
-            "v=small": {
+            "v=sm": {
               "type": "spacing",
               "value": "{semantics.space.sm}"
             },
-            "v=medium": {
+            "v=md": {
               "type": "spacing",
               "value": "{semantics.space.sm}"
             },
-            "v=large": {
+            "v=lg": {
               "type": "spacing",
               "value": "{semantics.space.sm}"
             }
@@ -1387,15 +1387,15 @@
       },
       "c=font": {
         "l=label": {
-          "v=small": {
+          "v=sm": {
             "value": "{composites.font.label.md.thick}",
             "type": "typography"
           },
-          "v=medium": {
+          "v=md": {
             "value": "{composites.font.label.lg.thick}",
             "type": "typography"
           },
-          "v=large": {
+          "v=lg": {
             "value": "{composites.font.label.lg.thick}",
             "type": "typography"
           }
@@ -1469,7 +1469,7 @@
         "c=size": {
           "l=icon": {
             "p=size": {
-              "v=small": {
+              "v=sm": {
                 "i=none": {
                   "type": "sizing",
                   "value": "{semantics.size.sizing.3xs}"
@@ -1479,7 +1479,7 @@
                   "value": "{semantics.size.sizing.2xs}"
                 }
               },
-              "v=medium": {
+              "v=md": {
                 "i=none": {
                   "type": "sizing",
                   "value": "{semantics.size.sizing.2xs}"
@@ -1489,7 +1489,7 @@
                   "value": "{semantics.size.sizing.xs}"
                 }
               },
-              "v=large": {
+              "v=lg": {
                 "i=none": {
                   "type": "sizing",
                   "value": "{semantics.size.sizing.xs}"
@@ -1503,15 +1503,15 @@
           },
           "l=container": {
             "p=size": {
-              "v=small": {
+              "v=sm": {
                 "type": "sizing",
                 "value": "{semantics.size.sizing.3xs}"
               },
-              "v=medium": {
+              "v=md": {
                 "type": "sizing",
                 "value": "{semantics.size.sizing.2xs}"
               },
-              "v=large": {
+              "v=lg": {
                 "type": "sizing",
                 "value": "{semantics.size.sizing.xs}"
               }
@@ -1523,15 +1523,15 @@
         "c=space": {
           "l=container": {
             "p=gap": {
-              "v=small": {
+              "v=sm": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               },
-              "v=medium": {
+              "v=md": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               },
-              "v=large": {
+              "v=lg": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               }
@@ -3154,21 +3154,21 @@
       "c=size": {
         "l=container": {
           "p=height": {
-            "v=small": {
+            "v=sm": {
               "type": "sizing",
               "value": "{semantics.size.sizing.sm}"
             },
-            "v=medium": {
+            "v=md": {
               "type": "sizing",
               "value": "{semantics.size.sizing.lg}"
             }
           },
           "p=borderRadius": {
-            "v=small": {
+            "v=sm": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.md}"
             },
-            "v=medium": {
+            "v=md": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.lg}"
             }
@@ -3188,21 +3188,21 @@
       "c=space": {
         "l=container": {
           "p=paddingHorizontal": {
-            "v=small": {
+            "v=sm": {
               "type": "spacing",
               "value": "{semantics.space.sm}"
             },
-            "v=medium": {
+            "v=md": {
               "type": "spacing",
               "value": "{semantics.space.lg}"
             }
           },
           "p=gap": {
-            "v=small": {
+            "v=sm": {
               "type": "spacing",
               "value": "{semantics.space.xs}"
             },
-            "v=medium": {
+            "v=md": {
               "type": "spacing",
               "value": "{semantics.space.sm}"
             }
@@ -3245,11 +3245,11 @@
       },
       "c=font": {
         "l=label": {
-          "v=small": {
+          "v=sm": {
             "value": "{composites.font.label.lg.thick}",
             "type": "typography"
           },
-          "v=medium": {
+          "v=md": {
             "value": "{composites.font.label.lg.thick}",
             "type": "typography"
           }
@@ -3590,15 +3590,15 @@
         }
       },
       "c=size": {
-        "v=small": {
+        "v=sm": {
           "value": "{semantics.size.sizing.3xs}",
           "type": "sizing"
         },
-        "v=medium": {
+        "v=md": {
           "value": "{semantics.size.sizing.2xs}",
           "type": "sizing"
         },
-        "v=large": {
+        "v=lg": {
           "value": "{semantics.size.sizing.xs}",
           "type": "sizing"
         }
@@ -4099,11 +4099,11 @@
         "c=size": {
           "l=container": {
             "p=height": {
-              "v=small": {
+              "v=sm": {
                 "type": "sizing",
                 "value": "{semantics.size.sizing.2xl}"
               },
-              "v=large": {
+              "v=lg": {
                 "type": "sizing",
                 "value": "{semantics.size.sizing.4xl}"
               }
@@ -4117,21 +4117,21 @@
         "c=space": {
           "l=container": {
             "p=paddingHorizontal": {
-              "v=small": {
+              "v=sm": {
                 "type": "spacing",
                 "value": "{semantics.space.2xl}"
               },
-              "v=large": {
+              "v=lg": {
                 "type": "spacing",
                 "value": "{semantics.space.2xl}"
               }
             },
             "p=gap": {
-              "v=small": {
+              "v=sm": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               },
-              "v=large": {
+              "v=lg": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               }
@@ -4187,11 +4187,11 @@
         "c=size": {
           "l=container": {
             "p=height": {
-              "v=small": {
+              "v=sm": {
                 "type": "sizing",
                 "value": "{semantics.size.sizing.2xl}"
               },
-              "v=large": {
+              "v=lg": {
                 "type": "sizing",
                 "value": "{semantics.size.sizing.4xl}"
               }
@@ -4205,21 +4205,21 @@
         "c=space": {
           "l=container": {
             "p=paddingHorizontal": {
-              "v=small": {
+              "v=sm": {
                 "type": "spacing",
                 "value": "{semantics.space.2xl}"
               },
-              "v=large": {
+              "v=lg": {
                 "type": "spacing",
                 "value": "{semantics.space.2xl}"
               }
             },
             "p=gap": {
-              "v=small": {
+              "v=sm": {
                 "type": "spacing",
                 "value": "{semantics.space.sm}"
               },
-              "v=large": {
+              "v=lg": {
                 "type": "spacing",
                 "value": "{semantics.space.sm}"
               }
@@ -4287,21 +4287,21 @@
         "c=space": {
           "l=container": {
             "p=paddingHorizontal": {
-              "v=small": {
+              "v=sm": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               },
-              "v=large": {
+              "v=lg": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               }
             },
             "p=gap": {
-              "v=small": {
+              "v=sm": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               },
-              "v=large": {
+              "v=lg": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               }
@@ -4339,21 +4339,21 @@
         "c=space": {
           "l=container": {
             "p=paddingHorizontal": {
-              "v=small": {
+              "v=sm": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               },
-              "v=large": {
+              "v=lg": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               }
             },
             "p=gap": {
-              "v=small": {
+              "v=sm": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               },
-              "v=large": {
+              "v=lg": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
               }
@@ -4383,11 +4383,11 @@
         "c=size": {
           "l=container": {
             "p=height": {
-              "v=small": {
+              "v=sm": {
                 "type": "sizing",
                 "value": "{semantics.size.sizing.xl}"
               },
-              "v=large": {
+              "v=lg": {
                 "type": "sizing",
                 "value": "{semantics.size.sizing.3xl}"
               }
@@ -4401,31 +4401,31 @@
         "c=space": {
           "l=container": {
             "p=gap": {
-              "v=small": {
+              "v=sm": {
                 "type": "spacing",
                 "value": "{semantics.space.4xl}"
               },
-              "v=large": {
+              "v=lg": {
                 "type": "spacing",
                 "value": "{semantics.space.4xl}"
               }
             },
             "p=paddingLeft": {
-              "v=small": {
+              "v=sm": {
                 "type": "spacing",
                 "value": "{semantics.space.2xl}"
               },
-              "v=large": {
+              "v=lg": {
                 "type": "spacing",
                 "value": "{semantics.space.2xl}"
               }
             },
             "p=paddingRight": {
-              "v=small": {
+              "v=sm": {
                 "type": "spacing",
                 "value": "{semantics.space.2xl}"
               },
-              "v=large": {
+              "v=lg": {
                 "type": "spacing",
                 "value": "{semantics.space.2xl}"
               }
@@ -5102,21 +5102,21 @@
       "c=size": {
         "l=line": {
           "p=size": {
-            "v=small": {
+            "v=sm": {
               "type": "sizing",
               "value": "{semantics.size.sizing.3xs}"
             },
-            "v=large": {
+            "v=lg": {
               "type": "sizing",
               "value": "{semantics.size.sizing.md}"
             }
           },
           "p=borderWidth": {
-            "v=small": {
+            "v=sm": {
               "type": "borderWidth",
               "value": "{semantics.size.border.2xl}"
             },
-            "v=large": {
+            "v=lg": {
               "type": "borderWidth",
               "value": "{semantics.size.border.2xl}"
             }
@@ -5340,11 +5340,11 @@
       "c=size": {
         "l=container": {
           "p=height": {
-            "v=small": {
+            "v=sm": {
               "type": "sizing",
               "value": "{semantics.size.sizing.4xl}"
             },
-            "v=large": {
+            "v=lg": {
               "type": "sizing",
               "value": "{semantics.size.sizing.4xl}"
             }
