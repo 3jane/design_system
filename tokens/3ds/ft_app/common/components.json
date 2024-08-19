@@ -7771,15 +7771,15 @@
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.none}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.o=2}"
+                    "value": "{semantics.color.bg.neutral.o=3}"
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.o=2}"
+                    "value": "{semantics.color.bg.neutral.o=3}"
                   }
                 },
                 "p=border": {
@@ -7799,15 +7799,15 @@
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.none}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.o=2}"
+                    "value": "{semantics.color.bg.neutral.o=3}"
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.o=2}"
+                    "value": "{semantics.color.bg.neutral.o=3}"
                   }
                 },
                 "p=border": {
@@ -7828,15 +7828,15 @@
           "l=container": {
             "p=height": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.xl}"
+              "value": "{semantics.size.sizing.sm}"
             },
             "p=minWidth": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.2xl}"
+              "value": "{semantics.size.sizing.sm}"
             },
             "p=borderRadius": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.none}"
+              "value": "{semantics.size.radius.md}"
             },
             "p=borderWidthLeft": {
               "type": "borderWidth",
@@ -7905,11 +7905,11 @@
         "c=font": {
           "l=label": {
             "t=selected": {
-              "value": "{composites.font.label.sm.thick}",
+              "value": "{composites.font.label.md.thick}",
               "type": "typography"
             },
             "t=deselected": {
-              "value": "{composites.font.label.sm.medium}",
+              "value": "{composites.font.label.md.medium}",
               "type": "typography"
             }
           }
