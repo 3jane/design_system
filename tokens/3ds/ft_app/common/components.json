@@ -7868,11 +7868,11 @@
           "l=container": {
             "p=paddingHorizontal": {
               "type": "spacing",
-              "value": "{semantics.space.xl}"
+              "value": "{semantics.space.sm}"
             },
             "p=gap": {
               "type": "spacing",
-              "value": "{semantics.space.xl}"
+              "value": "{semantics.space.sm}"
             }
           }
         },
