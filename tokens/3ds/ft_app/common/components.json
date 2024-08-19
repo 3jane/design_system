@@ -626,6 +626,10 @@
       "c=size": {
         "l=container": {
           "p=height": {
+            "v=xs": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.sm}"
+            },
             "v=sm": {
               "type": "sizing",
               "value": "{semantics.size.sizing.lg}"
