@@ -7685,11 +7685,11 @@
         "c=font": {
           "l=text": {
             "t=selected": {
-              "value": "{composites.font.label.lg.medium}",
+              "value": "{composites.font.label.md.medium}",
               "type": "typography"
             },
             "t=deselected": {
-              "value": "{composites.font.label.lg.medium}",
+              "value": "{composites.font.label.md.medium}",
               "type": "typography"
             }
           }
