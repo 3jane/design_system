@@ -6352,7 +6352,7 @@
         },
         "c=font": {
           "l=text": {
-            "value": "{composites.font.label.lg.medium}",
+            "value": "{composites.font.label.md.medium}",
             "type": "typography"
           }
         }
