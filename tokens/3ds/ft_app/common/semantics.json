@@ -1452,7 +1452,7 @@
       "family": {
         "display": {
           "default": {
-            "value": "{base.font.family.dmsans}, {base.font.family.inter}",
+            "value": "{base.font.family.dmsans}, {base.font.family.apple-system}, {base.font.family.BlinkMacSystemFont}, {base.font.family.Segoe UI}, {base.font.family.Roboto}, {base.font.family.Helvetica Neue}, {base.font.family.arial}, {base.font.family.sans-serif}",
             "type": "fontFamilies"
           }
         },

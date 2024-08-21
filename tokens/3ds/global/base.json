@@ -442,6 +442,30 @@
           "value": "Helvetica",
           "type": "fontFamilies"
         },
+        "apple-system": {
+          "value": "-apple-system",
+          "type": "fontFamilies"
+        },
+        "Segoe UI": {
+          "value": "Segoe UI",
+          "type": "fontFamilies"
+        },
+        "Roboto": {
+          "value": "Roboto",
+          "type": "fontFamilies"
+        },
+        "Helvetica Neue": {
+          "value": "Helvetica Neue",
+          "type": "fontFamilies"
+        },
+        "BlinkMacSystemFont": {
+          "value": "BlinkMacSystemFont",
+          "type": "fontFamilies"
+        },
+        "arial": {
+          "value": "arial",
+          "type": "fontFamilies"
+        },
         "roboto": {
           "value": "Roboto",
           "type": "fontFamilies"
@@ -450,12 +474,8 @@
           "value": "system",
           "type": "fontFamilies"
         },
-        "sans": {
+        "sans-serif": {
           "value": "Sans-Serif",
-          "type": "fontFamilies"
-        },
-        "serif": {
-          "value": "Serif",
           "type": "fontFamilies"
         },
         "merriweather": {
