@@ -3665,18 +3665,14 @@
               },
               "l=titleText": {
                 "p=color": {
-                  "i=none": {
                     "type": "color",
                     "value": "{semantics.color.text.disabled.l=1}"
-                  }
                 }
               },
               "l=supportingText": {
                 "p=color": {
-                  "i=none": {
                     "type": "color",
                     "value": "{semantics.color.text.disabled.l=1}"
-                  }
                 }
               }
             }
@@ -3731,18 +3727,14 @@
               },
               "l=titleText": {
                 "p=color": {
-                  "i=none": {
                     "type": "color",
                     "value": "{semantics.color.text.disabled.l=1}"
-                  }
                 }
               },
               "l=supportingText": {
                 "p=color": {
-                  "i=none": {
                     "type": "color",
                     "value": "{semantics.color.text.disabled.l=1}"
-                  }
                 }
               }
             }
@@ -6241,10 +6233,8 @@
               },
               "l=text": {
                 "p=color": {
-                  "i=none": {
                     "type": "color",
                     "value": "{semantics.color.text.disabled.l=1}"
-                  }
                 }
               }
             }
@@ -6293,10 +6283,8 @@
               },
               "l=text": {
                 "p=color": {
-                  "i=none": {
                     "type": "color",
                     "value": "{semantics.color.text.disabled.l=1}"
-                  }
                 }
               }
             }
@@ -7572,10 +7560,8 @@
                 },
                 "l=text": {
                   "p=color": {
-                    "i=none": {
                       "type": "color",
                       "value": "{semantics.color.text.disabled.l=1}"
-                    }
                   }
                 }
               }
@@ -7628,10 +7614,8 @@
                 },
                 "l=text": {
                   "p=color": {
-                    "i=none": {
                       "type": "color",
                       "value": "{semantics.color.text.disabled.l=1}"
-                    }
                   }
                 }
               }
@@ -8793,10 +8777,8 @@
               },
               "l=text": {
                 "p=color": {
-                  "i=none": {
                     "type": "color",
                     "value": "{semantics.color.text.disabled.l=1}"
-                  }
                 }
               }
             }
@@ -8845,10 +8827,8 @@
               },
               "l=text": {
                 "p=color": {
-                  "i=none": {
                     "type": "color",
                     "value": "{semantics.color.text.disabled.l=1}"
-                  }
                 }
               }
             }
