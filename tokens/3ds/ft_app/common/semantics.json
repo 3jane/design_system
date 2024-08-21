@@ -1452,7 +1452,7 @@
       "family": {
         "display": {
           "default": {
-            "value": "{base.font.family.dmsans}",
+            "value": "{base.font.family.dmsans}, {base.font.family.inter}",
             "type": "fontFamilies"
           }
         },
