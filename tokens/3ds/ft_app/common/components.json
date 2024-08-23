@@ -7907,6 +7907,70 @@
           }
         }
       },
+      "CloseButton": {
+        "c=color": {
+          "l=container": {
+                  "p=fill": {
+                    "i=none": {
+                      "type": "color",
+                      "value": "{semantics.color.palette.common.none}"
+                    },
+                    "i=hover": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.neutral.o=2}"
+                    },
+                    "i=active": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.neutral.o=3}"
+                    },
+                    "i=focus": {
+                      "type": "color",
+                      "value": "{semantics.color.bg.neutral.o=2}"
+                    }
+                  },
+                  "p=border": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.none}"
+                  }
+          },
+          "l=icon": {
+            "p=color": {
+              "i=none": {
+                "type": "color",
+                "value": "{semantics.color.text.disabled.l=1}"
+              },
+              "i=hover": {
+                "type": "color",
+                "value": "{semantics.color.text.neutral.a=4}"
+              },
+              "i=active": {
+                "type": "color",
+                "value": "{semantics.color.text.neutral.a=4}"
+              },
+              "i=focus": {
+                "type": "color",
+                "value": "{semantics.color.text.neutral.a=4}"
+              }
+            }
+    }
+        },
+        "c=size": {
+          "l=container": {
+            "p=size": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.2xs}"
+            },
+            "p=borderRadius": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.xs}"
+            },
+            "p=borderWidth": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.none}"
+            }
+          }
+        }
+      },
       "Group": {
         "c=space": {
           "l=container": {
