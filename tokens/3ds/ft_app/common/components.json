@@ -7968,6 +7968,12 @@
               "type": "borderWidth",
               "value": "{semantics.size.border.none}"
             }
+          },
+          "l=icon": {
+            "p=size": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.4xs}"
+            }
           }
         }
       },
