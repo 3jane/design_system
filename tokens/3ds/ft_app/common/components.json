@@ -6195,7 +6195,7 @@
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.o=3}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   },
                   "i=hover": {
                     "type": "color",
@@ -7520,7 +7520,7 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.neutral.o=3}"
+                      "value": "{semantics.color.bg.neutral.o=2}"
                     },
                     "i=hover": {
                       "type": "color",
@@ -8809,7 +8809,7 @@
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.o=3}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   },
                   "i=hover": {
                     "type": "color",
