@@ -8932,7 +8932,7 @@
             },
             "p=gap": {
               "type": "spacing",
-              "value": "{semantics.space.xs}"
+              "value": "{semantics.space.sm}"
             }
           }
         },
