@@ -2449,38 +2449,14 @@
         "l=placeholderContainer": {
           "p=paddingHorizontal": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.xl}"
           },
           "p=paddingVertical": {
             "type": "spacing",
-            "value": "{semantics.space.lg}"
-          },
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.md}"
+            "value": "{semantics.space.none}"
           }
         },
         "l=mainContainer": {
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.sm}"
-          }
-        },
-        "l=labelContainer": {
-          "p=paddingHorizontal": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          },
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.sm}"
-          }
-        },
-        "l=hintContainer": {
-          "p=paddingHorizontal": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          },
           "p=gap": {
             "type": "spacing",
             "value": "{semantics.space.sm}"
