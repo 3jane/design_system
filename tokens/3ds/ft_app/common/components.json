@@ -646,7 +646,7 @@
           "p=borderRadius": {
             "v=xs": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.md}"
+              "value": "{semantics.size.radius.sm}"
             },
             "v=sm": {
               "type": "borderRadius",
