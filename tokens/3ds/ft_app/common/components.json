@@ -2439,11 +2439,15 @@
         "l=inputContainer": {
           "p=paddingHorizontal": {
             "type": "spacing",
+            "value": "{semantics.space.2xs}"
+          },
+          "p=paddingVertical": {
+            "type": "spacing",
             "value": "{semantics.space.none}"
           },
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.2xs}"
           }
         },
         "l=placeholderContainer": {
