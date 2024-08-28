@@ -7801,10 +7801,6 @@
       "semantics.color.bg.neutral.a=3": "a623bef5c766d5f1ba87176253a4a8003aeef646",
       "semantics.color.bg.neutral.a=4": "f61e949d0d5f187135839a9ccd023fce127bbb68",
       "semantics.color.bg.neutral.o=1": "98a88d2e10db50c879a854853a8bf73da44c7094",
-      "semantics.color.bg.neutral.o=2": "26c08c4bd4edda4a0e9bfac1cda402ffcc6e32ab",
-      "semantics.color.bg.neutral.o=3": "17aac009317257b5184c5b0fbe8037023e813971",
-      "semantics.color.bg.neutral.o=4": "fa5063b9356d5cf3e4b7e8e6c787c45a6ddee031",
-      "semantics.color.bg.neutral.o=5": "7a187affe880e2b5f9af852a5ff91d67ee76d3a7",
       "semantics.color.bg.brand.l=1": "7e3a5b1572460f9075aa312108a6b34e0fcdc7af",
       "semantics.color.bg.brand.a=1": "c2dbce0386af4041ff497d6db0b3363673482c37",
       "semantics.color.bg.brand.a=2": "ec24d56837f6805c236ed12ebb4df16a0c823f24",
@@ -7912,7 +7908,9 @@
       "semantics.color.text.extra2.a=1": "3fbf3d6f33c9542bbcad62d5a2a2873413bfe8e7",
       "semantics.color.text.extra3.l=1": "b9d6dee4d566a68c531569e8f13d1c8a10162fcd",
       "semantics.color.text.extra3.a=1": "8b16f10aeac6908b3bcaf69363a5162c0055303c",
-      "semantics.color.text.disabled.l=1": "20604f64cb5174ca3896b03d30b18ffd57385aab"
+      "semantics.color.text.disabled.l=1": "20604f64cb5174ca3896b03d30b18ffd57385aab",
+      "semantics.color.bg.neutral.o=2": "fa5063b9356d5cf3e4b7e8e6c787c45a6ddee031",
+      "semantics.color.bg.neutral.o=3": "7a187affe880e2b5f9af852a5ff91d67ee76d3a7"
     },
     "group": "app"
   },
@@ -9984,10 +9982,6 @@
       "semantics.color.bg.neutral.a=3": "a623bef5c766d5f1ba87176253a4a8003aeef646",
       "semantics.color.bg.neutral.a=4": "f61e949d0d5f187135839a9ccd023fce127bbb68",
       "semantics.color.bg.neutral.o=1": "98a88d2e10db50c879a854853a8bf73da44c7094",
-      "semantics.color.bg.neutral.o=2": "26c08c4bd4edda4a0e9bfac1cda402ffcc6e32ab",
-      "semantics.color.bg.neutral.o=3": "17aac009317257b5184c5b0fbe8037023e813971",
-      "semantics.color.bg.neutral.o=4": "fa5063b9356d5cf3e4b7e8e6c787c45a6ddee031",
-      "semantics.color.bg.neutral.o=5": "7a187affe880e2b5f9af852a5ff91d67ee76d3a7",
       "semantics.color.bg.brand.l=1": "7e3a5b1572460f9075aa312108a6b34e0fcdc7af",
       "semantics.color.bg.brand.a=1": "c2dbce0386af4041ff497d6db0b3363673482c37",
       "semantics.color.bg.brand.a=2": "ec24d56837f6805c236ed12ebb4df16a0c823f24",
@@ -10095,7 +10089,9 @@
       "semantics.color.text.extra2.a=1": "3fbf3d6f33c9542bbcad62d5a2a2873413bfe8e7",
       "semantics.color.text.extra3.l=1": "b9d6dee4d566a68c531569e8f13d1c8a10162fcd",
       "semantics.color.text.extra3.a=1": "8b16f10aeac6908b3bcaf69363a5162c0055303c",
-      "semantics.color.text.disabled.l=1": "20604f64cb5174ca3896b03d30b18ffd57385aab"
+      "semantics.color.text.disabled.l=1": "20604f64cb5174ca3896b03d30b18ffd57385aab",
+      "semantics.color.bg.neutral.o=2": "fa5063b9356d5cf3e4b7e8e6c787c45a6ddee031",
+      "semantics.color.bg.neutral.o=3": "7a187affe880e2b5f9af852a5ff91d67ee76d3a7"
     },
     "group": "app"
   }
