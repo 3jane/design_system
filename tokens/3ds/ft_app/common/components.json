@@ -1391,7 +1391,7 @@
       },
       "c=backgroundBlur": {
         "value": "{semantics.backgroundBlur.2xl}",
-        "type": "composition"
+        "type": "dimension"
       },
       "c=font": {
         "l=label": {
@@ -2510,7 +2510,7 @@
       "c=backgroundBlur": {
         "l=inputContainer": {
           "value": "{semantics.backgroundBlur.2xl}",
-          "type": "composition"
+          "type": "dimension"
         }
       },
       "c=font": {
@@ -2717,7 +2717,7 @@
         "c=backgroundBlur": {
           "l=container": {
             "value": "{semantics.backgroundBlur.lg}",
-            "type": "composition"
+            "type": "dimension"
           }
         }
       }
@@ -4877,7 +4877,7 @@
       },
       "c=backgroundBlur": {
         "value": "{semantics.backgroundBlur.2xl}",
-        "type": "composition"
+        "type": "dimension"
       }
     },
     "Backdrop": {
@@ -4889,7 +4889,7 @@
       },
       "c=backgroundBlur": {
         "value": "{semantics.backgroundBlur.2xl}",
-        "type": "composition"
+        "type": "dimension"
       }
     },
     "Dialog": {
@@ -4998,7 +4998,7 @@
       "c=backgroundBlur": {
         "l=mainContainer": {
           "value": "{semantics.backgroundBlur.none}",
-          "type": "composition"
+          "type": "dimension"
         }
       }
     },
@@ -5390,7 +5390,7 @@
       "c=backgroundBlur": {
         "l=container": {
           "value": "{semantics.backgroundBlur.4xl}",
-          "type": "composition"
+          "type": "dimension"
         }
       },
       "c=shadow": {
@@ -5526,7 +5526,7 @@
       "c=backgroundBlur": {
         "l=mainContainer": {
           "value": "{semantics.backgroundBlur.none}",
-          "type": "composition"
+          "type": "dimension"
         }
       }
     },
@@ -5759,7 +5759,7 @@
         "c=backgroundBlur": {
           "l=mainContainer": {
             "value": "{semantics.backgroundBlur.xl}",
-            "type": "composition"
+            "type": "dimension"
           }
         }
       }
@@ -5961,7 +5961,7 @@
       },
       "c=backgroundBlur": {
         "value": "{semantics.backgroundBlur.none}",
-        "type": "composition"
+        "type": "dimension"
       },
       "c=size": {
         "p=borderWidth": {
@@ -6001,7 +6001,7 @@
       },
       "c=backgroundBlur": {
         "value": "{semantics.backgroundBlur.none}",
-        "type": "composition"
+        "type": "dimension"
       },
       "c=size": {
         "p=borderWidth": {
@@ -6375,7 +6375,7 @@
         "c=backgroundBlur": {
           "l=container": {
             "value": "{semantics.backgroundBlur.4xl}",
-            "type": "composition"
+            "type": "dimension"
           }
         }
       }
@@ -6799,7 +6799,7 @@
         "c=backgroundBlur": {
           "l=container": {
             "value": "{semantics.backgroundBlur.lg}",
-            "type": "composition"
+            "type": "dimension"
           }
         }
       }
@@ -9235,11 +9235,11 @@
         "c=backgroundBlur": {
           "l=container": {
             "value": "{semantics.backgroundBlur.none}",
-            "type": "composition"
+            "type": "dimension"
           },
           "l=thumb": {
             "value": "{semantics.backgroundBlur.none}",
-            "type": "composition"
+            "type": "dimension"
           }
         }
       },
@@ -9503,7 +9503,7 @@
         "c=backgroundBlur": {
           "l=container": {
             "value": "{semantics.backgroundBlur.2xl}",
-            "type": "composition"
+            "type": "dimension"
           }
         }
       },
@@ -9581,7 +9581,7 @@
         "c=backgroundBlur": {
           "l=vector": {
             "value": "{semantics.backgroundBlur.none}",
-            "type": "composition"
+            "type": "dimension"
           }
         }
       }
