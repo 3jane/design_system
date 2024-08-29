@@ -1730,15 +1730,15 @@
         "type": "dimension"
       },
       "2xl": {
-       "value": "{base.size.30px}",
+       "value": "{base.size.32px}",
         "type": "dimension"
       },
       "3xl": {
-       "value": "{base.size.50px}",
+       "value": "{base.size.52px}",
         "type": "dimension"
       },
       "4xl": {
-       "value": "{base.size.100px}",
+       "value": "{base.size.96px}",
         "type": "dimension"
       }
     }
