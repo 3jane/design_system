@@ -1702,63 +1702,43 @@
     },
     "backgroundBlur": {
       "none": {
-        "value": {
-          "backgroundBlur": "{base.size.0px}"
-        },
+        "backgroundBlur": "{base.size.0px}",
         "type": "dimension"
       },
       "2xs": {
-        "value": {
-          "backgroundBlur": "{base.size.1px}"
-        },
+        "backgroundBlur": "{base.size.1px}",
         "type": "dimension"
       },
       "xs": {
-        "value": {
-          "backgroundBlur": "{base.size.2px}"
-        },
+        "backgroundBlur": "{base.size.2px}",
         "type": "dimension"
       },
       "sm": {
-        "value": {
-          "backgroundBlur": "{base.size.4px}"
-        },
+        "backgroundBlur": "{base.size.4px}",
         "type": "dimension"
       },
       "md": {
-        "value": {
-          "backgroundBlur": "{base.size.8px}"
-        },
+       "backgroundBlur": "{base.size.8px}",
         "type": "dimension"
       },
       "lg": {
-        "value": {
-          "backgroundBlur": "{base.size.12px}"
-        },
+         "backgroundBlur": "{base.size.12px}",
         "type": "dimension"
       },
       "xl": {
-        "value": {
-          "backgroundBlur": "{base.size.20px}"
-        },
+        "backgroundBlur": "{base.size.20px}",
         "type": "dimension"
       },
       "2xl": {
-        "value": {
-          "backgroundBlur": "{base.size.30px}"
-        },
+       "backgroundBlur": "{base.size.30px}",
         "type": "dimension"
       },
       "3xl": {
-        "value": {
-          "backgroundBlur": "{base.size.50px}"
-        },
+       "backgroundBlur": "{base.size.50px}",
         "type": "dimension"
       },
       "4xl": {
-        "value": {
-          "backgroundBlur": "{base.size.100px}"
-        },
+       "backgroundBlur": "{base.size.100px}",
         "type": "dimension"
       }
     }
