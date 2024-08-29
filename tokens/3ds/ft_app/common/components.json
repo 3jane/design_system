@@ -4625,42 +4625,6 @@
               "type": "color"
             }
           },
-          "v=link": {
-            "t=primary": {
-              "value": "{semantics.color.text.blue.a=1}",
-              "type": "color"
-            },
-            "t=secondary": {
-              "value": "{semantics.color.text.blue.a=1}",
-              "type": "color"
-            },
-            "t=tertiary": {
-              "value": "{semantics.color.text.blue.a=1}",
-              "type": "color"
-            },
-            "t=quaternary": {
-              "value": "{semantics.color.text.blue.a=1}",
-              "type": "color"
-            }
-          },
-          "v=visited": {
-            "t=primary": {
-              "value": "{semantics.color.text.purple.a=1}",
-              "type": "color"
-            },
-            "t=secondary": {
-              "value": "{semantics.color.text.purple.a=1}",
-              "type": "color"
-            },
-            "t=tertiary": {
-              "value": "{semantics.color.text.purple.a=1}",
-              "type": "color"
-            },
-            "t=quaternary": {
-              "value": "{semantics.color.text.purple.a=1}",
-              "type": "color"
-            }
-          },
           "v=neutralLight": {
             "t=primary": {
               "value": "{semantics.color.text.neutral.l=1}",
