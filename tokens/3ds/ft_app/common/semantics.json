@@ -1702,43 +1702,43 @@
     },
     "backgroundBlur": {
       "none": {
-        "backgroundBlur": "{base.size.0px}",
+        "value": "{base.size.0px}",
         "type": "dimension"
       },
       "2xs": {
-        "backgroundBlur": "{base.size.1px}",
+        "value": "{base.size.1px}",
         "type": "dimension"
       },
       "xs": {
-        "backgroundBlur": "{base.size.2px}",
+        "value": "{base.size.2px}",
         "type": "dimension"
       },
       "sm": {
-        "backgroundBlur": "{base.size.4px}",
+        "value": "{base.size.4px}",
         "type": "dimension"
       },
       "md": {
-       "backgroundBlur": "{base.size.8px}",
+       "value": "{base.size.8px}",
         "type": "dimension"
       },
       "lg": {
-         "backgroundBlur": "{base.size.12px}",
+         "value": "{base.size.12px}",
         "type": "dimension"
       },
       "xl": {
-        "backgroundBlur": "{base.size.20px}",
+        "value": "{base.size.20px}",
         "type": "dimension"
       },
       "2xl": {
-       "backgroundBlur": "{base.size.30px}",
+       "value": "{base.size.30px}",
         "type": "dimension"
       },
       "3xl": {
-       "backgroundBlur": "{base.size.50px}",
+       "value": "{base.size.50px}",
         "type": "dimension"
       },
       "4xl": {
-       "backgroundBlur": "{base.size.100px}",
+       "value": "{base.size.100px}",
         "type": "dimension"
       }
     }
