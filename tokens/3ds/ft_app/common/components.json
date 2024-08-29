@@ -8789,15 +8789,15 @@
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.bg.brand.o=1}"
+                    "value": "{semantics.color.bg.neutral.o=3}"
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.bg.brand.o=2}"
+                    "value": "{semantics.color.bg.neutral.o=4}"
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.bg.brand.o=1}"
+                    "value": "{semantics.color.bg.neutral.o=3}"
                   }
                 },
                 "p=border": {
