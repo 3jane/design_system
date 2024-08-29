@@ -19,7 +19,7 @@
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.l=1}"
+                    "value": "{semantics.color.bg.neutral.a=1}"
                   },
                   "i=hover": {
                     "type": "color",
