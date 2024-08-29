@@ -8876,7 +8876,7 @@
             },
             "p=gap": {
               "type": "spacing",
-              "value": "{semantics.space.sm}"
+              "value": "{semantics.space.xs}"
             }
           }
         },
