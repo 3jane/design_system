@@ -2996,45 +2996,40 @@
             "value": "{semantics.color.palette.common.none}"
           }
         },
-          "l=codeFrame": {
-            "p=fill": {
-              "type": "color",
-              "value": "{semantics.color.bg.neutral.l=2}"
-            },
-            "p=border": {
-              "type": "color",
-              "value": "{semantics.color.palette.common.none}"
-            }
-          },
-          "l=text": {
-            "p=color": {
-              "v=component_class_method": {
+        "l=codeFrame": {
+          "p=fill": {
+            "type": "color",
+            "value": "{semantics.color.bg.neutral.l=2}"
+          }
+        },
+        "l=code": {
+          "p=color": {
+            "v=component_class_method": {
               "type": "color",
               "value": "{semantics.color.text.neutral.a=2}"
-              },
-              "v=comments": {
-                "type": "color",
-                "value": "{semantics.color.text.neutral.a=4}"
-              },
-              "v=keywords": {
-                "type": "color",
-                "value": "{semantics.color.text.purple.a=1}"
-              },
-              "v=strings": {
-                "type": "color",
-                "value": "{semantics.color.text.extra1.a=1}"
-              },
-              "v=properties_variables": {
-                "type": "color",
-                "value": "{semantics.color.text.blue.a=1}"
-              },
-              "v=numbers": {
-                "type": "color",
-                "value": "{semantics.color.text.warning.a=1}"
-              }
-              
+            },
+            "v=comments": {
+              "type": "color",
+              "value": "{semantics.color.text.neutral.a=4}"
+            },
+            "v=keywords": {
+              "type": "color",
+              "value": "{semantics.color.text.purple.a=1}"
+            },
+            "v=strings": {
+              "type": "color",
+              "value": "{semantics.color.text.extra1.a=1}"
+            },
+            "v=properties_variables": {
+              "type": "color",
+              "value": "{semantics.color.text.blue.a=1}"
+            },
+            "v=numbers": {
+              "type": "color",
+              "value": "{semantics.color.text.warning.a=1}"
             }
           }
+        }
       },
       "c=size": {
         "l=codeBlock": {
@@ -3043,7 +3038,7 @@
             "value": "{semantics.size.border.none}"
           },
           "p=borderRadius": {
-            "type": "borderWidth",
+            "type": "borderRadius",
             "value": "{semantics.size.radius.md}"
           }
         },
@@ -3052,7 +3047,7 @@
             "type": "sizing",
             "value": "{semantics.size.sizing.lg}"
           },
-          "p=borderWidth": {
+          "p=borderWidthBotom": {
             "type": "borderWidth",
             "value": "{semantics.size.border.none}"
           }

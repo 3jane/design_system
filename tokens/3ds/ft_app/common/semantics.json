@@ -1718,11 +1718,11 @@
         "type": "dimension"
       },
       "md": {
-       "value": "{base.size.8px}",
+        "value": "{base.size.8px}",
         "type": "dimension"
       },
       "lg": {
-         "value": "{base.size.12px}",
+        "value": "{base.size.12px}",
         "type": "dimension"
       },
       "xl": {
@@ -1730,15 +1730,15 @@
         "type": "dimension"
       },
       "2xl": {
-       "value": "{base.size.32px}",
+        "value": "{base.size.32px}",
         "type": "dimension"
       },
       "3xl": {
-       "value": "{base.size.52px}",
+        "value": "{base.size.52px}",
         "type": "dimension"
       },
       "4xl": {
-       "value": "{base.size.96px}",
+        "value": "{base.size.96px}",
         "type": "dimension"
       }
     }
