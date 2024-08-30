@@ -3029,6 +3029,12 @@
               "value": "{semantics.color.text.warning.a=1}"
             }
           }
+        },
+        "l=languageIndicator": {
+          "p=color": {
+            "type": "color",
+            "value": "{semantics.color.text.neutral.a=4}"
+          }
         }
       },
       "c=size": {
@@ -3094,6 +3100,10 @@
       "c=font": {
         "l=code": {
           "value": "{composites.font.code.md}",
+          "type": "typography"
+        },
+        "l=languageIndicator": {
+          "value": "{composites.font.code.sm}",
           "type": "typography"
         }
       }
