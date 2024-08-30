@@ -8230,7 +8230,7 @@
       "composites.compositeFocusShadow.inner+ring.lg+error": "S:28312bbeebe149bcca50401bd9402ebe5ed4d9e2,",
       "components.Button.c=font.l=label.v=xs": "S:52b1a8a4a092cc6dd23e0b699f8f14f933741e77,",
       "components.CodeBLock.c=font.l=code": "S:d52f4ed6badf214f0d6150f9b54988c236adb839,",
-      "composites.font.code": "S:64074168d3ce6a21f903434477e2a5025e3bda58,"
+      "composites.font.code.md": "S:64074168d3ce6a21f903434477e2a5025e3bda58,"
     },
     "selectedTokenSets": {
       "3ds/global/base": "source",

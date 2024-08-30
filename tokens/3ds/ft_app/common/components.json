@@ -3061,7 +3061,7 @@
           },
           "p=paddingRight": {
             "type": "spacing",
-            "value": "{semantics.space.2xs}"
+            "value": "{semantics.space.xs}"
           },
           "p=paddingTop": {
             "type": "spacing",
@@ -3093,7 +3093,7 @@
       },
       "c=font": {
         "l=code": {
-          "value": "{composites.font.code}",
+          "value": "{composites.font.code.md}",
           "type": "typography"
         }
       }
