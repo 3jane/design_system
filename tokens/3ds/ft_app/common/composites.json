@@ -1356,6 +1356,20 @@
             "type": "typography"
           }
         }
+      },
+      "code": {
+        "value": {
+          "fontFamily": "{base.font.family.robotoMono}",
+          "fontWeight": "{base.font.weight.regular}",
+          "fontSize": "{base.font.size.14px}",
+          "lineHeight": "{base.font.style.lineHeight.160%}",
+          "letterSpacing": "{base.font.style.letterSpacing.0%}",
+          "paragraphSpacing": "{base.font.style.paragraphSpacing.0%}",
+          "paragraphIndent": "{base.font.style.paragraphIndent.0%}",
+          "textDecoration": "{base.font.style.decoration.none}",
+          "textCase": "{base.font.style.case.none}"
+        },
+        "type": "typography"
       }
     }
   }
