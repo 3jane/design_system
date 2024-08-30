@@ -688,6 +688,10 @@
       "c=space": {
         "l=container": {
           "p=paddingHorizontal": {
+            "v=xs": {
+              "type": "spacing",
+              "value": "{semantics.space.md}"
+            },
             "v=sm": {
               "type": "spacing",
               "value": "{semantics.space.xl}"
@@ -702,6 +706,10 @@
             }
           },
           "p=gap": {
+            "v=xs": {
+              "type": "spacing",
+              "value": "{semantics.space.xs}"
+            },
             "v=sm": {
               "type": "spacing",
               "value": "{semantics.space.sm}"
@@ -821,6 +829,10 @@
       },
       "c=font": {
         "l=label": {
+          "v=xs": {
+            "value": "{composites.font.label.sm.thick}",
+            "type": "typography"
+          },
           "v=sm": {
             "value": "{composites.font.label.md.thick}",
             "type": "typography"
@@ -2457,7 +2469,7 @@
           },
           "p=paddingVertical": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.lg}"
           }
         },
         "l=mainContainer": {
