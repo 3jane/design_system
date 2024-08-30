@@ -6462,6 +6462,7 @@
       "components.CodeBLock.c=color.l=code.p=color.v=strings": "788f3e4796c7a8d3d28037f57a0b0fd9e610aaf0",
       "components.CodeBLock.c=color.l=code.p=color.v=properties_variables": "710be5591514999fb376fec5daebf34cf2ba8363",
       "components.CodeBLock.c=color.l=code.p=color.v=numbers": "57e6eb02eff3aaa171545028a999cefbec14a162",
+      "components.CodeBLock.c=color.l=languageIndicator.p=color": "22f45cd03530022d4909f42d319a9f1ba053651c",
       "components.CodeBLock.c=size.l=codeBlock.p=borderWidth": "bfea7a9ca3f9a5d7b7f5d69b000a13d94a3ed3ec",
       "components.CodeBLock.c=size.l=codeBlock.p=borderRadius": "193266b804a1ea3d0f17679df74272ca76cb525e",
       "components.CodeBLock.c=size.l=controlPanel.p=height": "36b0f5f2e266bb5df094b6d1a0daf73c90fbc193",
@@ -8230,7 +8231,10 @@
       "composites.compositeFocusShadow.inner+ring.lg+error": "S:28312bbeebe149bcca50401bd9402ebe5ed4d9e2,",
       "components.Button.c=font.l=label.v=xs": "S:52b1a8a4a092cc6dd23e0b699f8f14f933741e77,",
       "components.CodeBLock.c=font.l=code": "S:d52f4ed6badf214f0d6150f9b54988c236adb839,",
-      "composites.font.code.md": "S:64074168d3ce6a21f903434477e2a5025e3bda58,"
+      "composites.font.code.md": "S:fa67acb2f49084d0d3768ed73b19741a958811f4,",
+      "components.CodeBLock.c=font.l=languageIndicator": "S:aa75a41687485b493acfc0eb37dffcf3e6ca08fb,",
+      "composites.font.code.sm": "S:1ea63c7454b2057eb32f29941c2862398743da2c,",
+      "composites.font.code.lg": "S:e58f7bb7904f4a628c4f739472ea02c8950dc915,"
     },
     "selectedTokenSets": {
       "3ds/global/base": "source",
@@ -8689,6 +8693,7 @@
       "components.CodeBLock.c=color.l=code.p=color.v=strings": "788f3e4796c7a8d3d28037f57a0b0fd9e610aaf0",
       "components.CodeBLock.c=color.l=code.p=color.v=properties_variables": "710be5591514999fb376fec5daebf34cf2ba8363",
       "components.CodeBLock.c=color.l=code.p=color.v=numbers": "57e6eb02eff3aaa171545028a999cefbec14a162",
+      "components.CodeBLock.c=color.l=languageIndicator.p=color": "22f45cd03530022d4909f42d319a9f1ba053651c",
       "components.CodeBLock.c=size.l=codeBlock.p=borderWidth": "bfea7a9ca3f9a5d7b7f5d69b000a13d94a3ed3ec",
       "components.CodeBLock.c=size.l=codeBlock.p=borderRadius": "193266b804a1ea3d0f17679df74272ca76cb525e",
       "components.CodeBLock.c=size.l=controlPanel.p=height": "36b0f5f2e266bb5df094b6d1a0daf73c90fbc193",
