@@ -413,19 +413,19 @@
         "neutralAlt": {
           "l=1": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.10}"
+            "value": "{semantics.color.palette.neutral.15}"
           },
           "l=2": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.20}"
+            "value": "{semantics.color.palette.neutral.25}"
           },
           "l=3": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.30}"
+            "value": "{semantics.color.palette.neutral.35}"
           },
           "l=4": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.40}"
+            "value": "{semantics.color.palette.neutral.45}"
           }
         },
         "brand": {
