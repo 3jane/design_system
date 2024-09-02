@@ -8081,15 +8081,15 @@
               },
               "i=hover": {
                 "type": "color",
-                "value": "{semantics.color.text.neutral.a=4}"
+                "value": "{semantics.color.text.neutral.a=2}"
               },
               "i=active": {
                 "type": "color",
-                "value": "{semantics.color.text.neutral.a=4}"
+                "value": "{semantics.color.text.neutral.a=2}"
               },
               "i=focus": {
                 "type": "color",
-                "value": "{semantics.color.text.neutral.a=4}"
+                "value": "{semantics.color.text.neutral.a=2}"
               }
             }
           }
@@ -8098,11 +8098,11 @@
           "l=container": {
             "p=size": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.xs}"
+              "value": "{semantics.size.sizing.3xs}"
             },
             "p=borderRadius": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.sm}"
+              "value": "{semantics.size.radius.xs}"
             },
             "p=borderWidth": {
               "type": "borderWidth",
