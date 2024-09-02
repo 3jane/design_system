@@ -6271,7 +6271,8 @@
         "c=color": {
           "t=selected": {
             "s=enabled": {
-              "l=container": {
+              "v=neutral": {
+                "l=container": {
                 "p=fill": {
                   "i=none": {
                     "type": "color",
@@ -6290,21 +6291,49 @@
                   "type": "color",
                   "value": "{semantics.color.palette.common.none}"
                 }
-              },
-              "l=text": {
+                },
+                "l=text": {
                 "p=color": {
                   "type": "color",
                   "value": "{semantics.color.text.neutral.a=2}"
                 }
-              }
-            },
-            "s=disabled": {
-              "l=container": {
+                }
+              },
+              "v=error": {
+                "l=container": {
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.palette.common.none}"
+                    "value": "{semantics.color.bg.error.o=1}"
+                  },
+                  "i=hover": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.error.o=2}"
+                  },
+                  "i=focus": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.error.o=2}"
                   }
+                },
+                "p=border": {
+                  "type": "color",
+                  "value": "{semantics.color.palette.common.none}"
+                }
+                },
+                "l=text": {
+                "p=color": {
+                  "type": "color",
+                  "value": "{semantics.color.text.error.a=1}"
+                }
+                }
+              }
+            },
+            "s=disabled": {
+              "v=disabled": {
+              "l=container": {
+                "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.none}"
                 },
                 "p=border": {
                   "type": "color",
@@ -6318,10 +6347,12 @@
                 }
               }
             }
+            }
           },
           "t=deselected": {
             "s=enabled": {
-              "l=container": {
+              "v=neutral": {
+                "l=container": {
                 "p=fill": {
                   "i=none": {
                     "type": "color",
@@ -6340,21 +6371,49 @@
                   "type": "color",
                   "value": "{semantics.color.palette.common.none}"
                 }
-              },
-              "l=text": {
+                },
+                "l=text": {
                 "p=color": {
                   "type": "color",
                   "value": "{semantics.color.text.neutral.a=2}"
                 }
-              }
-            },
-            "s=disabled": {
-              "l=container": {
+                }
+              },
+              "v=error": {
+                "l=container": {
                 "p=fill": {
                   "i=none": {
                     "type": "color",
                     "value": "{semantics.color.palette.common.none}"
+                  },
+                  "i=hover": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.error.o=1}"
+                  },
+                  "i=focus": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.transparent}"
                   }
+                },
+                "p=border": {
+                  "type": "color",
+                  "value": "{semantics.color.palette.common.none}"
+                }
+                },
+                "l=text": {
+                "p=color": {
+                  "type": "color",
+                  "value": "{semantics.color.text.error.a=1}"
+                }
+                }
+              }
+            },
+            "s=disabled": {
+              "v=disabled": {
+              "l=container": {
+                "p=fill": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.none}"
                 },
                 "p=border": {
                   "type": "color",
@@ -6366,6 +6425,7 @@
                   "type": "color",
                   "value": "{semantics.color.text.disabled.l=1}"
                 }
+              }
               }
             }
           }
