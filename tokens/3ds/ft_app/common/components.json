@@ -8077,7 +8077,7 @@
             "p=color": {
               "i=none": {
                 "type": "color",
-                "value": "{semantics.color.text.disabled.l=1}"
+                "value": "{semantics.color.text.neutral.a=4}"
               },
               "i=hover": {
                 "type": "color",
