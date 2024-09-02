@@ -9046,7 +9046,7 @@
         },
         "c=size": {
           "l=container": {
-            "p=minHeight": {
+            "p=height": {
               "type": "sizing",
               "value": "{semantics.size.sizing.lg}"
             },
