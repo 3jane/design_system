@@ -9046,7 +9046,7 @@
         },
         "c=size": {
           "l=container": {
-            "p=height": {
+            "p=minHeight": {
               "type": "sizing",
               "value": "{semantics.size.sizing.lg}"
             },
@@ -9068,7 +9068,7 @@
             },
             "p=paddingVertical": {
               "type": "spacing",
-              "value": "{semantics.space.sm}"
+              "value": "{semantics.space.xs}"
             },
             "p=gap": {
               "type": "spacing",
