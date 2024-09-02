@@ -9068,7 +9068,7 @@
             },
             "p=paddingVertical": {
               "type": "spacing",
-              "value": "{semantics.space.xs}"
+              "value": "{semantics.space.2xs}"
             },
             "p=gap": {
               "type": "spacing",
