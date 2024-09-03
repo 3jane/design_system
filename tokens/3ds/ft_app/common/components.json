@@ -6434,11 +6434,11 @@
           "l=container": {
             "p=minHeight": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.xl}"
+              "value": "{semantics.size.sizing.lg}"
             },
             "p=borderRadius": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.none}"
+              "value": "{semantics.size.radius.sm}"
             },
             "p=borderWidth": {
               "type": "borderWidth",
@@ -6450,7 +6450,7 @@
           "l=container": {
             "p=paddingHorizontal": {
               "type": "spacing",
-              "value": "{semantics.space.xl}"
+              "value": "{semantics.space.md}"
             },
             "p=paddingVertical": {
               "type": "spacing",
@@ -6514,11 +6514,11 @@
           "l=container": {
             "p=paddingHorizontal": {
               "type": "spacing",
-              "value": "{semantics.space.none}"
+              "value": "{semantics.space.xs}"
             },
             "p=paddingVertical": {
               "type": "spacing",
-              "value": "{semantics.space.sm}"
+              "value": "{semantics.space.xs}"
             },
             "p=gap": {
               "type": "spacing",
