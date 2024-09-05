@@ -7922,7 +7922,7 @@
               "l=label": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.neutral.a=3}"
+                  "value": "{semantics.color.text.neutral.a=4}"
                 }
               }
             },
