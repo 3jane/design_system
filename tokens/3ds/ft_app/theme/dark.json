@@ -41,15 +41,15 @@
           },
           "o=2": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.6} )"
+            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.5} )"
           },
           "o=3": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.8})"
+            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.6})"
           },
           "o=4": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.10})"
+            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.7})"
           }
         },
         "brand": {
