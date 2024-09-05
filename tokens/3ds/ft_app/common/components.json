@@ -4988,7 +4988,7 @@
         }
       },
       "c=backgroundBlur": {
-        "value": "{semantics.backgroundBlur.2xl}",
+        "value": "{semantics.backgroundBlur.none}",
         "type": "dimension"
       }
     },
