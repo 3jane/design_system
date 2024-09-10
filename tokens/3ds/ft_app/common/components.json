@@ -4618,24 +4618,14 @@
     },
     "Tooltip": {
       "c=color": {
-        "l=tooltipContainer": {
+        "l=vector": {
           "p=fill": {
             "type": "color",
-            "value": "{semantics.color.bg.stable.dark}"
+            "value": "{semantics.color.bg.neutral.l=1}"
           },
           "p=border": {
             "type": "color",
-            "value": "{semantics.color.palette.common.none}"
-          }
-        },
-        "l=arrow": {
-          "p=fill": {
-            "type": "color",
-            "value": "{semantics.color.bg.stable.dark}"
-          },
-          "p=border": {
-            "type": "color",
-            "value": "{semantics.color.palette.common.none}"
+            "value": "{semantics.color.border.neutral.o=2}"
           }
         },
         "l=label": {
@@ -4646,19 +4636,31 @@
         }
       },
       "c=size": {
-        "l=tooltipContainer": {
-          "p=borderRadius": {
-            "type": "borderRadius",
-            "value": "{semantics.size.radius.lg}"
-          },
+        "l=vector": {
           "p=borderWidth": {
             "type": "borderWidth",
             "value": "{semantics.size.border.sm}"
           }
+        },
+        "l=rectangle": {
+          "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.lg}"
+          }
+        },
+        "l=arrow": {
+          "p=height": {
+              "type": "sizing",
+              "value": "4"
+          },
+          "p=width": {
+            "type": "sizing",
+            "value": "10"
+        }
         }
       },
       "c=space": {
-        "l=tooltipContainer": {
+        "l=container": {
           "p=paddingHorizontal": {
             "type": "spacing",
             "value": "{semantics.space.md}"
@@ -4680,7 +4682,7 @@
         }
       },
       "c=shadow": {
-        "l=mainContainer": {
+        "l=container": {
           "value": "{composites.dropShadow.md}",
           "type": "boxShadow"
         }
