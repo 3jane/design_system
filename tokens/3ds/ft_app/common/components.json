@@ -9133,7 +9133,7 @@
               },
               "p=border": {
                 "type": "color",
-                "value": "{semantics.color.palette.common.none}"
+                "value": "{semantics.color.border.neutral.o=1}"
               }
             },
             "l=text": {
