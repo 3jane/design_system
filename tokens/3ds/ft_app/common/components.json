@@ -4618,7 +4618,7 @@
     },
     "Tooltip": {
       "c=color": {
-        "l=vector": {
+        "l=container": {
           "p=fill": {
             "type": "color",
             "value": "{semantics.color.bg.neutral.l=1}"
@@ -4636,13 +4636,11 @@
         }
       },
       "c=size": {
-        "l=vector": {
+        "l=container": {
           "p=borderWidth": {
             "type": "borderWidth",
             "value": "{semantics.size.border.sm}"
-          }
-        },
-        "l=rectangle": {
+          },
           "p=borderRadius": {
             "type": "borderRadius",
             "value": "{semantics.size.radius.lg}"
