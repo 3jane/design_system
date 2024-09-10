@@ -4644,6 +4644,10 @@
           "p=borderRadius": {
             "type": "borderRadius",
             "value": "{semantics.size.radius.lg}"
+          },
+          "p=maxWidth": {
+            "type": "sizing",
+            "value": "300"
           }
         },
         "l=arrow": {
