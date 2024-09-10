@@ -4649,16 +4649,6 @@
             "type": "sizing",
             "value": "300"
           }
-        },
-        "l=arrow": {
-          "p=height": {
-            "type": "sizing",
-            "value": "4"
-          },
-          "p=width": {
-            "type": "sizing",
-            "value": "10"
-          }
         }
       },
       "c=space": {
