@@ -50,6 +50,10 @@
           "o=4": {
             "type": "color",
             "value": "rgba({semantics.color.palette.common.black}, {semantics.color.palette.opacity.6})"
+          },
+          "tooltip": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.97}"
           }
         },
         "brand": {

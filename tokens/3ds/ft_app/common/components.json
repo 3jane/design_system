@@ -4621,7 +4621,7 @@
         "l=container": {
           "p=fill": {
             "type": "color",
-            "value": "{semantics.color.bg.neutral.l=2}"
+            "value": "{semantics.color.bg.neutral.tooltip}"
           },
           "p=border": {
             "type": "color",
@@ -4631,7 +4631,7 @@
         "l=label": {
           "p=color": {
             "type": "color",
-            "value": "{semantics.color.text.neutral.a=2}"
+            "value": "{semantics.color.text.neutral.a=1}"
           }
         }
       },
@@ -9139,7 +9139,7 @@
             "l=text": {
               "p=color": {
                 "type": "color",
-                "value": "{semantics.color.text.neutral.a=2}"
+                "value": "{semantics.color.text.neutral.a=1}"
               }
             }
           },
