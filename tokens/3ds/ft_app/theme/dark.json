@@ -383,35 +383,35 @@
         "neutral": {
           "l=1": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.90}"
+            "value": "{semantics.color.palette.neutral.95}"
           },
           "l=2": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.80}"
+            "value": "{semantics.color.palette.neutral.85}"
           },
           "l=3": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.70}"
+            "value": "{semantics.color.palette.neutral.75}"
           },
           "l=4": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.60}"
+            "value": "{semantics.color.palette.neutral.65}"
           },
           "a=1": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.90}"
+            "value": "{semantics.color.palette.neutral.95}"
           },
           "a=2": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.80}"
+            "value": "{semantics.color.palette.neutral.85}"
           },
           "a=3": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.70}"
+            "value": "{semantics.color.palette.neutral.75}"
           },
           "a=4": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.60}"
+            "value": "{semantics.color.palette.neutral.65}"
           }
         },
         "neutralAlt": {
