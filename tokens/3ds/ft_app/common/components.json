@@ -4649,6 +4649,16 @@
             "type": "sizing",
             "value": "300"
           }
+        },
+        "l=arrow": {
+          "p=height": {
+            "type": "sizing",
+            "value": "4"
+          },
+          "p=width": {
+            "type": "sizing",
+            "value": "10"
+          }
         }
       },
       "c=space": {
@@ -7760,7 +7770,7 @@
           "l=container": {
             "p=height": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.xl}"
+              "value": "{semantics.size.sizing.lg}"
             },
             "p=borderRadius": {
               "type": "borderRadius",
@@ -7825,7 +7835,7 @@
           },
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.xs}"
+            "value": "{semantics.space.2xs}"
           }
         }
       }
