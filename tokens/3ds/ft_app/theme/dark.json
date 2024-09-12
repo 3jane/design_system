@@ -271,7 +271,7 @@
           },
           "o=1": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.65}, {semantics.color.palette.opacity.15} )"
+            "value": "rgba({semantics.color.palette.neutral.65}, {semantics.color.palette.opacity.20} )"
           },
           "o=2": {
             "type": "color",
