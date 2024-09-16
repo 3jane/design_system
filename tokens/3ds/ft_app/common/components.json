@@ -3719,11 +3719,11 @@
           "type": "sizing"
         },
         "v=md": {
-          "value": "{semantics.size.sizing.2xs}",
+          "value": "{semantics.size.sizing.xs}",
           "type": "sizing"
         },
         "v=lg": {
-          "value": "{semantics.size.sizing.xs}",
+          "value": "{semantics.size.sizing.sm}",
           "type": "sizing"
         }
       }
@@ -9076,7 +9076,7 @@
             },
             "p=gap": {
               "type": "spacing",
-              "value": "{semantics.space.xs}"
+              "value": "{semantics.space.sm}"
             }
           }
         },
@@ -9105,6 +9105,46 @@
             "t=deselected": {
               "value": "{composites.font.label.md.medium}",
               "type": "typography"
+            }
+          }
+        }
+      },
+      "Button": {
+        "c=color": {
+          "l=container": {
+                "p=fill": {
+                  "i=none": {
+                    "type": "color",
+                    "value": "{semantics.color.palette.common.none}"
+                  },
+                  "i=hover": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.neutral.o=2}"
+                  },
+                  "i=active": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.neutral.o=3}"
+                  },
+                  "i=focus": {
+                    "type": "color",
+                    "value": "{semantics.color.bg.neutral.o=2}"
+                  }
+                },
+                "p=border": {
+                  "type": "color",
+                  "value": "{semantics.color.palette.common.none}"
+                }
+           }
+        },
+        "c=size": {
+          "l=container": {
+            "p=size": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.xs}"
+            },
+            "p=borderRadius": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.md}"
             }
           }
         }
