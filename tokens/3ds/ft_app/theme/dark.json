@@ -263,7 +263,11 @@
         "neutral": {
           "l=1": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.10}"
+            "value": "{semantics.color.palette.neutral.25}"
+          },
+          "l=2": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.30}"
           },
           "a=1": {
             "type": "color",
