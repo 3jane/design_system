@@ -838,11 +838,11 @@
             "type": "typography"
           },
           "v=md": {
-            "value": "{composites.font.label.md.thick}",
+            "value": "{composites.font.label.lg.thick}",
             "type": "typography"
           },
           "v=lg": {
-            "value": "{composites.font.label.md.thick}",
+            "value": "{composites.font.label.lg.thick}",
             "type": "typography"
           }
         }
