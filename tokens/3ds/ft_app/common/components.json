@@ -2531,11 +2531,11 @@
           "type": "typography"
         },
         "l=labelText": {
-          "value": "{composites.font.label.sm.medium}",
+          "value": "{composites.font.label.md.medium}",
           "type": "typography"
         },
         "l=hintText": {
-          "value": "{composites.font.label.sm.thin}",
+          "value": "{composites.font.label.md.thin}",
           "type": "typography"
         }
       }
