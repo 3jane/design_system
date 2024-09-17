@@ -2527,7 +2527,7 @@
       },
       "c=font": {
         "l=inputText": {
-          "value": "{composites.font.label.md.thin}",
+          "value": "{composites.font.body.md.thin}",
           "type": "typography"
         },
         "l=labelText": {
