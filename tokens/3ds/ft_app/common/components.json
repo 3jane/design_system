@@ -2469,7 +2469,7 @@
           },
           "p=paddingVertical": {
             "type": "spacing",
-            "value": "{semantics.space.lg}"
+            "value": "{semantics.space.sm"
           }
         },
         "l=mainContainer": {
