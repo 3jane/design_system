@@ -1360,7 +1360,7 @@
       "code": {
         "sm": {
           "value": {
-            "fontFamily": "{base.font.family.robotoMono}",
+            "fontFamily": "{semantics.font.family.body.monospace}",
             "fontWeight": "{base.font.weight.regular}",
             "fontSize": "{base.font.size.12px}",
             "lineHeight": "{base.font.style.lineHeight.160%}",
