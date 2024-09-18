@@ -9099,46 +9099,6 @@
           }
         }
       },
-      "Button": {
-        "c=color": {
-          "l=container": {
-            "p=fill": {
-              "i=none": {
-                "type": "color",
-                "value": "{semantics.color.palette.common.none}"
-              },
-              "i=hover": {
-                "type": "color",
-                "value": "{semantics.color.bg.neutral.o=2}"
-              },
-              "i=active": {
-                "type": "color",
-                "value": "{semantics.color.bg.neutral.o=3}"
-              },
-              "i=focus": {
-                "type": "color",
-                "value": "{semantics.color.bg.neutral.o=2}"
-              }
-            },
-            "p=border": {
-              "type": "color",
-              "value": "{semantics.color.palette.common.none}"
-            }
-          }
-        },
-        "c=size": {
-          "l=container": {
-            "p=size": {
-              "type": "sizing",
-              "value": "{semantics.size.sizing.xs}"
-            },
-            "p=borderRadius": {
-              "type": "borderRadius",
-              "value": "{semantics.size.radius.xs}"
-            }
-          }
-        }
-      },
       "Group": {
         "c=space": {
           "p=paddingHorizontal": {
