@@ -1484,7 +1484,7 @@
             "type": "fontFamilies"
           },
           "monospace": {
-            "value": "{base.font.family.robotoMono}, {base.font.family.firaCode}, {base.font.family.jetbrainsMono}",
+            "value": "{base.font.family.robotoMono}, {base.font.family.firaCode}, {base.font.family.monospace}",
             "type": "fontFamilies"
           }
         },

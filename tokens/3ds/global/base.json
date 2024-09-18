@@ -513,6 +513,10 @@
         "manrope": {
           "value": "Manrope",
           "type": "fontFamilies"
+        },
+        "monospace": {
+          "value": "monospace",
+          "type": "fontFamilies"
         }
       },
       "weight": {
