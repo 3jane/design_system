@@ -1368,7 +1368,7 @@
             "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
             "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
             "textDecoration": "{semantics.font.style.decoration.none}",
-           "textCase": "{semantics.font.style.case.none}"
+            "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         },
@@ -1382,7 +1382,7 @@
             "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
             "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
             "textDecoration": "{semantics.font.style.decoration.none}",
-           "textCase": "{semantics.font.style.case.none}"
+            "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         },
@@ -1392,7 +1392,7 @@
             "fontWeight": "{base.font.weight.regular}",
             "fontSize": "{base.font.size.16px}",
             "lineHeight": "{base.font.style.lineHeight.160%}",
-           "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+            "letterSpacing": "{semantics.font.style.letterSpacing.default}",
             "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
             "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
             "textDecoration": "{semantics.font.style.decoration.none}",

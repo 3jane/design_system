@@ -4937,7 +4937,7 @@
         "l=textContainer": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.2xs}"
+            "value": "{semantics.space.none}"
           }
         },
         "l=buttonsContainer": {
@@ -4949,7 +4949,7 @@
         "l=textAndButtonsContainer": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.xl}"
+            "value": "{semantics.space.md}"
           }
         }
       },
