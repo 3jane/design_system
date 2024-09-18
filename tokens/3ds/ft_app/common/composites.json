@@ -1364,39 +1364,39 @@
             "fontWeight": "{base.font.weight.regular}",
             "fontSize": "{base.font.size.12px}",
             "lineHeight": "{base.font.style.lineHeight.160%}",
-            "letterSpacing": "{base.font.style.letterSpacing.0%}",
-            "paragraphSpacing": "{base.font.style.paragraphSpacing.0%}",
-            "paragraphIndent": "{base.font.style.paragraphIndent.0%}",
-            "textDecoration": "{base.font.style.decoration.none}",
-            "textCase": "{base.font.style.case.none}"
+            "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+            "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+            "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+            "textDecoration": "{semantics.font.style.decoration.none}",
+           "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         },
         "md": {
           "value": {
-            "fontFamily": "{base.font.family.robotoMono}",
+            "fontFamily": "{semantics.font.family.body.monospace}",
             "fontWeight": "{base.font.weight.regular}",
             "fontSize": "{base.font.size.14px}",
             "lineHeight": "{base.font.style.lineHeight.160%}",
-            "letterSpacing": "{base.font.style.letterSpacing.0%}",
-            "paragraphSpacing": "{base.font.style.paragraphSpacing.0%}",
-            "paragraphIndent": "{base.font.style.paragraphIndent.0%}",
-            "textDecoration": "{base.font.style.decoration.none}",
-            "textCase": "{base.font.style.case.none}"
+            "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+            "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+            "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+            "textDecoration": "{semantics.font.style.decoration.none}",
+           "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         },
         "lg": {
           "value": {
-            "fontFamily": "{base.font.family.robotoMono}",
+            "fontFamily": "{semantics.font.family.body.monospace}",
             "fontWeight": "{base.font.weight.regular}",
             "fontSize": "{base.font.size.16px}",
             "lineHeight": "{base.font.style.lineHeight.160%}",
-            "letterSpacing": "{base.font.style.letterSpacing.0%}",
-            "paragraphSpacing": "{base.font.style.paragraphSpacing.0%}",
-            "paragraphIndent": "{base.font.style.paragraphIndent.0%}",
-            "textDecoration": "{base.font.style.decoration.none}",
-            "textCase": "{base.font.style.case.none}"
+           "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+            "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+            "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+            "textDecoration": "{semantics.font.style.decoration.none}",
+            "textCase": "{semantics.font.style.case.none}"
           },
           "type": "typography"
         }
