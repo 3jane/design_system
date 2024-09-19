@@ -41,7 +41,7 @@
           },
           "o=2": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.5} )"
+            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.4} )"
           },
           "o=3": {
             "type": "color",
@@ -49,7 +49,7 @@
           },
           "o=4": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.7})"
+            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.8})"
           },
           "tooltip": {
             "type": "color",
