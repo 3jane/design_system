@@ -4923,6 +4923,12 @@
             "type": "sizing",
             "value": "{semantics.size.sizing.xs}"
           }
+        },
+        "l=buttonContainer": {
+          "p=height": {
+            "type": "sizing",
+            "value": "{semantics.size.sizing.xs}"
+          }
         }
       },
       "c=space": {
@@ -4969,7 +4975,7 @@
         "l=textAndButtonsContainer": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.xl}"
+            "value": "{semantics.space.2xl}"
           }
         }
       },
