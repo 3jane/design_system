@@ -4944,6 +4944,14 @@
           "p=gap": {
             "type": "spacing",
             "value": "{semantics.space.sm}"
+          },
+          "p=paddingTop": {
+            "type": "spacing",
+            "value": "{semantics.space.2xs}"
+          },
+          "p=paddingBottom": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
           }
         },
         "l=textContainer": {
