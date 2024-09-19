@@ -4917,27 +4917,39 @@
             "type": "borderRadius",
             "value": "{semantics.size.radius.xl}"
           }
+        },
+        "l=titleContainer": {
+          "p=height": {
+            "type": "sizing",
+            "value": "{semantics.size.sizing.xs}"
+          }
         }
       },
       "c=space": {
         "l=mainContainer": {
           "p=paddingVertical": {
             "type": "spacing",
-            "value": "{semantics.space.2xl}"
+            "value": "{semantics.space.3xl}"
           },
           "p=paddingHorizontal": {
             "type": "spacing",
-            "value": "{semantics.space.2xl}"
+            "value": "{semantics.space.3xl}"
           },
           "p=gap": {
             "type": "spacing",
             "value": "{semantics.space.xl}"
           }
         },
+        "l=titleContainer": {
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.sm}"
+          }
+        },
         "l=textContainer": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.xs}"
           }
         },
         "l=buttonsContainer": {
@@ -4949,7 +4961,7 @@
         "l=textAndButtonsContainer": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.md}"
+            "value": "{semantics.space.xl}"
           }
         }
       },
