@@ -5033,7 +5033,7 @@
         "l=mainContainer": {
           "p=borderRadius": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.2xl}"
+            "value": "{semantics.size.radius.lg}"
           },
           "p=borderWidth": {
             "type": "borderWidth",
