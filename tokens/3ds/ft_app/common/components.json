@@ -5116,7 +5116,7 @@
     },
     "Message": {
       "c=color": {
-       "l=container": {
+       "l=mainContainer": {
                 "p=fill": {
                   "i=none": {
                     "type": "color",
@@ -5138,6 +5138,28 @@
                   }
                 }
        },
+       "l=contentContainer": {
+        "p=fill": {
+          "i=none": {
+            "type": "color",
+            "value": "{semantics.color.palette.common.none}"
+          },
+          "i=hover": {
+            "type": "color",
+            "value": "{semantics.color.palette.common.none}"
+          }
+        },
+        "p=border": {
+          "i=none": {
+            "type": "color",
+            "value": "{semantics.color.palette.common.none}"
+          },
+          "i=hover": {
+            "type": "color",
+            "value": "{semantics.color.palette.common.none}"
+          }
+        }
+},
        "l=sender": {
         "p=color": {
            "type": "color",
