@@ -416,6 +416,10 @@
           "a=4": {
             "type": "color",
             "value": "{semantics.color.palette.neutral.65}"
+          },
+          "a=5": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.45}"
           }
         },
         "neutralAlt": {
@@ -451,7 +455,7 @@
           },
           "a=2": {
             "type": "color",
-            "value": "{semantics.color.palette.brand.60}"
+            "value": "{semantics.color.palette.brand.50}"
           }
         },
         "brand2": {
@@ -469,7 +473,7 @@
           },
           "a=2": {
             "type": "color",
-            "value": "{semantics.color.palette.brand2.65}"
+            "value": "{semantics.color.palette.brand2.50}"
           }
         },
         "error": {
@@ -487,7 +491,7 @@
           },
           "a=2": {
             "type": "color",
-            "value": "{semantics.color.palette.red.65}"
+            "value": "{semantics.color.palette.red.50}"
           }
         },
         "success": {
