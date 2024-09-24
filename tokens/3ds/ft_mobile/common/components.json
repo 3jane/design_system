@@ -525,7 +525,7 @@
                   },
                   "i=active": {
                     "type": "color",
-                    "value": "{semantics.color.text.neutral.a=4}"
+                    "value": "{semantics.color.text.neutral.a=5}"
                   },
                   "i=focus": {
                     "type": "color",
@@ -557,7 +557,7 @@
                   },
                   "i=active": {
                     "type": "color",
-                    "value": "{semantics.color.text.brand.a=3}"
+                    "value": "{semantics.color.text.brand.a=2}"
                   },
                   "i=focus": {
                     "type": "color",
@@ -589,7 +589,7 @@
                   },
                   "i=active": {
                     "type": "color",
-                    "value": "{semantics.color.text.error.a=3}"
+                    "value": "{semantics.color.text.error.a=2}"
                   },
                   "i=focus": {
                     "type": "color",
