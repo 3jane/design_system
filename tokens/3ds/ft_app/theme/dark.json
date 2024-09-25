@@ -416,10 +416,6 @@
           "a=4": {
             "type": "color",
             "value": "{semantics.color.palette.neutral.65}"
-          },
-          "a=5": {
-            "type": "color",
-            "value": "{semantics.color.palette.neutral.45}"
           }
         },
         "neutralAlt": {
