@@ -3713,15 +3713,15 @@
       },
       "c=size": {
         "v=sm": {
-          "value": "{semantics.size.sizing.3xs}",
-          "type": "sizing"
-        },
-        "v=md": {
           "value": "{semantics.size.sizing.xs}",
           "type": "sizing"
         },
-        "v=lg": {
+        "v=md": {
           "value": "{semantics.size.sizing.sm}",
+          "type": "sizing"
+        },
+        "v=lg": {
+          "value": "{semantics.size.sizing.md}",
           "type": "sizing"
         }
       }
