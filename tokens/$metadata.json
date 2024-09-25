@@ -5,6 +5,11 @@
     "3ds/ft_app/theme/dark",
     "3ds/ft_app/common/semantics",
     "3ds/ft_app/common/components",
-    "3ds/ft_app/common/composites"
+    "3ds/ft_app/common/composites",
+    "3ds/ft_mobile/common/components",
+    "3ds/ft_mobile/common/composites",
+    "3ds/ft_mobile/common/semantics",
+    "3ds/ft_mobile/theme/dark",
+    "3ds/ft_mobile/theme/light"
   ]
 }

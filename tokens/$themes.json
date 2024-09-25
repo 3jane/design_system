@@ -10225,5 +10225,31 @@
       "semantics.backgroundBlur.4xl": "fa7dbf69727077e0f0d34eeb8ddf4df6a310f560"
     },
     "group": "app"
+  },
+  {
+    "id": "de9fe1a3d723d87058ccc244373c36d52903f513",
+    "name": "light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "3ds/ft_mobile/common/components": "enabled",
+      "3ds/ft_mobile/common/composites": "enabled",
+      "3ds/ft_mobile/common/semantics": "enabled",
+      "3ds/ft_mobile/theme/light": "enabled",
+      "3ds/global/base": "source"
+    },
+    "group": "mobile"
+  },
+  {
+    "id": "132791e9050c4f69b876ba850ce0bb6365e36c0e",
+    "name": "dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "3ds/global/base": "source",
+      "3ds/ft_mobile/common/components": "enabled",
+      "3ds/ft_mobile/common/composites": "enabled",
+      "3ds/ft_mobile/common/semantics": "enabled",
+      "3ds/ft_mobile/theme/dark": "enabled"
+    },
+    "group": "mobile"
   }
 ]
