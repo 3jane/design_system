@@ -1631,7 +1631,7 @@
           },
           "body": {
             "default": {
-              "value": "{base.font.style.lineHeight.175%}",
+              "value": "{base.font.style.lineHeight.160%}",
               "type": "lineHeights"
             }
           },
