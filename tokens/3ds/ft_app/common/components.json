@@ -5666,14 +5666,8 @@
       "c=size": {
         "l=container": {
           "p=height": {
-            "v=sm": {
               "type": "sizing",
               "value": "{semantics.size.sizing.5xl}"
-            },
-            "v=lg": {
-              "type": "sizing",
-              "value": "{semantics.size.sizing.5xl}"
-            }
           },
           "p=borderRadiusBottomLeft": {
             "type": "borderRadius",
