@@ -37,7 +37,7 @@
           },
           "o=1": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.20}, {semantics.color.palette.opacity.60})"
+            "value": "rgba({semantics.color.palette.neutral.15}, {semantics.color.palette.opacity.80})"
           },
           "o=2": {
             "type": "color",
