@@ -5233,11 +5233,11 @@
           },
           "p=paddingLeft": {
             "type": "spacing",
-            "value": "{semantics.space.3xl}"
+            "value": "{semantics.space.4xl}"
           },
           "p=paddingRight": {
             "type": "spacing",
-            "value": "{semantics.space.3xl}"
+            "value": "{semantics.space.4xl}"
           },
           "p=gap": {
             "type": "spacing",
@@ -5705,11 +5705,11 @@
         "l=container": {
           "p=paddingLeft": {
             "type": "spacing",
-            "value": "{semantics.space.xl}"
+            "value": "{semantics.space.2xl}"
           },
           "p=paddingRight": {
             "type": "spacing",
-            "value": "{semantics.space.xl}"
+            "value": "{semantics.space.2xl}"
           },
           "p=paddingTop": {
             "type": "spacing",
