@@ -525,7 +525,7 @@
                   },
                   "i=active": {
                     "type": "color",
-                    "value": "{semantics.color.text.neutral.a=4}"
+                    "value": "{semantics.color.text.disabled.l=1}"
                   },
                   "i=focus": {
                     "type": "color",
@@ -557,7 +557,7 @@
                   },
                   "i=active": {
                     "type": "color",
-                    "value": "{semantics.color.text.brand.a=3}"
+                    "value": "{semantics.color.text.brand.a=2}"
                   },
                   "i=focus": {
                     "type": "color",
@@ -589,7 +589,7 @@
                   },
                   "i=active": {
                     "type": "color",
-                    "value": "{semantics.color.text.error.a=3}"
+                    "value": "{semantics.color.text.error.a=2}"
                   },
                   "i=focus": {
                     "type": "color",
@@ -2741,7 +2741,7 @@
           },
           "p=border": {
             "type": "color",
-            "value": "{semantics.color.border.neutral.o=1}"
+            "value": "{semantics.color.palette.common.none}"
           }
         },
         "l=text": {
@@ -2823,7 +2823,7 @@
           },
           "p=borderWidth": {
             "type": "borderWidth",
-            "value": "{semantics.size.border.sm}"
+            "value": "{semantics.size.border.md}"
           }
         }
       },
@@ -3713,15 +3713,15 @@
       },
       "c=size": {
         "v=sm": {
-          "value": "{semantics.size.sizing.3xs}",
-          "type": "sizing"
-        },
-        "v=md": {
           "value": "{semantics.size.sizing.xs}",
           "type": "sizing"
         },
-        "v=lg": {
+        "v=md": {
           "value": "{semantics.size.sizing.sm}",
+          "type": "sizing"
+        },
+        "v=lg": {
+          "value": "{semantics.size.sizing.md}",
           "type": "sizing"
         }
       }
@@ -5217,7 +5217,7 @@
         "l=senderContainer": {
           "p=height": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.4xs}"
+            "value": "{semantics.size.sizing.xs}"
           }
         }
       },
@@ -5233,11 +5233,11 @@
           },
           "p=paddingLeft": {
             "type": "spacing",
-            "value": "{semantics.space.3xl}"
+            "value": "{semantics.space.4xl}"
           },
           "p=paddingRight": {
             "type": "spacing",
-            "value": "{semantics.space.3xl}"
+            "value": "{semantics.space.4xl}"
           },
           "p=gap": {
             "type": "spacing",
@@ -5657,21 +5657,15 @@
           },
           "p=border": {
             "type": "color",
-            "value": "{semantics.color.border.neutral.o=1}"
+            "value": "{semantics.color.palette.common.none}"
           }
         }
       },
       "c=size": {
         "l=container": {
           "p=height": {
-            "v=sm": {
-              "type": "sizing",
-              "value": "{semantics.size.sizing.5xl}"
-            },
-            "v=lg": {
-              "type": "sizing",
-              "value": "{semantics.size.sizing.5xl}"
-            }
+             "type": "sizing",
+            "value": "{semantics.size.sizing.4xl}"
           },
           "p=borderRadiusBottomLeft": {
             "type": "borderRadius",
@@ -6678,7 +6672,7 @@
           "l=container": {
             "p=minHeight": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.lg}"
+              "value": "{semantics.size.sizing.2xl}"
             },
             "p=borderRadius": {
               "type": "borderRadius",
@@ -8010,7 +8004,7 @@
           "l=container": {
             "p=height": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.xl}"
+              "value": "{semantics.size.sizing.2xl}"
             },
             "p=borderRadius": {
               "type": "borderRadius",
@@ -9292,7 +9286,7 @@
           "l=container": {
             "p=minHeight": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.lg}"
+              "value": "{semantics.size.sizing.2xl}"
             },
             "p=borderRadius": {
               "type": "borderRadius",

@@ -10227,20 +10227,20 @@
     "group": "app"
   },
   {
-    "id": "54457b7fb165cdbf64a650aadc6c8815327165b1",
+    "id": "de9fe1a3d723d87058ccc244373c36d52903f513",
     "name": "light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "3ds/global/base": "source",
       "3ds/ft_mobile/common/components": "enabled",
       "3ds/ft_mobile/common/composites": "enabled",
       "3ds/ft_mobile/common/semantics": "enabled",
-      "3ds/ft_mobile/theme/light": "enabled"
+      "3ds/ft_mobile/theme/light": "enabled",
+      "3ds/global/base": "source"
     },
     "group": "mobile"
   },
   {
-    "id": "6e5f7c4dab9dbadabb2fa6ef54850fa5161ecb7f",
+    "id": "132791e9050c4f69b876ba850ce0bb6365e36c0e",
     "name": "dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
