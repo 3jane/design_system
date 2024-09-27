@@ -2741,7 +2741,7 @@
           },
           "p=border": {
             "type": "color",
-            "value": "{semantics.color.palette.common.none}"
+            "value": "{semantics.color.border.neutral.o=1}"
           }
         },
         "l=text": {
@@ -2823,7 +2823,7 @@
           },
           "p=borderWidth": {
             "type": "borderWidth",
-            "value": "{semantics.size.border.md}"
+            "value": "{semantics.size.border.sm}"
           }
         }
       },
@@ -5664,7 +5664,7 @@
       "c=size": {
         "l=container": {
           "p=height": {
-             "type": "sizing",
+            "type": "sizing",
             "value": "{semantics.size.sizing.4xl}"
           },
           "p=borderRadiusBottomLeft": {
