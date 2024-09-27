@@ -1631,13 +1631,13 @@
           },
           "body": {
             "default": {
-              "value": "{base.font.style.lineHeight.150%}",
+              "value": "{base.font.style.lineHeight.175%}",
               "type": "lineHeights"
             }
           },
           "label": {
             "default": {
-              "value": "{base.font.style.lineHeight.150%}",
+              "value": "{base.font.style.lineHeight.160%}",
               "type": "lineHeights"
             }
           }
