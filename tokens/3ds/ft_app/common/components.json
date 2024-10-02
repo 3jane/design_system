@@ -3051,7 +3051,7 @@
         "l=controlPanel": {
           "p=height": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.lg}"
+            "value": "{semantics.size.sizing.xl}"
           },
           "p=borderWidthBotom": {
             "type": "borderWidth",
