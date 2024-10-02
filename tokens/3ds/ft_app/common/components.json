@@ -628,7 +628,7 @@
           "p=height": {
             "v=xs": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.sm}"
+              "value": "{semantics.size.sizing.md}"
             },
             "v=sm": {
               "type": "sizing",
