@@ -3652,10 +3652,6 @@
               "t=tertiary": {
                 "value": "{semantics.color.text.disabled.l=1}",
                 "type": "color"
-              },
-              "t=quaternary": {
-                "value": "{semantics.color.text.disabled.l=1}",
-                "type": "color"
               }
             }
           }
