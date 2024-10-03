@@ -397,25 +397,17 @@
             "type": "color",
             "value": "{semantics.color.palette.neutral.75}"
           },
-          "l=4": {
-            "type": "color",
-            "value": "{semantics.color.palette.neutral.55}"
-          },
           "a=1": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.15}"
+            "value": "{semantics.color.palette.neutral.20}"
           },
           "a=2": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.25}"
+            "value": "{semantics.color.palette.neutral.30}"
           },
           "a=3": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.35}"
-          },
-          "a=4": {
-            "type": "color",
-            "value": "{semantics.color.palette.neutral.45}"
+            "value": "{semantics.color.palette.neutral.40}"
           }
         },
         "neutralAlt": {
@@ -430,10 +422,6 @@
           "l=3": {
             "type": "color",
             "value": "{semantics.color.palette.neutral.75}"
-          },
-          "l=4": {
-            "type": "color",
-            "value": "{semantics.color.palette.neutral.65}"
           }
         },
         "brand": {
