@@ -3033,7 +3033,7 @@
         "l=languageIndicator": {
           "p=color": {
             "type": "color",
-            "value": "{semantics.color.text.neutral.a=1}"
+            "value": "{semantics.color.text.neutral.a=3}"
           }
         }
       },
@@ -3107,7 +3107,7 @@
           "type": "typography"
         },
         "l=languageIndicator": {
-          "value": "{composites.font.code.sm}",
+          "value": "{composites.font.code.md}",
           "type": "typography"
         }
       }
