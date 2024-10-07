@@ -3076,6 +3076,10 @@
           "p=paddingBottom": {
             "type": "spacing",
             "value": "{semantics.space.none}"
+          },
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.xs}"
           }
         },
         "l=codeFrame": {
