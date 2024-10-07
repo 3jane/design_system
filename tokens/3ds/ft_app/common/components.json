@@ -3067,7 +3067,7 @@
           },
           "p=paddingRight": {
             "type": "spacing",
-            "value": "{semantics.space.sm}"
+            "value": "{semantics.space.2xs}"
           },
           "p=paddingTop": {
             "type": "spacing",
@@ -3079,7 +3079,7 @@
           },
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.xs}"
+            "value": "{semantics.space.none}"
           }
         },
         "l=codeFrame": {
