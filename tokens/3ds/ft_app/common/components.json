@@ -5335,7 +5335,7 @@
         "v=neutral": {
           "l=line": {
             "p=border": {
-              "value": "{semantics.color.bg.neutral.a=1}",
+              "value": "{semantics.color.bg.neutral.a=4}",
               "type": "color"
             }
           }
@@ -5364,7 +5364,7 @@
           "p=borderWidth": {
             "v=sm": {
               "type": "borderWidth",
-              "value": "{semantics.size.border.2xl}"
+              "value": "{semantics.size.border.lg}"
             },
             "v=lg": {
               "type": "borderWidth",
