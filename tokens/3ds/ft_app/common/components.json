@@ -3328,11 +3328,23 @@
           "p=gap": {
             "v=sm": {
               "type": "spacing",
-              "value": "{semantics.space.xs}"
+              "value": "{semantics.space.2xs}"
             },
             "v=md": {
               "type": "spacing",
-              "value": "{semantics.space.sm}"
+              "value": "{semantics.space.xs}"
+            }
+          }
+        },
+        "l=textContainer": {
+          "p=paddingHorizontal": {
+            "v=sm": {
+              "type": "spacing",
+              "value": "{semantics.space.2xs}"
+            },
+            "v=md": {
+              "type": "spacing",
+              "value": "{semantics.space.2xs}"
             }
           }
         }
@@ -3374,11 +3386,11 @@
       "c=font": {
         "l=label": {
           "v=sm": {
-            "value": "{composites.font.label.lg.thick}",
+            "value": "{composites.font.label.md.thick}",
             "type": "typography"
           },
           "v=md": {
-            "value": "{composites.font.label.lg.thick}",
+            "value": "{composites.font.label.md.thick}",
             "type": "typography"
           }
         }
