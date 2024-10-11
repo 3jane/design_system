@@ -8123,11 +8123,11 @@
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.text.neutral.a=1}"
+                    "value": "{semantics.color.text.neutral.a=2}"
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.text.neutral.a=1}"
+                    "value": "{semantics.color.text.neutral.a=2}"
                   }
                 }
               }
@@ -8161,11 +8161,11 @@
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.text.neutral.a=1}"
+                    "value": "{semantics.color.text.neutral.a=2}"
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.text.neutral.a=1}"
+                    "value": "{semantics.color.text.neutral.a=2}"
                   }
                 }
               }
