@@ -8059,15 +8059,15 @@
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.o=3}"
+                    "value": "{semantics.color.bg.brand.o=1}"
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.o=3}"
+                    "value": "{semantics.color.bg.brand.o=2}"
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.o=3}"
+                    "value": "{semantics.color.bg.brand.o=2}"
                   }
                 },
                 "p=border": {
@@ -8099,15 +8099,15 @@
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.o=2}"
+                    "value": "{semantics.color.palette.common.none}"
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.o=3}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.o=3}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   }
                 },
                 "p=border": {
@@ -8137,15 +8137,15 @@
                 "p=fill": {
                   "i=none": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.o=2}"
+                    "value": "{semantics.color.palette.common.none}"
                   },
                   "i=hover": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.o=3}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   },
                   "i=focus": {
                     "type": "color",
-                    "value": "{semantics.color.bg.neutral.o=3}"
+                    "value": "{semantics.color.bg.neutral.o=2}"
                   }
                 },
                 "p=border": {
