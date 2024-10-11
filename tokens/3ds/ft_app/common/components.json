@@ -8034,7 +8034,7 @@
                 },
                 "p=border": {
                   "type": "color",
-                  "value": "{semantics.color.border.neutral.o=2}"
+                  "value": "{semantics.color.palette.common.none}"
                 }
               },
               "l=label": {
@@ -8072,7 +8072,7 @@
                 },
                 "p=border": {
                   "type": "color",
-                  "value": "{semantics.color.border.neutral.o=2}"
+                  "value": "{semantics.color.palette.common.none}"
                 }
               },
               "l=label": {
