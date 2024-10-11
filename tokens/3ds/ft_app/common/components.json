@@ -8253,7 +8253,7 @@
         "c=font": {
           "l=label": {
             "t=selected": {
-              "value": "{composites.font.label.md.thick}",
+              "value": "{composites.font.label.md.medium}",
               "type": "typography"
             },
             "t=deselected": {
