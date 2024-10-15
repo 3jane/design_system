@@ -4283,11 +4283,11 @@
             "p=paddingHorizontal": {
               "v=sm": {
                 "type": "spacing",
-                "value": "{semantics.space.2xl}"
+                "value": "{semantics.space.none}"
               },
               "v=lg": {
                 "type": "spacing",
-                "value": "{semantics.space.2xl}"
+                "value": "{semantics.space.none}"
               }
             },
             "p=gap": {
