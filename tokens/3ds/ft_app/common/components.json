@@ -4192,7 +4192,7 @@
         },
         "c=space": {
           "l=container": {
-            "p=paddingHorizontal": {
+            "p=paddingLeft": {
               "v=sm": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
@@ -4200,6 +4200,16 @@
               "v=lg": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
+              }
+            },
+            "p=paddingRight": {
+              "v=sm": {
+                "type": "spacing",
+                "value": "{semantics.space.md}"
+              },
+              "v=lg": {
+                "type": "spacing",
+                "value": "{semantics.space.md}"
               }
             },
             "p=gap": {
@@ -4280,7 +4290,7 @@
         },
         "c=space": {
           "l=container": {
-            "p=paddingHorizontal": {
+            "p=paddingLeft": {
               "v=sm": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
@@ -4288,6 +4298,16 @@
               "v=lg": {
                 "type": "spacing",
                 "value": "{semantics.space.none}"
+              }
+            },
+            "p=paddingRight": {
+              "v=sm": {
+                "type": "spacing",
+                "value": "{semantics.space.md}"
+              },
+              "v=lg": {
+                "type": "spacing",
+                "value": "{semantics.space.md}"
               }
             },
             "p=gap": {
