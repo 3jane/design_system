@@ -3061,11 +3061,11 @@
         "l=controlPanel": {
           "p=paddingLeft": {
             "type": "spacing",
-            "value": "{semantics.space.2xl}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingRight": {
             "type": "spacing",
-            "value": "{semantics.space.xs}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingTop": {
             "type": "spacing",
