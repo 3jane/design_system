@@ -2756,7 +2756,7 @@
           "p=size": {
             "v=xs": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.xs}"
+              "value": "{semantics.size.sizing.sm}"
             },
             "v=sm": {
               "type": "sizing",
