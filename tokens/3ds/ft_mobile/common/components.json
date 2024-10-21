@@ -3087,11 +3087,11 @@
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.2xl}"
+            "value": "{semantics.space.lg}"
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.2xl}"
+            "value": "{semantics.space.lg}"
           }
         }
       },
@@ -5167,7 +5167,7 @@
         "l=contentAndActionsContainer": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.2xs}"
+            "value": "{semantics.space.xs}"
           }
         },
         "l=actionsContainer": {
