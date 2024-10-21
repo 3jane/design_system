@@ -3043,7 +3043,7 @@
           },
           "p=borderRadius": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.md}"
+            "value": "{semantics.size.radius.none}"
           }
         },
         "l=controlPanel": {
@@ -3079,11 +3079,11 @@
         "l=codeFrame": {
           "p=paddingLeft": {
             "type": "spacing",
-            "value": "{semantics.space.2xl}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingRight": {
             "type": "spacing",
-            "value": "{semantics.space.2xl}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingTop": {
             "type": "spacing",
@@ -5195,7 +5195,7 @@
         "l=contentContainer": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.xs}"
+            "value": "{semantics.space.2xs}"
           },
           "p=paddingTop": {
             "type": "spacing",
