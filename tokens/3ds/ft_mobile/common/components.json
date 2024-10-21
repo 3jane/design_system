@@ -5137,7 +5137,7 @@
         "l=senderContainer": {
           "p=height": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.xs}"
+            "value": "{semantics.size.sizing.sm}"
           }
         }
       },
