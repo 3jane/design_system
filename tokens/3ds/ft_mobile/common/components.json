@@ -3087,11 +3087,11 @@
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.lg}"
+            "value": "{semantics.space.xl}"
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.lg}"
+            "value": "{semantics.space.xl}"
           }
         }
       },
