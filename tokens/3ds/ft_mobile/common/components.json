@@ -3097,7 +3097,7 @@
       },
       "c=font": {
         "l=code": {
-          "value": "{composites.font.code.md}",
+          "value": "{composites.font.code.sm}",
           "type": "typography"
         },
         "l=languageIndicator": {
@@ -5167,7 +5167,7 @@
         "l=contentAndActionsContainer": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.xs}"
+            "value": "{semantics.space.sm}"
           }
         },
         "l=actionsContainer": {
