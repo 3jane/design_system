@@ -6268,7 +6268,7 @@
         },
         "p=borderRadiusTop": {
           "type": "borderRadius",
-          "value": "{semantics.size.radius.3xl}"
+          "value": "{semantics.size.radius.lg}"
         }
       },
       "c=space": {
@@ -6592,7 +6592,7 @@
           "l=container": {
             "p=minHeight": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.2xl}"
+              "value": "{semantics.size.sizing.3xl}"
             },
             "p=borderRadius": {
               "type": "borderRadius",
@@ -6638,7 +6638,7 @@
         },
         "c=font": {
           "l=text": {
-            "value": "{composites.font.label.md.medium}",
+            "value": "{composites.font.label.lg.medium}",
             "type": "typography"
           }
         }
