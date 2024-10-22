@@ -6480,7 +6480,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.neutral.o=3}"
+                      "value": "{semantics.color.bg.neutral.o=4}"
                     }
                   },
                   "p=border": {
@@ -6560,7 +6560,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.bg.neutral.o=2}"
                     }
                   },
                   "p=border": {
@@ -6588,7 +6588,7 @@
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.palette.common.transparent}"
+                      "value": "{semantics.color.bg.error.o=1}"
                     }
                   },
                   "p=border": {
@@ -6669,7 +6669,7 @@
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.noShadow}",
               "type": "boxShadow"
             }
           }
