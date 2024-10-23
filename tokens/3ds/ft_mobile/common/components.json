@@ -9253,11 +9253,11 @@
         "c=font": {
           "l=text": {
             "t=selected": {
-              "value": "{composites.font.label.md.medium}",
+              "value": "{composites.font.label.lg.medium}",
               "type": "typography"
             },
             "t=deselected": {
-              "value": "{composites.font.label.md.medium}",
+              "value": "{composites.font.label.lg.medium}",
               "type": "typography"
             }
           }
