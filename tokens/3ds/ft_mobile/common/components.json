@@ -9222,7 +9222,7 @@
           "l=container": {
             "p=paddingHorizontal": {
               "type": "spacing",
-              "value": "{semantics.space.sm}"
+              "value": "{semantics.space.lg}"
             },
             "p=paddingVertical": {
               "type": "spacing",
