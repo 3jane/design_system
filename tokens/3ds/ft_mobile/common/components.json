@@ -2756,11 +2756,11 @@
           "p=size": {
             "v=xs": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.sm}"
+              "value": "{semantics.size.sizing.xs}"
             },
             "v=sm": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.md}"
+              "value": "{semantics.size.sizing.sm}"
             },
             "v=md": {
               "type": "sizing",
