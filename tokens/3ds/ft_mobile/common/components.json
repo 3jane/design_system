@@ -1675,13 +1675,13 @@
             "s=enabled": {
               "v=neutral": {
                 "p=fill": {
-                  "value": "{semantics.color.bg.neutral.o=3}",
+                  "value": "{semantics.color.text.neutral.l=3}",
                   "type": "color"
                 }
               },
               "v=brand": {
                 "p=fill": {
-                  "value": "{semantics.color.bg.neutral.o=3}",
+                  "value": "{semantics.color.text.neutral.l=3}",
                   "type": "color"
                 }
               }
@@ -1689,7 +1689,7 @@
             "s=disabled": {
               "v=disabled": {
                 "p=fill": {
-                  "value": "{semantics.color.bg.neutral.o=3}",
+                  "value": "{semantics.color.text.neutral.l=3}",
                   "type": "color"
                 }
               }
