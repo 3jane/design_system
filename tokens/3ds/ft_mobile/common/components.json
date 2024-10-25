@@ -3278,11 +3278,11 @@
           "p=height": {
             "v=sm": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.md}"
+              "value": "{semantics.size.sizing.xl}"
             },
             "v=md": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.xl}"
+              "value": "{semantics.size.sizing.2xl}"
             }
           },
           "p=borderRadius": {
@@ -3312,7 +3312,7 @@
           "p=paddingHorizontal": {
             "v=sm": {
               "type": "spacing",
-              "value": "{semantics.space.sm}"
+              "value": "{semantics.space.md}"
             },
             "v=md": {
               "type": "spacing",
