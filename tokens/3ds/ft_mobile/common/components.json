@@ -2467,7 +2467,7 @@
           },
           "p=paddingVertical": {
             "type": "spacing",
-            "value": "{semantics.space.sm}"
+            "value": "{semantics.space.md}"
           }
         },
         "l=mainContainer": {
