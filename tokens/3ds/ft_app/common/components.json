@@ -7875,7 +7875,7 @@
                 "l=text": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.neutral.a=1}"
+                    "value": "{semantics.color.text.neutral.a=2}"
                   }
                 }
               }
