@@ -1952,7 +1952,7 @@
         },
         "c=font": {
           "l=text": {
-            "value": "{composites.font.label.lg.medium}",
+            "value": "{composites.font.label.md.medium}",
             "type": "typography"
           }
         }
@@ -1962,7 +1962,7 @@
           "l=container": {
             "p=gap": {
               "type": "spacing",
-              "value": "{semantics.space.none}"
+              "value": "{semantics.space.2xs}"
             }
           }
         }
