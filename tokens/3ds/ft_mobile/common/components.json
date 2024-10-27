@@ -5054,7 +5054,7 @@
             },
             "i=hover": {
               "type": "color",
-              "value": "{semantics.color.palette.common.none}"
+              "value": "{semantics.color.bg.neutral.o=2}"
             }
           },
           "p=border": {
@@ -5064,7 +5064,7 @@
             },
             "i=hover": {
               "type": "color",
-              "value": "{semantics.color.border.brand.a=1}"
+              "value": "{semantics.color.palette.common.none}"
             }
           }
         },
@@ -5157,11 +5157,11 @@
         "l=mainContainer": {
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.sm}"
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.sm}"
           },
           "p=paddingLeft": {
             "type": "spacing",
