@@ -5585,7 +5585,7 @@
         "l=container": {
           "p=fill": {
             "type": "color",
-            "value": "{semantics.color.bg.neutral.l=1}"
+            "value": "{semantics.color.bg.neutral.o=1}"
           },
           "p=border": {
             "type": "color",
