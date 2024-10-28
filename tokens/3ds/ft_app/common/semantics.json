@@ -220,6 +220,10 @@
       "4xl": {
         "value": "{base.space.24px}",
         "type": "spacing"
+      },
+      "5xl": {
+        "value": "{base.space.32px}",
+        "type": "spacing"
       }
     },
     "color": {
