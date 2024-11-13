@@ -230,87 +230,87 @@
       "palette": {
         "neutral": {
           "10": {
-            "value": "#1e1f22",
+            "value": "#251435",
             "type": "color"
           },
           "15": {
-            "value": "#252628",
+            "value": "#321c47",
             "type": "color"
           },
           "20": {
-            "value": "#303032",
+            "value": "#3f245b",
             "type": "color"
           },
           "25": {
-            "value": "#3b3b3d",
+            "value": "#4d2c6f",
             "type": "color"
           },
           "30": {
-            "value": "#464749",
+            "value": "#5b3582",
             "type": "color"
           },
           "35": {
-            "value": "#515255",
+            "value": "#6a3e96",
             "type": "color"
           },
           "40": {
-            "value": "#5d5e62",
+            "value": "#7948aa",
             "type": "color"
           },
           "45": {
-            "value": "#696a6f",
+            "value": "#8456b1",
             "type": "color"
           },
           "50": {
-            "value": "#75777c",
+            "value": "#9065b8",
             "type": "color"
           },
           "55": {
-            "value": "#828489",
+            "value": "#9b74be",
             "type": "color"
           },
           "60": {
-            "value": "#8f9195",
+            "value": "#a683c5",
             "type": "color"
           },
           "65": {
-            "value": "#9c9ea2",
+            "value": "#b192cc",
             "type": "color"
           },
           "70": {
-            "value": "#aaabae",
+            "value": "#bca1d3",
             "type": "color"
           },
           "75": {
-            "value": "#b8b9bb",
+            "value": "#c7b0da",
             "type": "color"
           },
           "80": {
-            "value": "#c6c6c8",
+            "value": "#d2c0e1",
             "type": "color"
           },
           "85": {
-            "value": "#d4d4d6",
+            "value": "#ddd0e7",
             "type": "color"
           },
           "90": {
-            "value": "#e2e2e3",
+            "value": "#e8e0ee",
             "type": "color"
           },
           "92": {
-            "value": "#e8e8e9",
+            "value": "#ece6f1",
             "type": "color"
           },
           "95": {
-            "value": "#f0f1f1",
+            "value": "#f3eff6",
             "type": "color"
           },
           "97": {
-            "value": "#f6f6f7",
+            "value": "#f8f6f9",
             "type": "color"
           },
           "99": {
-            "value": "#fcfcfc",
+            "value": "#fcfcfd",
             "type": "color"
           }
         },
