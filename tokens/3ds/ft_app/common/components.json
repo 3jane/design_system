@@ -5139,7 +5139,7 @@
         "l=mainContainer": {
           "p=borderWidthLeft": {
             "type": "borderWidth",
-            "value": "{semantics.size.border.xl}"
+            "value": "{semantics.size.border.lg}"
           },
           "p=borderWidthRight": {
             "type": "borderWidth",
