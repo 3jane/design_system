@@ -229,6 +229,10 @@
     "color": {
       "palette": {
         "neutral": {
+          "5": {
+            "value": "#121212",
+            "type": "color"
+          },
           "10": {
             "value": "#1b1b1b",
             "type": "color"
@@ -315,6 +319,10 @@
           }
         },
         "brand": {
+          "5": {
+            "value": "#1a0d24",
+            "type": "color"
+          },
           "10": {
             "value": "#251435",
             "type": "color"
@@ -401,6 +409,10 @@
           }
         },
         "brand2": {
+          "5": {
+            "value": "#1d0e06",
+            "type": "color"
+          },
           "10": {
             "value": "#2d1408",
             "type": "color"

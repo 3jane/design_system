@@ -399,7 +399,7 @@
           },
           "a=1": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.10}"
+            "value": "{semantics.color.palette.neutral.5}"
           },
           "a=2": {
             "type": "color",
