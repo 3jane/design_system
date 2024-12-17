@@ -5,7 +5,7 @@
         "neutral": {
           "l=1": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.99}"
+            "value": "{semantics.color.palette.neutral.97}"
           },
           "l=2": {
             "type": "color",
@@ -399,11 +399,11 @@
           },
           "a=1": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.20}"
+            "value": "{semantics.color.palette.neutral.10}"
           },
           "a=2": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.30}"
+            "value": "{semantics.color.palette.neutral.25}"
           },
           "a=3": {
             "type": "color",

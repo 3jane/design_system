@@ -9138,7 +9138,7 @@
               "l=text": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.neutral.a=2}"
+                  "value": "{semantics.color.text.neutral.a=1}"
                 }
               }
             },
@@ -9188,7 +9188,7 @@
               "l=text": {
                 "p=color": {
                   "type": "color",
-                  "value": "{semantics.color.text.neutral.a=2}"
+                  "value": "{semantics.color.text.neutral.a=1}"
                 }
               }
             },
