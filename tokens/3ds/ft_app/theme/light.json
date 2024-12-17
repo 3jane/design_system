@@ -387,7 +387,7 @@
         "neutral": {
           "l=1": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.95}"
+            "value": "{semantics.color.palette.common.white}"
           },
           "l=2": {
             "type": "color",
@@ -413,7 +413,7 @@
         "neutralAlt": {
           "l=1": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.95}"
+            "value": "{semantics.color.palette.common.white}"
           },
           "l=2": {
             "type": "color",
