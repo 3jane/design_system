@@ -8273,11 +8273,11 @@
         "c=font": {
           "l=label": {
             "t=selected": {
-              "value": "{composites.font.label.md.medium}",
+              "value": "{composites.font.label.md-lg.medium}",
               "type": "typography"
             },
             "t=deselected": {
-              "value": "{composites.font.label.md.medium}",
+              "value": "{composites.font.label.md-lg.medium}",
               "type": "typography"
             }
           }
@@ -9331,11 +9331,11 @@
         "c=font": {
           "l=text": {
             "t=selected": {
-              "value": "{composites.font.label.md.medium}",
+              "value": "{composites.font.label.md-lg.medium}",
               "type": "typography"
             },
             "t=deselected": {
-              "value": "{composites.font.label.md.medium}",
+              "value": "{composites.font.label.md-lg.medium}",
               "type": "typography"
             }
           }

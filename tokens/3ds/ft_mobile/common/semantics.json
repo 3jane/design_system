@@ -1607,10 +1607,6 @@
             "value": "{base.font.size.14px}",
             "type": "fontSizes"
           },
-          "sm-md": {
-            "value": "{base.font.size.15px}",
-            "type": "fontSizes"
-          },
           "md": {
             "value": "{base.font.size.16px}",
             "type": "fontSizes"
@@ -1625,12 +1621,12 @@
             "value": "{base.font.size.12px}",
             "type": "fontSizes"
           },
-          "sm-md": {
-            "value": "{base.font.size.15px}",
-            "type": "fontSizes"
-          },
           "md": {
             "value": "{base.font.size.14px}",
+            "type": "fontSizes"
+          },
+          "md-lg": {
+            "value": "{base.font.size.15px}",
             "type": "fontSizes"
           },
           "lg": {
