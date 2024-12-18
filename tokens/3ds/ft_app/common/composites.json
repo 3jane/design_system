@@ -1134,6 +1134,50 @@
             "type": "typography"
           }
         },
+        "sm-md": {
+          "thin": {
+            "value": {
+              "fontFamily": "{semantics.font.family.body.default}",
+              "fontWeight": "{semantics.font.weight.body.sm}",
+              "fontSize": "{semantics.font.size.body.sm-md}",
+              "lineHeight": "{semantics.font.style.lineHeight.body.default}",
+              "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+              "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+              "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+              "textDecoration": "{semantics.font.style.decoration.none}",
+              "textCase": "{semantics.font.style.case.none}"
+            },
+            "type": "typography"
+          },
+          "medium": {
+            "value": {
+              "fontFamily": "{semantics.font.family.body.default}",
+              "fontWeight": "{semantics.font.weight.body.md}",
+              "fontSize": "{semantics.font.size.body.sm-md}",
+              "lineHeight": "{semantics.font.style.lineHeight.body.default}",
+              "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+              "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+              "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+              "textDecoration": "{semantics.font.style.decoration.none}",
+              "textCase": "{semantics.font.style.case.none}"
+            },
+            "type": "typography"
+          },
+          "thick": {
+            "value": {
+              "fontFamily": "{semantics.font.family.body.default}",
+              "fontWeight": "{semantics.font.weight.body.lg}",
+              "fontSize": "{semantics.font.size.body.sm-md}",
+              "lineHeight": "{semantics.font.style.lineHeight.body.default}",
+              "letterSpacing": "{semantics.font.style.letterSpacing.default}",
+              "paragraphSpacing": "{semantics.font.style.paragraphSpacing.none}",
+              "paragraphIndent": "{semantics.font.style.paragraphIndent.none}",
+              "textDecoration": "{semantics.font.style.decoration.none}",
+              "textCase": "{semantics.font.style.case.none}"
+            },
+            "type": "typography"
+          }
+        },
         "md": {
           "thin": {
             "value": {

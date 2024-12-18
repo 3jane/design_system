@@ -1607,6 +1607,10 @@
             "value": "{base.font.size.14px}",
             "type": "fontSizes"
           },
+          "sm-md": {
+            "value": "{base.font.size.15px}",
+            "type": "fontSizes"
+          },
           "md": {
             "value": "{base.font.size.16px}",
             "type": "fontSizes"
