@@ -2290,11 +2290,11 @@
               "p=color": {
                 "i=none": {
                   "type": "color",
-                  "value": "{semantics.color.text.neutral.a=3}"
+                  "value": "{semantics.color.text.neutral.a=4}"
                 },
                 "i=hover": {
                   "type": "color",
-                  "value": "{semantics.color.text.neutral.a=3}"
+                  "value": "{semantics.color.text.neutral.a=4}"
                 },
                 "i=focus": {
                   "type": "color",
@@ -2362,11 +2362,11 @@
               "p=color": {
                 "i=none": {
                   "type": "color",
-                  "value": "{semantics.color.text.neutral.a=3}"
+                  "value": "{semantics.color.text.neutral.a=4}"
                 },
                 "i=hover": {
                   "type": "color",
-                  "value": "{semantics.color.text.neutral.a=3}"
+                  "value": "{semantics.color.text.neutral.a=4}"
                 },
                 "i=focus": {
                   "type": "color",
