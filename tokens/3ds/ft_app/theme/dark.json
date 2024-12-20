@@ -255,7 +255,7 @@
           },
           "darkOpacity": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.20}, {semantics.color.palette.opacity.30})"
+            "value": "rgba({semantics.color.palette.neutral.20}, {semantics.color.palette.opacity.80})"
           }
         }
       },
