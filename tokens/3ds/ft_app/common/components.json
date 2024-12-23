@@ -2986,6 +2986,16 @@
     },
     "CodeBLock": {
       "c=color": {
+        "l=codeBlock": {
+          "p=fill": {
+            "type": "color",
+            "value": "{semantics.color.bg.neutral.l=1}"
+          },
+          "p=border": {
+            "type": "color",
+            "value": "{semantics.color.palette.common.none}"
+          }
+        },
         "l=controlPanel": {
           "p=fill": {
             "type": "color",
