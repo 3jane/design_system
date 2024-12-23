@@ -2989,7 +2989,7 @@
         "l=controlPanel": {
           "p=fill": {
             "type": "color",
-            "value": "{semantics.color.bg.neutral.l=3}"
+            "value": "{semantics.color.bg.neutral.o=3}"
           },
           "p=border": {
             "type": "color",
@@ -2999,7 +2999,7 @@
         "l=codeFrame": {
           "p=fill": {
             "type": "color",
-            "value": "{semantics.color.bg.neutral.l=2}"
+            "value": "{semantics.color.bg.neutral.o=2}"
           }
         },
         "l=code": {
