@@ -5185,7 +5185,7 @@
         "l=senderContainer": {
           "p=height": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.4xs}"
+            "value": "{semantics.size.sizing.md}"
           }
         }
       },
@@ -5212,12 +5212,6 @@
             "value": "{semantics.space.xl}"
           }
         },
-        "l=contentAndActionsContainer": {
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.2xs}"
-          }
-        },
         "l=actionsContainer": {
           "p=gap": {
             "type": "spacing",
@@ -5225,11 +5219,11 @@
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.xs}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.2xs}"
           },
           "p=paddingLeft": {
             "type": "spacing",
@@ -5243,7 +5237,7 @@
         "l=contentContainer": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.xs}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingTop": {
             "type": "spacing",
