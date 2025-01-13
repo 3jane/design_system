@@ -5013,6 +5013,10 @@
             "i=hover": {
               "type": "color",
               "value": "{semantics.color.palette.common.none}"
+            },
+            "i=selected": {
+              "type": "color",
+              "value": "{semantics.color.palette.common.none}"
             }
           },
           "p=border": {
@@ -5023,6 +5027,10 @@
             "i=hover": {
               "type": "color",
               "value": "{semantics.color.border.brand.a=1}"
+            },
+            "i=selected": {
+              "type": "color",
+              "value": "{semantics.color.palette.common.none}"
             }
           }
         },
@@ -5035,6 +5043,10 @@
             "i=hover": {
               "type": "color",
               "value": "{semantics.color.palette.common.none}"
+            },
+            "i=selected": {
+              "type": "color",
+              "value": "{semantics.color.palette.common.none}"
             }
           },
           "p=border": {
@@ -5043,6 +5055,10 @@
               "value": "{semantics.color.palette.common.none}"
             },
             "i=hover": {
+              "type": "color",
+              "value": "{semantics.color.palette.common.none}"
+            },
+            "i=selected": {
               "type": "color",
               "value": "{semantics.color.palette.common.none}"
             }
