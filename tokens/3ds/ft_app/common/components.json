@@ -5115,11 +5115,11 @@
         "l=mainContainer": {
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.md}"
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.md}"
           },
           "p=paddingLeft": {
             "type": "spacing",
