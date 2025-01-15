@@ -280,6 +280,10 @@
           "o=2": {
             "type": "color",
             "value": "rgba({semantics.color.palette.neutral.65}, {semantics.color.palette.opacity.25} )"
+          },
+          "o=3": {
+            "type": "color",
+            "value": "rgba({semantics.color.palette.neutral.65}, {semantics.color.palette.opacity.45} )"
           }
         },
         "brand": {
