@@ -1435,6 +1435,10 @@
             "value": "40%",
             "type": "color"
           },
+          "45": {
+            "value": "45%",
+            "type": "color"
+          },
           "50": {
             "value": "50%",
             "type": "color"

@@ -1159,8 +1159,8 @@
           },
           "p=borderRadius": {
             "t=square": {
-            "type": "borderRadius",
-            "value": "{semantics.size.radius.xs}"
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.xs}"
             },
             "t=circular": {
               "type": "borderRadius",

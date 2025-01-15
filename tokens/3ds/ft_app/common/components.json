@@ -1161,8 +1161,8 @@
           },
           "p=borderRadius": {
             "t=square": {
-            "type": "borderRadius",
-            "value": "{semantics.size.radius.xs}"
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.xs}"
             },
             "t=circular": {
               "type": "borderRadius",
@@ -4523,84 +4523,10 @@
     "Table": {
       "Cell": {
         "c=color": {
-            "l=container": {
-              "p=fill": {
-                  "type": "color",
-                  "value": "{semantics.color.palette.common.none}"
-              },
-              "p=border": {
-                "type": "color",
-                "value": "{semantics.color.palette.common.none}"
-              }
-            },
-            "l=label": {
-              "p=color": {
-                "type": "color",
-                "value": "{semantics.color.text.neutral.a=1}"
-              }
-            }
-        },
-        "c=size": {
-          "l=container": {
-            "p=height": {
-              "v=sm": {
-                "type": "sizing",
-                "value": "{semantics.size.sizing.xl}"
-              },
-              "v=lg": {
-                "type": "sizing",
-                "value": "{semantics.size.sizing.3xl}"
-              }
-            },
-            "p=borderWidthRight": {
-              "type": "borderWidth",
-              "value": "{semantics.size.border.none}"
-            }
-          }
-        },
-        "c=space": {
-          "l=container": {
-            "p=paddingLeft": {
-              "v=sm": {
-                "type": "spacing",
-                "value": "{semantics.space.xl}"
-              },
-              "v=lg": {
-                "type": "spacing",
-                "value": "{semantics.space.2xl}"
-              }
-            },
-            "p=paddingRight": {
-              "v=sm": {
-                "type": "spacing",
-                "value": "{semantics.space.md}"
-              },
-              "v=lg": {
-                "type": "spacing",
-                "value": "{semantics.space.md}"
-              }
-            }
-          }
-        },
-        "c=font": {
-          "l=label": {
-            "v=sm": {
-            "value": "{composites.font.label.md.thin}",
-            "type": "typography"
-            },
-            "v=lg": {
-              "value": "{composites.font.label.lg.thin}",
-              "type": "typography"
-            }
-          }
-        }
-      },
-      "Head": {
-        "c=color": {
           "l=container": {
             "p=fill": {
-                "type": "color",
-                "value": "{semantics.color.palette.common.none}"
+              "type": "color",
+              "value": "{semantics.color.palette.common.none}"
             },
             "p=border": {
               "type": "color",
@@ -4659,8 +4585,82 @@
         "c=font": {
           "l=label": {
             "v=sm": {
-            "value": "{composites.font.label.md.thick}",
-            "type": "typography"
+              "value": "{composites.font.label.md.thin}",
+              "type": "typography"
+            },
+            "v=lg": {
+              "value": "{composites.font.label.lg.thin}",
+              "type": "typography"
+            }
+          }
+        }
+      },
+      "Head": {
+        "c=color": {
+          "l=container": {
+            "p=fill": {
+              "type": "color",
+              "value": "{semantics.color.palette.common.none}"
+            },
+            "p=border": {
+              "type": "color",
+              "value": "{semantics.color.palette.common.none}"
+            }
+          },
+          "l=label": {
+            "p=color": {
+              "type": "color",
+              "value": "{semantics.color.text.neutral.a=1}"
+            }
+          }
+        },
+        "c=size": {
+          "l=container": {
+            "p=height": {
+              "v=sm": {
+                "type": "sizing",
+                "value": "{semantics.size.sizing.xl}"
+              },
+              "v=lg": {
+                "type": "sizing",
+                "value": "{semantics.size.sizing.3xl}"
+              }
+            },
+            "p=borderWidthRight": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.none}"
+            }
+          }
+        },
+        "c=space": {
+          "l=container": {
+            "p=paddingLeft": {
+              "v=sm": {
+                "type": "spacing",
+                "value": "{semantics.space.xl}"
+              },
+              "v=lg": {
+                "type": "spacing",
+                "value": "{semantics.space.2xl}"
+              }
+            },
+            "p=paddingRight": {
+              "v=sm": {
+                "type": "spacing",
+                "value": "{semantics.space.md}"
+              },
+              "v=lg": {
+                "type": "spacing",
+                "value": "{semantics.space.md}"
+              }
+            }
+          }
+        },
+        "c=font": {
+          "l=label": {
+            "v=sm": {
+              "value": "{composites.font.label.md.thick}",
+              "type": "typography"
             },
             "v=lg": {
               "value": "{composites.font.label.lg.thick}",
