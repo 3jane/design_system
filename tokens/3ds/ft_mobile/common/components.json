@@ -5249,33 +5249,21 @@
             "type": "borderRadius",
             "value": "{semantics.size.radius.xl}"
           }
-        },
-        "l=titleContainer": {
-          "p=height": {
-            "type": "sizing",
-            "value": "{semantics.size.sizing.xs}"
-          }
-        },
-        "l=buttonContainer": {
-          "p=height": {
-            "type": "sizing",
-            "value": "{semantics.size.sizing.xs}"
-          }
         }
       },
       "c=space": {
         "l=mainContainer": {
           "p=paddingVertical": {
             "type": "spacing",
-            "value": "{semantics.space.3xl}"
+            "value": "{semantics.space.2xl}"
           },
           "p=paddingHorizontal": {
             "type": "spacing",
-            "value": "{semantics.space.3xl}"
+            "value": "{semantics.space.2xl}"
           },
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.xl}"
+            "value": "{semantics.space.md}"
           }
         },
         "l=titleContainer": {
