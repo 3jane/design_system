@@ -5475,19 +5475,19 @@
           },
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.xs}"
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.2xs}"
+            "value": "{semantics.space.xs}"
           },
           "p=paddingLeft": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.xs}"
           },
           "p=paddingRight": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.xs}"
           }
         },
         "l=contentContainer": {
