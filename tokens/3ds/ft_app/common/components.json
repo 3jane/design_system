@@ -5173,7 +5173,7 @@
         "l=textAndButtonsContainer": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.md}"
+            "value": "{semantics.space.2xs}"
           }
         }
       },
