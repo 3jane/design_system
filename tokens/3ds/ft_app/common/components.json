@@ -5161,7 +5161,7 @@
         "l=textContainer": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.2xs}"
+            "value": "{semantics.space.none}"
           }
         },
         "l=buttonsContainer": {
