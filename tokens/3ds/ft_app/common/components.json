@@ -4834,6 +4834,18 @@
             }
           }
         },
+        "c=space": {
+          "l=container": {
+            "p=marginTop": {
+              "type": "spacing",
+              "value": "{semantics.space.xl}"
+            },
+            "p=marginBottom": {
+              "type": "spacing",
+              "value": "{semantics.space.xl}"
+            }
+          }
+        },
         "c=shadow": {
           "l=container": {
             "value": "{composites.noShadow}",

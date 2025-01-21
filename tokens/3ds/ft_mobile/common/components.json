@@ -4934,17 +4934,13 @@
         },
         "c=space": {
           "l=container": {
-            "p=paddingVertical": {
+            "p=marginTop": {
               "type": "spacing",
-              "value": "{semantics.space.none}"
+              "value": "{semantics.space.xl}"
             },
-            "p=paddingHorizontal": {
+            "p=marginBottom": {
               "type": "spacing",
-              "value": "{semantics.space.none}"
-            },
-            "p=gap": {
-              "type": "spacing",
-              "value": "{semantics.space.none}"
+              "value": "{semantics.space.xl}"
             }
           }
         },
