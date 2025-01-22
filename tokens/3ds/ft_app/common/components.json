@@ -4838,11 +4838,11 @@
           "l=container": {
             "p=marginTop": {
               "type": "spacing",
-              "value": "{semantics.space.xl}"
+              "value": "{semantics.space.lg}"
             },
             "p=marginBottom": {
               "type": "spacing",
-              "value": "{semantics.space.xl}"
+              "value": "{semantics.space.lg}"
             }
           }
         },
