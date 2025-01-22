@@ -5400,6 +5400,16 @@
             "value": "{semantics.color.text.neutral.a=1}"
           }
         },
+        "l=actionsContainer": {
+          "p=fill": {
+            "type": "color",
+            "value": "{semantics.color.bg.neutral.tooltip}"
+          },
+          "p=border": {
+            "type": "color",
+            "value": "{semantics.color.border.neutral.o=1}"
+          }
+        },
         "l=body": {
           "p=color": {
             "type": "color",
