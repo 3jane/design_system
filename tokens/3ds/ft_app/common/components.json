@@ -5465,6 +5465,16 @@
             "type": "sizing",
             "value": "{semantics.size.sizing.md}"
           }
+        },
+        "l=actionsContainer": {
+          "p=borderWidth": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.sm}"
+          },
+          "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.lg}"
+          }
         }
       },
       "c=space": {
