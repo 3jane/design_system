@@ -5543,11 +5543,11 @@
         "l=timeIndicatorContainer": {
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.3xs}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.3xs}"
           }
         },
         "l=attachmentContainer": {
