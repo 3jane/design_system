@@ -5583,6 +5583,10 @@
         "l=contentContainer": {
           "value": "{composites.noShadow}",
           "type": "boxShadow"
+        },
+        "l=actionsContainer": {
+          "value": "{composites.dropShadow.xs}",
+          "type": "boxShadow"
         }
       }
     },
