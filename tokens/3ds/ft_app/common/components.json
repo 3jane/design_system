@@ -4573,11 +4573,11 @@
             "p=paddingRight": {
               "v=sm": {
                 "type": "spacing",
-                "value": "{semantics.space.md}"
+                "value": "{semantics.space.xl}"
               },
               "v=lg": {
                 "type": "spacing",
-                "value": "{semantics.space.md}"
+                "value": "{semantics.space.2xl}"
               }
             }
           }
@@ -4647,11 +4647,11 @@
             "p=paddingRight": {
               "v=sm": {
                 "type": "spacing",
-                "value": "{semantics.space.md}"
+                "value": "{semantics.space.xl}"
               },
               "v=lg": {
                 "type": "spacing",
-                "value": "{semantics.space.md}"
+                "value": "{semantics.space.2xl}"
               }
             }
           }
