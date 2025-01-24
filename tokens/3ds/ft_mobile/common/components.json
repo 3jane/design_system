@@ -4983,7 +4983,7 @@
           },
           "p=maxWidth": {
             "type": "sizing",
-            "value": "300"
+            "value": "{base.size.300px}"
           }
         }
       },

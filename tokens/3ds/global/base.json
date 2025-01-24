@@ -165,6 +165,10 @@
         "value": "288",
         "type": "sizing"
       },
+      "300px": {
+        "value": "300",
+        "type": "sizing"
+      },
       "320px": {
         "value": "320",
         "type": "sizing"
