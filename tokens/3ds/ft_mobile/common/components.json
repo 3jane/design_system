@@ -4979,7 +4979,7 @@
           },
           "p=borderRadius": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.lg}"
+            "value": "{semantics.size.radius.md}"
           },
           "p=maxWidth": {
             "type": "sizing",
