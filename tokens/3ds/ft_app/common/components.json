@@ -4844,6 +4844,20 @@
               "type": "spacing",
               "value": "{semantics.space.xl}"
             }
+          },
+          "l=actionsContainer": {
+            "p=paddingVertical": {
+              "type": "spacing",
+              "value": "{semantics.space.xs}"
+            },
+            "p=paddingHorizontal": {
+              "type": "spacing",
+              "value": "{semantics.space.xs}"
+            },
+            "p=gap": {
+              "type": "spacing",
+              "value": "{semantics.space.xs}"
+            }
           }
         },
         "c=shadow": {
