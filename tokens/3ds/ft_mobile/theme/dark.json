@@ -37,19 +37,23 @@
           },
           "o=1": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.15}, {semantics.color.palette.opacity.80})"
+            "value": "rgba({semantics.color.palette.neutral.20}, {semantics.color.palette.opacity.60})"
           },
           "o=2": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.3} )"
+            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.2} )"
           },
           "o=3": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.3})"
+            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.4} )"
           },
           "o=4": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.6})"
+            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.8})"
+          },
+          "o=5": {
+            "type": "color",
+            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.10})"
           },
           "tooltip": {
             "type": "color",

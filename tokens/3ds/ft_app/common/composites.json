@@ -212,7 +212,7 @@
           "y": "0",
           "blur": "0",
           "spread": "4",
-          "color": "{semantics.color.bg.neutral.o=5}",
+          "color": "{semantics.color.bg.neutral.o=4}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -354,7 +354,7 @@
               "y": "0",
               "blur": "0",
               "spread": "4",
-              "color": "{semantics.color.bg.neutral.o=5}",
+              "color": "{semantics.color.bg.neutral.o=4}",
               "type": "dropShadow"
             }
           ],
@@ -383,7 +383,7 @@
               "y": "0",
               "blur": "0",
               "spread": "4",
-              "color": "{semantics.color.bg.neutral.o=5}",
+              "color": "{semantics.color.bg.neutral.o=4}",
               "type": "dropShadow"
             }
           ],
@@ -412,7 +412,7 @@
               "y": "0",
               "blur": "0",
               "spread": "4",
-              "color": "{semantics.color.bg.neutral.o=5}",
+              "color": "{semantics.color.bg.neutral.o=4}",
               "type": "dropShadow"
             }
           ],
@@ -441,7 +441,7 @@
               "y": "0",
               "blur": "0",
               "spread": "4",
-              "color": "{semantics.color.bg.neutral.o=5}",
+              "color": "{semantics.color.bg.neutral.o=4}",
               "type": "dropShadow"
             }
           ],
@@ -667,7 +667,7 @@
               "y": "0",
               "blur": "0",
               "spread": "4",
-              "color": "{semantics.color.bg.neutral.o=5}",
+              "color": "{semantics.color.bg.neutral.o=4}",
               "type": "dropShadow"
             }
           ],
@@ -696,7 +696,7 @@
               "y": "0",
               "blur": "0",
               "spread": "4",
-              "color": "{semantics.color.bg.neutral.o=5}",
+              "color": "{semantics.color.bg.neutral.o=4}",
               "type": "dropShadow"
             }
           ],
@@ -725,7 +725,7 @@
               "y": "0",
               "blur": "0",
               "spread": "4",
-              "color": "{semantics.color.bg.neutral.o=5}",
+              "color": "{semantics.color.bg.neutral.o=4}",
               "type": "dropShadow"
             }
           ],
