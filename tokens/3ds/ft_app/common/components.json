@@ -5356,11 +5356,11 @@
             },
             "i=hover": {
               "type": "color",
-              "value": "{semantics.color.palette.common.none}"
+              "value": "{semantics.color.bg.neutral.o=2}"
             },
             "i=selected": {
               "type": "color",
-              "value": "{semantics.color.palette.common.none}"
+              "value": "{semantics.color.bg.brand.o=1}"
             }
           },
           "p=border": {
@@ -5370,7 +5370,7 @@
             },
             "i=hover": {
               "type": "color",
-              "value": "{semantics.color.border.brand.a=1}"
+              "value": "{semantics.color.palette.common.none}"
             },
             "i=selected": {
               "type": "color",
