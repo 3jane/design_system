@@ -9,11 +9,11 @@
           },
           "l=2": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.10}"
+            "value": "{semantics.color.palette.neutral.12}"
           },
           "l=3": {
             "type": "color",
-            "value": "{semantics.color.palette.common.black}"
+            "value": "{semantics.color.palette.neutral.10}"
           },
           "l=4": {
             "type": "color",
