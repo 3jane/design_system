@@ -49,7 +49,7 @@
           },
           "o=4": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.common.black}, {semantics.color.palette.opacity.6})"
+            "value": "rgba({semantics.color.palette.common.black}, {semantics.color.palette.opacity.6} )"
           },
           "o=5": {
             "type": "color",
