@@ -5370,7 +5370,7 @@
             },
             "i=hover": {
               "type": "color",
-              "value": "{semantics.color.bg.neutral.o=2}"
+              "value": "{semantics.color.bg.brand.o=0.5}"
             },
             "i=selected": {
               "type": "color",

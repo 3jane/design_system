@@ -77,6 +77,10 @@
             "type": "color",
             "value": "{semantics.color.palette.brand.35}"
           },
+          "o=0.5": {
+            "type": "color",
+            "value": "rgba( {semantics.color.palette.brand.70} , {semantics.color.palette.opacity.3} )"
+          },
           "o=1": {
             "type": "color",
             "value": "rgba( {semantics.color.palette.brand.70} , {semantics.color.palette.opacity.15} )"
