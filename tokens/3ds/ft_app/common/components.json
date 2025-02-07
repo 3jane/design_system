@@ -4907,7 +4907,7 @@
         "l=container": {
           "p=paddingHorizontal": {
             "type": "spacing",
-            "value": "{semantics.space.md}"
+            "value": "{semantics.space.xl}"
           },
           "p=paddingVertical": {
             "type": "spacing",
@@ -4915,21 +4915,7 @@
           },
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.xs}"
-          }
-        },
-        "l=labelContainer": {
-          "p=paddingHorizontal": {
-            "type": "spacing",
-            "value": "{semantics.space.xs}"
-          },
-          "p=paddingVertical": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          },
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.md}"
           }
         }
       },

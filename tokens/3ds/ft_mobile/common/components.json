@@ -5001,20 +5001,6 @@
             "type": "spacing",
             "value": "{semantics.space.xs}"
           }
-        },
-        "l=labelContainer": {
-          "p=paddingHorizontal": {
-            "type": "spacing",
-            "value": "{semantics.space.xs}"
-          },
-          "p=paddingVertical": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          },
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          }
         }
       },
       "c=font": {
