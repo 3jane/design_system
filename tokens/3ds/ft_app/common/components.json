@@ -4915,6 +4915,12 @@
           },
           "p=gap": {
             "type": "spacing",
+            "value": "{semantics.space.xs}"
+          }
+        },
+        "l=tooltipTopContainer": {
+          "p=gap": {
+            "type": "spacing",
             "value": "{semantics.space.md}"
           }
         }
