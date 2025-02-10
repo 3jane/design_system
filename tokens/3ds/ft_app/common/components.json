@@ -8381,11 +8381,11 @@
         "c=font": {
           "l=text": {
             "t=selected": {
-              "value": "{composites.font.label.md-lg.medium}",
+              "value": "{composites.font.label.lg.medium}",
               "type": "typography"
             },
             "t=deselected": {
-              "value": "{composites.font.label.md-lg.medium}",
+              "value": "{composites.font.label.lg.medium}",
               "type": "typography"
             }
           }
@@ -9707,11 +9707,11 @@
         "c=font": {
           "l=text": {
             "t=selected": {
-              "value": "{composites.font.label.md-lg.medium}",
+              "value": "{composites.font.label.lg.medium}",
               "type": "typography"
             },
             "t=deselected": {
-              "value": "{composites.font.label.md-lg.medium}",
+              "value": "{composites.font.label.lg.medium}",
               "type": "typography"
             }
           }
