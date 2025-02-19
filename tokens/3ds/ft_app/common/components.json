@@ -2507,11 +2507,11 @@
         "l=container": {
           "p=height": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.lg}"
+            "value": "{semantics.size.sizing.md}"
           },
           "p=width": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.5xl}"
+            "value": "{semantics.size.sizing.4xl}"
           },
           "p=borderWidth": {
             "t=checked": {
@@ -2569,7 +2569,7 @@
         "l=container": {
           "p=paddingHorizontal": {
             "type": "spacing",
-            "value": "{semantics.space.sm}"
+            "value": "{semantics.space.xs}"
           }
         }
       }
