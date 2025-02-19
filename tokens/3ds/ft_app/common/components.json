@@ -729,15 +729,15 @@
         "t=elevated": {
           "l=container": {
             "i=none": {
-              "value": "{composites.dropShadow.xs}",
+              "value": "{composites.dropShadow.down.xs}",
               "type": "boxShadow"
             },
             "i=hover": {
-              "value": "{composites.dropShadow.sm}",
+              "value": "{composites.dropShadow.down.sm}",
               "type": "boxShadow"
             },
             "i=active": {
-              "value": "{composites.dropShadow.xs}",
+              "value": "{composites.dropShadow.down.xs}",
               "type": "boxShadow"
             },
             "i=focus": {
@@ -1713,15 +1713,15 @@
           },
           "t=outlined": {
             "i=none": {
-              "value": "{composites.dropShadow.xs}",
+              "value": "{composites.dropShadow.down.xs}",
               "type": "boxShadow"
             },
             "i=hover": {
-              "value": "{composites.dropShadow.sm}",
+              "value": "{composites.dropShadow.down.sm}",
               "type": "boxShadow"
             },
             "i=active": {
-              "value": "{composites.dropShadow.xs}",
+              "value": "{composites.dropShadow.down.xs}",
               "type": "boxShadow"
             },
             "i=focus": {
@@ -2190,7 +2190,7 @@
         },
         "c=shadow": {
           "l=thumb": {
-            "value": "{composites.dropShadow.sm}",
+            "value": "{composites.dropShadow.down.sm}",
             "type": "boxShadow"
           }
         }
@@ -2268,7 +2268,7 @@
         },
         "c=shadow": {
           "l=mainContainer": {
-            "value": "{composites.dropShadow.sm}",
+            "value": "{composites.dropShadow.down.sm}",
             "type": "boxShadow"
           }
         }
@@ -4933,7 +4933,7 @@
       },
       "c=shadow": {
         "l=container": {
-          "value": "{composites.dropShadow.xs}",
+          "value": "{composites.dropShadow.down.xs}",
           "type": "boxShadow"
         }
       }
@@ -5221,7 +5221,7 @@
       },
       "c=shadow": {
         "l=mainContainer": {
-          "value": "{composites.dropShadow.sm}",
+          "value": "{composites.dropShadow.down.sm}",
           "type": "boxShadow"
         }
       },
@@ -5341,7 +5341,7 @@
       },
       "c=shadow": {
         "l=mainContainer": {
-          "value": "{composites.dropShadow.lg}",
+          "value": "{composites.dropShadow.down.lg}",
           "type": "boxShadow"
         }
       },
@@ -5615,7 +5615,7 @@
           "type": "boxShadow"
         },
         "l=actionsContainer": {
-          "value": "{composites.dropShadow.xs}",
+          "value": "{composites.dropShadow.down.xs}",
           "type": "boxShadow"
         }
       }
@@ -5894,7 +5894,7 @@
         },
         "c=shadow": {
           "l=mainContainer": {
-            "value": "{composites.dropShadow.xs}",
+            "value": "{composites.dropShadow.down.xs}",
             "type": "boxShadow"
           }
         }
@@ -6596,7 +6596,7 @@
         }
       },
       "c=shadow": {
-        "value": "{composites.dropShadow.lg}",
+        "value": "{composites.dropShadow.down.lg}",
         "type": "boxShadow"
       }
     },
@@ -6640,7 +6640,7 @@
         }
       },
       "c=shadow": {
-        "value": "{composites.dropShadow.lg}",
+        "value": "{composites.dropShadow.down.lg}",
         "type": "boxShadow"
       }
     },
@@ -7040,7 +7040,7 @@
         },
         "c=shadow": {
           "l=container": {
-            "value": "{composites.dropShadow.xs}",
+            "value": "{composites.dropShadow.down.xs}",
             "type": "boxShadow"
           }
         },
@@ -7464,7 +7464,7 @@
         },
         "c=shadow": {
           "l=container": {
-            "value": "{composites.dropShadow.xs}",
+            "value": "{composites.dropShadow.down.xs}",
             "type": "boxShadow"
           }
         },
@@ -8904,11 +8904,11 @@
           "t=selected": {
             "l=container": {
               "i=none": {
-                "value": "{composites.dropShadow.sm}",
+                "value": "{composites.dropShadow.down.sm}",
                 "type": "boxShadow"
               },
               "i=hover": {
-                "value": "{composites.dropShadow.sm}",
+                "value": "{composites.dropShadow.down.sm}",
                 "type": "boxShadow"
               },
               "i=focus": {
