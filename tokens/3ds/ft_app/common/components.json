@@ -9660,7 +9660,7 @@
           "l=container": {
             "p=minHeight": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.lg}"
+              "value": "{semantics.size.sizing.xl}"
             },
             "p=borderRadius": {
               "type": "borderRadius",
