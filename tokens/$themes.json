@@ -14709,5 +14709,31 @@
       "semantics.color.bg.neutral.o=5": "b35c926e790db7a151d8192dedf4b2b1098b0823",
       "semantics.color.bg.neutral.o=4": "98fa987aa0c8750c84c8d2417c11d2f2a5f8eeb7"
     }
+  },
+  {
+    "id": "30c3300b16d384357743eb1c4ed5cfb92114cddd",
+    "name": "light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "3ds/ft_landing/common/components": "enabled",
+      "3ds/ft_landing/common/composites": "enabled",
+      "3ds/ft_landing/common/semantics": "enabled",
+      "3ds/ft_landing/theme/light": "enabled",
+      "3ds/global/base": "source"
+    },
+    "group": "landing"
+  },
+  {
+    "id": "6dcc063aad8211c5dd45786047208c4da492c873",
+    "name": "dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "3ds/global/base": "source",
+      "3ds/ft_landing/common/components": "enabled",
+      "3ds/ft_landing/common/composites": "enabled",
+      "3ds/ft_landing/common/semantics": "enabled",
+      "3ds/ft_landing/theme/dark": "enabled"
+    },
+    "group": "landing"
   }
 ]
