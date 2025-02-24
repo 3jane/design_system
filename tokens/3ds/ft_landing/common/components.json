@@ -5046,11 +5046,11 @@
       "c=font": {
         "t=thin": {
           "v=display1": {
-            "value": "{composites.font.display.md.medium}",
+            "value": "{composites.font.display.lg.medium}",
             "type": "typography"
           },
           "v=display2": {
-            "value": "{composites.font.display.sm.medium}",
+            "value": "{composites.font.display.md.medium}",
             "type": "typography"
           },
           "v=title1": {
@@ -5076,11 +5076,11 @@
         },
         "t=thick": {
           "v=display1": {
-            "value": "{composites.font.display.md.thick}",
+            "value": "{composites.font.display.lg.thick}",
             "type": "typography"
           },
           "v=display2": {
-            "value": "{composites.font.display.sm.thick}",
+            "value": "{composites.font.display.md.thick}",
             "type": "typography"
           },
           "v=title1": {

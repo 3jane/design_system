@@ -1588,7 +1588,7 @@
       "size": {
         "display": {
           "sm": {
-            "value": "{base.font.size.36px}",
+            "value": "{base.font.size.40px}",
             "type": "fontSizes"
           },
           "md": {
@@ -1602,47 +1602,47 @@
         },
         "title": {
           "sm": {
-            "value": "{base.font.size.20px}",
+            "value": "{base.font.size.28px}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{base.font.size.24px}",
+            "value": "{base.font.size.32px}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{base.font.size.28px}",
+            "value": "{base.font.size.36px}",
             "type": "fontSizes"
           }
         },
         "body": {
           "sm": {
-            "value": "{base.font.size.14px}",
-            "type": "fontSizes"
-          },
-          "md": {
             "value": "{base.font.size.16px}",
             "type": "fontSizes"
           },
+          "md": {
+            "value": "{base.font.size.20px}",
+            "type": "fontSizes"
+          },
           "lg": {
-            "value": "{base.font.size.18px}",
+            "value": "{base.font.size.22px}",
             "type": "fontSizes"
           }
         },
         "label": {
           "sm": {
-            "value": "{base.font.size.12px}",
-            "type": "fontSizes"
-          },
-          "md": {
             "value": "{base.font.size.14px}",
             "type": "fontSizes"
           },
+          "md": {
+            "value": "{base.font.size.16px}",
+            "type": "fontSizes"
+          },
           "md-lg": {
-            "value": "{base.font.size.15px}",
+            "value": "{base.font.size.18px}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{base.font.size.16px}",
+            "value": "{base.font.size.20px}",
             "type": "fontSizes"
           }
         }
