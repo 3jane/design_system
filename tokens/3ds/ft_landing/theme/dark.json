@@ -63,7 +63,7 @@
         "brand": {
           "l=0,5": {
             "type": "color",
-            "value": "{semantics.color.palette.brand.10}"
+            "value": "{semantics.color.palette.neutral.10}"
           },
           "l=1": {
             "type": "color",
