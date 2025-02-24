@@ -509,11 +509,11 @@
           },
           "a=1": {
             "type": "color",
-            "value": "{semantics.color.palette.brand2.55}"
+            "value": "{semantics.color.palette.brand2.45}"
           },
           "a=2": {
             "type": "color",
-            "value": "{semantics.color.palette.brand2.75}"
+            "value": "{semantics.color.palette.brand2.65}"
           }
         },
         "brand3": {
@@ -527,11 +527,11 @@
           },
           "a=1": {
             "type": "color",
-            "value": "{semantics.color.palette.brand3.55}"
+            "value": "{semantics.color.palette.brand3.45}"
           },
           "a=2": {
             "type": "color",
-            "value": "{semantics.color.palette.brand3.75}"
+            "value": "{semantics.color.palette.brand3.65}"
           }
         },
         "error": {
