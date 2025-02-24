@@ -4116,6 +4116,24 @@
                 "type": "color"
               }
             },
+            "v=brand3": {
+              "t=primary": {
+                "value": "{semantics.color.text.brand3.a=1}",
+                "type": "color"
+              },
+              "t=secondary": {
+                "value": "{semantics.color.text.brand3.a=2}",
+                "type": "color"
+              },
+              "t=tertiary": {
+                "value": "{semantics.color.text.brand3.a=2}",
+                "type": "color"
+              },
+              "t=quaternary": {
+                "value": "{semantics.color.text.brand3.a=2}",
+                "type": "color"
+              }
+            },
             "v=error": {
               "t=primary": {
                 "value": "{semantics.color.text.error.a=1}",
