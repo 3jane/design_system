@@ -3874,7 +3874,7 @@
           "p=height": {
             "v=sm": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.md}"
+              "value": "{semantics.size.sizing.lg}"
             },
             "v=md": {
               "type": "sizing",
@@ -3888,11 +3888,15 @@
             },
             "v=md": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.lg}"
+              "value": "{semantics.size.radius.md}"
             }
           },
           "p=borderWidth": {
             "t=filled": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.none}"
+            },
+            "t=tonal": {
               "type": "borderWidth",
               "value": "{semantics.size.border.none}"
             },
@@ -3976,7 +3980,7 @@
       "c=font": {
         "l=label": {
           "v=sm": {
-            "value": "{composites.font.label.md.thick}",
+            "value": "{composites.font.label.sm.thick}",
             "type": "typography"
           },
           "v=md": {
