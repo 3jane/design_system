@@ -8605,32 +8605,68 @@
         "c=size": {
           "l=container": {
             "p=minHeight": {
+              "v=sm": {
               "type": "sizing",
               "value": "{semantics.size.sizing.2xl}"
+              },
+              "v=lg": {
+                "type": "sizing",
+                "value": "{semantics.size.sizing.3xl}"
+                }
             },
             "p=borderRadius": {
+              "v=sm": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.md}"
+              },
+              "v=lg": {
+                "type": "borderRadius",
+                "value": "{semantics.size.radius.md}"
+              }
             },
             "p=borderWidth": {
+              "v=sm": {
               "type": "borderWidth",
               "value": "{semantics.size.border.sm}"
+              },
+              "v=lg": {
+                "type": "borderWidth",
+                "value": "{semantics.size.border.sm}"
+              }
             }
           }
         },
         "c=space": {
           "l=container": {
             "p=paddingHorizontal": {
+              "v=sm": {
               "type": "spacing",
               "value": "{semantics.space.lg}"
+              },
+              "v=lg": {
+                "type": "spacing",
+                "value": "{semantics.space.xl}"
+              }
             },
             "p=paddingVertical": {
+              "v=sm": {
               "type": "spacing",
               "value": "{semantics.space.sm}"
+              },
+              "v=lg": {
+                "type": "spacing",
+                "value": "{semantics.space.sm}"
+              }
             },
             "p=gap": {
+              "v=sm": {
               "type": "spacing",
               "value": "{semantics.space.sm}"
+              },
+              "v=lg": {
+                "type": "spacing",
+                "value": "{semantics.space.sm}"
+              }
             }
           }
         },
@@ -8653,12 +8689,24 @@
         "c=font": {
           "l=text": {
             "t=selected": {
-              "value": "{composites.font.label.lg.medium}",
+              "v=sm": {
+              "value": "{composites.font.label.md.medium}",
               "type": "typography"
+              },
+              "v=lg": {
+                "value": "{composites.font.label.lg.medium}",
+                "type": "typography"
+              }
             },
             "t=deselected": {
-              "value": "{composites.font.label.lg.medium}",
+              "v=sm": {
+              "value": "{composites.font.label.md.medium}",
               "type": "typography"
+              },
+              "v=lg": {
+                "value": "{composites.font.label.lg.medium}",
+                "type": "typography"
+              }
             }
           }
         }
