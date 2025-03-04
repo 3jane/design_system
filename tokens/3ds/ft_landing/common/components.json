@@ -2813,37 +2813,37 @@
         "l=inputContainer": {
           "v=neutral": {
             "i=none": {
-              "value": "{composites.noShadow}",
+              "value": "{composites.dropShadow.down.xs}",
               "type": "boxShadow"
             },
             "i=hover": {
-              "value": "{composites.noShadow}",
+              "value": "{composites.dropShadow.down.xs}",
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.brand}",
+              "value": "{composites.compositeFocusShadow.drop+ring.xs+brand}",
               "type": "boxShadow"
             },
             "i=entered": {
-              "value": "{composites.noShadow}",
+              "value": "{composites.dropShadow.down.xs}",
               "type": "boxShadow"
             }
           },
           "v=error": {
             "i=none": {
-              "value": "{composites.noShadow}",
+              "value": "{composites.dropShadow.down.xs}",
               "type": "boxShadow"
             },
             "i=hover": {
-              "value": "{composites.noShadow}",
+              "value": "{composites.dropShadow.down.xs}",
               "type": "boxShadow"
             },
             "i=focus": {
-              "value": "{composites.focusRing.error}",
+              "value": "{composites.compositeFocusShadow.drop+ring.xs+error}",
               "type": "boxShadow"
             },
             "i=entered": {
-              "value": "{composites.noShadow}",
+              "value": "{composites.dropShadow.down.xs}",
               "type": "boxShadow"
             }
           }
