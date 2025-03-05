@@ -5713,6 +5713,24 @@
             "type": "color",
             "value": "{semantics.color.text.neutral.a=3}"
           }
+        },
+        "l=process": {
+          "p=color": {
+            "type": "color",
+            "value": "{semantics.color.text.neutral.a=3}"
+          }
+        },
+        "l=reasoningText": {
+          "p=color": {
+            "type": "color",
+            "value": "{semantics.color.text.neutral.a=3}"
+          }
+        },
+        "l=reasoningLine": {
+          "p=color": {
+            "type": "color",
+            "value": "{semantics.color.border.neutral.o=2}"
+          }
         }
       },
       "c=size": {
@@ -5766,6 +5784,22 @@
           "p=borderRadius": {
             "type": "borderRadius",
             "value": "{semantics.size.radius.lg}"
+          }
+        },
+        "l=reasoningLine": {
+          "p=width": {
+            "type": "sizing",
+            "value": "2"
+          },
+          "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.full}"
+          }
+        },
+        "l=reasoningLineContainer": {
+          "p=width": {
+            "type": "sizing",
+            "value": "{semantics.size.sizing.xs}"
           }
         }
       },
@@ -5861,6 +5895,32 @@
             "type": "spacing",
             "value": "{semantics.space.none}"
           }
+        },
+        "l=processContainer": {
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.sm}"
+          }
+        },
+        "l=reasoningLineContainer": {
+          "p=paddingTop": {
+            "type": "spacing",
+            "value": "{semantics.space.sm}"
+          },
+          "p=paddingBottom": {
+            "type": "spacing",
+            "value": "{semantics.space.sm}"
+          }
+        },
+        "l=reasoningContainer": {
+          "p=paddingVertical": {
+            "type": "spacing",
+            "value": "{semantics.space.xs}"
+          },
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.sm}"
+          }
         }
       },
       "c=font": {
@@ -5874,6 +5934,14 @@
         },
         "l=timeIndicator": {
           "value": "{composites.font.body.sm.thin}",
+          "type": "typography"
+        },
+        "l=process": {
+          "value": "{composites.font.body.md.thin}",
+          "type": "typography"
+        },
+        "l=reasoningText": {
+          "value": "{composites.font.body.md.thin}",
           "type": "typography"
         }
       },
