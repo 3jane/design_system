@@ -853,15 +853,15 @@
               "type": "typography"
             },
             "v=sm": {
-              "value": "{composites.font.label.md.thick}",
+              "value": "{composites.font.label.sm.thick}",
               "type": "typography"
             },
             "v=md": {
-              "value": "{composites.font.label.lg.thick}",
+              "value": "{composites.font.label.md.thick}",
               "type": "typography"
             },
             "v=lg": {
-              "value": "{composites.font.label.lg.thick}",
+              "value": "{composites.font.label.md.thick}",
               "type": "typography"
             }
           }
