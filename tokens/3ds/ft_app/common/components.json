@@ -6888,15 +6888,15 @@
                   "p=fill": {
                     "i=none": {
                       "type": "color",
-                      "value": "{semantics.color.bg.neutral.o=4}"
+                      "value": "{semantics.color.bg.brand.o=1}"
                     },
                     "i=hover": {
                       "type": "color",
-                      "value": "{semantics.color.bg.neutral.o=5}"
+                      "value": "{semantics.color.bg.brand.o=2}"
                     },
                     "i=focus": {
                       "type": "color",
-                      "value": "{semantics.color.bg.neutral.o=5}"
+                      "value": "{semantics.color.bg.brand.o=2}"
                     }
                   },
                   "p=border": {
@@ -6907,7 +6907,7 @@
                 "l=text": {
                   "p=color": {
                     "type": "color",
-                    "value": "{semantics.color.text.neutral.a=1}"
+                    "value": "{semantics.color.text.brand.a=1}"
                   }
                 }
               },
