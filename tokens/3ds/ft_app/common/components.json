@@ -829,7 +829,7 @@
       },
       "c=font": {
         "l=label": {
-          "t=desktop": {
+          "b=desktop": {
             "v=xs": {
               "value": "{composites.font.label.sm.thick}",
               "type": "typography"
@@ -847,7 +847,7 @@
               "type": "typography"
             }
           },
-          "t=mobile": {
+          "b=mobile": {
             "v=xs": {
               "value": "{composites.font.label.sm.thick}",
               "type": "typography"
