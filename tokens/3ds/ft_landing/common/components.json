@@ -4363,7 +4363,7 @@
       },
       "c=size": {
         "v=sm": {
-          "value": "{semantics.size.sizing.3xs}",
+          "value": "{semantics.size.sizing.2xs}",
           "type": "sizing"
         },
         "v=md": {
