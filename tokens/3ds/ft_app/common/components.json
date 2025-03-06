@@ -829,41 +829,21 @@
       },
       "c=font": {
         "l=label": {
-          "b=desktop": {
-            "v=xs": {
-              "value": "{composites.font.label.sm.thick}",
-              "type": "typography"
-            },
-            "v=sm": {
-              "value": "{composites.font.label.md.thick}",
-              "type": "typography"
-            },
-            "v=md": {
-              "value": "{composites.font.label.lg.thick}",
-              "type": "typography"
-            },
-            "v=lg": {
-              "value": "{composites.font.label.lg.thick}",
-              "type": "typography"
-            }
+          "v=xs": {
+            "value": "{composites.font.label.sm.thick}",
+            "type": "typography"
           },
-          "b=mobile": {
-            "v=xs": {
-              "value": "{composites.font.label.sm.thick}",
-              "type": "typography"
-            },
-            "v=sm": {
-              "value": "{composites.font.label.md.thick}",
-              "type": "typography"
-            },
-            "v=md": {
-              "value": "{composites.font.label.lg.thick}",
-              "type": "typography"
-            },
-            "v=lg": {
-              "value": "{composites.font.label.lg.thick}",
-              "type": "typography"
-            }
+          "v=sm": {
+            "value": "{composites.font.label.md.thick}",
+            "type": "typography"
+          },
+          "v=md": {
+            "value": "{composites.font.label.lg.thick}",
+            "type": "typography"
+          },
+          "v=lg": {
+            "value": "{composites.font.label.lg.thick}",
+            "type": "typography"
           }
         }
       }
