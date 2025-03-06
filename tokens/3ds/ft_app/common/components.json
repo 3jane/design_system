@@ -829,21 +829,41 @@
       },
       "c=font": {
         "l=label": {
-          "v=xs": {
-            "value": "{composites.font.label.sm.thick}",
-            "type": "typography"
+          "t=desktop": {
+            "v=xs": {
+              "value": "{composites.font.label.sm.thick}",
+              "type": "typography"
+            },
+            "v=sm": {
+              "value": "{composites.font.label.md.thick}",
+              "type": "typography"
+            },
+            "v=md": {
+              "value": "{composites.font.label.lg.thick}",
+              "type": "typography"
+            },
+            "v=lg": {
+              "value": "{composites.font.label.lg.thick}",
+              "type": "typography"
+            }
           },
-          "v=sm": {
-            "value": "{composites.font.label.md.thick}",
-            "type": "typography"
-          },
-          "v=md": {
-            "value": "{composites.font.label.lg.thick}",
-            "type": "typography"
-          },
-          "v=lg": {
-            "value": "{composites.font.label.lg.thick}",
-            "type": "typography"
+          "t=mobile": {
+            "v=xs": {
+              "value": "{composites.font.label.sm.thick}",
+              "type": "typography"
+            },
+            "v=sm": {
+              "value": "{composites.font.label.md.thick}",
+              "type": "typography"
+            },
+            "v=md": {
+              "value": "{composites.font.label.lg.thick}",
+              "type": "typography"
+            },
+            "v=lg": {
+              "value": "{composites.font.label.lg.thick}",
+              "type": "typography"
+            }
           }
         }
       }
