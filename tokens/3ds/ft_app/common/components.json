@@ -5468,15 +5468,15 @@
             },
             "i=hover": {
               "type": "color",
-              "value": "{semantics.color.text.disabled.l=1}"
+              "value": "{semantics.color.text.brand.a=1}"
             },
             "i=active": {
               "type": "color",
-              "value": "{semantics.color.text.disabled.l=1}"
+              "value": "{semantics.color.text.brand.a=1}"
             },
             "i=focus": {
               "type": "color",
-              "value": "{semantics.color.text.disabled.l=1}"
+              "value": "{semantics.color.text.brand.a=1}"
             }
           }
         },
