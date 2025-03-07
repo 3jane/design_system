@@ -9776,7 +9776,7 @@
           "l=container": {
             "p=paddingHorizontal": {
               "type": "spacing",
-              "value": "{semantics.space.sm}"
+              "value": "{semantics.space.md}"
             },
             "p=paddingVertical": {
               "type": "spacing",
