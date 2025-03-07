@@ -2602,29 +2602,29 @@
               "p=fill": {
                 "i=none": {
                   "type": "color",
-                  "value": "{semantics.color.bg.neutral.l=1}"
+                  "value": "{semantics.color.bg.neutral.o=3}"
                 },
                 "i=hover": {
                   "type": "color",
-                  "value": "{semantics.color.bg.neutral.l=1}"
+                  "value": "{semantics.color.bg.neutral.o=4}"
                 },
                 "i=focus": {
                   "type": "color",
-                  "value": "{semantics.color.bg.neutral.l=1}"
+                  "value": "{semantics.color.bg.neutral.o=4}"
                 },
                 "i=entered": {
                   "type": "color",
-                  "value": "{semantics.color.bg.neutral.l=1}"
+                  "value": "{semantics.color.bg.neutral.o=3}"
                 }
               },
               "p=border": {
                 "i=none": {
                   "type": "color",
-                  "value": "{semantics.color.border.neutral.o=1}"
+                  "value": "{semantics.color.palette.common.none}"
                 },
                 "i=hover": {
                   "type": "color",
-                  "value": "{semantics.color.border.neutral.o=1}"
+                  "value": "{semantics.color.palette.common.none}"
                 },
                 "i=focus": {
                   "type": "color",
@@ -2632,7 +2632,7 @@
                 },
                 "i=entered": {
                   "type": "color",
-                  "value": "{semantics.color.border.neutral.o=1}"
+                  "value": "{semantics.color.palette.common.none}"
                 }
               }
             },
@@ -2674,29 +2674,29 @@
               "p=fill": {
                 "i=none": {
                   "type": "color",
-                  "value": "{semantics.color.bg.neutral.l=1}"
+                  "value": "{semantics.color.bg.error.o=1}"
                 },
                 "i=hover": {
                   "type": "color",
-                  "value": "{semantics.color.bg.neutral.l=1}"
+                  "value": "{semantics.color.bg.error.o=2}"
                 },
                 "i=focus": {
                   "type": "color",
-                  "value": "{semantics.color.bg.neutral.l=1}"
+                  "value": "{semantics.color.bg.error.o=2}"
                 },
                 "i=entered": {
                   "type": "color",
-                  "value": "{semantics.color.bg.neutral.l=1}"
+                  "value": "{semantics.color.bg.error.o=1}"
                 }
               },
               "p=border": {
                 "i=none": {
                   "type": "color",
-                  "value": "{semantics.color.border.error.o=1}"
+                  "value": "{semantics.color.palette.common.none}"
                 },
                 "i=hover": {
                   "type": "color",
-                  "value": "{semantics.color.border.error.o=1}"
+                  "value": "{semantics.color.palette.common.none}"
                 },
                 "i=focus": {
                   "type": "color",
@@ -2704,7 +2704,7 @@
                 },
                 "i=entered": {
                   "type": "color",
-                  "value": "{semantics.color.border.error.o=1}"
+                  "value": "{semantics.color.palette.common.none}"
                 }
               }
             },
