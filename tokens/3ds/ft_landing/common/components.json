@@ -2876,6 +2876,7 @@
         }
       },
       "c=font": {
+        "b=desktop": {
         "l=inputText": {
           "value": "{composites.font.body.md.thin}",
           "type": "typography"
@@ -2888,6 +2889,21 @@
           "value": "{composites.font.label.md.thin}",
           "type": "typography"
         }
+        },
+        "b=mobile": {
+          "l=inputText": {
+            "value": "{composites.font.body.sm.thin}",
+            "type": "typography"
+          },
+          "l=labelText": {
+            "value": "{composites.font.label.sm.medium}",
+            "type": "typography"
+          },
+          "l=hintText": {
+            "value": "{composites.font.label.sm.thin}",
+            "type": "typography"
+          }
+          }
       }
     },
     "ToggleButton": {
