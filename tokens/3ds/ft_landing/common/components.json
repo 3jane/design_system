@@ -6216,7 +6216,7 @@
             },
             "p=borderWidthTop": {
               "type": "borderWidth",
-              "value": "{semantics.size.border.sm}"
+              "value": "{semantics.size.border.none}"
             },
             "p=borderWidthBottom": {
               "type": "borderWidth",
@@ -6224,11 +6224,11 @@
             },
             "p=borderWidthLeft": {
               "type": "borderWidth",
-              "value": "{semantics.size.border.sm}"
+              "value": "{semantics.size.border.none}"
             },
             "p=borderWidthRight": {
               "type": "borderWidth",
-              "value": "{semantics.size.border.sm}"
+              "value": "{semantics.size.border.none}"
             }
           },
           "l=summaryContainer": {
