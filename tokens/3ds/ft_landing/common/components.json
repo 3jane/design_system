@@ -6214,7 +6214,19 @@
               "type": "borderRadius",
               "value": "{semantics.size.radius.none}"
             },
-            "p=borderWidth": {
+            "p=borderWidthTop": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.sm}"
+            },
+            "p=borderWidthBottom": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.sm}"
+            },
+            "p=borderWidthLeft": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.sm}"
+            },
+            "p=borderWidthRight": {
               "type": "borderWidth",
               "value": "{semantics.size.border.sm}"
             }
