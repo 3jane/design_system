@@ -6212,7 +6212,7 @@
           "l=mainContainer": {
             "p=borderRadius": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.lg}"
+              "value": "{semantics.size.radius.none}"
             },
             "p=borderWidth": {
               "type": "borderWidth",
@@ -6222,7 +6222,7 @@
           "l=summaryContainer": {
             "p=borderWidthBottom": {
               "type": "borderWidth",
-              "value": "{semantics.size.border.sm}"
+              "value": "{semantics.size.border.none}"
             }
           }
         },
@@ -6230,19 +6230,19 @@
           "l=summaryContainer": {
             "p=paddingTop": {
               "type": "spacing",
-              "value": "{semantics.space.xs}"
+              "value": "{semantics.space.xl}"
             },
             "p=paddingBottom": {
               "type": "spacing",
-              "value": "{semantics.space.xs}"
+              "value": "{semantics.space.xl}"
             },
             "p=paddingLeft": {
               "type": "spacing",
-              "value": "{semantics.space.2xl}"
+              "value": "{semantics.space.none}"
             },
             "p=paddingRight": {
               "type": "spacing",
-              "value": "{semantics.space.xs}"
+              "value": "{semantics.space.none}"
             },
             "p=gap": {
               "type": "spacing",
@@ -6252,15 +6252,15 @@
           "l=detailsContainer": {
             "p=paddingHorizontal": {
               "type": "spacing",
-              "value": "{semantics.space.2xl}"
+              "value": "{semantics.space.none}"
             },
             "p=paddingTop": {
               "type": "spacing",
-              "value": "{semantics.space.md}"
+              "value": "{semantics.space.none}"
             },
             "p=paddingBottom": {
               "type": "spacing",
-              "value": "{semantics.space.2xl}"
+              "value": "{semantics.space.4xl}"
             },
             "p=gap": {
               "type": "spacing",
@@ -6270,7 +6270,7 @@
         },
         "c=shadow": {
           "l=mainContainer": {
-            "value": "{composites.dropShadow.down.xs}",
+            "value": "{composites.noShadow}",
             "type": "boxShadow"
           }
         }
@@ -6292,7 +6292,7 @@
             },
             "p=gap": {
               "type": "spacing",
-              "value": "{semantics.space.xl}"
+              "value": "{semantics.space.none}"
             }
           }
         }
