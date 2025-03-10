@@ -6242,11 +6242,11 @@
           "l=summaryContainer": {
             "p=paddingTop": {
               "type": "spacing",
-              "value": "{semantics.space.xl}"
+              "value": "{semantics.space.2xl}"
             },
             "p=paddingBottom": {
               "type": "spacing",
-              "value": "{semantics.space.xl}"
+              "value": "{semantics.space.2xl}"
             },
             "p=paddingLeft": {
               "type": "spacing",
@@ -6272,7 +6272,7 @@
             },
             "p=paddingBottom": {
               "type": "spacing",
-              "value": "{semantics.space.4xl}"
+              "value": "{semantics.space.5xl}"
             },
             "p=gap": {
               "type": "spacing",
