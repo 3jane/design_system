@@ -5369,6 +5369,10 @@
             "value": "{composites.font.title.md.thin}",
             "type": "typography"
           },
+          "v=title3": {
+            "value": "{composites.font.title.sm.thin}",
+            "type": "typography"
+          },
           "v=body1": {
             "value": "{composites.font.body.md.thin}",
             "type": "typography"
@@ -5397,6 +5401,10 @@
           },
           "v=title2": {
             "value": "{composites.font.title.md.thick}",
+            "type": "typography"
+          },
+          "v=title3": {
+            "value": "{composites.font.title.sm.thick}",
             "type": "typography"
           },
           "v=body1": {
