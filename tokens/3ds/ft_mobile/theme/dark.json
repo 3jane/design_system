@@ -464,6 +464,10 @@
           "a=4": {
             "type": "color",
             "value": "{semantics.color.palette.neutral.65}"
+          },
+          "illustration": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.95}"
           }
         },
         "neutralAlt": {
@@ -496,6 +500,10 @@
           "a=2": {
             "type": "color",
             "value": "{semantics.color.palette.brand.50}"
+          },
+          "illustration": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.95}"
           }
         },
         "brand2": {
