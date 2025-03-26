@@ -2379,6 +2379,44 @@
                   }
                 }
               }
+            },
+            "v=error": {
+              "l=container": {
+                "p=fill": {
+                  "value": "{semantics.color.bg.error.a=1}",
+                  "type": "color"
+                },
+                "p=border": {
+                  "value": "{semantics.color.palette.common.none}",
+                  "type": "color"
+                }
+              },
+              "l=knob": {
+                "p=fill": {
+                  "value": "{semantics.color.bg.stable.light}",
+                  "type": "color"
+                }
+              },
+              "l=halo": {
+                "p=fill": {
+                  "i=none": {
+                    "value": "{semantics.color.palette.common.none}",
+                    "type": "color"
+                  },
+                  "i=hover": {
+                    "value": "{semantics.color.bg.error.o=2}",
+                    "type": "color"
+                  },
+                  "i=active": {
+                    "value": "{semantics.color.bg.error.o=3}",
+                    "type": "color"
+                  },
+                  "i=focus": {
+                    "value": "{semantics.color.bg.error.o=2}",
+                    "type": "color"
+                  }
+                }
+              }
             }
           },
           "s=disabled": {
@@ -2443,6 +2481,44 @@
               }
             },
             "v=brand": {
+              "l=container": {
+                "p=fill": {
+                  "value": "{semantics.color.palette.common.none}",
+                  "type": "color"
+                },
+                "p=border": {
+                  "value": "{semantics.color.bg.neutral.a=4}",
+                  "type": "color"
+                }
+              },
+              "l=knob": {
+                "p=fill": {
+                  "value": "{semantics.color.bg.neutral.a=4}",
+                  "type": "color"
+                }
+              },
+              "l=halo": {
+                "p=fill": {
+                  "i=none": {
+                    "value": "{semantics.color.palette.common.none}",
+                    "type": "color"
+                  },
+                  "i=hover": {
+                    "value": "{semantics.color.bg.neutral.o=4}",
+                    "type": "color"
+                  },
+                  "i=active": {
+                    "value": "{semantics.color.bg.neutral.o=4}",
+                    "type": "color"
+                  },
+                  "i=focus": {
+                    "value": "{semantics.color.bg.neutral.o=4}",
+                    "type": "color"
+                  }
+                }
+              }
+            },
+            "v=error": {
               "l=container": {
                 "p=fill": {
                   "value": "{semantics.color.palette.common.none}",
