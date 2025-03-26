@@ -2805,7 +2805,7 @@
         "l=labelAndHintContainer": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.2xs}"
           }
         },
         "l=mainContainer": {
