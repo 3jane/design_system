@@ -2811,7 +2811,7 @@
         "l=mainContainer": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.md}"
+            "value": "{semantics.space.lg}"
           }
         }
       },
