@@ -2802,10 +2802,16 @@
             "value": "{semantics.space.sm}"
           }
         },
+        "l=labelAndHintContainer": {
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          }
+        },
         "l=mainContainer": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.sm}"
+            "value": "{semantics.space.md}"
           }
         }
       },
