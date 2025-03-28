@@ -209,6 +209,10 @@
         "value": "{base.space.12px}",
         "type": "spacing"
       },
+      "1,5xl": {
+        "value": "{base.space.14px}",
+        "type": "spacing"
+      },
       "2xl": {
         "value": "{base.space.16px}",
         "type": "spacing"
