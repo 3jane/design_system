@@ -5539,23 +5539,17 @@
             "type": "borderRadius",
             "value": "{semantics.size.radius.none}"
           }
-        },
-        "l=senderContainer": {
-          "p=height": {
-            "type": "sizing",
-            "value": "{semantics.size.sizing.sm}"
-          }
         }
       },
       "c=space": {
         "l=mainContainer": {
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.sm}"
+            "value": "{semantics.space.md}"
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.sm}"
+            "value": "{semantics.space.md}"
           },
           "p=paddingLeft": {
             "type": "spacing",
@@ -5570,38 +5564,10 @@
             "value": "{semantics.space.xl}"
           }
         },
-        "l=contentAndActionsContainer": {
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.sm}"
-          }
-        },
-        "l=actionsContainer": {
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.xs}"
-          },
-          "p=paddingTop": {
-            "type": "spacing",
-            "value": "{semantics.space.xs}"
-          },
-          "p=paddingBottom": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          },
-          "p=paddingLeft": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          },
-          "p=paddingRight": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          }
-        },
         "l=contentContainer": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.2xs}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingTop": {
             "type": "spacing",
