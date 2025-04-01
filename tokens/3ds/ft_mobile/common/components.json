@@ -5448,11 +5448,7 @@
             },
             "i=hover": {
               "type": "color",
-              "value": "{semantics.color.bg.brand.o=0,5}"
-            },
-            "i=selected": {
-              "type": "color",
-              "value": "{semantics.color.bg.brand.o=1}"
+              "value": "{semantics.color.bg.neutral.o=3}"
             }
           },
           "p=border": {
@@ -5461,10 +5457,6 @@
               "value": "{semantics.color.palette.common.none}"
             },
             "i=hover": {
-              "type": "color",
-              "value": "{semantics.color.border.brand.a=1}"
-            },
-            "i=selected": {
               "type": "color",
               "value": "{semantics.color.palette.common.none}"
             }
@@ -5479,10 +5471,6 @@
             "i=hover": {
               "type": "color",
               "value": "{semantics.color.palette.common.none}"
-            },
-            "i=selected": {
-              "type": "color",
-              "value": "{semantics.color.palette.common.none}"
             }
           },
           "p=border": {
@@ -5493,10 +5481,6 @@
             "i=hover": {
               "type": "color",
               "value": "{semantics.color.palette.common.none}"
-            },
-            "i=selected": {
-              "type": "color",
-              "value": "{semantics.color.palette.common.none}"
             }
           }
         },
@@ -5504,16 +5488,6 @@
           "p=color": {
             "type": "color",
             "value": "{semantics.color.text.neutral.a=1}"
-          }
-        },
-        "l=actionsContainer": {
-          "p=fill": {
-            "type": "color",
-            "value": "{semantics.color.bg.neutral.tooltip}"
-          },
-          "p=border": {
-            "type": "color",
-            "value": "{semantics.color.border.neutral.o=1}"
           }
         },
         "l=body": {
@@ -5527,45 +5501,13 @@
             "type": "color",
             "value": "{semantics.color.text.neutral.a=3}"
           }
-        },
-        "l=process": {
-          "p=color": {
-            "i=none": {
-            "type": "color",
-            "value": "{semantics.color.text.neutral.a=3}"
-            },
-            "i=hover": {
-              "type": "color",
-              "value": "{semantics.color.text.brand.a=1}"
-            },
-            "i=active": {
-              "type": "color",
-              "value": "{semantics.color.text.brand.a=1}"
-            },
-            "i=focus": {
-              "type": "color",
-              "value": "{semantics.color.text.brand.a=1}"
-            }
-          }
-        },
-        "l=reasoningText": {
-          "p=color": {
-            "type": "color",
-            "value": "{semantics.color.text.neutral.a=3}"
-          }
-        },
-        "l=reasoningLine": {
-          "p=color": {
-            "type": "color",
-            "value": "{semantics.color.border.neutral.o=2}"
-          }
         }
       },
       "c=size": {
         "l=mainContainer": {
           "p=borderWidthLeft": {
             "type": "borderWidth",
-            "value": "{semantics.size.border.lg}"
+            "value": "{semantics.size.border.xl}"
           },
           "p=borderWidthRight": {
             "type": "borderWidth",
@@ -5601,33 +5543,7 @@
         "l=senderContainer": {
           "p=height": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.md}"
-          }
-        },
-        "l=actionsContainer": {
-          "p=borderWidth": {
-            "type": "borderWidth",
-            "value": "{semantics.size.border.sm}"
-          },
-          "p=borderRadius": {
-            "type": "borderRadius",
-            "value": "{semantics.size.radius.lg}"
-          }
-        },
-        "l=reasoningLine": {
-          "p=width": {
-            "type": "sizing",
-            "value": "2"
-          },
-          "p=borderRadius": {
-            "type": "borderRadius",
-            "value": "{semantics.size.radius.full}"
-          }
-        },
-        "l=reasoningLineContainer": {
-          "p=width": {
-            "type": "sizing",
-            "value": "{semantics.size.sizing.xs}"
+            "value": "{semantics.size.sizing.sm}"
           }
         }
       },
@@ -5635,23 +5551,29 @@
         "l=mainContainer": {
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.md}"
+            "value": "{semantics.space.sm}"
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.md}"
+            "value": "{semantics.space.sm}"
           },
           "p=paddingLeft": {
             "type": "spacing",
-            "value": "{semantics.space.3xl}"
+            "value": "{semantics.space.4xl}"
           },
           "p=paddingRight": {
             "type": "spacing",
-            "value": "{semantics.space.3xl}"
+            "value": "{semantics.space.4xl}"
           },
           "p=gap": {
             "type": "spacing",
             "value": "{semantics.space.xl}"
+          }
+        },
+        "l=contentAndActionsContainer": {
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.sm}"
           }
         },
         "l=actionsContainer": {
@@ -5665,21 +5587,21 @@
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.xs}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingLeft": {
             "type": "spacing",
-            "value": "{semantics.space.xs}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingRight": {
             "type": "spacing",
-            "value": "{semantics.space.xs}"
+            "value": "{semantics.space.none}"
           }
         },
         "l=contentContainer": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.2xs}"
           },
           "p=paddingTop": {
             "type": "spacing",
@@ -5707,11 +5629,11 @@
         "l=timeIndicatorContainer": {
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.3xs}"
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.3xs}"
+            "value": "{semantics.space.none}"
           }
         },
         "l=attachmentContainer": {
@@ -5722,32 +5644,6 @@
           "p=paddingBottom": {
             "type": "spacing",
             "value": "{semantics.space.none}"
-          }
-        },
-        "l=processContainer": {
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.sm}"
-          }
-        },
-        "l=reasoningLineContainer": {
-          "p=paddingTop": {
-            "type": "spacing",
-            "value": "{semantics.space.sm}"
-          },
-          "p=paddingBottom": {
-            "type": "spacing",
-            "value": "{semantics.space.sm}"
-          }
-        },
-        "l=reasoningContainer": {
-          "p=paddingVertical": {
-            "type": "spacing",
-            "value": "{semantics.space.xs}"
-          },
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.sm}"
           }
         }
       },
@@ -5763,14 +5659,6 @@
         "l=timeIndicator": {
           "value": "{composites.font.body.sm.thin}",
           "type": "typography"
-        },
-        "l=process": {
-          "value": "{composites.font.body.md.thin}",
-          "type": "typography"
-        },
-        "l=reasoningText": {
-          "value": "{composites.font.body.md.thin}",
-          "type": "typography"
         }
       },
       "c=shadow": {
@@ -5780,10 +5668,6 @@
         },
         "l=contentContainer": {
           "value": "{composites.noShadow}",
-          "type": "boxShadow"
-        },
-        "l=actionsContainer": {
-          "value": "{composites.dropShadow.down.xs}",
           "type": "boxShadow"
         }
       }
