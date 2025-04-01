@@ -37,7 +37,7 @@
           },
           "o=1": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.99}, {semantics.color.palette.opacity.80})"
+            "value": "rgba({semantics.color.palette.common.white}, {semantics.color.palette.opacity.80})"
           },
           "o=2": {
             "type": "color",
@@ -45,11 +45,11 @@
           },
           "o=3": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.common.black}, {semantics.color.palette.opacity.3})"
+            "value": "rgba({semantics.color.palette.common.black}, {semantics.color.palette.opacity.3} )"
           },
           "o=4": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.common.black}, {semantics.color.palette.opacity.5})"
+            "value": "rgba({semantics.color.palette.common.black}, {semantics.color.palette.opacity.5} )"
           },
           "o=5": {
             "type": "color",
@@ -293,7 +293,7 @@
           },
           "darkOpacity": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.neutral.20}, {semantics.color.palette.opacity.30})"
+            "value": "rgba({semantics.color.palette.common.black}, {semantics.color.palette.opacity.40})"
           }
         }
       },

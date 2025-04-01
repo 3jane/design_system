@@ -1757,13 +1757,13 @@
           },
           "body": {
             "default": {
-              "value": "{base.font.style.lineHeight.175%}",
+              "value": "{base.font.style.lineHeight.150%}",
               "type": "lineHeights"
             }
           },
           "label": {
             "default": {
-              "value": "{base.font.style.lineHeight.160%}",
+              "value": "{base.font.style.lineHeight.150%}",
               "type": "lineHeights"
             }
           }
