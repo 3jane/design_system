@@ -9678,7 +9678,7 @@
           "l=container": {
             "p=minHeight": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.xl}"
+              "value": "{semantics.size.sizing.2xl}"
             },
             "p=borderRadius": {
               "type": "borderRadius",
@@ -9694,7 +9694,7 @@
           "l=container": {
             "p=paddingHorizontal": {
               "type": "spacing",
-              "value": "{semantics.space.md}"
+              "value": "{semantics.space.lg}"
             },
             "p=paddingVertical": {
               "type": "spacing",
