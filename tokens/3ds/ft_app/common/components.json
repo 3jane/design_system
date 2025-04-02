@@ -2723,6 +2723,12 @@
                 "type": "color",
                 "value": "{semantics.color.text.neutral.a=3}"
               }
+            },
+            "l=hintText2": {
+              "p=color": {
+                "type": "color",
+                "value": "{semantics.color.text.neutral.a=3}"
+              }
             }
           },
           "v=error": {
@@ -2793,6 +2799,12 @@
             "l=hintText": {
               "p=color": {
                 "type": "color",
+                "value": "{semantics.color.text.neutral.a=3}"
+              }
+            },
+            "l=hintText2": {
+              "p=color": {
+                "type": "color",
                 "value": "{semantics.color.text.error.a=1}"
               }
             }
@@ -2829,6 +2841,12 @@
               }
             },
             "l=hintText": {
+              "p=color": {
+                "type": "color",
+                "value": "{semantics.color.text.neutral.a=3}"
+              }
+            },
+            "l=hintText2": {
               "p=color": {
                 "type": "color",
                 "value": "{semantics.color.text.neutral.a=3}"
@@ -2947,6 +2965,10 @@
           "type": "typography"
         },
         "l=hintText": {
+          "value": "{composites.font.label.md.thin}",
+          "type": "typography"
+        },
+        "l=hintText2": {
           "value": "{composites.font.label.md.thin}",
           "type": "typography"
         }
