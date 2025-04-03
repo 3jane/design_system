@@ -3420,17 +3420,7 @@
     },
     "CodeBLock": {
       "c=color": {
-        "l=controlPanel": {
-          "p=fill": {
-            "type": "color",
-            "value": "{semantics.color.bg.neutral.l=3}"
-          },
-          "p=border": {
-            "type": "color",
-            "value": "{semantics.color.palette.common.none}"
-          }
-        },
-        "l=codeFrame": {
+        "l=codeBlock": {
           "p=fill": {
             "type": "color",
             "value": "{semantics.color.bg.neutral.l=2}"
@@ -3463,12 +3453,6 @@
               "value": "{semantics.color.text.warning.a=1}"
             }
           }
-        },
-        "l=languageIndicator": {
-          "p=color": {
-            "type": "color",
-            "value": "{semantics.color.text.neutral.a=1}"
-          }
         }
       },
       "c=size": {
@@ -3481,37 +3465,9 @@
             "type": "borderRadius",
             "value": "{semantics.size.radius.none}"
           }
-        },
-        "l=controlPanel": {
-          "p=height": {
-            "type": "sizing",
-            "value": "{semantics.size.sizing.lg}"
-          },
-          "p=borderWidthBotom": {
-            "type": "borderWidth",
-            "value": "{semantics.size.border.none}"
-          }
         }
       },
       "c=space": {
-        "l=controlPanel": {
-          "p=paddingLeft": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          },
-          "p=paddingRight": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          },
-          "p=paddingTop": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          },
-          "p=paddingBottom": {
-            "type": "spacing",
-            "value": "{semantics.space.none}"
-          }
-        },
         "l=codeFrame": {
           "p=paddingLeft": {
             "type": "spacing",
@@ -3528,6 +3484,14 @@
           "p=paddingBottom": {
             "type": "spacing",
             "value": "{semantics.space.xl}"
+          },
+          "p=marginTop": {
+            "type": "spacing",
+            "value": "{semantics.space.lg}"
+          },
+          "p=marginBottom": {
+            "type": "spacing",
+            "value": "{semantics.space.lg}"
           }
         }
       },
