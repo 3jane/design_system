@@ -3422,8 +3422,14 @@
       "c=color": {
         "l=codeBlock": {
           "p=fill": {
+            "i=none": {
             "type": "color",
             "value": "{semantics.color.bg.neutral.l=2}"
+            },
+            "i=pressed": {
+              "type": "color",
+              "value": "{semantics.color.bg.neutral.l=4}"
+            }
           }
         },
         "l=code": {
