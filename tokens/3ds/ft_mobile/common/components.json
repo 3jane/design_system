@@ -3428,7 +3428,7 @@
             },
             "i=pressed": {
               "type": "color",
-              "value": "{semantics.color.bg.neutral.l=4}"
+              "value": "{semantics.color.bg.neutral.l=3}"
             }
           }
         },
