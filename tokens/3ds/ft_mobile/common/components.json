@@ -4623,11 +4623,11 @@
             "p=height": {
               "v=sm": {
                 "type": "sizing",
-                "value": "{semantics.size.sizing.xl}"
+                "value": "{semantics.size.sizing.md}"
               },
               "v=lg": {
                 "type": "sizing",
-                "value": "{semantics.size.sizing.3xl}"
+                "value": "{semantics.size.sizing.lg}"
               }
             },
             "p=borderWidthRight": {
@@ -4641,21 +4641,21 @@
             "p=paddingLeft": {
               "v=sm": {
                 "type": "spacing",
-                "value": "{semantics.space.xl}"
+                "value": "{semantics.space.lg}"
               },
               "v=lg": {
                 "type": "spacing",
-                "value": "{semantics.space.2xl}"
+                "value": "{semantics.space.xl}"
               }
             },
             "p=paddingRight": {
               "v=sm": {
                 "type": "spacing",
-                "value": "{semantics.space.xl}"
+                "value": "{semantics.space.lg}"
               },
               "v=lg": {
                 "type": "spacing",
-                "value": "{semantics.space.2xl}"
+                "value": "{semantics.space.xl}"
               }
             }
           }
@@ -4663,11 +4663,11 @@
         "c=font": {
           "l=label": {
             "v=sm": {
-              "value": "{composites.font.label.md.thin}",
+              "value": "{composites.font.label.sm.thin}",
               "type": "typography"
             },
             "v=lg": {
-              "value": "{composites.font.label.lg.thin}",
+              "value": "{composites.font.label.sm.thin}",
               "type": "typography"
             }
           }
@@ -4697,11 +4697,11 @@
             "p=height": {
               "v=sm": {
                 "type": "sizing",
-                "value": "{semantics.size.sizing.xl}"
+                "value": "{semantics.size.sizing.md}"
               },
               "v=lg": {
                 "type": "sizing",
-                "value": "{semantics.size.sizing.3xl}"
+                "value": "{semantics.size.sizing.lg}"
               }
             },
             "p=borderWidthRight": {
@@ -4715,21 +4715,21 @@
             "p=paddingLeft": {
               "v=sm": {
                 "type": "spacing",
-                "value": "{semantics.space.xl}"
+                "value": "{semantics.space.lg}"
               },
               "v=lg": {
                 "type": "spacing",
-                "value": "{semantics.space.2xl}"
+                "value": "{semantics.space.xl}"
               }
             },
             "p=paddingRight": {
               "v=sm": {
                 "type": "spacing",
-                "value": "{semantics.space.xl}"
+                "value": "{semantics.space.lg}"
               },
               "v=lg": {
                 "type": "spacing",
-                "value": "{semantics.space.2xl}"
+                "value": "{semantics.space.xl}"
               }
             }
           }
@@ -4737,11 +4737,11 @@
         "c=font": {
           "l=label": {
             "v=sm": {
-              "value": "{composites.font.label.md.thick}",
+              "value": "{composites.font.label.sm.thick}",
               "type": "typography"
             },
             "v=lg": {
-              "value": "{composites.font.label.lg.thick}",
+              "value": "{composites.font.label.sm.thick}",
               "type": "typography"
             }
           }
@@ -4831,11 +4831,11 @@
             "p=height": {
               "v=sm": {
                 "type": "sizing",
-                "value": "{semantics.size.sizing.xl}"
+                "value": "{semantics.size.sizing.md}"
               },
               "v=lg": {
                 "type": "sizing",
-                "value": "{semantics.size.sizing.3xl}"
+                "value": "{semantics.size.sizing.lg}"
               }
             }
           }
@@ -4845,31 +4845,31 @@
             "p=gap": {
               "v=sm": {
                 "type": "spacing",
-                "value": "{semantics.space.4xl}"
+                "value": "{semantics.space.xl}"
               },
               "v=lg": {
                 "type": "spacing",
-                "value": "{semantics.space.4xl}"
+                "value": "{semantics.space.xl}"
               }
             },
             "p=paddingLeft": {
               "v=sm": {
                 "type": "spacing",
-                "value": "{semantics.space.xl}"
+                "value": "{semantics.space.lg}"
               },
               "v=lg": {
                 "type": "spacing",
-                "value": "{semantics.space.2xl}"
+                "value": "{semantics.space.xl}"
               }
             },
             "p=paddingRight": {
               "v=sm": {
                 "type": "spacing",
-                "value": "{semantics.space.xl}"
+                "value": "{semantics.space.lg}"
               },
               "v=lg": {
                 "type": "spacing",
-                "value": "{semantics.space.2xl}"
+                "value": "{semantics.space.xl}"
               }
             }
           }
@@ -4879,8 +4879,14 @@
         "c=color": {
           "l=container": {
             "p=fill": {
+              "i=none": {
               "type": "color",
               "value": "{semantics.color.bg.neutral.l=1}"
+              },
+              "i=pressed": {
+                "type": "color",
+                "value": "{semantics.color.bg.neutral.l=3}"
+                }
             },
             "p=border": {
               "type": "color",
@@ -4892,7 +4898,7 @@
           "l=container": {
             "p=borderRadius": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.xl}"
+              "value": "{semantics.size.radius.md}"
             },
             "p=borderWidthTop": {
               "type": "borderWidth",
@@ -4916,25 +4922,11 @@
           "l=container": {
             "p=marginTop": {
               "type": "spacing",
-              "value": "{semantics.space.xl}"
+              "value": "{semantics.space.lg}"
             },
             "p=marginBottom": {
               "type": "spacing",
-              "value": "{semantics.space.xl}"
-            }
-          },
-          "l=actionsContainer": {
-            "p=paddingVertical": {
-              "type": "spacing",
-              "value": "{semantics.space.xs}"
-            },
-            "p=paddingHorizontal": {
-              "type": "spacing",
-              "value": "{semantics.space.xs}"
-            },
-            "p=gap": {
-              "type": "spacing",
-              "value": "{semantics.space.xs}"
+              "value": "{semantics.space.lg}"
             }
           }
         },
