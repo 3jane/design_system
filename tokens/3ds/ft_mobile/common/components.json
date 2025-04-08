@@ -2284,7 +2284,7 @@
         },
         "c=font": {
           "l=text": {
-            "value": "{composites.font.label.lg.medium}",
+            "value": "{composites.font.body.sm.medium}",
             "type": "typography"
           }
         }
