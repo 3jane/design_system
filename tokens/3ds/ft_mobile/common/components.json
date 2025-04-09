@@ -6948,7 +6948,7 @@
           "l=container": {
             "p=minHeight": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.4xl}"
+              "value": "{semantics.size.sizing.3xl}"
             },
             "p=borderRadius": {
               "type": "borderRadius",
@@ -7028,11 +7028,11 @@
           "l=container": {
             "p=paddingHorizontal": {
               "type": "spacing",
-              "value": "{semantics.space.sm}"
+              "value": "{semantics.space.md}"
             },
             "p=paddingVertical": {
               "type": "spacing",
-              "value": "{semantics.space.sm}"
+              "value": "{semantics.space.md}"
             },
             "p=gap": {
               "type": "spacing",
@@ -8336,7 +8336,7 @@
           "l=container": {
             "p=minHeight": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.2xl}"
+              "value": "{semantics.size.sizing.3xl}"
             },
             "p=borderRadius": {
               "type": "borderRadius",
