@@ -289,7 +289,7 @@
           },
           "dark": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.30}"
+            "value": "{semantics.color.palette.neutral.15}"
           },
           "darkOpacity": {
             "type": "color",
