@@ -7206,7 +7206,7 @@
           "l=container": {
             "p=minHeight": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.lg}"
+              "value": "{semantics.size.sizing.xl}"
             },
             "p=borderRadius": {
               "type": "borderRadius",
@@ -7294,7 +7294,7 @@
             },
             "p=gap": {
               "type": "spacing",
-              "value": "{semantics.space.none}"
+              "value": "{semantics.space.2xs}"
             }
           }
         },
