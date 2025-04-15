@@ -5135,6 +5135,24 @@
               "type": "color"
             }
           },
+          "v=warning": {
+            "t=primary": {
+              "value": "{semantics.color.text.warning.a=1}",
+              "type": "color"
+            },
+            "t=secondary": {
+              "value": "{semantics.color.text.warning.a=1}",
+              "type": "color"
+            },
+            "t=tertiary": {
+              "value": "{semantics.color.text.warning.a=1}",
+              "type": "color"
+            },
+            "t=quaternary": {
+              "value": "{semantics.color.text.warning.a=1}",
+              "type": "color"
+            }
+          },
           "v=neutralLight": {
             "t=secondary": {
               "value": "{semantics.color.text.neutral.l=1}",
@@ -5263,6 +5281,30 @@
             "p=border": {
               "type": "color",
               "value": "{semantics.color.border.error.o=1}"
+            }
+          },
+          "l=labelText": {
+            "p=color": {
+              "type": "color",
+              "value": "{semantics.color.text.neutral.a=1}"
+            }
+          },
+          "l=supportingText": {
+            "p=color": {
+              "type": "color",
+              "value": "{semantics.color.text.neutral.a=2}"
+            }
+          }
+        },
+        "v=warning": {
+          "l=mainContainer": {
+            "p=fill": {
+              "type": "color",
+              "value": "{semantics.color.bg.neutral.l=1}"
+            },
+            "p=border": {
+              "type": "color",
+              "value": "{semantics.color.border.warning.o=1}"
             }
           },
           "l=labelText": {
@@ -6903,6 +6945,20 @@
             "p=border": {
               "type": "color",
               "value": "{semantics.color.text.error.a=1}"
+            }
+          }
+        },
+        "v=warning": {
+          "l=container": {
+            "p=fill": {
+              "type": "color",
+              "value": "{semantics.color.palette.common.none}"
+            }
+          },
+          "l=line": {
+            "p=border": {
+              "type": "color",
+              "value": "{semantics.color.text.warning.a=1}"
             }
           }
         },
