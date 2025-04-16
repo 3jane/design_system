@@ -7020,7 +7020,7 @@
           "l=container": {
             "p=paddingHorizontal": {
               "type": "spacing",
-              "value": "{semantics.space.lg}"
+              "value": "{semantics.space.xl}"
             },
             "p=paddingVertical": {
               "type": "spacing",
@@ -7092,7 +7092,7 @@
             },
             "p=gap": {
               "type": "spacing",
-              "value": "{semantics.space.xs}"
+              "value": "{semantics.space.2xs}"
             }
           }
         },
