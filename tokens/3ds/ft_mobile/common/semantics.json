@@ -1682,15 +1682,15 @@
       "size": {
         "display": {
           "sm": {
-            "value": "{base.font.size.36px}",
+            "value": "{base.font.size.32px}",
             "type": "fontSizes"
           },
           "md": {
-            "value": "{base.font.size.48px}",
+            "value": "{base.font.size.36px}",
             "type": "fontSizes"
           },
           "lg": {
-            "value": "{base.font.size.60px}",
+            "value": "{base.font.size.40px}",
             "type": "fontSizes"
           }
         },
