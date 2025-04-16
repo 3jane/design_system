@@ -217,6 +217,10 @@
         "value": "{base.space.16px}",
         "type": "spacing"
       },
+      "2,5xl": {
+        "value": "{base.space.18px}",
+        "type": "spacing"
+      },
       "3xl": {
         "value": "{base.space.20px}",
         "type": "spacing"
