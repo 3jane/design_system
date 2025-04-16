@@ -7084,15 +7084,15 @@
           "l=container": {
             "p=paddingHorizontal": {
               "type": "spacing",
-              "value": "{semantics.space.md}"
+              "value": "{semantics.space.sm}"
             },
             "p=paddingVertical": {
               "type": "spacing",
-              "value": "{semantics.space.md}"
+              "value": "{semantics.space.sm}"
             },
             "p=gap": {
               "type": "spacing",
-              "value": "{semantics.space.none}"
+              "value": "{semantics.space.xs}"
             }
           }
         },
