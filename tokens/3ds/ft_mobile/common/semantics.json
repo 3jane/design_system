@@ -1767,7 +1767,7 @@
           },
           "label": {
             "default": {
-              "value": "{base.font.style.lineHeight.160%}",
+              "value": "{base.font.style.lineHeight.175%}",
               "type": "lineHeights"
             }
           }
