@@ -5883,11 +5883,11 @@
         "l=container": {
           "p=fill": {
             "type": "color",
-            "value": "{semantics.color.bg.neutral.a=2}"
+            "value": "{semantics.color.bg.neutral.l=1}"
           },
           "p=border": {
             "type": "color",
-            "value": "{semantics.color.palette.common.none}"
+            "value": "{semantics.color.border.neutral.o=1}"
           }
         }
       },
@@ -5899,31 +5899,11 @@
           },
           "p=borderRadius": {
             "type": "borderRadius",
-            "value": "{semantics.size.radius.lg}"
+            "value": "{semantics.size.radius.md}"
           },
           "p=borderWidth": {
             "type": "borderWidth",
             "value": "{semantics.size.border.sm}"
-          }
-        }
-      },
-      "c=space": {
-        "l=container": {
-          "p=paddingLeft": {
-            "type": "spacing",
-            "value": "{semantics.space.2xl}"
-          },
-          "p=paddingRight": {
-            "type": "spacing",
-            "value": "{semantics.space.sm}"
-          },
-          "p=paddingVertical": {
-            "type": "spacing",
-            "value": "{semantics.space.sm}"
-          },
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.xs}"
           }
         }
       },
