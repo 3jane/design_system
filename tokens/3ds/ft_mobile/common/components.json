@@ -5472,9 +5472,13 @@
               "type": "color",
               "value": "{semantics.color.palette.common.none}"
             },
-            "i=hover": {
+            "i=active": {
               "type": "color",
               "value": "{semantics.color.bg.neutral.o=3}"
+            },
+            "i=editing": {
+              "type": "color",
+              "value": "{semantics.color.bg.warning.o=1}"
             }
           },
           "p=border": {
@@ -5482,7 +5486,11 @@
               "type": "color",
               "value": "{semantics.color.palette.common.none}"
             },
-            "i=hover": {
+            "i=active": {
+              "type": "color",
+              "value": "{semantics.color.palette.common.none}"
+            },
+            "i=editing": {
               "type": "color",
               "value": "{semantics.color.palette.common.none}"
             }
