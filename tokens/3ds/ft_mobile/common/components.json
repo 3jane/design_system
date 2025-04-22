@@ -690,7 +690,7 @@
           "p=paddingHorizontal": {
             "v=xs": {
               "type": "spacing",
-              "value": "{semantics.space.md}"
+              "value": "{semantics.space.lg}"
             },
             "v=sm": {
               "type": "spacing",
@@ -830,7 +830,7 @@
       "c=font": {
         "l=label": {
           "v=xs": {
-            "value": "{composites.font.label.sm.thick}",
+            "value": "{composites.font.label.md.thick}",
             "type": "typography"
           },
           "v=sm": {
