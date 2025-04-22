@@ -213,7 +213,7 @@
           },
           "o=1": {
             "type": "color",
-            "value": "rgba( {semantics.color.palette.yellow.70} , {semantics.color.palette.opacity.15} )"
+            "value": "rgba( {semantics.color.palette.yellow.70} , {semantics.color.palette.opacity.10} )"
           }
         },
         "blue": {
