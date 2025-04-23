@@ -868,88 +868,6 @@
         }
       }
     },
-    "ButtonGroup": {
-      "c=color": {
-        "t=filled": {
-          "l=container": {
-            "p=fill": {
-              "type": "color",
-              "value": "{semantics.color.palette.common.none}"
-            },
-            "p=border": {
-              "type": "color",
-              "value": "{semantics.color.palette.common.none}"
-            }
-          },
-          "l=divider": {
-            "p=border": {
-              "type": "color",
-              "value": "{semantics.color.border.neutral.o=1}"
-            }
-          }
-        },
-        "t=tonal": {
-          "l=container": {
-            "p=fill": {
-              "type": "color",
-              "value": "{semantics.color.palette.common.none}"
-            },
-            "p=border": {
-              "type": "color",
-              "value": "{semantics.color.border.neutral.o=1}"
-            }
-          },
-          "l=divider": {
-            "p=border": {
-              "type": "color",
-              "value": "{semantics.color.border.neutral.o=1}"
-            }
-          }
-        }
-      },
-      "c=size": {
-        "l=container": {
-          "p=borderRadius": {
-            "v=sm": {
-              "type": "borderRadius",
-              "value": "{semantics.size.radius.md}"
-            },
-            "v=md": {
-              "type": "borderRadius",
-              "value": "{semantics.size.radius.md}"
-            },
-            "v=lg": {
-              "type": "borderRadius",
-              "value": "{semantics.size.radius.md}"
-            }
-          },
-          "p=borderWidth": {
-            "type": "borderWidth",
-            "value": "{semantics.size.border.sm}"
-          }
-        },
-        "l=divider": {
-          "p=borderWidth": {
-            "type": "borderWidth",
-            "value": "{semantics.size.border.sm}"
-          }
-        }
-      },
-      "c=shadow": {
-        "t=filled": {
-          "l=container": {
-            "value": "{composites.noShadow}",
-            "type": "boxShadow"
-          }
-        },
-        "t=tonal": {
-          "l=container": {
-            "value": "{composites.noShadow}",
-            "type": "boxShadow"
-          }
-        }
-      }
-    },
     "Checkbox": {
       "c=color": {
         "t=checked": {
@@ -1906,16 +1824,6 @@
                 "value": "{semantics.space.none}"
               }
             }
-          }
-        }
-      }
-    },
-    "Select": {
-      "c=space": {
-        "l=container": {
-          "p=gap": {
-            "type": "spacing",
-            "value": "{semantics.space.2xs}"
           }
         }
       }
@@ -3216,26 +3124,6 @@
           "v=xl": {
             "value": "{composites.font.title.md.thin}",
             "type": "typography"
-          }
-        }
-      }
-    },
-    "AvatarGroup": {
-      "c=space": {
-        "l=container": {
-          "p=gap": {
-            "v=xs": {
-              "type": "spacing",
-              "value": "{semantics.space.-xs}"
-            },
-            "v=sm": {
-              "type": "spacing",
-              "value": "{semantics.space.-md}"
-            },
-            "v=md": {
-              "type": "spacing",
-              "value": "{semantics.space.-xl}"
-            }
           }
         }
       }

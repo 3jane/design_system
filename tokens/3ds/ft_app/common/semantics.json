@@ -1700,15 +1700,15 @@
         },
         "title": {
           "sm": {
-            "value": "{base.font.size.20px}",
-            "type": "fontSizes"
-          },
-          "md": {
             "value": "{base.font.size.24px}",
             "type": "fontSizes"
           },
-          "lg": {
+          "md": {
             "value": "{base.font.size.28px}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{base.font.size.32px}",
             "type": "fontSizes"
           }
         },
