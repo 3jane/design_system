@@ -640,6 +640,10 @@
             },
             "v=lg": {
               "type": "sizing",
+              "value": "{semantics.size.sizing.3xl}"
+            },
+            "v=xl": {
+              "type": "sizing",
               "value": "{semantics.size.sizing.4xl}"
             }
           },
@@ -657,6 +661,10 @@
               "value": "{semantics.size.radius.md}"
             },
             "v=lg": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.md}"
+            },
+            "v=xl": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.md}"
             }
@@ -703,6 +711,10 @@
             "v=lg": {
               "type": "spacing",
               "value": "{semantics.space.2xl}"
+            },
+            "v=xl": {
+              "type": "spacing",
+              "value": "{semantics.space.2xl}"
             }
           },
           "p=gap": {
@@ -719,6 +731,10 @@
               "value": "{semantics.space.sm}"
             },
             "v=lg": {
+              "type": "spacing",
+              "value": "{semantics.space.sm}"
+            },
+            "v=xl": {
               "type": "spacing",
               "value": "{semantics.space.sm}"
             }
@@ -842,6 +858,10 @@
             "type": "typography"
           },
           "v=lg": {
+            "value": "{composites.font.label.lg.thick}",
+            "type": "typography"
+          },
+          "v=xl": {
             "value": "{composites.font.label.lg.thick}",
             "type": "typography"
           }

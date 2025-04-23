@@ -628,17 +628,21 @@
           "p=height": {
             "v=xs": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.xl}"
+              "value": "{semantics.size.sizing.md}"
             },
             "v=sm": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.2xl}"
+              "value": "{semantics.size.sizing.xl}"
             },
             "v=md": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.3xl}"
+              "value": "{semantics.size.sizing.2xl}"
             },
             "v=lg": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.3xl}"
+            },
+            "v=xl": {
               "type": "sizing",
               "value": "{semantics.size.sizing.4xl}"
             }
@@ -646,7 +650,7 @@
           "p=borderRadius": {
             "v=xs": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.md}"
+              "value": "{semantics.size.radius.sm}"
             },
             "v=sm": {
               "type": "borderRadius",
@@ -657,6 +661,10 @@
               "value": "{semantics.size.radius.md}"
             },
             "v=lg": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.md}"
+            },
+            "v=xl": {
               "type": "borderRadius",
               "value": "{semantics.size.radius.md}"
             }
@@ -690,7 +698,7 @@
           "p=paddingHorizontal": {
             "v=xs": {
               "type": "spacing",
-              "value": "{semantics.space.lg}"
+              "value": "{semantics.space.md}"
             },
             "v=sm": {
               "type": "spacing",
@@ -701,6 +709,10 @@
               "value": "{semantics.space.2xl}"
             },
             "v=lg": {
+              "type": "spacing",
+              "value": "{semantics.space.2xl}"
+            },
+            "v=xl": {
               "type": "spacing",
               "value": "{semantics.space.2xl}"
             }
@@ -719,6 +731,10 @@
               "value": "{semantics.space.sm}"
             },
             "v=lg": {
+              "type": "spacing",
+              "value": "{semantics.space.sm}"
+            },
+            "v=xl": {
               "type": "spacing",
               "value": "{semantics.space.sm}"
             }
@@ -830,7 +846,7 @@
       "c=font": {
         "l=label": {
           "v=xs": {
-            "value": "{composites.font.label.md.thick}",
+            "value": "{composites.font.label.sm.thick}",
             "type": "typography"
           },
           "v=sm": {
@@ -842,6 +858,10 @@
             "type": "typography"
           },
           "v=lg": {
+            "value": "{composites.font.label.lg.thick}",
+            "type": "typography"
+          },
+          "v=xl": {
             "value": "{composites.font.label.lg.thick}",
             "type": "typography"
           }
