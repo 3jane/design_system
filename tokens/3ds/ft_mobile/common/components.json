@@ -9721,17 +9721,17 @@
               }
             },
             "v=md": {
-              "p=minHeight": {
-                "type": "sizing",
-                "value": "{semantics.size.sizing.2xl}"
+              "p=paddingHorizontal": {
+                "type": "spacing",
+                "value": "{semantics.space.lg}"
               },
-              "p=borderRadius": {
-                "type": "borderRadius",
-                "value": "{semantics.size.radius.md}"
+              "p=paddingVertical": {
+                "type": "spacing",
+                "value": "{semantics.space.2xs}"
               },
-              "p=borderWidth": {
-                "type": "borderWidth",
-                "value": "{semantics.size.border.sm}"
+              "p=gap": {
+                "type": "spacing",
+                "value": "{semantics.space.sm}"
               }
             }
           }
