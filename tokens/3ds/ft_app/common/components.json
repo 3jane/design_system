@@ -7040,6 +7040,7 @@
         },
         "c=size": {
           "l=container": {
+            "v=sm": {
             "p=minHeight": {
               "type": "sizing",
               "value": "{semantics.size.sizing.xl}"
@@ -7052,10 +7053,26 @@
               "type": "borderWidth",
               "value": "{semantics.size.border.sm}"
             }
+           },
+           "v=md": {
+            "p=minHeight": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.3xl}"
+            },
+            "p=borderRadius": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.md}"
+            },
+            "p=borderWidth": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.none}"
+            }
+           }
           }
         },
         "c=space": {
           "l=container": {
+            "v=sm": {
             "p=paddingHorizontal": {
               "type": "spacing",
               "value": "{semantics.space.md}"
@@ -7068,6 +7085,21 @@
               "type": "spacing",
               "value": "{semantics.space.md}"
             }
+          },
+          "v=md": {
+            "p=paddingHorizontal": {
+              "type": "spacing",
+              "value": "{semantics.space.xl}"
+            },
+            "p=paddingVertical": {
+              "type": "spacing",
+              "value": "{semantics.space.sm}"
+            },
+            "p=gap": {
+              "type": "spacing",
+              "value": "{semantics.space.sm}"
+            }
+          }
           }
         },
         "c=shadow": {
