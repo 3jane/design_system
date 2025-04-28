@@ -6928,6 +6928,21 @@
         },
         "c=size": {
           "l=container": {
+            "v=sm": {
+            "p=minHeight": {
+              "type": "sizing",
+              "value": "{semantics.size.sizing.xl}"
+            },
+            "p=borderRadius": {
+              "type": "borderRadius",
+              "value": "{semantics.size.radius.sm}"
+            },
+            "p=borderWidth": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.sm}"
+            }
+           },
+           "v=md": {
             "p=minHeight": {
               "type": "sizing",
               "value": "{semantics.size.sizing.3xl}"
@@ -6940,10 +6955,26 @@
               "type": "borderWidth",
               "value": "{semantics.size.border.none}"
             }
+           }
           }
         },
         "c=space": {
           "l=container": {
+            "v=sm": {
+            "p=paddingHorizontal": {
+              "type": "spacing",
+              "value": "{semantics.space.md}"
+            },
+            "p=paddingVertical": {
+              "type": "spacing",
+              "value": "{semantics.space.xs}"
+            },
+            "p=gap": {
+              "type": "spacing",
+              "value": "{semantics.space.md}"
+            }
+          },
+          "v=md": {
             "p=paddingHorizontal": {
               "type": "spacing",
               "value": "{semantics.space.xl}"
@@ -6956,6 +6987,7 @@
               "type": "spacing",
               "value": "{semantics.space.sm}"
             }
+          }
           }
         },
         "c=shadow": {
@@ -6976,7 +7008,7 @@
         },
         "c=font": {
           "l=text": {
-            "value": "{composites.font.label.lg.medium}",
+            "value": "{composites.font.label.md.medium}",
             "type": "typography"
           }
         }
@@ -6998,7 +7030,7 @@
           "l=container": {
             "p=borderRadius": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.xl}"
+              "value": "{semantics.size.radius.lg}"
             },
             "p=borderWidth": {
               "type": "borderWidth",
