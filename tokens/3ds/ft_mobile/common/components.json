@@ -5418,11 +5418,19 @@
               "type": "color",
               "value": "{semantics.color.palette.common.none}"
             },
+            "i=hover": {
+              "type": "color",
+              "value": "{semantics.color.bg.brand.o=0,5}"
+            },
             "i=active": {
               "type": "color",
               "value": "{semantics.color.bg.neutral.o=3}"
             },
-            "i=editing": {
+            "i=selected": {
+              "type": "color",
+              "value": "{semantics.color.bg.brand.o=1}"
+            },
+            "i=edited": {
               "type": "color",
               "value": "{semantics.color.bg.warning.o=1}"
             }
@@ -5432,35 +5440,21 @@
               "type": "color",
               "value": "{semantics.color.palette.common.none}"
             },
-            "i=active": {
-              "type": "color",
-              "value": "{semantics.color.palette.common.none}"
-            },
-            "i=editing": {
-              "type": "color",
-              "value": "{semantics.color.palette.common.none}"
-            }
-          }
-        },
-        "l=contentContainer": {
-          "p=fill": {
-            "i=none": {
-              "type": "color",
-              "value": "{semantics.color.palette.common.none}"
-            },
             "i=hover": {
               "type": "color",
-              "value": "{semantics.color.palette.common.none}"
-            }
-          },
-          "p=border": {
-            "i=none": {
+              "value": "{semantics.color.border.brand.a=1}"
+            },
+            "i=pressed": {
               "type": "color",
               "value": "{semantics.color.palette.common.none}"
             },
-            "i=hover": {
+            "i=selected": {
               "type": "color",
               "value": "{semantics.color.palette.common.none}"
+            },
+            "i=edited": {
+              "type": "color",
+              "value": "{semantics.color.border.warning.a=1}"
             }
           }
         },
@@ -5468,6 +5462,16 @@
           "p=color": {
             "type": "color",
             "value": "{semantics.color.text.neutral.a=1}"
+          }
+        },
+        "l=actionsContainer": {
+          "p=fill": {
+            "type": "color",
+            "value": "{semantics.color.bg.neutral.tooltip}"
+          },
+          "p=border": {
+            "type": "color",
+            "value": "{semantics.color.border.neutral.o=1}"
           }
         },
         "l=body": {
@@ -5490,15 +5494,15 @@
             },
             "i=hover": {
               "type": "color",
-              "value": "{semantics.color.text.brand.a=1}"
+              "value": "{semantics.color.text.neutral.a=1}"
             },
             "i=active": {
               "type": "color",
-              "value": "{semantics.color.text.brand.a=1}"
+              "value": "{semantics.color.text.neutral.a=1}"
             },
             "i=focus": {
               "type": "color",
-              "value": "{semantics.color.text.brand.a=1}"
+              "value": "{semantics.color.text.neutral.a=1}"
             }
           }
         },
@@ -5519,7 +5523,7 @@
         "l=mainContainer": {
           "p=borderWidthLeft": {
             "type": "borderWidth",
-            "value": "{semantics.size.border.xl}"
+            "value": "{semantics.size.border.lg}"
           },
           "p=borderWidthRight": {
             "type": "borderWidth",
@@ -5552,6 +5556,22 @@
             "value": "{semantics.size.radius.none}"
           }
         },
+        "l=senderContainer": {
+          "p=height": {
+            "type": "sizing",
+            "value": "{semantics.size.sizing.md}"
+          }
+        },
+        "l=actionsContainer": {
+          "p=borderWidth": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.sm}"
+          },
+          "p=borderRadius": {
+            "type": "borderRadius",
+            "value": "{semantics.size.radius.lg}"
+          }
+        },
         "l=reasoningLine": {
           "p=width": {
             "type": "sizing",
@@ -5581,15 +5601,37 @@
           },
           "p=paddingLeft": {
             "type": "spacing",
-            "value": "{semantics.space.4xl}"
+            "value": "{semantics.space.3xl}"
           },
           "p=paddingRight": {
             "type": "spacing",
-            "value": "{semantics.space.4xl}"
+            "value": "{semantics.space.3xl}"
           },
           "p=gap": {
             "type": "spacing",
             "value": "{semantics.space.xl}"
+          }
+        },
+        "l=actionsContainer": {
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.xs}"
+          },
+          "p=paddingTop": {
+            "type": "spacing",
+            "value": "{semantics.space.xs}"
+          },
+          "p=paddingBottom": {
+            "type": "spacing",
+            "value": "{semantics.space.xs}"
+          },
+          "p=paddingLeft": {
+            "type": "spacing",
+            "value": "{semantics.space.xs}"
+          },
+          "p=paddingRight": {
+            "type": "spacing",
+            "value": "{semantics.space.xs}"
           }
         },
         "l=contentContainer": {
@@ -5623,11 +5665,11 @@
         "l=timeIndicatorContainer": {
           "p=paddingTop": {
             "type": "spacing",
-            "value": "{semantics.space.3xs}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingBottom": {
             "type": "spacing",
-            "value": "{semantics.space.none}"
+            "value": "{semantics.space.3xs}"
           }
         },
         "l=attachmentContainer": {
@@ -5696,6 +5738,10 @@
         },
         "l=contentContainer": {
           "value": "{composites.noShadow}",
+          "type": "boxShadow"
+        },
+        "l=actionsContainer": {
+          "value": "{composites.dropShadow.down.xs}",
           "type": "boxShadow"
         }
       }

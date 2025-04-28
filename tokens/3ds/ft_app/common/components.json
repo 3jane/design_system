@@ -5474,9 +5474,17 @@
               "type": "color",
               "value": "{semantics.color.bg.brand.o=0,5}"
             },
+            "i=active": {
+              "type": "color",
+              "value": "{semantics.color.bg.neutral.o=3}"
+            },
             "i=selected": {
               "type": "color",
               "value": "{semantics.color.bg.brand.o=1}"
+            },
+            "i=edited": {
+              "type": "color",
+              "value": "{semantics.color.bg.warning.o=1}"
             }
           },
           "p=border": {
@@ -5488,39 +5496,17 @@
               "type": "color",
               "value": "{semantics.color.border.brand.a=1}"
             },
-            "i=selected": {
-              "type": "color",
-              "value": "{semantics.color.palette.common.none}"
-            }
-          }
-        },
-        "l=contentContainer": {
-          "p=fill": {
-            "i=none": {
-              "type": "color",
-              "value": "{semantics.color.palette.common.none}"
-            },
-            "i=hover": {
+            "i=pressed": {
               "type": "color",
               "value": "{semantics.color.palette.common.none}"
             },
             "i=selected": {
               "type": "color",
               "value": "{semantics.color.palette.common.none}"
-            }
-          },
-          "p=border": {
-            "i=none": {
-              "type": "color",
-              "value": "{semantics.color.palette.common.none}"
             },
-            "i=hover": {
+            "i=edited": {
               "type": "color",
-              "value": "{semantics.color.palette.common.none}"
-            },
-            "i=selected": {
-              "type": "color",
-              "value": "{semantics.color.palette.common.none}"
+              "value": "{semantics.color.border.warning.a=1}"
             }
           }
         },
@@ -5560,15 +5546,15 @@
             },
             "i=hover": {
               "type": "color",
-              "value": "{semantics.color.text.brand.a=1}"
+              "value": "{semantics.color.text.neutral.a=1}"
             },
             "i=active": {
               "type": "color",
-              "value": "{semantics.color.text.brand.a=1}"
+              "value": "{semantics.color.text.neutral.a=1}"
             },
             "i=focus": {
               "type": "color",
-              "value": "{semantics.color.text.brand.a=1}"
+              "value": "{semantics.color.text.neutral.a=1}"
             }
           }
         },
