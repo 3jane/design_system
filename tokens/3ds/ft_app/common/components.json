@@ -5598,14 +5598,6 @@
           "p=maxWidth": {
             "type": "sizing",
             "value": "720"
-          },
-          "p=borderWidth": {
-            "type": "borderWidth",
-            "value": "{semantics.size.border.none}"
-          },
-          "p=borderRadius": {
-            "type": "borderRadius",
-            "value": "{semantics.size.radius.none}"
           }
         },
         "l=senderContainer": {
