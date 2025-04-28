@@ -9786,9 +9786,24 @@
         },
         "c=size": {
           "l=container": {
+            "v=sm": {
+              "p=minHeight": {
+                "type": "sizing",
+                "value": "{semantics.size.sizing.xl}"
+              },
+              "p=borderRadius": {
+                "type": "borderRadius",
+                "value": "{semantics.size.radius.md}"
+              },
+              "p=borderWidth": {
+                "type": "borderWidth",
+                "value": "{semantics.size.border.sm}"
+              }
+          },
+          "v=md": {
             "p=minHeight": {
               "type": "sizing",
-              "value": "{semantics.size.sizing.xl}"
+              "value": "{semantics.size.sizing.2xl}"
             },
             "p=borderRadius": {
               "type": "borderRadius",
@@ -9799,20 +9814,37 @@
               "value": "{semantics.size.border.sm}"
             }
           }
+          }
         },
         "c=space": {
           "l=container": {
-            "p=paddingHorizontal": {
-              "type": "spacing",
-              "value": "{semantics.space.md}"
+            "v=sm": {
+              "p=paddingHorizontal": {
+                "type": "spacing",
+                "value": "{semantics.space.md}"
+              },
+              "p=paddingVertical": {
+                "type": "spacing",
+                "value": "{semantics.space.2xs}"
+              },
+              "p=gap": {
+                "type": "spacing",
+                "value": "{semantics.space.sm}"
+              }
             },
-            "p=paddingVertical": {
-              "type": "spacing",
-              "value": "{semantics.space.2xs}"
-            },
-            "p=gap": {
-              "type": "spacing",
-              "value": "{semantics.space.sm}"
+            "v=md": {
+              "p=minHeight": {
+                "type": "sizing",
+                "value": "{semantics.size.sizing.2xl}"
+              },
+              "p=borderRadius": {
+                "type": "borderRadius",
+                "value": "{semantics.size.radius.md}"
+              },
+              "p=borderWidth": {
+                "type": "borderWidth",
+                "value": "{semantics.size.border.sm}"
+              }
             }
           }
         },
