@@ -3328,16 +3328,20 @@
     },
     "CodeBLock": {
       "c=color": {
-        "l=codeBlock": {
+        "l=controlPanel": {
           "p=fill": {
-            "i=none": {
+            "type": "color",
+            "value": "{semantics.color.palette.common.none}"
+          },
+          "p=border": {
+            "type": "color",
+            "value": "{semantics.color.palette.common.none}"
+          }
+        },
+        "l=codeFrame": {
+          "p=fill": {
             "type": "color",
             "value": "{semantics.color.bg.neutral.l=2}"
-            },
-            "i=pressed": {
-              "type": "color",
-              "value": "{semantics.color.bg.neutral.l=3}"
-            }
           }
         },
         "l=code": {
@@ -3379,9 +3383,41 @@
             "type": "borderRadius",
             "value": "{semantics.size.radius.none}"
           }
+        },
+        "l=controlPanel": {
+          "p=height": {
+            "type": "sizing",
+            "value": "{semantics.size.sizing.2xl}"
+          },
+          "p=borderWidthBotom": {
+            "type": "borderWidth",
+            "value": "{semantics.size.border.none}"
+          }
         }
       },
       "c=space": {
+        "l=controlPanel": {
+          "p=paddingLeft": {
+            "type": "spacing",
+            "value": "{semantics.space.2xl}"
+          },
+          "p=paddingRight": {
+            "type": "spacing",
+            "value": "{semantics.space.2xs}"
+          },
+          "p=paddingTop": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          },
+          "p=paddingBottom": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          },
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          }
+        },
         "l=codeFrame": {
           "p=paddingLeft": {
             "type": "spacing",

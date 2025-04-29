@@ -3328,16 +3328,6 @@
     },
     "CodeBLock": {
       "c=color": {
-        "l=codeBlock": {
-          "p=fill": {
-            "type": "color",
-            "value": "{semantics.color.bg.neutral.l=1}"
-          },
-          "p=border": {
-            "type": "color",
-            "value": "{semantics.color.palette.common.none}"
-          }
-        },
         "l=controlPanel": {
           "p=fill": {
             "type": "color",
@@ -3450,6 +3440,14 @@
           "p=paddingBottom": {
             "type": "spacing",
             "value": "{semantics.space.2xl}"
+          },
+          "p=marginTop": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
+          },
+          "p=marginBottom": {
+            "type": "spacing",
+            "value": "{semantics.space.none}"
           }
         }
       },
