@@ -4791,10 +4791,10 @@
               "type": "color",
               "value": "{semantics.color.bg.neutral.l=1}"
               },
-              "i=pressed": {
+              "i=active": {
                 "type": "color",
                 "value": "{semantics.color.bg.neutral.l=2}"
-                }
+              }
             },
             "p=border": {
               "type": "color",
@@ -4835,6 +4835,20 @@
             "p=marginBottom": {
               "type": "spacing",
               "value": "{semantics.space.lg}"
+            }
+          },
+          "l=actionsContainer": {
+            "p=paddingVertical": {
+              "type": "spacing",
+              "value": "{semantics.space.xs}"
+            },
+            "p=paddingHorizontal": {
+              "type": "spacing",
+              "value": "{semantics.space.xs}"
+            },
+            "p=gap": {
+              "type": "spacing",
+              "value": "{semantics.space.xs}"
             }
           }
         },

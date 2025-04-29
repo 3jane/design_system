@@ -4831,8 +4831,14 @@
         "c=color": {
           "l=container": {
             "p=fill": {
+              "i=none": {
               "type": "color",
               "value": "{semantics.color.bg.neutral.l=1}"
+              },
+              "i=active": {
+                "type": "color",
+                "value": "{semantics.color.bg.neutral.l=2}"
+              }
             },
             "p=border": {
               "type": "color",
