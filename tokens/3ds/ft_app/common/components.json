@@ -5484,7 +5484,7 @@
             },
             "i=edited": {
               "type": "color",
-              "value": "{semantics.color.bg.warning.o=1}"
+              "value": "{semantics.color.bg.warning.o=0,5}"
             }
           },
           "p=border": {
