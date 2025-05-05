@@ -7028,7 +7028,7 @@
             },
             "p=borderRadius": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.sm}"
+              "value": "{semantics.size.radius.xs}"
             },
             "p=borderWidth": {
               "type": "borderWidth",
@@ -7092,7 +7092,7 @@
           "l=container": {
             "p=borderRadius": {
               "type": "borderRadius",
-              "value": "{semantics.size.radius.lg}"
+              "value": "{semantics.size.radius.md}"
             },
             "p=borderWidth": {
               "type": "borderWidth",
