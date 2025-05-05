@@ -3393,7 +3393,7 @@
         "l=controlPanel": {
           "p=height": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.2xl}"
+            "value": "{semantics.size.sizing.3xl}"
           },
           "p=borderWidthBotom": {
             "type": "borderWidth",
