@@ -3331,7 +3331,7 @@
         "l=controlPanel": {
           "p=fill": {
             "type": "color",
-            "value": "{semantics.color.palette.common.none}"
+            "value": "{semantics.color.bg.neutral.l=3}"
           },
           "p=border": {
             "type": "color",
@@ -3371,6 +3371,12 @@
               "value": "{semantics.color.text.warning.a=1}"
             }
           }
+        },
+        "l=languageIndicator": {
+          "p=color": {
+            "type": "color",
+            "value": "{semantics.color.text.neutral.a=3}"
+          }
         }
       },
       "c=size": {
@@ -3399,11 +3405,11 @@
         "l=controlPanel": {
           "p=paddingLeft": {
             "type": "spacing",
-            "value": "{semantics.space.2xl}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingRight": {
             "type": "spacing",
-            "value": "{semantics.space.2xs}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingTop": {
             "type": "spacing",
@@ -3416,6 +3422,12 @@
           "p=gap": {
             "type": "spacing",
             "value": "{semantics.space.none}"
+          }
+        },
+        "l=languageIndicator": {
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.sm}"
           }
         },
         "l=codeFrame": {
@@ -3447,11 +3459,11 @@
       },
       "c=font": {
         "l=code": {
-          "value": "{composites.font.code.sm}",
+          "value": "{composites.font.code.md}",
           "type": "typography"
         },
         "l=languageIndicator": {
-          "value": "{composites.font.code.sm}",
+          "value": "{composites.font.code.md}",
           "type": "typography"
         }
       }

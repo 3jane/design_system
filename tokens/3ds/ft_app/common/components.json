@@ -3449,6 +3449,12 @@
             "type": "spacing",
             "value": "{semantics.space.none}"
           }
+        },
+        "l=languageIndicator": {
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.sm}"
+          }
         }
       },
       "c=font": {
