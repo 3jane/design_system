@@ -4579,11 +4579,11 @@
             "p=height": {
               "v=sm": {
                 "type": "sizing",
-                "value": "{semantics.size.sizing.md}"
+                "value": "{semantics.size.sizing.lg}"
               },
               "v=lg": {
                 "type": "sizing",
-                "value": "{semantics.size.sizing.lg}"
+                "value": "{semantics.size.sizing.xl}"
               }
             },
             "p=borderWidthRight": {
@@ -4653,11 +4653,11 @@
             "p=height": {
               "v=sm": {
                 "type": "sizing",
-                "value": "{semantics.size.sizing.md}"
+                "value": "{semantics.size.sizing.lg}"
               },
               "v=lg": {
                 "type": "sizing",
-                "value": "{semantics.size.sizing.lg}"
+                "value": "{semantics.size.sizing.xl}"
               }
             },
             "p=borderWidthRight": {
