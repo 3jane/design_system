@@ -3455,6 +3455,16 @@
             "type": "spacing",
             "value": "{semantics.space.lg}"
           }
+        },
+        "l=codeBlock": {
+          "p=marginTop": {
+            "type": "spacing",
+            "value": "{semantics.space.lg}"
+          },
+          "p=marginBottom": {
+            "type": "spacing",
+            "value": "{semantics.space.lg}"
+          }
         }
       },
       "c=font": {

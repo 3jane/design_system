@@ -3424,6 +3424,12 @@
             "value": "{semantics.space.none}"
           }
         },
+        "l=languageIndicator": {
+          "p=gap": {
+            "type": "spacing",
+            "value": "{semantics.space.sm}"
+          }
+        },
         "l=codeFrame": {
           "p=paddingLeft": {
             "type": "spacing",
@@ -3450,10 +3456,14 @@
             "value": "{semantics.space.none}"
           }
         },
-        "l=languageIndicator": {
-          "p=gap": {
+        "l=codeBlock": {
+          "p=marginTop": {
             "type": "spacing",
-            "value": "{semantics.space.sm}"
+            "value": "{semantics.space.lg}"
+          },
+          "p=marginBottom": {
+            "type": "spacing",
+            "value": "{semantics.space.lg}"
           }
         }
       },
