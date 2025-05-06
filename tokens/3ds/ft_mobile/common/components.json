@@ -5518,7 +5518,7 @@
             },
             "i=edited": {
               "type": "color",
-              "value": "{semantics.color.border.warning.a=1}"
+              "value": "{semantics.color.palette.common.none}"
             }
           }
         },
@@ -5587,7 +5587,7 @@
         "l=mainContainer": {
           "p=borderWidthLeft": {
             "type": "borderWidth",
-            "value": "{semantics.size.border.lg}"
+            "value": "{semantics.size.border.none}"
           },
           "p=borderWidthRight": {
             "type": "borderWidth",
