@@ -3446,14 +3446,6 @@
           "p=paddingBottom": {
             "type": "spacing",
             "value": "{semantics.space.xl}"
-          },
-          "p=marginTop": {
-            "type": "spacing",
-            "value": "{semantics.space.lg}"
-          },
-          "p=marginBottom": {
-            "type": "spacing",
-            "value": "{semantics.space.lg}"
           }
         },
         "l=codeBlock": {
