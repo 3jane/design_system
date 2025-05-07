@@ -5356,7 +5356,7 @@
       "c=color": {
         "p=fill": {
           "type": "color",
-          "value": "{semantics.color.bg.stable.darkOpacity}"
+          "value": "{semantics.color.bg.stable.blackOpacity}"
         }
       },
       "c=backgroundBlur": {
