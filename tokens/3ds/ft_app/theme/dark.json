@@ -295,9 +295,13 @@
             "type": "color",
             "value": "{semantics.color.palette.neutral.30}"
           },
+          "blackOpacity": {
+            "type": "color",
+            "value": "rgba({semantics.color.palette.common.black}, {semantics.color.palette.opacity.50})"
+          },
           "darkOpacity": {
             "type": "color",
-            "value": "rgba({semantics.color.palette.common.black}, {semantics.color.palette.opacity.40})"
+            "value": "rgba({semantics.color.palette.neutral.15}, {semantics.color.palette.opacity.50})"
           }
         }
       },
