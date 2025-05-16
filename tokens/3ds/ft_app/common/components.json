@@ -5693,7 +5693,7 @@
         "l=contentContainer": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.xs}"
+            "value": "{semantics.space.none}"
           },
           "p=paddingTop": {
             "type": "spacing",
@@ -5716,6 +5716,10 @@
           "p=gap": {
             "type": "spacing",
             "value": "{semantics.space.lg}"
+          },
+          "p=paddingBottom": {
+            "type": "spacing",
+            "value": "{semantics.space.xs}"
           }
         },
         "l=senderContainer": {
