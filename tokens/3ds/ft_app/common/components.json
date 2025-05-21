@@ -5657,11 +5657,11 @@
           },
           "p=paddingLeft": {
             "type": "spacing",
-            "value": "{semantics.space.3xl}"
+            "value": "{semantics.space.10xl}"
           },
           "p=paddingRight": {
             "type": "spacing",
-            "value": "{semantics.space.3xl}"
+            "value": "{semantics.space.10xl}"
           },
           "p=gap": {
             "type": "spacing",

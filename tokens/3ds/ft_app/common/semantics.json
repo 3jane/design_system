@@ -232,6 +232,26 @@
       "5xl": {
         "value": "{base.space.32px}",
         "type": "spacing"
+      },
+      "6xl": {
+        "value": "{base.space.36px}",
+        "type": "spacing"
+      },
+      "7xl": {
+        "value": "{base.space.40px}",
+        "type": "spacing"
+      },
+      "8xl": {
+        "value": "{base.space.44px}",
+        "type": "spacing"
+      },
+      "9xl": {
+        "value": "{base.space.48px}",
+        "type": "spacing"
+      },
+      "10xl": {
+        "value": "{base.space.52px}",
+        "type": "spacing"
       }
     },
     "color": {
