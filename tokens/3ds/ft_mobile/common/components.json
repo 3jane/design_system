@@ -4715,7 +4715,7 @@
               },
               "p=border": {
                 "type": "color",
-                "value": "{semantics.color.border.neutral.o=1}"
+                "value": "{semantics.color.border.neutral.l=1}"
               }
             }
           },
@@ -4727,7 +4727,7 @@
               },
               "p=border": {
                 "type": "color",
-                "value": "{semantics.color.border.neutral.o=1}"
+                "value": "{semantics.color.border.neutral.l=1}"
               }
             }
           },
@@ -4739,7 +4739,7 @@
               },
               "p=border": {
                 "type": "color",
-                "value": "{semantics.color.border.neutral.o=1}"
+                "value": "{semantics.color.border.neutral.l=1}"
               }
             }
           }
@@ -4758,11 +4758,11 @@
           "l=container": {
             "p=fill": {
               "type": "color",
-              "value": "{semantics.color.bg.neutral.o=3}"
+              "value": "{semantics.color.bg.neutral.tableHead}"
             },
             "p=border": {
               "type": "color",
-              "value": "{semantics.color.border.neutral.o=1}"
+              "value": "{semantics.color.border.neutral.l=1}"
             }
           }
         },
@@ -4771,6 +4771,74 @@
             "p=borderWidthBottom": {
               "type": "borderWidth",
               "value": "{semantics.size.border.sm}"
+            }
+          }
+        }
+      },
+      "Controls": {
+        "c=color": {
+          "l=container": {
+            "p=fill": {
+              "type": "color",
+              "value": "{semantics.color.bg.neutral.tableControls}"
+            },
+            "p=border": {
+              "type": "color",
+              "value": "{semantics.color.border.neutral.l=1}"
+            }
+          }
+        },
+        "c=size": {
+          "l=container": {
+            "p=height": {
+              "v=sm": {
+                "type": "sizing",
+                "value": "{semantics.size.sizing.lg}"
+              },
+              "v=lg": {
+                "type": "sizing",
+                "value": "{semantics.size.sizing.xl}"
+              }
+            },
+            "p=borderWidthBottom": {
+              "type": "borderWidth",
+              "value": "{semantics.size.border.sm}"
+            }
+          }
+        },
+        "c=space": {
+          "l=container": {
+            "p=paddingLeft": {
+              "v=sm": {
+                "type": "spacing",
+                "value": "{semantics.space.none}"
+              },
+              "v=lg": {
+                "type": "spacing",
+                "value": "{semantics.space.none}"
+              }
+            },
+            "p=paddingRight": {
+              "v=sm": {
+                "type": "spacing",
+                "value": "{semantics.space.none}"
+              },
+              "v=lg": {
+                "type": "spacing",
+                "value": "{semantics.space.none}"
+              }
+            }
+          },
+          "l=actions": {
+            "p=gap": {
+              "v=sm": {
+                "type": "spacing",
+                "value": "{semantics.space.md}"
+              },
+              "v=lg": {
+                "type": "spacing",
+                "value": "{semantics.space.md}"
+              }
             }
           }
         }
@@ -4837,18 +4905,12 @@
         "c=color": {
           "l=container": {
             "p=fill": {
-              "i=none": {
               "type": "color",
-              "value": "{semantics.color.bg.neutral.l=1}"
-              },
-              "i=active": {
-                "type": "color",
-                "value": "{semantics.color.bg.neutral.l=2}"
-              }
+              "value": "{semantics.color.palette.common.none}"
             },
             "p=border": {
               "type": "color",
-              "value": "{semantics.color.border.neutral.o=1}"
+              "value": "{semantics.color.palette.common.none}"
             }
           }
         },
@@ -4860,19 +4922,19 @@
             },
             "p=borderWidthTop": {
               "type": "borderWidth",
-              "value": "{semantics.size.border.sm}"
+              "value": "{semantics.size.border.none}"
             },
             "p=borderWidthBottom": {
               "type": "borderWidth",
-              "value": "{semantics.size.border.sm}"
+              "value": "{semantics.size.border.none}"
             },
             "p=borderWidthLeft": {
               "type": "borderWidth",
-              "value": "{semantics.size.border.sm}"
+              "value": "{semantics.size.border.none}"
             },
             "p=borderWidthRight": {
               "type": "borderWidth",
-              "value": "{semantics.size.border.sm}"
+              "value": "{semantics.size.border.none}"
             }
           }
         },
