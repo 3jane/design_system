@@ -4673,21 +4673,21 @@
             "p=paddingLeft": {
               "v=sm": {
                 "type": "spacing",
-                "value": "{semantics.space.lg}"
+                "value": "{semantics.space.none}"
               },
               "v=lg": {
                 "type": "spacing",
-                "value": "{semantics.space.xl}"
+                "value": "{semantics.space.none}"
               }
             },
             "p=paddingRight": {
               "v=sm": {
                 "type": "spacing",
-                "value": "{semantics.space.lg}"
+                "value": "{semantics.space.none}"
               },
               "v=lg": {
                 "type": "spacing",
-                "value": "{semantics.space.xl}"
+                "value": "{semantics.space.none}"
               }
             }
           }
