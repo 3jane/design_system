@@ -263,6 +263,10 @@
         "value": "-56",
         "type": "spacing"
       },
+      "-52px": {
+        "value": "-52",
+        "type": "spacing"
+      },
       "-48px": {
         "value": "-48",
         "type": "spacing"
@@ -409,6 +413,10 @@
       },
       "48px": {
         "value": "48",
+        "type": "spacing"
+      },
+      "52px": {
+        "value": "52",
         "type": "spacing"
       },
       "56px": {
