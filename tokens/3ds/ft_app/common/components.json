@@ -4811,21 +4811,21 @@
             "p=paddingLeft": {
               "v=sm": {
                 "type": "spacing",
-                "value": "{semantics.space.sm}"
+                "value": "{semantics.space.xs}"
               },
               "v=lg": {
                 "type": "spacing",
-                "value": "{semantics.space.sm}"
+                "value": "{semantics.space.xs}"
               }
             },
             "p=paddingRight": {
               "v=sm": {
                 "type": "spacing",
-                "value": "{semantics.space.sm}"
+                "value": "{semantics.space.xs}"
               },
               "v=lg": {
                 "type": "spacing",
-                "value": "{semantics.space.sm}"
+                "value": "{semantics.space.xs}"
               }
             }
           },
