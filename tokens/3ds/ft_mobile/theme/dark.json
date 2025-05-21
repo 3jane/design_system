@@ -58,6 +58,14 @@
           "tooltip": {
             "type": "color",
             "value": "{semantics.color.palette.neutral.20}"
+          },
+          "tableHead": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.13}"
+          },
+          "tableControls": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.10}"
           }
         },
         "brand": {
