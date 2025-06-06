@@ -4833,11 +4833,11 @@
             "p=gap": {
               "v=sm": {
                 "type": "spacing",
-                "value": "{semantics.space.2xs}"
+                "value": "{semantics.space.none}"
               },
               "v=lg": {
                 "type": "spacing",
-                "value": "{semantics.space.2xs}"
+                "value": "{semantics.space.none}"
               }
             }
           }
