@@ -3393,7 +3393,7 @@
         "l=controlPanel": {
           "p=height": {
             "type": "sizing",
-            "value": "{semantics.size.sizing.2xl}"
+            "value": "{semantics.size.sizing.3xl}"
           },
           "p=borderWidthBotom": {
             "type": "borderWidth",
@@ -3409,7 +3409,7 @@
           },
           "p=paddingRight": {
             "type": "spacing",
-            "value": "{semantics.space.2xs}"
+            "value": "{semantics.space.xs}"
           },
           "p=paddingTop": {
             "type": "spacing",
@@ -3427,7 +3427,7 @@
         "l=languageIndicator": {
           "p=gap": {
             "type": "spacing",
-            "value": "{semantics.space.sm}"
+            "value": "{semantics.space.md}"
           }
         },
         "l=codeFrame": {
