@@ -311,6 +311,64 @@
             "type": "color",
             "value": "rgba({semantics.color.palette.neutral.15}, {semantics.color.palette.opacity.50})"
           }
+        },
+        "presetAvatar": {
+          "neutral": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.10}"
+          },
+          "red": {
+            "type": "color",
+            "value": "{semantics.color.palette.red.50}"
+          },
+          "orange": {
+            "type": "color",
+            "value": "{semantics.color.palette.orange.55}"
+          },
+          "yellow": {
+            "type": "color",
+            "value": "{semantics.color.palette.yellow.65}"
+          },
+          "moss": {
+            "type": "color",
+            "value": "{semantics.color.palette.moss.65}"
+          },
+          "green": {
+            "type": "color",
+            "value": "{semantics.color.palette.green.60}"
+          },
+          "cyan": {
+            "type": "color",
+            "value": "{semantics.color.palette.cyan.55}"
+          },
+          "blue": {
+            "type": "color",
+            "value": "{semantics.color.palette.blue.55}"
+          },
+          "indigo": {
+            "type": "color",
+            "value": "{semantics.color.palette.indigo.50}"
+          },
+          "violet": {
+            "type": "color",
+            "value": "{semantics.color.palette.brand.45}"
+          },
+          "purple": {
+            "type": "color",
+            "value": "{semantics.color.palette.purple.50}"
+          },
+          "magenta": {
+            "type": "color",
+            "value": "{semantics.color.palette.brand3.50}"
+          },
+          "pink": {
+            "type": "color",
+            "value": "{semantics.color.palette.brand2.50}"
+          },
+          "rose": {
+            "type": "color",
+            "value": "{semantics.color.palette.rose.55}"
+          }  
         }
       },
       "border": {
