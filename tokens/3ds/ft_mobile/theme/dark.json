@@ -311,64 +311,6 @@
             "type": "color",
             "value": "rgba({semantics.color.palette.neutral.15}, {semantics.color.palette.opacity.50})"
           }
-        },
-        "presetAvatar": {
-          "neutral": {
-            "type": "color",
-            "value": "{semantics.color.palette.neutral.10}"
-          },
-          "red": {
-            "type": "color",
-            "value": "{semantics.color.palette.red.50}"
-          },
-          "orange": {
-            "type": "color",
-            "value": "{semantics.color.palette.orange.55}"
-          },
-          "yellow": {
-            "type": "color",
-            "value": "{semantics.color.palette.yellow.65}"
-          },
-          "moss": {
-            "type": "color",
-            "value": "{semantics.color.palette.moss.65}"
-          },
-          "green": {
-            "type": "color",
-            "value": "{semantics.color.palette.green.60}"
-          },
-          "cyan": {
-            "type": "color",
-            "value": "{semantics.color.palette.cyan.55}"
-          },
-          "blue": {
-            "type": "color",
-            "value": "{semantics.color.palette.blue.55}"
-          },
-          "indigo": {
-            "type": "color",
-            "value": "{semantics.color.palette.indigo.50}"
-          },
-          "violet": {
-            "type": "color",
-            "value": "{semantics.color.palette.brand.45}"
-          },
-          "purple": {
-            "type": "color",
-            "value": "{semantics.color.palette.purple.50}"
-          },
-          "magenta": {
-            "type": "color",
-            "value": "{semantics.color.palette.brand3.50}"
-          },
-          "pink": {
-            "type": "color",
-            "value": "{semantics.color.palette.brand2.50}"
-          },
-          "rose": {
-            "type": "color",
-            "value": "{semantics.color.palette.rose.55}"
-          }  
         }
       },
       "border": {
@@ -800,6 +742,148 @@
             "value": "linear-gradient (45deg, {semantics.color.palette.indigo.50} 0%, {semantics.color.palette.rose.70} 100%)"
           }
         }
+      },
+      "presetAvatar": {
+        "neutral": {
+          "bg": {
+          "type": "color",
+          "value": "{semantics.color.palette.neutral.10}"
+          },
+          "icon": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.97}"
+          }
+        },
+        "red": {
+          "bg": {
+          "type": "color",
+          "value": "{semantics.color.palette.red.50}"
+          },
+          "icon": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.97}"
+          }
+        },
+        "orange": {
+          "bg": {
+          "type": "color",
+          "value": "{semantics.color.palette.orange.55}"
+          },
+          "icon": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.97}"
+          }
+        },
+        "yellow": {
+          "bg": {
+          "type": "color",
+          "value": "{semantics.color.palette.yellow.65}"
+          },
+          "icon": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.97}"
+          }
+        },
+        "moss": {
+          "bg": {
+          "type": "color",
+          "value": "{semantics.color.palette.moss.65}"
+          },
+          "icon": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.97}"
+          }
+        },
+        "green": {
+          "bg": {
+          "type": "color",
+          "value": "{semantics.color.palette.green.60}"
+          },
+          "icon": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.97}"
+          }
+        },
+        "cyan": {
+          "bg": {
+          "type": "color",
+          "value": "{semantics.color.palette.cyan.55}"
+          },
+          "icon": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.97}"
+          }
+        },
+        "blue": {
+          "bg": {
+          "type": "color",
+          "value": "{semantics.color.palette.blue.55}"
+          },
+          "icon": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.97}"
+          }
+        },
+        "indigo": {
+          "bg": {
+          "type": "color",
+          "value": "{semantics.color.palette.indigo.50}"
+          },
+          "icon": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.97}"
+          }
+        },
+        "violet": {
+          "bg": {
+          "type": "color",
+          "value": "{semantics.color.palette.brand.45}"
+          },
+          "icon": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.97}"
+          }
+        },
+        "purple": {
+          "bg": {
+          "type": "color",
+          "value": "{semantics.color.palette.purple.50}"
+          },
+          "icon": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.97}"
+          }
+        },
+        "magenta": {
+          "bg": {
+          "type": "color",
+          "value": "{semantics.color.palette.brand3.50}"
+          },
+          "icon": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.97}"
+          }
+        },
+        "pink": {
+          "bg": {
+          "type": "color",
+          "value": "{semantics.color.palette.brand2.50}"
+          },
+          "icon": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.97}"
+          }
+        },
+        "rose": {
+          "bg": {
+          "type": "color",
+          "value": "{semantics.color.palette.rose.55}"
+          },
+          "icon": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.97}"
+          }
+        }  
       }
     }
   }
