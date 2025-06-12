@@ -747,17 +747,17 @@
         "neutral": {
           "bg": {
           "type": "color",
-          "value": "{semantics.color.palette.neutral.10}"
+          "value": "{semantics.color.palette.neutral.95}"
           },
           "icon": {
             "type": "color",
-            "value": "{semantics.color.palette.neutral.97}"
+            "value": "{semantics.color.palette.neutral.5}"
           }
         },
         "red": {
           "bg": {
           "type": "color",
-          "value": "{semantics.color.palette.red.50}"
+          "value": "{semantics.color.palette.red.55}"
           },
           "icon": {
             "type": "color",
@@ -767,7 +767,7 @@
         "orange": {
           "bg": {
           "type": "color",
-          "value": "{semantics.color.palette.orange.55}"
+          "value": "{semantics.color.palette.orange.60}"
           },
           "icon": {
             "type": "color",
@@ -777,7 +777,7 @@
         "yellow": {
           "bg": {
           "type": "color",
-          "value": "{semantics.color.palette.yellow.65}"
+          "value": "{semantics.color.palette.yellow.70}"
           },
           "icon": {
             "type": "color",
@@ -787,7 +787,7 @@
         "moss": {
           "bg": {
           "type": "color",
-          "value": "{semantics.color.palette.moss.65}"
+          "value": "{semantics.color.palette.moss.70}"
           },
           "icon": {
             "type": "color",
@@ -797,7 +797,7 @@
         "green": {
           "bg": {
           "type": "color",
-          "value": "{semantics.color.palette.green.60}"
+          "value": "{semantics.color.palette.green.65}"
           },
           "icon": {
             "type": "color",
@@ -807,7 +807,7 @@
         "cyan": {
           "bg": {
           "type": "color",
-          "value": "{semantics.color.palette.cyan.55}"
+          "value": "{semantics.color.palette.cyan.60}"
           },
           "icon": {
             "type": "color",
@@ -817,7 +817,7 @@
         "blue": {
           "bg": {
           "type": "color",
-          "value": "{semantics.color.palette.blue.55}"
+          "value": "{semantics.color.palette.blue.60}"
           },
           "icon": {
             "type": "color",
@@ -827,7 +827,7 @@
         "indigo": {
           "bg": {
           "type": "color",
-          "value": "{semantics.color.palette.indigo.50}"
+          "value": "{semantics.color.palette.indigo.55}"
           },
           "icon": {
             "type": "color",
@@ -837,7 +837,7 @@
         "violet": {
           "bg": {
           "type": "color",
-          "value": "{semantics.color.palette.brand.45}"
+          "value": "{semantics.color.palette.brand.50}"
           },
           "icon": {
             "type": "color",
@@ -847,7 +847,7 @@
         "purple": {
           "bg": {
           "type": "color",
-          "value": "{semantics.color.palette.purple.50}"
+          "value": "{semantics.color.palette.purple.55}"
           },
           "icon": {
             "type": "color",
@@ -857,7 +857,7 @@
         "magenta": {
           "bg": {
           "type": "color",
-          "value": "{semantics.color.palette.brand3.50}"
+          "value": "{semantics.color.palette.brand3.55}"
           },
           "icon": {
             "type": "color",
@@ -867,7 +867,7 @@
         "pink": {
           "bg": {
           "type": "color",
-          "value": "{semantics.color.palette.brand2.50}"
+          "value": "{semantics.color.palette.brand2.55}"
           },
           "icon": {
             "type": "color",
@@ -877,7 +877,7 @@
         "rose": {
           "bg": {
           "type": "color",
-          "value": "{semantics.color.palette.rose.55}"
+          "value": "{semantics.color.palette.rose.60}"
           },
           "icon": {
             "type": "color",
