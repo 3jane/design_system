@@ -754,6 +754,16 @@
             "value": "{semantics.color.palette.neutral.97}"
           }
         },
+        "neutralAlt": {
+          "bg": {
+          "type": "color",
+          "value": "{semantics.color.palette.neutral.97}"
+          },
+          "icon": {
+            "type": "color",
+            "value": "{semantics.color.palette.neutral.5}"
+          }
+        },
         "red": {
           "bg": {
           "type": "color",
