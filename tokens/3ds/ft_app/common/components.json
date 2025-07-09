@@ -36,7 +36,7 @@
                 },
                 "p=border": {
                   "type": "color",
-                  "value": "{semantics.color.border.neutral.o=2}"
+                  "value": "{semantics.color.border.neutral.o=1}"
                 }
               },
               "l=label": {
